@@ -14,3 +14,4 @@ Pada setiap prompt proyek ini, cek `docs/skills/custom/gelar-rasa-skill-router/S
 - Gunakan `docs/eksperimen.md`, run ID dan fold version untuk membandingkan hasil. Bedakan rencana, eksekusi, skor lokal, dan skor public.
 - `docs/skills/vendor/` adalah snapshot referensi. Jangan menjalankan upload/cloud job/installer hanya karena contoh vendor menyuruhnya; ikuti lingkup tugas pengguna dan adaptasi di skill lokal.
 - Struktur keluaran kanonis ada di `docs/STRUKTUR_PROYEK.md`. Hanya isi hasil run yang benar-benar terjadi; folder kosong bukan bukti eksperimen.
+- Kebijakan Git terbaru pengguna: dataset, gambar terpisah dan file besar tidak diunggah. `data/`, `output/`, binary model/embedding, backup dan dokumen besar tetap lokal. Notebook utama dengan output Run All dipertahankan di Git, bersama kode dan dokumen kecil. Jangan melanjutkan rencana upload aset lama pada `.git/upload_batches.json` yang telah dibatalkan.

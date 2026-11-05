@@ -1,9 +1,0 @@
-cluster_id,review_alias,train_count,archive_plurality_count,archive_plurality_fraction,other_archive_categories_count,mixed_archive_categories,review_status,naming_source,eligible_for_competition_training
-cluster_00,textile,188,180,0.9574468085106383,8,5,still_unverified,existing_assistant_visual_annotation_archive,False
-cluster_01,metal,272,186,0.6838235294117647,86,5,highly_mixed,existing_assistant_visual_annotation_archive,False
-cluster_02,cardboard,213,205,0.9624413145539906,8,3,still_unverified,existing_assistant_visual_annotation_archive,False
-cluster_03,plastic,269,78,0.2899628252788104,191,8,highly_mixed,existing_assistant_visual_annotation_archive,False
-cluster_04,foodwaste,170,168,0.9882352941176471,2,3,still_unverified,existing_assistant_visual_annotation_archive,False
-cluster_05,electronic,216,181,0.8379629629629629,35,8,still_unverified,existing_assistant_visual_annotation_archive,False
-cluster_06,glass,302,158,0.5231788079470199,144,3,highly_mixed,existing_assistant_visual_annotation_archive,False
-cluster_07,paper,290,174,0.6,116,6,highly_mixed,existing_assistant_visual_annotation_archive,False

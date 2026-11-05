@@ -1,5 +1,0 @@
-key_a,key_b,split_pair,kind
-train:0848,train:1717,train-train,pixel_sha256
-train:1046,test:017,test-train,pixel_sha256
-train:1135,test:201,test-train,pixel_sha256
-train:1821,test:042,test-train,pixel_sha256

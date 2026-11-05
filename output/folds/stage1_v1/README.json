@@ -1,7 +1,0 @@
-{
-  "status": "draft_for_review_not_independent_semantic_validation",
-  "grouping": "conservative candidate pHash components, may overgroup; review chaining",
-  "stratification": "anonymous cluster IDs only; semantic balance unknown",
-  "limitation": "Clusters fit on all unique train. Predicting these targets is agreement, not ground-truth accuracy.",
-  "next_step": "For honest classifier evaluation, fit learned transforms/targets inside training folds or use an authorized independent evaluation source."
-}

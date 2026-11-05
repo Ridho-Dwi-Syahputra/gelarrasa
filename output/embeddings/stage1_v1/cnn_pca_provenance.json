@@ -1,7 +1,0 @@
-{
-  "components": 64,
-  "train_unique_count": 1919,
-  "explained_variance_ratio_sum": 0.5834941864013672,
-  "test_used_in_fit": false,
-  "unit_normalization_after_pca": true
-}

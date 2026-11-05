@@ -8,6 +8,8 @@ Notebook mengerjakan tahap 1 dan tahap 2 dalam urutan sel yang sama, termasuk ek
 
 Di VS Code, buka folder `GELAR-RASA`, buka notebook, lalu pilih kernel **Python (GELAR-RASA .venv)** atau interpreter `.venv/Scripts/python.exe`. Output dari eksekusi terakhir tersimpan di notebook; tidak perlu Run All untuk sekadar membaca grafik dan tabel.
 
+Pemeriksaan langsung file pada disk: 35 dari 35 sel kode memiliki urutan eksekusi 1–35, terdapat 176 output dan tidak ada output error. Jika tab yang sudah terbuka tampak kosong, tutup lalu buka kembali file dari disk. Pratinjau HTML lokal tersedia pada `reports/reproducibility/notebook_preview/01_EDA_Preprocessing_Clustering.html`; HTML ini menampilkan output tersimpan dan tidak menjalankan ulang training.
+
 Untuk JupyterLab, jalankan dari PowerShell pada root proyek:
 
 ```powershell
@@ -30,12 +32,13 @@ Pemeriksaan dari dalam kernel: `notebook_v2_in_kernel_checks.json` pada folder y
 
 ## Menyiapkan ulang setelah clone
 
-Data, gambar dan artefak disimpan dengan Git biasa. Kuota Git LFS akun tidak tersedia ketika push, sehingga PDF webinar 897 MiB disimpan sebagai 20 potongan yang dapat dipulihkan tanpa perubahan byte. Skrip pemulihan memverifikasi SHA-256 setiap potongan dan dokumen lengkap. File PDF asli di komputer kerja tetap utuh.
+Sesuai permintaan pengguna terbaru, repo hanya memuat kode, notebook beroutput dan dokumen kecil. Dataset, gambar terpisah, embedding/checkpoint, backup, video serta PDF webinar besar tidak diunggah. Semua file lokal tetap ada. Grafik yang tertanam pada output notebook tetap dipertahankan agar hasil analisis dapat dibaca.
+
+Setelah clone, letakkan dataset resmi pada struktur `data/Dataset DSC GelarRasa 2026/{train,test}/` dan sample pada `data/SampleSubmission_DSC.csv` seperti struktur lokal. Folder hasil `output/`, `data/processed/` serta grafik akan dibentuk ketika notebook dijalankan. Dataset tidak diunduh otomatis dari repo.
 
 ```powershell
 git clone https://github.com/Ridho-Dwi-Syahputra/gelarrasa.git
 Set-Location gelarrasa
-py -3.10 eksperimen/skrip/restore_large_files.py
 py -3.10 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --upgrade pip
 .\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
@@ -43,7 +46,7 @@ py -3.10 -m venv .venv
 .\start_notebook.ps1
 ```
 
-`requirements.txt` menetapkan dependensi utama. `requirements-lock.txt` mencatat versi yang benar-benar terpasang saat Run All. Paket CPU PyTorch diambil dari indeks wheel CPU resmi. Data kompetisi disimpan dalam repo privat tim sesuai permintaan pengguna; tidak ada unduhan dataset eksternal dalam notebook.
+`requirements.txt` menetapkan dependensi utama. `requirements-lock.txt` mencatat versi yang benar-benar terpasang saat Run All. Paket CPU PyTorch diambil dari indeks wheel CPU resmi. Data kompetisi berada lokal dan tidak ada unduhan dataset eksternal dalam notebook.
 
 ## Keluaran
 

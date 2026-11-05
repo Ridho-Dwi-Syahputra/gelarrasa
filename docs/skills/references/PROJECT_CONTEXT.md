@@ -1,5 +1,7 @@
 # Konteks dan kontrak data
 
+**Kebijakan repo terbaru:** kode, notebook beroutput, dan dokumen kecil diunggah; dataset, gambar terpisah, embedding/checkpoint, backup, serta dokumen besar tetap lokal. Notebook utama diperiksa langsung: 35/35 sel dieksekusi, 176 output, nol error. Pratinjau HTML hasil tersimpan tersedia lokal pada `reports/reproducibility/notebook_preview/01_EDA_Preprocessing_Clustering.html`.
+
 **Tahap 2, 5 November 2026:** audit 590 perbedaan train/171 test selesai secara programatis; sampel teknis diperiksa visual. DINOv2 image-only diekstrak untuk2.400 gambar, delapan konfigurasi representasi dan enam head konsistensi tetangga diuji tanpa label. Head terpilih menurut loss validation tanpa label direfit pada train unik. Seluruh1.920 train dan480test memiliki delapan folder anonim baru di `data/processed/stage2_neighbor_v1/`. Manifest/hash lulus. Konsistensi perubahan resolusi253/256 versus baseline241/256 adalah kestabilan, bukan Accuracy. Mapping kategori aktif tetap belum tersedia. Laporan rinci: `reports/errors/stage2_20261105/ANALISIS_DAN_PENANGANAN.md`; arsip tidak dipakai fitting, selection, atau semantic mapping.
 
 **Pembaruan 5 November 2026:** [aturan dan Q&A yang kini tersedia](RULES_AND_RUBRIC.md) menggantikan status lama. Label visual asisten serta `submission_99` menjadi arsip yang dikecualikan dari jalur kompetisi. Label aktif yang berasal dari metode peserta belum tersedia. Penamaan cluster oleh tim boleh; pelabelan/koreksi gambar manual satu per satu tidak boleh.

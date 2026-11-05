@@ -1,4 +1,36 @@
-# Private team repository includes data, documentation and analysis artifacts.
+# Private team repository contains source, executed notebooks and small documents.
+# Dataset and generated binary assets stay local, per user request.
+/data/
+/output/
+/reports/reproducibility/backups/
+/reports/reproducibility/notebook_preview/
+/docs/materi/*.parts/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.heic
+*.ico
+*.svg
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.npz
+*.npy
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.safetensors
+*.mp4
+*.wav
+*.part[0-9]*
 # Recreate the local environment from requirements-lock.txt.
 .venv/
 __pycache__/
@@ -20,5 +52,8 @@ kaggle.json
 *.key
 Thumbs.db
 Desktop.ini
-# Reconstruct this oversized document from its tracked .parts directory.
+# Large original documents remain local.
 /docs/materi/PPT Webinar Gelar Rasa 2026.pdf
+/docs/materi/Materi 1 (Intelligence in Action_ Machine Learning for Sustainable Solution).pdf
+/docs/rules/GUIDEBOOK TATA TERTIB PESERTA GELAR RASA 2026.pdf
+/docs/rules/HANDBOOK PRELIMINARY ROUND DSC GELAR RASA 2026.pdf

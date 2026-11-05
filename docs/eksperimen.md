@@ -1,5 +1,12 @@
 # Ledger GELAR RASA
 
+## Pembatasan isi repo dan pemeriksaan tampilan notebook ? 5 November 2026
+
+- Pengguna mengubah lingkup push: dataset, gambar terpisah dan file besar tidak perlu diunggah. Upload 15 batch aset tersisa dibatalkan; commit aset yang belum terpublikasi hanya dipertahankan pada ref backup lokal. File lokal tidak dihapus.
+- Repo melacak kode, notebook beroutput, dan dokumen kecil. Seluruh `data/`, `output/`, backup, potongan PDF dan ekstensi gambar/model/arsip dikecualikan. Batas pemeriksaan file lain 5 MiB; notebook utama dikecualikan dari batas ini agar 176 output tersimpan tetap tersedia.
+- Pemeriksaan langsung notebook pada disk: 35/35 sel memiliki execution_count 1?35, 176 output, 14 sel memuat gambar, nol error, dan tidak ada flag yang menyembunyikan output. Tidak dilakukan training ulang karena hasil Run All lengkap sudah tersimpan.
+- Pratinjau HTML lokal dibuat dari output tersebut melalui `eksperimen/skrip/preview_executed_notebook.py`, tanpa mengeksekusi model. Lokasi: `reports/reproducibility/notebook_preview/01_EDA_Preprocessing_Clustering.html`.
+
 ## Notebook gabungan dan lingkungan lokal ? 5 November 2026
 
 - Skill: reproducible-image-submission dan report-package-audit; investigate-first untuk kegagalan proses Git.

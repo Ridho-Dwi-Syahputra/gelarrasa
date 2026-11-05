@@ -1,0 +1,17 @@
+2026-11-05 18:27:02 nopca seed11 own_silhouette=0.071450 original_silhouette=0.071450 retention=1.0000
+2026-11-05 18:27:05 nopca seed29 own_silhouette=0.071609 original_silhouette=0.071609 retention=1.0000
+2026-11-05 18:27:08 nopca seed47 own_silhouette=0.071275 original_silhouette=0.071275 retention=1.0000
+2026-11-05 18:27:10 nopca complete: seed ARI min=0.941811, elapsed=11.0s
+2026-11-05 18:27:11 pca64 seed11 own_silhouette=0.136376 original_silhouette=0.071423 retention=0.7297
+2026-11-05 18:27:12 pca64 seed29 own_silhouette=0.136251 original_silhouette=0.071360 retention=0.7297
+2026-11-05 18:27:12 pca64 seed47 own_silhouette=0.135450 original_silhouette=0.070181 retention=0.7297
+2026-11-05 18:27:12 pca64 complete: seed ARI min=0.877619, elapsed=1.8s
+2026-11-05 18:27:13 pca128 seed11 own_silhouette=0.110228 original_silhouette=0.071309 retention=0.8079
+2026-11-05 18:27:14 pca128 seed29 own_silhouette=0.110759 original_silhouette=0.071078 retention=0.8079
+2026-11-05 18:27:14 pca128 seed47 own_silhouette=0.110344 original_silhouette=0.070855 retention=0.8079
+2026-11-05 18:27:15 pca128 complete: seed ARI min=0.944409, elapsed=2.6s
+2026-11-05 18:27:16 pca256 seed11 own_silhouette=0.094133 original_silhouette=0.070901 retention=0.8611
+2026-11-05 18:27:17 pca256 seed29 own_silhouette=0.093976 original_silhouette=0.070926 retention=0.8611
+2026-11-05 18:27:17 pca256 seed47 own_silhouette=0.093640 original_silhouette=0.070754 retention=0.8611
+2026-11-05 18:27:18 pca256 complete: seed ARI min=0.959069, elapsed=3.6s
+2026-11-05 18:27:18 COMPLETE in 20.5s; no semantic accuracy measured
