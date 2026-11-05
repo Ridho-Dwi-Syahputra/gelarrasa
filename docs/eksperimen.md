@@ -1,5 +1,26 @@
 # Ledger GELAR RASA
 
+## Audit usulan self-training dan kasus 0046 ? 6 November 2026
+
+- Pengguna mengusulkan referensi arsip LLM dan iterasi pembersihan/training. Pengguna kemudian memperjelas penggunaan sebagai pembanding. Dibuat antrean audit terpisah tanpa mengubah mask training; belum melatih student baru.
+- Kasus 0046 diperiksa: alias lama electronic memiliki margin 0,037; head terbaru sudah pada kelompok bertema paper sebelum permintaan ini. Tidak ada override per gambar.
+- Perbandingan post-hoc 1.920 train: dari 1.350 anggota kelompok nama tunggal, 1.134 sejalan arsip dan 216 berbeda; 570 anggota kelompok campuran tidak dinilai sebagai label tunggal. Ini perbandingan terhadap arsip asisten, bukan Accuracy resmi. Assignment sebelum/sesudah identik.
+- Audit seleksi independen dari arsip: 1.233 seed kandidat, 686 cadangan ambigu, satu duplikat disimpan. Confidence/margin/tetangga/kesepakatan model dihitung pada train, tanpa label arsip atau nama tampilan. Tidak menghapus data atau mempromosikan label kategori.
+- Tampilan hasil terbaru bernama material dibuat pada `data/processed/stage3_named_display_review/`, memakai tautan ke salinan model tahap 2 tanpa memindahkan anggota. 0046 tersedia pada folder paper. Antrean referensi berada di `data/processed/stage4_reference_audit_only/`; hash seed, assignment dan kontrak tetap sama.
+- Laporan: `reports/errors/stage4_seed_audit_20261106/ANALISIS_SELF_TRAINING.md`; manifest lokal: `data/processed/stage4_seed_audit_v1/`. Teacher sebelumnya refit seluruh train, sehingga audit ini bukan evaluasi holdout independen.
+
+## EDA visual v3 ? 6 November 2026
+
+- Permintaan: preview train/test, distribusi label tampilan, crop gambar berdekatan, contoh kasus teknis, kemiripan piksel dan ukuran. Skill: image-eda-duplicates, image-preprocessing-audit, grouped-image-validation. Seluruh pekerjaan berjalan di latar belakang.
+- Pengguna meminta nama dari pengamatan asisten. Sebanyak 128 contoh hasil model ditinjau; interpretasi dicatat eksplisit untuk EDA pribadi saja, bukan label training/validasi/submission. Dua kelompok campuran tetap ditulis campuran; label aktif pada kontrak tidak dipromosikan.
+- Notebook utama dibangun menjadi v3 dengan sembilan sel kode modular. Baseline/head v2 dipakai ulang setelah verifikasi fitur/checkpoint/sumber; tidak mengklaim refit model pada tugas ini. Snapshot v2 dipertahankan lokal.
+- Semua 2.400 gambar dianalisis regionnya. Dihasilkan 2.171 crop train dan 627 crop test untuk preview; 174 crop dari 68 train memenuhi saringan konservatif. Semua kandidat belum dipromosikan ke training dan mewarisi kelompok/fold induk.
+- Probe crop: 13/96 train dan 6/48 test berubah kelompok dari gambar penuh; 93/96 train dan 48/48 test stabil terhadap flip. Ini sensitivitas view, bukan Accuracy/koreksi benar.
+- Pencarian RGB MSE semua 480?1.920 pasangan dan SSIM shortlist menemukan tiga test identik piksel, 29 kandidat SSIM>=0,99, 19 kandidat setelah saringan MSE/aspect ratio. Ukuran 439 test muncul pada train; ukuran sama sendiri tidak membuktikan duplikat/kelas.
+- Preview connected components dan watershed dipisahkan, caption dibungkus agar tidak bertumpuk, dan skor MSE diberi alignment yang sama dengan tampilan heatmap. Galeri 15 halaman mencakup seluruh 480 test.
+- Laporan: `reports/eda/stage3_visual_20261106/ANALISIS_VISUAL.md`. Bukti terbaru: `notebook_v3_execution.json` dan `notebook_v3_delivery_validation.json` pada `reports/reproducibility/`.
+- Dataset/gambar terpisah/crop/model/file besar tetap lokal. Notebook berpreview tertanam, kode, konfigurasi dan dokumen kecil saja yang dikirim ke repo.
+
 ## Run All ulang di latar belakang ? selesai 5 November 2026, 23.58 WIB
 
 - Pengguna meminta tidak mengambil fokus layar. Kontrol UI dihentikan, VS Code dikembalikan ke latar belakang dan pengaturan aksesibilitas sementara dipulihkan persis ke byte awal. Preferensi ini disimpan pada `AGENTS.md`.

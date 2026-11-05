@@ -25,6 +25,10 @@ def sha(path):
 
 def main():
     notebook_path = ROOT / 'notebook/01_EDA_Preprocessing_Clustering.ipynb'
+    current = nbformat.read(notebook_path, as_version=4)
+    if current.metadata.get('gelar_pipeline_version') == 'eda_visual_v3':
+        from verify_visual_notebook import main as verify_current
+        return verify_current()
     run = json.loads((REPORT / 'notebook_v2_execution.json').read_text())
     kernel = json.loads((REPORT / 'notebook_v2_in_kernel_checks.json').read_text())
     assert run['status'] == 'passed' and run['errors'] == []

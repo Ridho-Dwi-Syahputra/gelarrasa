@@ -1,0 +1,8 @@
+indikator,test,train
+flag_low_sharpness,26,96
+flag_exposure,11,40
+flag_low_contrast,21,96
+flag_busy_texture,21,96
+flag_novel_appearance,27,96
+flag_model_ambiguous,179,634
+possible_multiple_regions,246,890

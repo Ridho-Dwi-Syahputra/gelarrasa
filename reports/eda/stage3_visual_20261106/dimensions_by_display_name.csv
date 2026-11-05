@@ -1,0 +1,297 @@
+split,ukuran,display_label,jumlah
+test,1000×750,textile,1
+test,1024×683,plastic / textile / paper (campuran),1
+test,129×389,textile,1
+test,1600×1167,textile,1
+test,1600×760,plastic / textile / paper (campuran),1
+test,169×299,textile,1
+test,178×284,plastic / glass (campuran),1
+test,183×275,plastic / textile / paper (campuran),1
+test,194×259,plastic / glass (campuran),1
+test,194×259,textile,3
+test,201×251,plastic / glass (campuran),1
+test,212×238,textile,1
+test,218×231,textile,2
+test,222×227,textile,1
+test,224×224,metal,1
+test,224×224,textile,1
+test,225×225,metal,1
+test,225×225,plastic / glass (campuran),2
+test,225×225,plastic / textile / paper (campuran),1
+test,225×225,textile,8
+test,230×219,plastic / textile / paper (campuran),1
+test,239×211,textile,1
+test,256×197,metal,1
+test,259×194,metal,1
+test,259×194,plastic / glass (campuran),1
+test,259×194,plastic / textile / paper (campuran),1
+test,268×188,metal,1
+test,272×186,plastic / textile / paper (campuran),1
+test,275×183,plastic / textile / paper (campuran),1
+test,280×180,textile,1
+test,285×177,plastic / glass (campuran),1
+test,300×168,plastic / textile / paper (campuran),1
+test,340×270,textile,3
+test,367×343,plastic / textile / paper (campuran),1
+test,370×493,textile,1
+test,400×500,textile,1
+test,416×416,cardboard,59
+test,416×416,metal,57
+test,416×416,paper,29
+test,416×416,plastic / glass (campuran),50
+test,416×416,plastic / textile / paper (campuran),45
+test,500×374,textile,1
+test,512×384,metal,1
+test,512×384,plastic / glass (campuran),8
+test,600×900,plastic / textile / paper (campuran),1
+test,601×900,plastic / textile / paper (campuran),1
+test,640×480,electronic,7
+test,640×480,plastic / glass (campuran),14
+test,640×640,cardboard,1
+test,640×640,electronic,64
+test,640×640,foodwaste,59
+test,640×640,metal,2
+test,640×640,plastic / glass (campuran),6
+test,640×640,plastic / textile / paper (campuran),4
+test,672×900,plastic / textile / paper (campuran),1
+test,674×900,plastic / textile / paper (campuran),1
+test,737×737,textile,1
+test,800×505,plastic / textile / paper (campuran),1
+test,800×530,plastic / textile / paper (campuran),1
+test,800×533,cardboard,1
+test,800×533,plastic / textile / paper (campuran),2
+test,800×533,textile,2
+test,800×534,plastic / textile / paper (campuran),3
+test,800×534,textile,1
+test,800×549,plastic / textile / paper (campuran),1
+test,800×556,plastic / textile / paper (campuran),1
+test,800×571,plastic / textile / paper (campuran),1
+test,800×600,textile,1
+test,800×601,plastic / textile / paper (campuran),1
+test,800×610,plastic / textile / paper (campuran),1
+test,800×626,plastic / textile / paper (campuran),1
+test,800×800,textile,1
+train,100×100,plastic / textile / paper (campuran),6
+train,1156×651,plastic / glass (campuran),1
+train,1200×1196,plastic / textile / paper (campuran),1
+train,1200×1220,cardboard,1
+train,1200×1386,foodwaste,1
+train,1200×1600,paper,1
+train,1280×1280,electronic,1
+train,1280×1280,foodwaste,4
+train,1280×1280,paper,3
+train,1280×1280,plastic / glass (campuran),1
+train,1280×1280,plastic / textile / paper (campuran),2
+train,1300×1300,foodwaste,1
+train,1300×866,foodwaste,1
+train,1326×1336,paper,1
+train,1431×1342,plastic / glass (campuran),1
+train,1599×1599,electronic,1
+train,1599×1599,foodwaste,7
+train,1599×1599,metal,2
+train,1599×1599,paper,29
+train,1599×1599,plastic / glass (campuran),10
+train,1599×1599,plastic / textile / paper (campuran),8
+train,169×298,electronic,1
+train,172×294,plastic / glass (campuran),1
+train,183×275,electronic,2
+train,183×275,plastic / glass (campuran),2
+train,183×275,plastic / textile / paper (campuran),1
+train,183×275,textile,2
+train,183×276,plastic / glass (campuran),2
+train,189×266,plastic / glass (campuran),1
+train,190×265,plastic / glass (campuran),1
+train,1926×1960,paper,1
+train,194×259,plastic / textile / paper (campuran),1
+train,195×258,plastic / glass (campuran),1
+train,195×259,plastic / glass (campuran),1
+train,196×257,plastic / glass (campuran),1
+train,197×256,electronic,2
+train,200×200,electronic,1
+train,200×253,plastic / textile / paper (campuran),1
+train,201×251,plastic / textile / paper (campuran),1
+train,2048×1228,plastic / textile / paper (campuran),1
+train,204×194,electronic,1
+train,207×243,cardboard,1
+train,215×234,plastic / glass (campuran),1
+train,220×220,plastic / textile / paper (campuran),1
+train,223×225,paper,1
+train,224×225,plastic / glass (campuran),1
+train,225×225,electronic,10
+train,225×225,metal,6
+train,225×225,plastic / glass (campuran),11
+train,225×225,plastic / textile / paper (campuran),7
+train,225×225,textile,5
+train,2268×4032,paper,1
+train,227×222,electronic,1
+train,2296×3196,plastic / glass (campuran),1
+train,237×213,electronic,1
+train,239×211,cardboard,1
+train,240×210,plastic / textile / paper (campuran),1
+train,241×209,plastic / glass (campuran),1
+train,242×208,plastic / glass (campuran),1
+train,246×205,cardboard,1
+train,249×306,paper,1
+train,250×178,metal,1
+train,253×199,plastic / textile / paper (campuran),1
+train,257×196,metal,1
+train,259×194,electronic,2
+train,259×194,metal,1
+train,259×194,plastic / glass (campuran),4
+train,259×195,electronic,1
+train,2605×2604,plastic / glass (campuran),1
+train,260×194,metal,1
+train,262×192,electronic,1
+train,262×192,paper,1
+train,262×192,plastic / textile / paper (campuran),1
+train,262×193,electronic,1
+train,263×192,electronic,1
+train,263×192,plastic / textile / paper (campuran),1
+train,264×191,metal,1
+train,268×188,foodwaste,1
+train,268×188,metal,1
+train,268×188,plastic / glass (campuran),1
+train,268×188,plastic / textile / paper (campuran),1
+train,274×184,plastic / glass (campuran),1
+train,275×183,electronic,5
+train,275×183,foodwaste,7
+train,275×183,metal,3
+train,275×183,plastic / glass (campuran),6
+train,275×183,plastic / textile / paper (campuran),9
+train,276×182,plastic / glass (campuran),1
+train,277×182,metal,1
+train,278×182,plastic / textile / paper (campuran),1
+train,282×179,plastic / textile / paper (campuran),1
+train,283×178,metal,1
+train,286×176,plastic / textile / paper (campuran),1
+train,287×176,electronic,1
+train,289×289,plastic / glass (campuran),1
+train,290×174,plastic / glass (campuran),1
+train,297×169,metal,1
+train,299×168,plastic / textile / paper (campuran),3
+train,299×169,foodwaste,1
+train,300×168,electronic,1
+train,300×168,plastic / textile / paper (campuran),2
+train,303×166,electronic,1
+train,304×166,plastic / textile / paper (campuran),1
+train,308×164,plastic / glass (campuran),1
+train,318×159,electronic,1
+train,318×159,metal,1
+train,320×320,foodwaste,1
+train,320×320,metal,43
+train,320×320,paper,10
+train,320×320,plastic / textile / paper (campuran),2
+train,326×154,plastic / textile / paper (campuran),1
+train,330×152,plastic / glass (campuran),1
+train,345×146,metal,1
+train,363×382,foodwaste,1
+train,367×349,foodwaste,1
+train,379×133,plastic / glass (campuran),1
+train,400×400,textile,4
+train,400×426,textile,1
+train,400×444,textile,1
+train,400×447,textile,3
+train,400×457,textile,1
+train,400×460,textile,1
+train,400×466,textile,1
+train,400×469,textile,1
+train,400×483,textile,1
+train,400×487,textile,1
+train,400×496,textile,1
+train,400×497,textile,1
+train,400×501,textile,1
+train,400×532,textile,4
+train,400×533,textile,74
+train,400×534,textile,36
+train,400×589,textile,1
+train,400×617,textile,1
+train,400×663,textile,1
+train,400×666,textile,1
+train,400×677,textile,1
+train,400×711,textile,10
+train,400×712,textile,1
+train,400×714,textile,1
+train,403×400,textile,1
+train,407×400,textile,1
+train,416×416,cardboard,237
+train,416×416,electronic,19
+train,416×416,foodwaste,3
+train,416×416,metal,9
+train,416×416,paper,38
+train,416×416,plastic / glass (campuran),190
+train,416×416,plastic / textile / paper (campuran),83
+train,422×400,textile,1
+train,433×400,textile,1
+train,435×400,textile,1
+train,470×319,plastic / glass (campuran),1
+train,479×412,paper,1
+train,484×484,metal,1
+train,484×484,paper,1
+train,484×484,plastic / textile / paper (campuran),1
+train,485×475,plastic / glass (campuran),1
+train,500×500,plastic / textile / paper (campuran),1
+train,507×352,plastic / textile / paper (campuran),1
+train,511×566,plastic / textile / paper (campuran),1
+train,512×384,electronic,1
+train,512×384,metal,7
+train,512×384,plastic / glass (campuran),22
+train,512×384,plastic / textile / paper (campuran),5
+train,532×400,textile,1
+train,533×400,textile,11
+train,534×400,textile,2
+train,560×337,plastic / glass (campuran),1
+train,564×408,plastic / glass (campuran),1
+train,577×687,plastic / textile / paper (campuran),1
+train,590×688,plastic / glass (campuran),1
+train,600×400,textile,1
+train,600×900,plastic / textile / paper (campuran),1
+train,608×400,textile,1
+train,608×720,plastic / glass (campuran),1
+train,629×400,textile,1
+train,640×480,electronic,5
+train,640×480,metal,36
+train,640×480,paper,8
+train,640×480,plastic / glass (campuran),18
+train,640×480,plastic / textile / paper (campuran),7
+train,640×640,cardboard,9
+train,640×640,electronic,180
+train,640×640,foodwaste,194
+train,640×640,metal,123
+train,640×640,paper,96
+train,640×640,plastic / glass (campuran),24
+train,640×640,plastic / textile / paper (campuran),74
+train,668×556,plastic / textile / paper (campuran),1
+train,674×900,plastic / textile / paper (campuran),1
+train,711×400,textile,3
+train,720×1067,plastic / glass (campuran),1
+train,720×755,paper,1
+train,720×801,paper,1
+train,721×776,foodwaste,1
+train,721×891,foodwaste,1
+train,748×720,paper,1
+train,770×440,plastic / glass (campuran),1
+train,779×883,plastic / textile / paper (campuran),1
+train,800×369,plastic / textile / paper (campuran),1
+train,800×370,paper,1
+train,800×436,cardboard,1
+train,800×450,paper,1
+train,800×533,paper,1
+train,800×533,plastic / textile / paper (campuran),3
+train,800×533,textile,1
+train,800×546,plastic / textile / paper (campuran),1
+train,800×600,cardboard,1
+train,800×600,foodwaste,2
+train,800×600,plastic / glass (campuran),6
+train,800×600,plastic / textile / paper (campuran),1
+train,821×583,paper,1
+train,837×856,plastic / glass (campuran),1
+train,840×859,paper,1
+train,842×786,paper,1
+train,899×941,paper,1
+train,899×988,paper,1
+train,899×995,paper,1
+train,900×1001,plastic / glass (campuran),1
+train,900×1076,paper,1
+train,900×1247,plastic / glass (campuran),1
+train,900×926,paper,1
+train,914×914,plastic / glass (campuran),1

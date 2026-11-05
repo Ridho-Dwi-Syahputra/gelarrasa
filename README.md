@@ -1,31 +1,44 @@
-# GELAR RASA 2026 — Klasifikasi citra limbah
+# GELAR RASA 2026 ? analisis citra limbah
 
-Klasifikasi satu gambar ke delapan kategori: glass, paper, electronic, metal, plastic, cardboard, textile, foodwaste. Data resmi lokal terdiri atas 1.920 gambar train dan 480 test; metrik kompetisi **Accuracy**.
+Dataset resmi lokal: 1.920 train tanpa label kategori resmi dan 480 test. Delapan kategori: glass, paper, electronic, metal, plastic, cardboard, textile, foodwaste. Metrik kompetisi: Accuracy.
 
-Raw train tidak memiliki label resmi. Label visual asisten yang pernah dibuat di `train/label/` dan `docs/train_label_review/` kini **arsip yang dikecualikan dari jalur kompetisi**, setelah Q&A resmi melarang label/koreksi per gambar manual. Label aktif hasil metode peserta belum tersedia. Raw tetap dipertahankan.
+## Notebook dan hasil terbaru
 
-## Mulai di sini
+[Notebook utama](notebook/01_EDA_Preprocessing_Clustering.ipynb) kini versi **EDA visual v3**: preview train/test, nama material sementara, distribusi kelompok, kasus kualitas/ambigu, kandidat crop, kemiripan piksel dan dimensi native. Sembilan sel kode memanggil modul yang dapat ditelusuri; head baseline yang sudah dilatih dipakai ulang setelah verifikasi hash. Audit visual dijalankan baru, tanpa mengklaim fitting ulang baseline.
 
-**Kebijakan repo terbaru:** dataset, gambar terpisah, embedding/checkpoint, backup, serta file besar tetap lokal. Repo berisi kode, notebook dengan output tersimpan dan dokumen kecil. Output grafik di dalam notebook dipertahankan. Untuk menjalankan ulang dari clone, siapkan dataset resmi secara lokal mengikuti [petunjuk notebook](docs/MENJALANKAN_NOTEBOOK.md).
+- [Analisis dan keputusan preprocessing](reports/eda/stage3_visual_20261106/ANALISIS_VISUAL.md).
+- [Bukti Run All v3](reports/reproducibility/notebook_v3_execution.json) dan [pemeriksaan integritas](reports/reproducibility/notebook_v3_delivery_validation.json).
+- [Seluruh 480 test dan tetangga train ? galeri lokal](reports/eda/stage3_visual_20261106/galleries/index.html).
+- [Panduan menjalankan notebook di latar belakang](docs/MENJALANKAN_NOTEBOOK.md).
 
-Notebook utama kini memuat tahap 1 dan tahap 2 dalam **66 sel, 35 sel kode**. Run All dari `.venv` lulus **35/35, 0 error**, 1.264,14 detik pada CPU. Fitur dan fitting dihitung ulang. [Bukti eksekusi dan integritas](reports/reproducibility/notebook_v2_delivery_validation.json) memverifikasi enam eksekusi modul tahap 2 serta 2.400 hash raw terhadap backup sebelum run. [Petunjuk membuka notebook](docs/MENJALANKAN_NOTEBOOK.md) menjelaskan kernel **Python (GELAR-RASA .venv)** dan penempatan dataset lokal setelah clone.
+Temuan: tiga test identik piksel dengan train; 29 kandidat SSIM >=0,99; 439 test memiliki ukuran native yang juga tersedia pada train. Crop menghasilkan 2.171 kandidat train dan 627 preview test, dengan fold induk dipertahankan. Sebagian crop mengubah hasil model dan watershed dapat membelah satu benda; kandidat belum dipromosikan menjadi label/training.
 
-Pembaruan tahap 2, 5 November: [analisis perbedaan dan eksperimen baru](reports/errors/stage2_20261105/ANALISIS_DAN_PENANGANAN.md), [delapan folder train/test baru](data/processed/stage2_neighbor_v1/README.md), dan [galeri seluruh hasil head clustering](reports/errors/stage2_20261105/galleries/neighbor_refinement_clusters.html) tersedia. DINOv2 image-only, delapan konfigurasi representasi, enam kandidat head konsistensi tetangga, serta uji view sudah dijalankan. Head dilatih pada train tanpa target kategori; nama cluster tetap anonim. Kestabilan perubahan resolusi pada 256 train naik dari 241/256 menjadi 253/256; **ini bukan Accuracy kategori**. [Validasi awal tahap 2](reports/errors/stage2_20261105/final_validation.json) adalah bukti run sebelumnya; validasi notebook gabungan terbaru tersedia pada tautan bukti eksekusi di atas. Belum membuat submission baru atau mengganti mapping kategori aktif.
+**Asal nama:** interpretasi visual sementara oleh asisten, diminta pengguna untuk EDA pribadi. Dua kelompok bercampur plastic/glass dan plastic/textile/paper. Nama bukan target training/validasi/submission kompetisi dan tidak membuktikan Accuracy. Asal dan batas penggunaan direkam di [konfigurasi tampilan](configs/display_label_mapping.json). Kontrak label aktif tetap belum dipromosikan. Arsip anotasi lama tidak dibaca dalam jalur audit ini.
 
-Tahap 1 kini memiliki [notebook EDA/preprocessing/clustering](notebook/01_EDA_Preprocessing_Clustering.ipynb), [analisis hasil](reports/eda/stage1_20261105/ANALISIS_TAHAP_1.md), dan [galeri seluruh citra serta tetangga setiap test](reports/eda/stage1_20261105/galleries/index.html). Gambar turunan berada di [data/processed/stage1_v1](data/processed/stage1_v1/README.md): native RGB, letterbox, dan delapan folder cluster untuk tiap split. Cluster masih anonim; mapping kategori oleh tim belum tersedia. Status Run All gabungan terbaru tersimpan di `reports/reproducibility/notebook_v2_execution.json`; berkas `notebook_execution.json` tahap 1 merupakan riwayat run baseline 25 sel.
+## Audit perbandingan dan persiapan self-training
 
-[Folder peninjauan bernama kategori](data/processed/stage1_named_review/README.md) menyediakan struktur `train/<kategori>/<cluster_id>` dan `test/<kategori>/<cluster_id>`. Nama adalah alias dari komposisi arsip lama, bukan label material terverifikasi. Keanggotaan cluster dibekukan; folder peninjauan ini dikecualikan dari training/submission aktif.
+Atas klarifikasi pengguna, arsip label dipakai sebagai pembanding post-hoc saja. [Audit](reports/errors/stage4_seed_audit_20261106/ANALISIS_SELF_TRAINING.md) memisahkan 216 perbedaan dari 570 kelompok campuran yang belum bisa dinilai tunggal. Perbandingan bukan Accuracy resmi dan tidak mengubah pilihan seed.
 
-1. [Pustaka skill — 22 khusus proyek + 17 paket snapshot eksternal, 240 file vendor](docs/skills/README.md) dan [pemilih skill per prompt](docs/skills/custom/gelar-rasa-skill-router/SKILL.md).
-2. [Aturan/Q&A dan rubrik aktif](docs/skills/references/RULES_AND_RUBRIC.md), [rancangan laporan](docs/skills/references/REPORT_BLUEPRINT.md), serta [rencana EDA/preprocessing](docs/skills/references/EDA_PREPROCESS_PLAN.md).
-3. [Materi webinar](docs/skills/references/WEBINAR_MAP.md) dan [riset/metode kandidat](docs/skills/references/RESEARCH_REVIEW.md).
-4. [Tahapan kerja](docs/skills/references/EXPERIMENT_PLAYBOOK.md) dan [kontrak artefak evaluasi](docs/skills/references/ARTIFACT_CONTRACTS.md).
-5. [Persiapan GPU Kaggle](docs/skills/custom/kaggle-gpu-workflow/SKILL.md), [struktur folder](docs/STRUKTUR_PROYEK.md), dan [ledger eksperimen](docs/eksperimen.md).
+Filter model tanpa membaca arsip menghasilkan 1.233 kandidat inti, 686 cadangan ambigu dan satu baris duplikat yang tetap disimpan. Ini persiapan, belum model student baru. Lihat [ringkasan audit seed](reports/errors/stage4_seed_audit_20261106/summary.json).
 
-Status 5 November 2026: aturan, 19 posting/31 komentar Q&A, template laporan resmi, pustaka skill, serta tahap 1 tersedia. Clustering algoritmis dan diagnostik OOF train-vs-test telah dijalankan; **belum ada classifier kategori limbah yang di-fine-tune atau Accuracy kategori**. Kaggle bernilai 70, laporan 20, notebook 10; tenggat 14 November 2026 23.59 WIB. Alur label harus berasal dari metode peserta, bukan anotasi AI lama. VLM termasuk feature extraction dilarang; klarifikasi pengguna mengizinkan bantuan kode tanpa pemanggilan LLM di notebook.
+Folder lokal `data/processed/stage3_named_display_review/{train,test}/` menampilkan nama material dari head terbaru untuk inspeksi pribadi. 0046 kini berada pada `train/paper/0046.png`; `stage1_named_review` adalah hasil lama. Nama tampilan dan antrean audit bukan input training kompetisi.
 
-Tahap 1 berjalan lokal/CPU, menggunakan bobot non-VLM ResNet50 ImageNet1K V2 yang tersedia di cache. Notebook menyertakan kode pipeline lengkap dan output Run All. GPU Kaggle tetap opsi berikutnya; belum ada upload dataset atau sesi GPU Kaggle yang diluncurkan.
+## Isi repo
 
-Training peserta nanti membaca manifest baru dengan provenance yang sesuai aturan. CSV arsip visual awal `submission_99.csv` sekarang berada di `docs/secret/submission_.csv` dengan hash identik. Screenshot pengguna menunjukkan public Accuracy 0,9930; [catatan skor dan batas interpretasi](reports/public_scores/submission_99_user_report_20261105.json) tersimpan. Arsip tidak menjadi target training/validasi atau pemetaan kategori aktif. Data dan label tidak diubah oleh pencatatan skor.
+Kode, notebook dengan preview tertanam, konfigurasi, serta dokumen/tabel kecil diunggah. Dataset, gambar terpisah, crop, embedding/checkpoint, backup dan file besar tetap lokal. Jangan melanjutkan rencana upload aset lama yang dibatalkan pengguna. Semua komputasi agent berjalan di latar belakang tanpa membuka atau mengambil fokus jendela.
 
-Pemeriksaan paket: `python docs/skills/tools/validate_collection.py --verify-images --no-write`. Opsi `--verify-images` memeriksa hash byte train asli dan salinan; `--no-write` menjaga laporan tersimpan tetap sama. Tanpa `--no-write`, hasil menimpa `docs/skills/sources/validation.json`. Pemeriksaan ini tidak melakukan decode gambar, membuktikan label benar, atau mengukur Accuracy; lihat [cakupan validator](docs/skills/README.md#pemeriksaan-paket).
+Untuk menjalankan setelah clone, siapkan dataset resmi di `data/Dataset DSC GelarRasa 2026/{train,test}/` dan sample di `data/SampleSubmission_DSC.csv`, buat `.venv` dari `requirements-lock.txt`, lalu ikuti panduan notebook. Artefak baseline akan dibangun jika belum tersedia. Materi webinar dan dokumen besar tetap tersedia pada komputer kerja, termasuk ekstrak teks kecil yang disertakan repo.
+
+## Referensi proyek
+
+1. [Pustaka 22 skill khusus + 17 paket snapshot](docs/skills/README.md) dan [pemilih skill per prompt](docs/skills/custom/gelar-rasa-skill-router/SKILL.md).
+2. [Aturan dan rubrik](docs/skills/references/RULES_AND_RUBRIC.md), [rancangan laporan](docs/skills/references/REPORT_BLUEPRINT.md), [rencana EDA/preprocessing](docs/skills/references/EDA_PREPROCESS_PLAN.md).
+3. [Materi webinar](docs/skills/references/WEBINAR_MAP.md) dan [riset metode](docs/skills/references/RESEARCH_REVIEW.md).
+4. [Struktur folder](docs/STRUKTUR_PROYEK.md), [ledger eksperimen](docs/eksperimen.md), dan [kontrak artefak](docs/skills/references/ARTIFACT_CONTRACTS.md).
+5. [Persiapan GPU Kaggle](docs/skills/custom/kaggle-gpu-workflow/SKILL.md); belum meluncurkan sesi GPU/upload dataset Kaggle.
+
+## Riwayat baseline
+
+Versi v2 telah lulus Run All 35/35 sel pada 5 November dan melatih head image-only pada train. Snapshot sebelum perubahan visual v3 disimpan lokal di `reports/reproducibility/backups/20261106_before_visual_v3/`. [Analisis tahap 2](reports/errors/stage2_20261105/ANALISIS_DAN_PENANGANAN.md) dan [tahap 1](reports/eda/stage1_20261105/ANALISIS_TAHAP_1.md) merupakan riwayat; bukti v3 di atas berlaku untuk notebook utama saat ini.
+
+Arsip visual lama `submission_99` kini `docs/secret/submission_.csv`; public 0,9930 berasal dari screenshot pengguna. Arsip bukan label validasi atau hasil classifier baru. Belum membuat submission baru pada pekerjaan EDA visual ini.

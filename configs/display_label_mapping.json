@@ -1,0 +1,71 @@
+{
+  "source": "assistant_visual_review_requested_by_user_20261106",
+  "purpose": "private_eda_display_only",
+  "active_competition_mapping": false,
+  "training_target": false,
+  "semantic_accuracy": null,
+  "competition_rule_note": "Rules supplied by user prohibit VLM/LLM classification. These visual interpretations must not be promoted into competition training, validation or submission labels.",
+  "partition_sha256": "71f70b3bc61a1191b6e01084eaad3120c79006b68e63cf327644fca85f0188e4",
+  "review_method": "128 train examples: 6 highest head probabilities, 6 lowest, 4 random per model group; no archived labels loaded",
+  "groups": {
+    "0": {
+      "display_name": "electronic",
+      "material_candidates": [
+        "electronic"
+      ],
+      "mixed": false
+    },
+    "1": {
+      "display_name": "cardboard",
+      "material_candidates": [
+        "cardboard"
+      ],
+      "mixed": false
+    },
+    "2": {
+      "display_name": "foodwaste",
+      "material_candidates": [
+        "foodwaste"
+      ],
+      "mixed": false
+    },
+    "3": {
+      "display_name": "textile",
+      "material_candidates": [
+        "textile"
+      ],
+      "mixed": false
+    },
+    "4": {
+      "display_name": "plastic / glass (campuran)",
+      "material_candidates": [
+        "plastic",
+        "glass"
+      ],
+      "mixed": true
+    },
+    "5": {
+      "display_name": "metal",
+      "material_candidates": [
+        "metal"
+      ],
+      "mixed": false
+    },
+    "6": {
+      "display_name": "plastic / textile / paper (campuran)",
+      "material_candidates": [
+        "plastic",
+        "textile",
+        "paper"
+      ],
+      "mixed": true
+    },
+    "7": {
+      "display_name": "paper",
+      "material_candidates": [
+        "paper"
+      ],
+      "mixed": false
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "scope": "Read-only preparation for self-training; no student trained",
+  "train_rows": 1920,
+  "unique_train": 1919,
+  "seed_candidates": 1233,
+  "ambiguous_reserve": 686,
+  "duplicate_rows_preserved": 1,
+  "filters": {
+    "probability": 0.95,
+    "margin": 0.5,
+    "neighbor_consensus": 0.9,
+    "model_agreement": true
+  },
+  "reference_archive_read": false,
+  "display_names_read": false,
+  "reference_agreement_optimized": false,
+  "test_used": false,
+  "semantic_accuracy": null,
+  "labels_assigned": false,
+  "raw_files_deleted": 0,
+  "student_trained": false,
+  "training_promoted": false,
+  "limitation": "Current teacher was previously refit on all unique train. This audit does not establish held-out performance. Future teacher/filter/student must be built inside fit groups.",
+  "source_hashes": {
+    "output\\manifests\\stage1_v1\\image_profile.csv": "6dadfeaf3faf4bae6a1d15129a0d7540dba07f5cbd4589f1526482b6c5ccd9f6",
+    "output\\groups\\stage1_v1\\cluster_assignments.csv": "ee9e420d66bcd7332623872e71a6e59ded74eeb2d37410f58655c015a2a0796d",
+    "output\\groups\\stage2_neighbor_v1\\assignments.csv": "70e73711ec9acba6f29abdb7af47a2b45a5860ee0641709f3e2845aab049ef28",
+    "output\\groups\\stage2_neighbor_v1\\head.pt": "3e0f0ff4ce85c5fb57cd8de09bcaa9d1b1e3f3365bf8f70bd4132fed840558f8",
+    "output\\embeddings\\stage2_repr_v1\\dinov2_features.npz": "135fe5c871adbcb77a3bcd962a9362e05bd51ea6ba0ba0683a47b0908dab15fd"
+  },
+  "script_sha256": "48d9a991f1adfce53fc89e9fb2200544247e8d483473d36b18644bda7cb9b2d9"
+}

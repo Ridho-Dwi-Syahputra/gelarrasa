@@ -1,5 +1,7 @@
 # Analisis perbedaan dan penanganan citra — 5 November 2026
 
+**Status dokumen:** riwayat baseline tahap 2. Notebook utama sekarang EDA visual v3; hasil terbaru ada di `reports/eda/stage3_visual_20261106/ANALISIS_VISUAL.md` dan bukti `reports/reproducibility/notebook_v3_delivery_validation.json`.
+
 ## Hasil utama
 
 Masalah yang perlu ditangani adalah kesesuaian kelompok visual dengan kategori material. Mengulang seed, memperbesar PCA, atau menghapus gambar buram belum cukup. Eksperimen baru menghasilkan kandidat **DINOv2 + head konsistensi tetangga** yang lebih tahan terhadap perubahan resolusi pada sampel train. Ini bukti perbaikan kestabilan tertentu, bukan bukti Accuracy kategori mendekati 100%.

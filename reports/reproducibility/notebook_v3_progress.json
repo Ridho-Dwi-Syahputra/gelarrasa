@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "seconds": 214.7926161289215,
+  "code_cells": 9,
+  "executed_cells": 9,
+  "errors": [],
+  "execution": "Visual EDA, all-image region proposals, sampled crop probes, all-test pixel retrieval. Existing trained baseline reused after integrity checks unless REBUILD_BASELINE=True.",
+  "started_wib": "2026-11-06T01:29:09.830234+07:00",
+  "finished_wib": "2026-11-06T01:32:44.614817+07:00",
+  "kernel": "gelar-rasa-venv",
+  "interpreter": "D:\\lomba\\NSC UB\\GELAR-RASA\\.venv\\Scripts\\python.exe",
+  "notebook_code_sha256": "466794c80e3a053cd5e5fc405bd3592a72f5b0fff62f99de6add759982e54600",
+  "notebook_sha256": "23ffb9848e43112b6bfa3fe80f9515404eb0327a2ebeb10bdf6667787505ef7f"
+}

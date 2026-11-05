@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checked_at_wib": "2026-11-06T01:34:52.757812+07:00",
+  "code_cells": 9,
+  "executed_cells": 9,
+  "cell_errors": 0,
+  "raw_hashes_verified": 2400,
+  "crop_hashes_and_native_pixels_verified": 2798,
+  "crop_parent_fold_consistent": true,
+  "test_crops_used_for_training": false,
+  "test_neighbor_coverage": 480,
+  "test_gallery_coverage": 480,
+  "gallery_targets_verified": 990,
+  "display_names": "assistant visual interpretation; private display only; not competition training labels",
+  "active_label_contract_unchanged": true,
+  "baseline_model_and_assignments_unchanged": true,
+  "numbered_group_names_absent_from_visible_text": true,
+  "notebook_sha256": "23ffb9848e43112b6bfa3fe80f9515404eb0327a2ebeb10bdf6667787505ef7f",
+  "semantic_accuracy": null
+}
