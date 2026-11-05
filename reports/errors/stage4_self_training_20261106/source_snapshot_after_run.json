@@ -1,0 +1,10 @@
+{
+  "collected_at": "2026-11-06T02:16:34.317399+07:00",
+  "collection": "after completed run; code files last modified before plan creation",
+  "source_hashes": {
+    "eksperimen\\skrip\\stage4_self_training_pilot.py": "46351cdef3135adc187d694f60d9420e5ffe149c727a5fe0432435a1000ae790",
+    "eksperimen\\skrip\\stage2_neighbor_refinement.py": "2c9014e74bbd30ee6e92106239f6ffe992d8711da8a2c117b69ed49a98a99540"
+  },
+  "notebook_sha256": "fc206aad3aaffc831f2c7a993e9a5d70284a77fe171a7336999e2e7250e5a963",
+  "selected_checkpoint_sha256": "b1a91bcd2db1b16e352606fffc37ea20f2e00abd11f4fa146d986a4cfdd0a0f7"
+}

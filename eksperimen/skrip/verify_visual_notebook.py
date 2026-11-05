@@ -41,6 +41,7 @@ def main():
     assert summary['status']=='passed'
     assert summary['script_sha256']==sha(ROOT/'eksperimen/skrip/stage3_visual_audit.py')
     assert nb.metadata.pipeline_sources['stage3_visual_audit.py']==summary['script_sha256']
+    for name,digest in nb.metadata.pipeline_sources.items():assert sha(ROOT/'eksperimen/skrip'/name)==digest,name
     for relative,digest in summary['frozen_input_hashes'].items():assert sha(ROOT/relative)==digest,relative
     profile=pd.read_csv(ROOT/'output/manifests/stage1_v1/image_profile.csv',dtype={'image_id':str})
     def raw_check(row):

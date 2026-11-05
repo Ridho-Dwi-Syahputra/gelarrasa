@@ -1,5 +1,15 @@
 # Ledger GELAR RASA
 
+## Pilot teacher/student dua putaran ? 6 November 2026
+
+- Klarifikasi pengguna: arsip sebagai pembanding; kasus berbeda disimpan untuk ditinjau lagi. Training terpisah hanya membaca fitur image-only, kelompok sumber dan pseudo-group model. Nama tampilan maupun arsip tidak dibaca oleh kode training.
+- Dua teacher dilatih dari awal pada 1.538 train-fit. Sebanyak 381 heldout kelompok terpisah; nol overlap kelompok/pixel. View flip tersedia untuk 169 fit dan 87 heldout dari probe 256 train yang dipilih sebelumnya.
+- Saringan model menghasilkan 1.110 seed fit dan menyimpan 428 cadangan ambigu. Tiga kondisi student awal diuji; putaran kedua mencoba memasukkan kembali empat contoh yang kini konsisten menurut model/tetangga/flip. Total empat head student, backbone tetap frozen.
+- Kontrol teacher: neighbor agreement 0,900262 dan flip86/87. Student terpilih seed-CE/graph epoch20: neighbor agreement0,901837 dan flip87/87. Putaran kedua tidak mengalahkan kondisi terpilih; berhenti pada batas dua putaran, bukan mengejar kesamaan arsip.
+- Setelah pembelajaran/pemilihan selesai, audit private pada cohort sama 1.346 kasus bernama tunggal menunjukkan kesesuaian arsip1180?1182, dua pergeseran menuju arsip dan nol menjauh. Sisanya574 campuran tidak dihitung sebagai label tunggal. Ini bukan Accuracy resmi atau alasan memilih model.
+- 0046 tetap pada tampilan paper pada teacher dan student. Baseline/kontrak label aktif tidak diganti. Semua model/seed/cadangan tetap lokal.
+- Kode: `stage4_self_training_pilot.py`; verifikasi dan perbandingan pasca-freeze: `audit_frozen_student.py`. Laporan: `reports/errors/stage4_self_training_20261106/`. Pilot juga dieksekusi pada sel terakhir notebook utama.
+
 ## Audit usulan self-training dan kasus 0046 ? 6 November 2026
 
 - Pengguna mengusulkan referensi arsip LLM dan iterasi pembersihan/training. Pengguna kemudian memperjelas penggunaan sebagai pembanding. Dibuat antrean audit terpisah tanpa mengubah mask training; belum melatih student baru.

@@ -4,7 +4,7 @@ Dataset resmi lokal: 1.920 train tanpa label kategori resmi dan 480 test. Delapa
 
 ## Notebook dan hasil terbaru
 
-[Notebook utama](notebook/01_EDA_Preprocessing_Clustering.ipynb) kini versi **EDA visual v3**: preview train/test, nama material sementara, distribusi kelompok, kasus kualitas/ambigu, kandidat crop, kemiripan piksel dan dimensi native. Sembilan sel kode memanggil modul yang dapat ditelusuri; head baseline yang sudah dilatih dipakai ulang setelah verifikasi hash. Audit visual dijalankan baru, tanpa mengklaim fitting ulang baseline.
+[Notebook utama](notebook/01_EDA_Preprocessing_Clustering.ipynb) kini versi **EDA visual v3**: preview train/test, nama material sementara, distribusi kelompok, kasus kualitas/ambigu, kandidat crop, kemiripan piksel dan dimensi native. Sepuluh sel kode memanggil modul yang dapat ditelusuri; head baseline yang sudah dilatih dipakai ulang setelah verifikasi hash. Audit visual dijalankan baru, tanpa mengklaim fitting ulang baseline.
 
 - [Analisis dan keputusan preprocessing](reports/eda/stage3_visual_20261106/ANALISIS_VISUAL.md).
 - [Bukti Run All v3](reports/reproducibility/notebook_v3_execution.json) dan [pemeriksaan integritas](reports/reproducibility/notebook_v3_delivery_validation.json).
@@ -19,9 +19,11 @@ Temuan: tiga test identik piksel dengan train; 29 kandidat SSIM >=0,99; 439 test
 
 Atas klarifikasi pengguna, arsip label dipakai sebagai pembanding post-hoc saja. [Audit](reports/errors/stage4_seed_audit_20261106/ANALISIS_SELF_TRAINING.md) memisahkan 216 perbedaan dari 570 kelompok campuran yang belum bisa dinilai tunggal. Perbandingan bukan Accuracy resmi dan tidak mengubah pilihan seed.
 
-Filter model tanpa membaca arsip menghasilkan 1.233 kandidat inti, 686 cadangan ambigu dan satu baris duplikat yang tetap disimpan. Ini persiapan, belum model student baru. Lihat [ringkasan audit seed](reports/errors/stage4_seed_audit_20261106/summary.json).
+Filter model tanpa membaca arsip menghasilkan 1.233 kandidat inti, 686 cadangan ambigu dan satu baris duplikat yang tetap disimpan. Audit seed tersebut adalah persiapan. Pilot terpisah kemudian melatih dua teacher dan empat student/head dalam dua putaran, tanpa label arsip sebagai input. Lihat [ringkasan audit seed](reports/errors/stage4_seed_audit_20261106/summary.json).
 
 Folder lokal `data/processed/stage3_named_display_review/{train,test}/` menampilkan nama material dari head terbaru untuk inspeksi pribadi. 0046 kini berada pada `train/paper/0046.png`; `stage1_named_review` adalah hasil lama. Nama tampilan dan antrean audit bukan input training kompetisi.
+
+Pilot self-training kini tercakup pada sel terakhir notebook. [Hasil development dan batas interpretasi](reports/errors/stage4_self_training_20261106/summary.json) memakai 1.538 train-fit dan 381 heldout kelompok; backbone tetap frozen. Kandidat dasar tidak diganti dan Accuracy kategori belum diukur.
 
 ## Isi repo
 

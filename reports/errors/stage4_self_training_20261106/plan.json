@@ -1,0 +1,45 @@
+{
+  "task": "Anonymous pseudo-label teacher/student pilot on frozen DINO features",
+  "teacher_seeds": [
+    11,
+    47
+  ],
+  "teacher_epochs": 60,
+  "teacher_entropy_weight": 2.0,
+  "student_epochs": 80,
+  "student_lr": 0.003,
+  "max_self_label_rounds": 2,
+  "configurations": [
+    {
+      "name": "seed_ce_control",
+      "view_weight": 0.0
+    },
+    {
+      "name": "seed_ce_view05",
+      "view_weight": 0.5
+    },
+    {
+      "name": "seed_ce_view2",
+      "view_weight": 2.0
+    }
+  ],
+  "seed_rules": {
+    "probability": 0.95,
+    "margin": 0.5,
+    "neighbor_agreement": 0.9,
+    "two_teacher_agreement": true
+  },
+  "selection": "Development holdout: neighbor agreement + 0.25*flip agreement; all eight groups occupied with at least five heldout samples. No semantic label or reference agreement.",
+  "split_reused_from_previous_development": true,
+  "fit_images": 1538,
+  "heldout_images": 381,
+  "flip_fit": 169,
+  "flip_heldout": 87,
+  "reference_labels_read": false,
+  "display_names_read": false,
+  "test_used_for_training_or_selection": false,
+  "backbone_finetuned": false,
+  "feature_sha256": "135fe5c871adbcb77a3bcd962a9362e05bd51ea6ba0ba0683a47b0908dab15fd",
+  "flip_feature_sha256": "f859f7b46d0802fd6604cb555f722025e7b5cc3008c797b78254a53a6dbae34d",
+  "split_sha256": "82260eade1b2c1330d7eb213f3068fd52e6d390670f7eaeddfe9b3b6e98ef41d"
+}

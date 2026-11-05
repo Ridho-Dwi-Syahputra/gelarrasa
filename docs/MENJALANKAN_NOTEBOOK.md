@@ -1,7 +1,9 @@
 # Menjalankan notebook GELAR-RASA
 
 Notebook utama: `notebook/01_EDA_Preprocessing_Clustering.ipynb`.
-Versi saat ini: **EDA visual v3**, sembilan sel kode. Kernel: **Python (GELAR-RASA .venv)**.
+Versi saat ini: **EDA visual v3**, sepuluh sel kode. Kernel: **Python (GELAR-RASA .venv)**.
+
+Sel terakhir menjalankan ulang pilot dua putaran self-training head: dua teacher fit-only, tiga kondisi student awal dan satu uji masuk-kembali contoh cadangan. Arsip referensi tidak dibaca oleh kode training; perbandingan dilakukan di skrip audit terpisah setelah model dibekukan. Ini bukan fine-tuning backbone atau Accuracy kategori.
 
 Notebook memuat preview, distribusi nama kelompok sementara, indikator kualitas, proposal crop seluruh gambar, probe view crop, dan pencarian piksel seluruh test?train. Head terlatih baseline dipakai ulang dengan verifikasi hash; `REBUILD_BASELINE=False` adalah default. Jika artefak belum tersedia, resep baseline akan dijalankan dari data resmi lokal. `REBUILD_BASELINE=True` juga membangun ulang baseline dan dapat memerlukan puluhan menit pada CPU. Pemetaan tampilan perlu ditinjau kembali bila partisi model berubah.
 

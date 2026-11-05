@@ -8,8 +8,9 @@ nb=nbformat.v4.new_notebook()
 nb.metadata.kernelspec=dict(name='gelar-rasa-venv',display_name='Python (GELAR-RASA .venv)',language='python')
 nb.metadata.gelar_pipeline_version='eda_visual_v3'
 nb.metadata.execution_report_prefix='notebook_v3'
-nb.metadata.execution_scope='Visual EDA, all-image region proposals, sampled crop probes, all-test pixel retrieval. Existing trained baseline reused after integrity checks unless REBUILD_BASELINE=True.'
-nb.metadata.pipeline_sources={'stage3_visual_audit.py':hashlib.sha256((ROOT/'eksperimen/skrip/stage3_visual_audit.py').read_bytes()).hexdigest()}
+nb.metadata.execution_scope='Visual EDA, region/crop and all-test pixel audits, plus two-round model-only head self-training. Existing stage2 baseline reused after integrity checks unless REBUILD_BASELINE=True.'
+nb.metadata.pipeline_sources={name:hashlib.sha256((ROOT/'eksperimen/skrip'/name).read_bytes()).hexdigest()
+                            for name in ['stage3_visual_audit.py','stage4_self_training_pilot.py']}
 cells=[]
 def md(text):cells.append(nbformat.v4.new_markdown_cell(text))
 def code(text):cells.append(nbformat.v4.new_code_cell(text))
@@ -164,6 +165,37 @@ display(summary)
 assert summary['test_images']==summary['tested_test_neighbors']==summary['all_test_preview_coverage']==480
 assert not summary['training_labels_changed'] and not summary['test_crops_used_for_training']
 print('RUN ALL EDA VISUAL SELESAI — preview, crop kandidat, dan analisis piksel tersimpan.')''')
+md('''## 9. Pilot self-training: simpan kasus ambigu dan periksa ulang
+
+Pilot membangun dua teacher hanya pada 1.538 train-fit; 381 heldout dipisahkan berdasarkan kelompok sumber. Target student adalah pseudo-group model, tanpa membaca nama tampilan atau arsip label. Ini melatih **head** di atas fitur DINO frozen, bukan fine-tuning backbone.
+
+Saringan seed memakai confidence, margin, sepuluh tetangga, serta kesepakatan teacher. Kasus ambigu disimpan. Tiga kondisi awal membandingkan kontrol seed-CE/graph dengan dua bobot konsistensi flip. Satu putaran tambahan dapat menerima kembali kasus cadangan yang memenuhi syarat model dan flip. Batasnya dua putaran; pilihan memakai proxy holdout, tidak mengejar kesamaan dengan arsip.
+
+View flip tersedia pada 256 train acak yang sudah dipilih sebelumnya. Split ini adalah development holdout yang pernah dipakai; bukan evaluasi final independen. Konsistensi tetangga/flip bukan Accuracy kategori. Model dasar dan kontrak label aktif tidak diganti. Perbandingan arsip setelah model dibekukan dikerjakan terpisah dari notebook dan tidak menjadi input training.''')
+code('''pilot_script=PROJECT_ROOT/'eksperimen/skrip/stage4_self_training_pilot.py'
+pilot_report=PROJECT_ROOT/'reports/errors/stage4_self_training_20261106'
+pilot_log=PROJECT_ROOT/'reports/reproducibility/runtime/self_training_notebook.log'
+pilot_log.parent.mkdir(parents=True,exist_ok=True)
+with pilot_log.open('w',encoding='utf-8') as stream:
+    subprocess.run([sys.executable,str(pilot_script)],cwd=PROJECT_ROOT,stdout=stream,stderr=subprocess.STDOUT,check=True)
+pilot=json.loads((pilot_report/'summary.json').read_text())
+assert pilot['status']=='passed' and not pilot['reference_archive_read'] and not pilot['display_mapping_read']
+display(pd.DataFrame([{'model':'teacher fit',**pilot['baseline_development']},{'model':'student terpilih',**pilot['selected_development']}]))
+print('Pseudo-seed awal:',pilot['seed_fit_images'],'; cadangan:',pilot['ambiguous_fit_images_preserved'])
+print('Masuk kembali pada pilot putaran 2:',pilot['reserve_reentered_in_round2'])
+print('Student dilatih:',pilot['new_student_models_trained'],'; kandidat terpilih:',pilot['selected_candidate'])
+print('Metrik di atas adalah proxy konsistensi; Accuracy kategori belum diukur.')
+from matplotlib import pyplot as plt
+history=pd.read_csv(pilot_report/'development_metrics.csv')
+fig,axes=plt.subplots(1,2,figsize=(12,4))
+for name,rows in history.groupby('candidate',sort=False):
+    axes[0].plot(rows.epoch,rows.neighbor_agreement,marker='.',label=name)
+    axes[1].plot(rows.epoch,rows.flip_agreement,marker='.',label=name)
+for ax,title in zip(axes,['Kesepakatan tetangga heldout','Konsistensi flip heldout']):
+    ax.set_title(title+' (bukan Accuracy)');ax.set_xlabel('Epoch');ax.legend(fontsize=8)
+fig.tight_layout();curve=pilot_report/'development_curves.jpg';fig.savefig(curve,dpi=130);plt.close(fig)
+display(DisplayImage(filename=str(curve)))
+print('PILOT SELESAI — tidak mengganti baseline atau mempromosikan label kategori.')''')
 nb.cells=cells
 for i,cell in enumerate(nb.cells):cell['id']=hashlib.sha256(f'{i}:{cell.cell_type}:{cell.source}'.encode()).hexdigest()[:12]
 nbformat.validate(nb)
