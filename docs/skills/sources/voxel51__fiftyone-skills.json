@@ -1,0 +1,1080 @@
+{
+  "repo": "voxel51/fiftyone-skills",
+  "stars": 48,
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+  },
+  "commit": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+  "tree": {
+    "sha": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+    "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+    "tree": [
+      {
+        "path": ".agents",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6edcbd3d09304c5fb230f9fe43178f40fc129c62",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/6edcbd3d09304c5fb230f9fe43178f40fc129c62"
+      },
+      {
+        "path": ".agents/plugins",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "857aac73b18b5737299e04f5f2a187e95b0af9fe",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/857aac73b18b5737299e04f5f2a187e95b0af9fe"
+      },
+      {
+        "path": ".agents/plugins/marketplace.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "890fff6c7addddebeae9ca81e80ad42353d3ab17",
+        "size": 411,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/890fff6c7addddebeae9ca81e80ad42353d3ab17"
+      },
+      {
+        "path": ".claude-plugin",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "93ae448fef12c53513803a3468c4947d2d1ce777",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/93ae448fef12c53513803a3468c4947d2d1ce777"
+      },
+      {
+        "path": ".claude-plugin/marketplace.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b8100bfa8351db40d056eb011d94200373cb6471",
+        "size": 11185,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/b8100bfa8351db40d056eb011d94200373cb6471"
+      },
+      {
+        "path": ".claude-plugin/plugin.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f828dc2b2e47813db407450756c46b07d2672880",
+        "size": 414,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/f828dc2b2e47813db407450756c46b07d2672880"
+      },
+      {
+        "path": ".codex-plugin",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6c5c4e2c95e7b87cbd3fba0cd3a76a69f7b2f043",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/6c5c4e2c95e7b87cbd3fba0cd3a76a69f7b2f043"
+      },
+      {
+        "path": ".codex-plugin/plugin.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "562760c9c00d17d86431fa2997fe4e8f4e060d4a",
+        "size": 1133,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/562760c9c00d17d86431fa2997fe4e8f4e060d4a"
+      },
+      {
+        "path": ".cursor-plugin",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0f998444faf640f4def8aaca27f056d446bffcc5",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/0f998444faf640f4def8aaca27f056d446bffcc5"
+      },
+      {
+        "path": ".cursor-plugin/marketplace.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3524f54e60d57fc398ca3bed6a20f7e87a712578",
+        "size": 437,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/3524f54e60d57fc398ca3bed6a20f7e87a712578"
+      },
+      {
+        "path": ".cursor-plugin/plugin.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b09ef137074975a5c79b2465cdf6838a28739984",
+        "size": 503,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/b09ef137074975a5c79b2465cdf6838a28739984"
+      },
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7e5e95cb55c2127fecae5babdc69dc03b8afa0eb",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/7e5e95cb55c2127fecae5babdc69dc03b8afa0eb"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6d265d0ac12f52e42600a7eee0acc173ba88aac9",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/6d265d0ac12f52e42600a7eee0acc173ba88aac9"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c42d6e6aee22602e112ae7c31b0fb88fbd07595a",
+        "size": 2690,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/c42d6e6aee22602e112ae7c31b0fb88fbd07595a"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/config.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a45737341ee14ad1a270c4df465bdbe80e860989",
+        "size": 169,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/a45737341ee14ad1a270c4df465bdbe80e860989"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/new_skill.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "953c18fb6a774598ef387badb5d660f8ad5c15f2",
+        "size": 2888,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/953c18fb6a774598ef387badb5d660f8ad5c15f2"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/skill-feedback.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9596027f170af3c4cc8afa1402d9dcf69c78a75",
+        "size": 1382,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/a9596027f170af3c4cc8afa1402d9dcf69c78a75"
+      },
+      {
+        "path": ".github/pull_request_template.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ceb6ab18040bf8dc21e923d63588a155a9764a51",
+        "size": 988,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/ceb6ab18040bf8dc21e923d63588a155a9764a51"
+      },
+      {
+        "path": ".github/workflows",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7b8835b7b617a15cd8530cd82e2de66f796b5960",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/7b8835b7b617a15cd8530cd82e2de66f796b5960"
+      },
+      {
+        "path": ".github/workflows/validate.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "474c2c88652ac71a27dc53c2c3fcb74558bd3e5b",
+        "size": 847,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/474c2c88652ac71a27dc53c2c3fcb74558bd3e5b"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "655d6a8550477b5a2ed6a7a178e1b883077cc097",
+        "size": 429,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/655d6a8550477b5a2ed6a7a178e1b883077cc097"
+      },
+      {
+        "path": ".mcp.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7380d6d4cc3d2ae50111c65975307a09557c09ca",
+        "size": 117,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/7380d6d4cc3d2ae50111c65975307a09557c09ca"
+      },
+      {
+        "path": "AGENTS.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db756b8736c5b8fa049fcd1857893e01d837743a",
+        "size": 14203,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/db756b8736c5b8fa049fcd1857893e01d837743a"
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e495f15d564b0483982e312ccf25bbd0e84cbd3d",
+        "size": 9051,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/e495f15d564b0483982e312ccf25bbd0e84cbd3d"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d8e28a4f26f32188b15c5b07fad53a2094d5bbd",
+        "size": 10762,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/1d8e28a4f26f32188b15c5b07fad53a2094d5bbd"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d350e62acc24eef73a188f72031481470d712098",
+        "size": 11279,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/d350e62acc24eef73a188f72031481470d712098"
+      },
+      {
+        "path": "commands",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "575110f87466ec7e174b5c7003be4e6e1380bf9c",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/575110f87466ec7e174b5c7003be4e6e1380bf9c"
+      },
+      {
+        "path": "commands/help.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "952289c932afda910d972a34279645aab14d1753",
+        "size": 3574,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/952289c932afda910d972a34279645aab14d1753"
+      },
+      {
+        "path": "commands/quickstart.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9873353c570785e57d5d24e3d5ad8a145ff7eeaf",
+        "size": 2938,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/9873353c570785e57d5d24e3d5ad8a145ff7eeaf"
+      },
+      {
+        "path": "gemini-extension.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8ff73ff60dbbb7712c2454a6c667a66c4e86669c",
+        "size": 383,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/8ff73ff60dbbb7712c2454a6c667a66c4e86669c"
+      },
+      {
+        "path": "scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ca3511fb6782bcee278d589f8851733059a3b44e",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/ca3511fb6782bcee278d589f8851733059a3b44e"
+      },
+      {
+        "path": "scripts/generate_agents.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5eabe2d6b828d61cc22cb5301f8df03f90de3243",
+        "size": 9682,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/5eabe2d6b828d61cc22cb5301f8df03f90de3243"
+      },
+      {
+        "path": "scripts/tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b532eed33be74e02b6b86388bacb8d713de4c2f4",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/b532eed33be74e02b6b86388bacb8d713de4c2f4"
+      },
+      {
+        "path": "scripts/tests/test_generate_agents.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "abe430f81e6f427bf3e4290b731fd1455b9af7f1",
+        "size": 9728,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/abe430f81e6f427bf3e4290b731fd1455b9af7f1"
+      },
+      {
+        "path": "scripts/validate-template.mjs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6dd5f0e1a676774f7373da6a85db07f06523a5ef",
+        "size": 11086,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/6dd5f0e1a676774f7373da6a85db07f06523a5ef"
+      },
+      {
+        "path": "skills",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d811f191c282e0bdd1ea553b360dc2633fd2c983",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/d811f191c282e0bdd1ea553b360dc2633fd2c983"
+      },
+      {
+        "path": "skills/fiftyone-app-playwright",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8feaa6a28cff35039b1e3de8a446a02d6c750f22",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/8feaa6a28cff35039b1e3de8a446a02d6c750f22"
+      },
+      {
+        "path": "skills/fiftyone-app-playwright/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea1c9caa679726b0f4baa937f7273a0567ce653f",
+        "size": 2163,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/ea1c9caa679726b0f4baa937f7273a0567ce653f"
+      },
+      {
+        "path": "skills/fiftyone-app-playwright/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6aa42d2ddd2372ca651ca7837e6654da473c41bc",
+        "size": 12165,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/6aa42d2ddd2372ca651ca7837e6654da473c41bc"
+      },
+      {
+        "path": "skills/fiftyone-app-playwright/scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "85bb50c40c32baae9c4777a60be211606e83f1c0",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/85bb50c40c32baae9c4777a60be211606e83f1c0"
+      },
+      {
+        "path": "skills/fiftyone-app-playwright/scripts/launch_app.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e194c2654b2f05da7312db2117e0b2f6e1aab213",
+        "size": 5111,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/e194c2654b2f05da7312db2117e0b2f6e1aab213"
+      },
+      {
+        "path": "skills/fiftyone-code-style",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4ad0736439e5c053081ffbbcfce06e66d0d8d380",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/4ad0736439e5c053081ffbbcfce06e66d0d8d380"
+      },
+      {
+        "path": "skills/fiftyone-code-style/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0e88ab8855b42c01ff36eb9c3a5bb21605d18050",
+        "size": 1160,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/0e88ab8855b42c01ff36eb9c3a5bb21605d18050"
+      },
+      {
+        "path": "skills/fiftyone-code-style/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "203aedc60d41c9323258037cda5bba81091fec9b",
+        "size": 3702,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/203aedc60d41c9323258037cda5bba81091fec9b"
+      },
+      {
+        "path": "skills/fiftyone-create-notebook",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a8e5ffd0d99f15c4c92e964ad55f5fb37b7f35ac",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/a8e5ffd0d99f15c4c92e964ad55f5fb37b7f35ac"
+      },
+      {
+        "path": "skills/fiftyone-create-notebook/GETTING-STARTED-TEMPLATES.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d630f0a1d23463fdfa398e7aed51c8e1cc0394c0",
+        "size": 12405,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/d630f0a1d23463fdfa398e7aed51c8e1cc0394c0"
+      },
+      {
+        "path": "skills/fiftyone-create-notebook/NOTEBOOK-STRUCTURE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2bcf67cf6d8bf403aac03a0cde67af0e11d5bd33",
+        "size": 8407,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/2bcf67cf6d8bf403aac03a0cde67af0e11d5bd33"
+      },
+      {
+        "path": "skills/fiftyone-create-notebook/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "10181cd526a746f26ac405761b074b9f3b467265",
+        "size": 1282,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/10181cd526a746f26ac405761b074b9f3b467265"
+      },
+      {
+        "path": "skills/fiftyone-create-notebook/RECIPE-TEMPLATES.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fa4bf764db80571b96241e4c63cd26b967f9c4b4",
+        "size": 11746,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/fa4bf764db80571b96241e4c63cd26b967f9c4b4"
+      },
+      {
+        "path": "skills/fiftyone-create-notebook/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d96666c32ea4bf1009f4078e7e86c4a043cff283",
+        "size": 18314,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/d96666c32ea4bf1009f4078e7e86c4a043cff283"
+      },
+      {
+        "path": "skills/fiftyone-create-notebook/TUTORIAL-TEMPLATES.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "de43c6372f90abb1fd2f6cee2012a168a510e511",
+        "size": 15947,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/de43c6372f90abb1fd2f6cee2012a168a510e511"
+      },
+      {
+        "path": "skills/fiftyone-dataset-curation",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "800d227c271b6b09c36635bd5768fe5642908c4d",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/800d227c271b6b09c36635bd5768fe5642908c4d"
+      },
+      {
+        "path": "skills/fiftyone-dataset-curation/ANNOTATION-AUDIT.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7498c89569b91c17596ec90c363c67390ea9ed7c",
+        "size": 9217,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/7498c89569b91c17596ec90c363c67390ea9ed7c"
+      },
+      {
+        "path": "skills/fiftyone-dataset-curation/QUALITY-CHECKS.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e8f96e9aff302d4c66180e77245563695f03135",
+        "size": 12321,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/4e8f96e9aff302d4c66180e77245563695f03135"
+      },
+      {
+        "path": "skills/fiftyone-dataset-curation/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ada999db38d6e1f2188156e69aa1fed3cbce2e5",
+        "size": 1236,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/0ada999db38d6e1f2188156e69aa1fed3cbce2e5"
+      },
+      {
+        "path": "skills/fiftyone-dataset-curation/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8da0d795d5f2d098426758a73abe98ad29f7cb7e",
+        "size": 23633,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/8da0d795d5f2d098426758a73abe98ad29f7cb7e"
+      },
+      {
+        "path": "skills/fiftyone-dataset-curation/SUBSET-CREATION.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "25e310ecb8b41a683f46309d9c5fa4f4edd83575",
+        "size": 12345,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/25e310ecb8b41a683f46309d9c5fa4f4edd83575"
+      },
+      {
+        "path": "skills/fiftyone-dataset-export",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a98b44a388dceb4c6a656cd5793529b553f03ddf",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/a98b44a388dceb4c6a656cd5793529b553f03ddf"
+      },
+      {
+        "path": "skills/fiftyone-dataset-export/HF-HUB-EXPORT.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7db60cd295114d50200f6b6cded03c4c62e44b63",
+        "size": 8655,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/7db60cd295114d50200f6b6cded03c4c62e44b63"
+      },
+      {
+        "path": "skills/fiftyone-dataset-export/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad3b085ae7d7a2c7f49e99f10dfbb9a530707c11",
+        "size": 1300,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/ad3b085ae7d7a2c7f49e99f10dfbb9a530707c11"
+      },
+      {
+        "path": "skills/fiftyone-dataset-export/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cc93fed73c681941acafc8109475845779477c86",
+        "size": 13568,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/cc93fed73c681941acafc8109475845779477c86"
+      },
+      {
+        "path": "skills/fiftyone-dataset-import",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dc7a165c53b66c6590731adb7ccf86bae28ac1a9",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/dc7a165c53b66c6590731adb7ccf86bae28ac1a9"
+      },
+      {
+        "path": "skills/fiftyone-dataset-import/HF-HUB-IMPORT.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "190f0ab7a7561a55fe93441867c2a6efd6911309",
+        "size": 13286,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/190f0ab7a7561a55fe93441867c2a6efd6911309"
+      },
+      {
+        "path": "skills/fiftyone-dataset-import/LEROBOT-IMPORT.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "faa5414659c6a6fdcc124ea5f55aa8394915c64b",
+        "size": 9843,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/faa5414659c6a6fdcc124ea5f55aa8394915c64b"
+      },
+      {
+        "path": "skills/fiftyone-dataset-import/MCAP-AUTHORING.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "54c2eb53307c26e73400af88c4ca151bcaf9d45d",
+        "size": 38372,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/54c2eb53307c26e73400af88c4ca151bcaf9d45d"
+      },
+      {
+        "path": "skills/fiftyone-dataset-import/MCAP-DATASET-AND-VALIDATION.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ef67b82d87dbcc4a6632d9623d567b581d6dc58",
+        "size": 30896,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/9ef67b82d87dbcc4a6632d9623d567b581d6dc58"
+      },
+      {
+        "path": "skills/fiftyone-dataset-import/MCAP-TROUBLESHOOTING.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5118567a92cdbcf7a1449e7ee2bb4a5e83d0dea9",
+        "size": 71286,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/5118567a92cdbcf7a1449e7ee2bb4a5e83d0dea9"
+      },
+      {
+        "path": "skills/fiftyone-dataset-import/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "353dbea345cde75933b947fcd6ece49cec66f153",
+        "size": 2876,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/353dbea345cde75933b947fcd6ece49cec66f153"
+      },
+      {
+        "path": "skills/fiftyone-dataset-import/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e1f59f990fc3e70cb64279e8d67cb270e828d2da",
+        "size": 35553,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/e1f59f990fc3e70cb64279e8d67cb270e828d2da"
+      },
+      {
+        "path": "skills/fiftyone-dataset-import/SPECIALIZED-3D-FORMATS.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b267691fd5b01db61241febb70157d52f3067d64",
+        "size": 9074,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/b267691fd5b01db61241febb70157d52f3067d64"
+      },
+      {
+        "path": "skills/fiftyone-dataset-import/USE-CASE-EXAMPLES.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8c998bc58a08fe567f49086a785e9ae8eacc1bdc",
+        "size": 5140,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/8c998bc58a08fe567f49086a785e9ae8eacc1bdc"
+      },
+      {
+        "path": "skills/fiftyone-dataset-inference",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f34ae96f5d7bfb686ddef35c428f74c32c5402cc",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/f34ae96f5d7bfb686ddef35c428f74c32c5402cc"
+      },
+      {
+        "path": "skills/fiftyone-dataset-inference/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e5109960081b3e280b03e93d7cd530e6d13166e4",
+        "size": 1247,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/e5109960081b3e280b03e93d7cd530e6d13166e4"
+      },
+      {
+        "path": "skills/fiftyone-dataset-inference/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "80f338d3f2649699c4eccbf126d179c378de2ae3",
+        "size": 7875,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/80f338d3f2649699c4eccbf126d179c378de2ae3"
+      },
+      {
+        "path": "skills/fiftyone-develop-plugin",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a0478ad2da0e7e1488ee029f666d93d0de47a74a",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/a0478ad2da0e7e1488ee029f666d93d0de47a74a"
+      },
+      {
+        "path": "skills/fiftyone-develop-plugin/EXECUTION-STORE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b097e14802174cba4af79cf6298c6f105225c02",
+        "size": 10472,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/5b097e14802174cba4af79cf6298c6f105225c02"
+      },
+      {
+        "path": "skills/fiftyone-develop-plugin/HYBRID-PLUGINS.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "019bdffcb9fd129424a5762b3a94512c50fa605f",
+        "size": 15306,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/019bdffcb9fd129424a5762b3a94512c50fa605f"
+      },
+      {
+        "path": "skills/fiftyone-develop-plugin/JAVASCRIPT-PANEL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8aa1ce746d436af696b050262f3c2cd12edd622a",
+        "size": 28386,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/8aa1ce746d436af696b050262f3c2cd12edd622a"
+      },
+      {
+        "path": "skills/fiftyone-develop-plugin/PLUGIN-STRUCTURE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f79c5890c81163f9f114f4467b9f19a305d3384",
+        "size": 2810,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/3f79c5890c81163f9f114f4467b9f19a305d3384"
+      },
+      {
+        "path": "skills/fiftyone-develop-plugin/PYTHON-OPERATOR.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d5115ef70f8f9d86e883ca8acc000b24c1a1d04e",
+        "size": 23519,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/d5115ef70f8f9d86e883ca8acc000b24c1a1d04e"
+      },
+      {
+        "path": "skills/fiftyone-develop-plugin/PYTHON-PANEL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "95040f67af38ede77b79e34bffc085074ecf7b28",
+        "size": 23859,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/95040f67af38ede77b79e34bffc085074ecf7b28"
+      },
+      {
+        "path": "skills/fiftyone-develop-plugin/QUICK-REFERENCE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6df2f83f510e6c6d664b1776630450a002d66640",
+        "size": 5924,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/6df2f83f510e6c6d664b1776630450a002d66640"
+      },
+      {
+        "path": "skills/fiftyone-develop-plugin/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c78beb994a39e183ce78ed29a23f5c425549b20e",
+        "size": 1110,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/c78beb994a39e183ce78ed29a23f5c425549b20e"
+      },
+      {
+        "path": "skills/fiftyone-develop-plugin/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61ddeaa88a981ce1bf2bc74da52c4153d9b1cc1c",
+        "size": 16035,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/61ddeaa88a981ce1bf2bc74da52c4153d9b1cc1c"
+      },
+      {
+        "path": "skills/fiftyone-develop-plugin/TROUBLESHOOTING.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9198c3c369c8d957afdbc7d2d278a1b2be2799e5",
+        "size": 11242,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/9198c3c369c8d957afdbc7d2d278a1b2be2799e5"
+      },
+      {
+        "path": "skills/fiftyone-embeddings-visualization",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a3eb6ded5e6144a03daa3f464faa6fe9a12f15ca",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/a3eb6ded5e6144a03daa3f464faa6fe9a12f15ca"
+      },
+      {
+        "path": "skills/fiftyone-embeddings-visualization/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bb0692a7e6d419b9af801388166bf52537e73cb3",
+        "size": 1300,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/bb0692a7e6d419b9af801388166bf52537e73cb3"
+      },
+      {
+        "path": "skills/fiftyone-embeddings-visualization/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6d74833716fdaaf0d2d992d67cc31b846ae2ecda",
+        "size": 15668,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/6d74833716fdaaf0d2d992d67cc31b846ae2ecda"
+      },
+      {
+        "path": "skills/fiftyone-eval-plugin",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "34f0defcf9ddfaca12f170632b5b92e1e70766eb",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/34f0defcf9ddfaca12f170632b5b92e1e70766eb"
+      },
+      {
+        "path": "skills/fiftyone-eval-plugin/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "30bac1f92025d783c5e8259a05a4fe923d226025",
+        "size": 1221,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/30bac1f92025d783c5e8259a05a4fe923d226025"
+      },
+      {
+        "path": "skills/fiftyone-eval-plugin/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef2c091ebf692447e4836b4e0f7fc49e718eab3d",
+        "size": 18354,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/ef2c091ebf692447e4836b4e0f7fc49e718eab3d"
+      },
+      {
+        "path": "skills/fiftyone-find-duplicates",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "757f43c5bb60aa22e90f5c364212907bfd5ea1bf",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/757f43c5bb60aa22e90f5c364212907bfd5ea1bf"
+      },
+      {
+        "path": "skills/fiftyone-find-duplicates/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b38ae827bfd56fa8dc0817bd2cfffe274bab735",
+        "size": 1244,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/8b38ae827bfd56fa8dc0817bd2cfffe274bab735"
+      },
+      {
+        "path": "skills/fiftyone-find-duplicates/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2736077e5678ffc6104dd49ed86c04c1d196d20c",
+        "size": 8605,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/2736077e5678ffc6104dd49ed86c04c1d196d20c"
+      },
+      {
+        "path": "skills/fiftyone-generate-data-lens-connector",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5da671d168163e096e416e7004f2726e1a3b7cb0",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/5da671d168163e096e416e7004f2726e1a3b7cb0"
+      },
+      {
+        "path": "skills/fiftyone-generate-data-lens-connector/CONNECTOR-TEMPLATE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "143a95d764a3ed787577127f12d38736d87d6d33",
+        "size": 13018,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/143a95d764a3ed787577127f12d38736d87d6d33"
+      },
+      {
+        "path": "skills/fiftyone-generate-data-lens-connector/FIELD-MAPPING-GUIDE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "375f24ab2ff6710a30821499d70c71c1a0917f19",
+        "size": 9236,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/375f24ab2ff6710a30821499d70c71c1a0917f19"
+      },
+      {
+        "path": "skills/fiftyone-generate-data-lens-connector/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e7ce724cb39f4df495e4c1f825baea658557379",
+        "size": 1377,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/7e7ce724cb39f4df495e4c1f825baea658557379"
+      },
+      {
+        "path": "skills/fiftyone-generate-data-lens-connector/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b68684593c5f6ab8ef7d03521e617479ee135f9",
+        "size": 10736,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/4b68684593c5f6ab8ef7d03521e617479ee135f9"
+      },
+      {
+        "path": "skills/fiftyone-issue-triage",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bd3ec24d82a4dfbfa7a99e4e5cff499ca61b52f6",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/bd3ec24d82a4dfbfa7a99e4e5cff499ca61b52f6"
+      },
+      {
+        "path": "skills/fiftyone-issue-triage/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "689432ed5abd14c305d06919e138aed257047b24",
+        "size": 1244,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/689432ed5abd14c305d06919e138aed257047b24"
+      },
+      {
+        "path": "skills/fiftyone-issue-triage/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "27f4f4277cd57ee8360577e725d9ecfe665a9a71",
+        "size": 2416,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/27f4f4277cd57ee8360577e725d9ecfe665a9a71"
+      },
+      {
+        "path": "skills/fiftyone-model-evaluation",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "36482603a12bf91dce8754824ec908f228ce1400",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/36482603a12bf91dce8754824ec908f228ce1400"
+      },
+      {
+        "path": "skills/fiftyone-model-evaluation/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c060dc648364619589a8b8dabee46d4485fa32d",
+        "size": 1190,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/0c060dc648364619589a8b8dabee46d4485fa32d"
+      },
+      {
+        "path": "skills/fiftyone-model-evaluation/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44302b0d4daa733c5d664aaa03e7354c11047ff3",
+        "size": 16468,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/44302b0d4daa733c5d664aaa03e7354c11047ff3"
+      },
+      {
+        "path": "skills/fiftyone-sdk-guidance",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "525d4bc4da2af4fdbaf2537df349b1a4c65735a2",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/525d4bc4da2af4fdbaf2537df349b1a4c65735a2"
+      },
+      {
+        "path": "skills/fiftyone-sdk-guidance/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2573a450fc01538e38aeec7c44d76b24b639af53",
+        "size": 3183,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/2573a450fc01538e38aeec7c44d76b24b639af53"
+      },
+      {
+        "path": "skills/fiftyone-sdk-guidance/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "942239c84ac9961ad4b6715ce63c1483beff1ee8",
+        "size": 13314,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/942239c84ac9961ad4b6715ce63c1483beff1ee8"
+      },
+      {
+        "path": "skills/fiftyone-troubleshoot",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dfd65db437ec27315a80c533247378ee7a681dd4",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/dfd65db437ec27315a80c533247378ee7a681dd4"
+      },
+      {
+        "path": "skills/fiftyone-troubleshoot/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6aeac5fb159abadb0f42b36310ca7096eb8380ee",
+        "size": 1210,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/6aeac5fb159abadb0f42b36310ca7096eb8380ee"
+      },
+      {
+        "path": "skills/fiftyone-troubleshoot/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe2d81fc4151a70d0c612d94fb15e1d029923d83",
+        "size": 15967,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/fe2d81fc4151a70d0c612d94fb15e1d029923d83"
+      },
+      {
+        "path": "skills/fiftyone-voodo-design",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e26260d042028a1e104d6770a63cc0ebb570b7b4",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/e26260d042028a1e104d6770a63cc0ebb570b7b4"
+      },
+      {
+        "path": "skills/fiftyone-voodo-design/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "558ea06b5e2ae0193a2f86da3583ebae9882d11e",
+        "size": 1256,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/558ea06b5e2ae0193a2f86da3583ebae9882d11e"
+      },
+      {
+        "path": "skills/fiftyone-voodo-design/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e6c2516d47864c25be9fec1a560e7291ad62c1df",
+        "size": 8521,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/e6c2516d47864c25be9fec1a560e7291ad62c1df"
+      },
+      {
+        "path": "skills/fiftyone-zoo-remote-model",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c61699fefc0d5797b234eb797d4e374ed7e7e258",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/c61699fefc0d5797b234eb797d4e374ed7e7e258"
+      },
+      {
+        "path": "skills/fiftyone-zoo-remote-model/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37f78ca11e79ec4999052d0c0ac45babd7d1aaae",
+        "size": 1555,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/37f78ca11e79ec4999052d0c0ac45babd7d1aaae"
+      },
+      {
+        "path": "skills/fiftyone-zoo-remote-model/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0e306ca7525f283a4a9c2678656a88b7d615e145",
+        "size": 5636,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/0e306ca7525f283a4a9c2678656a88b7d615e145"
+      },
+      {
+        "path": "skills/fiftyone-zoo-remote-model/references",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f670bcb943a78862698e510e530c94a764e26ed9",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/f670bcb943a78862698e510e530c94a764e26ed9"
+      },
+      {
+        "path": "skills/fiftyone-zoo-remote-model/references/DATALOADER.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d69be6a8153a89d111f1d847bca72487b31e584",
+        "size": 3749,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/2d69be6a8153a89d111f1d847bca72487b31e584"
+      },
+      {
+        "path": "skills/fiftyone-zoo-remote-model/references/DEBUGGING-PRINCIPLES.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0656e5aa0e6e866212a1c618417951f61c14cfa6",
+        "size": 3286,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/0656e5aa0e6e866212a1c618417951f61c14cfa6"
+      },
+      {
+        "path": "skills/fiftyone-zoo-remote-model/references/LABEL-TYPES.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5abe402e9c40a74587cc6bc8915caad6abb1c127",
+        "size": 4651,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/5abe402e9c40a74587cc6bc8915caad6abb1c127"
+      },
+      {
+        "path": "skills/fiftyone-zoo-remote-model/references/MANIFEST.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44437319433e7ef6f9c16c34ad0c78399a4c53e1",
+        "size": 1864,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/44437319433e7ef6f9c16c34ad0c78399a4c53e1"
+      },
+      {
+        "path": "skills/fiftyone-zoo-remote-model/references/MODEL-CLASS.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d909efd2111f5f3514b891cf1b0e5ca00f2c5cba",
+        "size": 7113,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/d909efd2111f5f3514b891cf1b0e5ca00f2c5cba"
+      },
+      {
+        "path": "skills/fiftyone-zoo-remote-model/references/VLM-PATTERNS.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8deb43b88af3ca405ef3f288dd2c188a03ce392",
+        "size": 4855,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/e8deb43b88af3ca405ef3f288dd2c188a03ce392"
+      },
+      {
+        "path": "skills/fiftyone-zoo-remote-model/template",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1098b6e3baaf4aad4d2f22165328d50a0e330feb",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/1098b6e3baaf4aad4d2f22165328d50a0e330feb"
+      },
+      {
+        "path": "skills/fiftyone-zoo-remote-model/template/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e22577c919325d2f524c17856914137f07069c89",
+        "size": 958,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/e22577c919325d2f524c17856914137f07069c89"
+      },
+      {
+        "path": "skills/fiftyone-zoo-remote-model/template/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "110b3961ae5a5b5863f1122905e45c1019e215be",
+        "size": 522,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/110b3961ae5a5b5863f1122905e45c1019e215be"
+      },
+      {
+        "path": "skills/fiftyone-zoo-remote-model/template/zoo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4965fc4e21f8f47dd348a715b3b53ce5685ac34c",
+        "size": 2869,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/4965fc4e21f8f47dd348a715b3b53ce5685ac34c"
+      },
+      {
+        "path": "skills/voxel51-agent-setup",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "80b4e29aff376fb8000ddc95587b12f1eb933a0c",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/80b4e29aff376fb8000ddc95587b12f1eb933a0c"
+      },
+      {
+        "path": "skills/voxel51-agent-setup/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52f0d432a2efaebd6ca049278b7a433e88b1a305",
+        "size": 1412,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/52f0d432a2efaebd6ca049278b7a433e88b1a305"
+      },
+      {
+        "path": "skills/voxel51-agent-setup/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "027cedf57df46646bee2e650eaa988981a44206a",
+        "size": 11877,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/027cedf57df46646bee2e650eaa988981a44206a"
+      },
+      {
+        "path": "skills/voxel51-agent-setup/references",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "76da9eade327483019d7a62bc726c40b5659b45d",
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/trees/76da9eade327483019d7a62bc726c40b5659b45d"
+      },
+      {
+        "path": "skills/voxel51-agent-setup/references/agent-tools.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ce1d2778bda3b9e4b9b6ef81090629d1a81b3367",
+        "size": 2499,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/ce1d2778bda3b9e4b9b6ef81090629d1a81b3367"
+      },
+      {
+        "path": "skills/voxel51-agent-setup/references/analysis-and-labeling.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "480809313360ea8c7f8f2b50ee430a4c10765d95",
+        "size": 4248,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/480809313360ea8c7f8f2b50ee430a4c10765d95"
+      },
+      {
+        "path": "skills/voxel51-agent-setup/references/datasets-and-samples.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51ed809d1680cacc7b6d4bb6cd19142d6021f584",
+        "size": 2259,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/51ed809d1680cacc7b6d4bb6cd19142d6021f584"
+      },
+      {
+        "path": "skills/voxel51-agent-setup/references/delegated-operations.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cf57d17105b048407e6929c2979ea0ca6c332ca1",
+        "size": 1558,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/cf57d17105b048407e6929c2979ea0ca6c332ca1"
+      },
+      {
+        "path": "skills/voxel51-agent-setup/references/not-available.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b386c07689511fd06239d9de97a40aef834bc14f",
+        "size": 2981,
+        "url": "https://api.github.com/repos/voxel51/fiftyone-skills/git/blobs/b386c07689511fd06239d9de97a40aef834bc14f"
+      }
+    ],
+    "truncated": false
+  }
+}

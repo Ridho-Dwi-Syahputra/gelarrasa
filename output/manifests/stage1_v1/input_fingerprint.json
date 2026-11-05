@@ -1,0 +1,7 @@
+{
+  "digest": "e79d9012d7f1701287450c5c135eed1c298befec697fc4aa8737277b3f19d954",
+  "images": 2400,
+  "ignored_root_files": [],
+  "train_scan": "direct children only; subdirectories excluded",
+  "sample_target_values_used": false
+}

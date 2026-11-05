@@ -1,0 +1,17 @@
+{
+  "model": "vit_small_patch14_dinov2.lvd142m",
+  "repository": "timm/vit_small_patch14_dinov2.lvd142m",
+  "revision": "4610ca143709d58a633b6397a74412c2c3842454",
+  "checkpoint_sha256": "04d27f3400d059fc0cfd7d17dd1909a75bf3ea8fb3eeb48b97cb99e57ee20081",
+  "license": "apache-2.0",
+  "vision_only": true,
+  "reference": "https://huggingface.co/timm/vit_small_patch14_dinov2.lvd142m",
+  "checkpoint_default_resolution": 518,
+  "exploratory_resolution": 224,
+  "finetuned_on_competition": false,
+  "inference_device": "cpu",
+  "torch": "2.11.0+cpu",
+  "timm": "1.0.27",
+  "transform": "stage1 full-frame letterbox224 LANCZOS + ImageNet normalization",
+  "output": "L2-normalized CLS embedding, 384 dimensions"
+}

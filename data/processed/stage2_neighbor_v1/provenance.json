@@ -1,0 +1,22 @@
+{
+  "version": "stage2_neighbor_v1",
+  "purpose": "exploratory train/test cluster folders",
+  "assignment_source": "output/groups/stage2_neighbor_v1/assignments.csv",
+  "assignment_sha256": "1ce14100c3985b8349a4c0c1c438ebbafc778c051462e0b19328659d079ec094",
+  "train": 1920,
+  "test": 480,
+  "all_copies_hash_verified": true,
+  "copy_method": "independent shutil.copy2",
+  "preprocessing": "stage1 native EXIF-corrected RGB PNG; no additional crop/resize",
+  "folder_names": "anonymous algorithmic cluster IDs",
+  "semantic_names_assigned": false,
+  "per_image_manual_overrides": 0,
+  "archives_used": false,
+  "verified_stale_members_removed": [],
+  "backbone": "frozen image-only DINOv2",
+  "head_trained_on_unique_competition_train": true,
+  "test_used_for_fit": false,
+  "reference_old_stage1_unchanged": true,
+  "active_contract_promoted": false,
+  "script_sha256": "303fb492de6c29d162e5a95243c12eef22f94be39d81941616fdb106d6c6e5d1"
+}

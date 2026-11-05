@@ -1,0 +1,17 @@
+split,review_alias,cluster_id,images
+test,cardboard,cluster_02,50
+test,electronic,cluster_05,61
+test,foodwaste,cluster_04,46
+test,glass,cluster_06,87
+test,metal,cluster_01,62
+test,paper,cluster_07,48
+test,plastic,cluster_03,90
+test,textile,cluster_00,36
+train,cardboard,cluster_02,213
+train,electronic,cluster_05,216
+train,foodwaste,cluster_04,170
+train,glass,cluster_06,302
+train,metal,cluster_01,272
+train,paper,cluster_07,290
+train,plastic,cluster_03,269
+train,textile,cluster_00,188

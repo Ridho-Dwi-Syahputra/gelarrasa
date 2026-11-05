@@ -1,0 +1,16 @@
+{
+  "total": 2400,
+  "train": 1920,
+  "test": 480,
+  "decode_errors": 0,
+  "raw_hashes_rechecked": 2400,
+  "rgb_roundtrip_verified": 2400,
+  "pixel_unique_train": 1919,
+  "semantic_labels_ready": false,
+  "classifier_trained": false,
+  "category_accuracy_measured": false,
+  "cluster_review_count": 612,
+  "train_review_count": 498,
+  "test_review_count": 114,
+  "claim": "Executed EDA and unsupervised clustering; no semantic ground truth evaluation"
+}

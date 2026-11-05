@@ -1,0 +1,47 @@
+{
+  "retrieved_at_utc": "2026-11-04T17:15:45.798208+00:00",
+  "files": [
+    {
+      "path": "docs/rules/sources/official_report_template_20261105.txt",
+      "source_url": "https://docs.google.com/document/d/1mtwAMvd3a8Zn7zr4fo9gZtsT3zWDdr_7bgvwA77xrEE/export?format=txt",
+      "sha256": "713e940f2821724e8e60d33702868520ad7d9ebf9ca6e7fb97e871ca8dd28220",
+      "bytes": 5283
+    },
+    {
+      "path": "docs/rules/sources/official_report_template_20261105.docx",
+      "source_url": "https://docs.google.com/document/d/1mtwAMvd3a8Zn7zr4fo9gZtsT3zWDdr_7bgvwA77xrEE/export?format=docx",
+      "sha256": "d061137a7872055144b162f84a6c92b997f0e60016a68cb7888c8f801dce470a",
+      "bytes": 417456
+    },
+    {
+      "path": "docs/rules/sources/official_report_template_20261105.pdf",
+      "source_url": "https://docs.google.com/document/d/1mtwAMvd3a8Zn7zr4fo9gZtsT3zWDdr_7bgvwA77xrEE/export?format=pdf",
+      "sha256": "9aa58a57abeec8b425e38bd1a898463e72da4d5470a7cdd56dae3d2ab848b9b2",
+      "bytes": 407611
+    },
+    {
+      "path": "docs/rules/sources/competition_rules_user_20261105.txt",
+      "source": "user attachment",
+      "sha256": "8cad234b3d5e287ef4a3d9c458c2984689ba2348b76cca7c8b73cfa2a0ab43e1",
+      "bytes": 25049
+    },
+    {
+      "path": "docs/rules/HANDBOOK PRELIMINARY ROUND DSC GELAR RASA 2026.pdf",
+      "source": "user-provided local PDF",
+      "sha256": "a8730a90499af9c207bba79a1ff03db23a9c7556fc9bdc6e247dd4a160d4a996",
+      "bytes": 5722768
+    },
+    {
+      "path": "docs/rules/sources/handbook_extracted.json",
+      "source": "pypdf extraction of handbook",
+      "sha256": "121f9fb1ee2636cc61a80e42382453fb258ebf226a09eb5937a8cdca56f527ac",
+      "bytes": 14414
+    },
+    {
+      "path": "docs/rules/sources/padlet_qna_20261105.json",
+      "source_url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk",
+      "sha256": "b73e5efb0afd407797ee0f92d9ef56ca3bc76168c7cc7788b2dd1ee767cd70e7",
+      "bytes": 28142
+    }
+  ]
+}

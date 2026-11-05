@@ -1,0 +1,3 @@
+# Preserve exact bytes across Windows/Linux clones for provenance hashes.
+* -text
+# The webinar PDF is stored as verified chunks; Git LFS quota is unavailable.

@@ -1,0 +1,157 @@
+{
+  "source_path": "docs/materi/Materi 2 (Seeing is Believing_ The Art of Data Visualization for Sustainability).pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Seeing is Believing: \nThe Art of Data Visualization for\nSustainability\n"
+    },
+    {
+      "page": 2,
+      "text": "Data Visualization for \nSustainability & Data Types \nPrinciples & Narratives \nof Data Visualization \nFrom Concept to Execution\nA Practical Framework for \nDashboard & Infographic Design \n"
+    },
+    {
+      "page": 3,
+      "text": "Data Visualization for \nSustainability & Data Types \n"
+    },
+    {
+      "page": 4,
+      "text": "Sustainability?\n"
+    },
+    {
+      "page": 5,
+      "text": "Definitions\n\"Pembangunan berkelanjutan adalah pembangunan yang memenuhi kebutuhan generasi masa kini tanpa mengorbankan kemampuan\ngenerasi mendatang untuk memenuhi kebutuhan mereka sendiri.” (Brundtland Report / UN WCED, 1987)\n\"Keberlanjutan merupakan titik temu keseimbangan antara tiga pilar utama: kelestarian lingkungan (Planet), keadilan & kesejahteraan\nsosial (People), dan keberlanjutan ekonomi (Profit ).” (Elkington, 1994)\nThe Growth of Sustainability Metrics\n"
+    },
+    {
+      "page": 6,
+      "text": "Visualizing Sustainability: Connecting Data to Impact\nWhy It Matters?\n●\nSave the World \n●\nFunding & Investment\n●\nMarket & Reputation\n●\nOperational Efficiency\n●\nRegulatory Compliance\n●\nRisk Mitigation\n●\nEvidence-Based Policy\nThe Role of Data Visualization\n\"Mapping environmental data bridges the \ngap between raw figures and real-world \nimpact.\"\n"
+    },
+    {
+      "page": 7,
+      "text": "Case Study\n"
+    },
+    {
+      "page": 8,
+      "text": "Nature of Sustainability Data\n1. Structured Data (SQL / Relational)\nCharacteristics: Tabular format (rows & columns), rigid \nschema (schema-on-write).\nSustainability Use Cases:\nEnv Reports in Excel\nMunicipal waste tonnage records at landfill sites (TPA).\n2. Semi-Structured Data (NoSQL / Non-Relational)\nCharacteristics: Document-based (JSON/BSON), dynamic \n& flexible schema (schema-on-read)\nSustainability Use Cases:\nReal-time IoT sensor telemetry payloads (air quality & \nweather sensors sending dynamic metadata/variables per \nsecond).\n3. Unstructured Data \nCharacteristics: No inherent tabular or key-value schema\nSustainability Use Cases:\nBioacoustic audio files (.wav/.mp3)\nSatellite & drone raster imagery for land cover\nUnstructured PDF policy & environmental impact reports.\n"
+    },
+    {
+      "page": 9,
+      "text": "Matching Data to the Right Visual Form\n\"Minimising audience cognitive load to ensure information is easily digestible \n(Knaffic, 2018).\"\n"
+    },
+    {
+      "page": 10,
+      "text": "Turning Data into Insights: Principles & \nNarratives of Data Visualization \n"
+    },
+    {
+      "page": 11,
+      "text": "Bad graphs are every where\nwt* visualization\n"
+    },
+    {
+      "page": 12,
+      "text": "Choose appropriate visual display: most common types of visuals\nSimple guideline : data-to-viz\n"
+    },
+    {
+      "page": 13,
+      "text": "Choose appropriate visual display: most common types of visuals\nWhen you have just a number or two that \nyou want to communicate:\nuse the numbers directly.\nTables interact with our verbal system, \nwhich means that we read\nthem\n"
+    },
+    {
+      "page": 14,
+      "text": "To be avoided\n1. Use Baseline\n2. Avoid 3D\n3. Secondary y‐axis: generally not a good idea\n"
+    },
+    {
+      "page": 15,
+      "text": "5. Continuity.\nThe principle of continuity is similar to \nclosure: when looking at objects, our \neyes seek the smoothest path and \nnaturally create continuity in what we \nsee even where it may not explicitly \nexist.\nGestalt Principles of Visual Perception\n1. Proximity. \nWe tend to think of objects that are physically \nclose together as belonging to part of a group.\n2. Similarity.\nObjects that are of similar color, shape, \nsize, or orientation are perceived as \nrelated or belonging to part of a group.\n3. Enclosure. \nWe think of objects that are physically \nenclosed together as belonging to part of \na group.\n4. Closure.\nThe closure concept says that people like \nthings to be simple and to fit in the \nconstructs that are already in our heads.\n6. Connection.\nThe final Gestalt principle we’ll focus on is \nconnection. We tend to\nthink of objects that are physically \nconnected as part of a group.\n"
+    },
+    {
+      "page": 16,
+      "text": "Common visual clutter\nLack of visual order\nNon‐strategic use of contrast\n"
+    },
+    {
+      "page": 17,
+      "text": "Eliminate clutter\nStep by Step Decluttering\n"
+    },
+    {
+      "page": 18,
+      "text": "focusing attention.\n"
+    },
+    {
+      "page": 19,
+      "text": "Preattentive attributes\n"
+    },
+    {
+      "page": 20,
+      "text": "Narratives\n•\nWho is your audience? When communicating with stakeholders and project partners, it’s \nimportant to consider who you’re working with. Consider all of the people who need to \nunderstand the BI tools and processes you build when communicating. The sales or marketing \nteam has different goals and expertise than the data science team, for example.\n•\nWhat do they already know? Because different users have different levels of knowledge and \nexpertise, it can be useful to consider what they already know before communicating with them. \nThis provides a baseline for your communications and prevents you from overexplaining yourself \nor skipping over any information they need to know.\n•\nWhat do they need to know? Different stakeholders need different kinds of information. For \ninstance, a user might want to understand how to access and use the data or any dashboards \nyou create, but they probably aren’t as interested in the nitty-gritty details about how the data was \ncleaned.\n•\nHow can you best communicate what they need to know? After you have considered your \naudience, what they already know, and what they need to know, you need to choose the best \nway to communicate that information to them. This might be an email report, a small meeting, or \na cross-team presentation with a Q&A section.\n"
+    },
+    {
+      "page": 21,
+      "text": "Narratives\nA story has a clear beginning, middle, and End. Including the power of repetition, narrative flow, considerations with spoken and \nwritten narratives, and various tactics to ensure that our story comes across clearly in our communications\n"
+    },
+    {
+      "page": 22,
+      "text": "From Concept to Execution\n"
+    },
+    {
+      "page": 23,
+      "text": "Understand the Context\nhttps://docs.google.com/document/d/11K4eqc_rhZql__yg9sqDYFP5GnV1dAkHr36NqIUyG5I/template/pre\nview\nyou need to understand their needs before planning the rest of the project details or strategy\n•\nBusiness problem: What is the primary question to be answered or problem \nto be solved?\n•\nStakeholders: Who are the major stakeholders of this project, and what are \ntheir job titles?\n•\nStakeholder usage details: How will the stakeholders use the BI tool?\n•\nPrimary requirements: What requirements must be met by this BI tool in \norder for this project to be successful?\n"
+    },
+    {
+      "page": 24,
+      "text": "Anticipate data limitations\nFactors of data availability\nData integrity: The accuracy, completeness, consistency, and trustworthiness of data throughout its life cycle.\nData visibility: The degree or extent to which information can be identified, monitored, and integrated from disparate internal and \nexternal sources.\nUpdate frequency: How often disparate data sources are being refreshed with new information.\nChange: The process of altering data, either through internal processes or external influence.\nMissing data\nIf you have incomplete or non-existent data, you might not have enough data to reach a conclusion. Or, you might even be exploring \ndata about a totally different business problem\nMisaligned data\nSources might define and measure things in completely different ways. In cases like these, establishing how to measure things early \non standardizes the data across the board for greater reliability and accuracy. This will make sure comparisons between sources are \nmeaningful and insightful.\nDirty data\nDirty data refers to data that contains errors. Dirty data can cause errors in your system, inaccurate reports, and poor decision-\nmaking. Implementing processes for cleaning data by fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or \nincomplete data within a dataset is one way you can prepare for this limitation.\n"
+    },
+    {
+      "page": 25,
+      "text": "PRD\n●\nPurpose: Briefly describe why this project is happening and explanation of why the company should invest its resources in it.\n●\nKey dependencies: Detail the major elements of this project. Include the team, primary contacts, and expected deliverables. Are \nthere any inter-team deliverables required?\n●\nStakeholder requirements: List the established stakeholder requirements, based on the Stakeholder Requirements Document. \nPrioritize the requirements as: R - required, D - desired, or N - nice to have.\n●\nSuccess criteria: Clarify what success looks like for this project. Include explicit statements about how to measure success. Use \nSMART criteria.\n●\nUser journeys: Document the current user experience and the ideal future experience.\n●\nAssumptions: Explicitly and clearly state any assumptions you are making.\n●\nCompliance and privacy: Include compliance, privacy, or legal dimensions to consider.\n●\nAccessibility: List key considerations for creating accessible reports for all users. Who needs to access this feature? How are they \nviewing and interacting with it?\n●\nRoll-out plan: Briefly describe the expected scope, priorities and timeline. Consider at what points during the rollout will \nmeasurements be made to determine whether the feature is performing as expected? Is there a rollback plan and timeline if this \nfeature does not meet its intended goals?\nhttps://docs.google.com/document/d/1Vq9G_MAQRz4V6iZF_Z-v_u0AcwloB96lc6wwYzz9EDg/template/preview\n"
+    },
+    {
+      "page": 26,
+      "text": "Strategy Doc\nThe Strategy Document is a collaborative place to align with stakeholders about project deliverables. You will work together to establish \ninformation about dashboard functionality and associated metrics and charts.\nhttps://docs.google.com/document/d/1YXQAHDE6celSo-P-VWGsZFVM6CmF6oJqn-EfflFIlT0/template/preview?resourcekey=0-\nSH_P9FnbJDTItkZJQy8XNg#heading=h.bw4sh12dc86m\n"
+    },
+    {
+      "page": 27,
+      "text": ""
+    },
+    {
+      "page": 28,
+      "text": "A Practical Framework for Dashboard & \nInfographic Design \n"
+    },
+    {
+      "page": 29,
+      "text": ""
+    },
+    {
+      "page": 30,
+      "text": ""
+    },
+    {
+      "page": 31,
+      "text": "ETL vs ELT\nDifferences\nETL\nELT\nThe order of extraction, \ntransformation, and loading \ndata\nData is extracted, transformed in a staging area, and loaded \ninto the target system\nData is extracted, loaded into the target system, and transformed as \nneeded for analysis\nLocation of transformations\nData is moved to a staging area where it is transformed \nbefore delivery\nData is transformed in the destination system, so no staging area is \nrequired\nAge of the technology\nETL has been used for over 20 years, and many tools have \nbeen developed to support ETL pipeline systems\nELT is a newer technology with fewer support tools built-in to \nexisting technology\nAccess to data within the \nsystem\nETL systems only transform and load the data designated \nwhen the warehouse and pipeline are constructed\nELT systems load all of the data, allowing users to choose which \ndata to analyze at any time\nCalculations\nCalculations executed in an ETL system replace or revise \nexisting columns in order to push the results to the target \ntable\nCalculations are added directly to the existing dataset\nCompatible storage systems\nETL systems are typically integrated with structured, \nrelational data warehouses\nELT systems can ingest unstructured data from sources like data \nlakes\nSecurity and compliance\nSensitive information can be redacted or anonymized before \nloading it into the data warehouse, which protects data\nData has to be uploaded before data can be anonymized, making it \nmore vulnerable\nData size\nETL is great for dealing with smaller datasets that need to \nundergo complex transformations\nELT is well-suited to systems using large amounts of both structured \nand unstructured data\nWait times\nETL systems have longer load times, but analysis is faster \nbecause data has already been transformed when users \naccess it\nData loading is very fast in ELT\nsystems because data can be ingested without waiting for \ntransformations to occur, but analysis is slower\n"
+    },
+    {
+      "page": 32,
+      "text": "Factor\nDefinition\nExample\nWorkload\nThe combination of transactions, queries, data \nwarehousing analysis, and system commands being \nprocessed by the database system at any given \ntime.\nOn a daily basis, your database needs to process sales reports, perform \nrevenue calculations, and respond to real-time requests from stakeholders.All \nof these needs represent the workload the database needs to be able to \nhandle.\nThroughput\nThe overall capability of the database’s hardware \nand software to process requests.\nThe system’s throughput is the combination of input and output speed, the \nCPU speed, the machine’s ability to run parallel processes, the database \nmanagement system, and the operating system and system software.\nResources\nThe hardware and software tools available for use \nin a database system.\nThe database system is primarily cloud-based, which means it depends on \nonline resources and software to maintain functionality.\nOptimization\nMaximizing the speed and efficiency with which data \nis retrieved in order to ensure high levels of \ndatabase performance.\nContinually checking that the database is running optimally is part of your job \nas the team's BI professional.\nContention\nWhen two or more components attempt to use a \nsingle resource in a conflicting way.\nBecause this system automatically generates reports and responds to user-\nrequests, there are times when it may be trying to run the queries on the same \ndatasets at the same time, causing slowdown for users.\nThings to Consider\n"
+    },
+    {
+      "page": 33,
+      "text": "Data Quality Testing\n•\nCompleteness: Does the data contain all of the desired components or \nmeasures?\n•\nConsistency: Is the data compatible and in agreement across all systems?\n•\nConformity: Does the data fit the required destination format?\n•\nAccuracy: Does the data conform to the actual entity being measured or \ndescribed?\n•\nRedundancy: Is only the necessary data being moved, transformed, and stored \nfor use?\n•\nTimeliness: Is the data current?\n•\nIntegrity: Is the data accurate, complete, consistent, and trustworthy? (Integrity is \ninfluenced by the previously mentioned qualities.) Quantitative validations, \nincluding checking for duplicates, the number of records, and the amounts listed, \nhelp ensure data’s integrity.\n"
+    },
+    {
+      "page": 34,
+      "text": "Tested quality\nQuality strategy\nSQL query\nSage’s observation\nIntegrity\nIs the data accurate, \ncomplete, consistent, and \ntrustworthy?\nSELECT *\nFROM Orders\nIn the sales_warehouse database, the order with ID 7 has the incorrect total value.\nCompleteness\nDoes the data contain all of \nthe desired components or \nmeasures?\nSELECT COUNT(*)\nFROM Locations\nThe Locations table of the sales_warehouse database has an extra address. In the \nstore database there are 60 records, whereas the sales_warehouse database table \nhas 61.\nConsistency\nIs the data compatible and in \nagreement across all \nsystems?\nSELECT Phone\nFROM Users\nSeveral users within the sales_warehouse database have phones without the \"+\" \nprefix.\nConformity\nDoes the data fit the required \ndestination format?\nSELECT id, postcode\nFROM sales_warehouse.Locations\nThe location ZIP code for the record with ID 6 in the sales_warehouse database is \n722434213, which is wrong. The United States postal code contains either five digits \nor five digits followed by a hyphen (dash) and another four digits (e.g., 12345-1234).\nFeature\nQuality Strategy\nSQL query\nSage’s Observation\nIntegrity\nIs the data accurate, \ncomplete, consistent, and \ntrustworthy?\nDESCRIBE Users\nUsers.Status from the store database and Users.is_active from the sales_warehouse database seem to be \nrelated fields. However, it is not obvious how the Status column is transformed into the is_active boolean \ncolumn. Is it possible that with a new status value, the ETL pipeline will fail?\nConsistency\nIs the data compatible and in \nagreement across all \nsystems?\nDESCRIBE \nProducts\nProducts.Inventory from the store database has the varchar type instead of the int(10) in the \nsales_warehouse database Products.inventory field. This can be a problem if there is a value with characters.\nAccuracy\nDoes the data conform to the \nactual entity being measured \nor described?\nDESCRIBE Sales\nThe data type of Sales.Date in the store database is different from its data type in sales_warehouse (date vs \ndatetime). It might not be a problem if time is not important for the sales_warehouse database fact table.\nRedundancy\nIs only the necessary data \nbeing moved, transformed, \nand stored for use?\nDESCRIBE Sales\nThe table Sales from the sales_warehouse database has a unique index constraint on OrderId, ProductId, \nUserId columns. It can be added to the warehouse schema.\nUsing SQL to find problems\nCompare the sales_warehouse database to the original store database to check for completeness, consistency, conformity, accuracy, redundancy, \nintegrity, and timeliness\nQuality testing sales_warehouse\nQuality testing store\n"
+    },
+    {
+      "page": 35,
+      "text": "Without other visual cues, most members of your audience will \nstart at the top left of your visual or slide and scan with their eyes \nin zig-zag motions across the screen or page. They see the top \nof the page first (Knaffic, 2018)\nStart Visualizing\n"
+    },
+    {
+      "page": 36,
+      "text": "Demo\n"
+    },
+    {
+      "page": 37,
+      "text": "Thank You\n"
+    },
+    {
+      "page": 38,
+      "text": "Data tasks\nDA\nBI\nInvolvement\nThe first step of the data analysis cycle is to define the business \nproblem and establish stakeholder expectations.\nIn addition to defining business problems and asking questions to establish \nexpectations, BI professionals observe current processes to determine how they can \nbe improved to align more with stakeholder needs.\nAnswering \nquestions\nData analysts are often tasked with deciding what data they need \nto answer their stakeholders’ questions and gathering that data for \nuse.\nBI professionals evaluate the data needs of their stakeholders, identify necessary \nsources, and design pipeline systems that automatically and continuously gather that \ndata for stakeholders to access.\nGathering data\nOnce data has been gathered, data analysts must ensure that it is \nclean and ready for use. They also perform transformations on the \ndata to prepare it for analysis.\nBI professionals build tools that clean and transform data automatically within a \npipeline so that these processes occur to all data being ingested by the pipeline \nprocess.\nStorage systems\nData analysts must adhere to organization conventions and store \nhistorical data for analysis.\nBI professionals develop storage systems that allow intake from multiple source \nsystems into a destination database, while governing the database schema and \noptimizing the system.\nDescriptive and \npredictive \nanalytics\nData analysis focuses on descriptive analysis that describes \nhistorical trends.\nBI uses analysis of historical trends to perform predictive analytics that enable \norganizations to determine likely future trends and act accordingly.\nPresenting \ninsights\nAfter analysis, data analysts present their findings to inform the \nstakeholders’ ultimate decision.\nBI analysts create tables, reports, and dashboards that empower stakeholders with \naccess to the data they need to inform their whole decision-making process.\nIteration\nAfter the initial analysis, data analysts may repeat their analysis \nbased on their findings or new information.\nBI analysts continue to iterate on processes to improve and optimize the systems and \ntools they have built to ensure they continue to be useful for stakeholders.\nAppendix\n"
+    }
+  ]
+}

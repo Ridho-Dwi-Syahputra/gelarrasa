@@ -1,0 +1,33 @@
+{
+  "method": "SCAN-inspired neighbor consistency head refinement",
+  "backbone": "frozen DINOv2 ViT-S/14",
+  "features_sha256": "135fe5c871adbcb77a3bcd962a9362e05bd51ea6ba0ba0683a47b0908dab15fd",
+  "groups_sha256": "198c7a6a625ead0bf2c8d37d37ecd9fa62de0137b496a8d2a24894cdab760f37",
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "entropy_weights": [
+    0.5,
+    2.0
+  ],
+  "epochs": 120,
+  "optimizer": "Adam",
+  "lr": 0.03,
+  "init": "KMeans8 seed-matched centers: W=20*center,b=-10*norm(center)^2",
+  "objective": "mean(-log(dot(p_anchor,p_neighbor))) - lambda*H(mean(p_anchor))",
+  "nearest_neighbors": 10,
+  "duplicate_policy": "unique train; exclude every matching pixel hash",
+  "validation": "20% train candidate groups; validation graph points ONLY to fit train",
+  "selection": "minimum validation consistency minus 2*entropy at 10-epoch checkpoints; 8 occupied clusters in both subsets",
+  "caveat": "entropy encourages balance; true category sizes unknown. No semantic accuracy is measured.",
+  "no_archive_labels": true,
+  "no_semantic_targets": true,
+  "test_used_in_fit": false,
+  "training_augmentations": false,
+  "self_labeling_stage": false,
+  "full_scan_reproduction": false,
+  "reference": "https://arxiv.org/html/2005.12320v2",
+  "script_sha256": "2c9014e74bbd30ee6e92106239f6ffe992d8711da8a2c117b69ed49a98a99540"
+}

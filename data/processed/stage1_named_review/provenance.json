@@ -1,0 +1,23 @@
+{
+  "purpose": "named_cluster_review_only",
+  "source_assignment_sha256": "709ca688c5ff1e56d74ac7275cec75f19829e9cc7efb8d52d9306c78387bd903",
+  "archive_membership_sha256": "72ef3aa903fb1103ba7e5c79327f730422293ccf635f3d60a57659406f824752",
+  "naming_rule": "largest archived category block per frozen cluster, no per-image reallocation",
+  "naming_source": "data\\Dataset DSC GelarRasa 2026\\train\\label",
+  "source_label_origin": "assistant_visual_annotation_not_official_ground_truth",
+  "eligible_for_competition_training": false,
+  "semantic_ground_truth": false,
+  "active_team_mapping_updated": false,
+  "main_notebook_updated": false,
+  "membership_changed": false,
+  "copies_are_hardlinks": false,
+  "train_images": 1920,
+  "test_images": 480,
+  "output_hashes_verified": 2400,
+  "protected_artifacts": {
+    "output\\groups\\stage1_v1\\cluster_assignments.csv": "709ca688c5ff1e56d74ac7275cec75f19829e9cc7efb8d52d9306c78387bd903",
+    "data\\processed\\stage1_v1\\cluster_category_mapping_TEMPLATE.csv": "362794212833331aa2d4523666b2c020c066252ae4486ab948376ae7eaccca81",
+    "notebook\\01_EDA_Preprocessing_Clustering.ipynb": "4139f8fb91714d8ec909a91d827786ed5e37352fbc820d13efede1f6a073c008",
+    "configs\\data_contract.json": "5550c65120696f471eb39908ab34708be451d66be16840ea11d5723ce569cabc"
+  }
+}

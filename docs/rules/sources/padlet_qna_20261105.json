@@ -1,0 +1,416 @@
+{
+  "source_url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk",
+  "retrieved_at_utc": "2026-11-04T17:18:10.337149+00:00",
+  "post_count": 19,
+  "comment_count": 31,
+  "official_reply_count": 17,
+  "posts_pagination_complete": true,
+  "comments_pagination_complete": true,
+  "note": "Public content only; no session state, login data, analytics or participant profile records retained in project. Unanswered participant questions are not official rules.",
+  "posts": [
+    {
+      "post_id": "post_4b3zaM6e0xkrQ2j7",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/4b3zaM6e0xkrQ2j7",
+      "title": "Clustering Awal",
+      "question": "Ini kan data trainnya harus diclustering terlebih dahulu.. untuk penamaan awal hasil akhir cluster setelah dijalankan model clustering, apakah boleh dilakukan manual???.. \"misal cluster 0 sebagai textile dlll\"",
+      "created_at": "2026-10-31T05:41:20.189Z",
+      "updated_at": "2026-10-31T05:41:20.189Z",
+      "comments": [
+        {
+          "id": "comment_NDvPbJArnGRAw6Za",
+          "official_organizer": true,
+          "body": "Terima kasih atas pertanyaannya, Kak. Izin menjawab, penamaan cluster secara manual diperbolehkan. Hal tersebut dapat dilakukan sebagai bagian dari proses analisis dan pengembangan model, selama proses clustering dilakukan menggunakan model yang dikembangkan sendiri oleh peserta.",
+          "created_at": "2026-11-01T04:09:23.185Z",
+          "updated_at": "2026-11-01T04:09:23.185Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post_Ae2Rav7OGvrAQnz4",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/Ae2Rav7OGvrAQnz4",
+      "title": "izin memastikan kak, apakah folder train memang tidak memiliki ground truth atau label klasifikasi (seperti train.csv)? karena seluruh citra latih hanya disatukan dalam satu folder. jika demikian, apakah penamaan cluster boleh dilakukan secara manual berdasarkan karakteristik citranya?",
+      "question": "",
+      "created_at": "2026-10-31T05:50:16.044Z",
+      "updated_at": "2026-10-31T05:50:16.044Z",
+      "comments": [
+        {
+          "id": "comment_LQg94rk7xZzXwZBN",
+          "official_organizer": true,
+          "body": "Terima kasih atas pertanyaannya, Kak. Izin menjawab, benar bahwa folder train yang disediakan tidak memiliki ground truth atau label klasifikasi dan seluruh citra latih ditempatkan dalam satu folder.Untuk penamaan cluster, peserta diperbolehkan melakukannya secara manual berdasarkan karakteristik citra, dengan ketentuan proses clustering menggunakan model yang dikembangkan sendiri oleh peserta.",
+          "created_at": "2026-11-01T04:10:04.308Z",
+          "updated_at": "2026-11-01T04:10:04.308Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post_e9YpQNXw9d3lWxjM",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/e9YpQNXw9d3lWxjM",
+      "title": "mas itu yang udah ngehasilin 0.9 zero shot ya KWKWKW, training gaada groundtruth kok cepet banget TIPSNYA DONG KWKW",
+      "question": "",
+      "created_at": "2026-10-31T06:20:08.374Z",
+      "updated_at": "2026-10-31T06:20:08.374Z",
+      "comments": [
+        {
+          "id": "comment_9W0l4ye18yoM4yzo",
+          "official_organizer": false,
+          "body": "ckckkck tru tru",
+          "created_at": "2026-10-31T06:28:29.627Z",
+          "updated_at": "2026-10-31T06:28:29.627Z"
+        },
+        {
+          "id": "comment_oMQlbpZ9Ergl416B",
+          "official_organizer": false,
+          "body": "untuk panitia yang terhormat harap DISELEKSI lebih lanjut mengenai NOTEBOOK YANNG DIKERAHKAN YAAkalau bisa sekalian aja dataset yang digunain gimana wkkwk, peace",
+          "created_at": "2026-10-31T06:30:44.995Z",
+          "updated_at": "2026-10-31T06:30:44.995Z"
+        },
+        {
+          "id": "comment_g1QXb0qEM3k3V8Wa",
+          "official_organizer": false,
+          "body": "peace jg kk",
+          "created_at": "2026-10-31T06:37:15.265Z",
+          "updated_at": "2026-10-31T06:37:15.265Z"
+        },
+        {
+          "id": "comment_rNRDw1Ry5yxkb2KB",
+          "official_organizer": false,
+          "body": "Mending fokus ke lomba aja, jangan julid",
+          "created_at": "2026-10-31T17:02:20.630Z",
+          "updated_at": "2026-10-31T17:02:54.979Z"
+        },
+        {
+          "id": "comment_9W0l4ye1xBeM4yzo",
+          "official_organizer": true,
+          "body": "Terima kasih kak atas perhatiannya, nantinya panitia akan melakukan pemeriksaan terhadap notebook analisis peserta untuk memastikan bahwa seluruh proses pengerjaan telah sesuai dengan ketentuan kompetisi. Apabila ditemukan adanya indikasi kecurangan atau pelanggaran terhadap peraturan yang berlaku, panitia akan melakukan peninjauan dan menindaklanjutinya sesuai dengan ketentuan kompetisi yaa kak. Terima kasih!",
+          "created_at": "2026-11-01T04:10:31.160Z",
+          "updated_at": "2026-11-01T04:10:31.160Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post_NvylWExOjy4wZ0OX",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/NvylWExOjy4wZ0OX",
+      "title": "",
+      "question": "train nya boleh dilabeling manual ga min?  ,atau memang harus clustering sendiri     sama untuk model berarti tidak boleh sama sekali pakai VLM cth SigLip dll, untuk apapun itu, mau feature extraction sekalipun",
+      "created_at": "2026-10-31T08:53:01.573Z",
+      "updated_at": "2026-10-31T08:53:01.573Z",
+      "comments": [
+        {
+          "id": "comment_Lz7l4zrOxPXd4Y0X",
+          "official_organizer": true,
+          "body": "Terima kasih atas pertanyaannya, Kak. Izin menjawab. Peserta lebih dianjurkan untuk mengembangkan model clustering secara mandiri yaa. Selain itu, benar bahwa penggunaan VLM (Vision-Language Model), seperti SigLIP, tidak diperbolehkan dalam kompetisi ini, termasuk untuk keperluan feature extraction maupun tahapan lainnya.",
+          "created_at": "2026-11-01T04:11:00.997Z",
+          "updated_at": "2026-11-01T04:11:00.997Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post_E1P8aXr4pjJjZwA9",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/E1P8aXr4pjJjZwA9",
+      "title": "",
+      "question": "Izin tanya kak, apakah boleh memakai pretrained weights non-VLM (misalnya ResNet/EfficientNet dari ImageNet) untuk feature extraction atau transfer learning, selama dilatih/di fine-tune sendiri oleh peserta? Terima kasih!",
+      "created_at": "2026-10-31T09:46:34.457Z",
+      "updated_at": "2026-10-31T09:46:34.457Z",
+      "comments": [
+        {
+          "id": "comment_1DKp4maox1kn4yXm",
+          "official_organizer": true,
+          "body": "Terima kasih atas pertanyaannya, Kak. Izin menjawab, penggunaan pretrained weights non-VLM, seperti ResNet atau EfficientNet, diperbolehkan selama model tersebut dijalankan dan dilatih atau di-fine-tune secara mandiri oleh peserta dalam lingkungan pengerjaan masing-masing.",
+          "created_at": "2026-11-01T04:11:27.742Z",
+          "updated_at": "2026-11-01T04:11:27.742Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post_YBl3Z2KkbVB6Wv16",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/YBl3Z2KkbVB6Wv16",
+      "title": "lucu",
+      "question": "itu dataset baru rilis 12 jam, kok udah ada yg score nya 1 wkwk",
+      "created_at": "2026-10-31T17:03:48.018Z",
+      "updated_at": "2026-10-31T17:04:14.734Z",
+      "comments": [
+        {
+          "id": "comment_DxJ0wd7Wx3Og4od1",
+          "official_organizer": false,
+          "body": "Berarti skill nya oke, daripada cuman curhat di sini, mereka mengerjakan dengan sungguh sungguh",
+          "created_at": "2026-10-31T17:05:40.153Z",
+          "updated_at": "2026-10-31T17:05:40.153Z"
+        },
+        {
+          "id": "comment_7dYxbK12JQo94okQ",
+          "official_organizer": false,
+          "body": "wah iya keren kak",
+          "created_at": "2026-10-31T17:06:41.106Z",
+          "updated_at": "2026-10-31T17:06:41.106Z"
+        },
+        {
+          "id": "comment_ND5gwaWnxaLWVB0M",
+          "official_organizer": false,
+          "body": "Hahahaha",
+          "created_at": "2026-10-31T17:07:02.756Z",
+          "updated_at": "2026-10-31T17:07:02.756Z"
+        },
+        {
+          "id": "comment_1zxYbMaB0WK6bd9l",
+          "official_organizer": true,
+          "body": "Terima kasih atas tanggapannya, Kak. Benar, penilaian kompetisi tidak hanya didasarkan pada hasil submission di Kaggle, tetapi juga mencakup notebook dan laporan analisis. Seluruh berkas pengerjaan nantinya akan diperiksa oleh panitia secara menyeluruh pada tahap akhir kompetisi untuk memastikan kesesuaian dengan ketentuan yang berlaku.",
+          "created_at": "2026-11-01T04:18:03.220Z",
+          "updated_at": "2026-11-01T04:18:03.220Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post_J24jalRO6p3NZ0A1",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/J24jalRO6p3NZ0A1",
+      "title": "",
+      "question": "ini yg pada ksl org dpt skor bagus knp dah? ya brrti jago aja, lagian kalo curang kan bs di diskualifikasi jg diakhir kl emg notebook dan skor ga sesuai",
+      "created_at": "2026-10-31T17:08:54.205Z",
+      "updated_at": "2026-10-31T17:08:54.205Z",
+      "comments": [
+        {
+          "id": "comment_xqL84AkP8xNgb7KM",
+          "official_organizer": false,
+          "body": "Hmmmmm",
+          "created_at": "2026-10-31T17:10:57.427Z",
+          "updated_at": "2026-10-31T17:10:57.427Z"
+        },
+        {
+          "id": "comment_ND5gwaWnxjpdVB0M",
+          "official_organizer": false,
+          "body": "?",
+          "created_at": "2026-10-31T17:20:56.345Z",
+          "updated_at": "2026-10-31T17:20:56.345Z"
+        },
+        {
+          "id": "comment_o7DX4NMgAzGKVpqO",
+          "official_organizer": false,
+          "body": "stuju stuju",
+          "created_at": "2026-10-31T17:26:21.688Z",
+          "updated_at": "2026-10-31T17:26:21.688Z"
+        },
+        {
+          "id": "comment_GEOnw2LgpRXMV8DZ",
+          "official_organizer": true,
+          "body": "Terima kasih atas masukannya, Kak. Izin menanggapi, benar sekali kak, di akhir kompetisi nantinya panitia akan melakukan pemeriksaan secara menyeluruh terhadap seluruh hasil pengerjaan peserta untuk memastikan kesesuaian terhadap peraturan dan batasan yang telah ditetapkan. Apabila ditemukan adanya pelanggaran, tim yang bersangkutan dapat dikenakan sanksi diskualifikasi. Selain itu, penilaian DSC tidak hanya berfokus pada hasil di Kaggle, tetapi juga mencakup penilaian terhadap notebook dan laporan analisis. Jadi, seluruh komponen pengerjaan akan menjadi bagian dari proses penilaian. Terima kasih dan semangat berkompetisi, Kak!",
+          "created_at": "2026-11-01T04:16:36.275Z",
+          "updated_at": "2026-11-01T04:17:14.722Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post_v3w8ZwxwomvxWN52",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/v3w8ZwxwomvxWN52",
+      "title": "Misi kakak² sepuh peserta dan panitia",
+      "question": "Saya pribadi baru pertama kali berkecimpungan dalam perlombaan DS (Biasanya saya ikut yg olim stat).     Saya cukup kaget, belum 12 jam setelah data diberikan, tiba² sudah ada yg dapat skor sempurna. Entah saya yang kurng informasi terkait cara maen lomba di DS, atau bahkan memang orang2 pada jago, jujur saya tidak tau.      Yang saya ingin tanya kan... Apakah nantinya ada deteksi bukan kecurangan? (Jangan dihujat ya... soalnya saya benar-benar tidak tau cara maen DS)     Saya jadi trauma ikut DS kedepannya, apalagi pesertanya banyak gini (soalnya olim biasanya mentok 50 tim peserta, dan gaa pernah saya liat nilai perfect, mungkin di DS bisa aja sih skor sempurna keknya)",
+      "created_at": "2026-11-01T02:34:18.916Z",
+      "updated_at": "2026-11-01T04:28:52.041Z",
+      "comments": [
+        {
+          "id": "comment_7dYxbK12Jg704okQ",
+          "official_organizer": false,
+          "body": "wkwk, kemungkinan besar emang case nya yang agak mudah mas, dengan data train segitu banyak, data testing yang diberikian juga malah ga ada separuhnya (cmiiw) cmn masalah score emang gitu mas, di public kan cuman kedeteksi 30%, jadi sekitar 130 an gambar, bisa nyenttuh perfect di public, kalau di private score belum tau, karena gambar hampir 300. tapi biasanya perfect ya bisa perfect sih wkwk",
+          "created_at": "2026-11-01T02:55:58.081Z",
+          "updated_at": "2026-11-01T02:55:58.081Z"
+        },
+        {
+          "id": "comment_5PGyVZLDmxEQwklW",
+          "official_organizer": true,
+          "body": "Terima kasih atas tanggapannya, Kak. Izin menanggapi, benar bahwa di akhir periode kompetisi nantinya panitia akan melakukan pemeriksaan secara menyeluruh terhadap seluruh hasil pengerjaan masing-masing tim, baik dari segi model yang dikembangkan, notebook, maupun laporan analisis. Pemeriksaan ini dilakukan untuk memastikan bahwa seluruh proses pengerjaan telah sesuai dengan peraturan dan batasan yang ditetapkan oleh panitia.Apabila nantinya ditemukan adanya pelanggaran terhadap ketentuan kompetisi, tim yang bersangkutan akan dikenakan sanksi diskualifikasi. Oleh karena itu, kami mengimbau seluruh peserta untuk tetap memperhatikan aturan yang berlaku selama proses pengerjaan berlangsung.Namun, peserta tidak perlu khawatir dan tetap dapat berfokus pada pengembangan model serta penyelesaian proyek sebaik mungkin. Semangat mengerjakan kompetisinya, Kak! Terima kasih.",
+          "created_at": "2026-11-01T04:16:11.629Z",
+          "updated_at": "2026-11-01T04:17:24.452Z"
+        },
+        {
+          "id": "comment_g1QXb0qEKzEEV8Wa",
+          "official_organizer": false,
+          "body": "sayang kakaknya jadi trauma",
+          "created_at": "2026-11-01T05:47:55.351Z",
+          "updated_at": "2026-11-01T05:47:55.351Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post_KxJvagRyn368WAg0",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/KxJvagRyn368WAg0",
+      "title": "TOLONG DI JAWAB SEMUA QNA nya ADMINNNN",
+      "question": "",
+      "created_at": "2026-11-01T04:07:36.823Z",
+      "updated_at": "2026-11-01T04:18:05.532Z",
+      "comments": [
+        {
+          "id": "comment_5ALlb8RdvBNx4J6k",
+          "official_organizer": true,
+          "body": "Baik, Kak. Terima kasih atas perhatian dan pengingatnya. Panitia akan terus berupaya menjawab setiap pertanyaan yang masuk sesuai dengan ketentuan kompetisi.Apabila masih ada pertanyaan yang belum terjawab, Kakak dapat menyampaikannya kembali agar dapat kami periksa dan tindak lanjuti. Terima kasih atas pengertiannya, Kak. Semangat mengerjakan kompetisinya!",
+          "created_at": "2026-11-01T04:27:56.472Z",
+          "updated_at": "2026-11-01T04:27:56.472Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post_O7A9QmRkJMe3Z6x3",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/O7A9QmRkJMe3Z6x3",
+      "title": "Jika tim sudah terlanjur melabeli secara manual tanpa membuat cluster lebih dulu apakah bisa? karena di handbook sebelumnya tidak ada informasi untuk dianjurkan cluster lebih dahulu",
+      "question": "",
+      "created_at": "2026-11-01T06:09:43.009Z",
+      "updated_at": "2026-11-01T06:09:43.009Z",
+      "comments": [
+        {
+          "id": "comment_OLoa4epAYQKeV9WD",
+          "official_organizer": true,
+          "body": "Terima kasih atas pertanyaannya, Kak. Terkait hal tersebut, kami menyarankan agar tim melakukan pemodelan ulang yaa, Kak. Semangat mengerjakan kompetisinya, Kak!",
+          "created_at": "2026-11-01T06:23:44.398Z",
+          "updated_at": "2026-11-01T06:23:44.398Z"
+        },
+        {
+          "id": "comment_J8MaVlyDkWge415O",
+          "official_organizer": false,
+          "body": "lalu setelah diklasterisasi apakah perlu dicek secara manual dahulu kan kak apakah sudah sesuai dengan kelas yang diinginkan? jika perlu bukankah sama aja bahkan lebih effort jika dicek manual sedari awal",
+          "created_at": "2026-11-01T07:20:50.366Z",
+          "updated_at": "2026-11-01T07:20:50.366Z"
+        },
+        {
+          "id": "comment_k9r646WRxn5KwgGq",
+          "official_organizer": true,
+          "body": "Terima kasih atas pertanyaannya, Kak. Pengecekan hasil clustering diperbolehkan menggunakan program atau metode yang digunakan, tetapi koreksi label secara manual satu per satu tidak diperbolehkan ya, Kak. Apabila hasil clustering belum optimal, peserta disarankan mengeksplorasi teknik pelabelan lain.Terima kasih, Kak.",
+          "created_at": "2026-11-02T02:50:39.156Z",
+          "updated_at": "2026-11-02T02:50:39.156Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post_e9YpQNXwMxLlWxjM",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/e9YpQNXwMxLlWxjM",
+      "title": "",
+      "question": "misi kak mau tanya untuk resetnya perhari itu tiap jam berapa ya makasih",
+      "created_at": "2026-11-01T16:30:06.159Z",
+      "updated_at": "2026-11-01T16:30:06.159Z",
+      "comments": [
+        {
+          "id": "comment_3eonbB2RJOm0bYv1",
+          "official_organizer": false,
+          "body": "izin jawab kak, di jam 7 ya resetnya",
+          "created_at": "2026-11-01T17:23:20.184Z",
+          "updated_at": "2026-11-01T17:23:20.184Z"
+        },
+        {
+          "id": "comment_NDvPbJArpBKGw6Za",
+          "official_organizer": true,
+          "body": "Terima kasih atas pertanyaannya, Kak. Terkait hal tersebut, reset dilakukan setiap hari pada pukul 07.00 WIB ya, Kak. Terima kasih dan semangat mengerjakan kompetisinya!",
+          "created_at": "2026-11-02T02:50:57.096Z",
+          "updated_at": "2026-11-02T02:51:16.283Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post_lkDVaKDL3deGQPp9",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/lkDVaKDL3deGQPp9",
+      "title": "",
+      "question": "Selamat pagi Kak   Izin bertanya mengenai ketentuan clustering dan pelabelan data pada DSC.  Berdasarkan jawaban Q&A sebelumnya, peserta diperbolehkan memberikan nama cluster secara manual setelah melakukan clustering menggunakan model yang dikembangkan sendiri.  Kami ingin memastikan beberapa hal:  1. Setelah clustering dilakukan, apakah peserta diperbolehkan memeriksa dan mengoreksi label atau keanggotaan setiap gambar secara manual apabila terdapat gambar yang tidak sesuai dengan kategori clusternya?  2. Apakah hasil clustering yang sudah diperiksa dan diberi label tersebut boleh digunakan sebagai data pelatihan untuk model klasifikasi supervised, misalnya CNN atau transfer learning?  3. Apakah proses tersebut termasuk pseudolabeling yang dilarang dalam handbook, atau terdapat perbedaan ketentuan antara pelabelan manual dan pseudolabeling?  Kami ingin memastikan alur pengerjaan yang digunakan sesuai dengan peraturan kompetisi dan tidak menimbulkan pelanggaran.",
+      "created_at": "2026-11-02T02:11:41.706Z",
+      "updated_at": "2026-11-02T02:11:41.706Z",
+      "comments": [
+        {
+          "id": "comment_B1okbGxgqKqDV8RY",
+          "official_organizer": true,
+          "body": "Terima kasih atas pertanyaannya, Kak. Izin menjawab:1. Pengecekan hasil clustering diperbolehkan menggunakan program atau metode yang digunakan, tetapi koreksi label maupun pemindahan gambar ke cluster lain secara manual satu per satu tidak diperbolehkan.2. Hasil clustering yang telah diberikan label melalui metode atau program yang digunakan dapat dimanfaatkan sebagai dasar pengembangan model klasifikasi selanjutnya, selama tetap sesuai dengan ketentuan kompetisi.3. Apabila proses pelabelan dilakukan menggunakan metode clustering sesuai ketentuan pada poin pertama, maka proses tersebut tidak termasuk pelabelan manual atau pseudo-labeling secara manual, ya, Kak.Terima kasih, Kak.",
+          "created_at": "2026-11-02T08:48:41.597Z",
+          "updated_at": "2026-11-02T08:48:41.597Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post_E851Q0KzBBkAaVAb",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/E851Q0KzBBkAaVAb",
+      "title": "Labeling",
+      "question": "Min, ini data train boleh dilabeling manual (misal buat train.csv isinya label data train) trus dipaki buat training jadi supervised learning gitu, atau beneran harus clustering dong yang diperbolehkan (Manual labeling per cluster 0-7)?",
+      "created_at": "2026-11-02T03:18:45.547Z",
+      "updated_at": "2026-11-02T03:19:12.787Z",
+      "comments": [
+        {
+          "id": "comment_1aEkVk1lKqnKwpXY",
+          "official_organizer": true,
+          "body": "Terima kasih atas pertanyaannya, Kak. Pelabelan data secara manual satu per satu tidak disarankan ya, Kak. Peserta dianjurkan menggunakan teknik clustering atau teknik pelabelan lain yang sesuai. Namun, pemberian nama cluster secara manual diperbolehkan, sedangkan koreksi label setiap gambar secara manual tidak diperbolehkan.Terima kasih, Kak!",
+          "created_at": "2026-11-02T08:52:30.023Z",
+          "updated_at": "2026-11-02T08:52:30.023Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post_BJkrQA1NxgEgQEge",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/BJkrQA1NxgEgQEge",
+      "title": "Boleh atau tidak",
+      "question": "Halo min jadi sebenernya disini boleh melakukan labeling manual terhadap hasil clustering nya atau tidak? maksudnya per clustering di label manual boleh atau tidak? jadi bukan satu-satu",
+      "created_at": "2026-11-02T04:11:28.326Z",
+      "updated_at": "2026-11-02T04:11:59.664Z",
+      "comments": [
+        {
+          "id": "comment_1aEkVk1lKNYmwpXY",
+          "official_organizer": true,
+          "body": "Terima kasih atas pertanyaannya, Kak. Izin menjawab, penamaan cluster secara manual diperbolehkan setelah proses clustering dilakukan menggunakan model yang dikembangkan sendiri. Namun, pelabelan atau penentuan kategori setiap gambar secara manual satu per satu tidak diperbolehkan, ya, Kak.Jadi, peserta dapat menentukan kategori berdasarkan karakteristik masing-masing cluster, tetapi proses pengelompokan datanya tetap harus menggunakan metode atau model yang dikembangkan sendiri.",
+          "created_at": "2026-11-02T08:58:33.581Z",
+          "updated_at": "2026-11-02T08:58:33.581Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post_R7dXadKX1MDmW6bl",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/R7dXadKX1MDmW6bl",
+      "title": "Data Train noise",
+      "question": "apakah semua data train harus dipakai?  dan jika ditemukan gambar noise yang hampir tidak punya arti boleh di drop?",
+      "created_at": "2026-11-02T06:29:35.083Z",
+      "updated_at": "2026-11-02T06:29:35.083Z",
+      "comments": [
+        {
+          "id": "comment_Lzx7wnmXKlO34amX",
+          "official_organizer": true,
+          "body": "Terima kasih atas pertanyaannya, Kak. Terkait penggunaan data maupun penanganan gambar yang memiliki noise, hal tersebut dikembalikan pada strategi masing-masing peserta sesuai kebutuhan pengembangan model ya, Kak. Terima kasih dan semangat mengerjakan kompetisinya!",
+          "created_at": "2026-11-02T08:56:04.372Z",
+          "updated_at": "2026-11-02T08:56:04.372Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post_zV61Q6ENleERaO98",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/zV61Q6ENleERaO98",
+      "title": "Labeling pada Data Train",
+      "question": "Halo kak izin bertanya, sebelumnya sudah dikatakan bahwa pelabelan manual pada data train boleh dilakukan (hanya pada data latih), nah saya ingin bertanya apakah ada batasan dalam melakukan pelabelan manual tersebut, semisal menggunakan anotasi manual dengan bantuan AI apakah boleh ya ? Teriimaksih dan maaf mengganggu sebelumnya",
+      "created_at": "2026-11-03T00:22:13.118Z",
+      "updated_at": "2026-11-03T00:22:13.118Z",
+      "comments": []
+    },
+    {
+      "post_id": "post_lkROZP94G6A2WjMg",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/lkROZP94G6A2WjMg",
+      "title": "Model Huggingface",
+      "question": "Apakah boleh menggunakan model pretrained yg sudah di fine tune di hugging face?",
+      "created_at": "2026-11-03T08:38:37.901Z",
+      "updated_at": "2026-11-03T08:38:37.901Z",
+      "comments": [
+        {
+          "id": "comment_k1E84LBWxA1lbjLg",
+          "official_organizer": true,
+          "body": "Terima kasih atas pertanyaannya, Kak. Jika sudah di fine tuning secara menyeluruh tidak boleh ya. Penggunaan model pre-trained dari Hugging Face diperbolehkan jika hanya sebagai base model (titik awal), dengan syarat wajib tim harus melakukan fine-tuning menggunakan Data Train yang telah disediakan oleh panitia. Peserta dilarang keras menggunakan model yang sudah jadi untuk langsung menebak Data Test tanpa proses pelatihan menggunakan dataset kompetisi ini.",
+          "created_at": "2026-11-04T02:26:25.040Z",
+          "updated_at": "2026-11-04T02:26:25.040Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post_PVKBQO0wN9pkZj5x",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/PVKBQO0wN9pkZj5x",
+      "title": "Noise data",
+      "question": "Permisi kak izin bertanya jika ada ambigu atau noise apa data boleh dihapus? Termasuk data cleaning",
+      "created_at": "2026-11-04T10:34:54.672Z",
+      "updated_at": "2026-11-04T10:34:54.672Z",
+      "comments": []
+    },
+    {
+      "post_id": "post_do3MQJdz2Gx6W15w",
+      "url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/do3MQJdz2Gx6W15w",
+      "title": "",
+      "question": "Selamat malam, Kak. Kami dari tim Gelas, peserta DSC Gelar Rasa 2026. Izin bertanya beberapa hal terkait koreksi label manual per gambar dan pelabelan data train, Kak.  Sebelum ada klarifikasi di Q&A, alur salah satu notebook tim kami adalah: clustering, memberi nama cluster secara manual, lalu mengoreksi label sebagian kecil gambar train (sekitar 40 dari 1.920 gambar) secara manual satu per satu.   1. Apakah koreksi manual dalam jumlah kecil seperti itu juga termasuk yang tidak diperbolehkan?  2. Setelah clustering, apakah boleh melakukan clustering ulang pada cluster yang isinya masih campur (dipecah menjadi beberapa sub-cluster dengan metode yang sama), lalu memberi nama setiap sub-cluster secara manual? Apakah ada batasan jumlah cluster?  3. Apakah boleh membuang gambar train yang terindikasi salah cluster secara otomatis menggunakan aturan dari program (misalnya berdasarkan jarak ke pusat cluster atau kemiripan dengan gambar-gambar terdekatnya), tanpa memeriksa gambar satu per satu?  4. Apakah boleh memperbaiki label gambar train secara otomatis menggunakan prediksi model (misalnya label diganti jika model sangat yakin gambar tersebut termasuk kelas lain), tanpa pengecekan manual per gambar?  Terima kasih, Kak.",
+      "created_at": "2026-11-04T16:45:19.300Z",
+      "updated_at": "2026-11-04T16:45:19.300Z",
+      "comments": []
+    }
+  ]
+}

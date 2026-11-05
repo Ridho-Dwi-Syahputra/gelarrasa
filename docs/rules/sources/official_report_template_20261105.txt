@@ -1,0 +1,556 @@
+﻿KETENTUAN LAPORAN
+DATA SCIENCE COMPETITION
+GELAR RASA 2026
+
+
+1. KETENTUAN PENYUSUNAN LAPORAN
+ASPEK
+	KETENTUAN
+	Jenis berkas
+	PDF
+	Ukuran kertas
+	A4
+	Huruf
+	Times New Roman, 12 pt
+	Jarak antarbaris
+	1.15 spasi
+	Perataan teks
+	Rata kanan-kiri (justify)
+	Panjang Laporan
+	Maksimal 10 halaman, di luar cover, daftar isi, daftar gambar, daftar tabel, daftar pustaka, dan lampiran)
+	Nama berkas
+	DSC2026_Laporan_NamaTim_NamaKetua.pdf
+	
+
+2. SISTEMATIKA LAPORAN
+SUSUNAN
+	ISI
+	COVER
+	* Judul Proyek
+* Logo Instansi
+* Nama Tim
+* Nama Ketua Tim dan Anggota Tim
+* Nama Instansi Peserta
+	DAFTAR ISI
+	Seluruh bab dan subbab beserta nomor halamannya
+	DAFTAR TABEL
+	Seluruh nomor tabel, judul, dan halaman
+	DAFTAR GAMBAR
+	Seluruh nomor gambar, judul, dan halaman
+	BAB I PENDAHULUAN
+	Latar belakang, rumusan masalah, tujuan dan manfaat 
+	BAB II DESAIN SISTEM
+	Deskripsi data, alur sistem, prapemprosesan data, eksplorasi data, serta metode dan arsitektur model
+	BAB III HASIL DAN ANALISIS
+	Hasil pemodelan, evaluasi model, insight hasil analisis, serta implementasi dan pengembangan model lanjutan
+	BAB IV PENUTUP
+	Kesimpulan dan Saran
+	DAFTAR PUSTAKA
+	Menggunakan APA Style (APA 7th edition)
+	
+
+3. CATATAN PENTING
+* Pembagian halaman disesuaikan dengan kebutuhan analisis masing-masing tim, dengan tetap memenuhi seluruh komponen yang dipersyaratkan dan tidak melebihi 10 halaman. 
+* Peserta wajib membuat salinan dokumen Google Docs sebelum menyusun laporan dan dilarang meminta akses ke dokumen asli untuk mengerjakan laporan.
+LAPORAN ANALISIS
+“JUDUL PROYEK”
+
+
+
+
+  
+
+
+
+
+
+
+
+Disusun Oleh:
+Nama Tim
+1. Nama Lengkap Ketua Tim
+2. Nama Lengkap Anggota 1
+3. Nama Lengkap Anggota 2
+
+
+
+
+
+
+
+
+NAMA INSTANSI PESERTA
+DATA SCIENCE COMPETITION
+GELAR RASA 2026
+2026
+
+
+
+
+
+
+
+
+DAFTAR ISI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DAFTAR TABEL
+(apabila diperlukan)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DAFTAR GAMBAR
+(apabila diperlukan)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BAB I
+PENDAHULUAN
+
+
+1.1        Latar Belakang
+(Permasalahan yang melatarbelakangi proyek dan urgensi pentingnya permasalahan untuk diselesaikan) 
+
+
+1.2        Rumusan Masalah
+(Rumusan permasalahan yang menjadi fokus utama dalam proyek dan akan dijawab melalui analisis serta pengembangan model.) 
+
+
+1.3        Tujuan
+(Tujuan yang ingin dicapai melalui analisis data dan pengembangan model dalam proyek.) 
+
+
+1.4        Manfaat
+(Manfaat yang diharapkan dari hasil analisis data dan pengembangan model, baik secara akademis maupun praktis, serta pihak-pihak yang dapat memanfaatkan hasil proyek.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BAB II
+DESAIN SISTEM
+
+
+2.1        Deskripsi Data
+(Penjelasan mengenai dataset yang digunakan, karakteristik data, jumlah data, serta kelas atau atribut yang terdapat dalam dataset.) 
+
+
+2.2        Alur Sistem
+(Gambaran tahapan keseluruhan sistem yang direpresentasikan dalam bentuk flowchart, mulai dari input data, prapemrosesan, proses pemodelan, hingga menghasilkan prediksi.) 
+
+
+2.3        Prapemrosesan Data
+(Tahapan persiapan dan pengolahan data sebelum digunakan dalam proses pelatihan model.) 
+
+
+2.4        Eksplorasi Data
+(Proses memahami karakteristik dan pola data melalui analisis untuk memperoleh gambaran awal mengenai dataset.) 
+
+
+2.5        Metode dan Arsitektur Model
+(Penjelasan mengenai metode, algoritma, atau arsitektur model yang digunakan untuk melakukan klasifikasi citra sampah.) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BAB III
+HASIL DAN ANALISIS
+
+
+3.1        Hasil Pemodelan
+(Hasil proses pelatihan dan penerapan model klasifikasi citra, termasuk model yang digunakan serta hasil prediksi yang diperoleh.) 
+
+
+3.2        Evaluasi Model
+(Penilaian kinerja model menggunakan metriks evaluasi yang sesuai untuk mengukur kemampuan model dalam melakukan klasifikasi serta analisis terhadap kesalahan prediksi model.) 
+
+
+3.4        Insight Hasil Analisis
+(Temuan atau informasi yang diperoleh dari hasil pemodelan dan analisis data yang dapat memberikan pemahaman lebih lanjut terhadap permasalahan.) 
+
+
+3.5        Implementasi dan Pengembangan Model Lanjutan
+(Pembahasan mengenai penerapan model ke dalam bentuk sistem atau produk yang bermanfaat serta potensi pengembangannya di masa mendatang.) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BAB IV
+PENUTUP
+
+
+4.1        Kesimpulan
+(Ringkasan hasil utama dari proses analisis, pemodelan, dan evaluasi serta pencapaian tujuan proyek.) 
+
+
+4.2        Saran 
+(Rekomendasi untuk perbaikan, pengembangan, atau penerapan model pada tahap selanjutnya.) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DAFTAR PUSTAKA
+
+
+(Penulisan daftar pustaka mengacu pada pedoman APA Style 7th edition)

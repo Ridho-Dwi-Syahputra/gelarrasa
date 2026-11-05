@@ -1,0 +1,153 @@
+{
+  "source_path": "docs/materi/Materi 1 (Intelligence in Action_ Machine Learning for Sustainable Solution).pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "WEBINAR • GELAR RASA 2026\nINTELLIGENCE IN ACTION\nMachine Learning for Sustainable Solutions\nArriva Miftahul Birri\nSenior Developer at Artax • Advisor AI & Machine Learning\nSabtu, 31 Oktober 2026\n"
+    },
+    {
+      "page": 2,
+      "text": "About\nMe\nSenior Developer at Artax\nAdvisor AI & Machine Learning\nBusiness Analyst & ERP Technology Developer with a\nfocus on AI integration for business transformation,\noperational \nefficiency, \nand \ncorporate \nfinancial\nreporting. Actively engaged in the research and\ndevelopment of AI models to support data analysis,\nresearch processes, and continuous technological\ninnovation.\n"
+    },
+    {
+      "page": 3,
+      "text": "AGENDA\n03\n01\nAI, ML, DL, & Computer\nVision\nIntroduction to Artificial Intelligence,\nMachine Learning, and Computer \n02\nImages Data & Preprocessing\nVision Understanding Image Data &\nBasic Image Preprocessing\n03\nBuilding Image Classification\nModels\nBaseline, CNN (Computer Vision),\nTransfer Learning, dan Hybrid Model.\n04\nEvaluation & Generalization\nModel Evaluation Metrics &\nPerformance Improvement (Macro-\nF1, Confusion Matrix, Hyper Tuning,\nPrevention of Overfitting).\n05\nAI for Sustainability\nAssessing Benefits, Risks, and\nImplementation Readiness.\nGOALS!\nCapable of explaining\nexperimental testing applied\nto optimal waste sorting.\n"
+    },
+    {
+      "page": 4,
+      "text": "01 • FUNDAMENTAL\nAI, Machine Learning, Deep Learning, & Computer Vision\nLeCun, Bengio & Hinton (2015), Nature; Pan & Yang (2010), IEEE TKDE.\n04\nSample Case:\nIMAGE CLASSIFICATION\nInput: image of used items (Waste).\nTarget: one label from 8 waste\ncategories.\nOutput: probability for each class.\nDecision: top category (correct) or\nneeds checking (incorrect).\nSystems designed to perform tasks that\nrequire perception, prediction, or decision-\nmaking. \nSystems \nthat \ncarry \nout\nintelligence-based tasks.\nThe model learns patterns from example\ndata—rather than relying solely on explicit\nrules—to make predictions about new\ndata.\nAn ML model that stacks simple “neurons”\nin layers and learns pattern-recognition\nweights and biases from data to map\ninputs to outputs.\nAn artificial intelligence (AI) method that\nteaches computers to process data in a\nway inspired by the human brain.\nAI that enables computers or machines to\nsee, process, and understand visual\ninformation—such as images or videos—\nmuch like human vision.\n"
+    },
+    {
+      "page": 5,
+      "text": "A branch of AI that enables computers to \"see,\" process, and understand visual information\n(digital images or video) much like the human cognitive system.\n01 • FUNDAMENTAL\nComputer Vision\nLiu, L., Ouyang, W., Wang, X. et al. Deep Learning for Generic Object Detection: A Survey. Int J Comput Vis 128, 261–318 (2020). https://doi.org/10.1007/s11263-019-01247-4\n05\nTraditional Era\n(Classical Computer Vision)\nBased on manual feature extraction\n(handcrafted features such as SIFT, HOG,\nand \nCanny \nEdge) \ncombined \nwith\nconventional \nmachine \nlearning\nclassification (SVM, Random Forest).\nModern Era\n(Computer Vision in Deep Learning Era)\nFeature extraction and classification are\nintegrated automatically in an end-to-end\nmanner using Deep Neural Network\narchitectures \n(CNNs, \nVision\nTransformers).\nImage Classification\nObject Detection\nSemantic &\nInstance Segmentation\nImage Tracking &\nAction Recognition\n"
+    },
+    {
+      "page": 6,
+      "text": "Rangel, Gabriela, Cuevas-Tello, Juan C., Nunez-Varela, Jose, Puente, Cesar, Silva-Trujillo, Alejandra G., A Survey on Convolutional Neural Networks and Their Performance Limitations in Image Recognition Tasks, Journal of Sensors,\n2024, 2797320, 29 pages, 2024. https://doi.org/10.1155/2024/2797320\n02 • IMAGES DATA\nImages Data & Preprocessing\nImages Data\n1. DEFINITION\nVisual information or raw data in the\nform of a pixel matrix that captures a\nvisual representation of an object,\nplace, or event in a digital format (such\nas RGB, grayscale, or binary).\nImages Data\n2. FUCTION\nAs primary input for computer systems,\nmachine learning algorithms, or deep\nlearning models (such as CNNs) to\nidentify patterns.\n06\n"
+    },
+    {
+      "page": 7,
+      "text": "Yang P, Baracchi D, Ni R, Zhao Y, Argenti F, Piva A. A Survey of Deep Learning-Based Source Image Forensics. J Imaging. 2020 Mar 4;6(3):9. doi: 10.3390/jimaging6030009. PMID: 34460606; PMCID: PMC8321025.\n02 • PREPOCESSING DATA\nImages Data & Preprocessing\nPreprocessing Data\n1. DEFINITION\nA series of systematic operations or\nstages for cleaning, transforming, and\nstandardizing raw images before they\nare further analyzed by a model.\nPreprocessing Data\n2. FUCTION\nRemoving noise, standardizing\nsize/dimensions, normalizing pixel\nvalues, and enhancing image quality so\nthat the model can learn more quickly,\nstably, and accurately.\n07\n"
+    },
+    {
+      "page": 8,
+      "text": "02 • IMAGES DATA & PREPROCESSING\nRangel, Gabriela, Cuevas-Tello, Juan C., Nunez-Varela, Jose, Puente, Cesar, Silva-Trujillo, Alejandra G., A Survey on Convolutional Neural Networks and Their Performance Limitations in Image Recognition Tasks, Journal of\nSensors, 2024, 2797320, 29 pages, 2024. https://doi.org/10.1155/2024/2797320\n08\n01\nDATA COLLECTION\nReal-World Image\nAcquisition\nSample Diversity\nThe Importance of Quantity\n& Quality\n02\nLABELING &\nQUALITY\nASSURANCE\nGround Truth Creation\nData annotation and\nlabeling process\nCross-checking to detect\nnoisy labels\nEnsuring that object class\nboundaries are clearly\ndefined\n03\nSPLIT DATASET\nProportional Stratification\nTrain Set (e.g., 70%)\nValidation Set (e.g., 20%)\nTest Set (e.g., 10%)\nPreventing Data Leakage\n04\nPRE-PROCESSING\n& AUGMENTATION\nResizing and Normalization\n(e.g., 640x640)\nData Augmentation (rotation,\nflipping, zooming, shifting) to\nprevent overfitting\nNoise Reduction\n05\nTRAIN: BASELINE &\nTRANSFER LEARNING\nBaseline Model (e.g.,\nbuilding a CNN architecture)\nTransfer Learning & Hybrid\nModels, using pre-trained\nweights such as ResNet /\nMobileNet, or combining a\nCNN with an SVM classifier\nWeight Optimization\n06\nMODEL\nPERFORMANCE\nEVALUATION\nComprehensive Metrics\n(Macro-F1 Score, Precision,\nand Recall)\nConfusion Matrix: In-depth\nanalysis to examine the\ntypes of prediction errors\nbetween categories \nError Analysis:\nDEPLOY \nProduction Deployment\nInference Optimization\nContinuous Monitoring &\nReview\n07\nPipeline: From Raw Data to Tested Solutions\nCheck Gate\nBefore Training\nTrain.csv (Ground Truth Labels)\nfilename, category\n0001.jpg, cardboard_box\n0002.jpg, fabric_clothing\n0006.jpg, plastic_bottle\n0016.jpg, organic_food_waste\nDataset Images Category Samples\n0001.jpg : Cardboard Box\n0002.jpg : Fabric Clothing\n0006.jpg : Plastic Bottle\n0016.jpg : Organic Food Waste\n"
+    },
+    {
+      "page": 9,
+      "text": "Source: Train.csv\n09\n1.920\nRow Label\n8\nWaste Categories\n0\nNull Value\n1,43×\nLargest / Smallest Class Ratio\nplastic\n300\ncardboard\n250\nfoodwaste\n250\nmetal\n240\npaper\n240\ntextile\n220\nelectronic\n210\nglass\n210\nWhat Does it Mean?\nThe classes are not of equal size\nMacro-F1 is important for\nconsidering all classes\nCheck the quality of the labels\nand for any missing image paths\nThe CSV file does not contain\nthe image pixels\n02 • IMAGES DATA & PREPROCESSING\nAudit Dataset \n"
+    },
+    {
+      "page": 10,
+      "text": "Visual Source: Sample Image\n07\nID 1 • Cardboard\nKotak Kemasan\nID 2 • Textile\nJaket / Pakaian\nID 5 • Metal\nKaleng Minuman\nID 7 • Plastic\nBotol Plastik\nID 11 • Paper\nBuku / Kertas\nID 15 • Foodwaste\nSisa Organik\nBeware of Shortcut Learning\n02 • IMAGES DATA & PREPROCESSING\nSample Image: Variation is a Reality, not a Disturbance\nThe attached examples show different objects, settings, resolutions, and image conditions.\n"
+    },
+    {
+      "page": 11,
+      "text": "08\nRGB Image\nH × W × 3 channel\nTENSOR\n[640, 640, 3] → Intensity Value\nRESIZE\nCHANNEL & DTYPE\nNORMALIZATION\nNote: Resizing can alter fine details; test the resolution based on your requirements and inference costs.\n02 • IMAGES DATA & PREPROCESSING\nConverting an Image Into Numerical Tensor\nStandardize the input, for example to 630 × 630 pixels\nEnsure the RGB values  and dimensions are correct, and that the\npixels are of a consistent type\nFollow the preprocessing steps appropriate for the chosen\nbackbone\n"
+    },
+    {
+      "page": 12,
+      "text": "09\n70%\nTRAIN\nLearn model weights and fit the preprocessing/feature scaler\n20%\nVALIDATION\nSelecting hyperparameters,\nepochs, and thresholds\n10%\nTEST\nOne final evaluation, once the\nchoices have been locked in\nAnti-leakage checks\nStratify based on waste category\nIdentify duplicates/near-duplicates across splits\nIf images belong to the same object or session, separate them based on group or source\n02 • IMAGES DATA & PREPROCESSING\nSplit Dataset\n"
+    },
+    {
+      "page": 13,
+      "text": "Illa, P. K., & Thillaigovindan, S. K. (2026). An Empirical Study of Spatial and Spectral Feature Fusion for Robust Lung Cancer Histopathology Classification Under Domain Shift and Image Perturbations. Applied Sciences, 16(10),\n4674. https://doi.org/10.3390/app16104674\n10\n02 • IMAGES DATA & PREPROCESSING\nPreprocessing Augmentation\nSafe Strategies for Enriching Data Variety to\nPrevent Overfitting\nHorizontal Flip, Subtle Rotation & Zoom, Brightness & Contrast\nAdjustment\nAvoid Destructive Transformations\nEnsure that features such as textures, wrinkles, and patterns remain clearly\nvisible after augmentation\nThe Golden Rule: Data augmentation is applied only to the training set (train\nset), NOT to the validation set (val set) or the test set (test set)\n"
+    },
+    {
+      "page": 14,
+      "text": "11\n03 • MODELING\nBuilding Image Classification Models \nChoose a baseline before pursuing a large architecture\nA • Fitur klasik + SVM\nHOG + histogram warna → StandardScaler → SVM/RBF\nPLUS\nFast, easy to use as a baseline\nTRADE-OFF\nFeature details must be designed\nB • Transfer learning\nEfficientNetB0 / MobileNetV2 pretrained → classifier baru\nPLUS\nRobust for limited data; initial\ntraining is more economical\nTRADE-OFF\nIt may be biased toward the context\nof the original dataset.\nC • Hybrid feature fusion\nEmbedding CNN + HOG/warna → classifier (mis. SVM)\nPLUS\nCombining learned and handcrafted\nfeatures\nTRADE-OFF\nMore complex; ablation test required\nMao, W. L., Chen, W. C., Wang, C. T., & Lin, Y. H. (2021). Recycling waste classification using optimized convolutional neural network. Resources, Conservation and Recycling, 164, 105132.\n“Hybrid” defines the components to be combined, the method for performing the combination, and the baseline for comparison.\n"
+    },
+    {
+      "page": 15,
+      "text": "12\nY. Lecun, L. Bottou, Y. Bengio and P. Haffner, \"Gradient-based learning applied to document recognition,\" in Proceedings of the IEEE, vol. 86, no. 11, pp. 2278-2324, Nov. 1998, doi: 10.1109/5.726791.\nZhao et al. (2024), Figure 2, “A review of convolutional neural networks in computer vision,” Artificial Intelligence Review, 57, 99. DOI: 10.1007/s10462-024-10721-6.\n03 • DEEP LEARNING & COMPUTER VISION\nCNN Learn Visual Patterns from Local to Global\nLOSS FUNCTION\nMeasuring the difference between predictions\nand target labels; for 8 classes, cross-entropy is\ncommonly used.\nOPTIMIZER\nUpdating weights based on gradients; a learning\nrate that is too high or too low can hinder learning.\nGENERALIZATION\nThe true goal is performance on new images, not\nthe memorization of training images.\nInput Image\n(RGB)\n640x640x3\nExamples:\nplastic waste\nConvolutional Neural Network (CNN) Architecture\nCNN\nA type of deep learning architecture specifically designed to\nprocess grid-based or visual data, such as images and videos.\nThis model was developed to enable computers to \"see\" and\nautomatically recognize patterns—ranging from edges, colors,\nand shapes to entire objects—much like human vision.\n"
+    },
+    {
+      "page": 16,
+      "text": "Ghosh, D., Zhang, B., Hegde, N. et al. Transfer Learning for Core Image-Based Classification in Diverse Geological Settings with Various Deep Learning Models. Math Geosci (2026). https://doi.org/10.1007/s11004-026-10346-1\nYing Lu. Transfer Learning for Image Classification. Other. Université de Lyon, 2017. English. ⟨NNT : 2017LYSEC045⟩. ⟨tel-02065405⟩\n13\nFASE 1 • FEATURE EXTRACTION\nPretrained backbone\nFreeze the backbone weights; train a small classifier\nFASE 2 • FINE-TUNING\nUnfreeze some of the top layers (Head)\nSmall learning rate (e.g., 1e−5); monitor validation loss and stop when it worsens\nPretrained weights are a starting point, not a guarantee that the distribution of your \"garbage\" images matches that of the original data.\n03 • TRANSFER LEARNING\nRecommended Strategy: Train the Head → Fine-Tune as Needed\n"
+    },
+    {
+      "page": 17,
+      "text": "14\n03 • HYBRID MODEL\nHybrid Model Tested: CNN Embedding + HOG + Color → SVM\nJain, A., Varshney, S. Synergistic fusion of handcrafted descriptors and deep convolutional neural network features for improved content-based image retrieval. Discov Artif Intell 6, 1138 (2026). https://doi.org/10.1007/s44163-026-01665-7\nMoldovanu, S., Cocu, A., Stefanescu, D., & Anghel, C. (2026). Hybrid Decision-Level Fusion of CNN-Based Deep and Handcrafted Features for Colon Cancer Classification. Journal of Imaging, 12(8), 368. https://doi.org/10.3390/jimaging12080368\n"
+    },
+    {
+      "page": 18,
+      "text": "15\n03 • HYBRID MODEL\nHybrid Model Tested: CNN Embedding + HOG + Color → SVM\nJain, A., Varshney, S. Synergistic fusion of handcrafted descriptors and deep convolutional neural network features for improved content-based image retrieval. Discov Artif Intell 6, 1138 (2026). https://doi.org/10.1007/s44163-026-01665-7\nMoldovanu, S., Cocu, A., Stefanescu, D., & Anghel, C. (2026). Hybrid Decision-Level Fusion of CNN-Based Deep and Handcrafted Features for Colon Cancer Classification. Journal of Imaging, 12(8), 368. https://doi.org/10.3390/jimaging12080368\nCNN pretrained\nEfficientNetB0\n640x640x3\n(RGB)\n"
+    },
+    {
+      "page": 19,
+      "text": "15\nimport pandas as pd\nfrom pathlib import Path\ndf = pd.read_csv(\"train.csv\")\nIMG_ROOT = Path(\"images\")\nvalid_ext = {\".jpg\", \".jpeg\", \".png\", \".webp\"}\nfiles = [p for p in IMG_ROOT.rglob(\"*\")\n         if p.suffix.lower() in valid_ext and p.stem.isdigit()]\nby_id = {int(p.stem): p for p in files}\ndf[\"path\"] = df[\"image_id\"].astype(int).map(by_id)\nprint(df.shape, df[\"waste_category\"].value_counts())\nprint(\"Missing image paths:\", df[\"path\"].isna().sum())\nBefore training\nEnsure that one ID points to one file\nLook for different image extensions\nIf the filenames are not numeric, create an explicit\nmanifest\nPENTING\nJika sebuah file ID muncul di lebih dari satu\nfolder, script perlu mendeteksi konflik alih-alih\nmemilih diam-diam.\n04 • BUILD MODEL\nBuild Model ⟶ Audit CSV & Image File\n"
+    },
+    {
+      "page": 20,
+      "text": "16\nimport tensorflow as tf\nfrom tensorflow import keras\nIMG_SIZE = (640, 640)\nBATCH_SIZE = 32\naugment = keras.Sequential([\n    keras.layers.RandomFlip(\"horizontal\"),\n    keras.layers.RandomRotation(0.06),\n    keras.layers.RandomZoom(0.10),\n    keras.layers.RandomContrast(0.10),\n], name=\"train_augmentation\")\nROTATION\nUse a small size; the label must remain valid even if the image is rotated\nCOLOR / CONTRAST\nVarying the lighting helps, but do not erase the material's characteristics\nSPLIT FIRST\nAugmentation is invoked in the training pipeline after the train/val/test\nsets have been created\n04 • BUILD MODEL\nBuild Model ⟶ Preprocessing & Augmentation \nWARNING!\nJangan gunakan vertical flip atau crop ekstrem secara otomatis:\nvaliditasnya bergantung pada konteks objek\n"
+    },
+    {
+      "page": 21,
+      "text": "17\nbase = keras.applications.EfficientNetB0(\n    include_top=False, weights=\"imagenet\",\n    input_shape=(640, 640, 3), pooling=\"avg\")\nbase.trainable = False  # fase 1: freeze backbone\ninputs = keras.Input((640, 640, 3))\nx = augment(inputs)\nx = base(x, training=False)\nx = keras.layers.Dropout(0.35)(x)\noutputs = keras.layers.Dense(8, activation=\"softmax\")(x)\nmodel = keras.Model(inputs, outputs)\nmodel.compile(optimizer=keras.optimizers.Adam(1e-3),\n              loss=\"sparse_categorical_crossentropy\",\n              metrics=[\"accuracy\"])\nA. Head Training\nTrain classifier, frozen backbone\nB. Fine-Tuning\nOpen the top layer; LR ≈ 1e−5\nStop When Validation Worsens\nEarlyStopping + restore best weights\nNote: string labels must be encoded consistently; the accompanying notebook code contains the complete pipeline.\n04 • BUILD MODEL\nBuild Model ⟶ Baseline Transfer Learning \nExample of an initial architecture: pretrained EfficientNetB0 + dropout + 8-class classifier.\n"
+    },
+    {
+      "page": 22,
+      "text": "This graph is an illustration of the concept, not the result of training on your dataset\nShorten, C. and Khoshgoftaar, T.M. (2019) A Survey on Image Data Augmentation for Deep Learning. Journal of Big Data, 6, Article No. 60. https://doi.org/10.1186/s40537-019-0197-0\n18\nWARNING!\nEarlyStopping saves the best checkpoint from validation, rather than the final epoch\n05 • EVALUATION\nDetecting Overfitting from Learning Curves\nTrain loss continues to decrease\nValidation loss has started to rise\nThe gap between training and validation\nincreases\nPredictions fail in real-world conditions\n"
+    },
+    {
+      "page": 23,
+      "text": "Overfitting often arises from a combination of an overly flexible model, limited data, or evaluation leakage\nKapoor S, Narayanan A. Leakage and the reproducibility crisis in machine-learning-based science. Patterns (N Y). 2023 Aug 4;4(9):100804. doi: 10.1016/j.patter.2023.100804. PMID: 37720327; PMCID: PMC10499856.\nShorten, C., Khoshgoftaar, T.M. A survey on Image Data Augmentation for Deep Learning. J Big Data 6, 60 (2019). https://doi.org/10.1186/s40537-019-0197-0\n19\nLIMITED DATA\nSimilar images, same background, duplication, noisy labels\nRESPONS\nAdd meaningful variety; \nCheck for duplicates & labels\nMODEL TOO COMPLEX\nToo many parameters for the size of the dataset\nRESPONS\nTransfer learning, \nFreeze backbone, & dropout/weight decay\nTRAINING FOR TOO LONG\nTraining performance continues to improve; but validation\nperformance stagnates and then deteriorates\nRESPONS\nEarly stopping + learning-rate schedule\nDATA LEAKAGE\nAugmented duplicates or the same source dataset to data test\nRESPONS\nSplit before augmentation; group split; test locked\n05 • EVALUATION\nWhy Model Overfitting?\n"
+    },
+    {
+      "page": 24,
+      "text": "20\n01\nCorrect the Data\nCheck labels, duplicates, distribution, context, and image quality\n02\nSplit dengan benar\nStratified split; group images from the same object/source\n03\nModel sederhana dulu\nBaseline HOG+SVM and transfer learning with a frozen backbone\n04\nRegularisasi\nReasonable augmentation, Dropout (ex. 0.3–0.5), weight decay\n05\nKontrol proses\nEarlyStopping, ReduceLROnPlateau, best checkpoint\n06\nUji generalisasi\nMacro-F1, per-class recall, error analysis, test final\nNo single technique guarantees immunity to overfitting; proper evaluation and data remain the foundation.\n06 • GENERALIZATION\nAnti-Overfitting Playbook: Recommended Steps of Actions\nMohammad Mahdi Bejani and Mehdi Ghatee. 2021. A systematic review on overfitting control in shallow and deep neural networks. Artif. Intell. Rev. 54, 8 (Dec 2021), 6391–6438. https://doi.org/10.1007/s10462-021-09975-1\n"
+    },
+    {
+      "page": 25,
+      "text": "21\nPARAMETER\nSEARCH SPACE\nTYPE\nCONSIDERATIONS\nLearning rate\n1e−5 – 1e−3\nLog Scale\nMost influential during fine-tuning\nDropout\n0.20 / 0.35 / 0.50\nDiscrete\nAdjusting classifier regularization\nUnfrozen Layers\n0 / 20 / 50\nDiscrete\nStart from 0; increase gradually\nWeight Decay\n1e−6 – 1e−3\nLog Scale\nControlling the magnitude of weights\nImage Size\n160 / 192 / 224\nDiscrete\nTrade-off between detail and computation\nAugmentation\nLow / Medium\nCategorical\nEnsure labels remain valid\nWorkflow\nDefine Range → Random Search / Bayesian Search → Repeat with Fixed Split → Compare Macro-F1 + Runtime → Lock Config\n07 • HYPERPARAMETER TUNING\nHow to Hypertuning is Efficient\nZlobin, Mykola & Bazylevych, Volodymyr. (2025). BAYESIAN OPTIMIZATION FOR TUNING HYPERPARAMETRS OF MACHINE LEARNING MODELS: A PERFORMANCE ANALYSIS IN XGBOOST. Computer systems and information technologies.\n141-146. 10.31891/csit-2025-1-16. \n"
+    },
+    {
+      "page": 26,
+      "text": "Use callbacks to limit the number of epochs and restore the best weights; tuning should still be performed using validation data\n22\ncallbacks = [\n  keras.callbacks.EarlyStopping(\n    monitor=\"val_loss\", patience=5,\n    restore_best_weights=True),\n  keras.callbacks.ReduceLROnPlateau(\n    monitor=\"val_loss\", factor=0.2,\n    patience=2, min_lr=1e-7),\n  keras.callbacks.ModelCheckpoint(\n    \"best_model.keras\",\n    monitor=\"val_loss\", save_best_only=True)\n]\nhistory = model.fit(\n  train_ds, validation_data=val_ds,\n  epochs=40, callbacks=callbacks)\nEARLY STOPPING\nStop if validation loss does not improve; save the weights from\nthe best epoch\nLR SCHEDULER\nReduce the learning rate when a plateau is reached, rather than\nmaintaining a high rate\nCHECKPOINT\nSave the best configuration and weights so that the experiment\ncan be restored\nFor a hybrid SVM: Tune C and gamma using cross-validation on the training set; the scaler\nmust be included within a Pipeline.\n07 • HYPERPARAMETER TUNING\nCallbacks to Prevent Overfitting\n"
+    },
+    {
+      "page": 27,
+      "text": "Marina Sokolova and Guy Lapalme. 2009. A systematic analysis of performance measures for classification tasks. Inf. Process. Manage. 45, 4 (July, 2009), 427–437. https://doi.org/10.1016/j.ipm.2009.03.002\nPowers, D.M.W., 2011. Evaluation: from Precision, Recall and F-measure to ROC, Informedness, Markedness and Correlation. Journal of Machine Learning Technologies, 2(1), 37-63\n23\nMinimum Report\nAccuracy + macro precision / recall / F1 + per-class recall + confusion matrix + runtime/model size\n08 • EVALUATION MATRIX\nEvaluation Matrix\nACCURACY\ncorrect / all\nPRECISION\nTP / (TP + FP)\nRECALL\nTP / (TP + FN)\nF1-SCORE\n2PR / (P + R)\nWhat percentage of the total\npredictions are correct?\nWhen a model predicts class X,\nhow often is it correct?\nOut of all the items for grade X,\nhow many were found?\nThe balance between\nprecision and recall\n"
+    },
+    {
+      "page": 28,
+      "text": "24\nPredict Label \nTrue Label\nplastic\npaper\nmetal\nfood\nplastic\n42\n3\n2\n1\npaper\n4\n34\n1\n2\nmetal\n3\n2\n36\n1\nfood\n1\n3\n1\n38\nQuestions During Error Analysis\nWhich pairs of classes are often confused with each other?\nIs the object small, dirty, or covered?\nIs the watermark/background more dominant than the material?\nIs the label truly ambiguous, or is it incorrect?\nDo certain classes have a significantly lower recall?\nPractical Output: a list of examples of errors + hypotheses regarding their causes + corrective experiments\n08 • EVALUATION MATRIX\nConfusion Matrix: Look for Patterns of Errors, Not Just Scores\n"
+    },
+    {
+      "page": 29,
+      "text": "25\nA\nMeasure\nSave baseline, \nSeed, \nSplit, \nMacro-F1,\nPer-Class Recall, \nRuntime\nB\nDiagnose\nInterpret the\nconfusion matrix, \nCategorize errors\nbased on setting, \nCondition, \nand Class.\nC\nHypothesize\nExample: performance\ndrops in low-light\nphotos due to varying\nexposure\nD\nExperiment\nTest one change:\nlighting augmentation\nor adding data for those\nconditions\nE\nVerify\nUse the validation set\nfor selection; the final\ntest set remains\nuntouched\nDon't do it!\nNew model + new augmentation + new split + new tuning → Not sure which factor helped\n08 • EVALUATION MATRIX\nHow to Improve Performance Scientifically?\n"
+    },
+    {
+      "page": 30,
+      "text": "26\nExample A • Plastic\nPeriksa apakah perhatian tertuju pada botol plastik\nExample B • Metal\nPeriksa apakah watermark/logo mendominasi\nAudit\nCreate a Grad-CAM heatmap of correct and incorrect\npredictions\nTest images with different backgrounds\nCrop objects or use a neutral background as a\ndiagnostic test\nOne convincing-looking heatmap does not prove a\nmodel is fair or generalizable.\n09 • EXPLAINABILITY\nModel Looking at The Trash — Or The Background?\n"
+    },
+    {
+      "page": 31,
+      "text": "10• AI FOR SUSTAINABILITY\nAI for Sustainability: Waste Management Solutions\n27\nPlatform Integrasi Lingkungan & Automated Handling\n"
+    },
+    {
+      "page": 32,
+      "text": "28\n10• AI FOR SUSTAINABILITY\nAI for Sustainability: Waste Management Solutions\nRECOVERY RATE\n% material yang berhasil\ndipulihkan\nCONTAMINATION\n% material salah campur /\nreject\nTHROUGHPUT\nkg/jam atau item/menit\nHUMAN OVERRIDE\n% item yang butuh pengecekan\nmanual\nENERGY / ITEM\nJoule atau Wh per inferensi\nCOST / TON\nbiaya proses per ton terpilah\n"
+    },
+    {
+      "page": 33,
+      "text": "29\nCAPTURE\nGambar & Metadata\nMODEL\nTop Class + Confidence\nPOLICY\nThreshold per Class\nACTION\nSort / Hold / Review\nMONITOR\nDrift & Outcomes\nJika confidence rendah\nJika distribusi berubah\n11 • DEPLOYMENT\nPlatform Integrasi Lingkungan & Automated Handling | PILAH\nJangan paksa — review manusia.\nPantau metrik dan siapkan\nretraining dengan data baru.\n"
+    },
+    {
+      "page": 34,
+      "text": "30\n11 • DEPLOYMENT\nPlatform Integrasi Lingkungan & Automated Handling | PILAH\n"
+    },
+    {
+      "page": 35,
+      "text": "CONCLUSION\nA good model is not just something that is memorized\nA good model learns material patterns,\npersists on new photos, acknowledges\nuncertainty, and helps make more\nsustainable decisions\nDATA\nLabel and split must be correct\nMODEL\nBaseline → Transfer Learning → Hybrid, if Proven Effective\nGENERALIZATION\nValidation, Test, and Error Analysis\nIMPACT\nMeasure The Actual Impact; Don't Claim Without Proof\n31\n"
+    },
+    {
+      "page": 36,
+      "text": "REFERENCES\nReferences — Machine Learning for Sustainable Solutions\nSource: International Journals; & SINTA;\n32\nLeCun, Bengio & Hinton (2015), Nature; Pan & Yang (2010), IEEE TKDE.\nLiu, L., Ouyang, W., Wang, X. et al. Deep Learning for Generic Object Detection: A Survey. Int J Comput Vis 128, 261–318 (2020). https://doi.org/10.1007/s11263-019-01247-4\nYang P, Baracchi D, Ni R, Zhao Y, Argenti F, Piva A. A Survey of Deep Learning-Based Source Image Forensics. J Imaging. 2020 Mar 4;6(3):9. doi: 10.3390/jimaging6030009. PMID: 34460606;\nPMCID: PMC8321025\nRangel, Gabriela, Cuevas-Tello, Juan C., Nunez-Varela, Jose, Puente, Cesar, Silva-Trujillo, Alejandra G., A Survey on Convolutional Neural Networks and Their Performance Limitations in Image\nRecognition Tasks, Journal of Sensors, 2024, 2797320, 29 pages, 2024. https://doi.org/10.1155/2024/2797320\nIlla, P. K., & Thillaigovindan, S. K. (2026). An Empirical Study of Spatial and Spectral Feature Fusion for Robust Lung Cancer Histopathology Classification Under Domain Shift and Image\nPerturbations. Applied Sciences, 16(10), 4674. https://doi.org/10.3390/app16104674\nMao, W. L., Chen, W. C., Wang, C. T., & Lin, Y. H. (2021). Recycling waste classification using optimized convolutional neural network. Resources, Conservation and Recycling, 164, 105132.\nY. Lecun, L. Bottou, Y. Bengio and P. Haffner, \"Gradient-based learning applied to document recognition,\" in Proceedings of the IEEE, vol. 86, no. 11, pp. 2278-2324, Nov. 1998, doi:\n10.1109/5.726791\nZhao et al. (2024), Figure 2, “A review of convolutional neural networks in computer vision,” Artificial Intelligence Review, 57, 99. DOI: 10.1007/s10462-024-10721-6\nGhosh, D., Zhang, B., Hegde, N. et al. Transfer Learning for Core Image-Based Classification in Diverse Geological Settings with Various Deep Learning Models. Math Geosci (2026).\nhttps://doi.org/10.1007/s11004-026-10346-1\nYing Lu. Transfer Learning for Image Classification. Other. Université de Lyon, 2017. English. ⟨NNT : 2017LYSEC045⟩. ⟨tel-02065405⟩\nJain, A., Varshney, S. Synergistic fusion of handcrafted descriptors and deep convolutional neural network features for improved content-based image retrieval. Discov Artif Intell 6, 1138 (2026).\nhttps://doi.org/10.1007/s44163-026-01665-7\nMoldovanu, S., Cocu, A., Stefanescu, D., & Anghel, C. (2026). Hybrid Decision-Level Fusion of CNN-Based Deep and Handcrafted Features for Colon Cancer Classification. Journal of Imaging,\n12(8), 368. https://doi.org/10.3390/jimaging12080368\nKapoor S, Narayanan A. Leakage and the reproducibility crisis in machine-learning-based science. Patterns (N Y). 2023 Aug 4;4(9):100804. doi: 10.1016/j.patter.2023.100804. PMID: 37720327;\nPMCID: PMC10499856.\nShorten, C., Khoshgoftaar, T.M. A survey on Image Data Augmentation for Deep Learning. J Big Data 6, 60 (2019). https://doi.org/10.1186/s40537-019-0197-0\nMohammad Mahdi Bejani and Mehdi Ghatee. 2021. A systematic review on overfitting control in shallow and deep neural networks. Artif. Intell. Rev. 54, 8 (Dec 2021), 6391–6438.\nhttps://doi.org/10.1007/s10462-021-09975-1\nZlobin, Mykola & Bazylevych, Volodymyr. (2025). BAYESIAN OPTIMIZATION FOR TUNING HYPERPARAMETRS OF MACHINE LEARNING MODELS: A PERFORMANCE ANALYSIS IN XGBOOST.\nComputer systems and information technologies. 141-146. 10.31891/csit-2025-1-16. \nMarina Sokolova and Guy Lapalme. 2009. A systematic analysis of performance measures for classification tasks. Inf. Process. Manage. 45, 4 (July, 2009), 427–437.\nhttps://doi.org/10.1016/j.ipm.2009.03.002\nPowers, D.M.W., 2011. Evaluation: from Precision, Recall and F-measure to ROC, Informedness, Markedness and Correlation. Journal of Machine Learning Technologies, 2(1), 37-63\n"
+    },
+    {
+      "page": 37,
+      "text": "+62 813 9330 4838\nlinkedin.com/in/arriva-miftahul-birri \narrivariva05@gmail.com\nJakarta | Yogyakarta | Surabaya\nTHANK YOU!\nAny questions?\nWEBINAR • GELAR RASA 2026\n"
+    }
+  ]
+}

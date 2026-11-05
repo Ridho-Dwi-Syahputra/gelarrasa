@@ -1,0 +1,28 @@
+{
+  "recorded_date_wib": "2026-11-05",
+  "submission_filename_displayed": "submission_.csv",
+  "original_archive_name": "submission_99.csv",
+  "local_archive_path": "docs/secret/submission_.csv",
+  "local_archive_sha256": "3eaf904ecd0f580cb48e8e76c4364cea0053746e352496543256503aeaa9f513",
+  "matches_original_archive_hash": true,
+  "public_score_displayed": "0.9930",
+  "metric": "accuracy",
+  "evidence": "user-provided screenshot in conversation showing successful submission_.csv and Public Score 0.9930",
+  "independently_fetched_from_kaggle": false,
+  "reported_public_fraction": 0.30,
+  "public_fraction_source": "user statement",
+  "total_test_rows": 480,
+  "exact_public_row_count": null,
+  "private_score": null,
+  "incorrect_public_image_ids": null,
+  "interpretation": "Near-perfect displayed accuracy on the public subset; approximately one public error if its size is about 144, but the exact count and error identities are unknown.",
+  "full_test_cluster_archive_disagreements": 171,
+  "full_test_cluster_archive_agreements": 309,
+  "cluster_public_accuracy": null,
+  "limitations": [
+    "Public score does not establish full-test or train-label accuracy.",
+    "The 171 disagreements are not proven LLM errors or proven clustering errors.",
+    "Cluster names used in the retrospective comparison derive from train-archive plurality.",
+    "Score is not organizer approval of the annotation method; the archive remains excluded from the active competition labeling/training pipeline."
+  ]
+}

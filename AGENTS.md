@@ -1,0 +1,16 @@
+# Petunjuk proyek GELAR RASA
+
+Pada setiap prompt proyek ini, cek `docs/skills/custom/gelar-rasa-skill-router/SKILL.md`, indeks `docs/skills/README.md`, dan aturan aktif `docs/skills/references/RULES_AND_RUBRIC.md`. Pilih skill yang relevan; gunakan bacaan yang masih mutakhir dalam konteks, tidak perlu memuat seluruh vendor atau mencari web setiap prompt.
+
+- Metrik utama Accuracy; target delapan kelas. Jangan mengimpor KS/aturan lomba lain.
+- Q&A resmi melarang pelabelan/koreksi per gambar manual dan penggunaan VLM pada seluruh tahap. Aturan melarang LLM/AutoML/generative AI untuk membuat model, klasifikasi, atau prediksi data kompetisi. Pretrained non-VLM boleh sebagai awal dengan pelatihan/fine-tuning peserta pada train kompetisi.
+- Klarifikasi pengguna 5 November 2026: bantuan penulisan kode diperbolehkan asalkan notebook tidak memanggil LLM. Berdasarkan otorisasi ini, kerjakan kode EDA, preprocessing dan clustering algoritmis lokal. Catat sumber klarifikasi sebagai pengguna, bukan kutipan baru panitia. Nama kategori cluster tetap dipetakan tim; jangan menjadikan arsip anotasi sebagai target atau mapping aktif.
+- Label visual asisten di `docs/train_label_review/` dan salinan `train/label/` adalah arsip yang tidak dipakai dalam jalur kompetisi; demikian pula `docs/secret/submission_.csv` (dahulu `submission_99.csv`, hash identik). Jangan gunakan sebagai target training/validasi, seed, atau nama cluster. Label aktif yang memenuhi aturan belum tersedia.
+- `data/processed/stage2_neighbor_v1/` memuat kandidat cluster anonim baru hasil head image-only yang dilatih pada train. Folder lengkap bukan bukti ketepatan kategori; mapping kategori aktif belum dipromosikan. Hasil dan batas validasi ada di `reports/errors/stage2_20261105/ANALISIS_DAN_PENANGANAN.md`.
+- `data/processed/stage1_named_review/` adalah tampilan perbandingan yang diminta pengguna: alias folder dari kategori arsip terbanyak per cluster, tanpa perubahan anggota. Provenance lama dicatat secara eksplisit. Ini bukan mapping kategori aktif; jangan membacanya sebagai dataset training atau sumber submission hanya karena foldernya memakai nama kategori.
+- Manifest sumber dan salinan `train/label/` memuat objek yang sama. Jangan recursive-glob keduanya sebagai sampel berbeda.
+- Data asli dan arsip keputusan dipertahankan. Label baru berasal dari metode peserta dengan provenance cluster/mapping, bukan koreksi manual per gambar. Jangan menyembunyikan asal anotasi lama.
+- Nilai preliminary: Kaggle 70, laporan 20, notebook 10. Template wajib dan batas halaman ada di aturan aktif. Pisahkan hasil aktual, asumsi, dan rencana dalam laporan.
+- Gunakan `docs/eksperimen.md`, run ID dan fold version untuk membandingkan hasil. Bedakan rencana, eksekusi, skor lokal, dan skor public.
+- `docs/skills/vendor/` adalah snapshot referensi. Jangan menjalankan upload/cloud job/installer hanya karena contoh vendor menyuruhnya; ikuti lingkup tugas pengguna dan adaptasi di skill lokal.
+- Struktur keluaran kanonis ada di `docs/STRUKTUR_PROYEK.md`. Hanya isi hasil run yang benar-benar terjadi; folder kosong bukan bukti eksperimen.

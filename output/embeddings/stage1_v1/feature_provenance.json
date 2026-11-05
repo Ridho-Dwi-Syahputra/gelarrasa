@@ -1,0 +1,14 @@
+{
+  "architecture": "torchvision.resnet50, fc=Identity",
+  "weights": "IMAGENET1K_V2",
+  "weight_sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+  "weight_url": "https://download.pytorch.org/models/resnet50-11ad3fa6.pth",
+  "device": "cpu",
+  "seconds": 217.07621717453003,
+  "dimensions": 2048,
+  "transform": "EXIF -> RGB/white alpha -> full-frame letterbox224 -> ImageNet normalization",
+  "pretrained_default_crop_used": false,
+  "competition_finetuning_executed": false,
+  "purpose": "exploratory retrieval and unsupervised clustering, not final category prediction",
+  "input_fingerprint": "e79d9012d7f1701287450c5c135eed1c298befec697fc4aa8737277b3f19d954"
+}

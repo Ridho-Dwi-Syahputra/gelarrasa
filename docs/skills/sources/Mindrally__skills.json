@@ -1,0 +1,4103 @@
+{
+  "repo": "Mindrally/skills",
+  "stars": 293,
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+  },
+  "commit": "7682ca77710e0971eab4e0ae5dddfa281aea0ba5",
+  "tree": {
+    "sha": "7682ca77710e0971eab4e0ae5dddfa281aea0ba5",
+    "url": "https://api.github.com/repos/Mindrally/skills/git/trees/7682ca77710e0971eab4e0ae5dddfa281aea0ba5",
+    "tree": [
+      {
+        "path": ".claude-plugin",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2a0610641ca2fc162ee9eb84bee522a3f5e2e7e8",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/2a0610641ca2fc162ee9eb84bee522a3f5e2e7e8"
+      },
+      {
+        "path": ".claude-plugin/marketplace.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c1c40c50a51be6029e31a1b8c7d4771de58da780",
+        "size": 732,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/c1c40c50a51be6029e31a1b8c7d4771de58da780"
+      },
+      {
+        "path": ".claude-plugin/plugin.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef2d2b71c3a753e05a65700068b31a8c7e2a473e",
+        "size": 602,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/ef2d2b71c3a753e05a65700068b31a8c7e2a473e"
+      },
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3fb620967ea3eef4c797f451b408eaede7ab6ebd",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/3fb620967ea3eef4c797f451b408eaede7ab6ebd"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "67a03b446268a95fa7533b04bec4100c715ec773",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/67a03b446268a95fa7533b04bec4100c715ec773"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/config.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f008812757312a48feb65fa72554c0b0da7e928",
+        "size": 194,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/2f008812757312a48feb65fa72554c0b0da7e928"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/skill_bug.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "26ca56efd3ee42bc7db23ec31e446f4d851595c9",
+        "size": 646,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/26ca56efd3ee42bc7db23ec31e446f4d851595c9"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/skill_request.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3b8d6d80b328d2317e2c973b78a8520fa9702fb8",
+        "size": 969,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/3b8d6d80b328d2317e2c973b78a8520fa9702fb8"
+      },
+      {
+        "path": ".github/PULL_REQUEST_TEMPLATE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f54cfce6afc0cb27e65e747e11572eb0d4c27f3",
+        "size": 436,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/4f54cfce6afc0cb27e65e747e11572eb0d4c27f3"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef29f1ad21b10252c9149ba111e8064996d476bd",
+        "size": 125,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/ef29f1ad21b10252c9149ba111e8064996d476bd"
+      },
+      {
+        "path": "CHANGELOG.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aaa88828f410ddf83fc155ddc2bf842579ade4e7",
+        "size": 926,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/aaa88828f410ddf83fc155ddc2bf842579ade4e7"
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f7e4c6719f19df17b94503e19ac10731c33532a",
+        "size": 2279,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/2f7e4c6719f19df17b94503e19ac10731c33532a"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+        "size": 11357,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ad26bb1335eaedd66cc17ad0973143789ed37f9",
+        "size": 18718,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/3ad26bb1335eaedd66cc17ad0973143789ed37f9"
+      },
+      {
+        "path": "accessibility-a11y",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "89991f55fd86fbf48136e290e54d075c945a65b5",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/89991f55fd86fbf48136e290e54d075c945a65b5"
+      },
+      {
+        "path": "accessibility-a11y/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4a3de0a1a9108de3b317b51dce2ac70ffda5dde5",
+        "size": 5405,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/4a3de0a1a9108de3b317b51dce2ac70ffda5dde5"
+      },
+      {
+        "path": "alpine-js",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5668cddefcd907ef9fcb02f9e76896a77428b167",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/5668cddefcd907ef9fcb02f9e76896a77428b167"
+      },
+      {
+        "path": "alpine-js/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f864ff997d0994a99c8376311c030ad5887c147",
+        "size": 2853,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/8f864ff997d0994a99c8376311c030ad5887c147"
+      },
+      {
+        "path": "analytics-data-analysis",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "580b92a6121b5fccc3d6efef41440084eb4a7234",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/580b92a6121b5fccc3d6efef41440084eb4a7234"
+      },
+      {
+        "path": "analytics-data-analysis/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4819255b0081b372f9241a501fb4441d79e2ceba",
+        "size": 6551,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/4819255b0081b372f9241a501fb4441d79e2ceba"
+      },
+      {
+        "path": "android-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ed99e94f1a27b1e8078434129387e6ef584f2547",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/ed99e94f1a27b1e8078434129387e6ef584f2547"
+      },
+      {
+        "path": "android-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9a6f04d35f9a785a1e1a94b2aafa91a89f2576cb",
+        "size": 4903,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/9a6f04d35f9a785a1e1a94b2aafa91a89f2576cb"
+      },
+      {
+        "path": "angular-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "31dafbf3f5952e5284d24a0baa2edd1976f4679a",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/31dafbf3f5952e5284d24a0baa2edd1976f4679a"
+      },
+      {
+        "path": "angular-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d4e087b78230fca9372d960b0f603f964104a7fa",
+        "size": 2659,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/d4e087b78230fca9372d960b0f603f964104a7fa"
+      },
+      {
+        "path": "angular",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3a9bbec1de896f0fa534f298098a4301b6890de0",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/3a9bbec1de896f0fa534f298098a4301b6890de0"
+      },
+      {
+        "path": "angular/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "04601de18f9fcafd6d796ea90c979d39e51d76dc",
+        "size": 2458,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/04601de18f9fcafd6d796ea90c979d39e51d76dc"
+      },
+      {
+        "path": "anime-js",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "56136cce4f55f3ea04c8baf0200ed96b6e6cd4f7",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/56136cce4f55f3ea04c8baf0200ed96b6e6cd4f7"
+      },
+      {
+        "path": "anime-js/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a8b1631db4adb75a9af3ecb7a27b53e27fc2fea",
+        "size": 7279,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/1a8b1631db4adb75a9af3ecb7a27b53e27fc2fea"
+      },
+      {
+        "path": "anthropic-claude-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cf9791fa4a479812859b8aea79c6599a8878b8b3",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/cf9791fa4a479812859b8aea79c6599a8878b8b3"
+      },
+      {
+        "path": "anthropic-claude-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a81838b36450defa0e87c685a7e5fdca4bbb531c",
+        "size": 8970,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/a81838b36450defa0e87c685a7e5fdca4bbb531c"
+      },
+      {
+        "path": "api-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bc0e56ec77335c455d8e81fced521be5aa104017",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/bc0e56ec77335c455d8e81fced521be5aa104017"
+      },
+      {
+        "path": "api-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f516b2c6754f626dea870f10873e258c7dd38139",
+        "size": 2823,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/f516b2c6754f626dea870f10873e258c7dd38139"
+      },
+      {
+        "path": "apollo-graphql",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b61313232384b5fc51bafdaf3fb216eea8ac000c",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/b61313232384b5fc51bafdaf3fb216eea8ac000c"
+      },
+      {
+        "path": "apollo-graphql/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "64dadd7bebabe5258e8c417eae304f02197c19c4",
+        "size": 12337,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/64dadd7bebabe5258e8c417eae304f02197c19c4"
+      },
+      {
+        "path": "aspnet-core",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "75f354f5c198119485968d9c497e65c71bc70db8",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/75f354f5c198119485968d9c497e65c71bc70db8"
+      },
+      {
+        "path": "aspnet-core/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5f4e89a5c3d11f07d621a6c15c6e3cd3e34ab879",
+        "size": 6882,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/5f4e89a5c3d11f07d621a6c15c6e3cd3e34ab879"
+      },
+      {
+        "path": "astro",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a1ded42de7e182ecab3976ceb82aebaec69ff515",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/a1ded42de7e182ecab3976ceb82aebaec69ff515"
+      },
+      {
+        "path": "astro/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dbf451a24b6b52b49cc6d5a2f1b3666570279d1f",
+        "size": 2282,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/dbf451a24b6b52b49cc6d5a2f1b3666570279d1f"
+      },
+      {
+        "path": "auth0-authentication",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ca0b08b5c57b7452b4a0d88a301ff67352c90b44",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/ca0b08b5c57b7452b4a0d88a301ff67352c90b44"
+      },
+      {
+        "path": "auth0-authentication/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1af166a08a819536b99b957a0c8bc7ef5f9949f",
+        "size": 6154,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/b1af166a08a819536b99b957a0c8bc7ef5f9949f"
+      },
+      {
+        "path": "autogen-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "51f325cfb0816578e6c717acc8340b8491cced77",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/51f325cfb0816578e6c717acc8340b8491cced77"
+      },
+      {
+        "path": "autogen-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d9c34d805bbb42ae774452b5c33b1190d5907fbc",
+        "size": 10343,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/d9c34d805bbb42ae774452b5c33b1190d5907fbc"
+      },
+      {
+        "path": "automl-hyperparameter-optimization",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "92faaa3b27bf19e7a79876baf2df953562dd934c",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/92faaa3b27bf19e7a79876baf2df953562dd934c"
+      },
+      {
+        "path": "automl-hyperparameter-optimization/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a926767250b3a98ceef30f7e2fefeec3cf57fd4a",
+        "size": 9902,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/a926767250b3a98ceef30f7e2fefeec3cf57fd4a"
+      },
+      {
+        "path": "aws-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "03e0a3e7ba6715f802bc444e73a521469345cfe0",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/03e0a3e7ba6715f802bc444e73a521469345cfe0"
+      },
+      {
+        "path": "aws-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "66bb5c6b0599ae5ae2653cf883543121c1343b8c",
+        "size": 6645,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/66bb5c6b0599ae5ae2653cf883543121c1343b8c"
+      },
+      {
+        "path": "azure",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "878b13a5b877132570f911cf9d127bd91066bc76",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/878b13a5b877132570f911cf9d127bd91066bc76"
+      },
+      {
+        "path": "azure/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ef8c0469e8862cb10d1bda0826d2352fb71dafd",
+        "size": 2367,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/0ef8c0469e8862cb10d1bda0826d2352fb71dafd"
+      },
+      {
+        "path": "backend-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6eb8477f8d41b0d5ea3f5ccd1199a7e575369846",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/6eb8477f8d41b0d5ea3f5ccd1199a7e575369846"
+      },
+      {
+        "path": "backend-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "feb0ffbb2d0d12441c7bc497497dec4731261925",
+        "size": 2987,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/feb0ffbb2d0d12441c7bc497497dec4731261925"
+      },
+      {
+        "path": "bash-scripting",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f0e8bf41cc3b4598a15f3042e6f07cffea8123ed",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/f0e8bf41cc3b4598a15f3042e6f07cffea8123ed"
+      },
+      {
+        "path": "bash-scripting/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "46e73d4a9ebda503f0119fad1df63eff25e7d59e",
+        "size": 2477,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/46e73d4a9ebda503f0119fad1df63eff25e7d59e"
+      },
+      {
+        "path": "beautifulsoup-parsing",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9445ce56cd90b458865b7ff35a3de7bcacb88bd9",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/9445ce56cd90b458865b7ff35a3de7bcacb88bd9"
+      },
+      {
+        "path": "beautifulsoup-parsing/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "97d956e1ffa5fc167efbc31dbc20de0ff13f3057",
+        "size": 10045,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/97d956e1ffa5fc167efbc31dbc20de0ff13f3057"
+      },
+      {
+        "path": "bitbucket-workflow",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "af53a93de5370df116bdfccaab15d375a37c0547",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/af53a93de5370df116bdfccaab15d375a37c0547"
+      },
+      {
+        "path": "bitbucket-workflow/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8bd60595f8bd434b3c07c74829161d1eed062480",
+        "size": 9063,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/8bd60595f8bd434b3c07c74829161d1eed062480"
+      },
+      {
+        "path": "blazor",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2ef40b226c5555419fb67982d25549325bbac12d",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/2ef40b226c5555419fb67982d25549325bbac12d"
+      },
+      {
+        "path": "blazor/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a8fad6f042a49851127a0331629ddfd1c11fa709",
+        "size": 4733,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/a8fad6f042a49851127a0331629ddfd1c11fa709"
+      },
+      {
+        "path": "blender-python-addon",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "97e5810072cc48de4879eeb20a4fab7187cd4af2",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/97e5810072cc48de4879eeb20a4fab7187cd4af2"
+      },
+      {
+        "path": "blender-python-addon/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6ba2abba570aaf77616ce4f7f63f2d4fc6bd61a8",
+        "size": 8839,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/6ba2abba570aaf77616ce4f7f63f2d4fc6bd61a8"
+      },
+      {
+        "path": "blockchain",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "288979b114beb967cfe96739dff330c783926b5b",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/288979b114beb967cfe96739dff330c783926b5b"
+      },
+      {
+        "path": "blockchain/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "acfd1b4a116c205744eb2efdd8d8d2fe83755782",
+        "size": 2001,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/acfd1b4a116c205744eb2efdd8d8d2fe83755782"
+      },
+      {
+        "path": "bootstrap",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8e359a344ec1366730082724fc061f2a0c29f794",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/8e359a344ec1366730082724fc061f2a0c29f794"
+      },
+      {
+        "path": "bootstrap/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6209eb1748f3681c71a72a5fee0813d996cbb2f4",
+        "size": 3257,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/6209eb1748f3681c71a72a5fee0813d996cbb2f4"
+      },
+      {
+        "path": "business-central-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4705f36c8788605d3e1e20cd6eda9f675ffe9deb",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/4705f36c8788605d3e1e20cd6eda9f675ffe9deb"
+      },
+      {
+        "path": "business-central-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "934e6914afa94631d5adafc4467ed4c01d6947e7",
+        "size": 3716,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/934e6914afa94631d5adafc4467ed4c01d6947e7"
+      },
+      {
+        "path": "c-sharp",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "56e89096cf0ddb6d28587572e968217ae89fd36c",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/56e89096cf0ddb6d28587572e968217ae89fd36c"
+      },
+      {
+        "path": "c-sharp/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f579bacb2619a1f8ad27c9fe829e538219e523f",
+        "size": 3682,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/3f579bacb2619a1f8ad27c9fe829e538219e523f"
+      },
+      {
+        "path": "cheerio-parsing",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9d7f6f7e40fe8a96bbf5a555a040821ba3c2ccfd",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/9d7f6f7e40fe8a96bbf5a555a040821ba3c2ccfd"
+      },
+      {
+        "path": "cheerio-parsing/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cfc458b30ea83ae1db2d50506d2860d5e2b0a353",
+        "size": 8574,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/cfc458b30ea83ae1db2d50506d2860d5e2b0a353"
+      },
+      {
+        "path": "chrome-extension-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "205779689ac031c49620160829ba4998c95b8811",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/205779689ac031c49620160829ba4998c95b8811"
+      },
+      {
+        "path": "chrome-extension-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "53bf8f49ab94199a6507f934ab6812a57219a941",
+        "size": 6712,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/53bf8f49ab94199a6507f934ab6812a57219a941"
+      },
+      {
+        "path": "ci-cd-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "19a0e743f91e764603fa91b373b42e3e7daf6dc1",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/19a0e743f91e764603fa91b373b42e3e7daf6dc1"
+      },
+      {
+        "path": "ci-cd-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2035bc464f2a48eec4abdc33e9c1a0bdc32d0f64",
+        "size": 9791,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/2035bc464f2a48eec4abdc33e9c1a0bdc32d0f64"
+      },
+      {
+        "path": "clean-architecture",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7e7a985adf98dc81bdc5f9a5556224a443e862e8",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/7e7a985adf98dc81bdc5f9a5556224a443e862e8"
+      },
+      {
+        "path": "clean-architecture/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b6794841c644c203aefbe70521309f1d26c9dc93",
+        "size": 2861,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/b6794841c644c203aefbe70521309f1d26c9dc93"
+      },
+      {
+        "path": "clean-code",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "96d2801aa865efde14d4ab7c70c24898dcf66119",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/96d2801aa865efde14d4ab7c70c24898dcf66119"
+      },
+      {
+        "path": "clean-code/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cd049e17731dac284b275bf8d3366381d0218ef8",
+        "size": 7425,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/cd049e17731dac284b275bf8d3366381d0218ef8"
+      },
+      {
+        "path": "clerk-authentication",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7d009b94ff9cf7e5d11a8fbe212a5b7f201d2aa7",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/7d009b94ff9cf7e5d11a8fbe212a5b7f201d2aa7"
+      },
+      {
+        "path": "clerk-authentication/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62f1b8c2ff8f4879a9fd1f508699bc7ef75ae4c9",
+        "size": 11819,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/62f1b8c2ff8f4879a9fd1f508699bc7ef75ae4c9"
+      },
+      {
+        "path": "cloudflare-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8a580a32e4dd337e0ac6fb44426d9776753de83c",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/8a580a32e4dd337e0ac6fb44426d9776753de83c"
+      },
+      {
+        "path": "cloudflare-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f1341e73e19ff16e2567cfce1282dedccfd7b0c",
+        "size": 10706,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/4f1341e73e19ff16e2567cfce1282dedccfd7b0c"
+      },
+      {
+        "path": "computer-vision-opencv",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "40027cfe36c1934c86f69f6a4b6e5bd201f761e7",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/40027cfe36c1934c86f69f6a4b6e5bd201f761e7"
+      },
+      {
+        "path": "computer-vision-opencv/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f1c4bf1fcd19ce05850522219e66c1df584029c",
+        "size": 4142,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/8f1c4bf1fcd19ce05850522219e66c1df584029c"
+      },
+      {
+        "path": "convex",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "909384682e8bf6cf5ac9d946aae1b2fe8963e1ed",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/909384682e8bf6cf5ac9d946aae1b2fe8963e1ed"
+      },
+      {
+        "path": "convex/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "062e1a1760002e3fb9196f3afd05ed0f341dd197",
+        "size": 6684,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/062e1a1760002e3fb9196f3afd05ed0f341dd197"
+      },
+      {
+        "path": "cpp",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "785fcdbbc86a306a333eb93cca6ec8824438f689",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/785fcdbbc86a306a333eb93cca6ec8824438f689"
+      },
+      {
+        "path": "cpp/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e86b8292e8ed45465dc515d8004ec34bb869a1e",
+        "size": 3986,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/8e86b8292e8ed45465dc515d8004ec34bb869a1e"
+      },
+      {
+        "path": "css",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1ff8c6b8eb0e84093fb57db30a4bb9bddc01f9a9",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/1ff8c6b8eb0e84093fb57db30a4bb9bddc01f9a9"
+      },
+      {
+        "path": "css/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be37030b93d850d87deb89ee07bbcc8b503cb9a3",
+        "size": 3680,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/be37030b93d850d87deb89ee07bbcc8b503cb9a3"
+      },
+      {
+        "path": "cypress",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c2ab973cffc60fb6b7e7846b6cd336431c113d0f",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/c2ab973cffc60fb6b7e7846b6cd336431c113d0f"
+      },
+      {
+        "path": "cypress/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "019945a01edff25bbf39cb2d2cdb4298524c9107",
+        "size": 2462,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/019945a01edff25bbf39cb2d2cdb4298524c9107"
+      },
+      {
+        "path": "data-analysis-jupyter",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e278cf2dcd7c842240c0f47596be5c742bf9a49b",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/e278cf2dcd7c842240c0f47596be5c742bf9a49b"
+      },
+      {
+        "path": "data-analysis-jupyter/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "79e8679cdcdb4fa4d7e8e55b2f458c02ed8399db",
+        "size": 4718,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/79e8679cdcdb4fa4d7e8e55b2f458c02ed8399db"
+      },
+      {
+        "path": "data-analyst",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "86380352f7bd99d387f07bf5b7dacb95a0afd659",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/86380352f7bd99d387f07bf5b7dacb95a0afd659"
+      },
+      {
+        "path": "data-analyst/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cb18c0447802aad3ef2ea2c6cc6e74c4164a3b82",
+        "size": 2114,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/cb18c0447802aad3ef2ea2c6cc6e74c4164a3b82"
+      },
+      {
+        "path": "data-jupyter-python",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b36a104ba8f05f1bb1d7a36684b922708e1809f5",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/b36a104ba8f05f1bb1d7a36684b922708e1809f5"
+      },
+      {
+        "path": "data-jupyter-python/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e96bb0a8d36b593ca3c6e8bce165d908a379a9d",
+        "size": 2193,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/9e96bb0a8d36b593ca3c6e8bce165d908a379a9d"
+      },
+      {
+        "path": "deep-learning-python",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0ee69093d7c4d06cf2757669435812d325aa16a9",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/0ee69093d7c4d06cf2757669435812d325aa16a9"
+      },
+      {
+        "path": "deep-learning-python/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8798adaf48ff81b9b3221396730054c167a75068",
+        "size": 2928,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/8798adaf48ff81b9b3221396730054c167a75068"
+      },
+      {
+        "path": "deep-learning-pytorch",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e45de0b6f0889f425ae4d4f6cc397c3fe4d04b47",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/e45de0b6f0889f425ae4d4f6cc397c3fe4d04b47"
+      },
+      {
+        "path": "deep-learning-pytorch/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8c00e770b16d7c457ad462f5ba7428d334080642",
+        "size": 3913,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/8c00e770b16d7c457ad462f5ba7428d334080642"
+      },
+      {
+        "path": "deep-learning",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2c0642601fdfe6ba85a439552731143061add539",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/2c0642601fdfe6ba85a439552731143061add539"
+      },
+      {
+        "path": "deep-learning/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c4b4bff222d4d67f45834c73b925956b8f357fd7",
+        "size": 2324,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/c4b4bff222d4d67f45834c73b925956b8f357fd7"
+      },
+      {
+        "path": "deno-typescript",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "78472753518cfa7cf76705c43a515f9eb7d4ca90",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/78472753518cfa7cf76705c43a515f9eb7d4ca90"
+      },
+      {
+        "path": "deno-typescript/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c032684af59c96d33486cc5cf2bce3749de2e3c5",
+        "size": 7679,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/c032684af59c96d33486cc5cf2bce3749de2e3c5"
+      },
+      {
+        "path": "design-systems",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "184937b40969bb01ff92332837672e31db4072c8",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/184937b40969bb01ff92332837672e31db4072c8"
+      },
+      {
+        "path": "design-systems/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6be664bdcaa43e9f64fb1be966c07d3e49b0a2c2",
+        "size": 7396,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/6be664bdcaa43e9f64fb1be966c07d3e49b0a2c2"
+      },
+      {
+        "path": "devops",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4b5e15b09fa16802b26091024be2cebaebd0ba03",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/4b5e15b09fa16802b26091024be2cebaebd0ba03"
+      },
+      {
+        "path": "devops/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e753d24e92b8c5804558521b1f09e00646beab5c",
+        "size": 2539,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/e753d24e92b8c5804558521b1f09e00646beab5c"
+      },
+      {
+        "path": "django-python",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6174356c63c57544cfd2a09c1052acd1ab18db57",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/6174356c63c57544cfd2a09c1052acd1ab18db57"
+      },
+      {
+        "path": "django-python/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "972701751d39de85efb67844a10dc3835aa0158c",
+        "size": 1722,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/972701751d39de85efb67844a10dc3835aa0158c"
+      },
+      {
+        "path": "django-rest-api-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "377595dd69f047829e66eb8d7f65e4c7623dc9e6",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/377595dd69f047829e66eb8d7f65e4c7623dc9e6"
+      },
+      {
+        "path": "django-rest-api-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "92b5476a916d2f14c76588640054c83e119391bf",
+        "size": 2833,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/92b5476a916d2f14c76588640054c83e119391bf"
+      },
+      {
+        "path": "docker",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a23981918aa77cc4fb933c14e0042b0a64e744e3",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/a23981918aa77cc4fb933c14e0042b0a64e744e3"
+      },
+      {
+        "path": "docker/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "747e70fa6f1025cf3853ef87d81675a201e539c9",
+        "size": 2409,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/747e70fa6f1025cf3853ef87d81675a201e539c9"
+      },
+      {
+        "path": "dotnet",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bb6ae39d28e425186c99d8f3179b9a6d076b54f7",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/bb6ae39d28e425186c99d8f3179b9a6d076b54f7"
+      },
+      {
+        "path": "dotnet/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "279d8d1c2e49e0b3d943e00bc5968c234ea3fe50",
+        "size": 4384,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/279d8d1c2e49e0b3d943e00bc5968c234ea3fe50"
+      },
+      {
+        "path": "drizzle-orm",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4d03003d961ae3e5c298fb57e4eebbcdde0d09b8",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/4d03003d961ae3e5c298fb57e4eebbcdde0d09b8"
+      },
+      {
+        "path": "drizzle-orm/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0a476403bbef669dc0b0446885e6f8351fc898e7",
+        "size": 8731,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/0a476403bbef669dc0b0446885e6f8351fc898e7"
+      },
+      {
+        "path": "drupal-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ccb163a6845c805d2c3a750f376709ffbb1a29ee",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/ccb163a6845c805d2c3a750f376709ffbb1a29ee"
+      },
+      {
+        "path": "drupal-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6ce6e53ba065d420d5eadd15988de92157de2e52",
+        "size": 2355,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/6ce6e53ba065d420d5eadd15988de92157de2e52"
+      },
+      {
+        "path": "elasticsearch-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c82cf0b7286dedcee4039dc2fb80aa6c7cf88fbc",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/c82cf0b7286dedcee4039dc2fb80aa6c7cf88fbc"
+      },
+      {
+        "path": "elasticsearch-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "25634b490f280ee7c9806735ad9534f199a2fef6",
+        "size": 10443,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/25634b490f280ee7c9806735ad9534f199a2fef6"
+      },
+      {
+        "path": "electron-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "23e368a8da88c6e465cff7a2a5d1495736673482",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/23e368a8da88c6e465cff7a2a5d1495736673482"
+      },
+      {
+        "path": "electron-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a32e2f1f3d2c05fb2e59a796dd983ed697dcc5b7",
+        "size": 4130,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/a32e2f1f3d2c05fb2e59a796dd983ed697dcc5b7"
+      },
+      {
+        "path": "elixir",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0a24b489e5d2d7c35e64501dd46a00a9854eafcf",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/0a24b489e5d2d7c35e64501dd46a00a9854eafcf"
+      },
+      {
+        "path": "elixir/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "60c96da50231819c0a7d27d205a80c59261b5134",
+        "size": 1932,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/60c96da50231819c0a7d27d205a80c59261b5134"
+      },
+      {
+        "path": "embedded-stm32",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f64f942f00567ab6274978da875d0ade9287f405",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/f64f942f00567ab6274978da875d0ade9287f405"
+      },
+      {
+        "path": "embedded-stm32/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef94447b1b662fd5cfde51eb27ecd32bb5248f30",
+        "size": 9302,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/ef94447b1b662fd5cfde51eb27ecd32bb5248f30"
+      },
+      {
+        "path": "esbuild-bundler",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3acbb6108581c716cb4f5e15d030af10d7ebe2b7",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/3acbb6108581c716cb4f5e15d030af10d7ebe2b7"
+      },
+      {
+        "path": "esbuild-bundler/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "acdd34922f6a6b5816d9de281a9b869468d0c83c",
+        "size": 8211,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/acdd34922f6a6b5816d9de281a9b869468d0c83c"
+      },
+      {
+        "path": "ethereum",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9aff0d381b673aaaf1ac0ab22d4840669cda22dc",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/9aff0d381b673aaaf1ac0ab22d4840669cda22dc"
+      },
+      {
+        "path": "ethereum/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0566e056ae2d787d615e366e92f0befd9bb88a7",
+        "size": 2343,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/d0566e056ae2d787d615e366e92f0befd9bb88a7"
+      },
+      {
+        "path": "expo-react-native-javascript-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f608c403047f900f38b8ea683f85d1fdaa88eb9c",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/f608c403047f900f38b8ea683f85d1fdaa88eb9c"
+      },
+      {
+        "path": "expo-react-native-javascript-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a4b03e0e1d3af85cd76fffd385cb08258b237b3a",
+        "size": 2378,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/a4b03e0e1d3af85cd76fffd385cb08258b237b3a"
+      },
+      {
+        "path": "expo-react-native-typescript",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ff80bb1d81f02d0dd9f03a07f2f32d8cdeb5c213",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/ff80bb1d81f02d0dd9f03a07f2f32d8cdeb5c213"
+      },
+      {
+        "path": "expo-react-native-typescript/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6ffa08dc4d10b3ee013665d390dd46cd1831c3be",
+        "size": 2253,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/6ffa08dc4d10b3ee013665d390dd46cd1831c3be"
+      },
+      {
+        "path": "express-typescript",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "72260e18620c7500e3dabeed17a40be5be0df007",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/72260e18620c7500e3dabeed17a40be5be0df007"
+      },
+      {
+        "path": "express-typescript/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8d6881fbe43bfcbdbeed327e22bcaed8045efaf0",
+        "size": 7636,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/8d6881fbe43bfcbdbeed327e22bcaed8045efaf0"
+      },
+      {
+        "path": "fastapi-microservices-serverless",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dda4d4086e58a12b614fdf330115641bee0c3945",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/dda4d4086e58a12b614fdf330115641bee0c3945"
+      },
+      {
+        "path": "fastapi-microservices-serverless/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "64982924ef21da428cb4c6d884965d1b55d22b23",
+        "size": 1549,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/64982924ef21da428cb4c6d884965d1b55d22b23"
+      },
+      {
+        "path": "fastapi-python",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d0e295eccee9ebd9d1260bb084d24da1d0c1b921",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/d0e295eccee9ebd9d1260bb084d24da1d0c1b921"
+      },
+      {
+        "path": "fastapi-python/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "225a45df6660447a74d03484aaad604c81485b9a",
+        "size": 2462,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/225a45df6660447a74d03484aaad604c81485b9a"
+      },
+      {
+        "path": "fastify-typescript",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e7c6b38d3416a00d0c373f5e0eaf29c437948c4c",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/e7c6b38d3416a00d0c373f5e0eaf29c437948c4c"
+      },
+      {
+        "path": "fastify-typescript/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a7c885ed500307aae25c2721119f30147f98b4d0",
+        "size": 6242,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/a7c885ed500307aae25c2721119f30147f98b4d0"
+      },
+      {
+        "path": "figma-integration",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1b8b5011dfccd92c4deb550c3f90166073a7f870",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/1b8b5011dfccd92c4deb550c3f90166073a7f870"
+      },
+      {
+        "path": "figma-integration/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9029cd4a5b1555ee293751b6c1972c31250f158c",
+        "size": 4884,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/9029cd4a5b1555ee293751b6c1972c31250f158c"
+      },
+      {
+        "path": "firebase-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ce68fc38df5012a7f187fad28cb6519961acf24d",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/ce68fc38df5012a7f187fad28cb6519961acf24d"
+      },
+      {
+        "path": "firebase-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1048060eedd2734b30b595833d9b09e1a85c53f5",
+        "size": 2478,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/1048060eedd2734b30b595833d9b09e1a85c53f5"
+      },
+      {
+        "path": "flask-python",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7244e8cef3ef0be1156958aa3c51677f27a3588c",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/7244e8cef3ef0be1156958aa3c51677f27a3588c"
+      },
+      {
+        "path": "flask-python/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "98a8ac04ee33ba27f55821fd63e6066ce0f2b2fc",
+        "size": 4094,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/98a8ac04ee33ba27f55821fd63e6066ce0f2b2fc"
+      },
+      {
+        "path": "flutter",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3f7d687456b477b72b55193764800f66c6c0bd04",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/3f7d687456b477b72b55193764800f66c6c0bd04"
+      },
+      {
+        "path": "flutter/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "673e2adf66e3847a5a5789ec0b9423332fecdad9",
+        "size": 2131,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/673e2adf66e3847a5a5789ec0b9423332fecdad9"
+      },
+      {
+        "path": "fortran",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "aa1f61e8b915c294d257ec1b5e653daef32386bb",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/aa1f61e8b915c294d257ec1b5e653daef32386bb"
+      },
+      {
+        "path": "fortran/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a145fd3a1c2c079398acbaa05f98e68e29c43373",
+        "size": 9421,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/a145fd3a1c2c079398acbaa05f98e68e29c43373"
+      },
+      {
+        "path": "fpga",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "91fb3fee126d2f6c55a1c43b2ccec6879e44acba",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/91fb3fee126d2f6c55a1c43b2ccec6879e44acba"
+      },
+      {
+        "path": "fpga/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ca2f1c33e3500c23d45f215ba603110e07b11acb",
+        "size": 2790,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/ca2f1c33e3500c23d45f215ba603110e07b11acb"
+      },
+      {
+        "path": "framer-motion",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2cd179910ec2d2a07dde2625e87daae87ae989ed",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/2cd179910ec2d2a07dde2625e87daae87ae989ed"
+      },
+      {
+        "path": "framer-motion/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "382d386ecc6acf6959da93e60547b57e6885f21f",
+        "size": 4776,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/382d386ecc6acf6959da93e60547b57e6885f21f"
+      },
+      {
+        "path": "front-end-developer",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "61620e3888f753105c453f78bc19a3a7a988d4a9",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/61620e3888f753105c453f78bc19a3a7a988d4a9"
+      },
+      {
+        "path": "front-end-developer/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "16adc4775e05bb821d2f5fa1962117ff111987e6",
+        "size": 1498,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/16adc4775e05bb821d2f5fa1962117ff111987e6"
+      },
+      {
+        "path": "game-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "37c6c78b0d165105854c1c7cae5cd81574878401",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/37c6c78b0d165105854c1c7cae5cd81574878401"
+      },
+      {
+        "path": "game-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a086d4706b2153f4c3943035b72cef7cf5077e50",
+        "size": 3766,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/a086d4706b2153f4c3943035b72cef7cf5077e50"
+      },
+      {
+        "path": "gamemaker-gml",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c859141664c4683c158967fbe8f8a79fa2795785",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/c859141664c4683c158967fbe8f8a79fa2795785"
+      },
+      {
+        "path": "gamemaker-gml/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6d207204301fc2258450acfd9d35e7dcce197a43",
+        "size": 9092,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/6d207204301fc2258450acfd9d35e7dcce197a43"
+      },
+      {
+        "path": "gcp-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "683bc7d375ee20302b7bdbfd29ae4e54f0963a32",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/683bc7d375ee20302b7bdbfd29ae4e54f0963a32"
+      },
+      {
+        "path": "gcp-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e04d11f9b55fa6c892cce4fc2d66b01ab45128b",
+        "size": 8776,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/9e04d11f9b55fa6c892cce4fc2d66b01ab45128b"
+      },
+      {
+        "path": "general-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "32fe46b143eb4a0b8cf398adeb4680ff22b3de14",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/32fe46b143eb4a0b8cf398adeb4680ff22b3de14"
+      },
+      {
+        "path": "general-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f60b5d951f744f76252cdaaf408172a1575567b6",
+        "size": 5161,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/f60b5d951f744f76252cdaaf408172a1575567b6"
+      },
+      {
+        "path": "ghost",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "948191327f5ea151df393168e4c73e40ef4cf33c",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/948191327f5ea151df393168e4c73e40ef4cf33c"
+      },
+      {
+        "path": "ghost/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6982242c15f1d21222bd2770b841c77b2be9b863",
+        "size": 5673,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/6982242c15f1d21222bd2770b841c77b2be9b863"
+      },
+      {
+        "path": "git-workflow",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e48cb0e015d84af67c2990a3b81bd802eaf94f0c",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/e48cb0e015d84af67c2990a3b81bd802eaf94f0c"
+      },
+      {
+        "path": "git-workflow/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "254c03c3bf32d3a4d6efc616535c0e527dff4212",
+        "size": 5313,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/254c03c3bf32d3a4d6efc616535c0e527dff4212"
+      },
+      {
+        "path": "gitflow",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bc4b0918928ba1a553d02626dfce003e88b5511c",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/bc4b0918928ba1a553d02626dfce003e88b5511c"
+      },
+      {
+        "path": "gitflow/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52ab7ae25a22a90ab64770b7267f7141fa65af93",
+        "size": 5469,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/52ab7ae25a22a90ab64770b7267f7141fa65af93"
+      },
+      {
+        "path": "github-workflow",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ca504a7c5660416b91cd547ab611821204b2bbac",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/ca504a7c5660416b91cd547ab611821204b2bbac"
+      },
+      {
+        "path": "github-workflow/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4377b25d3b8f5e50889c5d1f7637dc93c5b34ef0",
+        "size": 6511,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/4377b25d3b8f5e50889c5d1f7637dc93c5b34ef0"
+      },
+      {
+        "path": "gitlab-workflow",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "171d837578bfb5dd095d5f6fd30fb67c163c5ddc",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/171d837578bfb5dd095d5f6fd30fb67c163c5ddc"
+      },
+      {
+        "path": "gitlab-workflow/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "327eddb80972657c1871bca93f182e1419ae72ce",
+        "size": 6610,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/327eddb80972657c1871bca93f182e1419ae72ce"
+      },
+      {
+        "path": "go-api-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "74cd212a2df9017d3d5b47601f3b899e9e5154de",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/74cd212a2df9017d3d5b47601f3b899e9e5154de"
+      },
+      {
+        "path": "go-api-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "94a53033aedac9b4eaa5bb05e944927259dafada",
+        "size": 3135,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/94a53033aedac9b4eaa5bb05e944927259dafada"
+      },
+      {
+        "path": "go-backend-microservices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0ac5d651fb06e3d3069311a22e3bf75e3fb79de5",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/0ac5d651fb06e3d3069311a22e3bf75e3fb79de5"
+      },
+      {
+        "path": "go-backend-microservices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a4ed51a72614dba75b85cd638017f6b8d4e801af",
+        "size": 3449,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/a4ed51a72614dba75b85cd638017f6b8d4e801af"
+      },
+      {
+        "path": "go",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "227efa49ad0e4b401ff787127ad233e0526a139e",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/227efa49ad0e4b401ff787127ad233e0526a139e"
+      },
+      {
+        "path": "go/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1871f94581c7f713087dc303a49d20ab4ff85636",
+        "size": 2024,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/1871f94581c7f713087dc303a49d20ab4ff85636"
+      },
+      {
+        "path": "google-adk",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0f8c73f7e098917c2cbb197ec6efd1c413ef877c",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/0f8c73f7e098917c2cbb197ec6efd1c413ef877c"
+      },
+      {
+        "path": "google-adk/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d83cf01c797c740b87ec391abe45ff00655e3065",
+        "size": 9928,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/d83cf01c797c740b87ec391abe45ff00655e3065"
+      },
+      {
+        "path": "graalvm",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f3e7e87a5268f3a6821e332ae97ee53c9e09eb43",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/f3e7e87a5268f3a6821e332ae97ee53c9e09eb43"
+      },
+      {
+        "path": "graalvm/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b515fa914d776834d2436cbf54b148e5fb48f354",
+        "size": 5078,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/b515fa914d776834d2436cbf54b148e5fb48f354"
+      },
+      {
+        "path": "graphql-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c3778b16a84048cb1d2fc02469444d1205740710",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/c3778b16a84048cb1d2fc02469444d1205740710"
+      },
+      {
+        "path": "graphql-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b28d18b9bed912de738c66ff58272a21fde61de1",
+        "size": 2316,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/b28d18b9bed912de738c66ff58272a21fde61de1"
+      },
+      {
+        "path": "graphql",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "81a9940f581c5c296ba19ac4e83451baf265b41f",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/81a9940f581c5c296ba19ac4e83451baf265b41f"
+      },
+      {
+        "path": "graphql/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cf050593fa23fba5541d3c3e339ef4c5229eb0d6",
+        "size": 1870,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/cf050593fa23fba5541d3c3e339ef4c5229eb0d6"
+      },
+      {
+        "path": "grpc-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "42ba87b31d28db5cdb4498338aef749b07a6a8d6",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/42ba87b31d28db5cdb4498338aef749b07a6a8d6"
+      },
+      {
+        "path": "grpc-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a5cc290ef2ce395f417dab9467b61df5df93cd9",
+        "size": 10995,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/6a5cc290ef2ce395f417dab9467b61df5df93cd9"
+      },
+      {
+        "path": "gsap",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "494340e9359cb25a5cb928c9a13c4feb0aed8cf3",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/494340e9359cb25a5cb928c9a13c4feb0aed8cf3"
+      },
+      {
+        "path": "gsap/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2ca71684c7ae70873944fc23a8adaf33f0cf5060",
+        "size": 6250,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/2ca71684c7ae70873944fc23a8adaf33f0cf5060"
+      },
+      {
+        "path": "harmony-arkts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d9228616eb9fafd1e1b4748f55c6df772f55609b",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/d9228616eb9fafd1e1b4748f55c6df772f55609b"
+      },
+      {
+        "path": "harmony-arkts/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "856a54ac48f6f85b680a5923b4deca8e812d5f8b",
+        "size": 8179,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/856a54ac48f6f85b680a5923b4deca8e812d5f8b"
+      },
+      {
+        "path": "hono-typescript",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6124bc2c4e6d31f58b462aa3017c443dc2d79801",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/6124bc2c4e6d31f58b462aa3017c443dc2d79801"
+      },
+      {
+        "path": "hono-typescript/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f9b50332e20e711755cd9a25fa9be7475e13d8b",
+        "size": 6615,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/8f9b50332e20e711755cd9a25fa9be7475e13d8b"
+      },
+      {
+        "path": "html",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6dd289b3485ce6d34ddac5d29f1474d9cca197a2",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/6dd289b3485ce6d34ddac5d29f1474d9cca197a2"
+      },
+      {
+        "path": "html/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "acd7dd60cb3cc98614a1ff8f58c32b5702b766d2",
+        "size": 4322,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/acd7dd60cb3cc98614a1ff8f58c32b5702b766d2"
+      },
+      {
+        "path": "htmx",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "91d54b33dd152296d9a8b9203011906fd6d03254",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/91d54b33dd152296d9a8b9203011906fd6d03254"
+      },
+      {
+        "path": "htmx/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec201b0f98ee7ae3c9aec61d16d8b64d32ebc164",
+        "size": 2898,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/ec201b0f98ee7ae3c9aec61d16d8b64d32ebc164"
+      },
+      {
+        "path": "internationalization-i18n",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "19979655eee495a656d192ce01753def445255af",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/19979655eee495a656d192ce01753def445255af"
+      },
+      {
+        "path": "internationalization-i18n/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "374fdd003e6a5c44e6a44f832d33db692e592d09",
+        "size": 5201,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/374fdd003e6a5c44e6a44f832d33db692e592d09"
+      },
+      {
+        "path": "ionic",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "520d689fc68ae244c5c5c65a54bacefed52cfefb",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/520d689fc68ae244c5c5c65a54bacefed52cfefb"
+      },
+      {
+        "path": "ionic/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6f52206ab58c80c0bf29fbe50b33335e8a6dd984",
+        "size": 2994,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/6f52206ab58c80c0bf29fbe50b33335e8a6dd984"
+      },
+      {
+        "path": "java-quarkus-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "83654ff1d1eccf80a7deae4ce970badbaeb0df7e",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/83654ff1d1eccf80a7deae4ce970badbaeb0df7e"
+      },
+      {
+        "path": "java-quarkus-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eb739cc2a51c0b9af3a0e9cdaceaa014614275ec",
+        "size": 4331,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/eb739cc2a51c0b9af3a0e9cdaceaa014614275ec"
+      },
+      {
+        "path": "java-spring-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fc0d25baab839c77d1481313c9806192259fa001",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/fc0d25baab839c77d1481313c9806192259fa001"
+      },
+      {
+        "path": "java-spring-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a93a6080fdf5b6a70522d6dbe2320678e0a6e7b1",
+        "size": 3595,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/a93a6080fdf5b6a70522d6dbe2320678e0a6e7b1"
+      },
+      {
+        "path": "java",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c0cfd09a92dc720a0b62b9b42ecdce4ed42d2ed6",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/c0cfd09a92dc720a0b62b9b42ecdce4ed42d2ed6"
+      },
+      {
+        "path": "java/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3b4e9de8617216e89bafb6f225351be1923ceaaa",
+        "size": 1943,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/3b4e9de8617216e89bafb6f225351be1923ceaaa"
+      },
+      {
+        "path": "jax-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1851f5aea279e8814a0eb6c9246eb347c618d85b",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/1851f5aea279e8814a0eb6c9246eb347c618d85b"
+      },
+      {
+        "path": "jax-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e876ed6989a21883b393da4cf023ee9969f4ce5",
+        "size": 1456,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/8e876ed6989a21883b393da4cf023ee9969f4ce5"
+      },
+      {
+        "path": "jest",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7db7fd013c1d325644b73ecd462d34dc5aac35be",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/7db7fd013c1d325644b73ecd462d34dc5aac35be"
+      },
+      {
+        "path": "jest/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "38e24f3db67df3750380395113f2ea52ac0a9ae0",
+        "size": 2495,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/38e24f3db67df3750380395113f2ea52ac0a9ae0"
+      },
+      {
+        "path": "julia",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "65e6d7f0f76f76d465eea9d86afe06134fdaa541",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/65e6d7f0f76f76d465eea9d86afe06134fdaa541"
+      },
+      {
+        "path": "julia/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2520e76628959991931bf4036d1478fcc4ad5af3",
+        "size": 2578,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/2520e76628959991931bf4036d1478fcc4ad5af3"
+      },
+      {
+        "path": "jwt-security",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f6a5ecf45f829b9e07dd76c6597dcb1096f59c83",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/f6a5ecf45f829b9e07dd76c6597dcb1096f59c83"
+      },
+      {
+        "path": "jwt-security/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3da25ea6b27d5aa44ac0af71a5310141991efbca",
+        "size": 10567,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/3da25ea6b27d5aa44ac0af71a5310141991efbca"
+      },
+      {
+        "path": "kafka-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d656e4f30b7554592ca043d67ac4dbdcce449433",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/d656e4f30b7554592ca043d67ac4dbdcce449433"
+      },
+      {
+        "path": "kafka-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8be7f25e7e0cc8692a6a31e7c06f9bd09ad311fc",
+        "size": 12173,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/8be7f25e7e0cc8692a6a31e7c06f9bd09ad311fc"
+      },
+      {
+        "path": "koa-typescript",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fb86285bcbf72316b485fa176cdccbdcf4ee168c",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/fb86285bcbf72316b485fa176cdccbdcf4ee168c"
+      },
+      {
+        "path": "koa-typescript/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d67f77ecd096fce8a22af9669e099d8d01580b3f",
+        "size": 7340,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/d67f77ecd096fce8a22af9669e099d8d01580b3f"
+      },
+      {
+        "path": "kotlin-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "233782ddd94d2dfecff7ac0c50143feedda99f67",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/233782ddd94d2dfecff7ac0c50143feedda99f67"
+      },
+      {
+        "path": "kotlin-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3bfa3051fafd04813ded0be6507e62217d3c3486",
+        "size": 3644,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/3bfa3051fafd04813ded0be6507e62217d3c3486"
+      },
+      {
+        "path": "kubernetes",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8edf768f1345464abe0f220efca231e941d6c0a9",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/8edf768f1345464abe0f220efca231e941d6c0a9"
+      },
+      {
+        "path": "kubernetes/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c901ac8a05d428cf88d4b6360a44cd972d138a11",
+        "size": 2016,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/c901ac8a05d428cf88d4b6360a44cd972d138a11"
+      },
+      {
+        "path": "kysely",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "39a2a79b376204105a2930e40bd943494c050221",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/39a2a79b376204105a2930e40bd943494c050221"
+      },
+      {
+        "path": "kysely/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "11e6802ea7f992999500966be81b16abaa0e25a2",
+        "size": 11184,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/11e6802ea7f992999500966be81b16abaa0e25a2"
+      },
+      {
+        "path": "langchain-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ba6a6dd4a30b3e15fc90d82816d506b69b1f257a",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/ba6a6dd4a30b3e15fc90d82816d506b69b1f257a"
+      },
+      {
+        "path": "langchain-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4a0a392c16d119cefcd9b471d234039c078767da",
+        "size": 6065,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/4a0a392c16d119cefcd9b471d234039c078767da"
+      },
+      {
+        "path": "laravel-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "62763677196a619b7a86f4098de7ebcba4424596",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/62763677196a619b7a86f4098de7ebcba4424596"
+      },
+      {
+        "path": "laravel-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cf42705785ef6fcf05d3130c690e612f65b2a592",
+        "size": 2192,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/cf42705785ef6fcf05d3130c690e612f65b2a592"
+      },
+      {
+        "path": "laravel",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a947f4bc0c6e02c3ed235976f2d0b4738fce595b",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/a947f4bc0c6e02c3ed235976f2d0b4738fce595b"
+      },
+      {
+        "path": "laravel/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ccae975e2f120f41f5cd33691d8a25215f62575e",
+        "size": 1948,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/ccae975e2f120f41f5cd33691d8a25215f62575e"
+      },
+      {
+        "path": "lerna",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a903375e88f839da17d79991734c281476f62f6e",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/a903375e88f839da17d79991734c281476f62f6e"
+      },
+      {
+        "path": "lerna/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4afc62a7ef14680d12c70ea31761e29c16b3cbfe",
+        "size": 3963,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/4afc62a7ef14680d12c70ea31761e29c16b3cbfe"
+      },
+      {
+        "path": "less-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bb7207aba16e4aa913a038098084739ead7df778",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/bb7207aba16e4aa913a038098084739ead7df778"
+      },
+      {
+        "path": "less-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f1d0b19a9088632cfcb19d697b9517d553be9a4",
+        "size": 14947,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/3f1d0b19a9088632cfcb19d697b9517d553be9a4"
+      },
+      {
+        "path": "llamaindex-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "38fbc48cd862eaa76ed05678949e801f993ff9bb",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/38fbc48cd862eaa76ed05678949e801f993ff9bb"
+      },
+      {
+        "path": "llamaindex-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d828598be9fa9b902d5c111ce2f2bcf3a1cea16f",
+        "size": 9222,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/d828598be9fa9b902d5c111ce2f2bcf3a1cea16f"
+      },
+      {
+        "path": "llm",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fb4494397c6808583e13126ae64643decacee6a0",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/fb4494397c6808583e13126ae64643decacee6a0"
+      },
+      {
+        "path": "llm/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e4496aa3f1efd2f4300f3d5c3e8906b2f1f3208",
+        "size": 2103,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/9e4496aa3f1efd2f4300f3d5c3e8906b2f1f3208"
+      },
+      {
+        "path": "localization-l10n",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8b6fca308b82e2337fa8fb3255ca17060d008bd0",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/8b6fca308b82e2337fa8fb3255ca17060d008bd0"
+      },
+      {
+        "path": "localization-l10n/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a10686c0f96fdd931db7f71125277bb68dae9169",
+        "size": 6175,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/a10686c0f96fdd931db7f71125277bb68dae9169"
+      },
+      {
+        "path": "logging-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9fbf18c80ba7163cd03ea52685adcbaed300d370",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/9fbf18c80ba7163cd03ea52685adcbaed300d370"
+      },
+      {
+        "path": "logging-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e2d0a6812e6ec91fb6f6c6b5645291b59498e11d",
+        "size": 3906,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/e2d0a6812e6ec91fb6f6c6b5645291b59498e11d"
+      },
+      {
+        "path": "lottie",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a8e53eb55708b7a7c76e5912856d094bcc8c8e70",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/a8e53eb55708b7a7c76e5912856d094bcc8c8e70"
+      },
+      {
+        "path": "lottie/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "15a0dc06f4bffc2d3f531a43594b1073f990c160",
+        "size": 7080,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/15a0dc06f4bffc2d3f531a43594b1073f990c160"
+      },
+      {
+        "path": "lua",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6277db8baf91ad108b37b7ed6e53bc15a5f3b43a",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/6277db8baf91ad108b37b7ed6e53bc15a5f3b43a"
+      },
+      {
+        "path": "lua/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be3654a9e8a952f567bfd985872d0123347a7dcd",
+        "size": 2530,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/be3654a9e8a952f567bfd985872d0123347a7dcd"
+      },
+      {
+        "path": "machine-learning",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2a36cbe1306162c7f111052d12b9d8e5dacf9c57",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/2a36cbe1306162c7f111052d12b9d8e5dacf9c57"
+      },
+      {
+        "path": "machine-learning/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a429eb70a252948596596af3c0ecc223900621a8",
+        "size": 1844,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/a429eb70a252948596596af3c0ecc223900621a8"
+      },
+      {
+        "path": "matplotlib-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0a43ee2affddbe3e46c6e6c12ddf483b903a0067",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/0a43ee2affddbe3e46c6e6c12ddf483b903a0067"
+      },
+      {
+        "path": "matplotlib-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44b7547f6b505a478fdbe048178a906f6bf27f6c",
+        "size": 4173,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/44b7547f6b505a478fdbe048178a906f6bf27f6c"
+      },
+      {
+        "path": "medusa-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4ceb8360210e4ed26d2c974e1f17004a662ec30b",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/4ceb8360210e4ed26d2c974e1f17004a662ec30b"
+      },
+      {
+        "path": "medusa-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "472aaf0c25555c8489b03924a38c0e4311a13d26",
+        "size": 10951,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/472aaf0c25555c8489b03924a38c0e4311a13d26"
+      },
+      {
+        "path": "meta-prompt",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2259d14f9e8cf76112460dc88d6e772e4030ae89",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/2259d14f9e8cf76112460dc88d6e772e4030ae89"
+      },
+      {
+        "path": "meta-prompt/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1ac64205d3e2547de4a52acf9cb11d21d2b7cf02",
+        "size": 4580,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/1ac64205d3e2547de4a52acf9cb11d21d2b7cf02"
+      },
+      {
+        "path": "micronaut",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "747a8f5a6751ae775d805c7a48307941edd49d90",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/747a8f5a6751ae775d805c7a48307941edd49d90"
+      },
+      {
+        "path": "micronaut/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "163d772d78152044f1e565e2eec8541aa2fa676c",
+        "size": 4853,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/163d772d78152044f1e565e2eec8541aa2fa676c"
+      },
+      {
+        "path": "microservices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "98d99a49f5753e8b88cf7a59369a28294c01c391",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/98d99a49f5753e8b88cf7a59369a28294c01c391"
+      },
+      {
+        "path": "microservices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0727f89d7da25e10a8ba50381583331ff131d8d9",
+        "size": 2780,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/0727f89d7da25e10a8ba50381583331ff131d8d9"
+      },
+      {
+        "path": "modern-web-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8939062cfe85b0cc93c70a474b204885551d444f",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/8939062cfe85b0cc93c70a474b204885551d444f"
+      },
+      {
+        "path": "modern-web-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efc5f1524a7387086a87befb1f43b38131cec57c",
+        "size": 3215,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/efc5f1524a7387086a87befb1f43b38131cec57c"
+      },
+      {
+        "path": "mongodb-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ee4730f70139ef07afa62031fbf8e7ab3bc60299",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/ee4730f70139ef07afa62031fbf8e7ab3bc60299"
+      },
+      {
+        "path": "mongodb-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1f52dec706cd7c9c07f66b228cb133c7958f2fa",
+        "size": 2381,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/f1f52dec706cd7c9c07f66b228cb133c7958f2fa"
+      },
+      {
+        "path": "monitoring-guidelines",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8c844d2cba9a58063690165843b7dce634b76a11",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/8c844d2cba9a58063690165843b7dce634b76a11"
+      },
+      {
+        "path": "monitoring-guidelines/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86a4765fa102c3cd637f52c3b229c8d20511140c",
+        "size": 3998,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/86a4765fa102c3cd637f52c3b229c8d20511140c"
+      },
+      {
+        "path": "monorepo-tamagui",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e59ed73065183504a9d721cedfbec5b9391d6281",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/e59ed73065183504a9d721cedfbec5b9391d6281"
+      },
+      {
+        "path": "monorepo-tamagui/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c131882ebe64b47efdc86f3430e4ca9b0cba8f09",
+        "size": 2234,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/c131882ebe64b47efdc86f3430e4ca9b0cba8f09"
+      },
+      {
+        "path": "monorepo",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5f67b6ce96c02059159c92b0c2489d3c503fd34c",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/5f67b6ce96c02059159c92b0c2489d3c503fd34c"
+      },
+      {
+        "path": "monorepo/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0e469bf629f61ba94820c32391ef1c46b1f3d357",
+        "size": 3426,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/0e469bf629f61ba94820c32391ef1c46b1f3d357"
+      },
+      {
+        "path": "motion",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c328005fb272e74a38c9f1f4be42fde6d5ab6ad3",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/c328005fb272e74a38c9f1f4be42fde6d5ab6ad3"
+      },
+      {
+        "path": "motion/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "99c009acbb5ccee15c79634d7e7390cd050f4398",
+        "size": 8485,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/99c009acbb5ccee15c79634d7e7390cd050f4398"
+      },
+      {
+        "path": "mqtt-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "305f37808f7f498986c715ef302eead180b815ba",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/305f37808f7f498986c715ef302eead180b815ba"
+      },
+      {
+        "path": "mqtt-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f74c7f26de250a8e0c7321020e980a117c5f5449",
+        "size": 6995,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/f74c7f26de250a8e0c7321020e980a117c5f5449"
+      },
+      {
+        "path": "mysql-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "64fc549c724679034254a65a329c3ba47245c806",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/64fc549c724679034254a65a329c3ba47245c806"
+      },
+      {
+        "path": "mysql-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1cb0b47b81beaa5a23c0a3a1735ad67e7ac8e9c2",
+        "size": 9194,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/1cb0b47b81beaa5a23c0a3a1735ad67e7ac8e9c2"
+      },
+      {
+        "path": "nestjs-clean-typescript",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5f01c6a4d7340ae9a1eff2328b1aafde4972d079",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/5f01c6a4d7340ae9a1eff2328b1aafde4972d079"
+      },
+      {
+        "path": "nestjs-clean-typescript/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "335f9221bd4dc38c575a4cf8307002998ad79702",
+        "size": 1783,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/335f9221bd4dc38c575a4cf8307002998ad79702"
+      },
+      {
+        "path": "netlify-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "32a1a7878e30c33c792b7b2e2e60ea8508983a1e",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/32a1a7878e30c33c792b7b2e2e60ea8508983a1e"
+      },
+      {
+        "path": "netlify-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d1454963ff242baab00ac7a9b1fdd83ef26223f3",
+        "size": 22351,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/d1454963ff242baab00ac7a9b1fdd83ef26223f3"
+      },
+      {
+        "path": "network-troubleshooting",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4922db195d1d5750e83a1b0364c55798e519f637",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/4922db195d1d5750e83a1b0364c55798e519f637"
+      },
+      {
+        "path": "network-troubleshooting/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f9dc31e0c321efc8816cd169088cb813747a5140",
+        "size": 8847,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/f9dc31e0c321efc8816cd169088cb813747a5140"
+      },
+      {
+        "path": "nextauth-authentication",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3b789ce499755ef331b9499cec35605442c5ba00",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/3b789ce499755ef331b9499cec35605442c5ba00"
+      },
+      {
+        "path": "nextauth-authentication/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1ec8ab934ee56dd68f7a25622e866337be111739",
+        "size": 14127,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/1ec8ab934ee56dd68f7a25622e866337be111739"
+      },
+      {
+        "path": "nextjs-react-redux-typescript-cursor-rules",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a3ff31d138c334453e1477dbd4064a682ea53433",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/a3ff31d138c334453e1477dbd4064a682ea53433"
+      },
+      {
+        "path": "nextjs-react-redux-typescript-cursor-rules/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29b060466dab15f772e0d2135f8c88fd4fb401d6",
+        "size": 5231,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/29b060466dab15f772e0d2135f8c88fd4fb401d6"
+      },
+      {
+        "path": "nextjs-react-typescript",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9dd9772626d465a2c2386b50dd7f98e0a7c23902",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/9dd9772626d465a2c2386b50dd7f98e0a7c23902"
+      },
+      {
+        "path": "nextjs-react-typescript/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bac5ef88ebabad4661a49943ed1ef6cdb9d025b9",
+        "size": 1963,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/bac5ef88ebabad4661a49943ed1ef6cdb9d025b9"
+      },
+      {
+        "path": "nextjs-typescript-tailwindcss-supabase",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b150a932b91c905acd7ee7e5569d986127417a42",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/b150a932b91c905acd7ee7e5569d986127417a42"
+      },
+      {
+        "path": "nextjs-typescript-tailwindcss-supabase/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bb11a07e464437a1fdab7bb5d0e141982011a963",
+        "size": 1589,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/bb11a07e464437a1fdab7bb5d0e141982011a963"
+      },
+      {
+        "path": "nlp-natural-language-processing",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0c3026afcf6af1a6e945bd860ac6c180e02716a2",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/0c3026afcf6af1a6e945bd860ac6c180e02716a2"
+      },
+      {
+        "path": "nlp-natural-language-processing/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "af737c2a8494633b408890b929f66b4ffd8c55f2",
+        "size": 4221,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/af737c2a8494633b408890b929f66b4ffd8c55f2"
+      },
+      {
+        "path": "nodejs-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cf80d4a9499259cc9c75077f0d098b2416226d9e",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/cf80d4a9499259cc9c75077f0d098b2416226d9e"
+      },
+      {
+        "path": "nodejs-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "702ab2f8ef0f7103dc3ceb6c02dedc77e90369a9",
+        "size": 5793,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/702ab2f8ef0f7103dc3ceb6c02dedc77e90369a9"
+      },
+      {
+        "path": "numpy-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f1c864b982bba57a563d89db175d6ea05b425d6d",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/f1c864b982bba57a563d89db175d6ea05b425d6d"
+      },
+      {
+        "path": "numpy-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8d052a01bd1d8b95e813669bfc4f766026212ef6",
+        "size": 3955,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/8d052a01bd1d8b95e813669bfc4f766026212ef6"
+      },
+      {
+        "path": "nuxtjs-vue-typescript",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5978dcffead33b99e2f8dc43720dbe9baf23144e",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/5978dcffead33b99e2f8dc43720dbe9baf23144e"
+      },
+      {
+        "path": "nuxtjs-vue-typescript/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dc01ed65a557429ac996bda15a62931380c369a1",
+        "size": 3468,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/dc01ed65a557429ac996bda15a62931380c369a1"
+      },
+      {
+        "path": "nx",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "439102f12918fdf6f27ffcff606b408be0368a63",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/439102f12918fdf6f27ffcff606b408be0368a63"
+      },
+      {
+        "path": "nx/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "deab2e85a3d9f2d4d81316dcb4288d702da8554c",
+        "size": 3861,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/deab2e85a3d9f2d4d81316dcb4288d702da8554c"
+      },
+      {
+        "path": "oauth-implementation",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f68b50b28799c4307c8753a499d489fac477dd31",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/f68b50b28799c4307c8753a499d489fac477dd31"
+      },
+      {
+        "path": "oauth-implementation/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9665232bc60bb774e086450f4ebe1fe02ccf1b9b",
+        "size": 10003,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/9665232bc60bb774e086450f4ebe1fe02ccf1b9b"
+      },
+      {
+        "path": "observability-guidelines",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e646b9db98b75e7b4a0b27add310c7b900de8cc2",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/e646b9db98b75e7b4a0b27add310c7b900de8cc2"
+      },
+      {
+        "path": "observability-guidelines/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "773d56d7293e76467e23719ab079136934f3daee",
+        "size": 3708,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/773d56d7293e76467e23719ab079136934f3daee"
+      },
+      {
+        "path": "odoo-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fdf055ad0638c8dd190394d466e7a9fdbc1e9fab",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/fdf055ad0638c8dd190394d466e7a9fdbc1e9fab"
+      },
+      {
+        "path": "odoo-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab36c2298636014235cefa607845e19b3086b421",
+        "size": 4501,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/ab36c2298636014235cefa607845e19b3086b421"
+      },
+      {
+        "path": "onchainkit",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9177fad9eada80059c804b5fc23c826bcd45c87d",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/9177fad9eada80059c804b5fc23c826bcd45c87d"
+      },
+      {
+        "path": "onchainkit/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1f3e0c538d4c7924a0a40a2939e47c6de79e530",
+        "size": 3248,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/f1f3e0c538d4c7924a0a40a2939e47c6de79e530"
+      },
+      {
+        "path": "openai-api-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "45b63f86b6ce4fa70fa20226d5351136d286b09e",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/45b63f86b6ce4fa70fa20226d5351136d286b09e"
+      },
+      {
+        "path": "openai-api-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2bd94592dd4310ef78a61773ff42495720c776d1",
+        "size": 7198,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/2bd94592dd4310ef78a61773ff42495720c776d1"
+      },
+      {
+        "path": "optimized-nextjs-typescript",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d7b69736df3bd24fdf3e58e0f45eee3505943b13",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/d7b69736df3bd24fdf3e58e0f45eee3505943b13"
+      },
+      {
+        "path": "optimized-nextjs-typescript/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff651f2a5fbc500a9573b57ca7841974e085b03f",
+        "size": 1958,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/ff651f2a5fbc500a9573b57ca7841974e085b03f"
+      },
+      {
+        "path": "pandas-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ca5e73bf6b87c42c885fcbc78b766a7543cda135",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/ca5e73bf6b87c42c885fcbc78b766a7543cda135"
+      },
+      {
+        "path": "pandas-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d427ba0488e4ab2b69c01a91a25a575e012947d",
+        "size": 4403,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/7d427ba0488e4ab2b69c01a91a25a575e012947d"
+      },
+      {
+        "path": "parcel-bundler",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a5d1c65265f893fb45bc453e700fc743672232a4",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/a5d1c65265f893fb45bc453e700fc743672232a4"
+      },
+      {
+        "path": "parcel-bundler/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "627ffdba4dab3efd760fa8d918de889ae0c10f2b",
+        "size": 7936,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/627ffdba4dab3efd760fa8d918de889ae0c10f2b"
+      },
+      {
+        "path": "performance-optimization",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "19b3261246c239a9711533c2b7bbaece54ba3dad",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/19b3261246c239a9711533c2b7bbaece54ba3dad"
+      },
+      {
+        "path": "performance-optimization/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f6fd853761f9be9ec53b40b5d1b1bd6ec8aeb7b",
+        "size": 4626,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/2f6fd853761f9be9ec53b40b5d1b1bd6ec8aeb7b"
+      },
+      {
+        "path": "phoenix",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "75adcc4d5606e5e3be396165262c6e43478322d5",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/75adcc4d5606e5e3be396165262c6e43478322d5"
+      },
+      {
+        "path": "phoenix/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7ebe61e3899a9d1978ae61d317671c33669aca76",
+        "size": 2532,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/7ebe61e3899a9d1978ae61d317671c33669aca76"
+      },
+      {
+        "path": "php-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cb4c372fdec069722c13a0602e86fc1c1253f918",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/cb4c372fdec069722c13a0602e86fc1c1253f918"
+      },
+      {
+        "path": "php-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e66f941d2862e657f0eb94437a85f45b90d89d0f",
+        "size": 2328,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/e66f941d2862e657f0eb94437a85f45b90d89d0f"
+      },
+      {
+        "path": "pixi-js",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "754b3cf08e7aa388430f3d6246321ac2e4ea2a59",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/754b3cf08e7aa388430f3d6246321ac2e4ea2a59"
+      },
+      {
+        "path": "pixi-js/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1af63f0c5150a8114ffb0cd34d9653a4203a57e2",
+        "size": 3433,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/1af63f0c5150a8114ffb0cd34d9653a4203a57e2"
+      },
+      {
+        "path": "playwright-cursor-rules",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c9445f8b4a610234723601ac1f3f9b1eafe2dd58",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/c9445f8b4a610234723601ac1f3f9b1eafe2dd58"
+      },
+      {
+        "path": "playwright-cursor-rules/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b849007d2386e8b2b121a5e93c529fb30cf38e30",
+        "size": 2459,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/b849007d2386e8b2b121a5e93c529fb30cf38e30"
+      },
+      {
+        "path": "playwright",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "267c4dcef969fbc22b7c0a7217c20e1a7903810f",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/267c4dcef969fbc22b7c0a7217c20e1a7903810f"
+      },
+      {
+        "path": "playwright/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b90a3957fe70db0cc48a83f444ca8604a028093",
+        "size": 3244,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/8b90a3957fe70db0cc48a83f444ca8604a028093"
+      },
+      {
+        "path": "pnpm",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "16a71d8e1e8f1a91b7915fca2bd37ac1e0eafe09",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/16a71d8e1e8f1a91b7915fca2bd37ac1e0eafe09"
+      },
+      {
+        "path": "pnpm/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0a24e5c75f26a6039e9fe279c63d828a949357f9",
+        "size": 4417,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/0a24e5c75f26a6039e9fe279c63d828a949357f9"
+      },
+      {
+        "path": "postcss-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3a01aafd77a36e00555169f3800d617ad2e28471",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/3a01aafd77a36e00555169f3800d617ad2e28471"
+      },
+      {
+        "path": "postcss-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "33017bead044734760d774d374d2826646882906",
+        "size": 13508,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/33017bead044734760d774d374d2826646882906"
+      },
+      {
+        "path": "postgresql-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "393c291a207bc6e1b792223ba01f2ff24a8b55e8",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/393c291a207bc6e1b792223ba01f2ff24a8b55e8"
+      },
+      {
+        "path": "postgresql-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3264f63754785fdbf571bcc7f2e97dc88d691a65",
+        "size": 8432,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/3264f63754785fdbf571bcc7f2e97dc88d691a65"
+      },
+      {
+        "path": "pr-review",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "793077b6a7ba3139bc06e7abdbf42d1bd2048bb8",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/793077b6a7ba3139bc06e7abdbf42d1bd2048bb8"
+      },
+      {
+        "path": "pr-review/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82ccb103f32239cbdf22e4b5a52e4145e5f4f3a8",
+        "size": 7225,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/82ccb103f32239cbdf22e4b5a52e4145e5f4f3a8"
+      },
+      {
+        "path": "prisma-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "87f68a5278e90478f3a6b9dbf02034faf6de7cfe",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/87f68a5278e90478f3a6b9dbf02034faf6de7cfe"
+      },
+      {
+        "path": "prisma-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "664fe29d97b0a7883ec7b6b380186c02503c6cd5",
+        "size": 2520,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/664fe29d97b0a7883ec7b6b380186c02503c6cd5"
+      },
+      {
+        "path": "prisma",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9374971b735e6d00159c9ea6e675e9c22fd71140",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/9374971b735e6d00159c9ea6e675e9c22fd71140"
+      },
+      {
+        "path": "prisma/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "485579c94ccdf099ce4799c5f64945d8544cbd90",
+        "size": 2194,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/485579c94ccdf099ce4799c5f64945d8544cbd90"
+      },
+      {
+        "path": "puppeteer-automation",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3347dfe61e97acd3e93249a5790e2de2698dcdc5",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/3347dfe61e97acd3e93249a5790e2de2698dcdc5"
+      },
+      {
+        "path": "puppeteer-automation/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bbf1fece99c90c1b9c6041f73d7d619e8434fe06",
+        "size": 9517,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/bbf1fece99c90c1b9c6041f73d7d619e8434fe06"
+      },
+      {
+        "path": "pwa-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5656859200a1b2f04c2ed1a69e609f02c0c17ef8",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/5656859200a1b2f04c2ed1a69e609f02c0c17ef8"
+      },
+      {
+        "path": "pwa-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a359753f7faa11f4947077abf2accdf546584488",
+        "size": 5442,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/a359753f7faa11f4947077abf2accdf546584488"
+      },
+      {
+        "path": "pyspark-etl",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bc1fd87e0af0547a363726df8c72ed3ce5e7254e",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/bc1fd87e0af0547a363726df8c72ed3ce5e7254e"
+      },
+      {
+        "path": "pyspark-etl/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aaabfd4032872630682701163e49ae1e81008c6f",
+        "size": 9876,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/aaabfd4032872630682701163e49ae1e81008c6f"
+      },
+      {
+        "path": "python-cybersecurity-tool-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "73c11a2b29b61f998d1a2f6261dea31d0d00f656",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/73c11a2b29b61f998d1a2f6261dea31d0d00f656"
+      },
+      {
+        "path": "python-cybersecurity-tool-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1acde42f86226041729440dd5ba1b098098140e1",
+        "size": 3014,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/1acde42f86226041729440dd5ba1b098098140e1"
+      },
+      {
+        "path": "python-odoo-cursor-rules",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7ea2073fbd58eb989a312f95dae246c2cca5fa31",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/7ea2073fbd58eb989a312f95dae246c2cca5fa31"
+      },
+      {
+        "path": "python-odoo-cursor-rules/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f64add3861fc336e0abf7a5913541a08821df6e",
+        "size": 2588,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/3f64add3861fc336e0abf7a5913541a08821df6e"
+      },
+      {
+        "path": "python-testing",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bc6cd3d3464d050572acce4f371187126787c88b",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/bc6cd3d3464d050572acce4f371187126787c88b"
+      },
+      {
+        "path": "python-testing/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fc3f30948855433791d8a94f561c30d3ca9b4705",
+        "size": 1451,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/fc3f30948855433791d8a94f561c30d3ca9b4705"
+      },
+      {
+        "path": "python-uv",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "04ecf5066302258eb7f36b5eee7969ad05aee9bb",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/04ecf5066302258eb7f36b5eee7969ad05aee9bb"
+      },
+      {
+        "path": "python-uv/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1340bf3220b3f7a9751b7999312ccfb3e30359f4",
+        "size": 1495,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/1340bf3220b3f7a9751b7999312ccfb3e30359f4"
+      },
+      {
+        "path": "python",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9aeb1b0384e5c356704b35e79c71750b5591496c",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/9aeb1b0384e5c356704b35e79c71750b5591496c"
+      },
+      {
+        "path": "python/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5486d023552f2645f4253c32d9223a413e3beff1",
+        "size": 2080,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/5486d023552f2645f4253c32d9223a413e3beff1"
+      },
+      {
+        "path": "pytorch",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "aa6f90a89c19bff2471b6c6b0bb19a45691aaafd",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/aa6f90a89c19bff2471b6c6b0bb19a45691aaafd"
+      },
+      {
+        "path": "pytorch/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bbc1e1f39042dda975993ccb4393beee79b79743",
+        "size": 2121,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/bbc1e1f39042dda975993ccb4393beee79b79743"
+      },
+      {
+        "path": "quarkus",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5aafcd946135611a4629f7edfaaebb5c968e01cf",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/5aafcd946135611a4629f7edfaaebb5c968e01cf"
+      },
+      {
+        "path": "quarkus/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2e408d9d144fde1e45be7f2122d560e55ba63031",
+        "size": 4565,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/2e408d9d144fde1e45be7f2122d560e55ba63031"
+      },
+      {
+        "path": "rabbitmq-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a4d418686f0db5d027e508802c2723315248fc91",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/a4d418686f0db5d027e508802c2723315248fc91"
+      },
+      {
+        "path": "rabbitmq-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "926f32170de31cf23544d2fe512f8ae8d8196244",
+        "size": 7626,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/926f32170de31cf23544d2fe512f8ae8d8196244"
+      },
+      {
+        "path": "react-native-cursor-rules",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "21fb469487c9b11aa4de61f14a223b70dad3fc47",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/21fb469487c9b11aa4de61f14a223b70dad3fc47"
+      },
+      {
+        "path": "react-native-cursor-rules/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b3d9bda14a62b8492014a26109c269f8b1ef265",
+        "size": 2094,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/8b3d9bda14a62b8492014a26109c269f8b1ef265"
+      },
+      {
+        "path": "react-native-r3f",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "56b53fbfa7483baf361dc828f23aa03fc8281634",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/56b53fbfa7483baf361dc828f23aa03fc8281634"
+      },
+      {
+        "path": "react-native-r3f/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "28379f9a3756d489510483360d150e0bdba2645d",
+        "size": 2943,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/28379f9a3756d489510483360d150e0bdba2645d"
+      },
+      {
+        "path": "react-query",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "30aa971509758d968d226eadf3766541edfcfdd3",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/30aa971509758d968d226eadf3766541edfcfdd3"
+      },
+      {
+        "path": "react-query/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d47960e8e8469913380a53a93d7c72babd569b45",
+        "size": 9345,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/d47960e8e8469913380a53a93d7c72babd569b45"
+      },
+      {
+        "path": "react-router-v7",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "eaab83aaef233e6233535cf60084d664918edbbd",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/eaab83aaef233e6233535cf60084d664918edbbd"
+      },
+      {
+        "path": "react-router-v7/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4fd3580de30014ed11ec902d8187a4b9f33da726",
+        "size": 7994,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/4fd3580de30014ed11ec902d8187a4b9f33da726"
+      },
+      {
+        "path": "react",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "770d8e67971a50ad669f7bcc049ca72b83e8a567",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/770d8e67971a50ad669f7bcc049ca72b83e8a567"
+      },
+      {
+        "path": "react/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "56d13cdebeb2c6fa4698b0760fa4273f80da6fee",
+        "size": 1952,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/56d13cdebeb2c6fa4698b0760fa4273f80da6fee"
+      },
+      {
+        "path": "readme-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "284292bbb41e0acd6ae12c9705800666845c31b4",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/284292bbb41e0acd6ae12c9705800666845c31b4"
+      },
+      {
+        "path": "readme-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6145e042c5e0422b57ab695bb09cda067778a6bb",
+        "size": 6729,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/6145e042c5e0422b57ab695bb09cda067778a6bb"
+      },
+      {
+        "path": "redis-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a8b429456124677eda82bd72c80b074a8bfe1e90",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/a8b429456124677eda82bd72c80b074a8bfe1e90"
+      },
+      {
+        "path": "redis-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b5708a9d088bd4483d7b89f6e9d276a513727949",
+        "size": 8526,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/b5708a9d088bd4483d7b89f6e9d276a513727949"
+      },
+      {
+        "path": "redux-toolkit",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ef48ff9c115de69bcd18ec4b64e0a79262e475b1",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/ef48ff9c115de69bcd18ec4b64e0a79262e475b1"
+      },
+      {
+        "path": "redux-toolkit/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b84e93601d123a22eaeb3a4748ce2db8e5b0a344",
+        "size": 3458,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/b84e93601d123a22eaeb3a4748ce2db8e5b0a344"
+      },
+      {
+        "path": "remix",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8744324dc3ff549e26aef01ca351f7365457dabb",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/8744324dc3ff549e26aef01ca351f7365457dabb"
+      },
+      {
+        "path": "remix/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61a2cadf74272688e34fee39c15e289aae68ef68",
+        "size": 7243,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/61a2cadf74272688e34fee39c15e289aae68ef68"
+      },
+      {
+        "path": "responsive-design",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bc5aa538207f964339ffe161c7816455c4b172ac",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/bc5aa538207f964339ffe161c7816455c4b172ac"
+      },
+      {
+        "path": "responsive-design/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "81e6e9c450523da0d7a7ef07fb3e3d006ab93c8a",
+        "size": 5202,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/81e6e9c450523da0d7a7ef07fb3e3d006ab93c8a"
+      },
+      {
+        "path": "rest-api-django",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c55a122adc6c875e63f0c156413da00bef98c055",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/c55a122adc6c875e63f0c156413da00bef98c055"
+      },
+      {
+        "path": "rest-api-django/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b127f2cac7498b09124d9cf3c8ecdfe730635507",
+        "size": 2679,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/b127f2cac7498b09124d9cf3c8ecdfe730635507"
+      },
+      {
+        "path": "robocorp-cursor-rules",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c22f32fb277ebad1e913b7415153d5dc92c20972",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/c22f32fb277ebad1e913b7415153d5dc92c20972"
+      },
+      {
+        "path": "robocorp-cursor-rules/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "207d0da0372a88c5e4355f3e36aa2803c41b136d",
+        "size": 2728,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/207d0da0372a88c5e4355f3e36aa2803c41b136d"
+      },
+      {
+        "path": "rollup-bundler",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "31e263558e0ed3bb2116714cd6b01328b7ee846f",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/31e263558e0ed3bb2116714cd6b01328b7ee846f"
+      },
+      {
+        "path": "rollup-bundler/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d7e12e525091db77fce01e0f2abbaee6fe5b64a3",
+        "size": 7046,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/d7e12e525091db77fce01e0f2abbaee6fe5b64a3"
+      },
+      {
+        "path": "ros2-robotics",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ad7db63d8b3b9181667eadf7350a544d6251928e",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/ad7db63d8b3b9181667eadf7350a544d6251928e"
+      },
+      {
+        "path": "ros2-robotics/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c66a59f5fb0d6b22741efb94d679ccdc1d2f29c",
+        "size": 8117,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/0c66a59f5fb0d6b22741efb94d679ccdc1d2f29c"
+      },
+      {
+        "path": "rspec",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "228db7bd9c34aca0cdd2e0cb848b9486b146e077",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/228db7bd9c34aca0cdd2e0cb848b9486b146e077"
+      },
+      {
+        "path": "rspec/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e32abfa6d50e1146b5428ca752c5443111fd7d20",
+        "size": 2349,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/e32abfa6d50e1146b5428ca752c5443111fd7d20"
+      },
+      {
+        "path": "rtl-internationalization",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f7ca95ff21c2d8bb51421d85b8e461592e7cea80",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/f7ca95ff21c2d8bb51421d85b8e461592e7cea80"
+      },
+      {
+        "path": "rtl-internationalization/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b0688d3de34e67cf0d9e96202f3252942c1ddd05",
+        "size": 8694,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/b0688d3de34e67cf0d9e96202f3252942c1ddd05"
+      },
+      {
+        "path": "ruby-rails",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "12d035e61e2c7adb6eaaa79e38ddc7acb26efd0a",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/12d035e61e2c7adb6eaaa79e38ddc7acb26efd0a"
+      },
+      {
+        "path": "ruby-rails/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "26a0816b2bedb069d90b3a68cff51c3e25a4f115",
+        "size": 4014,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/26a0816b2bedb069d90b3a68cff51c3e25a4f115"
+      },
+      {
+        "path": "ruby",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "55b651d1f0ed6302743c31020007db3f2cb61773",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/55b651d1f0ed6302743c31020007db3f2cb61773"
+      },
+      {
+        "path": "ruby/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f45b66443e8a19e93f7ac0514bdfa5a0f0c97ee5",
+        "size": 2729,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/f45b66443e8a19e93f7ac0514bdfa5a0f0c97ee5"
+      },
+      {
+        "path": "rust",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b1c6534b9f98d52c3fa6a8496057f838ae895349",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/b1c6534b9f98d52c3fa6a8496057f838ae895349"
+      },
+      {
+        "path": "rust/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a5d3319a322d8ba11710b5317657b0567cc7df2a",
+        "size": 1988,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/a5d3319a322d8ba11710b5317657b0567cc7df2a"
+      },
+      {
+        "path": "salesforce-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "491e4a09c60832cf4d6fce7caa6eda9720ef7281",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/491e4a09c60832cf4d6fce7caa6eda9720ef7281"
+      },
+      {
+        "path": "salesforce-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0fd078aba4f06338fee1d8626c27c798013b9f11",
+        "size": 3227,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/0fd078aba4f06338fee1d8626c27c798013b9f11"
+      },
+      {
+        "path": "salesforce-dx",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ff88860fb89398c911cf98e220cb69f72c914170",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/ff88860fb89398c911cf98e220cb69f72c914170"
+      },
+      {
+        "path": "salesforce-dx/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7ea10ed5879ad976ffa20d67c2e8a81bac05cdef",
+        "size": 3879,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/7ea10ed5879ad976ffa20d67c2e8a81bac05cdef"
+      },
+      {
+        "path": "sanity",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "79ba77f8b9ebc6026d07821f7e656f15433cf724",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/79ba77f8b9ebc6026d07821f7e656f15433cf724"
+      },
+      {
+        "path": "sanity/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "10af475becb09cd866e55e801a4208bd3b264f17",
+        "size": 6237,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/10af475becb09cd866e55e801a4208bd3b264f17"
+      },
+      {
+        "path": "sass-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4f29c7f8837e48a3dd74662e5792a799d323a567",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/4f29c7f8837e48a3dd74662e5792a799d323a567"
+      },
+      {
+        "path": "sass-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cd00db468156d974ac9d07d205cf09084334b915",
+        "size": 11525,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/cd00db468156d974ac9d07d205cf09084334b915"
+      },
+      {
+        "path": "scikit-learn-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d23c3161fdab4a0b631e2e5ab7381984549defa3",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/d23c3161fdab4a0b631e2e5ab7381984549defa3"
+      },
+      {
+        "path": "scikit-learn-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b4c229cb24ff5b343c1a138af4429b8e04643fef",
+        "size": 4542,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/b4c229cb24ff5b343c1a138af4429b8e04643fef"
+      },
+      {
+        "path": "scipy-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d6383a95edeb80935357e40050bd8e0d15f7020f",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/d6383a95edeb80935357e40050bd8e0d15f7020f"
+      },
+      {
+        "path": "scipy-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52659e09eaafe0541bec028f48d6665ddf59b80e",
+        "size": 4500,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/52659e09eaafe0541bec028f48d6665ddf59b80e"
+      },
+      {
+        "path": "scrapy-web-scraping",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b24fc852a865297e35a9560f7fe659390eebd186",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/b24fc852a865297e35a9560f7fe659390eebd186"
+      },
+      {
+        "path": "scrapy-web-scraping/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3f6108c15d7bbb86c4d4ebb51e92005eb1fcdf7",
+        "size": 5130,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/e3f6108c15d7bbb86c4d4ebb51e92005eb1fcdf7"
+      },
+      {
+        "path": "scss-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c006193ad4ff0c3c2b9c4e7a0501f7b102faffaf",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/c006193ad4ff0c3c2b9c4e7a0501f7b102faffaf"
+      },
+      {
+        "path": "scss-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a03e251abb081a5ce62a11ca3fe517c7feaffca2",
+        "size": 11432,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/a03e251abb081a5ce62a11ca3fe517c7feaffca2"
+      },
+      {
+        "path": "security-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e113885bfc21dcad3585d4a9aca40182048d76d2",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/e113885bfc21dcad3585d4a9aca40182048d76d2"
+      },
+      {
+        "path": "security-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e1912b48dea5c98f9c7192bae4e47326b948cee",
+        "size": 3982,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/9e1912b48dea5c98f9c7192bae4e47326b948cee"
+      },
+      {
+        "path": "security-devsecops",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cae46f2a867f27fe60b586c356b06c0aff1e4dff",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/cae46f2a867f27fe60b586c356b06c0aff1e4dff"
+      },
+      {
+        "path": "security-devsecops/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c5bf2b259431f8a39cbd7b128afba49b0dfc687",
+        "size": 8932,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/9c5bf2b259431f8a39cbd7b128afba49b0dfc687"
+      },
+      {
+        "path": "selenium-automation",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b8e67d3577871ebdd800e0de50171cc4057b9ac6",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/b8e67d3577871ebdd800e0de50171cc4057b9ac6"
+      },
+      {
+        "path": "selenium-automation/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5d391ed96e62d87a9d09fec52362fb45529edfed",
+        "size": 8689,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/5d391ed96e62d87a9d09fec52362fb45529edfed"
+      },
+      {
+        "path": "seo-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2c9f6e2c25639fc0dab850e5312f8ad8554314ff",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/2c9f6e2c25639fc0dab850e5312f8ad8554314ff"
+      },
+      {
+        "path": "seo-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7151786f0374ad17f14f4f71152368fb9fc23ef8",
+        "size": 3324,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/7151786f0374ad17f14f4f71152368fb9fc23ef8"
+      },
+      {
+        "path": "sequelize",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "557ba327ddfa447c8e52f3272c23bd3d0af208fc",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/557ba327ddfa447c8e52f3272c23bd3d0af208fc"
+      },
+      {
+        "path": "sequelize/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c8da78cfae5d48a8d53e22d34bf6bcf8bc57bb3",
+        "size": 15691,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/6c8da78cfae5d48a8d53e22d34bf6bcf8bc57bb3"
+      },
+      {
+        "path": "serverless",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b17da829a5c17ff7718c2902fdd63bf76d033d0f",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/b17da829a5c17ff7718c2902fdd63bf76d033d0f"
+      },
+      {
+        "path": "serverless/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff0fd480c2927e8dd7b65d46c897f998f532dc3b",
+        "size": 3368,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/ff0fd480c2927e8dd7b65d46c897f998f532dc3b"
+      },
+      {
+        "path": "shopify-theme-development-guidelines",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6c371f46200954245fc8325270a9c9441f0bb257",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/6c371f46200954245fc8325270a9c9441f0bb257"
+      },
+      {
+        "path": "shopify-theme-development-guidelines/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c2a69570c4a26e4df8c675080e98693fe602168c",
+        "size": 3307,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/c2a69570c4a26e4df8c675080e98693fe602168c"
+      },
+      {
+        "path": "shopify",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "477629bd45168bc7fdb381382909510d6bda175d",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/477629bd45168bc7fdb381382909510d6bda175d"
+      },
+      {
+        "path": "shopify/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "afe8dc82a3ff43244f693cf4e2a43487189bd029",
+        "size": 4491,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/afe8dc82a3ff43244f693cf4e2a43487189bd029"
+      },
+      {
+        "path": "snowflake-cortex-ai",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b4b4942cf966a06091be81c0f3622cca2190cfe4",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/b4b4942cf966a06091be81c0f3622cca2190cfe4"
+      },
+      {
+        "path": "snowflake-cortex-ai/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2e9b5fc3cb6c4ac4be6a0d3ad8ec1612e21a9063",
+        "size": 9515,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/2e9b5fc3cb6c4ac4be6a0d3ad8ec1612e21a9063"
+      },
+      {
+        "path": "snowflake-data-engineering",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "adbb2e84c7d35c225ef758fde63deedf7186f24b",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/adbb2e84c7d35c225ef758fde63deedf7186f24b"
+      },
+      {
+        "path": "snowflake-data-engineering/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3b82577608f74547d65893c84eb4ebb7994a527a",
+        "size": 9165,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/3b82577608f74547d65893c84eb4ebb7994a527a"
+      },
+      {
+        "path": "snowflake-snowpark-dbt",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "587337c08320b3ccb9cb5380c25adbd358052d9f",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/587337c08320b3ccb9cb5380c25adbd358052d9f"
+      },
+      {
+        "path": "snowflake-snowpark-dbt/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "09e9794f77ebbc5b9f697f1080c8fb8a5184fa1c",
+        "size": 9944,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/09e9794f77ebbc5b9f697f1080c8fb8a5184fa1c"
+      },
+      {
+        "path": "solana",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8c2a67caa98c527b0c9420cf2b016f0a66c94fcc",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/8c2a67caa98c527b0c9420cf2b016f0a66c94fcc"
+      },
+      {
+        "path": "solana/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b42967a73d700a247451a8f4cfbccaaa3cab6ea",
+        "size": 2417,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/2b42967a73d700a247451a8f4cfbccaaa3cab6ea"
+      },
+      {
+        "path": "solidity",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3df9471edbc55049c7da39c283db046ad9cd4dc3",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/3df9471edbc55049c7da39c283db046ad9cd4dc3"
+      },
+      {
+        "path": "solidity/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "072fa1f33053bf011586eacb3f925f3e08046cfd",
+        "size": 3436,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/072fa1f33053bf011586eacb3f925f3e08046cfd"
+      },
+      {
+        "path": "spring-boot",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2c5c5d26c6cbfc7202011c70c4a253d170c76151",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/2c5c5d26c6cbfc7202011c70c4a253d170c76151"
+      },
+      {
+        "path": "spring-boot/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b2222468ab20b89f1ef8a1ee402de1457abe4d26",
+        "size": 4065,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/b2222468ab20b89f1ef8a1ee402de1457abe4d26"
+      },
+      {
+        "path": "spring-framework",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6b91894f75b9b1ea34ec8080391bf61be8725f6b",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/6b91894f75b9b1ea34ec8080391bf61be8725f6b"
+      },
+      {
+        "path": "spring-framework/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "00d8ebf2a6bf978cb7f7b675a016e50ea400cc78",
+        "size": 3371,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/00d8ebf2a6bf978cb7f7b675a016e50ea400cc78"
+      },
+      {
+        "path": "sql-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3f77f20ed71aa308adbe1b165955e09de2e877b9",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/3f77f20ed71aa308adbe1b165955e09de2e877b9"
+      },
+      {
+        "path": "sql-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8ca3e37ebb6b0e1b4ed26dc452caa7fbfcd3e106",
+        "size": 6376,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/8ca3e37ebb6b0e1b4ed26dc452caa7fbfcd3e106"
+      },
+      {
+        "path": "storybook",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "794d11257ac32264c8aa3b2441b7c310199396eb",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/794d11257ac32264c8aa3b2441b7c310199396eb"
+      },
+      {
+        "path": "storybook/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dd3bb5c0487cfc3138f06116206df51d48878ec2",
+        "size": 5960,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/dd3bb5c0487cfc3138f06116206df51d48878ec2"
+      },
+      {
+        "path": "stripe",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e69211238953f60f2a85bfbfa0439478f46fa367",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/e69211238953f60f2a85bfbfa0439478f46fa367"
+      },
+      {
+        "path": "stripe/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e7363d8eb419c3a28035e4b8be59530d08142777",
+        "size": 6454,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/e7363d8eb419c3a28035e4b8be59530d08142777"
+      },
+      {
+        "path": "styled-components-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a9693bbd2d028d31c916f1c2b62eee90988cc9eb",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/a9693bbd2d028d31c916f1c2b62eee90988cc9eb"
+      },
+      {
+        "path": "styled-components-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dca76ba209f5a61d2a94711d577481b4edbcf1bc",
+        "size": 18470,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/dca76ba209f5a61d2a94711d577481b4edbcf1bc"
+      },
+      {
+        "path": "supabase-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e9f17a3022805076ca75e2cf439e2932ffd23dae",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/e9f17a3022805076ca75e2cf439e2932ffd23dae"
+      },
+      {
+        "path": "supabase-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "20a02b91073cb7e23c42a72afb87c2df636f02aa",
+        "size": 2325,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/20a02b91073cb7e23c42a72afb87c2df636f02aa"
+      },
+      {
+        "path": "supabase",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "08b908a1d9b0d0ecf0180c63f99e23a434cd9260",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/08b908a1d9b0d0ecf0180c63f99e23a434cd9260"
+      },
+      {
+        "path": "supabase/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "991ada8fc0034b9c370d3b75922c051a75c28180",
+        "size": 2171,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/991ada8fc0034b9c370d3b75922c051a75c28180"
+      },
+      {
+        "path": "svelte",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4ed796544af929aa4eea699894933762e1ad2bd7",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/4ed796544af929aa4eea699894933762e1ad2bd7"
+      },
+      {
+        "path": "svelte/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ecd236822c68b6b378fda3505d6a84b792651de",
+        "size": 4788,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/9ecd236822c68b6b378fda3505d6a84b792651de"
+      },
+      {
+        "path": "sveltekit",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bd08513267b678710054e18b9e7cc07e46dc3b85",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/bd08513267b678710054e18b9e7cc07e46dc3b85"
+      },
+      {
+        "path": "sveltekit/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b08fe36a8fb7cd3ab6295d78d2a5e4a9e3f28649",
+        "size": 6580,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/b08fe36a8fb7cd3ab6295d78d2a5e4a9e3f28649"
+      },
+      {
+        "path": "swift",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "95c4083e428ae8df82863b4e962bfb204cf6b5d7",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/95c4083e428ae8df82863b4e962bfb204cf6b5d7"
+      },
+      {
+        "path": "swift/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "846c3dff3d31c5793e78140232b40c7ee31f2b3b",
+        "size": 1758,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/846c3dff3d31c5793e78140232b40c7ee31f2b3b"
+      },
+      {
+        "path": "swiftui-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "73116b609f30d098fafe145b955360e9bc757030",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/73116b609f30d098fafe145b955360e9bc757030"
+      },
+      {
+        "path": "swiftui-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5faefb39f5eba9748119423e6c58d9e473a4d8cc",
+        "size": 9239,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/5faefb39f5eba9748119423e6c58d9e473a4d8cc"
+      },
+      {
+        "path": "swr",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ea186a86e4b19dfda9d5c54a755cd2476b15a2c1",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/ea186a86e4b19dfda9d5c54a755cd2476b15a2c1"
+      },
+      {
+        "path": "swr/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3602cea0214a807a1c4c6df5bdeab8ffeb2d9778",
+        "size": 10361,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/3602cea0214a807a1c4c6df5bdeab8ffeb2d9778"
+      },
+      {
+        "path": "systemverilog",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "64eccef1cb76f2654faf604c2a4a918a2cc9ae90",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/64eccef1cb76f2654faf604c2a4a918a2cc9ae90"
+      },
+      {
+        "path": "systemverilog/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "19bb2d16c9e90118eb2ecd1f6e1920e14f27f6db",
+        "size": 2710,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/19bb2d16c9e90118eb2ecd1f6e1920e14f27f6db"
+      },
+      {
+        "path": "tailwindcss",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "42bc2a1fe3862dbc9099b732992aea62bae62d89",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/42bc2a1fe3862dbc9099b732992aea62bae62d89"
+      },
+      {
+        "path": "tailwindcss/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "19e545052055db557bd6353712a2adf38f9a236e",
+        "size": 1851,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/19e545052055db557bd6353712a2adf38f9a236e"
+      },
+      {
+        "path": "tanstack-query",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6f4a2e2208bc73b5891758e29b6d833bd1f5996b",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/6f4a2e2208bc73b5891758e29b6d833bd1f5996b"
+      },
+      {
+        "path": "tanstack-query/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4864dc7fd3c58bf0733d62efd5d3b2b5b429d6e7",
+        "size": 14573,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/4864dc7fd3c58bf0733d62efd5d3b2b5b429d6e7"
+      },
+      {
+        "path": "tanstack-router",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "66c0440fb9b7dbbe837537917933cc5b3e04166f",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/66c0440fb9b7dbbe837537917933cc5b3e04166f"
+      },
+      {
+        "path": "tanstack-router/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5c92d7b3243f341dbeb81585eafba00e1649dc47",
+        "size": 7644,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/5c92d7b3243f341dbeb81585eafba00e1649dc47"
+      },
+      {
+        "path": "tanstack-start",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a0bd30024e0cca628906975694c1501207923856",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/a0bd30024e0cca628906975694c1501207923856"
+      },
+      {
+        "path": "tanstack-start/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "888b611fd694ed453f046087fdfea4afc697811e",
+        "size": 8279,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/888b611fd694ed453f046087fdfea4afc697811e"
+      },
+      {
+        "path": "tauri-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "23c147b836ac304e0825e45ca9e6669a81e28312",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/23c147b836ac304e0825e45ca9e6669a81e28312"
+      },
+      {
+        "path": "tauri-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0583fa269a0db4116b6721641de6c49dc9207114",
+        "size": 4090,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/0583fa269a0db4116b6721641de6c49dc9207114"
+      },
+      {
+        "path": "technical-writing",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9fd1f647a126d35b6023314c4106593e1dade039",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/9fd1f647a126d35b6023314c4106593e1dade039"
+      },
+      {
+        "path": "technical-writing/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9cf97dd17dd90a733ae432c1a19c5083aa5064eb",
+        "size": 3029,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/9cf97dd17dd90a733ae432c1a19c5083aa5064eb"
+      },
+      {
+        "path": "tensorflow-deep-learning",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cff0e197479b76756836d3aca98f1c31ec886644",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/cff0e197479b76756836d3aca98f1c31ec886644"
+      },
+      {
+        "path": "tensorflow-deep-learning/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4548bec851a7d74bea3d42d91d8745ac42aa6b8c",
+        "size": 10022,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/4548bec851a7d74bea3d42d91d8745ac42aa6b8c"
+      },
+      {
+        "path": "terraform",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5a261fbe1ba47ef1a23af4448b1baf9c19d711f4",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/5a261fbe1ba47ef1a23af4448b1baf9c19d711f4"
+      },
+      {
+        "path": "terraform/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5291305416a575d6b565387a0e4b1132cb0eac89",
+        "size": 2010,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/5291305416a575d6b565387a0e4b1132cb0eac89"
+      },
+      {
+        "path": "testing",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "173dc3a176134f354f79b395d6076a78e249199d",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/173dc3a176134f354f79b395d6076a78e249199d"
+      },
+      {
+        "path": "testing/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0cfaf97e4556368f0640f9ed01960b39c4ab0b2d",
+        "size": 2039,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/0cfaf97e4556368f0640f9ed01960b39c4ab0b2d"
+      },
+      {
+        "path": "three-js",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c8325f93e0c7b8fcbb18a6190372a1ad2d150e9b",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/c8325f93e0c7b8fcbb18a6190372a1ad2d150e9b"
+      },
+      {
+        "path": "three-js/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "25e4c7f66a339878866430d54276d9caa05f84fc",
+        "size": 2577,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/25e4c7f66a339878866430d54276d9caa05f84fc"
+      },
+      {
+        "path": "transformers-huggingface",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "26b4b03da74e0044354d1d63fbf50a3d4602f496",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/26b4b03da74e0044354d1d63fbf50a3d4602f496"
+      },
+      {
+        "path": "transformers-huggingface/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a73afc97b292258a28e466b5e7751907461efae8",
+        "size": 5233,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/a73afc97b292258a28e466b5e7751907461efae8"
+      },
+      {
+        "path": "trpc",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "98355f1011fc42f4e55b9c90bca946dde87f28ac",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/98355f1011fc42f4e55b9c90bca946dde87f28ac"
+      },
+      {
+        "path": "trpc/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "448cca3b8cf674ac6b52d086648e35443afbdada",
+        "size": 6152,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/448cca3b8cf674ac6b52d086648e35443afbdada"
+      },
+      {
+        "path": "turbopack-bundler",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f8512130b7a8f5bd777bd631bddeeba70f98fe96",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/f8512130b7a8f5bd777bd631bddeeba70f98fe96"
+      },
+      {
+        "path": "turbopack-bundler/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "77e767961bde4cd81b064bb54ea80541c511034f",
+        "size": 8546,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/77e767961bde4cd81b064bb54ea80541c511034f"
+      },
+      {
+        "path": "turborepo",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "efca1a9dc5d8f14b20306b3547be1e8761771763",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/efca1a9dc5d8f14b20306b3547be1e8761771763"
+      },
+      {
+        "path": "turborepo/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d1edcc7f314a6b748ea5c8872b849e456347146",
+        "size": 3391,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/9d1edcc7f314a6b748ea5c8872b849e456347146"
+      },
+      {
+        "path": "typeorm",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bb5040e94dfb71edf0fe7e11f0046274bf43e7c6",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/bb5040e94dfb71edf0fe7e11f0046274bf43e7c6"
+      },
+      {
+        "path": "typeorm/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8c6be80242513ea0e57d8758bfbbd14e01b00fe6",
+        "size": 14001,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/8c6be80242513ea0e57d8758bfbbd14e01b00fe6"
+      },
+      {
+        "path": "typescript",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5d0e453e752d96793bd2574ae1bf6c1ce0060d7f",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/5d0e453e752d96793bd2574ae1bf6c1ce0060d7f"
+      },
+      {
+        "path": "typescript/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a61099a0809bc744e29fa62611bad08612d6e789",
+        "size": 2361,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/a61099a0809bc744e29fa62611bad08612d6e789"
+      },
+      {
+        "path": "ui-design",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "58a6c860bbe1e0f8b35dcfa00294dfb8f0327cec",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/58a6c860bbe1e0f8b35dcfa00294dfb8f0327cec"
+      },
+      {
+        "path": "ui-design/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b1b0fcc2f2915bc55ccba89783f87785aa2a84f",
+        "size": 3518,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/4b1b0fcc2f2915bc55ccba89783f87785aa2a84f"
+      },
+      {
+        "path": "unity",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "110c06fae9f2413829dd5f48a79f569eb5a0c1d5",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/110c06fae9f2413829dd5f48a79f569eb5a0c1d5"
+      },
+      {
+        "path": "unity/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ddddaaaa9f49334ca1f5e693ba38667364ccca7",
+        "size": 1939,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/9ddddaaaa9f49334ca1f5e693ba38667364ccca7"
+      },
+      {
+        "path": "ux-design",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "631e863f4c335cc0cdc2cad3002e408eecb15354",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/631e863f4c335cc0cdc2cad3002e408eecb15354"
+      },
+      {
+        "path": "ux-design/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3cd7015581018d7716b4124da9c781fbfca31747",
+        "size": 4074,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/3cd7015581018d7716b4124da9c781fbfca31747"
+      },
+      {
+        "path": "vercel-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "708e446596458f55140e044e6c2b5aa528fb062e",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/708e446596458f55140e044e6c2b5aa528fb062e"
+      },
+      {
+        "path": "vercel-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37b68b84f5283a5937cb534b52354cbf4cce8b17",
+        "size": 11770,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/37b68b84f5283a5937cb534b52354cbf4cce8b17"
+      },
+      {
+        "path": "viewcomfy-api-rules",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "791b61bcde583ba97767ef50d3c38d28d6188e49",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/791b61bcde583ba97767ef50d3c38d28d6188e49"
+      },
+      {
+        "path": "viewcomfy-api-rules/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab638b5d260d43c59240d60b79b889c3386e2c47",
+        "size": 2087,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/ab638b5d260d43c59240d60b79b889c3386e2c47"
+      },
+      {
+        "path": "vite",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d66e1f81d6404973029daf760ba8264f0ecab183",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/d66e1f81d6404973029daf760ba8264f0ecab183"
+      },
+      {
+        "path": "vite/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "39acae3d1a1ed77b7ef21302da683bf317f59d71",
+        "size": 6858,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/39acae3d1a1ed77b7ef21302da683bf317f59d71"
+      },
+      {
+        "path": "vue-pinia",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8aea4252ebeaabf015e0dcdbd636a259af541e92",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/8aea4252ebeaabf015e0dcdbd636a259af541e92"
+      },
+      {
+        "path": "vue-pinia/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62e95bd6077c83d7f67997aede7341723537759d",
+        "size": 9740,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/62e95bd6077c83d7f67997aede7341723537759d"
+      },
+      {
+        "path": "vue-typescript",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4d8ba1144092cd6a2faeab6292483a85162fbd3d",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/4d8ba1144092cd6a2faeab6292483a85162fbd3d"
+      },
+      {
+        "path": "vue-typescript/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "450964e74b3a12a456969ee50bf6bd65aea955bf",
+        "size": 1828,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/450964e74b3a12a456969ee50bf6bd65aea955bf"
+      },
+      {
+        "path": "vuejs-typescript-best-practices",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ca85683a162a42c13c75f132fbeb156e8d487b59",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/ca85683a162a42c13c75f132fbeb156e8d487b59"
+      },
+      {
+        "path": "vuejs-typescript-best-practices/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e21018891f4ad9338d6b0ee9ff094bd9fd19b64b",
+        "size": 2279,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/e21018891f4ad9338d6b0ee9ff094bd9fd19b64b"
+      },
+      {
+        "path": "web-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7177b742ea2690273615cda4eb8e61b45db50ca2",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/7177b742ea2690273615cda4eb8e61b45db50ca2"
+      },
+      {
+        "path": "web-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3b1b717f2c6ed689307abed4110a69d645c8eea6",
+        "size": 4564,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/3b1b717f2c6ed689307abed4110a69d645c8eea6"
+      },
+      {
+        "path": "web-scraping",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7f949784defdbec96d88f882ab2a820929968b7b",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/7f949784defdbec96d88f882ab2a820929968b7b"
+      },
+      {
+        "path": "web-scraping/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f42e29e252ca732d42382c42d32a691b234e1841",
+        "size": 1398,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/f42e29e252ca732d42382c42d32a691b234e1841"
+      },
+      {
+        "path": "webpack-bundler",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9c3d642a4450d32aac30aeb1b94b81b8e2e7ce89",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/9c3d642a4450d32aac30aeb1b94b81b8e2e7ce89"
+      },
+      {
+        "path": "webpack-bundler/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "87bae9c54f2594484aad7eadd256f78e1a11092e",
+        "size": 5642,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/87bae9c54f2594484aad7eadd256f78e1a11092e"
+      },
+      {
+        "path": "websocket-development",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a18f978f34b7eef7216a6a50804e4511698dae2c",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/a18f978f34b7eef7216a6a50804e4511698dae2c"
+      },
+      {
+        "path": "websocket-development/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3741f5ef598a60bc198b5f257599307ee1992d71",
+        "size": 4882,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/3741f5ef598a60bc198b5f257599307ee1992d71"
+      },
+      {
+        "path": "woocommerce",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ee2e2fd5a65d9c16f9410ab84262e864ad964ab7",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/ee2e2fd5a65d9c16f9410ab84262e864ad964ab7"
+      },
+      {
+        "path": "woocommerce/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b6b5519b5faaf8ff3f010041f91fac90f85be72",
+        "size": 5056,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/7b6b5519b5faaf8ff3f010041f91fac90f85be72"
+      },
+      {
+        "path": "wordpress",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4508a49bb31ca1559ca0aaeee48feabb5a693ed4",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/4508a49bb31ca1559ca0aaeee48feabb5a693ed4"
+      },
+      {
+        "path": "wordpress/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5fc35daeec4b4f208af79de7f784d3aeb3247f53",
+        "size": 2257,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/5fc35daeec4b4f208af79de7f784d3aeb3247f53"
+      },
+      {
+        "path": "zod-schema-validation",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b11131dd7ca07dcb6309dd89ff7c068a725c3af1",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/b11131dd7ca07dcb6309dd89ff7c068a725c3af1"
+      },
+      {
+        "path": "zod-schema-validation/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1fd5523480f2fa58e6fe7ec0d426e93935d8e28",
+        "size": 2827,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/b1fd5523480f2fa58e6fe7ec0d426e93935d8e28"
+      },
+      {
+        "path": "zustand-state-management",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "15ebb7527261f792aea210b36bd59020510da648",
+        "url": "https://api.github.com/repos/Mindrally/skills/git/trees/15ebb7527261f792aea210b36bd59020510da648"
+      },
+      {
+        "path": "zustand-state-management/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "96158babf88127be2972d8b7a5aad136058905c8",
+        "size": 7301,
+        "url": "https://api.github.com/repos/Mindrally/skills/git/blobs/96158babf88127be2972d8b7a5aad136058905c8"
+      }
+    ],
+    "truncated": false
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "path": "docs/materi/Materi 1 (Intelligence in Action_ Machine Learning for Sustainable Solution).pdf",
+    "sha256": "ce9d7c90d62c75739d5df1dec8a088c499efa110be5cf6a20929e6d18f1001e7",
+    "pages": 37,
+    "text_extraction": "sources/webinar_1.json"
+  },
+  {
+    "path": "docs/materi/Materi 2 (Seeing is Believing_ The Art of Data Visualization for Sustainability).pdf",
+    "sha256": "f160801b7299a7de83e6d66a18c3c2f9cbd0f5debdd1c78cc420ce55861abcdd",
+    "pages": 38,
+    "text_extraction": "sources/webinar_2.json"
+  },
+  {
+    "path": "docs/materi/Notulensi Webinar Gelar Rasa 2026.pdf",
+    "sha256": "97dab6d34c661f447a99b00aa6df894c9e34bdbc68e34c6545c01997dc3b6f80",
+    "pages": 4,
+    "text_extraction": "sources/webinar_3.json"
+  },
+  {
+    "path": "docs/materi/PPT Webinar Gelar Rasa 2026.pdf",
+    "sha256": "69c058ff8f5aa9f084296749a4be68f402bfffa061b9b49ccac95704be24eee9",
+    "pages": 81,
+    "text_extraction": "sources/webinar_4.json"
+  },
+  {
+    "path": "docs/rules/GUIDEBOOK TATA TERTIB PESERTA GELAR RASA 2026.pdf",
+    "sha256": "8fac926a9ab7bb1dba11fea6a3e45172f90a5def2266ef1f059436d2761f332c",
+    "pages": 5,
+    "text_extraction": "sources/webinar_5.json"
+  }
+]

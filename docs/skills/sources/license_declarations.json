@@ -1,0 +1,121 @@
+[
+  {
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "skill": "pytorch-lightning",
+    "repository_license": "MIT",
+    "entrypoint_license_declaration": "Apache-2.0 license",
+    "note": "Declarations retained verbatim; library/model licenses may differ. NOASSERTION is not a resolved license."
+  },
+  {
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "skill": "scikit-learn",
+    "repository_license": "MIT",
+    "entrypoint_license_declaration": "BSD-3-Clause license",
+    "note": "Declarations retained verbatim; library/model licenses may differ. NOASSERTION is not a resolved license."
+  },
+  {
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "skill": "scientific-critical-thinking",
+    "repository_license": "MIT",
+    "entrypoint_license_declaration": "MIT license",
+    "note": "Declarations retained verbatim; library/model licenses may differ. NOASSERTION is not a resolved license."
+  },
+  {
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "skill": "exploratory-data-analysis",
+    "repository_license": "MIT",
+    "entrypoint_license_declaration": "MIT",
+    "note": "Declarations retained verbatim; library/model licenses may differ. NOASSERTION is not a resolved license."
+  },
+  {
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "skill": "scientific-writing",
+    "repository_license": "MIT",
+    "entrypoint_license_declaration": "MIT",
+    "note": "Declarations retained verbatim; library/model licenses may differ. NOASSERTION is not a resolved license."
+  },
+  {
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "skill": "scientific-visualization",
+    "repository_license": "MIT",
+    "entrypoint_license_declaration": "MIT",
+    "note": "Declarations retained verbatim; library/model licenses may differ. NOASSERTION is not a resolved license."
+  },
+  {
+    "repo": "alirezarezvani/claude-skills",
+    "skill": "senior-computer-vision",
+    "repository_license": "MIT",
+    "entrypoint_license_declaration": null,
+    "note": "Declarations retained verbatim; library/model licenses may differ. NOASSERTION is not a resolved license."
+  },
+  {
+    "repo": "Mindrally/skills",
+    "skill": "computer-vision-opencv",
+    "repository_license": "Apache-2.0",
+    "entrypoint_license_declaration": null,
+    "note": "Declarations retained verbatim; library/model licenses may differ. NOASSERTION is not a resolved license."
+  },
+  {
+    "repo": "affaan-m/ECC",
+    "skill": "pytorch-patterns",
+    "repository_license": "MIT",
+    "entrypoint_license_declaration": null,
+    "note": "Declarations retained verbatim; library/model licenses may differ. NOASSERTION is not a resolved license."
+  },
+  {
+    "repo": "huggingface/skills",
+    "skill": "huggingface-vision-trainer",
+    "repository_license": "Apache-2.0",
+    "entrypoint_license_declaration": null,
+    "note": "Declarations retained verbatim; library/model licenses may differ. NOASSERTION is not a resolved license."
+  },
+  {
+    "repo": "voxel51/fiftyone-skills",
+    "skill": "fiftyone-dataset-curation",
+    "repository_license": "Apache-2.0",
+    "entrypoint_license_declaration": null,
+    "note": "Declarations retained verbatim; library/model licenses may differ. NOASSERTION is not a resolved license."
+  },
+  {
+    "repo": "voxel51/fiftyone-skills",
+    "skill": "fiftyone-find-duplicates",
+    "repository_license": "Apache-2.0",
+    "entrypoint_license_declaration": null,
+    "note": "Declarations retained verbatim; library/model licenses may differ. NOASSERTION is not a resolved license."
+  },
+  {
+    "repo": "voxel51/fiftyone-skills",
+    "skill": "fiftyone-embeddings-visualization",
+    "repository_license": "Apache-2.0",
+    "entrypoint_license_declaration": null,
+    "note": "Declarations retained verbatim; library/model licenses may differ. NOASSERTION is not a resolved license."
+  },
+  {
+    "repo": "voxel51/fiftyone-skills",
+    "skill": "fiftyone-model-evaluation",
+    "repository_license": "Apache-2.0",
+    "entrypoint_license_declaration": null,
+    "note": "Declarations retained verbatim; library/model licenses may differ. NOASSERTION is not a resolved license."
+  },
+  {
+    "repo": "VectorSpaceLab/AREX-Skill",
+    "skill": "albumentations",
+    "repository_license": "Apache-2.0",
+    "entrypoint_license_declaration": "MIT",
+    "note": "Declarations retained verbatim; library/model licenses may differ. NOASSERTION is not a resolved license."
+  },
+  {
+    "repo": "VectorSpaceLab/AREX-Skill",
+    "skill": "cleanlab",
+    "repository_license": "Apache-2.0",
+    "entrypoint_license_declaration": "Apache 2.0",
+    "note": "Declarations retained verbatim; library/model licenses may differ. NOASSERTION is not a resolved license."
+  },
+  {
+    "repo": "VectorSpaceLab/AREX-Skill",
+    "skill": "scikit-image",
+    "repository_license": "Apache-2.0",
+    "entrypoint_license_declaration": "NOASSERTION",
+    "note": "Declarations retained verbatim; library/model licenses may differ. NOASSERTION is not a resolved license."
+  }
+]

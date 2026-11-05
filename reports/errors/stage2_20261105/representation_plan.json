@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-05",
+  "purpose": "exploratory unlabeled representation ablation",
+  "full_population": 2400,
+  "fit_population": "unique train only, in separate clustering script",
+  "views": [
+    "original224_all",
+    "hflip224_256_random_train",
+    "original336_256_random_train"
+  ],
+  "probe_selection": "256 unique train sampled by seed20261105, no labels or disagreements",
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "pca_components": [
+    null,
+    64,
+    128,
+    256
+  ],
+  "k": 8,
+  "external_dataset_downloaded": false,
+  "archived_labels_read": false,
+  "semantic_targets_read": false,
+  "test_used_for_fitting": false,
+  "frozen_inputs": {
+    "output\\groups\\stage1_v1\\cluster_assignments.csv": "3b35031ac45152372e67baa15547c2c05285c70d18b68d390d8e78e859e2f532",
+    "output\\manifests\\stage1_v1\\image_profile.csv": "6dadfeaf3faf4bae6a1d15129a0d7540dba07f5cbd4589f1526482b6c5ccd9f6",
+    "configs\\data_contract.json": "5550c65120696f471eb39908ab34708be451d66be16840ea11d5723ce569cabc"
+  },
+  "force_feature_recomputation": true
+}

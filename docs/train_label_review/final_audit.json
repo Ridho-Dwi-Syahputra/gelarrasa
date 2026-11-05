@@ -1,0 +1,26 @@
+{
+  "total": 1920,
+  "original_hashes_match_initial_manifest": true,
+  "copies_match_originals": true,
+  "class_counts": {
+    "cardboard": 273,
+    "textile": 219,
+    "metal": 238,
+    "plastic": 304,
+    "electronic": 211,
+    "paper": 215,
+    "foodwaste": 248,
+    "glass": 212
+  },
+  "uncertain_labels": 51,
+  "original_resolution_second_reviews": 52,
+  "exact_duplicate_groups": 1,
+  "conflicting_exact_duplicate_groups": 0,
+  "exact_duplicate_ids": [
+    [
+      "0848",
+      "1717"
+    ]
+  ],
+  "verified_at_utc": "2026-11-04T07:01:58.154831+00:00"
+}

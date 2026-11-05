@@ -1,0 +1,2554 @@
+{
+  "retrieved_at_utc": "2026-11-04T17:18:19.523456+00:00",
+  "scope": "Read-only reference snapshots; no upstream scripts executed, no global installation.",
+  "packages": [
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "skill": "pytorch-lightning",
+      "license": "MIT",
+      "stars_at_retrieval": 56045,
+      "upstream_path": "skills/pytorch-lightning",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/pytorch-lightning"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "skill": "scikit-learn",
+      "license": "MIT",
+      "stars_at_retrieval": 56045,
+      "upstream_path": "skills/scikit-learn",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scikit-learn"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "skill": "scientific-critical-thinking",
+      "license": "MIT",
+      "stars_at_retrieval": 56045,
+      "upstream_path": "skills/scientific-critical-thinking",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-critical-thinking"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "skill": "exploratory-data-analysis",
+      "license": "MIT",
+      "stars_at_retrieval": 56045,
+      "upstream_path": "skills/exploratory-data-analysis",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "skill": "scientific-writing",
+      "license": "MIT",
+      "stars_at_retrieval": 56045,
+      "upstream_path": "skills/scientific-writing",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "skill": "scientific-visualization",
+      "license": "MIT",
+      "stars_at_retrieval": 56045,
+      "upstream_path": "skills/scientific-visualization",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization"
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "commit": "c85b17e1fb621ba760478baaacc4fcb9be225e74",
+      "skill": "senior-computer-vision",
+      "license": "MIT",
+      "stars_at_retrieval": 29265,
+      "upstream_path": "engineering-team/skills/senior-computer-vision",
+      "local_path": "vendor/alirezarezvani__claude-skills/senior-computer-vision"
+    },
+    {
+      "repo": "Mindrally/skills",
+      "commit": "7682ca77710e0971eab4e0ae5dddfa281aea0ba5",
+      "skill": "computer-vision-opencv",
+      "license": "Apache-2.0",
+      "stars_at_retrieval": 293,
+      "upstream_path": "computer-vision-opencv",
+      "local_path": "vendor/Mindrally__skills/computer-vision-opencv"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "commit": "b38be6a7f6350964d59328b52f0624e1d1d552d1",
+      "skill": "pytorch-patterns",
+      "license": "MIT",
+      "stars_at_retrieval": 296816,
+      "upstream_path": "skills/pytorch-patterns",
+      "local_path": "vendor/affaan-m__ECC/pytorch-patterns"
+    },
+    {
+      "repo": "huggingface/skills",
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "skill": "huggingface-vision-trainer",
+      "license": "Apache-2.0",
+      "stars_at_retrieval": 11264,
+      "upstream_path": "skills/huggingface-vision-trainer",
+      "local_path": "vendor/huggingface__skills/huggingface-vision-trainer"
+    },
+    {
+      "repo": "voxel51/fiftyone-skills",
+      "commit": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+      "skill": "fiftyone-dataset-curation",
+      "license": "Apache-2.0",
+      "stars_at_retrieval": 48,
+      "upstream_path": "skills/fiftyone-dataset-curation",
+      "local_path": "vendor/voxel51__fiftyone-skills/fiftyone-dataset-curation"
+    },
+    {
+      "repo": "voxel51/fiftyone-skills",
+      "commit": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+      "skill": "fiftyone-find-duplicates",
+      "license": "Apache-2.0",
+      "stars_at_retrieval": 48,
+      "upstream_path": "skills/fiftyone-find-duplicates",
+      "local_path": "vendor/voxel51__fiftyone-skills/fiftyone-find-duplicates"
+    },
+    {
+      "repo": "voxel51/fiftyone-skills",
+      "commit": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+      "skill": "fiftyone-embeddings-visualization",
+      "license": "Apache-2.0",
+      "stars_at_retrieval": 48,
+      "upstream_path": "skills/fiftyone-embeddings-visualization",
+      "local_path": "vendor/voxel51__fiftyone-skills/fiftyone-embeddings-visualization"
+    },
+    {
+      "repo": "voxel51/fiftyone-skills",
+      "commit": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+      "skill": "fiftyone-model-evaluation",
+      "license": "Apache-2.0",
+      "stars_at_retrieval": 48,
+      "upstream_path": "skills/fiftyone-model-evaluation",
+      "local_path": "vendor/voxel51__fiftyone-skills/fiftyone-model-evaluation"
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "skill": "albumentations",
+      "license": "Apache-2.0",
+      "stars_at_retrieval": 347,
+      "upstream_path": "skills/repositories/repo-skills/albumentations",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations"
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "skill": "cleanlab",
+      "license": "Apache-2.0",
+      "stars_at_retrieval": 347,
+      "upstream_path": "skills/repositories/repo-skills/cleanlab",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab"
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "skill": "scikit-image",
+      "license": "Apache-2.0",
+      "stars_at_retrieval": 347,
+      "upstream_path": "skills/repositories/repo-skills/scikit-image",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image"
+    }
+  ],
+  "files": [
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "license",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/LICENSE.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/LICENSE.md",
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "bytes": 1068
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "pytorch-lightning",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pytorch-lightning/SKILL.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/pytorch-lightning/SKILL.md",
+      "sha256": "d8829e74e8a1d908f923cf0c0a850ecfdd9edcb004d2fa90ec32fb1ed0006ce8",
+      "bytes": 10262
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "pytorch-lightning",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pytorch-lightning/references/best_practices.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/pytorch-lightning/references/best_practices.md",
+      "sha256": "e99b13ebdd43b702b6e1fc9732a85ea2ee153c16377c7f216a3433a0cd81d325",
+      "bytes": 5303
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "pytorch-lightning",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pytorch-lightning/references/callbacks.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/pytorch-lightning/references/callbacks.md",
+      "sha256": "84801cfe2ba309afc8b5a3a13a2a752ae9b0cd98617771fe29551dd7201e21a3",
+      "bytes": 5543
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "pytorch-lightning",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pytorch-lightning/references/data_module.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/pytorch-lightning/references/data_module.md",
+      "sha256": "be42f4a16a8898257834cd893f61977a6f8270828e7cae1b67dbc23a01a15549",
+      "bytes": 5430
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "pytorch-lightning",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pytorch-lightning/references/distributed_training.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/pytorch-lightning/references/distributed_training.md",
+      "sha256": "0a8b2b4a9975b170750db85c334288bd48b46fd06eb5c00589b17a187d9e4591",
+      "bytes": 7548
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "pytorch-lightning",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pytorch-lightning/references/lightning_module.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/pytorch-lightning/references/lightning_module.md",
+      "sha256": "0e33e3f04f8c9e25a8c03b51ec8e3d9ad3b968b5789eb36341e2f3198535d35b",
+      "bytes": 5700
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "pytorch-lightning",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pytorch-lightning/references/logging.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/pytorch-lightning/references/logging.md",
+      "sha256": "624f90f1d0aaf7143de4ba90b855cb541065dbec1d8ac2ca3fb766a91e2d07d4",
+      "bytes": 7934
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "pytorch-lightning",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pytorch-lightning/references/trainer.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/pytorch-lightning/references/trainer.md",
+      "sha256": "67eb14cbdd6ffd162264d5fa6c6ffecc63f55cfad75334f1bec90ed4c5b483f4",
+      "bytes": 5785
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "pytorch-lightning",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pytorch-lightning/scripts/quick_trainer_setup.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/pytorch-lightning/scripts/quick_trainer_setup.py",
+      "sha256": "1b700c1dde892042252cee202fa8bcfd26b035e73eb4617362bfaa6f891126e1",
+      "bytes": 14481
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "pytorch-lightning",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pytorch-lightning/scripts/template_datamodule.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/pytorch-lightning/scripts/template_datamodule.py",
+      "sha256": "3febf10bab4bf537ea584c351181d092fcdbd1fb6914fd90bb5bd4cd80134ffe",
+      "bytes": 6882
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "pytorch-lightning",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pytorch-lightning/scripts/template_lightning_module.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/pytorch-lightning/scripts/template_lightning_module.py",
+      "sha256": "2053136d3bc5523661dbbfce64c4b4506415e679cc34edc60ba9242c8d3dfb71",
+      "bytes": 6237
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scikit-learn",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scikit-learn/SKILL.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scikit-learn/SKILL.md",
+      "sha256": "a1765797d072ab40094522abe68fb04505d0881f66b7dfceeb8582422dbe488d",
+      "bytes": 13255
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scikit-learn",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scikit-learn/references/common_workflows.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scikit-learn/references/common_workflows.md",
+      "sha256": "dfe19c80358acb5f418a21cea4de3b7e83733481441f3c76d0a2ead4420261de",
+      "bytes": 3723
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scikit-learn",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scikit-learn/references/core_capabilities.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scikit-learn/references/core_capabilities.md",
+      "sha256": "c869d9c207fcfc345207d397021a289f3820492ddf0fcd0b3a56a336bd0e1453",
+      "bytes": 5113
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scikit-learn",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scikit-learn/references/model_evaluation.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scikit-learn/references/model_evaluation.md",
+      "sha256": "e6f581c0ce2abffaac2f0bafc1a7bfbe86ec18f8969c6e9b91cc732a12a5fea5",
+      "bytes": 19482
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scikit-learn",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scikit-learn/references/pipelines_and_composition.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scikit-learn/references/pipelines_and_composition.md",
+      "sha256": "a1810cd67dc9141d962fa1972e11b06be6bd437213e10a563e5ec4256fb274a9",
+      "bytes": 15892
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scikit-learn",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scikit-learn/references/preprocessing.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scikit-learn/references/preprocessing.md",
+      "sha256": "098506f0ca83e57d0c7cccd166164d025552ad7310b79d1010f5ff34e1cc4818",
+      "bytes": 18359
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scikit-learn",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scikit-learn/references/quick_reference.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scikit-learn/references/quick_reference.md",
+      "sha256": "5401b75fdaa10bf393b024f3c559631011c7be233d2313da37a3f27d7389659a",
+      "bytes": 12448
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scikit-learn",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scikit-learn/references/supervised_learning.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scikit-learn/references/supervised_learning.md",
+      "sha256": "d4e5911d175c3a349dd42e33c984b05cdafce230f264b6774996d0eeef36608a",
+      "bytes": 12101
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scikit-learn",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scikit-learn/references/unsupervised_learning.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scikit-learn/references/unsupervised_learning.md",
+      "sha256": "cb476ef499fe35ee2c0416fdc31abad42384ac0110f6d3932901e99b039ae1b1",
+      "bytes": 16752
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scikit-learn",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scikit-learn/scripts/classification_pipeline.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scikit-learn/scripts/classification_pipeline.py",
+      "sha256": "46abbb2b11095147cc31314405910b211c313d142f2480599f8508d47e5809f3",
+      "bytes": 10293
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scikit-learn",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scikit-learn/scripts/clustering_analysis.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scikit-learn/scripts/clustering_analysis.py",
+      "sha256": "5d1f962a70e049907a39a75cd7a130000a5d3e3de5a4fa4889d07f007c052a17",
+      "bytes": 11681
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-critical-thinking",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-critical-thinking/SKILL.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-critical-thinking/SKILL.md",
+      "sha256": "563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4",
+      "bytes": 13146
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-critical-thinking",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-critical-thinking/references/common_biases.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-critical-thinking/references/common_biases.md",
+      "sha256": "641e8e8e6dfadac1643ea8691b7d3e4e58cf013f134cd42c71301878096a5a39",
+      "bytes": 12368
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-critical-thinking",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-critical-thinking/references/core_capabilities.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-critical-thinking/references/core_capabilities.md",
+      "sha256": "0f337b96aa2d7453433a17824368fbd0638b9469d4f90a5fd23f4167c9dee180",
+      "bytes": 16975
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-critical-thinking",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-critical-thinking/references/evidence_hierarchy.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-critical-thinking/references/evidence_hierarchy.md",
+      "sha256": "534fbe991ecfb2d162f755004dc528118ce74a78862917c2911595a522d76e6c",
+      "bytes": 17435
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-critical-thinking",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-critical-thinking/references/experimental_design.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-critical-thinking/references/experimental_design.md",
+      "sha256": "eca7e42025393984c07676f3d4bc354d217e5604dc2209c76215d31953a7c74c",
+      "bytes": 18227
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-critical-thinking",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-critical-thinking/references/logical_fallacies.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-critical-thinking/references/logical_fallacies.md",
+      "sha256": "becfc5bfac7b831dca67cc442cd0fcb42d8eea527a6fc2921c1b704e592ff593",
+      "bytes": 18659
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-critical-thinking",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-critical-thinking/references/review_sources.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-critical-thinking/references/review_sources.md",
+      "sha256": "71e75106f36f3e69b28959ad1fec503ccdb21b7f5361ab230173e4812accbf62",
+      "bytes": 7557
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-critical-thinking",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-critical-thinking/references/scientific_method.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-critical-thinking/references/scientific_method.md",
+      "sha256": "5aa925b97c7a916f819dafc8b42a9c24e4bd3eb2836594e724f1e7f9ae75ea0f",
+      "bytes": 7641
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-critical-thinking",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+      "sha256": "0c43204a0a81110cfeb7c982fa4caa89f274bdcebf096e09e5adfccf31241cb9",
+      "bytes": 21151
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/SKILL.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/SKILL.md",
+      "sha256": "955c4cefa49106dd03b55cbd62603bab2d2fb678e627dd452ba62040c7128484",
+      "bytes": 14722
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/assets/report_template.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/assets/report_template.md",
+      "sha256": "c6cd0644dbefeb64c77e84935509f52a92d45256daf2cd4be84012e99e4d7d44",
+      "bytes": 7873
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/references/bioinformatics_genomics_formats.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/references/bioinformatics_genomics_formats.md",
+      "sha256": "b3594673cbe22e29fd5bc2681c1b53d4f8b02b48ff17fc9ffaf5a09d1d885be3",
+      "bytes": 8977
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/references/chemistry_molecular_formats.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/references/chemistry_molecular_formats.md",
+      "sha256": "3ff937541ebf0396d4c2304016cebc42d405110300df7379f59c40953fc8ed41",
+      "bytes": 8732
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/references/general_scientific_formats.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/references/general_scientific_formats.md",
+      "sha256": "42bcf3389bbd78e426dd41139208517f3f78bdc17e068a1eb3a984d2f2487320",
+      "bytes": 12276
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/references/microscopy_imaging_formats.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/references/microscopy_imaging_formats.md",
+      "sha256": "c96bb7291ded320a106800c1132191683aa3028f2240c5fcf954079f1a26c382",
+      "bytes": 9305
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/references/proteomics_metabolomics_formats.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/references/proteomics_metabolomics_formats.md",
+      "sha256": "66d9493fe14c717f5e8e60500e8fa7bfe1f619084e23b643a767f0952a35efd7",
+      "bytes": 9821
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/references/spectroscopy_analytical_formats.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/references/spectroscopy_analytical_formats.md",
+      "sha256": "102a68c212ef5447815c889cf06668f3cb5bd8644f018354d6e98d1a15101a0f",
+      "bytes": 9555
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/scripts/__init__.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/scripts/__init__.py",
+      "sha256": "87539288ce5d4caf24fc9fca14e5d70c41730c9d4285106ac4db0c4b5cefd60c",
+      "bytes": 69
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/scripts/_capabilities.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/scripts/_capabilities.py",
+      "sha256": "93fd42bcc6940db0a6cad364dab42a52f0867e782f7e93c9b27c4185249edc06",
+      "bytes": 20714
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/scripts/_common.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/scripts/_common.py",
+      "sha256": "f363af255cc78ea63864e0da9f679f57a9e71efd36b6813332f3d2c419b30d51",
+      "bytes": 14293
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/scripts/_structured.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/scripts/_structured.py",
+      "sha256": "8cb23c8552339acc926f4dc84e1ec032c79152515098e1fd97f2326b84b4ead9",
+      "bytes": 14683
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/scripts/_tabular.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/scripts/_tabular.py",
+      "sha256": "5d1db825890dd035c30e51ac1c11aee56e1e1dca6ffd238ee87ae7d51d8df2f0",
+      "bytes": 32782
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/scripts/capability_manifest.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/scripts/capability_manifest.py",
+      "sha256": "1e52e1db668ebce919751a75b53ad959c36749e4b1695f59d8ac2d6c8eda4abf",
+      "bytes": 5433
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/scripts/distribution_sensitivity.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/scripts/distribution_sensitivity.py",
+      "sha256": "ca6e9f3dd59cfb382b1ff0874e709933c136ec942085a0437d4000bbf7f1f3c8",
+      "bytes": 3304
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/scripts/eda_analyzer.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/scripts/eda_analyzer.py",
+      "sha256": "6532b28ad3f28dd9f58acecb54361c8271d2755584a54ecb0be34da74d1e5d20",
+      "bytes": 10547
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/scripts/image_inspector.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/scripts/image_inspector.py",
+      "sha256": "79c21b35d01376929ff0edf26a3bb25923b9e75458c586e0f5721cec356fe639",
+      "bytes": 7931
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/scripts/missingness_leakage_audit.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/scripts/missingness_leakage_audit.py",
+      "sha256": "28458714e80ee31db636c0265ba21e1623ba27816d31e236fdc9b873a5b78ffc",
+      "bytes": 3904
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/scripts/report_scaffold.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/scripts/report_scaffold.py",
+      "sha256": "4d745592384bfceb0ec7384eecfc5e8ba49ebfa4ec55be75a99ce7c7e102f60b",
+      "bytes": 4247
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/scripts/sequence_inspector.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/scripts/sequence_inspector.py",
+      "sha256": "11ca2fa3a0d660192631b9b562f362b0fd120c9e54639bfb049c600c6920be28",
+      "bytes": 8621
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "exploratory-data-analysis",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis/scripts/tabular_profile.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/exploratory-data-analysis/scripts/tabular_profile.py",
+      "sha256": "78cd139292c18e31d17de882762948db7b51fdc3278546f994270a287d0149db",
+      "bytes": 3077
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/SKILL.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/SKILL.md",
+      "sha256": "511a2096bebecd8cf0f8212b9d262d37154ae1ba566eb385d93ac968682edbd1",
+      "bytes": 14897
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/assets/REPORT_FORMATTING_GUIDE.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/assets/REPORT_FORMATTING_GUIDE.md",
+      "sha256": "2bb69499426ed6727c1701bae752c2e902151cbf69963f8bcf25b9e54cc20724",
+      "bytes": 2713
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/assets/authorship_template.json",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/assets/authorship_template.json",
+      "sha256": "04a590ac47ed61dcc7cd88a26d51243cf178fe6ada99d4000ca225e1b5f6f20a",
+      "bytes": 1239
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/assets/claim_evidence_template.csv",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/assets/claim_evidence_template.csv",
+      "sha256": "cfb7a9f44cd1e5ef47ccdb3e32ac0a25b72d30e51343faace9bf07c00e3a0659",
+      "bytes": 218
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/assets/consistency_manifest_template.json",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/assets/consistency_manifest_template.json",
+      "sha256": "2ea6f468ab6fab45c4db3616fbaddcc2ae706b3a26d6745b4cf74ddb53266872",
+      "bytes": 891
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/assets/manuscript_manifest_template.json",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/assets/manuscript_manifest_template.json",
+      "sha256": "914052ff25b44072a07dce2ae8171524b717894ad7d2103054356115b9dd6c22",
+      "bytes": 1012
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/assets/manuscript_scaffold.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/assets/manuscript_scaffold.md",
+      "sha256": "55305ba311ff4e2459a31a99b3f1b9da44d79499332399a9216b5f92cb412ab2",
+      "bytes": 1979
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/assets/reporting_coverage_template.json",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/assets/reporting_coverage_template.json",
+      "sha256": "886ca599622c1dfaedde7649ec47e973b4fbe6081cac6a6afaf24ace899d46a9",
+      "bytes": 189
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/assets/reporting_guidelines.json",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/assets/reporting_guidelines.json",
+      "sha256": "215f8c55bd40bda0569f2e81556030ff575319e25276b1e1ae70e2cc7475ddcd",
+      "bytes": 16009
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/assets/source_manifest_template.json",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/assets/source_manifest_template.json",
+      "sha256": "fc6f65a8571b717691ac717f325825a608190f271e8b79650b711cc95f5b0a36",
+      "bytes": 599
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/references/authorship_ai_confidentiality.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/references/authorship_ai_confidentiality.md",
+      "sha256": "0200e3ad8eafaedec26bce2b9895cda81c6c9325790507509134373a0ca41fe2",
+      "bytes": 4919
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/references/citation_styles.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/references/citation_styles.md",
+      "sha256": "338c08d8fba6fbf7437aad4dd99db5bccf3f597fa6650c562fae0c7ca422e572",
+      "bytes": 3945
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/references/cli_reference.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/references/cli_reference.md",
+      "sha256": "05b15a587277e37dbc6161532dce58c8ccf647e22f21861ebcbac22954453e75",
+      "bytes": 4101
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/references/evidence_workflow.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/references/evidence_workflow.md",
+      "sha256": "346c867d71e8cf1db6e3684a64714925a3966fcaeb1db853d7ddb07c6a6f607b",
+      "bytes": 5033
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/references/figures_tables.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/references/figures_tables.md",
+      "sha256": "212d10f3e7a01325d2518c4aab54a4fc04a67e4aa94e959cead199c425a0f4d6",
+      "bytes": 3915
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/references/imrad_structure.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/references/imrad_structure.md",
+      "sha256": "8a1201f8e58a045736a5bc65a47f239c894be6946716e969c0b77aa90a7e8e39",
+      "bytes": 4512
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/references/journal_policies.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/references/journal_policies.md",
+      "sha256": "aefbd73c5a8a23be076b210a910f026ece748a73b4593cb99e885879bd61d2c2",
+      "bytes": 3010
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/references/professional_report_formatting.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/references/professional_report_formatting.md",
+      "sha256": "c269fd256bda6a9389bfd5ffefa8eff8876b96d92f8391e8a01fa80910bb35d3",
+      "bytes": 3230
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/references/reporting_guidelines.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/references/reporting_guidelines.md",
+      "sha256": "4a74d4613742bb26fe3d74596998b9e75ea8a2694a012222b6d9636e121a1f0d",
+      "bytes": 4785
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/references/research_integrity_open_science.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/references/research_integrity_open_science.md",
+      "sha256": "f8f91010537acf4b78616d7410d23b85030f94d66e9d36db03d6e632ffb56100",
+      "bytes": 4149
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/references/source_ledger.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/references/source_ledger.md",
+      "sha256": "1692a3bea432dfde6eb1e7ca7054d0dd8652b1bef6b97322ea3c30f0ff68d5b3",
+      "bytes": 11473
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/references/writing_principles.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/references/writing_principles.md",
+      "sha256": "58d4b32f63446c0b082f163314fdcf0d41a50568ad392d34ba992e24fadae764",
+      "bytes": 3904
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/scripts/_common.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/scripts/_common.py",
+      "sha256": "8cc192d82d219d1ec9720f8a8ab0c440fb35f2562fdeaeb7432a38d18e5e7b42",
+      "bytes": 7977
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/scripts/audit_claims.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/scripts/audit_claims.py",
+      "sha256": "6074f51663e6863cf28168824a3f440b5acce9734c3c3f72590ba89c88a23c06",
+      "bytes": 10039
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/scripts/check_consistency.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/scripts/check_consistency.py",
+      "sha256": "5bd1f0dcbcccdac31e422b5a7b220d1ab1272a7eed906a62c0a5f2518e495d87",
+      "bytes": 14209
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/scripts/check_references.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/scripts/check_references.py",
+      "sha256": "a262d6e935e69ec1c1f25a36b8a12b6905b3f3dee0a11d94557d3f69857c5f07",
+      "bytes": 7075
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/scripts/lint_manuscript.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/scripts/lint_manuscript.py",
+      "sha256": "08ff45315c4dadd1c91104e3639b6bec7a6086c000830dc9d0b2b965895b3398",
+      "bytes": 5881
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/scripts/scaffold_manuscript.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/scripts/scaffold_manuscript.py",
+      "sha256": "69e9a82c7d0608646872c0f4ad08b538f0c67175b48601d9d52ea527334ce4ae",
+      "bytes": 4328
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/scripts/select_reporting_guidelines.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/scripts/select_reporting_guidelines.py",
+      "sha256": "d130036ab1df6486cb54431a168207af03a52c626459ba7471041b0ee5aab567",
+      "bytes": 7580
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/scripts/validate_authorship.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/scripts/validate_authorship.py",
+      "sha256": "31572a61ff61fe58f0b3f4c5b0e0e44bd9de5b865772f563dd5413876c186788",
+      "bytes": 11518
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-writing",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing/scripts/validate_manifest.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-writing/scripts/validate_manifest.py",
+      "sha256": "6f87919db5aa5fb5ba929b6566c892a0d6881a9e46d8a9646186c6cac01e13d2",
+      "bytes": 14393
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/SKILL.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/SKILL.md",
+      "sha256": "8cbde7cdc10d959cf72cfd08335cc8ce996247eee6ebdb900eb64a4cb0ff34a3",
+      "bytes": 15478
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/assets/color_palettes.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/assets/color_palettes.py",
+      "sha256": "98ee4aa4b9bbb010996d55144ea6bf45a0ab294009b9bb0ef6d9c5ec9fed5154",
+      "bytes": 6756
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/assets/nature.mplstyle",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/assets/nature.mplstyle",
+      "sha256": "f37a361cdda8846da0794fd879cc8173402094f110239d57e0227fdd8299a4f6",
+      "bytes": 1624
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/assets/presentation.mplstyle",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/assets/presentation.mplstyle",
+      "sha256": "d0e5a768e5965aa3893b12c0f7decd4c3b09502044391a840ebdee37dfea44da",
+      "bytes": 1465
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/assets/publication.mplstyle",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/assets/publication.mplstyle",
+      "sha256": "eba3001f346649a9e41d9ac1d56101abbae10aefecdad3be9530f4c9cd9269b3",
+      "bytes": 1822
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/assets/publisher_profiles.json",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/assets/publisher_profiles.json",
+      "sha256": "1e1b1b5a4e0e3dfc57877f2abf1e96888fe6b65617234b078f193b8f76e0ebe9",
+      "bytes": 10870
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/references/color_palettes.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/references/color_palettes.md",
+      "sha256": "c9b6a596dd1dd1e08050fdcbb304a0268ee515bce2120a9bbd3fba31cd7fa119",
+      "bytes": 9094
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/references/journal_requirements.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/references/journal_requirements.md",
+      "sha256": "f7c4b6660eb70f7c5778d13908409e1dc690f00e3dfc8314f430feb89781740c",
+      "bytes": 11200
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/references/matplotlib_examples.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/references/matplotlib_examples.md",
+      "sha256": "74fd5977ce57b09b476285309559bbcbe3b1748943b719844b28a6b61378c041",
+      "bytes": 12165
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/references/publication_guidelines.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/references/publication_guidelines.md",
+      "sha256": "5f70c6b22dbb5e0fae18b0f1197b8794896bf7afc059874bcf7afbd5aa86bbe5",
+      "bytes": 12853
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/references/sources.md",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/references/sources.md",
+      "sha256": "3ff34759c0fed3baf33286a8005fd81f0c3466a554c8b0d45f43ad30b1e5b505",
+      "bytes": 10697
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/scripts/_common.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/scripts/_common.py",
+      "sha256": "e4eea2c2e5f5d8cfa544c6bed152cdb88a3d7c7952df99bcd74b45077fd6f707",
+      "bytes": 4618
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/scripts/export_plan.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/scripts/export_plan.py",
+      "sha256": "c20962bf4c624b9939c80bd16815fc0a18fe2be285f0654a6a53704c663add0e",
+      "bytes": 19682
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/scripts/figure_export.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/scripts/figure_export.py",
+      "sha256": "fe9c77878da61297ce55224b67282d128631deb628d930aa1929c9eb7330bf79",
+      "bytes": 23652
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/scripts/image_metadata.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/scripts/image_metadata.py",
+      "sha256": "45f79cefd99b8e5dabcbfd1a29b7346363f383411cc43540bf9f73e67fed634e",
+      "bytes": 26596
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/scripts/palette_audit.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/scripts/palette_audit.py",
+      "sha256": "3a90b3c9a4a39dde6a341dc3de7b99cd2bca4773c66564fc90cdc2706a5a8165",
+      "bytes": 11654
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/scripts/style_presets.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/scripts/style_presets.py",
+      "sha256": "8413cfae7f2cbc4a5dd9d4301d74b051fd8eb0c7a4b3375ae59e1da91db3a985",
+      "bytes": 16173
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "kind": "skill",
+      "skill": "scientific-visualization",
+      "source_url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization/scripts/style_preview.py",
+      "local_path": "vendor/K-Dense-AI__scientific-agent-skills/scientific-visualization/scripts/style_preview.py",
+      "sha256": "ca14e714dc2fb32541ff80292db97b3acbac074a65c4f2fb290f38354f880ba7",
+      "bytes": 7762
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "commit": "c85b17e1fb621ba760478baaacc4fcb9be225e74",
+      "kind": "license",
+      "source_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/c85b17e1fb621ba760478baaacc4fcb9be225e74/LICENSE",
+      "local_path": "vendor/alirezarezvani__claude-skills/LICENSE",
+      "sha256": "a20126646f93d32a8989c3cf4772d59194f405034f7babe7daebeac22b8ab151",
+      "bytes": 1072
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "commit": "c85b17e1fb621ba760478baaacc4fcb9be225e74",
+      "kind": "skill",
+      "skill": "senior-computer-vision",
+      "source_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/c85b17e1fb621ba760478baaacc4fcb9be225e74/engineering-team/skills/senior-computer-vision/SKILL.md",
+      "local_path": "vendor/alirezarezvani__claude-skills/senior-computer-vision/SKILL.md",
+      "sha256": "a0a9cecf71b992475b0a1ce78d610cba0b21333d63ea5d60385340761c368a75",
+      "bytes": 12741
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "commit": "c85b17e1fb621ba760478baaacc4fcb9be225e74",
+      "kind": "skill",
+      "skill": "senior-computer-vision",
+      "source_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/c85b17e1fb621ba760478baaacc4fcb9be225e74/engineering-team/skills/senior-computer-vision/references/computer_vision_architectures.md",
+      "local_path": "vendor/alirezarezvani__claude-skills/senior-computer-vision/references/computer_vision_architectures.md",
+      "sha256": "223651d466e7308e5926328a65e8eed031cc12be2d6963138e2c65cd011f47c3",
+      "bytes": 16433
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "commit": "c85b17e1fb621ba760478baaacc4fcb9be225e74",
+      "kind": "skill",
+      "skill": "senior-computer-vision",
+      "source_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/c85b17e1fb621ba760478baaacc4fcb9be225e74/engineering-team/skills/senior-computer-vision/references/object_detection_optimization.md",
+      "local_path": "vendor/alirezarezvani__claude-skills/senior-computer-vision/references/object_detection_optimization.md",
+      "sha256": "9bd5ee76a28a66c208693b70f0dd5822538050c1bbe0cf88614be34ed8fdc41c",
+      "bytes": 22641
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "commit": "c85b17e1fb621ba760478baaacc4fcb9be225e74",
+      "kind": "skill",
+      "skill": "senior-computer-vision",
+      "source_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/c85b17e1fb621ba760478baaacc4fcb9be225e74/engineering-team/skills/senior-computer-vision/references/production_vision_systems.md",
+      "local_path": "vendor/alirezarezvani__claude-skills/senior-computer-vision/references/production_vision_systems.md",
+      "sha256": "14495e71c2a7056e3f572d89017a33bbb9c2cfb96f1b63b4102a8e2868e708fa",
+      "bytes": 34179
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "commit": "c85b17e1fb621ba760478baaacc4fcb9be225e74",
+      "kind": "skill",
+      "skill": "senior-computer-vision",
+      "source_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/c85b17e1fb621ba760478baaacc4fcb9be225e74/engineering-team/skills/senior-computer-vision/references/reference-docs-and-commands.md",
+      "local_path": "vendor/alirezarezvani__claude-skills/senior-computer-vision/references/reference-docs-and-commands.md",
+      "sha256": "312863b599916ea66672d3b041216e553b320be3e07ac256455bcf98de6ee0ef",
+      "bytes": 2602
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "commit": "c85b17e1fb621ba760478baaacc4fcb9be225e74",
+      "kind": "skill",
+      "skill": "senior-computer-vision",
+      "source_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/c85b17e1fb621ba760478baaacc4fcb9be225e74/engineering-team/skills/senior-computer-vision/scripts/dataset_pipeline_builder.py",
+      "local_path": "vendor/alirezarezvani__claude-skills/senior-computer-vision/scripts/dataset_pipeline_builder.py",
+      "sha256": "b225b7f87bbbc03c15f346f0638660d8815879bcc5ac52095bea3485bbbd4316",
+      "bytes": 65666
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "commit": "c85b17e1fb621ba760478baaacc4fcb9be225e74",
+      "kind": "skill",
+      "skill": "senior-computer-vision",
+      "source_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/c85b17e1fb621ba760478baaacc4fcb9be225e74/engineering-team/skills/senior-computer-vision/scripts/inference_optimizer.py",
+      "local_path": "vendor/alirezarezvani__claude-skills/senior-computer-vision/scripts/inference_optimizer.py",
+      "sha256": "3198f238025b07bda6a39b8761d9e277a8ab0c74aa4972169037ffbd5a01b441",
+      "bytes": 21469
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "commit": "c85b17e1fb621ba760478baaacc4fcb9be225e74",
+      "kind": "skill",
+      "skill": "senior-computer-vision",
+      "source_url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/c85b17e1fb621ba760478baaacc4fcb9be225e74/engineering-team/skills/senior-computer-vision/scripts/vision_model_trainer.py",
+      "local_path": "vendor/alirezarezvani__claude-skills/senior-computer-vision/scripts/vision_model_trainer.py",
+      "sha256": "a48d6b7e117610da98a2a0c6e43a05e6636b9f50e4ce4246dfbed2360cce6b8b",
+      "bytes": 21280
+    },
+    {
+      "repo": "Mindrally/skills",
+      "commit": "7682ca77710e0971eab4e0ae5dddfa281aea0ba5",
+      "kind": "license",
+      "source_url": "https://raw.githubusercontent.com/Mindrally/skills/7682ca77710e0971eab4e0ae5dddfa281aea0ba5/LICENSE",
+      "local_path": "vendor/Mindrally__skills/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "repo": "Mindrally/skills",
+      "commit": "7682ca77710e0971eab4e0ae5dddfa281aea0ba5",
+      "kind": "skill",
+      "skill": "computer-vision-opencv",
+      "source_url": "https://raw.githubusercontent.com/Mindrally/skills/7682ca77710e0971eab4e0ae5dddfa281aea0ba5/computer-vision-opencv/SKILL.md",
+      "local_path": "vendor/Mindrally__skills/computer-vision-opencv/SKILL.md",
+      "sha256": "54fda7c665cea91e2dabd3a3319dfac693357976d9772318ece4b2186e8762a0",
+      "bytes": 4142
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "commit": "b38be6a7f6350964d59328b52f0624e1d1d552d1",
+      "kind": "license",
+      "source_url": "https://raw.githubusercontent.com/affaan-m/ECC/b38be6a7f6350964d59328b52f0624e1d1d552d1/LICENSE",
+      "local_path": "vendor/affaan-m__ECC/LICENSE",
+      "sha256": "326146379f01bb137c0a5d3c54770c1aa31076705c8b88a7f6b26a460f6221b2",
+      "bytes": 1071
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "commit": "b38be6a7f6350964d59328b52f0624e1d1d552d1",
+      "kind": "skill",
+      "skill": "pytorch-patterns",
+      "source_url": "https://raw.githubusercontent.com/affaan-m/ECC/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/pytorch-patterns/SKILL.md",
+      "local_path": "vendor/affaan-m__ECC/pytorch-patterns/SKILL.md",
+      "sha256": "168c8740f548414a75f576265ddb03329be98ed57f06c5edaf79c7cd4b6a9cf4",
+      "bytes": 11797
+    },
+    {
+      "repo": "huggingface/skills",
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "kind": "license",
+      "source_url": "https://raw.githubusercontent.com/huggingface/skills/25910b3d0ba31a2ba102f901cdc9e008c278a69c/LICENSE",
+      "local_path": "vendor/huggingface__skills/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "repo": "huggingface/skills",
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "kind": "skill",
+      "skill": "huggingface-vision-trainer",
+      "source_url": "https://raw.githubusercontent.com/huggingface/skills/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-vision-trainer/SKILL.md",
+      "local_path": "vendor/huggingface__skills/huggingface-vision-trainer/SKILL.md",
+      "sha256": "c7aba4de75fa6595ffdaf5c50136786e8346aba0c9ff0261eaee656af4a3b0d9",
+      "bytes": 30195
+    },
+    {
+      "repo": "huggingface/skills",
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "kind": "skill",
+      "skill": "huggingface-vision-trainer",
+      "source_url": "https://raw.githubusercontent.com/huggingface/skills/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-vision-trainer/references/finetune_sam2_trainer.md",
+      "local_path": "vendor/huggingface__skills/huggingface-vision-trainer/references/finetune_sam2_trainer.md",
+      "sha256": "0d8f2efe145ccb00b41f2f433c1881ad6773cc8c0d37eaf16be0f973e13a6737",
+      "bytes": 6432
+    },
+    {
+      "repo": "huggingface/skills",
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "kind": "skill",
+      "skill": "huggingface-vision-trainer",
+      "source_url": "https://raw.githubusercontent.com/huggingface/skills/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-vision-trainer/references/hub_saving.md",
+      "local_path": "vendor/huggingface__skills/huggingface-vision-trainer/references/hub_saving.md",
+      "sha256": "b4fc7120ba3874d5118a28d81b6279daa169fb90846c20032784704a90535c03",
+      "bytes": 16949
+    },
+    {
+      "repo": "huggingface/skills",
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "kind": "skill",
+      "skill": "huggingface-vision-trainer",
+      "source_url": "https://raw.githubusercontent.com/huggingface/skills/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-vision-trainer/references/image_classification_training_notebook.md",
+      "local_path": "vendor/huggingface__skills/huggingface-vision-trainer/references/image_classification_training_notebook.md",
+      "sha256": "df702e1c21f8ee160621ed370002b294f0b492a9db00a32dbd17c0b41ebf34db",
+      "bytes": 11075
+    },
+    {
+      "repo": "huggingface/skills",
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "kind": "skill",
+      "skill": "huggingface-vision-trainer",
+      "source_url": "https://raw.githubusercontent.com/huggingface/skills/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-vision-trainer/references/object_detection_training_notebook.md",
+      "local_path": "vendor/huggingface__skills/huggingface-vision-trainer/references/object_detection_training_notebook.md",
+      "sha256": "ae88afa3af1cabcfd76a81d08c084b80c0ddb1d9f5481054970fea905753942c",
+      "bytes": 29917
+    },
+    {
+      "repo": "huggingface/skills",
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "kind": "skill",
+      "skill": "huggingface-vision-trainer",
+      "source_url": "https://raw.githubusercontent.com/huggingface/skills/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-vision-trainer/references/reliability_principles.md",
+      "local_path": "vendor/huggingface__skills/huggingface-vision-trainer/references/reliability_principles.md",
+      "sha256": "9818dd7fa84003d4b088e11aea9887b8aa910ab4aeada0ac40b6b3a83817ab0d",
+      "bytes": 9487
+    },
+    {
+      "repo": "huggingface/skills",
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "kind": "skill",
+      "skill": "huggingface-vision-trainer",
+      "source_url": "https://raw.githubusercontent.com/huggingface/skills/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-vision-trainer/references/timm_trainer.md",
+      "local_path": "vendor/huggingface__skills/huggingface-vision-trainer/references/timm_trainer.md",
+      "sha256": "e7bdc0985d28c46181f830d7c096939b3ef380192e724148d9d10ffb03d37fbb",
+      "bytes": 3547
+    },
+    {
+      "repo": "huggingface/skills",
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "kind": "skill",
+      "skill": "huggingface-vision-trainer",
+      "source_url": "https://raw.githubusercontent.com/huggingface/skills/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-vision-trainer/scripts/dataset_inspector.py",
+      "local_path": "vendor/huggingface__skills/huggingface-vision-trainer/scripts/dataset_inspector.py",
+      "sha256": "e46216b3818cb5e26febc2beccfedd17f501dec27d33293b0eea011dd9617594",
+      "bytes": 31851
+    },
+    {
+      "repo": "huggingface/skills",
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "kind": "skill",
+      "skill": "huggingface-vision-trainer",
+      "source_url": "https://raw.githubusercontent.com/huggingface/skills/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-vision-trainer/scripts/estimate_cost.py",
+      "local_path": "vendor/huggingface__skills/huggingface-vision-trainer/scripts/estimate_cost.py",
+      "sha256": "ff865018557045576570040589efcf796e56f222c4784c8b2b86ed883cac4fa7",
+      "bytes": 7400
+    },
+    {
+      "repo": "huggingface/skills",
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "kind": "skill",
+      "skill": "huggingface-vision-trainer",
+      "source_url": "https://raw.githubusercontent.com/huggingface/skills/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-vision-trainer/scripts/image_classification_training.py",
+      "local_path": "vendor/huggingface__skills/huggingface-vision-trainer/scripts/image_classification_training.py",
+      "sha256": "08db90dc053724a750c2a8bc282aa8f31d04d4193ce732fd0f49f389f70fe07f",
+      "bytes": 13385
+    },
+    {
+      "repo": "huggingface/skills",
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "kind": "skill",
+      "skill": "huggingface-vision-trainer",
+      "source_url": "https://raw.githubusercontent.com/huggingface/skills/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-vision-trainer/scripts/object_detection_training.py",
+      "local_path": "vendor/huggingface__skills/huggingface-vision-trainer/scripts/object_detection_training.py",
+      "sha256": "e5ad30d2681fa8572c2f7aafdd21129a9fd00c60a37b0fcccbf49c272664dde8",
+      "bytes": 27371
+    },
+    {
+      "repo": "huggingface/skills",
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "kind": "skill",
+      "skill": "huggingface-vision-trainer",
+      "source_url": "https://raw.githubusercontent.com/huggingface/skills/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-vision-trainer/scripts/sam_segmentation_training.py",
+      "local_path": "vendor/huggingface__skills/huggingface-vision-trainer/scripts/sam_segmentation_training.py",
+      "sha256": "a9880d7b233dd2e3c9bbbcccb9d8b8f6615fc5002d23f7e37c5ebdff73a6e1a7",
+      "bytes": 13946
+    },
+    {
+      "repo": "voxel51/fiftyone-skills",
+      "commit": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+      "kind": "license",
+      "source_url": "https://raw.githubusercontent.com/voxel51/fiftyone-skills/f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de/LICENSE",
+      "local_path": "vendor/voxel51__fiftyone-skills/LICENSE",
+      "sha256": "7679aaf8d519d5416acf6971009d0e9be09c31a8c3fb1caa33fe10a43155907f",
+      "bytes": 10762
+    },
+    {
+      "repo": "voxel51/fiftyone-skills",
+      "commit": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+      "kind": "skill",
+      "skill": "fiftyone-dataset-curation",
+      "source_url": "https://raw.githubusercontent.com/voxel51/fiftyone-skills/f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de/skills/fiftyone-dataset-curation/ANNOTATION-AUDIT.md",
+      "local_path": "vendor/voxel51__fiftyone-skills/fiftyone-dataset-curation/ANNOTATION-AUDIT.md",
+      "sha256": "7e9d791d7f82b63a00cf1963f4c62fea739305d73821af010abce77b4182f528",
+      "bytes": 9217
+    },
+    {
+      "repo": "voxel51/fiftyone-skills",
+      "commit": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+      "kind": "skill",
+      "skill": "fiftyone-dataset-curation",
+      "source_url": "https://raw.githubusercontent.com/voxel51/fiftyone-skills/f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de/skills/fiftyone-dataset-curation/QUALITY-CHECKS.md",
+      "local_path": "vendor/voxel51__fiftyone-skills/fiftyone-dataset-curation/QUALITY-CHECKS.md",
+      "sha256": "5440fe8b62a14b61cabec4c2960097cfd717ebcc9036d288845fff6ec0bcc121",
+      "bytes": 12321
+    },
+    {
+      "repo": "voxel51/fiftyone-skills",
+      "commit": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+      "kind": "skill",
+      "skill": "fiftyone-dataset-curation",
+      "source_url": "https://raw.githubusercontent.com/voxel51/fiftyone-skills/f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de/skills/fiftyone-dataset-curation/README.md",
+      "local_path": "vendor/voxel51__fiftyone-skills/fiftyone-dataset-curation/README.md",
+      "sha256": "9ab2cc449ffc36b1b494d43c0891afb95fc2c3552ac3789c06e852aed01574e4",
+      "bytes": 1236
+    },
+    {
+      "repo": "voxel51/fiftyone-skills",
+      "commit": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+      "kind": "skill",
+      "skill": "fiftyone-dataset-curation",
+      "source_url": "https://raw.githubusercontent.com/voxel51/fiftyone-skills/f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de/skills/fiftyone-dataset-curation/SKILL.md",
+      "local_path": "vendor/voxel51__fiftyone-skills/fiftyone-dataset-curation/SKILL.md",
+      "sha256": "55959bf81eb2632b3062950e7c29327a3f97673eb9c1dbbcf85bdb852220305d",
+      "bytes": 23633
+    },
+    {
+      "repo": "voxel51/fiftyone-skills",
+      "commit": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+      "kind": "skill",
+      "skill": "fiftyone-dataset-curation",
+      "source_url": "https://raw.githubusercontent.com/voxel51/fiftyone-skills/f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de/skills/fiftyone-dataset-curation/SUBSET-CREATION.md",
+      "local_path": "vendor/voxel51__fiftyone-skills/fiftyone-dataset-curation/SUBSET-CREATION.md",
+      "sha256": "cc53648d49fcbb0e4def4cdd676c1a2f4277c6225ec658ab51805596ca134044",
+      "bytes": 12345
+    },
+    {
+      "repo": "voxel51/fiftyone-skills",
+      "commit": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+      "kind": "skill",
+      "skill": "fiftyone-find-duplicates",
+      "source_url": "https://raw.githubusercontent.com/voxel51/fiftyone-skills/f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de/skills/fiftyone-find-duplicates/README.md",
+      "local_path": "vendor/voxel51__fiftyone-skills/fiftyone-find-duplicates/README.md",
+      "sha256": "15ce7f67fd9156246a8387334c8a1ef536e4e00e4d64dab1a2e3fa42280454ba",
+      "bytes": 1244
+    },
+    {
+      "repo": "voxel51/fiftyone-skills",
+      "commit": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+      "kind": "skill",
+      "skill": "fiftyone-find-duplicates",
+      "source_url": "https://raw.githubusercontent.com/voxel51/fiftyone-skills/f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de/skills/fiftyone-find-duplicates/SKILL.md",
+      "local_path": "vendor/voxel51__fiftyone-skills/fiftyone-find-duplicates/SKILL.md",
+      "sha256": "998f89b689700d18713204e68442478275d0b516fe7c955623d9c9a13120b9c5",
+      "bytes": 8605
+    },
+    {
+      "repo": "voxel51/fiftyone-skills",
+      "commit": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+      "kind": "skill",
+      "skill": "fiftyone-embeddings-visualization",
+      "source_url": "https://raw.githubusercontent.com/voxel51/fiftyone-skills/f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de/skills/fiftyone-embeddings-visualization/README.md",
+      "local_path": "vendor/voxel51__fiftyone-skills/fiftyone-embeddings-visualization/README.md",
+      "sha256": "c4509ddd27d4fd9ad4aecc5b206113e60694c0cadfba1acb6149f6df823b773c",
+      "bytes": 1300
+    },
+    {
+      "repo": "voxel51/fiftyone-skills",
+      "commit": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+      "kind": "skill",
+      "skill": "fiftyone-embeddings-visualization",
+      "source_url": "https://raw.githubusercontent.com/voxel51/fiftyone-skills/f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de/skills/fiftyone-embeddings-visualization/SKILL.md",
+      "local_path": "vendor/voxel51__fiftyone-skills/fiftyone-embeddings-visualization/SKILL.md",
+      "sha256": "b16372e96fc3868fac25c73615360074af047f4de6ba9281837d4ad18fe63b6b",
+      "bytes": 15668
+    },
+    {
+      "repo": "voxel51/fiftyone-skills",
+      "commit": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+      "kind": "skill",
+      "skill": "fiftyone-model-evaluation",
+      "source_url": "https://raw.githubusercontent.com/voxel51/fiftyone-skills/f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de/skills/fiftyone-model-evaluation/README.md",
+      "local_path": "vendor/voxel51__fiftyone-skills/fiftyone-model-evaluation/README.md",
+      "sha256": "7a8f7c28717fd3e4356dd90c2a668204f29ec3304269373b68480a320269bd77",
+      "bytes": 1190
+    },
+    {
+      "repo": "voxel51/fiftyone-skills",
+      "commit": "f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de",
+      "kind": "skill",
+      "skill": "fiftyone-model-evaluation",
+      "source_url": "https://raw.githubusercontent.com/voxel51/fiftyone-skills/f5c50de16c80eb7ea4b3a02f9c0df9e91a04e3de/skills/fiftyone-model-evaluation/SKILL.md",
+      "local_path": "vendor/voxel51__fiftyone-skills/fiftyone-model-evaluation/SKILL.md",
+      "sha256": "4474d583badb700302e1317ed44a2697ff90956405cb2ded1733597147a174a7",
+      "bytes": 16468
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "license",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/LICENSE",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/LICENSE",
+      "sha256": "53ec4f1fc089929231324592f7cb091c5ed66c242a1083610f27e4d7304d16c9",
+      "bytes": 11344
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/SKILL.md",
+      "sha256": "0fea636661e0627d708aed802fa207d286ce0b18583d75008937d2bcf2ee6e1e",
+      "bytes": 4762
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/references/installation-and-maintenance.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/references/installation-and-maintenance.md",
+      "sha256": "c6bfe5481064ae5663e52bfde46d9d4f536e58024fe7ec694af5c81d45841826",
+      "bytes": 2180
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/references/repo-provenance.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/references/repo-provenance.md",
+      "sha256": "e46d37c2bdd0edda4f078df87e2ec63a054bfda814b89ee58a3dc6d2aea5f2a8",
+      "bytes": 1284
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/references/repo-routing-metadata.json",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/references/repo-routing-metadata.json",
+      "sha256": "6e31262cd1363c146ab407a81e9be96cbb87c92a19d00308162aacafd010ddec",
+      "bytes": 340
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/references/troubleshooting.md",
+      "sha256": "774b67fd769cb8304ef5b71a878df3ae83fcbbe140acdca306d2c8b6d64e205b",
+      "bytes": 2565
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/scripts/albumentations_smoke_check.py",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/scripts/albumentations_smoke_check.py",
+      "sha256": "f44fb39fe899691e036c7bac369fa7861939534e5266094d0d03c45232cde2e0",
+      "bytes": 1444
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/framework-integration/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/framework-integration/SKILL.md",
+      "sha256": "b7970fba3f86771000629e7359dbfb108e28c13d69b18bd90680bacb199300be",
+      "bytes": 3284
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/framework-integration/references/optional-dependencies.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/framework-integration/references/optional-dependencies.md",
+      "sha256": "23a381a3a88366d39c7032b70edb0f5f140aef16b515b54125d539d07ddbd623",
+      "bytes": 3590
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/framework-integration/references/pytorch-integration.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/framework-integration/references/pytorch-integration.md",
+      "sha256": "efd601fbe1932c1f6e439f0b4a0b5b3fd2b4677a2f88c371ddc74454b808e27b",
+      "bytes": 6091
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/framework-integration/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/framework-integration/references/troubleshooting.md",
+      "sha256": "e5e3bab49f4425fd1812092d7e950a302d7247e8af5479c488452d6b883f141f",
+      "bytes": 4677
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/framework-integration/scripts/pytorch_dataset_template.py",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/framework-integration/scripts/pytorch_dataset_template.py",
+      "sha256": "cb8eb2fc8ce6f0fdeba28afeb4fd4ade5d4a781ff30f73f1081c37f204a74404",
+      "bytes": 4868
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/pipeline-composition/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/pipeline-composition/SKILL.md",
+      "sha256": "24b4d567d8d334b640da8e95dd9ab8f12636843b79d1e00449abba58d5317769",
+      "bytes": 2745
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/pipeline-composition/references/composition-api.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/pipeline-composition/references/composition-api.md",
+      "sha256": "13a4cf58fb44902a2663672e4d58c3583677e5e546933831021f49aaca102299",
+      "bytes": 10907
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/pipeline-composition/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/pipeline-composition/references/troubleshooting.md",
+      "sha256": "f96da659b777d63e637f1add24db618fd945214d1ce59167d4e0faa86a2f352d",
+      "bytes": 7933
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/pipeline-composition/scripts/check_pipeline_contract.py",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/pipeline-composition/scripts/check_pipeline_contract.py",
+      "sha256": "945a9bea3f8281821da2e7c499ce347d315c49d4ab3d2d676744e36c8da122fb",
+      "bytes": 5965
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/serialization-and-reproducibility/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/serialization-and-reproducibility/SKILL.md",
+      "sha256": "0780906698bcdda242bd256e52054dc0e3b6d4c1f179483c6b2c6639d7a756ff",
+      "bytes": 2866
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/serialization-and-reproducibility/references/reproducibility.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/serialization-and-reproducibility/references/reproducibility.md",
+      "sha256": "160b25f7ddcd5e869c24fa1135c0c8dcb21dcac6704fc31c9e2148c4001a1239",
+      "bytes": 5006
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/serialization-and-reproducibility/references/serialization-api.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/serialization-and-reproducibility/references/serialization-api.md",
+      "sha256": "38ad6f3b9572b8f147035502940632c05ad89f319c4dc951d2c12ddb6af2b165",
+      "bytes": 6180
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/serialization-and-reproducibility/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/serialization-and-reproducibility/references/troubleshooting.md",
+      "sha256": "59478e5e57ef1c6ea9e74853a8d1d5e6a3e3351ae9226aa42aab79372e3bd044",
+      "bytes": 5751
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/serialization-and-reproducibility/scripts/roundtrip_pipeline.py",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/serialization-and-reproducibility/scripts/roundtrip_pipeline.py",
+      "sha256": "aded499ff77a029fabfbafb829b9020ac9bab399748f632afda3cf06e0f098c0",
+      "bytes": 2569
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/targets-and-formats/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/targets-and-formats/SKILL.md",
+      "sha256": "b830e9b21ce9fd096dedb3cd6107beeb9704ee2157c00baa520e4b4f7b06084e",
+      "bytes": 3143
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/targets-and-formats/references/data-formats.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/targets-and-formats/references/data-formats.md",
+      "sha256": "59e5883a89c378fbf1fd9854f919abacea4335b293ab30b4e1f84bd15d1dc86b",
+      "bytes": 9148
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/targets-and-formats/references/target-recipes.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/targets-and-formats/references/target-recipes.md",
+      "sha256": "83a91e66ea00c8105190a4cc897f2d009f054231b2d96ecf08a388c40763560b",
+      "bytes": 8387
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/targets-and-formats/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/targets-and-formats/references/troubleshooting.md",
+      "sha256": "b9c2a0fe45276c1ba39c218c137c2300578b92f69e82b7aeb00288ad440aed1d",
+      "bytes": 7700
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/targets-and-formats/scripts/validate_targets.py",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/targets-and-formats/scripts/validate_targets.py",
+      "sha256": "7dca8e7fd39ea8c70e26334c19457f0b497795d9fd9c8042293df18378f63f0d",
+      "bytes": 9189
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/transform-catalog/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/transform-catalog/SKILL.md",
+      "sha256": "d1cdcd75f209d2b8540176a8907e8ce780cad246d983e37104782e15817dac51",
+      "bytes": 2803
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/transform-catalog/references/recipes.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/transform-catalog/references/recipes.md",
+      "sha256": "3cec117bc8d221d318dad957f45e98fa2c882055bcc188e679e2ead232f697d1",
+      "bytes": 9014
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/transform-catalog/references/transform-reference.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/transform-catalog/references/transform-reference.md",
+      "sha256": "1e61b6f5f588bdcc892ff3b8f9a0b056a48b18ce1a11f3df373c17724651d79e",
+      "bytes": 14275
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/transform-catalog/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/transform-catalog/references/troubleshooting.md",
+      "sha256": "ed81c5e913aa4b4b20592d0b30befea24ade8e8727fc92457249aa2136634056",
+      "bytes": 7571
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "albumentations",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/albumentations/sub-skills/transform-catalog/scripts/transform_probe.py",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/albumentations/sub-skills/transform-catalog/scripts/transform_probe.py",
+      "sha256": "809b1f2089668cee64d457945256f86afc80ee53736bdb749d6313d7a4012543",
+      "bytes": 7778
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/SKILL.md",
+      "sha256": "0bfe15d87d83e98ca7f33560241ad81a5cb7f968796e4e8c1b2e8e29e4480d68",
+      "bytes": 6139
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/references/repo-provenance.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/references/repo-provenance.md",
+      "sha256": "a4880b04200c52e6a98fe6f041704f46131b2ff703c50b892f26ea197a3c687a",
+      "bytes": 2282
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/references/repo-routing-metadata.json",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/references/repo-routing-metadata.json",
+      "sha256": "6829a742926e5dfb8385a205943d019c7c0bd40aa5a571982ab8bd918551d5ce",
+      "bytes": 452
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/references/troubleshooting.md",
+      "sha256": "bee8147d07f491af6e691210fc60aa06c2f5f2f7403984599f50ff20d9a41cee",
+      "bytes": 4018
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/scripts/check_install.py",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/scripts/check_install.py",
+      "sha256": "896ddc5f95e81b870ae7ad1b630e4022740e75f03526b8b91e21610d8106bb4a",
+      "bytes": 5063
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/classification/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/classification/SKILL.md",
+      "sha256": "2b8bd97748550d8c7cd7787204468c761716acbd05538e2bbf568880aa900d80",
+      "bytes": 2943
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/classification/references/api-reference.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/classification/references/api-reference.md",
+      "sha256": "9be799715954b6468b51516ee051038d00e4d9d942ceae1bd68d9388ec91527f",
+      "bytes": 7109
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/classification/references/data-valuation.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/classification/references/data-valuation.md",
+      "sha256": "35cd18226ef36f2a0c21063e7c9e44dc7abfae469b1a7742dbc63d45e9caabcb",
+      "bytes": 2158
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/classification/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/classification/references/troubleshooting.md",
+      "sha256": "abdc1780582b9f61e2ddb4bb5face6fe6e02e97569eead7af29bb16c661adc8e",
+      "bytes": 3348
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/classification/references/workflows.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/classification/references/workflows.md",
+      "sha256": "be44cb1438c1207b7140ea9e92bbf5880e75e9403c0a4600bf98e113f505dde0",
+      "bytes": 4298
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/classification/scripts/smoke_classification.py",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/classification/scripts/smoke_classification.py",
+      "sha256": "4382ba0c2b1f85cd407b37b4ef0a042733af3b1d9c8bc5020a977d0962a3bb58",
+      "bytes": 8027
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/datalab/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/datalab/SKILL.md",
+      "sha256": "12c0bfa7be2d5f2b5e8922741d46a9a374d68bcb7482aea4aa49d6f53c2e666a",
+      "bytes": 2899
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/datalab/references/api-reference.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/datalab/references/api-reference.md",
+      "sha256": "59c5040282f1eda4c9961d949aa2df3034ae8af148f2dfe3ff996ad86c92bc65",
+      "bytes": 4910
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/datalab/references/custom-issue-manager.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/datalab/references/custom-issue-manager.md",
+      "sha256": "622667c0a089f5ce5a003fd585797d8ea3d507760bbe4ab9da6d5c09625569db",
+      "bytes": 3128
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/datalab/references/issue-types.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/datalab/references/issue-types.md",
+      "sha256": "4ceed5b9828ba2dd7dbf3ef29629e75065baf0809dd4ae10df96fe416a3dea55",
+      "bytes": 4805
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/datalab/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/datalab/references/troubleshooting.md",
+      "sha256": "7ab30807b35da9e2ef05ec85cc65ab2c916112a78e01f0d7cabbd5c986f0034f",
+      "bytes": 4847
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/datalab/references/workflows.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/datalab/references/workflows.md",
+      "sha256": "87d74d5ccd137db524ab2572d9db80e412b90146d6c54a0673b3fb118f13378a",
+      "bytes": 3891
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/datalab/scripts/smoke_datalab.py",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/datalab/scripts/smoke_datalab.py",
+      "sha256": "9f212cbf0e24511150aee2e334112395063b1e2771902e9459d2aac4020db538",
+      "bytes": 11154
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/experimental/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/experimental/SKILL.md",
+      "sha256": "d20fe2ca5e6b1599ae5c4041c0c3a88da41780c0e26196d660ab08318b4667c1",
+      "bytes": 3385
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/experimental/references/dependency-matrix.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/experimental/references/dependency-matrix.md",
+      "sha256": "31487ea0bfd0aebd5938a1d17b97d6689cc8bdac40a92e07c1e7cb93066abf4d",
+      "bytes": 4270
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/experimental/references/overview.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/experimental/references/overview.md",
+      "sha256": "3ded564796e76c8a53f8a676169c7e82fcd3fb877f33f8b6f735b5458f749472",
+      "bytes": 6987
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/experimental/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/experimental/references/troubleshooting.md",
+      "sha256": "b47100b433fc0a55313ae994cf5227e4c50b82773174e3ae1b338486eeca2fca",
+      "bytes": 7018
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/experimental/scripts/smoke_experimental.py",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/experimental/scripts/smoke_experimental.py",
+      "sha256": "4622620ea3932edf87226948b2826990f584abfe48ce0233acfd0d8620de815c",
+      "bytes": 9358
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/multiannotator/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/multiannotator/SKILL.md",
+      "sha256": "d41d13d24574d5f4736e3aca4e1f108ba1569e3f205bcd2043567f25e2d88fa5",
+      "bytes": 3127
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/multiannotator/references/api-reference.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/multiannotator/references/api-reference.md",
+      "sha256": "64b7a73db1155437434a6513e1f6595f69cd1942ef02fd1969adb70c894ad6c8",
+      "bytes": 6999
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/multiannotator/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/multiannotator/references/troubleshooting.md",
+      "sha256": "bd5d4f001fbd7b92314057989281cbf0850bbf38af79651f569e885cf2a76779",
+      "bytes": 4464
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/multiannotator/references/workflows.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/multiannotator/references/workflows.md",
+      "sha256": "4665a7176dc7e912ab66e29ba406fad167fda60bfd3327544fcd9c84f6fa6459",
+      "bytes": 3929
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/multiannotator/scripts/smoke_multiannotator.py",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/multiannotator/scripts/smoke_multiannotator.py",
+      "sha256": "825e97797a939a09a3a1dcfca9cb0c4241753d26ef3f009aa71b6a3c7c5d68c6",
+      "bytes": 7145
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/outlier/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/outlier/SKILL.md",
+      "sha256": "8a3cffd7e954b2556eff043f260d0556607a0851398a08c4fda571da24a936eb",
+      "bytes": 2040
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/outlier/references/api-reference.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/outlier/references/api-reference.md",
+      "sha256": "9f1bf10b4ffe89fb3e92bd827201684e5b7fa08032cd0b43c398c749de4cc2e6",
+      "bytes": 2453
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/outlier/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/outlier/references/troubleshooting.md",
+      "sha256": "610b384912a481a8f772aaa4f3e16451164e3e11d925b66f90cc6fd57c491ed9",
+      "bytes": 2556
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/outlier/references/workflows.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/outlier/references/workflows.md",
+      "sha256": "237e9975cee86da7c6e7fd8981b00ac17a57f7950eadbf2f503c4fecb57ac868",
+      "bytes": 2221
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/outlier/scripts/smoke_outlier.py",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/outlier/scripts/smoke_outlier.py",
+      "sha256": "b1e6ac0a6da2bc37ad556bd13de8b17ea9398f32d374abd651aa1eaebd79ed23",
+      "bytes": 3682
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/structured-label-issues/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/structured-label-issues/SKILL.md",
+      "sha256": "8f357ae5eb07ba3f753db8e7fb010b2928c76725f8c91867b1ed1dbc1142c46b",
+      "bytes": 4342
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/structured-label-issues/references/api-reference.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/structured-label-issues/references/api-reference.md",
+      "sha256": "12b8cf4e3289e94405951094af5e35eb2318e2e8b9353ccfac2e2973d736797f",
+      "bytes": 7852
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/structured-label-issues/references/data-formats.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/structured-label-issues/references/data-formats.md",
+      "sha256": "d8171532f59d4a228c73408c1a7fd4176325799d661c7ee4a95d6e1c41f39b62",
+      "bytes": 5240
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/structured-label-issues/references/object-detection.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/structured-label-issues/references/object-detection.md",
+      "sha256": "a8f6c40df4f8bab428c7cfa3505df7345c815f496a43e531cdcac549e652cb83",
+      "bytes": 6446
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/structured-label-issues/references/segmentation.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/structured-label-issues/references/segmentation.md",
+      "sha256": "4a8a9166e4eb2f736ad66b6167eea797b0bc43dafa2479d7f96fec40104c04fb",
+      "bytes": 5406
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/structured-label-issues/references/token-classification.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/structured-label-issues/references/token-classification.md",
+      "sha256": "4b7614b3cbaab4069ff64c16aa0c8c46063bcdb00bd4742c7a1db73b730d7354",
+      "bytes": 4991
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/structured-label-issues/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/structured-label-issues/references/troubleshooting.md",
+      "sha256": "7ff1582266e182aa29c0040f04a40e4b9d975b6b8b887626e2778ba1d7a40209",
+      "bytes": 6844
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/structured-label-issues/scripts/smoke_structured_label_issues.py",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/structured-label-issues/scripts/smoke_structured_label_issues.py",
+      "sha256": "fe793c5282e4bb4c94d1a5467eeb9c123411c26774b5851448000dbc1d9e8c24",
+      "bytes": 11270
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/tabular-label-issues/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/tabular-label-issues/SKILL.md",
+      "sha256": "828a4b0e49255b6b3e4865dc2db44dba99f5b3a52819b447079107537433a970",
+      "bytes": 3758
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/tabular-label-issues/references/api-reference.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/tabular-label-issues/references/api-reference.md",
+      "sha256": "4fd5afe3ff600d6b94fd9bb363362d4825d516aea926b028594598f65f2923ed",
+      "bytes": 4759
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/tabular-label-issues/references/data-formats.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/tabular-label-issues/references/data-formats.md",
+      "sha256": "3a79cd495725436de4ec9d9d56386c874c0f857bd86d67c4e2b3bb40e2ca4fcf",
+      "bytes": 2466
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/tabular-label-issues/references/multilabel.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/tabular-label-issues/references/multilabel.md",
+      "sha256": "e8c81b941a1eee5a84ba2cf50d6c40a6997c75a3b88273964806940d26fcae13",
+      "bytes": 3157
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/tabular-label-issues/references/regression.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/tabular-label-issues/references/regression.md",
+      "sha256": "4d2c7865a3ccff90b1cfa6f47ae8a8381f1f80e7f9fce575ff3450749d4251f5",
+      "bytes": 2247
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/tabular-label-issues/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/tabular-label-issues/references/troubleshooting.md",
+      "sha256": "e423716d6c8845db8cbbfa1e855ba4347dffe60578ebfb182adaa712dc96259f",
+      "bytes": 3108
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "cleanlab",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/cleanlab/sub-skills/tabular-label-issues/scripts/smoke_tabular_label_issues.py",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/cleanlab/sub-skills/tabular-label-issues/scripts/smoke_tabular_label_issues.py",
+      "sha256": "6e0563d2e727c34704ba81ddee1a4494f91e52fdbf75ec79c1182603fa585ed7",
+      "bytes": 8197
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/SKILL.md",
+      "sha256": "8108581a5071164d69b6a6976de3048e05ddf77e051b6b01d98463d4a852356b",
+      "bytes": 5743
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/references/experimental-api.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/references/experimental-api.md",
+      "sha256": "b3507038462d6ba465f29612a4ab7e184ca3137aa99b9e8cf5e9f91bb5471204",
+      "bytes": 3681
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/references/repo-provenance.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/references/repo-provenance.md",
+      "sha256": "e968dc163ba00914408243316c62742bda302dc4e8b7728f23da42cc5db8c7ee",
+      "bytes": 3410
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/references/repo-routing-metadata.json",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/references/repo-routing-metadata.json",
+      "sha256": "744b2c4d754073fcdcc15bb672f52da9d8e04554d9af1c8c9e33e07d1d3a3aa6",
+      "bytes": 494
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/references/troubleshooting.md",
+      "sha256": "d225f6be8a2f24a4b2e7b1aa804f8eda87d57fdf026aa58643ecefa0006fc84c",
+      "bytes": 6965
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/sub-skills/analysis/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/sub-skills/analysis/SKILL.md",
+      "sha256": "6c9dcea9b985c5b2738005f534a163e50ff1120de945c5086ebc304d811e29e7",
+      "bytes": 5251
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/sub-skills/analysis/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/sub-skills/analysis/references/troubleshooting.md",
+      "sha256": "a2618a110ce34da557f32ba5ed0460b0bcdeef699693a5c405939f9e8e66806b",
+      "bytes": 10926
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/sub-skills/analysis/references/workflows.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/sub-skills/analysis/references/workflows.md",
+      "sha256": "76c54e7045b738e2e0c67fd1512e9b056f8c8e7c25c2c18e2b53a78ff55e6da3",
+      "bytes": 11858
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/sub-skills/data-io/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/sub-skills/data-io/SKILL.md",
+      "sha256": "a3c4ed4b6c92de6307e21f2c9b40eb68b2af9159b8f4177fb41c46b37eac873f",
+      "bytes": 3131
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/sub-skills/data-io/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/sub-skills/data-io/references/troubleshooting.md",
+      "sha256": "d6305fb8620a7c69eeab4183dd5df7558908eee1c8fd8bf41d8a23a5d9a2cb81",
+      "bytes": 5647
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/sub-skills/data-io/references/workflows.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/sub-skills/data-io/references/workflows.md",
+      "sha256": "0797e084209ae6452266679fb7ccbe001f09c11ff981572a8f2e374c23abfb5e",
+      "bytes": 6082
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/sub-skills/data-io/scripts/check_install.py",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/sub-skills/data-io/scripts/check_install.py",
+      "sha256": "f6d177e030dc4f1cbe7905d1eda0ee0ce3843b4804ecd93da4230e614133b344",
+      "bytes": 3256
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/sub-skills/enhancement/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/sub-skills/enhancement/SKILL.md",
+      "sha256": "4a8bf20ee0d658793e654f8aa0088ffdc22db505931a7295b93d411b6dbfa7e5",
+      "bytes": 2405
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/sub-skills/enhancement/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/sub-skills/enhancement/references/troubleshooting.md",
+      "sha256": "df44e814780d0d57626b5b40cf2212ea9e61b51579d4ccb266b86cd8993cb734",
+      "bytes": 3961
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/sub-skills/enhancement/references/workflows.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/sub-skills/enhancement/references/workflows.md",
+      "sha256": "103b3b434daad29a15b646ae4cbf3c15650ddab8e4308a96ec57203de6ffc74e",
+      "bytes": 5504
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/sub-skills/segmentation-and-shapes/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/sub-skills/segmentation-and-shapes/SKILL.md",
+      "sha256": "1fdd35e0c6a5d379c58170497e99a5bd685a5a3023f281a79f6b43516a1cc2fb",
+      "bytes": 3420
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/sub-skills/segmentation-and-shapes/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/sub-skills/segmentation-and-shapes/references/troubleshooting.md",
+      "sha256": "df6fd399b66418a399c8f77fb3eeb7cdbb3bb37abe20bbc0806cc9042d5f1d69",
+      "bytes": 7964
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/sub-skills/segmentation-and-shapes/references/workflows.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/sub-skills/segmentation-and-shapes/references/workflows.md",
+      "sha256": "3daa48b0f06191c14868cdc8df2f25fc628b0c8d7f05e60aeb87d7b8ebba8466",
+      "bytes": 10762
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/sub-skills/transform-registration/SKILL.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/sub-skills/transform-registration/SKILL.md",
+      "sha256": "870faae73c40fdc621e03e338973f7debb8b9077936ac94522a57b114d996ca2",
+      "bytes": 3422
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/sub-skills/transform-registration/references/troubleshooting.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/sub-skills/transform-registration/references/troubleshooting.md",
+      "sha256": "65f62d97b3b80f571c951a92de7afa9fd9d80ba4bfad3e8a380e22b3f3484045",
+      "bytes": 5335
+    },
+    {
+      "repo": "VectorSpaceLab/AREX-Skill",
+      "commit": "ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6",
+      "kind": "skill",
+      "skill": "scikit-image",
+      "source_url": "https://raw.githubusercontent.com/VectorSpaceLab/AREX-Skill/ac3fe1afa80fb9a09775ecfb2b6cc3ba850a2db6/skills/repositories/repo-skills/scikit-image/sub-skills/transform-registration/references/workflows.md",
+      "local_path": "vendor/VectorSpaceLab__AREX-Skill/scikit-image/sub-skills/transform-registration/references/workflows.md",
+      "sha256": "8836c3e217955dc189523409c6db35dfbf17f4cdb321265295aadcb6586c6521",
+      "bytes": 8895
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+archive_label,cardboard,electronic,foodwaste,glass,metal,paper,plastic,textile
+cardboard,48,0,0,0,0,6,6,0
+electronic,1,52,0,0,6,0,1,0
+foodwaste,0,0,46,0,0,0,14,0
+glass,1,7,0,41,3,1,7,0
+metal,0,0,0,1,51,5,3,0
+paper,0,2,0,0,0,30,28,1
+plastic,0,0,0,45,2,5,7,1
+textile,0,0,0,0,0,1,24,34

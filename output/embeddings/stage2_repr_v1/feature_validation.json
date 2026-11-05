@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "total_images": 2400,
+  "unique_train": 1919,
+  "probe_images": 256,
+  "input_artifacts_unchanged": true,
+  "feature_files": {
+    "dinov2_features.npz": "135fe5c871adbcb77a3bcd962a9362e05bd51ea6ba0ba0683a47b0908dab15fd",
+    "dinov2_hflip224_probe.npz": "f859f7b46d0802fd6604cb555f722025e7b5cc3008c797b78254a53a6dbae34d",
+    "dinov2_original336_probe.npz": "45535b17b724a08005a8e71ffe7d91a510f56acdfa7d6ed6f2de4d9284b4245b",
+    "resnet50_hflip224_probe.npz": "623b2e26baa200d556a7462abe7fc2bf3fd79d9f8026fe24dfa59a604afceb9a",
+    "resnet50_original336_probe.npz": "5cd2dbdf07d3d8d1de30c532312a63d3bb298d4b7caf2c964ed587f99c21a50b"
+  },
+  "script_sha256": "bc3d0a5cb500b1e5e232e3d2d05057df93994e8448014a677f8860cfc61f9123",
+  "libraries": {
+    "torch": "2.11.0+cpu",
+    "timm": "1.0.27",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "Pillow": "12.2.0",
+    "huggingface_hub": "1.21.0"
+  }
+}

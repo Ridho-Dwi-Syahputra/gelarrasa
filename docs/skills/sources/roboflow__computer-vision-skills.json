@@ -1,0 +1,950 @@
+{
+  "repo": "roboflow/computer-vision-skills",
+  "stars": 50,
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+  },
+  "commit": "206991d006f4c5778ab3460298e71f3bb6b74715",
+  "tree": {
+    "sha": "206991d006f4c5778ab3460298e71f3bb6b74715",
+    "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/206991d006f4c5778ab3460298e71f3bb6b74715",
+    "tree": [
+      {
+        "path": ".agents",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "61003a13f12d2a1561606cf43509507390831b45",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/61003a13f12d2a1561606cf43509507390831b45"
+      },
+      {
+        "path": ".agents/plugins",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bed343cc465e5d18044a910a1cba2a192d122ffe",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/bed343cc465e5d18044a910a1cba2a192d122ffe"
+      },
+      {
+        "path": ".agents/plugins/marketplace.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6f96ef01460ec4696421cb95972f4ca940e6b3db",
+        "size": 340,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/6f96ef01460ec4696421cb95972f4ca940e6b3db"
+      },
+      {
+        "path": ".claude-plugin",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e8c7057b107ee715e47f70e6fef383e43ab74e47",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/e8c7057b107ee715e47f70e6fef383e43ab74e47"
+      },
+      {
+        "path": ".claude-plugin/marketplace.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0b5d2c925123703d2eee64156ea70d4b5d89e361",
+        "size": 484,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/0b5d2c925123703d2eee64156ea70d4b5d89e361"
+      },
+      {
+        "path": ".claude-plugin/plugin.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e21f1d0f5824727d547f2f42b0ce082ea12233a5",
+        "size": 612,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/e21f1d0f5824727d547f2f42b0ce082ea12233a5"
+      },
+      {
+        "path": ".codex-plugin",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b29b5d9398e119f916de2bd5d5ce109781f62df4",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/b29b5d9398e119f916de2bd5d5ce109781f62df4"
+      },
+      {
+        "path": ".codex-plugin/plugin.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e15182686cdbc5e5869482094f49ad207ae6bca9",
+        "size": 1478,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/e15182686cdbc5e5869482094f49ad207ae6bca9"
+      },
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "06a20499cbccdc60e8f4527b73b030e8ef4d90e1",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/06a20499cbccdc60e8f4527b73b030e8ef4d90e1"
+      },
+      {
+        "path": ".github/workflows",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "874d5ddb88e8e4a021eb10e58d49f249a8e35ed6",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/874d5ddb88e8e4a021eb10e58d49f249a8e35ed6"
+      },
+      {
+        "path": ".github/workflows/plugin-release.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c96a3e1cc7b0ebdedd427c9c0ca614dae734f6af",
+        "size": 5205,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/c96a3e1cc7b0ebdedd427c9c0ca614dae734f6af"
+      },
+      {
+        "path": ".github/workflows/publish-agent-install.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4d123a17c1527bdefae466198bca06f8fd77ad97",
+        "size": 4239,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/4d123a17c1527bdefae466198bca06f8fd77ad97"
+      },
+      {
+        "path": ".github/workflows/test-chatgpt.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c77a5d7ff1c5d62b140062ac74237520f46e6f05",
+        "size": 1852,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/c77a5d7ff1c5d62b140062ac74237520f46e6f05"
+      },
+      {
+        "path": ".github/workflows/test-cowork.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "568556230b003a88a77d3d74c54e0b417182c1d0",
+        "size": 726,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/568556230b003a88a77d3d74c54e0b417182c1d0"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e198e5ebd85c28489163ef2912424748bfdbdc3",
+        "size": 197,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/3e198e5ebd85c28489163ef2912424748bfdbdc3"
+      },
+      {
+        "path": ".mcp.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "253613d922fa4a55abd312ed70bcbec1b204823d",
+        "size": 486,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/253613d922fa4a55abd312ed70bcbec1b204823d"
+      },
+      {
+        "path": "AGENTS.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6f2c8359606aa1e723987a8d48c9f0217d47af5",
+        "size": 60,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/c6f2c8359606aa1e723987a8d48c9f0217d47af5"
+      },
+      {
+        "path": "AUTHORING.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1749e2a773ed0761c6d77d2bc80fb25d95e3a90",
+        "size": 2561,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/f1749e2a773ed0761c6d77d2bc80fb25d95e3a90"
+      },
+      {
+        "path": "CLAUDE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6f2c8359606aa1e723987a8d48c9f0217d47af5",
+        "size": 60,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/c6f2c8359606aa1e723987a8d48c9f0217d47af5"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+        "size": 11357,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2effdce63211fa0735a06d45a59f1ea5ac880299",
+        "size": 10001,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/2effdce63211fa0735a06d45a59f1ea5ac880299"
+      },
+      {
+        "path": "agent-install",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4b420d89fb13f45fbf6f8c4f9fb4fb5fb0cac133",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/4b420d89fb13f45fbf6f8c4f9fb4fb5fb0cac133"
+      },
+      {
+        "path": "agent-install/agent.ps1",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d5d6f221cd659a89b535197935c69079bc0069f",
+        "size": 446,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/2d5d6f221cd659a89b535197935c69079bc0069f"
+      },
+      {
+        "path": "agent-install/agent.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "299da8f303d6403be007fa1bc617db0cb45a678e",
+        "size": 440,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/299da8f303d6403be007fa1bc617db0cb45a678e"
+      },
+      {
+        "path": "chatgpt",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dd1e33f5d91d07e1a35d8d3e8ec512b6cf994e44",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/dd1e33f5d91d07e1a35d8d3e8ec512b6cf994e44"
+      },
+      {
+        "path": "chatgpt/CHANGELOG.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "646a1175cb79b55bbaf154d4b8cb1c94ff931e1c",
+        "size": 2178,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/646a1175cb79b55bbaf154d4b8cb1c94ff931e1c"
+      },
+      {
+        "path": "chatgpt/RELEASE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eeae2a59e1f716e4bb40cddab1aa7e1e1ad4bb6e",
+        "size": 6664,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/eeae2a59e1f716e4bb40cddab1aa7e1e1ad4bb6e"
+      },
+      {
+        "path": "chatgpt/build.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ade65a4ee21f5873f840c31a1a6d6bc870f5788",
+        "size": 3634,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/0ade65a4ee21f5873f840c31a1a6d6bc870f5788"
+      },
+      {
+        "path": "chatgpt/exclude.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2361f151ccb1104febb5f38b3ea7f73e94d2529f",
+        "size": 179,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/2361f151ccb1104febb5f38b3ea7f73e94d2529f"
+      },
+      {
+        "path": "chatgpt/plugin",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "92eebde658cbc4fbddc4c787448bf004084afeda",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/92eebde658cbc4fbddc4c787448bf004084afeda"
+      },
+      {
+        "path": "chatgpt/plugin/assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0404dca29d1f156dc0c5f76435dfdbd989d74dd7",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/0404dca29d1f156dc0c5f76435dfdbd989d74dd7"
+      },
+      {
+        "path": "chatgpt/plugin/assets/roboflow-icon.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7637bab197e3cb877ba16607219e4d8b0c3aea5a",
+        "size": 53010,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/7637bab197e3cb877ba16607219e4d8b0c3aea5a"
+      },
+      {
+        "path": "chatgpt/plugin/mcp.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e9e0ae510869e41de4636fc506460e4cd3ad3b4",
+        "size": 199,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/5e9e0ae510869e41de4636fc506460e4cd3ad3b4"
+      },
+      {
+        "path": "chatgpt/plugin/plugin.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef82c2bd0c3a463ce13a4d8fbe8f15c53150fc56",
+        "size": 6737,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/ef82c2bd0c3a463ce13a4d8fbe8f15c53150fc56"
+      },
+      {
+        "path": "chatgpt/skills",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "33a8726b5f8fa844a68089d5607265ffa3bcaa32",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/33a8726b5f8fa844a68089d5607265ffa3bcaa32"
+      },
+      {
+        "path": "chatgpt/skills/roboflow-api-reference",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4b6d469fbb568e3d82cd72da61a676dc29b3bb4f",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/4b6d469fbb568e3d82cd72da61a676dc29b3bb4f"
+      },
+      {
+        "path": "chatgpt/skills/roboflow-api-reference/inference.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "592644f6bcbe65d9ff8d6fe01d3b75d96e3491ff",
+        "size": 6201,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/592644f6bcbe65d9ff8d6fe01d3b75d96e3491ff"
+      },
+      {
+        "path": "chatgpt/skills/roboflow-batch-processing",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c8305bdcb3db11dd2a6f31f34fdf5469a0192fd5",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/c8305bdcb3db11dd2a6f31f34fdf5469a0192fd5"
+      },
+      {
+        "path": "chatgpt/skills/roboflow-batch-processing/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e09a03440538f396963026ae36974bfbad2d8244",
+        "size": 16406,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/e09a03440538f396963026ae36974bfbad2d8244"
+      },
+      {
+        "path": "chatgpt/skills/roboflow-data-management",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "216acde060ac68a326141f0a2afe4c10d7d33dca",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/216acde060ac68a326141f0a2afe4c10d7d33dca"
+      },
+      {
+        "path": "chatgpt/skills/roboflow-data-management/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52e44535b3bf987773ddbed3a6c097ab3c2e1d52",
+        "size": 16736,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/52e44535b3bf987773ddbed3a6c097ab3c2e1d52"
+      },
+      {
+        "path": "chatgpt/skills/roboflow-inference",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0776feab05b8e50b31ee75d4f02889d80717f7a7",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/0776feab05b8e50b31ee75d4f02889d80717f7a7"
+      },
+      {
+        "path": "chatgpt/skills/roboflow-inference/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f13768fe579d813dd604e3b5d19a0751d223c035",
+        "size": 13407,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/f13768fe579d813dd604e3b5d19a0751d223c035"
+      },
+      {
+        "path": "chatgpt/skills/roboflow-inference/batch-staging.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9a4686175e4c892eba46727a0f162f044d4676a7",
+        "size": 6110,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/9a4686175e4c892eba46727a0f162f044d4676a7"
+      },
+      {
+        "path": "chatgpt/skills/roboflow-inference/local-tooling.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f8a565906be2f660fe85f6c4fa5179834e56ba4",
+        "size": 5886,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/0f8a565906be2f660fe85f6c4fa5179834e56ba4"
+      },
+      {
+        "path": "chatgpt/skills/roboflow-inference/workflow-templates.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "076d28bba8b53f76a902984d96ffbeb469571fb2",
+        "size": 9644,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/076d28bba8b53f76a902984d96ffbeb469571fb2"
+      },
+      {
+        "path": "chatgpt/skills/roboflow-inference/workflows.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b23ee69dba7d70766fa0ebaa9fbeec13be00c90a",
+        "size": 25198,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/b23ee69dba7d70766fa0ebaa9fbeec13be00c90a"
+      },
+      {
+        "path": "chatgpt/skills/roboflow-product-navigation",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d8a848f28937c0f9199479e72cf20d841ea4263d",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/d8a848f28937c0f9199479e72cf20d841ea4263d"
+      },
+      {
+        "path": "chatgpt/skills/roboflow-product-navigation/features-by-page.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1068b48b79361401b787810b22c5cdac694463a9",
+        "size": 7851,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/1068b48b79361401b787810b22c5cdac694463a9"
+      },
+      {
+        "path": "chatgpt/skills/roboflow-training-and-evaluation",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "933ec55e0e5273cb2ec4124aa97649cb9c24fa2c",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/933ec55e0e5273cb2ec4124aa97649cb9c24fa2c"
+      },
+      {
+        "path": "chatgpt/skills/roboflow-training-and-evaluation/active-learning.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9fde591b260a1f5c048cc6415c56502b29017340",
+        "size": 5122,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/9fde591b260a1f5c048cc6415c56502b29017340"
+      },
+      {
+        "path": "chatgpt/test_build.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84b3e4a4971e07a76214bc788d19f8530360641a",
+        "size": 9298,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/84b3e4a4971e07a76214bc788d19f8530360641a"
+      },
+      {
+        "path": "chatgpt/tools.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b53e850d5c561d5f5c8c4d53f1eb97d6786186c1",
+        "size": 767,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/b53e850d5c561d5f5c8c4d53f1eb97d6786186c1"
+      },
+      {
+        "path": "chatgpt/validate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "756e6214f5436a9f48daf10376b6efa1280eaed8",
+        "size": 12170,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/756e6214f5436a9f48daf10376b6efa1280eaed8"
+      },
+      {
+        "path": "cowork",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "10eeeeb3398f4d5af27fd27008d1b7077a0468e5",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/10eeeeb3398f4d5af27fd27008d1b7077a0468e5"
+      },
+      {
+        "path": "cowork/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "670b57123fd2eb9515d56379a88c00b66036defc",
+        "size": 3180,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/670b57123fd2eb9515d56379a88c00b66036defc"
+      },
+      {
+        "path": "cowork/appPackage",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "60fdece48c7bac0903ab247894bf77605b77c94b",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/60fdece48c7bac0903ab247894bf77605b77c94b"
+      },
+      {
+        "path": "cowork/appPackage/color.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4ec0ae1bfb05eff35ef04eff7fa3f0269164fc46",
+        "size": 11087,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/4ec0ae1bfb05eff35ef04eff7fa3f0269164fc46"
+      },
+      {
+        "path": "cowork/appPackage/manifest.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "431a3eba24ba5814c6fd42d027aecf0cc5dc6fa2",
+        "size": 1871,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/431a3eba24ba5814c6fd42d027aecf0cc5dc6fa2"
+      },
+      {
+        "path": "cowork/appPackage/outline.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab6e4ba71dba401b6a2a7119fb2e005de389874e",
+        "size": 1049,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/ab6e4ba71dba401b6a2a7119fb2e005de389874e"
+      },
+      {
+        "path": "cowork/build.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f822ef74d698c8938b729081dc35de359cccf4f7",
+        "size": 2911,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/f822ef74d698c8938b729081dc35de359cccf4f7"
+      },
+      {
+        "path": "cowork/build.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "6b35eecb835fb3be94f920bc70e962fa9f098b19",
+        "size": 140,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/6b35eecb835fb3be94f920bc70e962fa9f098b19"
+      },
+      {
+        "path": "cowork/catalog.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "124985f0bafdc03cecb414285bf48b17aca8f107",
+        "size": 274,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/124985f0bafdc03cecb414285bf48b17aca8f107"
+      },
+      {
+        "path": "cowork/test_build.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "02639a960d5987faece520b09cbdcb43cfaf50ac",
+        "size": 5279,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/02639a960d5987faece520b09cbdcb43cfaf50ac"
+      },
+      {
+        "path": "cowork/validate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6705e0c65a418b1e3c6be88bbc9770c279542b09",
+        "size": 4880,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/6705e0c65a418b1e3c6be88bbc9770c279542b09"
+      },
+      {
+        "path": "release",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c2e844b28d06d40565a0f6665492a64f5b8186c8",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/c2e844b28d06d40565a0f6665492a64f5b8186c8"
+      },
+      {
+        "path": "release/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a1ca5742ea725630049248ecd2c5dea128a9fd2c",
+        "size": 4096,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/a1ca5742ea725630049248ecd2c5dea128a9fd2c"
+      },
+      {
+        "path": "release/manage.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "47879426f991a12d089096d80d2cd874c7fb9b51",
+        "size": 5773,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/47879426f991a12d089096d80d2cd874c7fb9b51"
+      },
+      {
+        "path": "release/test_manage.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a467832b90ed424733f9f1c6d4d96e9ca662a22c",
+        "size": 10843,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/a467832b90ed424733f9f1c6d4d96e9ca662a22c"
+      },
+      {
+        "path": "skills",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "49860c4b68cc9465bc56534b2714ad36acd21e6b",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/49860c4b68cc9465bc56534b2714ad36acd21e6b"
+      },
+      {
+        "path": "skills/draw-vision",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "21b05b2b9baca773c462e642b2a4b78c6cbff03f",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/21b05b2b9baca773c462e642b2a4b78c6cbff03f"
+      },
+      {
+        "path": "skills/draw-vision/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "16fa37763d6c043f888377c2de1c60ec4e9e181b",
+        "size": 1068,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/16fa37763d6c043f888377c2de1c60ec4e9e181b"
+      },
+      {
+        "path": "skills/roboflow-api-reference",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a8232ff757924ac3cd71d1645edee9ea30535fc5",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/a8232ff757924ac3cd71d1645edee9ea30535fc5"
+      },
+      {
+        "path": "skills/roboflow-api-reference/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "250aea8be58b9775b0fd843aa3aa2ef1055f064b",
+        "size": 4437,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/250aea8be58b9775b0fd843aa3aa2ef1055f064b"
+      },
+      {
+        "path": "skills/roboflow-api-reference/api-key-management.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "40502c3d057caeb184b774f816a98e3a134fcee1",
+        "size": 15828,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/40502c3d057caeb184b774f816a98e3a134fcee1"
+      },
+      {
+        "path": "skills/roboflow-api-reference/inference.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "21e063c446df8a0aacfe919a6a911a15f5497dec",
+        "size": 5832,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/21e063c446df8a0aacfe919a6a911a15f5497dec"
+      },
+      {
+        "path": "skills/roboflow-api-reference/rest-api.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b1d8aacec80f6499c45b62f9ee5b70600a4691a",
+        "size": 6257,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/8b1d8aacec80f6499c45b62f9ee5b70600a4691a"
+      },
+      {
+        "path": "skills/roboflow-batch-processing",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f75a774bd47bc6d5021968ddd01e9a203a8e53df",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/f75a774bd47bc6d5021968ddd01e9a203a8e53df"
+      },
+      {
+        "path": "skills/roboflow-batch-processing/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "805711ad4a15ec79ee3cc464c43726bd82b10c04",
+        "size": 16137,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/805711ad4a15ec79ee3cc464c43726bd82b10c04"
+      },
+      {
+        "path": "skills/roboflow-cloud-storage",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e4c5124d306bd401be6f9bbdb53415cb74a1fde2",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/e4c5124d306bd401be6f9bbdb53415cb74a1fde2"
+      },
+      {
+        "path": "skills/roboflow-cloud-storage/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e5a3d9f2603a1a40db19e1b7c3e97f510fc17642",
+        "size": 7416,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/e5a3d9f2603a1a40db19e1b7c3e97f510fc17642"
+      },
+      {
+        "path": "skills/roboflow-custom-weights-upload",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "275e1ca2c656eaf7a2bb39b8edad92c9d4db6e55",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/275e1ca2c656eaf7a2bb39b8edad92c9d4db6e55"
+      },
+      {
+        "path": "skills/roboflow-custom-weights-upload/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "18fc92509e9f8b8710de1caec366cec2a90a0665",
+        "size": 8945,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/18fc92509e9f8b8710de1caec366cec2a90a0665"
+      },
+      {
+        "path": "skills/roboflow-data-management",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "93928ddeff64ccd44b107edfe12df8abb71da050",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/93928ddeff64ccd44b107edfe12df8abb71da050"
+      },
+      {
+        "path": "skills/roboflow-data-management/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dbca84208261b0c6a474d9c2ab2144639b817bdc",
+        "size": 16448,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/dbca84208261b0c6a474d9c2ab2144639b817bdc"
+      },
+      {
+        "path": "skills/roboflow-data-management/labeling.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dbe937b160b0be6209e70b48169f2b09ca10c454",
+        "size": 6786,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/dbe937b160b0be6209e70b48169f2b09ca10c454"
+      },
+      {
+        "path": "skills/roboflow-inference",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "602f4f63951fbe149199db7994a31f67f252989f",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/602f4f63951fbe149199db7994a31f67f252989f"
+      },
+      {
+        "path": "skills/roboflow-inference/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0db3ffc07cf86aaeb9b2ac0ee7d61ade356b17bd",
+        "size": 13440,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/0db3ffc07cf86aaeb9b2ac0ee7d61ade356b17bd"
+      },
+      {
+        "path": "skills/roboflow-inference/batch-jobs.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9bf4a13eaac850c779711fada4e4650d0265fdc4",
+        "size": 6931,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/9bf4a13eaac850c779711fada4e4650d0265fdc4"
+      },
+      {
+        "path": "skills/roboflow-inference/batch-staging.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "87f466481eee5eec98e4b78c47109404d2153b2e",
+        "size": 5949,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/87f466481eee5eec98e4b78c47109404d2153b2e"
+      },
+      {
+        "path": "skills/roboflow-inference/bin",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1e6802f51f1cddf1691acad52882618129c88263",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/1e6802f51f1cddf1691acad52882618129c88263"
+      },
+      {
+        "path": "skills/roboflow-inference/bin/poll_batch_job.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "583f1f8e44963416856eb101de35d6a2efcab8ea",
+        "size": 4508,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/583f1f8e44963416856eb101de35d6a2efcab8ea"
+      },
+      {
+        "path": "skills/roboflow-inference/local-tooling.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "89d2f122ef2b006de2dcdeb8954984948b917766",
+        "size": 5935,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/89d2f122ef2b006de2dcdeb8954984948b917766"
+      },
+      {
+        "path": "skills/roboflow-inference/workflow-templates.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b6968fa97f41385490201a246cc3b417344cc619",
+        "size": 9293,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/b6968fa97f41385490201a246cc3b417344cc619"
+      },
+      {
+        "path": "skills/roboflow-inference/workflows.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d3440500f9a791fdbbf6ba7bdd3b7268cf602cd4",
+        "size": 25286,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/d3440500f9a791fdbbf6ba7bdd3b7268cf602cd4"
+      },
+      {
+        "path": "skills/roboflow-model-journey",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "83566e1c24745c6ac9c7632ad7d8cb928844fcaf",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/83566e1c24745c6ac9c7632ad7d8cb928844fcaf"
+      },
+      {
+        "path": "skills/roboflow-model-journey/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "685d30a79287253f1ff241f5e176906ed9c510c0",
+        "size": 9180,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/685d30a79287253f1ff241f5e176906ed9c510c0"
+      },
+      {
+        "path": "skills/roboflow-plans-and-pricing",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "092dd66edcdb923d1f03859ae8fa39e80f42de90",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/092dd66edcdb923d1f03859ae8fa39e80f42de90"
+      },
+      {
+        "path": "skills/roboflow-plans-and-pricing/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a87931dbf63ac460056ed2b3090641939581aeee",
+        "size": 5905,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/a87931dbf63ac460056ed2b3090641939581aeee"
+      },
+      {
+        "path": "skills/roboflow-plans-and-pricing/assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2bb9665a1c730ef9e1cae167e4ce895db6b97865",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/2bb9665a1c730ef9e1cae167e4ce895db6b97865"
+      },
+      {
+        "path": "skills/roboflow-plans-and-pricing/assets/pricing-template.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "569425ae7eee9a1a6a717343de642537497f2351",
+        "size": 881,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/569425ae7eee9a1a6a717343de642537497f2351"
+      },
+      {
+        "path": "skills/roboflow-plans-and-pricing/scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a96423c35fd1dd4ab3671260f1d9b478b664bdce",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/a96423c35fd1dd4ab3671260f1d9b478b664bdce"
+      },
+      {
+        "path": "skills/roboflow-plans-and-pricing/scripts/render_pricing.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6dafe7ffb149d15bf43e6171f23aacf16c15fa16",
+        "size": 1460,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/6dafe7ffb149d15bf43e6171f23aacf16c15fa16"
+      },
+      {
+        "path": "skills/roboflow-product-navigation",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "af18fe8b6fadcd9d882ba28fe9ca4f7995e9ac24",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/af18fe8b6fadcd9d882ba28fe9ca4f7995e9ac24"
+      },
+      {
+        "path": "skills/roboflow-product-navigation/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b5c5e9f50f511d299113e4e3645428443b4aadd6",
+        "size": 7070,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/b5c5e9f50f511d299113e4e3645428443b4aadd6"
+      },
+      {
+        "path": "skills/roboflow-product-navigation/features-by-page.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "40683dc15e4fbdbffe859b503019c6ce6f841849",
+        "size": 7468,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/40683dc15e4fbdbffe859b503019c6ce6f841849"
+      },
+      {
+        "path": "skills/roboflow-training-and-evaluation",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3b01a2688f853281d65b15029bd513d7219554a0",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/3b01a2688f853281d65b15029bd513d7219554a0"
+      },
+      {
+        "path": "skills/roboflow-training-and-evaluation/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6d90953e23ba12daebf1b63c14589f063b95f27b",
+        "size": 19652,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/6d90953e23ba12daebf1b63c14589f063b95f27b"
+      },
+      {
+        "path": "skills/roboflow-training-and-evaluation/active-learning.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29f0ef9d4ce9fce412023b15c09ab828fa77eb7e",
+        "size": 4789,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/29f0ef9d4ce9fce412023b15c09ab828fa77eb7e"
+      },
+      {
+        "path": "skills/roboflow-training-and-evaluation/improvement-playbook.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4eefe728d1ba2a9f8bc8b040721e6f55983a63e1",
+        "size": 15420,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/4eefe728d1ba2a9f8bc8b040721e6f55983a63e1"
+      },
+      {
+        "path": "skills/roboflow-training-and-evaluation/model-diagnosis.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4ee236793b28444e905af24affec1d82a3a5d67f",
+        "size": 30708,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/4ee236793b28444e905af24affec1d82a3a5d67f"
+      },
+      {
+        "path": "skills/roboflow-training-and-evaluation/model-ids.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c90bc5361247e2f2c562c26f00ad1f0cea309217",
+        "size": 3629,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/c90bc5361247e2f2c562c26f00ad1f0cea309217"
+      },
+      {
+        "path": "skills/roboflow-training-and-evaluation/nas-results.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f13f5f9dec54cff5b546a539544ed3b139323d8f",
+        "size": 3036,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/f13f5f9dec54cff5b546a539544ed3b139323d8f"
+      },
+      {
+        "path": "skills/roboflow-universe",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5af018c51e0b34edea5090e55f8f568dc4b6c789",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/5af018c51e0b34edea5090e55f8f568dc4b6c789"
+      },
+      {
+        "path": "skills/roboflow-universe/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c425c00b80bda48be5a3fe577d4a63d7e1223ebe",
+        "size": 6897,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/c425c00b80bda48be5a3fe577d4a63d7e1223ebe"
+      },
+      {
+        "path": "skills/workflow-from-eval",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "041ef17431924bee339b25669ccf2f88044a5aae",
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/trees/041ef17431924bee339b25669ccf2f88044a5aae"
+      },
+      {
+        "path": "skills/workflow-from-eval/SKILL.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "461c81a822d9161872fc47f8a43e1a9ac297240d",
+        "size": 18683,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/461c81a822d9161872fc47f8a43e1a9ac297240d"
+      },
+      {
+        "path": "skills/workflow-from-eval/gotchas.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "83ec82f5ed7db8c57d237d566869aece9d32f19d",
+        "size": 7758,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/83ec82f5ed7db8c57d237d566869aece9d32f19d"
+      },
+      {
+        "path": "skills/workflow-from-eval/ground-truth.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c9bbe2a302611ca4f6ddab1662453f42ece3657",
+        "size": 9276,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/3c9bbe2a302611ca4f6ddab1662453f42ece3657"
+      },
+      {
+        "path": "skills/workflow-from-eval/intake.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c9885848ea1913e65e7daac42be91f697d720e1",
+        "size": 7488,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/0c9885848ea1913e65e7daac42be91f697d720e1"
+      },
+      {
+        "path": "skills/workflow-from-eval/search.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b0e891405db354f4dad7dbb4ec783377fddadeed",
+        "size": 17174,
+        "url": "https://api.github.com/repos/roboflow/computer-vision-skills/git/blobs/b0e891405db354f4dad7dbb4ec783377fddadeed"
+      }
+    ],
+    "truncated": false
+  }
+}

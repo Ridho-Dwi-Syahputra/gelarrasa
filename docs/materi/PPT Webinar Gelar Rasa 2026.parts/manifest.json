@@ -1,0 +1,109 @@
+{
+  "original_path": "docs/materi/PPT Webinar Gelar Rasa 2026.pdf",
+  "size_bytes": 940599610,
+  "sha256": "69c058ff8f5aa9f084296749a4be68f402bfffa061b9b49ccac95704be24eee9",
+  "parts": [
+    {
+      "name": "webinar.part001",
+      "size_bytes": 47185920,
+      "sha256": "0d5a126873c28019ee7afd52efa11c95605e8462bb83c2502cf71c1468190eb8"
+    },
+    {
+      "name": "webinar.part002",
+      "size_bytes": 47185920,
+      "sha256": "060e9c971cfc8274f37602c5cbc61079ba6959dfedf2916d8180de8c03fda72f"
+    },
+    {
+      "name": "webinar.part003",
+      "size_bytes": 47185920,
+      "sha256": "a9a051397436b8caac0eaac456288dd4f8de6b66d34f02a01ca4edd5850a23b6"
+    },
+    {
+      "name": "webinar.part004",
+      "size_bytes": 47185920,
+      "sha256": "3cc7e8c16624390a26f20becbe581bac6e36a35c8a9f485ed3f2a3db3db05886"
+    },
+    {
+      "name": "webinar.part005",
+      "size_bytes": 47185920,
+      "sha256": "bae15b05a3d2d5091fd89bd170cb07f86540b7f4097d49c79251e088489d4250"
+    },
+    {
+      "name": "webinar.part006",
+      "size_bytes": 47185920,
+      "sha256": "c85af916608acb723e618615dcb1deb029d056620428db5af71505d67becfb22"
+    },
+    {
+      "name": "webinar.part007",
+      "size_bytes": 47185920,
+      "sha256": "52cfb4cdd8beaf21c7f20fd3e70772cb8f1003ee8c415a55ad32399248498604"
+    },
+    {
+      "name": "webinar.part008",
+      "size_bytes": 47185920,
+      "sha256": "43cf4d7929eadfb126e8d410dcd5879b90a796900f6b5d3242cd59b4136f22fe"
+    },
+    {
+      "name": "webinar.part009",
+      "size_bytes": 47185920,
+      "sha256": "4d474fcb40f9a962cd0f40fc58194e299fb1e115b77367cb8985a8fb31ea4440"
+    },
+    {
+      "name": "webinar.part010",
+      "size_bytes": 47185920,
+      "sha256": "f5cf1b253a9244dc08a11ffdd292bc4dcd8eedc086aeb9099f9def488f325675"
+    },
+    {
+      "name": "webinar.part011",
+      "size_bytes": 47185920,
+      "sha256": "193a3bb5a990882c4424695400cf96e15626d1a9cbe6c9ed2c2b1c67b0e7192a"
+    },
+    {
+      "name": "webinar.part012",
+      "size_bytes": 47185920,
+      "sha256": "8b3d36c91b101ba8ff9ba1ab0772696e711ee4feff2eadd3a5759014a6173002"
+    },
+    {
+      "name": "webinar.part013",
+      "size_bytes": 47185920,
+      "sha256": "c6573f3948e33cc8f3846adb8de6805d1354d495b03b64c440c5529c5108b6b4"
+    },
+    {
+      "name": "webinar.part014",
+      "size_bytes": 47185920,
+      "sha256": "16043c1582b36855f4e3dda6591950851b851d52449c7b4165eab5d5890b4168"
+    },
+    {
+      "name": "webinar.part015",
+      "size_bytes": 47185920,
+      "sha256": "8ac4222936569576935b7d7c4e610bc214149bf4f39b1739b4a174cf8f8282b8"
+    },
+    {
+      "name": "webinar.part016",
+      "size_bytes": 47185920,
+      "sha256": "6b3504c225590aa4adac425fad60e91ec13eb54823a1be85f4dc777e3c7199ed"
+    },
+    {
+      "name": "webinar.part017",
+      "size_bytes": 47185920,
+      "sha256": "b66eceb2d6e4cce35349ff49f3d8104f09eeee61736aa4895f7d1906d3827d50"
+    },
+    {
+      "name": "webinar.part018",
+      "size_bytes": 47185920,
+      "sha256": "9fac374590effbe7b9aa60a4582fb522533f996887f9f321123b911ec4cbe6e0"
+    },
+    {
+      "name": "webinar.part019",
+      "size_bytes": 47185920,
+      "sha256": "59947b691c35c6e9c379a147be5fd888a3dd680d5a0af221eadea54f9e1485c9"
+    },
+    {
+      "name": "webinar.part020",
+      "size_bytes": 44067130,
+      "sha256": "d144dfbc79c6a16f1898dc297fb0d8a977a4610a279164e42f06e7d20893b672"
+    }
+  ],
+  "reason": "GitHub LFS budget unavailable; lossless ordinary Git chunks, original file retained locally",
+  "restore_command": "python eksperimen/skrip/restore_large_files.py"
+}
