@@ -21,11 +21,11 @@
   },
   {
     "path": "output\\groups\\stage1_v1\\cluster_assignments.csv",
-    "sha256": "3b35031ac45152372e67baa15547c2c05285c70d18b68d390d8e78e859e2f532"
+    "sha256": "ee9e420d66bcd7332623872e71a6e59ded74eeb2d37410f58655c015a2a0796d"
   },
   {
     "path": "output\\groups\\stage1_v1\\cluster_provenance.json",
-    "sha256": "adf2d6c6af456609d4e405d44c6aba6d523ed63ead6f81da5e3c4bad2970e6c0"
+    "sha256": "85f5cdf2c438cadf99a9d51f065822c335da1be4a87f6793919b4578ee628852"
   },
   {
     "path": "output\\groups\\stage1_v1\\groups.csv",
@@ -65,11 +65,11 @@
   },
   {
     "path": "output\\embeddings\\stage1_v1\\feature_provenance.json",
-    "sha256": "ee1d6b56f3b68703b21b569a8e7ae308267c209db82f87653ba122abc3c12830"
+    "sha256": "0b7667aaa0330a4455aa19580aca8f67c9efbcf967cceb141d029f81abbfeb66"
   },
   {
     "path": "output\\embeddings\\stage1_v1\\primary_kmeans.joblib",
-    "sha256": "ea0aa544ff3c10930475c4126561e608ffb72086712b03b04ddd30070587d4f0"
+    "sha256": "f1e6e8cf58dbb36c19cbbdcb8d6dc52035bf041bb90e83b876e332af2115af1d"
   },
   {
     "path": "output\\embeddings\\stage1_v1\\resnet50_features.npz",

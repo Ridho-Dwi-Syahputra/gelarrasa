@@ -1,5 +1,13 @@
 # Ledger GELAR RASA
 
+## Run All ulang di latar belakang ? selesai 5 November 2026, 23.58 WIB
+
+- Pengguna meminta tidak mengambil fokus layar. Kontrol UI dihentikan, VS Code dikembalikan ke latar belakang dan pengaturan aksesibilitas sementara dipulihkan persis ke byte awal. Preferensi ini disimpan pada `AGENTS.md`.
+- Runner `.venv` menjalankan ulang seluruh tahap 1+2, dengan DINO dihitung ulang. Waktu mulai `2026-11-05T23:37:10.507189+07:00`, selesai `2026-11-05T23:58:14.626989+07:00`, durasi 1264.14 detik.
+- Hasil: 35/35 sel kode, 177 output tersimpan, tanpa error. Enam eksekusi modul tahap 2 terverifikasi; 2.400 hash sumber cocok dengan backup, 2.400 probabilitas head direproduksi dan tidak ada overlap kelompok fit/holdout.
+- Notebook SHA-256: `1e1a712b2c10a3bb21dca5395330e193d96a3f3d9faaa2027503d913354753b8`. Bukti terbaru berada di `reports/reproducibility/notebook_v2_delivery_validation.json`. Pratinjau HTML lokal diperbarui dari output tersimpan, tanpa menjalankan training lagi.
+- Dataset, gambar terpisah, model/embedding dan file besar tetap lokal. Notebook dengan grafik tertanam, kode dan laporan kecil saja yang dikirim ke Git.
+
 ## Pembatasan isi repo dan pemeriksaan tampilan notebook ? 5 November 2026
 
 - Pengguna mengubah lingkup push: dataset, gambar terpisah dan file besar tidak perlu diunggah. Upload 15 batch aset tersisa dibatalkan; commit aset yang belum terpublikasi hanya dipertahankan pada ref backup lokal. File lokal tidak dihapus.

@@ -33,3 +33,21 @@
 18:25:35 hflip224 160/256 19s
 18:26:31 original336 160/256 45s
 18:26:58 All feature extraction and immutable-input checks passed
+23:45:13 Force feature recomputation: True
+23:45:13 Pinned checkpoint 4610ca143709d58a633b6397a74412c2c3842454, SHA256 04d27f3400d059fc0cfd7d17dd1909a75bf3ea8fb3eeb48b97cb99e57ee20081
+23:45:54 original224 240/2400 40s
+23:46:35 original224 480/2400 81s
+23:47:16 original224 720/2400 121s
+23:47:56 original224 960/2400 162s
+23:48:37 original224 1200/2400 203s
+23:49:18 original224 1440/2400 244s
+23:49:59 original224 1680/2400 285s
+23:50:40 original224 1920/2400 326s
+23:51:21 original224 2160/2400 367s
+23:52:02 original224 2400/2400 408s
+23:52:25 hflip224 160/256 23s
+23:53:46 original336 160/256 69s
+23:54:26 DINO features complete; starting paired ResNet transform probes
+23:54:48 hflip224 160/256 21s
+23:55:50 original336 160/256 49s
+23:56:20 All feature extraction and immutable-input checks passed

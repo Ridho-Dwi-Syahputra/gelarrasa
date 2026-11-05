@@ -1,14 +1,14 @@
 {
   "status": "passed",
-  "seconds": 1152.757286787033,
+  "seconds": 1264.1409635543823,
   "code_cells": 35,
   "executed_cells": 35,
   "errors": [],
   "execution": "Full stage1+stage2 Run All; RECOMPUTE_DINO=True; checkpoints reused, features and fitting recomputed",
-  "started_wib": "2026-11-05T18:09:24.738096+07:00",
-  "finished_wib": "2026-11-05T18:28:37.367105+07:00",
+  "started_wib": "2026-11-05T23:37:10.507189+07:00",
+  "finished_wib": "2026-11-05T23:58:14.626989+07:00",
   "kernel": "gelar-rasa-venv",
   "interpreter": "D:\\lomba\\NSC UB\\GELAR-RASA\\.venv\\Scripts\\python.exe",
   "notebook_code_sha256": "43a9aceacb5f4edda4da21b398a18e1fa5a33695fa0ccdd00cdf05cbb7532bf0",
-  "notebook_sha256": "cb720ac89843b40b124492164371741b4be92c1fbb8aec47d3a2a6763a645af6"
+  "notebook_sha256": "1e1a712b2c10a3bb21dca5395330e193d96a3f3d9faaa2027503d913354753b8"
 }

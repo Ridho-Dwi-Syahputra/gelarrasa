@@ -4,11 +4,13 @@ Notebook utama: `notebook/01_EDA_Preprocessing_Clustering.ipynb`.
 Kernel: **Python (GELAR-RASA .venv)**. Lingkungan lokal berada di `.venv/` pada root proyek.
 Notebook mengerjakan tahap 1 dan tahap 2 dalam urutan sel yang sama, termasuk ekstraksi fitur, training head clustering, evaluasi tanpa label, dan pembentukan folder train/test.
 
+Untuk pekerjaan agent, gunakan runner terminal di latar belakang dan simpan output ke notebook yang sama. Jangan mengambil fokus atau membuka jendela aplikasi. Kernel proyek juga sudah didaftarkan pada direktori kernelspec pengguna agar tersedia di pemilih kernel VS Code.
+
 ## Membuka hasil dan menjalankan ulang
 
 Di VS Code, buka folder `GELAR-RASA`, buka notebook, lalu pilih kernel **Python (GELAR-RASA .venv)** atau interpreter `.venv/Scripts/python.exe`. Output dari eksekusi terakhir tersimpan di notebook; tidak perlu Run All untuk sekadar membaca grafik dan tabel.
 
-Pemeriksaan langsung file pada disk: 35 dari 35 sel kode memiliki urutan eksekusi 1–35, terdapat 176 output dan tidak ada output error. Jika tab yang sudah terbuka tampak kosong, tutup lalu buka kembali file dari disk. Pratinjau HTML lokal tersedia pada `reports/reproducibility/notebook_preview/01_EDA_Preprocessing_Clustering.html`; HTML ini menampilkan output tersimpan dan tidak menjalankan ulang training.
+Pemeriksaan langsung file pada disk: 35 dari 35 sel kode memiliki urutan eksekusi 1–35, terdapat 177 output dan tidak ada output error. Jika tab yang sudah terbuka tampak kosong, tutup lalu buka kembali file dari disk. Pratinjau HTML lokal tersedia pada `reports/reproducibility/notebook_preview/01_EDA_Preprocessing_Clustering.html`; HTML ini menampilkan output tersimpan dan tidak menjalankan ulang training.
 
 Untuk JupyterLab, jalankan dari PowerShell pada root proyek:
 

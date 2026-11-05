@@ -10,44 +10,44 @@
   "group_overlap": 0,
   "pixel_identical_assignments_consistent": true,
   "category_mapping": "pending_team_mapping",
-  "assignment_sha256": "1ce14100c3985b8349a4c0c1c438ebbafc778c051462e0b19328659d079ec094",
+  "assignment_sha256": "70e73711ec9acba6f29abdb7af47a2b45a5860ee0641709f3e2845aab049ef28",
   "stage2_runtime_records": [
     {
       "script": "stage2_visual_features.py",
       "source_sha256": "bc3d0a5cb500b1e5e232e3d2d05057df93994e8448014a677f8860cfc61f9123",
-      "seconds": 613.444,
+      "seconds": 669.898,
       "status": "completed"
     },
     {
       "script": "stage2_representation_ablation.py",
       "source_sha256": "9eb1da006ef3a670736894cdca580f430d443c626e97890bc90e650feca02148",
-      "seconds": 20.57,
+      "seconds": 24.384,
       "status": "completed"
     },
     {
       "script": "stage2_representation_ablation.py",
       "source_sha256": "9eb1da006ef3a670736894cdca580f430d443c626e97890bc90e650feca02148",
-      "seconds": 9.638,
+      "seconds": 10.694,
       "status": "completed"
     },
     {
       "script": "stage2_neighbor_refinement.py",
       "source_sha256": "2c9014e74bbd30ee6e92106239f6ffe992d8711da8a2c117b69ed49a98a99540",
-      "seconds": 13.943,
+      "seconds": 16.657,
       "status": "completed"
     },
     {
       "script": "stage2_evaluate_views.py",
       "source_sha256": "c578cd4140aa1ec078ded2235dcd5aeef1b7bf0b7c96bd1bedb2d9b57957ffb1",
-      "seconds": 11.697,
+      "seconds": 12.559,
       "status": "completed"
     },
     {
       "script": "materialize_stage2_clusters.py",
       "source_sha256": "303fb492de6c29d162e5a95243c12eef22f94be39d81941616fdb106d6c6e5d1",
-      "seconds": 34.785,
+      "seconds": 40.597,
       "status": "completed"
     }
   ],
-  "elapsed_seconds": 1142.46
+  "elapsed_seconds": 1255.129
 }

@@ -145,3 +145,40 @@
 2026-11-05 18:16:11 Every test image has 10 pHash and 10 CNN-neighbor candidates. No target propagation.
 2026-11-05 18:16:17 5-fold grouped domain diagnostics completed; draft validation folds have zero candidate-group overlap.
 2026-11-05 18:16:44 Stage 1 integrity checks passed; semantic mapping remains for the team.
+2026-11-05 23:37:32 Setup complete. No category targets are loaded.
+2026-11-05 23:37:38 Inventory: 2400 sources, unique IDs, test order follows sample.
+2026-11-05 23:37:49 Decode/normalize/hash: 200/2400
+2026-11-05 23:37:59 Decode/normalize/hash: 400/2400
+2026-11-05 23:38:08 Decode/normalize/hash: 600/2400
+2026-11-05 23:38:17 Decode/normalize/hash: 800/2400
+2026-11-05 23:38:28 Decode/normalize/hash: 1000/2400
+2026-11-05 23:38:35 Decode/normalize/hash: 1200/2400
+2026-11-05 23:38:43 Decode/normalize/hash: 1400/2400
+2026-11-05 23:38:53 Decode/normalize/hash: 1600/2400
+2026-11-05 23:39:03 Decode/normalize/hash: 1800/2400
+2026-11-05 23:39:11 Decode/normalize/hash: 2000/2400
+2026-11-05 23:39:18 Decode/normalize/hash: 2200/2400
+2026-11-05 23:39:26 Decode/normalize/hash: 2400/2400
+2026-11-05 23:39:28 All images decoded and canonical RGB PNG pixels verified. No files excluded.
+2026-11-05 23:39:35 Hash audit: 108 candidate pairs; similarity is not duplicate proof or category proof.
+2026-11-05 23:39:35 Distribution audit complete: effect sizes, BH-adjusted p-values, no automatic exclusions.
+2026-11-05 23:40:09 CNN features 160/2400, elapsed 17s
+2026-11-05 23:40:24 CNN features 320/2400, elapsed 32s
+2026-11-05 23:40:40 CNN features 480/2400, elapsed 48s
+2026-11-05 23:40:57 CNN features 640/2400, elapsed 65s
+2026-11-05 23:41:13 CNN features 800/2400, elapsed 81s
+2026-11-05 23:41:28 CNN features 960/2400, elapsed 96s
+2026-11-05 23:41:44 CNN features 1120/2400, elapsed 112s
+2026-11-05 23:41:59 CNN features 1280/2400, elapsed 127s
+2026-11-05 23:42:16 CNN features 1440/2400, elapsed 144s
+2026-11-05 23:42:33 CNN features 1600/2400, elapsed 161s
+2026-11-05 23:42:49 CNN features 1760/2400, elapsed 177s
+2026-11-05 23:43:05 CNN features 1920/2400, elapsed 193s
+2026-11-05 23:43:21 CNN features 2080/2400, elapsed 209s
+2026-11-05 23:43:37 CNN features 2240/2400, elapsed 225s
+2026-11-05 23:43:54 CNN features 2400/2400, elapsed 242s
+2026-11-05 23:43:56 CNN features saved; backbone frozen, no semantic category predictions produced.
+2026-11-05 23:44:22 Clusters saved: 8 anonymous groups, 1919 unique train fit samples; no class names inferred.
+2026-11-05 23:44:31 Every test image has 10 pHash and 10 CNN-neighbor candidates. No target propagation.
+2026-11-05 23:44:37 5-fold grouped domain diagnostics completed; draft validation folds have zero candidate-group overlap.
+2026-11-05 23:45:09 Stage 1 integrity checks passed; semantic mapping remains for the team.

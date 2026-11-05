@@ -45,7 +45,7 @@
   "group_sha256": "198c7a6a625ead0bf2c8d37d37ecd9fa62de0137b496a8d2a24894cdab760f37",
   "resample_fit_rows": 1538,
   "resample_holdout_rows": 381,
-  "seconds": 9.622743844985962,
+  "seconds": 10.675853967666626,
   "completed": true,
   "fitting_rows_hash": "afb3fda7903015c588288192380fcd5bd936d35ee967a62d49212dc4ea124757"
 }

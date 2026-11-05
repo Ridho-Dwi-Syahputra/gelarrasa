@@ -27,6 +27,6 @@
   "ari_vs_same_seed_kmeans": 0.7079052826723882,
   "refit_no_collapsed_cluster": true,
   "semantic_accuracy": null,
-  "assignment_sha256": "1ce14100c3985b8349a4c0c1c438ebbafc778c051462e0b19328659d079ec094",
-  "seconds": 13.928939819335938
+  "assignment_sha256": "70e73711ec9acba6f29abdb7af47a2b45a5860ee0641709f3e2845aab049ef28",
+  "seconds": 16.643680334091187
 }
