@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "heads_trained": 8,
+  "fit_images": 1538,
+  "heldout_images": 381,
+  "seed_fit_images": 1072,
+  "selected": {
+    "candidate": "independent_second_dino_mlp",
+    "kind": "mlp",
+    "branch": "second_dino",
+    "dimension": 1664,
+    "epoch": 180,
+    "score": 0.9971264367816092,
+    "macro_anchor_agreement": 1.0,
+    "flip": 0.9885057471264368,
+    "neighbor": 0.8335958005249344,
+    "occupied": 8,
+    "min_class": 35
+  },
+  "train_counts": {
+    "plastic": 315,
+    "textile": 277,
+    "paper": 237,
+    "cardboard": 233,
+    "foodwaste": 232,
+    "metal": 228,
+    "glass": 215,
+    "electronic": 183
+  },
+  "train_needs_review": 563,
+  "mixed_output_names": 0,
+  "reference_archive_read": false,
+  "semantic_accuracy": null,
+  "seconds": 58.47392416000366
+}

@@ -1,0 +1,9 @@
+archive_reference,glass,paper,electronic,metal,plastic,cardboard,textile,foodwaste
+glass,179,0,1,4,15,8,0,5
+paper,0,179,0,0,26,6,0,4
+electronic,15,0,178,14,4,0,0,0
+metal,2,2,4,215,14,0,0,2
+plastic,138,30,7,19,109,0,0,1
+cardboard,0,25,0,0,7,239,0,1
+textile,0,1,1,0,34,1,180,2
+foodwaste,1,0,6,0,0,0,0,241

@@ -1,0 +1,96 @@
+{
+  "repository": "timm/convnext_tiny.fb_in22k",
+  "revision": "342f2588bb2ea79d793d0712c9be16ec6ae0149a",
+  "checkpoint_sha256": "2b40f8d53b566a8c08c0c75f93ff5ac6fa33bd213afb27ee40766af7ffe5943b",
+  "architecture": "ConvNeXt image-only supervised CNN",
+  "pretrained_dataset": "ImageNet22k, generic base",
+  "classes": 21841,
+  "wordnet_version": "3.0",
+  "ontology_roots": {
+    "glass": [
+      "glass.n.01",
+      "glass.n.02",
+      "glassware.n.01"
+    ],
+    "paper": [
+      "paper.n.01",
+      "newspaper.n.01",
+      "paper.n.04",
+      "document.n.01",
+      "book.n.01"
+    ],
+    "electronic": [
+      "electronic_equipment.n.01",
+      "electrical_device.n.01",
+      "battery.n.02",
+      "computer.n.01",
+      "computer_hardware.n.01"
+    ],
+    "metal": [
+      "metallic_element.n.01",
+      "alloy.n.01",
+      "metalware.n.01",
+      "can.n.01"
+    ],
+    "plastic": [
+      "plastic.n.01",
+      "plastic_bag.n.01",
+      "credit_card.n.01"
+    ],
+    "cardboard": [
+      "cardboard.n.01",
+      "carton.n.02"
+    ],
+    "textile": [
+      "fabric.n.01",
+      "garment.n.01",
+      "leather.n.01"
+    ],
+    "foodwaste": [
+      "food.n.01",
+      "food.n.02",
+      "garbage.n.01"
+    ]
+  },
+  "missing_roots": [],
+  "unresolved_synsets": [],
+  "mapped_counts": {
+    "glass": 17,
+    "paper": 15,
+    "electronic": 262,
+    "metal": 8,
+    "plastic": 2,
+    "cardboard": 2,
+    "textile": 520,
+    "foodwaste": 1858
+  },
+  "mapping_policy": "Closest hypernym root, each public model class at most one category; unmapped mass never treated as known.",
+  "mapping_sha256": "0472ec0ac341910e62392e6518e4b2c461dc45f2a634be2eebde212c62371cc2",
+  "transform": {
+    "input_size": [
+      3,
+      224,
+      224
+    ],
+    "interpolation": "bicubic",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "crop_pct": 0.875,
+    "crop_mode": "center"
+  },
+  "source_sha256": "3d83f7b9c375140608a787e287486a72e87d46fb02af40f286b1b8a46f531a54",
+  "external_image_dataset_downloaded": false,
+  "external_lexical_ontology_used": true,
+  "competition_labels_read": false,
+  "reference_archive_read": false,
+  "source": "https://huggingface.co/timm/convnext_tiny.fb_in22k",
+  "ontology_source": "https://www.nltk.org/howto/wordnet.html"
+}

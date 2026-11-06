@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "final_audit_sha256": "89955bca441c89c82b32811ca079de884ae6f141c78008b5d2d79c421cd4d86f",
+  "prediction_root": "data\\processed\\stage17_named_predictions_v1\\73996d8db5",
+  "train_images": 1920,
+  "test_images": 480,
+  "materialized_images_verified": 2400,
+  "source_image_hardlinks_created": 0,
+  "notebook_main_preserved": true,
+  "review_notebook_sha256": "b4646c7a17c18ad52c1e02e5b73271f919e06df85a51e4006552624f0b24f7d2",
+  "review_notebook_cells": 4,
+  "review_notebook_errors": 0,
+  "embedded_figures": 3,
+  "unit_tests_observed_passed": 18,
+  "candidate_source_freezes_verified": [
+    "stage12",
+    "stage16",
+    "stage17"
+  ],
+  "reference_agreement_not_official_accuracy": true,
+  "images_datasets_models_remain_local": true
+}

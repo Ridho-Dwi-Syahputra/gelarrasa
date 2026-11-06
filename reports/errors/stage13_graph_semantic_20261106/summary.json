@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "graph_fits": 18,
+  "selected": {
+    "method": "neural_control",
+    "checkpoint": "output\\groups\\stage12_ontology_refinement_v1\\selected_semantic_head.pt",
+    "checkpoint_sha256": "e67a3c0a79ff140f9d0700f7036f48fd26b702b949fe68b44b0b0e17d1287fb7",
+    "score": 0.9711144185040111,
+    "macro_anchor_agreement": 0.9880293619424054,
+    "flip": 1.0,
+    "neighbor": 0.9083989501312336,
+    "occupied": 8,
+    "min_class": 34
+  },
+  "train_counts": {
+    "plastic": 338,
+    "foodwaste": 259,
+    "cardboard": 245,
+    "metal": 234,
+    "paper": 234,
+    "electronic": 211,
+    "glass": 202,
+    "textile": 197
+  },
+  "mixed_output_names": 0,
+  "reference_archive_read": false,
+  "semantic_accuracy": null,
+  "seconds": 20.890397787094116
+}

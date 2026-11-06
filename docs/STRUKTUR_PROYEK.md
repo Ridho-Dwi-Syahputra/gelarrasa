@@ -33,7 +33,7 @@ GELAR-RASA/
 │   ├── skrip/                        implementasi eksperimen bernomor
 │   ├── konfigurasi/                  config tiap run, bukan hyperparameter tersembunyi
 │   └── cache/                        cache dapat dibangun ulang
-├── notebook/                         notebook utama bertahap, belum dibuat
+├── notebook/                         notebook EDA utama dan tinjauan model
 ├── output/
 │   ├── manifests/                    manifest training/inferensi
 │   ├── groups/                       pasangan kemiripan dan group_id
@@ -58,7 +58,7 @@ Run: `expNNN_deskripsi`, misalnya `exp001_hog_color_svm`; script: `001_hog_color
 
 Gunakan satu lokasi kanonis tiap artefak. Tidak dibuat folder `submit/`, `submission/`, dan `docs/submit/` tambahan; kandidat baru berada di `output/submission/`. Arsip `docs/secret` yang sudah ada tetap riwayat lama. Root data resmi tidak dipindah ke `data/raw/` agar path pengguna tidak rusak.
 
-Notebook utama belum dibuat: saat tahap implementasi, gunakan satu notebook yang memanggil script/modul teruji. Jangan menyalin OCR aksara, sampler berbasis test, atau aturan kategori INFEST ke limbah tanpa hipotesis dan pengujian. Tidak menyalin bank eksperimen tabular LOGIKA, KS, atau batas aturan kompetisi lain.
+Notebook utama `notebook/01_EDA_Preprocessing_Clustering.ipynb` sudah dijalankan; pendamping `02_Material_Resolution_Review.ipynb` menampilkan prediksi model bertingkat, distribusi dan preview. Keduanya memakai script/modul yang dapat ditelusuri. Hasil lokal model terbaru: `data/processed/stage17_named_predictions_v1/73996d8db5/{train,test}/{nama_kategori}/`, dengan manifest dan tanda tinjau. Itu prediksi eksperimental, bukan ground truth atau label aktif yang sudah disahkan. Jangan menyalin OCR aksara, sampler berbasis test, atau aturan kategori INFEST ke limbah tanpa hipotesis dan pengujian. Tidak menyalin bank eksperimen tabular LOGIKA, KS, atau batas aturan kompetisi lain.
 
 [Panduan Kaggle](skills/custom/kaggle-gpu-workflow/SKILL.md) memetakan `DATA_ROOT` dan `WORK_ROOT` ke runtime tujuan, dengan manifest/label/fold yang sama. GPU hanya opsi eksekusi berikutnya; persiapan ini belum menghasilkan notebook atau sesi GPU. Snapshot vendor memuat subtree terpilih, bukan seluruh dependensi transitif; subskill di dalamnya tidak menambah jumlah paket snapshot.
 

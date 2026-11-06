@@ -1,0 +1,9 @@
+{
+  "status": "failed_then_fixed",
+  "completed_head_conditions_before_failure": 4,
+  "failure": "Hybrid feature division promoted NumPy float32 to float64, incompatible with torch float32 head.",
+  "fix": "Keep scaling denominator float32 and cast final hybrid explicitly.",
+  "regression_test": "test_stage7_features.py validates dtype/unit scale and all six branch/head forward combinations.",
+  "replacement_run": "Full six-head training rerun after fix, before any reference audit.",
+  "fixed_source_sha256": "34c294b91b208ae162680c5f843cdb80f6713a1c57abdc117af71837b2bd869e"
+}

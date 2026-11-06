@@ -1,0 +1,71 @@
+{
+  "categories": [
+    "brick",
+    "carpet",
+    "ceramic",
+    "fabric",
+    "foliage",
+    "food",
+    "glass",
+    "hair",
+    "leather",
+    "metal",
+    "mirror",
+    "other",
+    "painted",
+    "paper",
+    "plastic",
+    "polishedstone",
+    "skin",
+    "sky",
+    "stone",
+    "tile",
+    "wallpaper",
+    "water",
+    "wood"
+  ],
+  "model": "MINC authors GoogLeNet Caffe CNN",
+  "architecture": "image-only, not SigLIP/CLIP or another VLM",
+  "mean_bgr": [
+    104,
+    117,
+    124
+  ],
+  "mean_source": "Bell etal CVPR2015 section4.1, RGB124/117/104",
+  "views": [
+    "full frame resized224 (aspect distorted)",
+    "center square .7 of shorter side resized224"
+  ],
+  "aggregation": "mean of two-view probabilities, predeclared",
+  "checkpoint": {
+    "source": "Cornell MINC authors, CVPR2015",
+    "source_url": "https://opensurfaces.cs.cornell.edu/static/minc/minc-model.tar.gz",
+    "official_page": "https://opensurfaces.cs.cornell.edu/publications/minc/",
+    "architecture": "Caffe GoogLeNet CNN; no language encoder",
+    "pretrained_only": true,
+    "local_competition_adaptation_required": true,
+    "upstream_checksum_published": false,
+    "files": {
+      "categories.txt": {
+        "bytes": 156,
+        "sha256": "ef8d90b59508e8b5c79f07ef4b6811017a228d8960bbbaeee02a203bb796be90"
+      },
+      "deploy-googlenet.prototxt": {
+        "bytes": 33903,
+        "sha256": "5174393647c3073624e540abcf09ed1d1c54ac4e74d90063a61789cfee6ccbcc"
+      },
+      "minc-googlenet.caffemodel": {
+        "bytes": 41516666,
+        "sha256": "471f1a429f4fbd8b4771abaaf0fe0eb9aeaed3257321abec3e2cb537bffefba9"
+      }
+    },
+    "external_training_images_used": false,
+    "MINC_image_dataset_downloaded": false,
+    "extracted_image_files": 0,
+    "model_archive_contains_unused_example_image": true
+  },
+  "opencv": "4.12.0",
+  "reference_archive_read": false,
+  "source_sha256": "fa407514d5ec8f88ac804f90d044a84f3ce58d01c7c5ab10294c70c9188221e8",
+  "postrun_provenance_clarification": "Model archive included an unextracted demo image; no external image was decoded, trained on, or used as data."
+}

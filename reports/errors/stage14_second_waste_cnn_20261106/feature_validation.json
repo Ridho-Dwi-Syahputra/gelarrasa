@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "tables": {
+    "original224": {
+      "rows": 2400,
+      "feature_dimensions": 1280,
+      "classes": 10,
+      "sha256": "b959f9f09a2616828daed77690835f495af66a317e4bcc264d44398b9b7a1d52"
+    },
+    "hflip224": {
+      "rows": 256,
+      "feature_dimensions": 1280,
+      "classes": 10,
+      "sha256": "d627cc19101782709f9cd9265bbde7939c415516076268fe109a3ba6967e1c9d"
+    }
+  },
+  "warning": "PowerShell stderr logger recorded an authentication-rate warning as an error record; both complete outputs verified numerically. No authentication required."
+}

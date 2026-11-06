@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "model_type": "task_specific_recycling_CNN_base_locally_trained_eight_class_head",
+  "train_images": 1920,
+  "test_images": 480,
+  "eight_named_folders": true,
+  "materialized_images_verified": 2400,
+  "storage_counts": {
+    "readonly_hardlink_to_prior_independent_prediction_copy": 2400
+  },
+  "raw_source_hardlinks_created": 0,
+  "mixed_output_names": 0,
+  "all_predictions_semantically_verified": false,
+  "train_needs_review": 742,
+  "test_needs_review": 197,
+  "archive_agrees": 1520,
+  "archive_differs": 400,
+  "previous_mixed_cohort": 570,
+  "previous_mixed_now_predicted": 570,
+  "previous_mixed_agrees_archive": 306,
+  "previous_mixed_differs_archive": 264,
+  "old_unmixed_wrong_now_agrees": 54,
+  "old_unmixed_agreed_now_differs": 26,
+  "reference_read_after_selection": true,
+  "reference_used_for_training_or_selection": false,
+  "semantic_accuracy": null,
+  "prediction_root": "data\\processed\\stage8_named_predictions_v1\\a981e0e033",
+  "assignment_sha256": "a981e0e0334c28537b6ca18dae44a64e66b3e78867836aebb1b841941393214e",
+  "baseline_replaced": false,
+  "interpretation": "No mixed output names means total prediction coverage, not zero residual ambiguity or proven category purity."
+}

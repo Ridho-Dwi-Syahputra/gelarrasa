@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "selected": {
+    "candidate": "fixed_hierarchical_routing",
+    "macro_anchor_agreement": 0.9858409610983982,
+    "flip": 1.0,
+    "routed_train": 570,
+    "routing_groups": [
+      2,
+      6
+    ],
+    "note": "Structural hypothesis, not a new proxy-score winner. Its audit cannot be called ground-truth accuracy."
+  },
+  "train_counts": {
+    "plastic": 276,
+    "foodwaste": 267,
+    "metal": 250,
+    "cardboard": 247,
+    "paper": 243,
+    "textile": 225,
+    "electronic": 208,
+    "glass": 204
+  },
+  "train_needs_review": 570,
+  "mixed_output_names": 0,
+  "reference_archive_read": false,
+  "semantic_accuracy": null,
+  "seconds": 3.1561615467071533
+}

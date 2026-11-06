@@ -2,7 +2,18 @@
 
 Dataset resmi lokal: 1.920 train tanpa label kategori resmi dan 480 test. Delapan kategori: glass, paper, electronic, metal, plastic, cardboard, textile, foodwaste. Metrik kompetisi: Accuracy.
 
-## Notebook dan hasil terbaru
+## Pembagian kategori terbaru — 6 November 2026
+
+Model bertingkat kini memberi satu prediksi kelas untuk seluruh 1.920 train dan 480 test. Pada 570 train yang sebelumnya campuran, 487 cocok dengan arsip pembanding dan 83 berbeda; total seluruh train 1.740 cocok / 180 berbeda. Ini agreement pribadi, **bukan Accuracy resmi atau bukti semua label benar**. Arsip tidak menjadi target atau filter per gambar. Pengembangan iteratif telah melihat audit terdahulu, sedangkan keputusan setiap run dibekukan sebelum auditnya.
+
+- [Notebook preview model kategori](notebook/02_Material_Resolution_Review.ipynb): empat sel dijalankan, preview tiap kelas dan antrean tinjau; memakai hasil training yang sudah dibekukan.
+- [Hasil seluruh percobaan dan batas interpretasi](reports/errors/stage6_material_resolution_20261106/RESULTS_AND_LIMITS.md).
+- [Bukti model/folder dan perbandingan terbaru](reports/errors/stage6_material_resolution_20261106/final_validation_and_private_audit.json).
+- Folder lokal: `data/processed/stage17_named_predictions_v1/73996d8db5/{train,test}/{glass,paper,electronic,metal,plastic,cardboard,textile,foodwaste}/`.
+
+Tanda tinjau 570 train saat ini memiliki arti berbeda dari 570 kelompok campuran lama: 126 softmax/margin rendah dan 444 hanya konflik sumber CNN. Semua gambar punya kategori; tanda bukan jumlah salah terverifikasi. Data, model, gambar dan cache tetap lokal; label aktif belum dipromosikan.
+
+## Notebook EDA utama dan riwayat
 
 [Notebook utama](notebook/01_EDA_Preprocessing_Clustering.ipynb) kini versi **EDA visual v3**: preview train/test, nama material sementara, distribusi kelompok, kasus kualitas/ambigu, kandidat crop, kemiripan piksel dan dimensi native. Sepuluh sel kode memanggil modul yang dapat ditelusuri; head baseline yang sudah dilatih dipakai ulang setelah verifikasi hash. Audit visual dijalankan baru, tanpa mengklaim fitting ulang baseline.
 

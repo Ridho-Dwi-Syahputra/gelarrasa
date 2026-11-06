@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "model_type": "classical_classifier_on_CNN_derived_semantic_anchors_and_image_features",
+  "train_images": 1920,
+  "test_images": 480,
+  "eight_named_folders": true,
+  "materialized_images_verified": 2400,
+  "storage_counts": {
+    "readonly_hardlink_to_prior_independent_prediction_copy": 2400
+  },
+  "raw_source_hardlinks_created": 0,
+  "mixed_output_names": 0,
+  "all_predictions_semantically_verified": false,
+  "train_needs_review": 640,
+  "test_needs_review": 169,
+  "archive_agrees": 1647,
+  "archive_differs": 273,
+  "previous_mixed_cohort": 570,
+  "previous_mixed_now_predicted": 570,
+  "previous_mixed_agrees_archive": 431,
+  "previous_mixed_differs_archive": 139,
+  "old_unmixed_wrong_now_agrees": 71,
+  "old_unmixed_agreed_now_differs": 41,
+  "reference_read_after_selection": true,
+  "reference_used_for_training_or_selection": false,
+  "semantic_accuracy": null,
+  "prediction_root": "data\\processed\\stage10_named_predictions_v1\\38f5473a0d",
+  "assignment_sha256": "38f5473a0d39b4e00501130995b0d904d413315a74504aa2f26509913e22dc79",
+  "baseline_replaced": false,
+  "interpretation": "No mixed output names means total prediction coverage, not zero residual ambiguity or proven category purity."
+}

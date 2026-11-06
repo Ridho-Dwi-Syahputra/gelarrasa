@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "heads_trained": 6,
+  "selected": {
+    "alpha": 0.7,
+    "head": "mlp",
+    "epoch": 30,
+    "flip_stability": 0.9885057471264368,
+    "cnn_evidence_agreement": 0.7742782152230971,
+    "neighbor_agreement": 0.8669291338582678,
+    "score": 0.8770531269798172,
+    "occupied": 8,
+    "min_class": 17
+  },
+  "class_order": [
+    "glass",
+    "paper",
+    "electronic",
+    "metal",
+    "plastic",
+    "cardboard",
+    "textile",
+    "foodwaste"
+  ],
+  "fit_images": 1538,
+  "heldout_images": 381,
+  "group_overlap": 0,
+  "train_counts": {
+    "plastic": 694,
+    "paper": 229,
+    "textile": 206,
+    "cardboard": 203,
+    "foodwaste": 189,
+    "electronic": 174,
+    "glass": 113,
+    "metal": 112
+  },
+  "test_counts": {
+    "plastic": 171,
+    "textile": 54,
+    "cardboard": 52,
+    "foodwaste": 50,
+    "electronic": 50,
+    "metal": 40,
+    "paper": 38,
+    "glass": 25
+  },
+  "mixed_predicted_labels": 0,
+  "train_needs_review": 1099,
+  "reference_archive_read": false,
+  "semantic_accuracy": null,
+  "baseline_replaced": false,
+  "backbone_finetuned": false,
+  "uncertainty_preserved": true,
+  "seconds": 14.353114366531372,
+  "assignment_sha256": "93f2019df1b26d2063ce7097c2627e842e70c70db30789756e3a147530afb45e"
+}

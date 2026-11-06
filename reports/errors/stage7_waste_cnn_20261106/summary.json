@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "heads_trained": 6,
+  "selected": {
+    "candidate": "hybrid_mlp",
+    "kind": "mlp",
+    "branch": "hybrid",
+    "dimension": 2432,
+    "epoch": 110,
+    "score": 0.9352991720038546,
+    "macro_CNN_core_agreement": 0.9797303921568628,
+    "flip": 0.9770114942528736,
+    "neighbor": 0.8047244094488188,
+    "occupied": 8,
+    "min_class": 23
+  },
+  "fit_images": 1538,
+  "heldout_images": 381,
+  "train_counts": {
+    "textile": 494,
+    "plastic": 236,
+    "paper": 233,
+    "cardboard": 221,
+    "metal": 217,
+    "glass": 212,
+    "electronic": 198,
+    "foodwaste": 109
+  },
+  "train_needs_review": 325,
+  "mixed_output_names": 0,
+  "reference_archive_read": false,
+  "external_image_dataset_downloaded": false,
+  "task_specific_pretrained_base_used": true,
+  "pretrained_training_overlap_unknown": true,
+  "semantic_accuracy": null,
+  "seconds": 54.87490367889404
+}

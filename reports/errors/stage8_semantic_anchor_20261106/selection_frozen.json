@@ -1,0 +1,12 @@
+{
+  "status": "frozen_before_reference_audit",
+  "assignment_sha256": "a981e0e0334c28537b6ca18dae44a64e66b3e78867836aebb1b841941393214e",
+  "checkpoint_sha256": "3052a8dbf39b9625f7dd1fa3e28f3baeb770fcd29cb347975751bfbf9ab81ca0",
+  "summary_sha256": "02ae4f6f6c64ea37d108c0dcaab59c7e5b6cbe3c6554dd1756861a7fa18ed041",
+  "source_sha256": "c5fc39357fcfdcb6983faf45b27e93e127c70b622580b255f080cb75a5502a9a",
+  "protected": {
+    "configs/data_contract.json": "5550c65120696f471eb39908ab34708be451d66be16840ea11d5723ce569cabc",
+    "output/groups/stage4_self_training_pilot_v1/candidate_assignments.csv": "fc34209ecbc20ef335d05ad18e7d62d71e0cbf59d2eb38110fa4c9babb5707f9",
+    "notebook/01_EDA_Preprocessing_Clustering.ipynb": "fc206aad3aaffc831f2c7a993e9a5d70284a77fe171a7336999e2e7250e5a963"
+  }
+}

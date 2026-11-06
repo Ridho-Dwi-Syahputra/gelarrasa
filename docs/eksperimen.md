@@ -1,5 +1,16 @@
 # Ledger GELAR RASA
 
+## Pemisahan material dengan CNN dan pembagian bertingkat — 6 November 2026
+
+- Rangkaian stage6–17 benar-benar dijalankan: CNN objek/material, fusi terkalibrasi, seleksi seed, pilot adaptasi blok ViT, dua pretrained CNN khusus limbah, ConvNeXt22k/ontologi, head linear/MLP,24 SVM/kNN,18 konfigurasi difusi graf, dan pembagian bertingkat. Detail, kontrol negatif dan sumber: `reports/errors/stage6_material_resolution_20261106/RESULTS_AND_LIMITS.md`.
+- Pilot blok akhir dua learning rate/empat epoch per kondisi menunjukkan gradien dan update; kontrol epoch0 tetap menang. Jangan menyebut backbone model akhir di-fine-tune berdasarkan pilot yang ditolak.
+- Kesepakatan kuat CNN tanpa target dari cluster awal meningkatkan pemisahan570 menjadi 487 cocok / 83 berbeda, tetapi merusak kohort stabil. Routing stage17 memakai statistik kategori dari fit-only consensus: minimal 20 anchor dan proporsi dominan<0,6 memilih refinement; sisanya mempertahankan stage12. Dua kelompok terpilih secara programatis; tidak membaca mapping asisten atau flag campuran arsip.
+- Pembanding akhir setelah freeze: **1.740 cocok, 180 berbeda**, dari keseluruhan 1.920 train. Pecahan570 lama:487 cocok / 83 berbeda. Awal164 perbedaan mengecualikan570 yang belum dapat dibandingkan, sehingga denominator awal tidak setara dengan180 sekarang.
+- Tanda tinjau akhir570 train terdiri 126 softmax/margin rendah dan 444 konflik sumber saja. Itu kriteria berbeda dari 570 kelompok campuran lama. Test 25 rendah+101 konflik sumber saja; semua 480 test punya prediksi. Tidak menghapus citra ambigu atau memaksakan jumlah kelas.
+- Materialisasi/hash/reproduksi probabilitas lulus untuk 2.400 gambar. Folder lokal: `data/processed/stage17_named_predictions_v1/73996d8db5/`. Hardlink read-only mengarah ke salinan independen stage7, bukan raw/native sumber; sumber asli dipertahankan.
+- Notebook pendamping 02 lulus 4/4 sel, 0 error, 3 figure preview tertanam, tanpa mengulang training atau membaca arsip. Notebook 01 tetap v3 utuh dan bukti10/10 historisnya masih berlaku. Kode, laporan dan notebook kecil disinkronkan; gambar/model/cache tetap lokal.
+- Arsip tidak menjadi target/filter per gambar atau pemetaan; keputusan kandidat setiap run dibekukan sebelum auditnya. Peneliti telah melihat audit sebelumnya: pengembangan metode bersifat adaptif, bukan validasi buta. Agreement arsip bukan Accuracy resmi; tidak ada promosi label aktif, submission baru, atau klaim sempurna. Pretraining overlap tidak diketahui; lisensi/model dataset CNN14 tidak dinyatakan pembuat. Sumber dan keterbatasan tetap terbuka.
+
 ## Uji representasi lokal dan overclustering - 6 November 2026
 
 - Atas permintaan mencari cara agar kelompok mendekati material pada pembanding, diuji fitur CLS, mean/std patch non-padding dan hybrid. Referensi tidak menjadi input fitting atau seleksi.

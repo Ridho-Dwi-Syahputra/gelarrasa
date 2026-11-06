@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "classifiers_fit": 24,
+  "selected": {
+    "candidate": "all_svc10",
+    "branch": "all",
+    "score": 0.9669146470327572,
+    "macro_anchor_agreement": 0.9902597402597403,
+    "flip": 1.0,
+    "neighbor": 0.8871391076115486,
+    "occupied": 8,
+    "min_class": 33
+  },
+  "baseline": {
+    "score": 0.9625000946851341,
+    "macro_anchor_agreement": 0.9856301106301106,
+    "flip": 1.0,
+    "neighbor": 0.878740157480315,
+    "occupied": 8,
+    "min_class": 34
+  },
+  "mixed_output_names": 0,
+  "train_needs_review": 640,
+  "reference_archive_read": false,
+  "semantic_accuracy": null,
+  "seconds": 80.27539801597595
+}
