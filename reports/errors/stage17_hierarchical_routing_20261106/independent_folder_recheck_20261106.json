@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-06T13:07:48.986268+07:00",
+  "method": "actual-directory enumeration, byte hashes, EXIF/white-alpha canonical pixels; no training or category changes",
+  "source_sha256": "b0f06ddd9c27230a68fa09b176a7df36c34117bc274b73510af3d13f0a6c660d",
+  "prediction_folder": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\processed\\stage17_named_predictions_v1\\73996d8db5\\train",
+  "reference_folder": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label",
+  "prediction_images": 1920,
+  "reference_images": 1920,
+  "unique_ids_each": 1920,
+  "missing_ids": 0,
+  "extra_ids": 0,
+  "duplicate_ids": 0,
+  "same_id_same_folder_label": 1740,
+  "different_folder_label": 180,
+  "agreement_percent": 90.625,
+  "image_pairs_match_after_canonical_preprocessing": 1920,
+  "reference_bytes_match_original_source": 1920,
+  "prediction_hashes_match_original_processed": 1920,
+  "folder_paths_match_manifest": 1920,
+  "alpha_normalized_image_ids": [
+    "1568"
+  ],
+  "failures": [],
+  "former_mixed_images": 570,
+  "former_mixed_agree": 487,
+  "former_mixed_differ": 83,
+  "archive_folder_vs_historical_csv_differences": [
+    {
+      "image_id": "0026",
+      "folder_label": "metal",
+      "csv_label": "cardboard"
+    }
+  ],
+  "prior_report_count_reproduced": true,
+  "all_images_visually_semantically_verified": false,
+  "semantic_accuracy": null,
+  "images_or_labels_changed": false,
+  "seconds": 64.09212446212769,
+  "local_gallery": "data\\processed\\stage17_named_predictions_v1\\73996d8db5\\private_audit_only\\folder_comparison_gallery.html"
+}

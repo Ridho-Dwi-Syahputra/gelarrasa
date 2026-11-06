@@ -1,0 +1,16 @@
+{
+  "current_folder_same": 1740,
+  "current_folder_different": 180,
+  "historical_csv_same": 1739,
+  "historical_csv_different": 181,
+  "historical_csv_sha256": "80e097ff4959ee03140f48a009fb2a88451aa939212444eb2431fe67933119d2",
+  "inconsistent_reference_ids": [
+    {
+      "image_id": "0026",
+      "folder_class": "metal",
+      "csv_class": "cardboard",
+      "predicted_class": "metal"
+    }
+  ],
+  "sources_or_predictions_modified": false
+}
