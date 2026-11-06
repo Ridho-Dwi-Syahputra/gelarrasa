@@ -1,0 +1,2962 @@
+{
+  "scope": "private visual review of archived LLM annotations, not active labels",
+  "category_folder": "electronic",
+  "count": 211,
+  "order": "numeric image ID ascending",
+  "items": [
+    {
+      "image_id": "0009",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0009.jpg",
+      "sha256": "c81cbf208dfb01fc9b3569b2180c85b38d69a7b495c17475a7b2e62b36f2ba7d",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0009.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0029",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0029.jpg",
+      "sha256": "746847a0578a984b2db3b682c4672f48c92e3491b5d7b7ef6b4b8d930621ab00",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0029.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0030",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0030.jpg",
+      "sha256": "f21f2f169307478aa4b646a574086a409851a8fdb9f76625bfb261baa96698ae",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0030.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0031",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0031.jpg",
+      "sha256": "d0abb7193d3d627c5114bc7c83f4f22e0536d618c47d45dfb6d54508efb94fa4",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0031.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0033",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0033.jpg",
+      "sha256": "dac8d1fdeeaa466bcce73995a01942c8b735c55bc90400b07eb35d27eb0d29ca",
+      "original_size": [
+        225,
+        225
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0033.png",
+      "preview_size": [
+        225,
+        225
+      ]
+    },
+    {
+      "image_id": "0052",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0052.jpg",
+      "sha256": "6bbf8b720c5da076172d11d48fbcbffc2f4309ab598473df4ea6dfdf2470b406",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0052.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0053",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0053.jpg",
+      "sha256": "c15f9b685d8bdaea49823c9df3deb38e89602e2f72d9e22fa989c970078af896",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0053.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0066",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0066.jpg",
+      "sha256": "94f5c4fea1c6e2b600a5885a47fc6a45b55b70d86fac43a3f41ad515b0cdcc96",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0066.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0095",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0095.jpg",
+      "sha256": "389f09cf74d64f85d000739e75ed85b5d4b2a606b078ed470ab1383cd2928c20",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0095.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0097",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0097.jpg",
+      "sha256": "727e1206e825babeda55d9063b94e2b4436aeeca267daaa60cc05e2825e4b798",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0097.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0099",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0099.jpg",
+      "sha256": "06e3d1143b6513fedca0ecd4f337ca0229803443c52c2e4f717dbb9d98c77d4f",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0099.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0133",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0133.jpg",
+      "sha256": "6d61041763402a02f941028c6121e9c56f8e92fe792f96eb8c42d789678195d5",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0133.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0147",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0147.jpg",
+      "sha256": "29fea113af3c8894e7edeb0228f06b307a45cf58608da1de98b78c776d0a6180",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0147.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0149",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0149.jpg",
+      "sha256": "af72b0f6d3a35a9ccbc8663ec629d54593591db0e0429dee2b57f94e1f80a1d7",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0149.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0156",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0156.jpg",
+      "sha256": "d6205aaab1a82989444bce43dc8887a4a7df9b850b9955ef622aaa001d87f04a",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0156.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0175",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0175.jpg",
+      "sha256": "23fe4a879db0db32e8b4f3420c03c76a3236a6446a4c8aa349f5d13f9fa7f2d2",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0175.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0185",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0185.jpg",
+      "sha256": "48a93b578f94788d85538bb19840d6fe1fbb9d96a3a898916a0977820fab9e1c",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0185.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0193",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0193.jpg",
+      "sha256": "336f2dd6e6d6d45e3dfc8b97dce57adea1b17188e573524333cf77918e675c4c",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0193.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0197",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0197.jpg",
+      "sha256": "f7921e8c162d2dabe62c1903fefb842bf7e14e66f04c8513f4e0560ff910d814",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0197.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0199",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0199.jpg",
+      "sha256": "31184d6b8a935449abab7d1e33b4f3c4c31cf2abf767c95cb47f4a9aceea9ecd",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0199.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0205",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0205.jpg",
+      "sha256": "694cba596f99a1d9b20007a09e7fd353fcfeb10c659e1b1eaaecf8c91977bc45",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0205.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0218",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0218.jpg",
+      "sha256": "614374fdc4239c97d9e3cbc4e7a1522e821d5b5c29c239c4ed4693c466d2f3cb",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0218.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0226",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0226.jpg",
+      "sha256": "672fd63b4b70349a7769a0201113949750499a6a00198a5a7ee6e6432ff22555",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0226.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0230",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0230.jpg",
+      "sha256": "a3f97614fa2fbc967704d3b857827daa5f509ba8ac9f58706fc3c5240e75e214",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0230.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0249",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0249.jpg",
+      "sha256": "ff7ac6428d3e30b4846752834878aee5753ce591484fa607538830049a5e23f6",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0249.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0252",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0252.jpg",
+      "sha256": "a6e692f41b46c8ffd8acbfc55308eb0ac7f256059a926bc45c060cf59f2ec127",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0252.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0288",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0288.jpg",
+      "sha256": "511e19bf4c5131a8a99bc4843c403300099582cba22760389ad317e9f387b912",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0288.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0295",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0295.jpg",
+      "sha256": "a5abce43bafd135d678843fbb8d7eaa30220cd27b18dc96a763888abeb241ca4",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0295.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0301",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0301.jpg",
+      "sha256": "224f5d37d04f6555cedba3151bc56ae393a0c456fc80672522b0d4950d5d597d",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0301.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0312",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0312.jpg",
+      "sha256": "0f527de22f328ee14bcd0e499ae31be60a5fafa31a7880717dbf4c82c990e1a4",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0312.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0315",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0315.jpg",
+      "sha256": "1ffc4c79dda8a4bd94a477f57476b573d619481196382d33f82cb3b43a5ba328",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0315.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0316",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0316.jpg",
+      "sha256": "9792f6042c4388dc46563602636bca41e85fb851062b91b9ccd4d21711897b12",
+      "original_size": [
+        225,
+        225
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0316.png",
+      "preview_size": [
+        225,
+        225
+      ]
+    },
+    {
+      "image_id": "0328",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0328.jpg",
+      "sha256": "91ea5189f38fb71ccc16e978224296f39c8cab05a5440b48496c9ad304b6e9c7",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0328.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0345",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0345.jpg",
+      "sha256": "7420613ea39a7e78fffb80bace05cb1dc2904542d4aa6e713af5b19ce9dc7867",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0345.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0347",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0347.jpg",
+      "sha256": "214dff2b9edd19e278f1d200b09c508b513854c5bf7ef7ea20621778c82131d6",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0347.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0361",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0361.jpg",
+      "sha256": "386a7d167e4752d0594fa87b5342aad2238a1ef6e556f60709f2068481f5f9a1",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0361.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0382",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0382.jpg",
+      "sha256": "dc53480b6711465447ecf8e5e78dc0f26181854c88c3088757fe9d4788decc29",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0382.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0410",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0410.jpg",
+      "sha256": "4134baf664ebd4d29c3d1801cc42cad037f19944137c25a5b66af5cdf1b382e7",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0410.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0415",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0415.jpg",
+      "sha256": "1becdd5a65871c0462b5c9fb0146ab1c28e51a25a3724d9c3373ed95c1d61afb",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0415.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0426",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0426.jpg",
+      "sha256": "917d31aad55bea2115e30e8e45c31e33393c0add2cd36998c21e368862bd9acd",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0426.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0446",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0446.jpg",
+      "sha256": "4fd2665b74ce7bae673fef683ab4450d476833af58f84a2d2973f315180d2347",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0446.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0449",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0449.jpg",
+      "sha256": "38d2ca61d8cf803ce836d6d94c2970dfa9d39b6cd690648b4c31a6e69cffe14b",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0449.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0459",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0459.jpg",
+      "sha256": "708486ad483366d2c1327d2734a5a96944439540ca53ed35c040619d1bceab3d",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0459.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0467",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0467.jpg",
+      "sha256": "017d0b9816e8ec289503d17466ef54ec29a92d3f7cb47f00ee9158cbbe987a02",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0467.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0471",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0471.jpg",
+      "sha256": "1b97e0a7e3507cd07f36f0262360e24b12d5059c2b9368ed3da6d4718bba2d33",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0471.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0475",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0475.jpg",
+      "sha256": "2c7354dc1d7adfc0d2427ef4700ce954cf26f22d8c82684b770a823e24969e44",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0475.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0497",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0497.jpg",
+      "sha256": "e893064ca83c37a850d902b7cbe60fd8e2bba2bbbb158f9b13b181fb2701f6dc",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0497.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0502",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0502.jpg",
+      "sha256": "bf3e77be7104b7152e78725bef62f7c805803b32968ae39a3b2fc902ca1d0ea1",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0502.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0506",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0506.jpg",
+      "sha256": "251310e9f5e38e62ff302090e6700b95280a452a1552fe0fcdf027fe77185218",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0506.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0510",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0510.jpg",
+      "sha256": "d0041483143ba08b3f930854448defe33870d1b19346124f02639e04d18b38f9",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0510.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0512",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0512.jpg",
+      "sha256": "8fdd74dd9dba1193cf5496e80243c1b19b754a622cc3df2f2c6f7e451870ee2d",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0512.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0515",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0515.jpg",
+      "sha256": "6c657b9b9e67dbd14dc70186dcb200e78205a40fe7606206f2a645c045bdae86",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0515.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0521",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0521.jpg",
+      "sha256": "4dcc500d72e88e790c5a2446ba4bc02f6e2e00e6d7ef6e14e2eb735f309c2874",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0521.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0542",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0542.jpg",
+      "sha256": "c303211569c62443c22efe25e8439e83833d45d889cda3e656e90aca55911b28",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0542.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0544",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0544.jpg",
+      "sha256": "9b0d3bd05d2efc71c1110adb11319623f81d6204d7adaf7d85773eed243fce6e",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0544.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0551",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0551.jpg",
+      "sha256": "132d888f5ef370838c2637b148e166291d1a1573b95df3bd4620edb90f20685d",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0551.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0554",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0554.jpg",
+      "sha256": "7b9ec51dbf2e61a226ad4c9a96fced2cf3bd5f2e60b8d65f373062c40579041c",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0554.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0555",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0555.jpg",
+      "sha256": "f6f88f0695a8f4e90a67ed152d07f261f7fdac7053a4125c292d4ec0db15ad9a",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0555.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0568",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0568.jpg",
+      "sha256": "1a57e13e365c1e5937e532ba87b7137abefacd3754285f78c36b28908dd10dcf",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0568.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0575",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0575.jpg",
+      "sha256": "7297bb8cae2261369a2a587f13cb92076a51a76b70642e172b9bf5f8ec9ccecd",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0575.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0594",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0594.jpg",
+      "sha256": "d30efc1a5702001b12fc6a110e8fa3e62b05be860deaf23bee28648f0bc51864",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0594.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0620",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0620.jpg",
+      "sha256": "cd945fcc12c756402f7b4c8484c0c04599cb6f79b1b793b298530a67d0ce6687",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0620.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0631",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0631.jpg",
+      "sha256": "18ef20ca8e80ea4bcccc9f6d062125ecd8f293e4f4ec36b23383fa52356a2f1f",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0631.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0641",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0641.jpg",
+      "sha256": "1b59b8bce9bcad81d3802df662e3a70b7545ee14d93955e09ebae4b8328ef25a",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0641.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0643",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0643.jpg",
+      "sha256": "6bbd7d2153641ed791486cd068eb6d5e5567d56233a647abc18ab2a31d628faf",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0643.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0646",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0646.jpg",
+      "sha256": "f69a9f15907578226e45a3f9489fc87060e87c60f74f2b7f22a9ebd25e1065d6",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0646.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0656",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0656.jpg",
+      "sha256": "eeb355c894520e2777f0d052d3a1246e47d0e7825d3a71cce4313c84849ce9a5",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0656.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0667",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0667.jpg",
+      "sha256": "f635187ef6b1fd672efe1ea28e7ad440241f1fff6c9dada23668f5c948c72e7e",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0667.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0671",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0671.jpg",
+      "sha256": "019efb8455e25a752e5b9ab3749684000488ee59e9886ea42036e65037747a0d",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0671.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0681",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0681.jpg",
+      "sha256": "7239613440759cf06465f2977e35c3810d5964dad3b9a105b1c48c8d0ba549b3",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0681.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0697",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0697.jpg",
+      "sha256": "824d49124ff0f108914b1e46142d2d22815cd90d608abcf0646d8354d7454e87",
+      "original_size": [
+        225,
+        225
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0697.png",
+      "preview_size": [
+        225,
+        225
+      ]
+    },
+    {
+      "image_id": "0700",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0700.jpg",
+      "sha256": "8d48035e1fd68decc197557c888e6c47723e0aa5026da041b0ddd65a4395c681",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0700.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0708",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0708.jpg",
+      "sha256": "34896222afdea96d656b5c61f2df4643c035e831bc2e308e5bfbcbfc9285d817",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0708.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0719",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0719.jpg",
+      "sha256": "6e8fa148bab6d435c2619ef936a14de7b564b4d501c77f96cbc7a7d31d286485",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0719.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0728",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0728.jpg",
+      "sha256": "d00798ce0a2dbbb09bfbec3c8f3840a40f545931ce8e4a8595fc93fa24408276",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0728.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0733",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0733.jpg",
+      "sha256": "081ca30ad9c64dee9aa42479b81b91be751ec31fef325caf5569aef0be08c42e",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0733.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0748",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0748.jpg",
+      "sha256": "e3b4f1f4b8f9b1ee5fcbb6b8fd427d80ac47bcbb832de9fe4a768d774a5e6652",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0748.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0759",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0759.jpg",
+      "sha256": "168e1fb4f555d92d5ec2772b5cf12d507ea2659302a1f2d0cd44216f69a36a23",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0759.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0761",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0761.jpg",
+      "sha256": "e0cb06031878696a020a9ced22f8e8a8b8560dc0184d75621fd6b6b3e8340f2b",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0761.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0764",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0764.jpg",
+      "sha256": "af6961f1b42e1c7f44099642738f817202b524061d059301fd73636bc4e358c9",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0764.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0770",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0770.jpg",
+      "sha256": "7e7847c78360247049308e031fb385e1cce701e1b0b882c921222edacb6a3fb5",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0770.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0782",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0782.jpg",
+      "sha256": "af3a0edc94c6d8f561fcce3b12a035d68326a46b825ea97b39a1d5fca5da054b",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0782.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0789",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0789.jpg",
+      "sha256": "dd984b589cd9738707ab06451fe5fb2820614dd90f638e2139d3ef00c3695b7e",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0789.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0790",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0790.jpg",
+      "sha256": "afef025166381658e968dac39668b60ec7616787b0be9cff607c1e0e6d12d0d9",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0790.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0791",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0791.jpg",
+      "sha256": "c0f91fdc8bdf396d8a5a0fc22f28804ec0e0546d477812e39cf80cdef4371d12",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0791.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0812",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0812.jpg",
+      "sha256": "47b65f64ef6afc281efa46ca40a97ba620aa1adacc064646e9d4298f07421ba6",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0812.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0815",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0815.jpg",
+      "sha256": "6da0771669d19a57d582e4c597dca1b67e2f1c0f540967e5cc7abb98038af72a",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0815.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0824",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0824.jpg",
+      "sha256": "24ecaa44ffed60f60e770dddbd3eaf173b77eefa752ddc49de0d3f58afed48bc",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0824.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0843",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0843.jpg",
+      "sha256": "a2d305b3a2c7435f7edb7aae5d4d1605e0ef056c7c1f6c6f2bd0c4e07cd1230c",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0843.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0863",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0863.jpg",
+      "sha256": "cbb0329a01a68279aaf93288252e52522d14d22eb9a5d1f1e5f87d478e1cb4c7",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0863.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0871",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0871.jpg",
+      "sha256": "dba58167f834ccc0f39663b8a9035893336c768bf20d156aed69d27591df689d",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0871.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0910",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0910.jpg",
+      "sha256": "9476dd7894f53c133ef8790226271ee61743b5214d4767a4ad75d9b494ca356e",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0910.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0923",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0923.jpg",
+      "sha256": "93e5e6240f7b291cf41ecd0aefd352daa5f2cbc6fa78a2f5314e759fded6f3e5",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0923.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0926",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0926.jpg",
+      "sha256": "e8edad1fd58abbcaf56df36ad288e4d8bbedc64190ac5b4507ad8a254a01a003",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0926.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0932",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0932.jpg",
+      "sha256": "f69c2793b9a0d44f5408522b224f30341b2081d41e097a5319f46da292c4c753",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0932.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0935",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0935.jpg",
+      "sha256": "281413cb116589fac9382abe0f639e1f9dec12e433778cf5af8b1b4da9214a23",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0935.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0951",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0951.jpg",
+      "sha256": "f8162e54adfd8ae6387521cbf8254a8cb4b39abfc82a2d4c2a730ab7a749fa4a",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0951.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0956",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0956.jpg",
+      "sha256": "80e9e83bcc04384da95dba07ff72821e88901a3daeac5a71e5e7bbffe6c1996c",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0956.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0967",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0967.jpg",
+      "sha256": "bbe515654f39b4726ba6fdc0b1ba537be12451339a3baf0eb708815b9f7ba906",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0967.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0982",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0982.jpg",
+      "sha256": "f0fa79db8ae55611f02a24aedec91a73a58e89562b3e7d4ad9d6adef69457ff8",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0982.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "0983",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\0983.jpg",
+      "sha256": "04d357d3a2c5ed116e5e187259ac9cc45dd68b32fcef144c8de210a52119164c",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\0983.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1001",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1001.jpg",
+      "sha256": "daca19b1ea272c937cd7bacc5a6404e9a0a020f214fc95aae996b30990ad6650",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1001.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1002",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1002.jpg",
+      "sha256": "ea70cfcb392b68b19a002b2bd9ef4c4567858eea5479bf77237dc9c8a46dfe6e",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1002.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1012",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1012.jpg",
+      "sha256": "b23352a0294c014c13d7d9ce343dc94462117125eef7214ad7c0de3182b50364",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1012.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1030",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1030.jpg",
+      "sha256": "4489089ed617ab099a655a842545eacb8639a07575afc739eab1c6bd5fc3e838",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1030.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1041",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1041.jpg",
+      "sha256": "ae887690f684b981e6082fd7073c8538a91005b37621c82d6fa454b3b664b512",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1041.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1057",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1057.jpg",
+      "sha256": "84755364b158cadee129cd2d3fc47a49070f07ddabac0b7e58a0b7a26515b407",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1057.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1070",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1070.jpg",
+      "sha256": "35405a2763e6925153938526879e6a68bcfe59b2430a71fe1fdfae7415ef8324",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1070.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1071",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1071.jpg",
+      "sha256": "ba39be2152747a3028e6eb9d5a34f7d522f47a64d83491b7ed1118aa1458f7a3",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1071.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1072",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1072.jpg",
+      "sha256": "8e91223a5bd27c247ac6ccadb45898f8311d5a8e2f833502197664f2b5960503",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1072.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1087",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1087.jpg",
+      "sha256": "b6bd197ecebfceea8c544f428ba9974341b3e71f5ba01c0d302d338d0ba69115",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1087.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1088",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1088.jpg",
+      "sha256": "dd653f7642d3c9e8e13d3fde5f352b27d2cbde48d0a32c088d4a0006d4c755fc",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1088.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1106",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1106.jpg",
+      "sha256": "2cd51fd45b91b2026e713a8fea15575d0d228f0d1374a13bc9884e285e732e99",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1106.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1127",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1127.jpg",
+      "sha256": "1853dfb61e43f01e1beddb91febb0084a8fea77110b3d575f78cfc11219828bb",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1127.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1132",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1132.jpg",
+      "sha256": "6aa0d37d872efe8e2506fa572bfc8bf8178c0e887bf7cac6848c7516de1d4189",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1132.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1139",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1139.jpg",
+      "sha256": "61de1c4a75f3cf1012f3c898be9e965472dfa1bb52bd8dc21214a54856dfa9c8",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1139.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1146",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1146.jpg",
+      "sha256": "acda86312eb6d6f908c313fde341e6ac5471ad15946f90cf33f59307bd0bf003",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1146.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1177",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1177.jpg",
+      "sha256": "fc61cfbf532e6c1a05f36c727ea6beb09a6f71b4fd80c98550bc80f7c4b8079c",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1177.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1182",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1182.jpg",
+      "sha256": "80ab9461323d6405f3ffd73524df93cbc9961f43df658f559d030ff58a666473",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1182.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1186",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1186.jpg",
+      "sha256": "5d8dbe1d4788985ff52b6aa1b35313b5379d1f6662ca39dc975ce1d6e1e98aa5",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1186.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1188",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1188.jpg",
+      "sha256": "6c96eaeb35984bde48c50e23c00454da94545e37c032b10b5c2faf69f2c998a8",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1188.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1190",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1190.jpg",
+      "sha256": "89b47de51d87c93df8a322d0a302209761bd77407325e8edfb3ea0cfde348bba",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1190.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1194",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1194.jpg",
+      "sha256": "40213239f34cea7aa316c4838a9c6f38d8817a22a377d4448a9857210e39ad41",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1194.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1199",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1199.jpg",
+      "sha256": "dc83b4eb10ec7dc785895d67126a295cddb3e5ecda82d581c9f55b4b87ac7dd7",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1199.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1208",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1208.jpg",
+      "sha256": "cc5acf8176c1e845bf36f4ac42cd84c28b463a0812c1abc67c69e5b67024fb73",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1208.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1238",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1238.jpg",
+      "sha256": "480bda2e14935273889d7c15b652e86f0c62c70bcd4411084b3c3fd03694a5d3",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1238.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1239",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1239.jpg",
+      "sha256": "6b902d775df35d0cdc579dd782d1493b5a5021a653faa17a696873dfd2c7c27d",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1239.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1278",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1278.jpg",
+      "sha256": "0b60ca6ec264bd7056dd2ec0f755067f8f92cc9a41346611540902a72b016379",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1278.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1280",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1280.jpg",
+      "sha256": "2a67e6d1582f9b97c47bfadf3ccadc2241dc245029b8ae0785e1e1fff0d45e33",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1280.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1288",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1288.jpg",
+      "sha256": "d9477d883f484175e3fbd7c36d9e55e5f203de570dd1b8ca49b9ebe72651974d",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1288.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1289",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1289.jpg",
+      "sha256": "214b8ef6d3db8012869180f20f90850c53fe46d54ba7929c419b1c65c3ccaee2",
+      "original_size": [
+        275,
+        183
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1289.png",
+      "preview_size": [
+        275,
+        183
+      ]
+    },
+    {
+      "image_id": "1292",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1292.jpg",
+      "sha256": "5db191c450ca862b01d4333f3cc0f27bb39a3e2ee23a9367ee9d9c1a89d0b440",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1292.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1294",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1294.jpg",
+      "sha256": "2fa5ae439ccc83d09a0876dabdb098d2f482076cf6c5d304995fcd923dc26a20",
+      "original_size": [
+        225,
+        225
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1294.png",
+      "preview_size": [
+        225,
+        225
+      ]
+    },
+    {
+      "image_id": "1305",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1305.jpg",
+      "sha256": "0275b0204ce044612f238fdde0f1cece028642a26e339a58b6732f18e2611a53",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1305.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1316",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1316.jpg",
+      "sha256": "29ad8fb923588c3a3747ba80a720eaed0dc7b2a6301b517ca1260a7b231e3b1d",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1316.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1323",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1323.jpg",
+      "sha256": "88439def9fb49b51855f6d5114aca77a14f6d6ba30291b964a1503f82fbda359",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1323.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1364",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1364.jpg",
+      "sha256": "2f461d16769063e55cf6c1a533e5f5aebe6e9289528eaa06eb135edc2e34a148",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1364.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1374",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1374.jpg",
+      "sha256": "5baac291f690f3a4fb0f318955d29da6939c9fa3dab9132561fe86c21f6eb2e8",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1374.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1377",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1377.jpg",
+      "sha256": "d62508ca9c480ff79681219fee47184558c29da1d2336030adb6888151e6d471",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1377.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1386",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1386.jpg",
+      "sha256": "dced04898e213e2abe105b737c186b1d470b6d378eed28a2490922a407d02b00",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1386.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1389",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1389.jpg",
+      "sha256": "b1904bf8164bccd638a7c6a6ea7e7d360d9ee2c71bdd10b9227de968c1423638",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1389.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1400",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1400.jpg",
+      "sha256": "1a1a5ff80c7f3dea822138efbc1822df4cc59bc859329296ad5ee7230bc0add0",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1400.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1406",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1406.jpg",
+      "sha256": "03f02f751d92df809c18a4595700e27e7c0f50bbeba63bb6ca2f2b95237aae40",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1406.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1418",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1418.jpg",
+      "sha256": "6da46c92f5b43fcd898e205262da1538a3421384d01c9c12a56ff33ea702f729",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1418.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1423",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1423.jpg",
+      "sha256": "7a561a83566e715051dc2be2f204b3c731750c4b46690515f0bf8e936b04e913",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1423.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1431",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1431.jpg",
+      "sha256": "b483df1ca2724a5f5d2f1bf0f94dd252946a323a7f279a2754eaedafffd7753c",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1431.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1434",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1434.jpg",
+      "sha256": "a6d4f7b203da9c60fdad11ea0f96c9c188a50223b300f7119767588ce4b5dbf4",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1434.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1435",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1435.jpg",
+      "sha256": "b505f1b9afb3c4497cd7c011808552b66f871999ab6a0fad23378cfcc275acec",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1435.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1437",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1437.jpg",
+      "sha256": "f87a43493555c00ab714b050f6da75db7f6ec6a25efab3e300b429c7509a0858",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1437.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1441",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1441.jpg",
+      "sha256": "30caae216dc4422ce11eed71833ba3d50024ed768eda37e95c2f95845bc807f6",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1441.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1442",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1442.jpg",
+      "sha256": "285775e287051aaf0d15f16b94f1b1d1050dcfae9d29225ef48e8cd5de86cd64",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1442.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1444",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1444.jpg",
+      "sha256": "67b2e01863f7c5b48ce7881a0b8ead1124dd0ecd58ab8848d205325cd32d5e2c",
+      "original_size": [
+        250,
+        178
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1444.png",
+      "preview_size": [
+        250,
+        178
+      ]
+    },
+    {
+      "image_id": "1464",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1464.jpg",
+      "sha256": "32c9304313c0e104cd0d0ee7ceb77e36b8cee978cd1866103b5f74acbffd25a8",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1464.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1466",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1466.jpg",
+      "sha256": "44b29950529769609a8294b0916e1e4b7529a834d7eebf69a7954bc0b6d0b9b9",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1466.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1467",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1467.jpg",
+      "sha256": "8960dfa859b46ac1ab6e1a77009f818e6df1b0aff126e9ed9041a14cb45093e9",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1467.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1470",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1470.jpg",
+      "sha256": "59766a7ac8e0307e8e5d281cab1617f0f65aef117addab5ce08a97ed464f2db5",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1470.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1477",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1477.jpg",
+      "sha256": "373777c010738ed69a37b9e5980fde7af5099b37922fefb168e9714f664cee5a",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1477.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1492",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1492.jpg",
+      "sha256": "5905cd501f3a4db4ebb4fff5fd77240771a5144c580d3d93e69fe007745c4761",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1492.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1497",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1497.jpg",
+      "sha256": "846a95ef67fa3c0446a57f69e16424256c1494eef8866720fb3d1ec769657107",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1497.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1542",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1542.jpg",
+      "sha256": "a0745bc92ed915e6330f180243d41afd52c98636f87dbc76c808d11a5ea556d3",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1542.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1543",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1543.jpg",
+      "sha256": "f4b102fbe3ad9f940926020c9ca91e370aa14941cd66b7d1e49023ca5ff60583",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1543.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1547",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1547.jpg",
+      "sha256": "93a7459da069636e1b98174df6d202205dbcdba4ae0c48b31341fa462890c70d",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1547.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1551",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1551.jpg",
+      "sha256": "4e22fe823ee1297e09c4349e23c75398a7060ff0e12ef521c38e2ee418e271e6",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1551.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1560",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1560.jpg",
+      "sha256": "dc089fa32e4d8e2dc4632859825136e752fa7278d9aeee35258a9cab2f1e71c3",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1560.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1564",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1564.jpg",
+      "sha256": "605e6c4b91468b55dcdbf0d78f18adea71787dba6984e5c9fbfd85206f8ea92f",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1564.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1566",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1566.jpg",
+      "sha256": "6eb99ac39472cb0ced303dd43f533cd3a9853166a8aff42132efa6b8ed00e3aa",
+      "original_size": [
+        225,
+        225
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1566.png",
+      "preview_size": [
+        225,
+        225
+      ]
+    },
+    {
+      "image_id": "1582",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1582.jpg",
+      "sha256": "22f42f910a8e8b1be158b2aa70198f8b3dbfd6e31a054c62eba8b6a322e2c400",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1582.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1595",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1595.jpg",
+      "sha256": "4f805115bbda532fdb95d7a57f0750a1978eefeebb57f2a6fd0b5c445cf11823",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1595.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1596",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1596.jpg",
+      "sha256": "d50b27e4cb3016da3e66187a8ca8a147c8ceafd1117c7b8e7b5777a6ac2b776b",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1596.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1597",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1597.jpg",
+      "sha256": "d9d6476f2b7cd5ebb219b46ce19e29167c5764979694d6946bfa617c20c253d0",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1597.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1612",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1612.jpg",
+      "sha256": "8dc3bb3a6d23727c4516343a4e08a49f1a1c2c883a84d0327742ddf0c9712a01",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1612.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1615",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1615.jpg",
+      "sha256": "7dd61560a4495cc8fdc0b6ccc1bf26487ce4298c4900b328e23dae5be976e722",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1615.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1622",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1622.jpg",
+      "sha256": "5129e314955f7b23b02e4d1e37cf5fd30296d0ace9204ab885c0782f1f55715a",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1622.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1628",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1628.jpg",
+      "sha256": "6796ea811824e1677bae816d70c66ad2e59b1938597b7823086d671587bb666c",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1628.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1641",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1641.jpg",
+      "sha256": "217748ea3fe739c74357d4ac3e85b4d46c20a03c1f51a6ca404bd46e3e11b3b9",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1641.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1649",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1649.jpg",
+      "sha256": "58f431e389f96e20282e36f8e50d93346a05c8d8952ba94cbbcb61c89c83cbb5",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1649.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1652",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1652.jpg",
+      "sha256": "28d8f506522c2e145f671d35b7501f27fa8e9674f20be9e0250a8c8be08d5b7d",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1652.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1656",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1656.jpg",
+      "sha256": "c0cf75a80c5f48c3fd46a7545a21f6ddaf96ea76a66d13a39744e4f981e9b7d6",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1656.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1666",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1666.jpg",
+      "sha256": "2d32012e5d7ebd9460cd1365f2a3b02268569466960a910453361baf798725cc",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1666.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1671",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1671.jpg",
+      "sha256": "744685d25d7e8a664707de192fae2a6e0a8f6742c93cb82153c2e194eb19ba52",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1671.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1672",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1672.jpg",
+      "sha256": "4894275a604a9c4dd5e55b2a29cd13b07dc75ffd9752065010e0bf1904e17cef",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1672.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1673",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1673.jpg",
+      "sha256": "7e187652faa756d24b59f21aec40c6eec843258a63def4d4aa87c56cce1dcdd5",
+      "original_size": [
+        283,
+        178
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1673.png",
+      "preview_size": [
+        283,
+        178
+      ]
+    },
+    {
+      "image_id": "1674",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1674.jpg",
+      "sha256": "c4d978fb985cfb8284e5a4795fad6b1333e3cab44819e62ada5adbaaeecfac6e",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1674.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1680",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1680.jpg",
+      "sha256": "ae7d2ff30267f2f3cd28b9c4ef1f6d64a54b37110a76bef890b39f557ac9b12d",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1680.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1696",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1696.jpg",
+      "sha256": "155b81be4f3895f6dd68745e1b79d8019b45389ca92dd2033cb4e458ea96bd98",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1696.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1704",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1704.jpg",
+      "sha256": "393c714a18812320187b211ed88e33083a4461542f67f4cbea6a77c9f0d3954d",
+      "original_size": [
+        225,
+        225
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1704.png",
+      "preview_size": [
+        225,
+        225
+      ]
+    },
+    {
+      "image_id": "1713",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1713.jpg",
+      "sha256": "68f502c8106b57f02d343a0a656bb9531dba4d585b26302a7fd2939b820226c5",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1713.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1715",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1715.jpg",
+      "sha256": "4e20544b808adf50211fc1de30574a6859c1f2818515ae21f9617f86bfeff9f7",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1715.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1718",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1718.jpg",
+      "sha256": "d2ecf75a4e982b6ec7154aaf38258a2396fbfb4b54b8440adfb3a836d3a4becd",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1718.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1725",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1725.jpg",
+      "sha256": "ddc298ed8a1e474acb01cc845abad5c2ee4d8552004e17f57d6ebaa7ea983412",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1725.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1747",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1747.jpg",
+      "sha256": "225c80e1dc40ad2d64c9234b6e422df37fd46425c408535302a6af4bb4222ddf",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1747.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1748",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1748.jpg",
+      "sha256": "30672c7368d3da861bb3ce076b7a8badc6ecab3a031207ecae05b7f7c8f1bddd",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1748.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1756",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1756.jpg",
+      "sha256": "bac2867ccaea90ca1c63d4f0bcbad49c5ae3c89060598edcf6360a62828f03dd",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1756.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1763",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1763.jpg",
+      "sha256": "5d501c0474c586b5adfdca41e6b50d682293affea8d702138fbefae745b7ea8e",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1763.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1765",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1765.jpg",
+      "sha256": "ba5ccf8e0af8bd71a663eaa95d909dfee6ebf49c38894ced48c9527c9fff56fa",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1765.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1787",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1787.jpg",
+      "sha256": "e62a88930a45725542a335101c7264e12350e81e2dea2077cb10e9d92889d7c9",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1787.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1789",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1789.jpg",
+      "sha256": "6ab59dbde1ee168a409038e129d6c059a4c26daf5ec674b0aab0928b68b3c372",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1789.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1805",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1805.jpg",
+      "sha256": "6da8ad8f5bea0fd825c4783d39180e7406e1241f76997748b1ddcc0a3f9fd78d",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1805.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1809",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1809.jpg",
+      "sha256": "96625fb2a87a16df505b65f3dfcc0ece5cae00268de5211910f86bd121443073",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1809.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1820",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1820.jpg",
+      "sha256": "442e955ba98a9d086a5aa09b39f7abace7a0ddc1cc704d173906c5c5b77281e1",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1820.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1822",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1822.jpg",
+      "sha256": "c3c6936eb9f5f9415ee4606ed68ae0adf3a733b92d591a4a92ed3690fb480b72",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1822.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1825",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1825.jpg",
+      "sha256": "92036f155e9ee8dde5f17b67d05eb0711b8d3d59f867edca3bbca91ea172dc50",
+      "original_size": [
+        345,
+        146
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1825.png",
+      "preview_size": [
+        320,
+        135
+      ]
+    },
+    {
+      "image_id": "1835",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1835.jpg",
+      "sha256": "56d7bf3709f427b936038c0cb222e7ee3cf0e6735a4e654053e37ce04665318d",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1835.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1863",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1863.jpg",
+      "sha256": "6881f3e5f2f803e8d5e962c63932f806173900b1cf9c56ddba4673d538776dfd",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1863.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1882",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1882.jpg",
+      "sha256": "bfbc05f63daa71d3b1b9e83829ae7c98f195b072da7768b911c3be0e1b45560d",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1882.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1890",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1890.jpg",
+      "sha256": "27b64ad6a6c8f5a69c9c688624b72f1a99be487b68f0870fcc7823ad2178a6d0",
+      "original_size": [
+        484,
+        484
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1890.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1899",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1899.jpg",
+      "sha256": "1f44b9b193cff33addf457728b0b784ecb021ebba177ffc822d67b15b8a76010",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1899.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1901",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1901.jpg",
+      "sha256": "1cfb363526b3653b2f64b6ee92c56de25a765fc7ddd321ba7ec5626bd7dfc12c",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1901.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1908",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1908.jpg",
+      "sha256": "018d2030dab00fba3debe48e1fee8312723155bf343b51bceb39885f2274feda",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1908.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1911",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1911.jpg",
+      "sha256": "ca6e7a55470ec10051fad5ed768c4f9044935d2aca735fc243baaaa8b6cbd8c5",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1911.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    },
+    {
+      "image_id": "1918",
+      "source_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\train\\label\\electronic\\1918.jpg",
+      "sha256": "e50849cb94af88e9ae5dc629a1ab5b7a43f043aea39353670c43846b98014ac4",
+      "original_size": [
+        640,
+        640
+      ],
+      "preview_path": "D:\\lomba\\NSC UB\\GELAR-RASA\\output\\runtime\\electronic_audit_20261106\\previews\\1918.png",
+      "preview_size": [
+        320,
+        320
+      ]
+    }
+  ]
+}

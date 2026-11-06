@@ -1,6 +1,8 @@
 # Audit visual pribadi arsip cardboard ? 6 November 2026
 
-Sebanyak **272 gambar** pada folder cardboard dilihat satu per satu pada preview proporsional maksimal 320 px. **62 kandidat** dibuka ulang dari file asli; setelah tinjauan ulang, **49 tetap memerlukan keputusan manusia** dan **223 tidak menunjukkan masalah jelas pada pengamatan ini**. Tidak ada label benar resmi dan tidak ada klaim 223 telah dipastikan benar.
+**Keputusan pengguna setelah audit:** 268 diterima sebagai cardboard untuk referensi pribadi; empat tekstur **0134, 0298, 0545, 1043** dikecualikan dari kandidat train berikutnya. [Rekap keputusan](user_decision.json). Seluruh file asli tetap disimpan; belum ada pelatihan ulang. Preferensi audit berikutnya: nomor menaik tanpa kelompok masalah atau prioritas. Bagian berikut adalah riwayat peninjauan visual, bukan daftar yang masih menunggu keputusan.
+
+Sebanyak **272 gambar** pada folder cardboard dilihat satu per satu pada preview proporsional maksimal 320 px. **62 kandidat** dibuka ulang dari file asli; pada tahap visual tersebut **49 memerlukan keputusan manusia** dan **223 tidak menunjukkan masalah jelas**. Tidak ada label benar resmi dan tidak ada klaim 223 telah dipastikan benar.
 
 Sumber ulasan: pengamatan visual asisten/LLM atas arsip lama, atas permintaan pengguna. Ini bukan label cluster algoritmis, anotasi panitia, target pelatihan, atau pengesahan metode kompetisi. Keputusan manusia atas catatan ini tidak mengubah asal anotasi menjadi hasil clustering. Semua gambar, kategori folder, model dan prediksi aktif dipertahankan.
 

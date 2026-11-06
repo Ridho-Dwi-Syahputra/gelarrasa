@@ -1,0 +1,11 @@
+{
+  "version": "quality_filter_v1",
+  "decision_date": "2026-11-06",
+  "decision_author": "user",
+  "excluded_train_image_ids": ["0134", "0298", "0545", "1043"],
+  "reason": "User excluded four brown texture-only images lacking clear object/material boundary after reviewing the cardboard archive.",
+  "applies_to": "future_candidate_training_population",
+  "keep_original_files": true,
+  "existing_models_retrained": false,
+  "label_archive_promoted_to_active_target": false
+}

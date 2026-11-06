@@ -1,0 +1,21 @@
+{
+  "status": "completed_private_visual_audit",
+  "date": "2026-11-06T16:45:39.146329+07:00",
+  "category": "electronic",
+  "source_images": 211,
+  "individually_viewed_previews": 211,
+  "original_images_reopened": 5,
+  "no_obvious_issue": 208,
+  "needs_human_review": 3,
+  "pending_image_ids": [
+    "0951",
+    "1696",
+    "1890"
+  ],
+  "display_order": "numeric_image_id_ascending_without_groups",
+  "source_hashes_unchanged": 211,
+  "existing_model_and_contract_unchanged": true,
+  "new_training_targets_created": false,
+  "official_ground_truth_verified": false,
+  "new_submission_created": false
+}

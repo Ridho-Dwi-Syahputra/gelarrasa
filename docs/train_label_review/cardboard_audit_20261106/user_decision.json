@@ -1,0 +1,14 @@
+{
+  "source": "explicit user decision in conversation, 2026-11-06",
+  "reviewed_class": "cardboard",
+  "archive_images": 272,
+  "accepted_for_private_reference": 268,
+  "excluded_for_image_quality": ["0134", "0298", "0545", "1043"],
+  "pending_user_decisions": 0,
+  "original_files_retained": true,
+  "new_training_run_performed": false,
+  "official_ground_truth": false,
+  "active_training_target_promoted": false,
+  "next_requested_audit": "electronic",
+  "next_audit_display_order": "numeric_image_id_ascending_without_groups"
+}

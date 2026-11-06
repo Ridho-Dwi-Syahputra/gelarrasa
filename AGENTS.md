@@ -1,5 +1,7 @@
 # Petunjuk proyek GELAR RASA
 
+Preferensi audit label terbaru pengguna: daftar kandidat, galeri dan CSV diurutkan berdasarkan nomor gambar numerik menaik; jangan dikelompokkan menurut jenis masalah atau prioritas. Sertakan alasan singkat per nomor.
+
 Pada setiap prompt proyek ini, cek `docs/skills/custom/gelar-rasa-skill-router/SKILL.md`, indeks `docs/skills/README.md`, dan aturan aktif `docs/skills/references/RULES_AND_RUBRIC.md`. Pilih skill yang relevan; gunakan bacaan yang masih mutakhir dalam konteks, tidak perlu memuat seluruh vendor atau mencari web setiap prompt.
 
 - Metrik utama Accuracy; target delapan kelas. Jangan mengimpor KS/aturan lomba lain.
