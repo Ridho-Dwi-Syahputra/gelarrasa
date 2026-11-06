@@ -1,0 +1,36 @@
+{
+  "checked_date_wib": "2026-11-06",
+  "sources": [
+    {
+      "title": "Invariant Information Clustering for Unsupervised Image Classification and Segmentation",
+      "authors": "Ji, Henriques, Vedaldi",
+      "year": 2019,
+      "url": "https://arxiv.org/abs/1807.06653",
+      "official_code": "https://github.com/xu-ji/IIC",
+      "access": "Official code README and primary-paper abstract; CVF full PDF returned403.",
+      "finding": "Auxiliary overclustering is a documented component; this experiment tests only coarse/fine prototype geometry, not the full objective or auxiliary head."
+    },
+    {
+      "title": "SPICE: Semantic Pseudo-labeling for Image Clustering",
+      "authors": "Niu, Shan, Wang",
+      "year": 2022,
+      "url": "https://arxiv.org/html/2103.09382v3",
+      "access": "Primary full-text HTML, sectionsIII-B/III-C and IV-E/IV-F.",
+      "finding": "Feature model and clustering head are jointly trained after reliable pseudo-label selection. Frozen-head refinement alone does not implement this stage; reliable pseudo-label quality remains critical."
+    },
+    {
+      "title": "Material Recognition in the Wild with the Materials in Context Database",
+      "authors": "Bell, Upchurch, Snavely, Bala",
+      "year": 2015,
+      "url": "https://arxiv.org/abs/1412.0623",
+      "access": "Primary-paper abstract/search text; no full-paper replication.",
+      "finding": "Material recognition uses patch appearance as well as context. Global/local descriptors are a hypothesis; external MINC images or material-trained weights are not downloaded."
+    },
+    {
+      "title": "DINOv2 official code and models",
+      "url": "https://github.com/facebookresearch/dinov2",
+      "access": "Official README and existing pinned local image-only checkpoint.",
+      "finding": "Global and patch features are distinct representations. The cached CLS vector is checked against re-extraction; patch moments are an original pooling adaptation."
+    }
+  ]
+}

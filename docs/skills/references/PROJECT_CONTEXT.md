@@ -1,5 +1,8 @@
 # Konteks dan kontrak data
 
+**Riset/ablation terbaru6 November:** stage5 menguji fitur lokal dan32 prototipe (18 fitting/26 kondisi). Student stage4 tetap terpilih; belum ada pengganti atau fine-tuning encoder. Homogeneity32 membaik tetapi completeness turun; bukan peningkatan Accuracy. Lihat `reports/errors/stage5_material_structure_20261106/RESULTS_AND_DECISION.md`. Notebook utama tetap v3 yang sudah lulus10/10; eksperimen stage5 dijalankan sebagai skrip terpisah. Jumlah pembanding student fulltrain:1186 sama,164 berbeda,570 campuran.
+
+
 **Klarifikasi pembanding:** pengguna meminta arsip dipakai untuk catatan perbedaan/ditinjau lagi. Antrean audit dipisahkan dari filter model. Seed-model-only: 1.233 kandidat, 686 cadangan, satu duplikat dipertahankan; pilot terpisah kini melatih empat head student dalam dua putaran tanpa label arsip sebagai input. Tampilan head terbaru bernama ada pada `data/processed/stage3_named_display_review/`, termasuk 0046 pada paper.
 
 **Terbaru, 6 November ? EDA visual v3:** notebook utama kini sepuluh sel yang memuat preview train/test, distribusi nama sementara, kandidat crop, serta seluruh 480 tetangga test pada tingkat piksel. Head v2 dipakai ulang setelah verifikasi hash, bukan fitting ulang. Nama dari interpretasi asisten diminta pengguna untuk EDA pribadi, dicatat pada `configs/display_label_mapping.json`, dan tidak menjadi target training/validasi/submission. Kelompok campuran dipertahankan. Laporan: `reports/eda/stage3_visual_20261106/ANALISIS_VISUAL.md`; bukti: `reports/reproducibility/notebook_v3_delivery_validation.json`. Paragraf v2 di bawah adalah riwayat.

@@ -1,0 +1,43 @@
+{
+  "started_local": "2026-11-06T09:34:13.644225+07:00",
+  "hypotheses": [
+    "Local patch moments may complement global object/scene features.",
+    "32 prototypes may preserve material subtypes that eight groups mix."
+  ],
+  "model": "vit_small_patch14_dinov2.lvd142m",
+  "checkpoint_sha256": "04d27f3400d059fc0cfd7d17dd1909a75bf3ea8fb3eeb48b97cb99e57ee20081",
+  "profile_sha256": "6dadfeaf3faf4bae6a1d15129a0d7540dba07f5cbd4589f1526482b6c5ccd9f6",
+  "probe_sha256": "52b9c0167b6406cb30879a8aa779c1424d604d87980623d210e7c46d8e4f3ff9",
+  "extractor_sha256": "27edacda664b9232e84d0d85e360f9330269f54e658acfff3bae1c245195862b",
+  "feature_blocks": [
+    "L2 CLS",
+    "L2 mean non-padding patch tokens",
+    "L2 std non-padding patch tokens"
+  ],
+  "views": [
+    "original224 all images",
+    "hflip224 existing random256 train",
+    "original336 same256 train"
+  ],
+  "fitting_policy": "No backbone fitting, labels, reference archive, display names, or test fitting.",
+  "background_policy": "Only padding excluded; remaining background is retained and can confound texture.",
+  "downstream_design": {
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "clusters": [
+      8,
+      32
+    ],
+    "feature_branches": [
+      "global",
+      "local moments",
+      "global .5/local mean .25/local std .25"
+    ],
+    "merging": "weighted Ward of 32 fitted prototypes to eight, not semantic merging",
+    "selection": "8 occupied heldout groups, min5, maximize .4 flip + .4 scale + .2 cross-representation neighbor agreement; development only",
+    "archived_reference_used_for_selection": false
+  }
+}

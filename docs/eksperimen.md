@@ -1,5 +1,15 @@
 # Ledger GELAR RASA
 
+## Uji representasi lokal dan overclustering - 6 November 2026
+
+- Atas permintaan mencari cara agar kelompok mendekati material pada pembanding, diuji fitur CLS, mean/std patch non-padding dan hybrid. Referensi tidak menjadi input fitting atau seleksi.
+- 18 fitting KMeans (k8/32, tiga jenis fitur, tiga seed), penggabungan Ward pada dua jenis fitur, dan dua kontrol memberi26 kondisi. Fit1538/development381 terpisah kelompok; views87 heldout. Dua puluh empat model assignment direproduksi pada2400 gambar.
+- Student lama tetap menang pada proxy development0,968946; hybrid32-Ward8-seed47 kandidat baru terdekat0,966736. Backbone frozen, bukan fine-tuning representasi.
+- Audit privat setelah freeze: homogeneity student0,6919 vs hybrid32 0,7946, tetapi completeness turun0,6961 ke0,4909; ini fragmentasi, bukan Accuracy yang meningkat. ARI student0,6041 tetap di atas kandidat tetap yang diaudit.
+- Tidak mengubah baseline, label aktif, notebook atau jumlah perbedaan student yang dilaporkan sebelumnya. Arah belum diuji berikutnya: joint adaptation encoder/head dengan pseudo-label algoritmis terpercaya, bukan arsip LLM.
+- Bukti: `reports/errors/stage5_material_structure_20261106/RESULTS_AND_DECISION.md`, `validation.json`, dan `private_reference_audit.json`. Fitur/model tetap lokal; kode dan laporan kecil disinkronkan ke repo.
+
+
 ## Pilot teacher/student dua putaran ? 6 November 2026
 
 - Klarifikasi pengguna: arsip sebagai pembanding; kasus berbeda disimpan untuk ditinjau lagi. Training terpisah hanya membaca fitur image-only, kelompok sumber dan pseudo-group model. Nama tampilan maupun arsip tidak dibaca oleh kode training.

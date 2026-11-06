@@ -25,6 +25,8 @@ Folder lokal `data/processed/stage3_named_display_review/{train,test}/` menampil
 
 Pilot self-training kini tercakup pada sel terakhir notebook. [Hasil development dan batas interpretasi](reports/errors/stage4_self_training_20261106/summary.json) memakai 1.538 train-fit dan 381 heldout kelompok; backbone tetap frozen. Kandidat dasar tidak diganti dan Accuracy kategori belum diukur.
 
+Uji lanjutan fitur lokal dan 32 prototipe sudah selesai: 18 fitting dan 26 kondisi pembanding. Student lama tetap terpilih; kelompok lebih rinci juga memecah kelas, sehingga belum menjadi pengganti. Lihat [hasil dan keputusan stage5](reports/errors/stage5_material_structure_20261106/RESULTS_AND_DECISION.md). Notebook utama tetap versi yang sudah lulus 10/10.
+
 ## Isi repo
 
 Kode, notebook dengan preview tertanam, konfigurasi, serta dokumen/tabel kecil diunggah. Dataset, gambar terpisah, crop, embedding/checkpoint, backup dan file besar tetap lokal. Jangan melanjutkan rencana upload aset lama yang dibatalkan pengguna. Semua komputasi agent berjalan di latar belakang tanpa membuka atau mengambil fokus jendela.
