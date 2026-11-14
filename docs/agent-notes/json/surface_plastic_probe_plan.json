@@ -1,0 +1,11 @@
+{
+  "method": "pixel_surface_plus_frozen_dinov3_extratrees_v1",
+  "pixels": "RGB HSV LAB moments, hue histogram, highlight fraction, Canny edges, Laplacian texture",
+  "feature_fit": "none on test; only outer-train PCA on DINOv3 features",
+  "targets": "pre-human automatic anchors plus max5 human sources per class",
+  "validation": "five geometry source-held-out folds",
+  "test_rows": 0,
+  "review_archive_read": false,
+  "publication": false,
+  "source_code_sha256": "53f44b7728e19df97cc6a00a7978b2031e6d645c5a17a55abe6525672f54ca20"
+}

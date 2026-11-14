@@ -1,0 +1,4 @@
+threshold,anchor_matches,development_balanced_recall,residual_covered,residual_correct,eligible
+0.8,28,0.85,19,18,False
+0.9,28,0.85,19,18,False
+0.95,28,0.85,19,18,False

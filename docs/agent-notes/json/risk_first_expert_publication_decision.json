@@ -1,0 +1,8 @@
+{
+  "decision": "publish",
+  "prediction_sha256": "bbbf448322c9676f29a5a3c902cd1212631ea5f8582b881cc40a19288c0be2ce",
+  "guard": "Wilsonranking>=prior15/16lower+.02;coverage>=10;precision>=.95;globalmacro>=.65andmatches>=20;NOTcoverage>=16;priorguardsunchanged",
+  "accepted_changes": 20,
+  "private_review_used_for_selection": false,
+  "timestamp_utc": "2026-11-08T03:21:46.281778+00:00"
+}

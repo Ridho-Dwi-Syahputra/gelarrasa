@@ -1,0 +1,158 @@
+
+source_groups = dict(zip(input_table.key, input_table.candidate_group))
+group_method = input_metadata.get('group_method', 'source_hash_verified_input_groups')
+
+import torch
+import timm
+from huggingface_hub import hf_hub_download
+from torchvision.transforms.functional import to_tensor, normalize
+
+torch.set_num_threads(4)
+model_info = input_metadata
+try:
+    weight_path = hf_hub_download(model_info['repository'], 'model.safetensors', revision=model_info['revision'], local_files_only=True)
+except FileNotFoundError:
+    weight_path = hf_hub_download(model_info['repository'], 'model.safetensors', revision=model_info['revision'])
+assert digest(weight_path) == model_info['checkpoint_sha256']
+vision_model = timm.create_model(model_info['model'], pretrained=True, num_classes=0, dynamic_img_size=True,
+                               pretrained_cfg_overlay={'file': str(weight_path)}).eval()
+
+def reference_letterbox(im):
+    scale = 224 / max(im.size)
+    dims = tuple(max(1, min(224, round(v * scale))) for v in im.size)
+    canvas = Image.new('RGB', (224, 224), (124, 116, 104))
+    canvas.paste(im.resize(dims, Image.Resampling.LANCZOS), ((224-dims[0])//2, (224-dims[1])//2))
+    return canvas
+
+crop_specs = sorted(POLICY['focus_crops'], key=lambda r: (int(r['parent_id']), r['region']))
+native_crop_images, crop_keys = [], []
+raw_lookup = inventory.set_index('key').source_path.to_dict()
+for spec in crop_specs:
+    im = rgb_image(resolve(raw_lookup['train:' + spec['parent_id']])).crop(tuple(spec['bbox']))
+    native_crop_images.append(im)
+    crop_keys.append(spec['parent_id'] + '__' + spec['region'])
+batch = torch.stack([normalize(to_tensor(reference_letterbox(im)), [.485,.456,.406], [.229,.224,.225]) for im in native_crop_images])
+with torch.inference_mode():
+    crop_features = vision_model(batch).cpu().numpy().astype('float32')
+crop_features /= np.maximum(np.linalg.norm(crop_features, axis=1, keepdims=True), 1e-12)
+del vision_model, batch
+reference_features = input_bundle['reference_features']
+reference_labels = input_bundle['reference_labels']
+reference_groups = input_bundle['reference_groups']
+reference_keys = input_bundle['reference_keys']
+exclude_reference_ids = drop_ids | reserve_ids | set(focus) | {k.split(':')[1] for k in deferred_keys}
+allowed_reference = np.array([key.startswith('train:') and key.split(':')[1] not in exclude_reference_ids for key in reference_keys])
+assert set(reference_labels[allowed_reference]) == set(CLASSES)
+crop_assignment_rows = []
+for sample_id, spec, feature in zip(crop_keys, crop_specs, crop_features):
+    group = source_groups['train:' + spec['parent_id']]
+    allowed = allowed_reference & (reference_groups != group)
+    similarities = reference_features @ feature
+    similarities[~allowed] = -np.inf
+    neighbors = np.argsort(-similarities, kind='stable')[:7]
+    assert np.isfinite(similarities[neighbors]).all()
+    weights = np.exp((similarities[neighbors] - similarities[neighbors].max()) / .07)
+    votes = np.array([weights[reference_labels[neighbors] == name].sum() for name in CLASSES])
+    votes /= votes.sum()
+    category = CLASSES[int(votes.argmax())]
+    top = np.sort(votes)
+    crop_assignment_rows.append({'sample_id':sample_id, 'assigned_class':category, 'category_score':float(votes.max()),
+                                 'category_margin':float(top[-1]-top[-2]), 'label_source':'dino_crop_knn_fit_train_v1',
+                                 'needs_review':bool(votes.max()<.65 or top[-1]-top[-2]<.25),
+                                 'neighbor_keys':reference_keys[neighbors].tolist(), 'neighbor_labels':reference_labels[neighbors].tolist()})
+crop_assignments = pd.DataFrame(crop_assignment_rows).sort_values('sample_id')
+crop_class_lookup = crop_assignments.set_index('sample_id').to_dict('index')
+full_class_lookup = predictions.set_index('key').to_dict('index')
+display(crop_assignments[['sample_id','assigned_class','category_score','needs_review']])
+print('Kategori crop dihitung terpisah; skor voting bukan probabilitas terkalibrasi atau Accuracy.')
+
+def save_png_verified(im, path):
+    path = Path(path)
+    if path.exists():
+        with Image.open(path) as existing:
+            if existing.mode == im.mode and existing.size == im.size and existing.tobytes() == im.tobytes(): return
+    im.save(path, format='PNG')
+
+def letterbox(im):
+    content = ImageOps.contain(im, (POLICY['max_content_side'], POLICY['max_content_side']), method=Image.Resampling.LANCZOS)
+    size = POLICY['output_size']; canvas = Image.new('RGB', (size, size), tuple(POLICY['padding_rgb']))
+    x, y = (size - content.width) // 2, (size - content.height) // 2
+    canvas.paste(content, (x, y))
+    return canvas, (content.width, content.height, x, y)
+
+def preprocess_parent(row):
+    parent, split, key = row['image_id'], row['split'], row['key']
+    im = rgb_image(resolve(row['source_path']))
+    if split == 'train' and parent in drop_ids:
+        return [], {'key': key, 'action': 'not_in_train_preprocessing', 'outputs': 0}
+    if split == 'train' and parent in reserve_ids:
+        dest = PROCESSED / 'review' / f'{parent}.png'; save_png_verified(im, dest)
+        return [], {'key': key, 'action': 'reserve_review', 'outputs': 0, 'reserve_path': relative(dest)}
+    specs = focus.get(parent, []) if split == 'train' else []
+    if not specs: specs = [{'region': 'full_frame', 'bbox': [0, 0, im.width, im.height]}]
+    outputs = []
+    for spec in specs:
+        box = list(map(int, spec['bbox']))
+        assert 0 <= box[0] < box[2] <= im.width and 0 <= box[1] < box[3] <= im.height
+        region = im.crop(tuple(box)); is_crop = spec['region'] != 'full_frame'
+        sample_id = parent + ('__' + spec['region'] if is_crop else '')
+        native_path = row['source_path']
+        if is_crop:
+            native = PROCESSED / 'crops' / f'{sample_id}.png'; save_png_verified(region, native); native_path = relative(native)
+        canvas, geometry = letterbox(region)
+        assignment = None
+        if split == 'train':
+            assignment = crop_class_lookup[sample_id] if is_crop else full_class_lookup[key]
+            assigned_class = assignment['assigned_class'] if is_crop else assignment['predicted_class']
+            dest = PROCESSED / ('review/excluded_train' if key in deferred_keys else 'train') / assigned_class / f'{sample_id}.png'
+        else:
+            assigned_class = ''; dest = PROCESSED / 'test' / f'{sample_id}.png'
+        is_human = bool(split=='train' and not is_crop and assignment['human_reviewed'])
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        save_png_verified(canvas, dest)
+        outputs.append({'sample_key': split + ':' + sample_id, 'sample_id': sample_id, 'split': split,
+                        'parent_key': key, 'parent_id': parent, 'parent_group': source_groups[key],
+                        'source_path': row['source_path'], 'source_sha256': row['source_sha256'],
+                        'region_name': spec['region'], 'is_crop': is_crop,
+                        'x0': box[0], 'y0': box[1], 'x1': box[2], 'y1': box[3],
+                        'native_width': region.width, 'native_height': region.height,
+                        'native_pixel_sha256': hashlib.sha256(region.tobytes()).hexdigest(),
+                        'native_path': native_path, 'output_path': relative(dest), 'output_sha256': digest(dest),
+                        'content_width': geometry[0], 'content_height': geometry[1], 'pad_left': geometry[2], 'pad_top': geometry[3],
+                        'assigned_class': assigned_class,
+                        'label_source': ('dino_crop_knn_fit_train_v1' if is_crop else assignment['category_source']) if split=='train' else 'not_assigned',
+                        'category_score': (assignment['category_score'] if is_crop else assignment['uncalibrated_probability']) if split=='train' else np.nan,
+                        'category_score_kind': ('weighted_neighbor_share' if is_crop else assignment['category_score_kind']) if split=='train' else 'not_assigned',
+                        'needs_review': bool(assignment['needs_review']) if split=='train' else False,
+                        'label_status': ('participant_reviewed_train' if is_human else 'algorithmic_category_unverified') if split=='train' else 'unassigned_competition_test',
+                        'human_reviewed': is_human,
+                        'official_ground_truth_available': False,
+                        'training_eligible': bool(split=='train' and key not in deferred_keys),
+                        'deferral_reason': ('participant_noise_cleaning' if key in cleaning_keys else 'participant_hold_unresolved') if key in deferred_keys else '',
+                        'training_target_created': is_human})
+    return outputs, {'key': key, 'action': 'focus_crop' if specs[0]['region'] != 'full_frame' else 'full_frame', 'outputs': len(outputs)}
+
+with ThreadPoolExecutor(MAX_WORKERS) as pool:
+    transformed = list(pool.map(preprocess_parent, profile.to_dict('records')))
+processed = pd.DataFrame([r for outputs, action in transformed for r in outputs])
+population = pd.DataFrame([action for outputs, action in transformed])
+assert processed.sample_key.is_unique
+assert len(processed[processed.split.eq('train')]) == 1913
+assert len(processed[processed.split.eq('test')]) == 480
+assert processed[processed.split.eq('train')].parent_id.nunique() == 1911
+assert set(processed.loc[processed.split.eq('test'), 'sample_id']) == set(test_order)
+assert not processed.loc[processed.split.eq('test'), 'is_crop'].any()
+processed.to_csv(PROCESSED / 'manifest.csv', index=False)
+population.to_csv(PROCESSED / 'population_actions.csv', index=False)
+reconciliation = pd.DataFrame([
+    ['train asli', 1920], ['tidak masuk train praproses', -8], ['cadangan tinjauan', -1],
+    ['tambahan jumlah akibat dua crop pada0437 dan0951', 2], ['train turunan', 1913], ['test turunan tanpa crop', 480],
+], columns=['komponen', 'jumlah_atau_perubahan'])
+display(reconciliation)
+display(population.groupby('action').agg(foto_induk=('key', 'size'), keluaran=('outputs', 'sum')))
+display(processed[processed.is_crop][['sample_id', 'parent_group', 'native_width', 'native_height', 'output_path', 'label_status']])
+print('Hasil: 1.911 induk train menjadi1.913 sampel; 8 ditahan dari train preprocessing dan1 masuk cadangan.')
+class_counts = processed[processed.split.eq('train') & processed.training_eligible].assigned_class.value_counts().reindex(CLASSES,fill_value=0)
+display(class_counts.rename('sampel_train_per_kategori').to_frame())
+ax=class_counts.plot.bar(figsize=(11,4),rot=25,title='Kategori algoritmis train setelah preprocessing')
+ax.set_ylabel('Jumlah sampel'); ax.set_xlabel('Kategori'); plt.tight_layout(); publish_figure()

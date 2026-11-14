@@ -1,0 +1,32 @@
+{
+  "method": "eight_one_vs_rest_material_experts_v1",
+  "fit": "pre-human automatic train anchors + at most five team-confirmed sources per class; 8x human weight",
+  "validation": "five geometry source-held-out folds; PCA fit other-fold train only",
+  "experts": {
+    "glass": "DINOv3 object, YOLO source stats",
+    "paper": "DINOv3 CLS, ConvNeXt, pixel surface",
+    "electronic": "DINOv3 CLS, YOLO source stats",
+    "metal": "DINOv3 object, YOLO source stats",
+    "plastic": "DINOv3 CLS and object, YOLO source stats, pixel surface",
+    "cardboard": "DINOv3 CLS, ConvNeXt, pixel surface",
+    "textile": "DINOv3 CLS, ConvNeXt",
+    "foodwaste": "DINOv3 CLS, ConvNeXt"
+  },
+  "model": "ExtraTrees240 minleaf3 balanced binary per expert",
+  "decision": "highest expert score; selectively route only with fixed confidence and gap",
+  "confidence_grid": [
+    0.55,
+    0.65,
+    0.75
+  ],
+  "gap_grid": [
+    0.0,
+    0.1,
+    0.2
+  ],
+  "test_rows": 0,
+  "review_archive_read": false,
+  "publication": false,
+  "limitation": "only 34 reused development anchors; one-vs-rest probabilities need not be calibrated across experts",
+  "source_code_sha256": "e2bb360f3b0daab32d161a8ffcb0c15166459c552eb807ffc9d092b5c1266066"
+}

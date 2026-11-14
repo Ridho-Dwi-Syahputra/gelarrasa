@@ -1,0 +1,8 @@
+image_id,source_path,assigned_class,archive_class,team_preference,interpretation,proposed_class,source,activated_for_training
+0056,data/Dataset DSC GelarRasa 2026/train/0056.jpeg,paper,plastic,archive,user_declares_program_wrong_in_displayed_comparison,plastic,user_review_of_displayed_train_image,False
+0072,data/Dataset DSC GelarRasa 2026/train/0072.jpg,electronic,metal,archive,user_declares_program_wrong_in_displayed_comparison,metal,user_review_of_displayed_train_image,False
+0085,data/Dataset DSC GelarRasa 2026/train/0085.jpg,paper,plastic,archive,user_declares_program_wrong_in_displayed_comparison,plastic,user_review_of_displayed_train_image,False
+0141,data/Dataset DSC GelarRasa 2026/train/0141.jpg,metal,paper,archive,user_declares_program_wrong_in_displayed_comparison,paper,user_review_of_displayed_train_image,False
+0147,data/Dataset DSC GelarRasa 2026/train/0147.jpg,plastic,electronic,archive,user_declares_program_wrong_in_displayed_comparison,electronic,user_review_of_displayed_train_image,False
+0251,data/Dataset DSC GelarRasa 2026/train/0251.jpg,cardboard,glass,archive,user_declares_program_wrong_in_displayed_comparison,glass,user_review_of_displayed_train_image,False
+0256,data/Dataset DSC GelarRasa 2026/train/0256.jpg,metal,paper,archive,user_declares_program_wrong_in_displayed_comparison,paper,user_review_of_displayed_train_image,False

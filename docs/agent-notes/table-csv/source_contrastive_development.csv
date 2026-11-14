@@ -1,0 +1,7 @@
+bank,epoch,matches,development_balanced_recall
+base_global,20,18,0.5
+base_global,40,17,0.475
+base_regional,20,22,0.7
+base_regional,40,22,0.7
+cnn_base,20,16,0.45
+cnn_base,40,16,0.45000000000000007

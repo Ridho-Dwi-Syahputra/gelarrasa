@@ -1,0 +1,37 @@
+{
+  "method": "single_genuine_anchor_multiview_cluster_expansion_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "targets": "same34humanONLY;noautomaticcategorytargets;clustergeometryunsupervisedonTRAIN",
+  "banks": [
+    "source_dictionary",
+    "DINOregional",
+    "CNNdictionary"
+  ],
+  "clusters": [
+    32,
+    64,
+    128
+  ],
+  "KMeans": "n_init3,max_iter150,seed20261108+fold",
+  "cluster_qualification": "2to80members;>=1humanseedandallhumanseednamesidentical;seednotoutlier(beyondclusterQ75squaredradius)",
+  "query_gate": "nearestcenterlabelqualified;within1.25*Q95squaredradius;secondcenterdistancegap>=.02;uncenteredcosinetohumanincluster>=.6",
+  "consensus": ">=2of3bankswithsamecategory;conflictsabstain;atleastoneOOFcoveredcorrecthumanexistsforthatclass",
+  "development_guard": "OOFconsensuscoverage>=5across>=2classes,allcoveredhumancorrect;whole34fallbackbaseline25nondecreasingmatchesandmacro",
+  "selection": "largestcoveredhuman,thenmacro,thenmatches;listedclusterorderbreaksties",
+  "final_gate": "selectedclusterconsensusandatleast1of3TRAINgraphsagree;humanprotected",
+  "baseline": "bestsemantic_dictionary_neighborsgroupedOOF;fallbacknotclampedhumantruth",
+  "maximum_changes": 20,
+  "cap": "descendingbankagreementthenminimumhuman-cosinesimilarity,stablekeyorder",
+  "score_kind": "multi_method_vote_share=support/3;NOTprobabilityofcorrectness",
+  "evaluation_limit": "34reuseddevelopmentandclasscoveragecalibration,notindependentAccuracy;single-seedclusterpurityunverified;graphcorroborationnotindependent",
+  "private_review_or_archive_read": false,
+  "researcher_has_seen_prior_audits": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "16960b34be76b9d55ce32a2dc71e285d110fa2a0dee62575e6b4d914f9f6e451",
+    "data/preprocessing_inputs.npz": "8218337eb5bcad461c2f731a01bdab12d281158ac456c21e1970509964fe214e",
+    "final-submit/DSC2026_Notebook.ipynb": "beb412fe17801ada7e853e24cec2b4f5a0afff14e986404d16a5dd566ac7dc3f"
+  },
+  "source_code_sha256": "dced6a77df1c068dfd9d37282a7d96e5081207d3dfdbc49592c190e10c4b2cc7"
+}

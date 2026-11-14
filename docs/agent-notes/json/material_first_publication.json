@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "backup": "docs\\agent-notes\\.runtime\\before_bounded_anchor_20261107T115815Z",
+  "candidate_sha256": "a4d08e15fc326b760af8b83e035726a6fc010f6f8f5d73c5186d413d80508695",
+  "manual_unique_source_images": 34,
+  "manual_class_counts": {
+    "plastic": 5,
+    "paper": 5,
+    "electronic": 5,
+    "glass": 5,
+    "textile": 5,
+    "cardboard": 5,
+    "metal": 3,
+    "foodwaste": 1
+  },
+  "changed_full_frame_categories": 5,
+  "cumulative_changes_vs_initial_program": 73,
+  "source_frozen_prefix": "robust_geometry_heads",
+  "reference_categories_updated": 4,
+  "test_snapshot_unchanged": true,
+  "raw_sources_unchanged": true,
+  "original_active_sha256": {
+    "data/processed/manifest.csv": "f0b389b9a36822a2b310c60554d1582aff0d8d63676fd7961dcee9900dcd313f",
+    "data/preprocessing_inputs.npz": "9f7ba4a8043091e55a529326c28a9e7d89a5a7a4009c8e54ded2755be1195cfb",
+    "final-submit/DSC2026_Notebook.ipynb": "b4a0ca6715df0d3f017cab60c45dad600862f73570a8115a45aec5fcf214e8ec"
+  },
+  "input_sha256": "74df5acef1917eb9f43fc57cf7c1c46ffd44de4248dddccde78cf1a939b5da8a",
+  "notebook_sha256": "94e3701a2102c71e31a71172e972ddccc14fccff9369338affddb427636623cc",
+  "manifest_sha256": "9263eaa1b9b7b2689e5df02d419720dc851f853c0300aad82c74efa80b501c1a"
+}

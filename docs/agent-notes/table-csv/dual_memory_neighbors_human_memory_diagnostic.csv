@@ -1,0 +1,16 @@
+bank,fold,human_queries,human_queries_with_zero_human_global_neighbors,all_queries_with_zero_human_global_neighbors,query_rows
+DINOregional,0,7,4,338,386
+DINOregional,1,4,3,347,391
+DINOregional,2,4,3,336,371
+DINOregional,3,10,4,334,374
+DINOregional,4,9,5,350,382
+DINO_source_dictionary,0,7,5,352,386
+DINO_source_dictionary,1,4,3,350,391
+DINO_source_dictionary,2,4,3,338,371
+DINO_source_dictionary,3,10,3,339,374
+DINO_source_dictionary,4,9,5,351,382
+CNN_source_dictionary,0,7,5,346,386
+CNN_source_dictionary,1,4,3,339,391
+CNN_source_dictionary,2,4,4,332,371
+CNN_source_dictionary,3,10,5,332,374
+CNN_source_dictionary,4,9,5,340,382

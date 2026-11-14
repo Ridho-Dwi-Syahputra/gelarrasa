@@ -1,0 +1,12 @@
+{
+  "method": "crossfit_full_program_denoising_consensus_v1",
+  "scope": "posthoc archive agreement, not official semantic accuracy",
+  "rows": 1906,
+  "baseline_differences": 174,
+  "candidate_differences": 150,
+  "old_disagreements_resolved": 39,
+  "new_disagreements": 15,
+  "manual_labels_consumed": 0,
+  "rule_frozen_before_reference_audit": true,
+  "active_data_modified": false
+}

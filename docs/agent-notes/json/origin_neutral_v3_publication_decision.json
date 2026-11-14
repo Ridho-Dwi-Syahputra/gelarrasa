@@ -1,0 +1,7 @@
+{
+  "decision": "publish",
+  "prediction_sha256": "27651d7a80f21436a9c0bb301986f96fd2302340af731a085ca839690e0d4f25",
+  "accepted_changes": 5,
+  "guard": "frozenmodelaccepted26/34andmacro.783333,14/14selective;all34humanunchanged",
+  "timestamp_utc": "2026-11-08T05:25:40.480568+00:00"
+}

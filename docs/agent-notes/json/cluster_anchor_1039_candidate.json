@@ -1,0 +1,35 @@
+{
+  "status": "frozen_candidate_not_published",
+  "anchor": "train:1039",
+  "anchor_class_source": "participant_direct_visual_confirmation_2026-11-09",
+  "human_foodwaste_used_after_confirmation": 2,
+  "train_only_rows": 1887,
+  "test_rows_in_fit": 0,
+  "archive_labels_read_by_experiment": false,
+  "cluster_count": 32,
+  "random_states": [
+    20261109,
+    20261110,
+    20261111,
+    20261112,
+    20261113
+  ],
+  "minimum_support": 4,
+  "anchor_cluster_sizes": [
+    72,
+    53,
+    74,
+    73,
+    72
+  ],
+  "stable_cluster_size": 72,
+  "proposed_changes": 71,
+  "current_classes_in_stable_cluster": {
+    "textile": 71,
+    "foodwaste": 1
+  },
+  "human_conflicts": [],
+  "candidate_sha256": "f04242aabd1fa8268d970ab6b7b0b97a01ccda6d1d050f6d68755bc4a504ab48",
+  "active_processed_modified": false,
+  "independent_semantic_validation": false
+}

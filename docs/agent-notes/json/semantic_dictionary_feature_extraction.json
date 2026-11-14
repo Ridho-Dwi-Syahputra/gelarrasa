@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "source_parity": {
+    "top1_exact_fraction": 1.0,
+    "top5_exact_row_fraction": 1.0,
+    "maximum_mapped_evidence_error": 2.2649765014648438e-06,
+    "scope": "source-cacheparity,notcompetitionAccuracy"
+  },
+  "retained_source_mass": [
+    {
+      "temperature": 1.0,
+      "retained_mass_quantiles": [
+        0.3257986903190613,
+        0.7080172300338745,
+        0.7915140390396118,
+        0.8524316996335983,
+        0.9945158362388611
+      ]
+    },
+    {
+      "temperature": 2.0,
+      "retained_mass_quantiles": [
+        0.043375514447689056,
+        0.08589853532612324,
+        0.09916485473513603,
+        0.11286471039056778,
+        0.2131907045841217
+      ]
+    }
+  ],
+  "feature_sha256": "373d606bd41b3707d139434cbf2e86887a43885718896175dbaf528ed3a8f62b",
+  "seconds": 4.710779666900635,
+  "source_code_sha256": "2b60df7fea402fb970c4fc156e786e1885517d9ec052a5dbc2b373a28422f1ff"
+}

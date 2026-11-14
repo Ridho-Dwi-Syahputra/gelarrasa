@@ -1,0 +1,56 @@
+{
+  "method": "webinar_HOG_color_DINOBase_grouped_ablation_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows": 0,
+  "hypothesis": "fixedHOG1764andHSV48complementfrozenDINO;L2eachblock;fixed.35handcraftedblockweight;onlyTRAINrowsbeforefitting",
+  "statistics": "mean andPCAfitonlynonqueryTRAINsourcegroups;frozenbackbone;queryneverinPCAfit",
+  "banks": [
+    "semantic",
+    "semantic_hog",
+    "semantic_color",
+    "semantic_hog_color"
+  ],
+  "transforms": [
+    "center_only",
+    "pca128_half_whitening",
+    "pca128_whitening"
+  ],
+  "knn_configs": {
+    "neighbors": [
+      3,
+      7,
+      15
+    ],
+    "human_weight": [
+      8.0,
+      32.0
+    ],
+    "temperature": 0.07
+  },
+  "automatic_filter": "originalunmodifiedcosine:exclude contradictory nearesthumancategoryat>=.65andmargin>=.02,fitfoldonly",
+  "selection": "perbank maximum34anchor group-heldout balancedrecall;thenbestprimarybank;notprivate review matching",
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "threshold_selection": "largest34developmentcoverageat>=.9empiricalselectiveprecisionand>=10covered;tiesstricter",
+  "acceptance": "allqualifiedbanksmeetlearnedminimumneighbor-sharethresholdandalltheirTRAINgraphsagree;humanprotected",
+  "previous_auto_refinements": "minimumshare>=max(.95,learnedthreshold)",
+  "graph": "normalizerfitallTRAINforfinalgraphonly,k20,positivecos^4,alpha.98,OOFknnprior,humanclamped",
+  "guard": "primary>=24/34andbalancedrecall>=.75andcalibrationthresholdexistsand>=2qualifiedbanks",
+  "maximum_changes": 40,
+  "cap": "descending minimum neighbor share;stablekeyorder",
+  "evaluation_limit": "34developmentanchorsreusedforselection/calibration;notindependentfinalAccuracy;graphnotindependentlyevaluated",
+  "private_review_or_archive_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "be1487bbcbf07ce2db28f5cad04024ca3672478baa8764e91417aefaed134708",
+    "data/preprocessing_inputs.npz": "091f712b22a07fd1c85a79977e7aa337e3cdf47048c8f2b6a382f831eab8d93e",
+    "final-submit/DSC2026_Notebook.ipynb": "407eaaa66ad26701d64a0675c869d5dc4a42862883786c63826cab3964dafba0"
+  },
+  "source_code_sha256": "ea3f3d428ae4e7333afcfb32e121e16e8a66db4d4ec2c9da065f72bfcb95de75"
+}

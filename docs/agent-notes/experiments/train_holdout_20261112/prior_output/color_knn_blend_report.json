@@ -1,0 +1,66 @@
+{
+  "model": "DINOv3 OVR SVM + source-group-weighted cosine kNN on DINOv3/HSV similarity",
+  "train_rows": 1887,
+  "test_rows_in_fit": 0,
+  "test_rows_inference": 480,
+  "features": "DINOv3 four-block descriptors + HSV 48-bin histogram",
+  "outer_selected_recipes": [
+    {
+      "outer_fold": 1,
+      "alpha": 0.3,
+      "k": 5,
+      "blend": 0.05
+    },
+    {
+      "outer_fold": 2,
+      "alpha": 0.1,
+      "k": 11,
+      "blend": 0.1
+    },
+    {
+      "outer_fold": 3,
+      "alpha": 0.3,
+      "k": 5,
+      "blend": 0.05
+    },
+    {
+      "outer_fold": 4,
+      "alpha": 0.0,
+      "k": 3,
+      "blend": 0.05
+    },
+    {
+      "outer_fold": 5,
+      "alpha": 0.3,
+      "k": 11,
+      "blend": 0.05
+    }
+  ],
+  "final_alpha_color": 0.3,
+  "final_k": 5,
+  "final_blend_weight": 0.05,
+  "nested_metrics": {
+    "dino_color_knn_blend": {
+      "agreement": 0.9538950715421304,
+      "balanced_accuracy": 0.9541997058477392,
+      "macro_f1": 0.9543434232415513
+    },
+    "paired_outer_baseline_008": {
+      "agreement": 0.9528351881293058,
+      "balanced_accuracy": 0.953104179407819,
+      "macro_f1": 0.9532386986171746
+    }
+  },
+  "oof_rows_changed_vs_baseline": 11,
+  "test_prediction_rows_changed_vs_008": 2,
+  "paired_oof_not_degraded": true,
+  "candidate_submission_path": "final-submit/output/submission_012_dinov3_color_knn_blend.csv",
+  "candidate_submission_sha256": "5f5d7bebae2298a8a7e4dbfa9f919a0e3bb506743ae1482b30241620610430c2",
+  "oof_path": "final-submit/output/color_knn_blend_oof.csv",
+  "oof_sha256": "6103628f7a1c7e918a93b38ccf63ee3fe56f5986118f558a7451fae9032a1eec",
+  "nearest_train_audit_path": "final-submit/output/train_test_nearest_neighbors_color_dinov3.csv",
+  "nearest_train_audit_sha256": "6eb44e8fa1f3dd924abc5302b6dc901855e3faf3069813b23c52229909a7fbef",
+  "official_accuracy": null,
+  "test_used_for_fit_or_selection": false,
+  "interpretation": "Nested OOF agreement uses derived train categories, not semantic ground truth."
+}

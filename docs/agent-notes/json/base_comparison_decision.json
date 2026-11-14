@@ -1,0 +1,24 @@
+{
+  "protocol_sha256": "158125f55c323fe1f60a686c95168700a34e1ee69bf7f7cf26f056dbf1dcf18c",
+  "candidates": [
+    {
+      "prefix": "base_primary",
+      "balanced_recall": 0.7,
+      "matches": 22,
+      "accepted": true,
+      "changes": 3,
+      "frozen_sha256": "bb6cd59fb2073b688ec9948dc87bf43a658626f1415b8a106be05ab3ecab21be"
+    },
+    {
+      "prefix": "base_clean_primary",
+      "balanced_recall": 0.725,
+      "matches": 23,
+      "accepted": true,
+      "changes": 3,
+      "frozen_sha256": "d54c7fbd42e9cf520f4e76f113e702d37843ca0560e795d9144cf773ee745645"
+    }
+  ],
+  "winner": "base_clean_primary",
+  "private_review_used": false,
+  "timestamp_utc": "2026-11-07T15:29:24.181226+00:00"
+}

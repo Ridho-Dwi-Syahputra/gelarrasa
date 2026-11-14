@@ -1,0 +1,36 @@
+{
+  "method": "current_program_pseudo_anchor_neighborhood_transfer_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows": 0,
+  "targets": "currentmanifestcategoriesONLYforexistinghumanseedsandnonhistoricalprogramrefinements;vote-share>=.75,neighbor-share>=.9,neuralprobability>=.85,other>=.8;allremainpseudoexcept34human",
+  "bank_fixed_before_fit": true,
+  "banks": [
+    "base_cls",
+    "base_local",
+    "base_center",
+    "cnn_base",
+    "texture_base"
+  ],
+  "knn": {
+    "neighbors": 5,
+    "temperature": 0.07,
+    "human_weight_multiplier": 4.0,
+    "class_count_weight": "inverse square root ofanchorcount",
+    "exclude_entire_query_source_group": true
+  },
+  "gate": "atleast3/5banks agree,includingCNNortextureandoneDINO;minimumagreeingneighborprob>=.8;classcosinemargin>=.01in>=2banks;nearestsupportcos>=.65(.4centered)in>=2banks",
+  "previous_pseudo_anchors": "changeonlyall5banksagreeandmeanprob>=.95;humanalwaysprotected",
+  "guard": ">=80anchorrows,all8classes;outofsourcePROGRAMpseudoagreement>=.6andmacro>=.55;allpredictedclasses>=10,maxclass<=40percent",
+  "maximum_changes": 40,
+  "cap": "descending agreeing-bank support,then mean classprobability,stablekeyorder",
+  "evaluation_limit": "pseudo-anchorconsistencyonly;allpseudolabelsalreadydependon34humanupstream;NOindependenthumanholdoutorAccuracyreported",
+  "independent_human_validation_performed": false,
+  "private_review_or_archive_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "183fc86206848eda6b52e9af355ca133f0eebab7adbbdc49151e7d3c72d7876d",
+    "data/preprocessing_inputs.npz": "34ea13d5f3f2290cd252138ab557faec6eb56fa5e92907bf8247cefc6afca3b9",
+    "final-submit/DSC2026_Notebook.ipynb": "4a740ce1fda83b19288d124fb192bde30b10faab0b62acdd0bed4970f37ca3cf"
+  },
+  "source_code_sha256": "eb29b3bd73ebb721ec79523f5696402fb3f14e2d75908ad3e97685b662860e6c"
+}

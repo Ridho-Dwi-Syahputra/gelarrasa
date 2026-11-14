@@ -1,0 +1,6 @@
+fold,teacher_fit_rows,student_fit_rows,new_pseudo_rows,human_fit_rows,query_pseudo_targets,query_groups_in_fit
+0,1086,1237,151,27,0,0
+1,1053,1211,158,30,0,0
+2,1068,1237,169,30,0,0
+3,1073,1233,160,24,0,0
+4,1076,1230,154,25,0,0

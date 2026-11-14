@@ -1,0 +1,14 @@
+{
+  "model": "DINOv3 Base CLS+valid-patch+object-patch mean/std + RBF SVM",
+  "train_rows": 1869,
+  "test_rows_in_fit": 0,
+  "test_rows_inference": 480,
+  "test_localizer": "frozen image-only YOLO numeric checkpoint",
+  "focus_count_test": 269,
+  "oof_nested_selectable_agreement": 0.989834,
+  "official_accuracy": null,
+  "submission": "final-submit\\output\\submission_007_dinov3_full_svm.csv",
+  "submission_sha256": "53233b098287a7bf64f64ae774ed11ff182518a5154264c5a3bcd796f515b098",
+  "feature_sha256": "d895cfe0c1dc40c871ee66540a9f0d7b5aa56c724982960a42812d6ca68bef72",
+  "elapsed_seconds": 465.8526859283447
+}

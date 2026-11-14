@@ -1,0 +1,15 @@
+{
+  "model": "DINOv3 Base CLS + RBF SVM",
+  "train_rows": 1869,
+  "test_rows_in_fit": 0,
+  "test_rows_inference": 480,
+  "feature_dimensions": 768,
+  "validation_reference": "existing grouped OOF partition, source-group disjoint",
+  "oof_agreement_program_targets": 0.986624,
+  "human_semantic_accuracy": null,
+  "weight_sha256": "1f9ed8a2378d65e24bb710ba522ac9fa7be4e036d7aefb4384ce022833926332",
+  "test_feature_sha256": "18e840e304929ddc3b840f96311a0dbb1cdcfb8967c8f8d324f128f0c040d5dc",
+  "submission_sha256": "07a7567d953972474582156783501f7e931104f9736d8ff16195f8ddbd1f3bfb",
+  "submission": "final-submit\\output\\submission_006_dinov3_cls_svm.csv",
+  "runtime_seconds": 241.8298876285553
+}

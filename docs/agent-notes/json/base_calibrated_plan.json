@@ -1,0 +1,45 @@
+{
+  "method": "grouped_development_selective_base_neighbor_refinement_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "source_knn_frozen_sha256": "ae6ba8c34e942dd161a6751e92a270f5e34752d22cb8d019716e637cdc07913d",
+  "expert_selection": "balancedrecall>=.6333333333333333andwithin.1ofbest;atleast2banks",
+  "qualified_heads": [
+    {
+      "bank": "base_cls",
+      "neighbors": 7,
+      "human_weight": 8.0,
+      "development_balanced_recall": 0.6333333333333333
+    },
+    {
+      "bank": "base_local",
+      "neighbors": 7,
+      "human_weight": 8.0,
+      "development_balanced_recall": 0.725
+    }
+  ],
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "threshold_selection": "largestcoverageon34groupheldoutanchors,subjectto>=10coveredand>=.9empiricalcorrect;tiespreferhigherthreshold",
+  "score": "minimum candidate weighted-neighbor share across qualifiedbanks;neighbor decisions agree whenever score>.5",
+  "acceptance": "humanprotected;bothqualifiedknnheadsmeet learnedthreshold andALLtheirfullTRAINgraphsagree;nearesthumanidentitynotrequired",
+  "previous_auto_refinements": "also require minimumshare>=max(.95,learnedthreshold)",
+  "maximum_changes": 40,
+  "cap": "descending minimumneighbor share;stablekeyorder tie",
+  "guard": "primary>=20/34andbalancedrecall>=.6333333333333333;>=2qualifiedheadsand2graphs;calibrationthresholdmustexist",
+  "evaluation_limit": "calibrationandexpertselectionreusethe34developmentanchors;notindependentfinalaccuracy;fullgraphnotusedforcalibrationevaluation",
+  "private_review_or_archive_labels_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "724cf077b1b1776bbc6d88adaa785484060c7b52ea97486bd45914b5cf2da961",
+    "data/preprocessing_inputs.npz": "d02157e013731c1878380ffb00f1c5aff63e64aabfcb999ac85dec209ab07abb",
+    "final-submit/DSC2026_Notebook.ipynb": "707b286b07616039a6bb49f253d3d439d17d039278fea26194e1989ccf029eca"
+  },
+  "source_code_sha256": "da89896cc6ef86c6baf80567f0f5decf624aa9c2f45002aa616c9c94e095f31a"
+}

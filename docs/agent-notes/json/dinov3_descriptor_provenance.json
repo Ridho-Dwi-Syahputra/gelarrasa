@@ -1,0 +1,27 @@
+{
+  "model": {
+    "repository": "timm/vit_small_patch16_dinov3.lvd1689m",
+    "revision": "3bf4720a82ec2066db88137180ff1f83a675cef0",
+    "gated": false,
+    "model": "vit_small_patch16_dinov3.lvd1689m",
+    "license": "other",
+    "checkpoint_sha256": "2a1ec16ae28ffa07bc0ead0241ee7df9fc26451fe6f9f839b7b3afa0a906b040"
+  },
+  "rows": 1906,
+  "flip_rows": 252,
+  "dimensions": 1536,
+  "normalization_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalization_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "foreground_count_original": 527,
+  "test_rows": 0,
+  "manual_labels": 0,
+  "feature_sha256": "fb57a4adbc7bea12485a697c7f1762c6505439edc373de72cc96edaf7beef82d"
+}

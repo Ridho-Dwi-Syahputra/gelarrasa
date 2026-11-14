@@ -1,0 +1,58 @@
+{
+  "method": "human_anchored_soft_Dawid_Skene_EM",
+  "configs": [
+    {
+      "diagonal": 2.0,
+      "human_weight": 10.0,
+      "threshold": 0.5
+    },
+    {
+      "diagonal": 2.0,
+      "human_weight": 10.0,
+      "threshold": 0.8
+    },
+    {
+      "diagonal": 2.0,
+      "human_weight": 50.0,
+      "threshold": 0.5
+    },
+    {
+      "diagonal": 2.0,
+      "human_weight": 50.0,
+      "threshold": 0.8
+    },
+    {
+      "diagonal": 10.0,
+      "human_weight": 10.0,
+      "threshold": 0.5
+    },
+    {
+      "diagonal": 10.0,
+      "human_weight": 10.0,
+      "threshold": 0.8
+    },
+    {
+      "diagonal": 10.0,
+      "human_weight": 50.0,
+      "threshold": 0.5
+    },
+    {
+      "diagonal": 10.0,
+      "human_weight": 50.0,
+      "threshold": 0.8
+    }
+  ],
+  "max_iterations": 80,
+  "fit_scope": "eligible_train_full_frames_only",
+  "human_sources": 35,
+  "test_rows_in_fit": 0,
+  "selection": "max35source_group_OOFmacro_recall_then_matches_then_list_order",
+  "publication_guard": ">=29of35andmacro>=.8;atleast2reliable_sourcesagree;posterior>=.9;max40changes",
+  "archive_or_full_review_read_by_fit": false,
+  "new_manual_labels": 0,
+  "limitation": "reused35developmentanchors;conditional_source_independence_is_approximate",
+  "references": [
+    "https://arxiv.org/abs/1711.10160",
+    "https://doi.org/10.2307/2346806"
+  ]
+}

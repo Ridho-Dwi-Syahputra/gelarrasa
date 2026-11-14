@@ -1,0 +1,40 @@
+{
+  "status": "rejected_not_published",
+  "anchor": "train:0321",
+  "anchor_class": "plastic",
+  "anchor_source": "existing_participant_reviewed_train_seed",
+  "train_only_rows": 1887,
+  "test_rows_in_fit": 0,
+  "archive_labels_read_by_experiment": false,
+  "cluster_count": 32,
+  "random_states": [
+    20261109,
+    20261110,
+    20261111,
+    20261112,
+    20261113
+  ],
+  "minimum_support": 4,
+  "anchor_cluster_sizes": [
+    75,
+    82,
+    73,
+    91,
+    106
+  ],
+  "stable_cluster_size": 51,
+  "proposed_changes": 28,
+  "current_classes_in_stable_cluster": {
+    "glass": 28,
+    "plastic": 23
+  },
+  "human_conflicts": [],
+  "candidate_sha256": "8ad83ed807c00e395d7cf22361ad1f7e2e8fc07f07ed19c403f3af48bca01d8a",
+  "active_processed_modified": false,
+  "independent_semantic_validation": false,
+  "posthoc_archive_disagreements_before": 102,
+  "posthoc_archive_disagreements_candidate": 130,
+  "posthoc_recoveries": 0,
+  "posthoc_regressions": 28,
+  "rejection_reason": "One plastic anchor shares an object-feature cluster with genuine glass images; cluster stability alone cannot establish material."
+}

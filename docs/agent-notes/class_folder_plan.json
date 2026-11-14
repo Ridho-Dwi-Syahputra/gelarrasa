@@ -1,0 +1,31 @@
+{
+  "input_artifact": "data/preprocessing_inputs.npz",
+  "sha256": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+  "source_rows": 2400,
+  "train_reference_rows": 1538,
+  "category_source": "frozen program predictions, not the archived visual annotation folders",
+  "crop_policy_frozen_before_inference": "DINOv2 cosine 7-neighbor vote; temperature .07; no parameter search",
+  "model_metadata": {
+    "model": "vit_small_patch14_dinov2.lvd142m",
+    "repository": "timm/vit_small_patch14_dinov2.lvd142m",
+    "revision": "4610ca143709d58a633b6397a74412c2c3842454",
+    "checkpoint_sha256": "04d27f3400d059fc0cfd7d17dd1909a75bf3ea8fb3eeb48b97cb99e57ee20081",
+    "version": 1,
+    "assignment_method": "fixed_hierarchical_material_routing_v1",
+    "assignment_sha256": "73996d8db5666bb0d03300f0204f54c1fddf39e8af77398dfc3b116664de6434",
+    "class_order": [
+      "glass",
+      "paper",
+      "electronic",
+      "metal",
+      "plastic",
+      "cardboard",
+      "textile",
+      "foodwaste"
+    ],
+    "reference_selection": "historical_fit_train_only; crop parent group excluded during query",
+    "crop_method": "DINOv2 cosine 7-neighbor vote; temperature .07; no parameter search",
+    "official_ground_truth": false
+  },
+  "request": "Notebook uses only data/model inputs; agent notes remain external. All processed files must regenerate from an empty processed directory."
+}

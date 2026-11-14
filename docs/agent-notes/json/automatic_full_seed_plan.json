@@ -1,0 +1,337 @@
+{
+  "seed": 20261108,
+  "source": "all reliable automatic independent-CNN consensus anchors; no human labels",
+  "manual_labels_consumed": 0,
+  "manual_label_budget_reserved": 40,
+  "test_rows_in_fit": 0,
+  "n_splits": 5,
+  "feature_normalization": "L2 per block and per sample; no global fitted scaler",
+  "fit_targets": "at least two reliable independent source votes with unique winner",
+  "sample_weights": "winning vote count / four source families",
+  "svm_class_weight": "balanced",
+  "selection": ".65 * OOF macro automatic-anchor agreement + .35 * OOF original/hflip agreement; all8 classes and min5 predictions/class",
+  "selection_is_development_proxy_not_semantic_accuracy": true,
+  "configs": [
+    {
+      "bank": "dino",
+      "kind": "svm",
+      "kernel": "linear",
+      "gamma": null,
+      "C": 1.0
+    },
+    {
+      "bank": "dino",
+      "kind": "svm",
+      "kernel": "linear",
+      "gamma": null,
+      "C": 10.0
+    },
+    {
+      "bank": "dino",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 1.0
+    },
+    {
+      "bank": "dino",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 10.0
+    },
+    {
+      "bank": "dino",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 16.0,
+      "C": 1.0
+    },
+    {
+      "bank": "dino",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 16.0,
+      "C": 10.0
+    },
+    {
+      "bank": "dino",
+      "kind": "knn",
+      "neighbors": 7
+    },
+    {
+      "bank": "dino",
+      "kind": "knn",
+      "neighbors": 21
+    },
+    {
+      "bank": "local_patch",
+      "kind": "svm",
+      "kernel": "linear",
+      "gamma": null,
+      "C": 1.0
+    },
+    {
+      "bank": "local_patch",
+      "kind": "svm",
+      "kernel": "linear",
+      "gamma": null,
+      "C": 10.0
+    },
+    {
+      "bank": "local_patch",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 1.0
+    },
+    {
+      "bank": "local_patch",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 10.0
+    },
+    {
+      "bank": "local_patch",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 16.0,
+      "C": 1.0
+    },
+    {
+      "bank": "local_patch",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 16.0,
+      "C": 10.0
+    },
+    {
+      "bank": "local_patch",
+      "kind": "knn",
+      "neighbors": 7
+    },
+    {
+      "bank": "local_patch",
+      "kind": "knn",
+      "neighbors": 21
+    },
+    {
+      "bank": "dino_second",
+      "kind": "svm",
+      "kernel": "linear",
+      "gamma": null,
+      "C": 1.0
+    },
+    {
+      "bank": "dino_second",
+      "kind": "svm",
+      "kernel": "linear",
+      "gamma": null,
+      "C": 10.0
+    },
+    {
+      "bank": "dino_second",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 1.0
+    },
+    {
+      "bank": "dino_second",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 10.0
+    },
+    {
+      "bank": "dino_second",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 16.0,
+      "C": 1.0
+    },
+    {
+      "bank": "dino_second",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 16.0,
+      "C": 10.0
+    },
+    {
+      "bank": "dino_second",
+      "kind": "knn",
+      "neighbors": 7
+    },
+    {
+      "bank": "dino_second",
+      "kind": "knn",
+      "neighbors": 21
+    },
+    {
+      "bank": "dino_ontology",
+      "kind": "svm",
+      "kernel": "linear",
+      "gamma": null,
+      "C": 1.0
+    },
+    {
+      "bank": "dino_ontology",
+      "kind": "svm",
+      "kernel": "linear",
+      "gamma": null,
+      "C": 10.0
+    },
+    {
+      "bank": "dino_ontology",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 1.0
+    },
+    {
+      "bank": "dino_ontology",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 10.0
+    },
+    {
+      "bank": "dino_ontology",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 16.0,
+      "C": 1.0
+    },
+    {
+      "bank": "dino_ontology",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 16.0,
+      "C": 10.0
+    },
+    {
+      "bank": "dino_ontology",
+      "kind": "knn",
+      "neighbors": 7
+    },
+    {
+      "bank": "dino_ontology",
+      "kind": "knn",
+      "neighbors": 21
+    },
+    {
+      "bank": "dino_material",
+      "kind": "svm",
+      "kernel": "linear",
+      "gamma": null,
+      "C": 1.0
+    },
+    {
+      "bank": "dino_material",
+      "kind": "svm",
+      "kernel": "linear",
+      "gamma": null,
+      "C": 10.0
+    },
+    {
+      "bank": "dino_material",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 1.0
+    },
+    {
+      "bank": "dino_material",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 10.0
+    },
+    {
+      "bank": "dino_material",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 16.0,
+      "C": 1.0
+    },
+    {
+      "bank": "dino_material",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 16.0,
+      "C": 10.0
+    },
+    {
+      "bank": "dino_material",
+      "kind": "knn",
+      "neighbors": 7
+    },
+    {
+      "bank": "dino_material",
+      "kind": "knn",
+      "neighbors": 21
+    },
+    {
+      "bank": "local_material",
+      "kind": "svm",
+      "kernel": "linear",
+      "gamma": null,
+      "C": 1.0
+    },
+    {
+      "bank": "local_material",
+      "kind": "svm",
+      "kernel": "linear",
+      "gamma": null,
+      "C": 10.0
+    },
+    {
+      "bank": "local_material",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 1.0
+    },
+    {
+      "bank": "local_material",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 10.0
+    },
+    {
+      "bank": "local_material",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 16.0,
+      "C": 1.0
+    },
+    {
+      "bank": "local_material",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 16.0,
+      "C": 10.0
+    },
+    {
+      "bank": "local_material",
+      "kind": "knn",
+      "neighbors": 7
+    },
+    {
+      "bank": "local_material",
+      "kind": "knn",
+      "neighbors": 21
+    }
+  ],
+  "archive_labels_read": false,
+  "reference_disagreement_ids_read": false,
+  "researcher_has_seen_previous_private_audits": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "28d926592d6819af4e25b8727f8a641f12ccd47718546da3ee02cff35159e96c",
+    "data/preprocessing_inputs.npz": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+    "final-submit/DSC2026_Notebook.ipynb": "20416ab9d262f2a94756825d812dd9f37e7f0fb374c99805db6ed68688d84c62"
+  },
+  "active_outputs_modified": false
+}

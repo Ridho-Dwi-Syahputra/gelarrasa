@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "active_prefix": "frozen_residual_continuation",
+  "review_disagreements": 17,
+  "test_images": 480,
+  "test_with_nearest_train_among_17": 0,
+  "unique_remaining_train_that_are_test_top1": 0,
+  "max_test_coverage_cosine_gap_if_17_removed": 0.0,
+  "coverage_gap_at_least_0_02": 0,
+  "coverage_gap_at_least_0_05": 0,
+  "top1_cosine_at_least": {
+    "0.75": 0,
+    "0.8": 0,
+    "0.85": 0,
+    "0.9": 0,
+    "0.95": 0
+  },
+  "top1_phash_at_most": {
+    "0": 0,
+    "4": 0,
+    "8": 0,
+    "12": 0
+  },
+  "exact_decoded_pixel_matches_in_top3": 0,
+  "source_feature_sha256": "135fe5c871adbcb77a3bcd962a9362e05bd51ea6ba0ba0683a47b0908dab15fd",
+  "current_review_sha256": "a49ab85b4fa718376b553a895ba59761514bd03fba44bf575973fa8efc5e18b6",
+  "train_changes": 0,
+  "test_training_rows": 0,
+  "test_labels_created": false,
+  "scope": "descriptive read-only similarity; not a criterion to select train rows or infer test labels",
+  "caveat": "cosine/pHash/SSIM measure visual proximity; none proves category, and low similarity does not prove a train image is dispensable",
+  "gallery": "docs\\agent-notes\\remaining_visual_review\\remaining17_test_neighbors.html"
+}

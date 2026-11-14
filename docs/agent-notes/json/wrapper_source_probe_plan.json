@@ -1,0 +1,25 @@
+{
+  "method": "local_pretrained_nonVLM_wrapper_feature_probe",
+  "source_repo": "dvk65/trash-classifier-resnet50",
+  "revision": "7a6e53cab51b9a8ba6677eb3c83ad84808e11a68",
+  "weight_sha256": "f0fcfaf4b6d3f28ac41990d0ec6dd8c71f196479dc93bf183235e39abf5560cf",
+  "source_class_order": [
+    "apples",
+    "bananas",
+    "bottles",
+    "cans",
+    "cardboard",
+    "cups",
+    "eggshells",
+    "generalcompost",
+    "mixers",
+    "peels",
+    "plasticbags",
+    "plastics",
+    "tissues"
+  ],
+  "predeclared_plastic_source_score": "plasticbags+plastics",
+  "screen": "roc_auc_on34allowed_train_sources>=0.80 before full-train extraction",
+  "restriction": "weights only; no external images, test, review or archive; source prediction never copied to final CSV",
+  "evaluation_limit": "34 repeatedly reused anchors; diagnostic source weights may overlap unknown external data"
+}

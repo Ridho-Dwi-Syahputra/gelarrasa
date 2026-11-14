@@ -1,0 +1,27 @@
+{
+  "history": [
+    {
+      "bank": "CLS",
+      "matches": 13,
+      "macro": 0.45833333333333337,
+      "plastic_recall": 0.6,
+      "screen_passed": false
+    },
+    {
+      "bank": "CLS_CNN",
+      "matches": 19,
+      "macro": 0.625,
+      "plastic_recall": 0.6,
+      "screen_passed": false
+    },
+    {
+      "bank": "object",
+      "matches": 15,
+      "macro": 0.4083333333333333,
+      "plastic_recall": 0.8,
+      "screen_passed": false
+    }
+  ],
+  "source_groups": 5,
+  "test_rows": 0
+}

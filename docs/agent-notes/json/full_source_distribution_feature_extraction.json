@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "source_parity": {
+    "top1_exact_fraction": 1.0,
+    "top5_exact_row_fraction": 1.0,
+    "softmax_mass_error": 4.172325134277344e-07
+  },
+  "feature_sha256": "27c96f99b677d91fb5c2c4ef759578327b1e5216693c023da58f263527e2306e",
+  "all_source_probability_mass_retained_before_projection": true,
+  "source_code_sha256": "87bf405164643b631aeae4576e69b602f87381f03ddf5fe7f522584f6d8ed408",
+  "seconds": 11.940523147583008
+}

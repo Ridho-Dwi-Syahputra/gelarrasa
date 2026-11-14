@@ -1,0 +1,6 @@
+fold,candidate,selected,class_counts
+0,102,60,"{'glass': 2, 'paper': 2, 'electronic': 18, 'metal': 0, 'plastic': 1, 'cardboard': 5, 'textile': 12, 'foodwaste': 20}"
+1,86,60,"{'glass': 2, 'paper': 1, 'electronic': 16, 'metal': 1, 'plastic': 4, 'cardboard': 6, 'textile': 10, 'foodwaste': 20}"
+2,110,60,"{'glass': 2, 'paper': 1, 'electronic': 17, 'metal': 0, 'plastic': 4, 'cardboard': 4, 'textile': 13, 'foodwaste': 19}"
+3,99,60,"{'glass': 0, 'paper': 0, 'electronic': 17, 'metal': 0, 'plastic': 5, 'cardboard': 6, 'textile': 15, 'foodwaste': 17}"
+4,103,60,"{'glass': 2, 'paper': 1, 'electronic': 16, 'metal': 2, 'plastic': 5, 'cardboard': 6, 'textile': 8, 'foodwaste': 20}"

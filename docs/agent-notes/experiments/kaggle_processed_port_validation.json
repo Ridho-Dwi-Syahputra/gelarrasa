@@ -1,0 +1,47 @@
+{
+  "notebook": "D:\\lomba\\NSC UB\\GELAR-RASA\\final-submit\\ekperimen-kaggle\\DSC2026_GelarRasa_GPU_OneRun.ipynb",
+  "syntax_valid": true,
+  "gpu_training_executed": false,
+  "processing": {
+    "state_sha256": "f8928662997b1909abf8dd212f90b9d4d91261698053971096d2d779f27d3cef",
+    "source_files_verified": 2400,
+    "processed_pixels_verified": 2393,
+    "exact_pixel_matches": 2393,
+    "thumbnail_tolerance_matches": 0,
+    "max_thumbnail_mae": 0.0,
+    "max_thumbnail_p99": 0.0,
+    "eligible_train": 1886,
+    "eligible_full_frame": 1879,
+    "eligible_crops": 7,
+    "train_source_groups": 1760,
+    "class_counts": {
+      "textile": 257,
+      "plastic": 249,
+      "cardboard": 247,
+      "glass": 246,
+      "metal": 233,
+      "foodwaste": 232,
+      "paper": 224,
+      "electronic": 198
+    },
+    "labels_recomputed": false,
+    "labels_origin": "Frozen operational output of the existing train-only assignment, cluster refinement and preprocessing workflow. Cluster/assignment fitting is NOT rerun by this portability notebook.",
+    "all_pixels_match_active_processed": true,
+    "all_images_passed_visual_integrity": true
+  },
+  "assignment_rows_equal_active_manifest": true,
+  "full_population_source_group_split": "pass",
+  "pixel_similarity_descriptors": "pass",
+  "sample_order_and_480_row_csv": "pass",
+  "architecture_forward_pass": [
+    "resnet50",
+    "efficientnet_v2_s",
+    "convnext_small",
+    "swin_v2_t"
+  ],
+  "head_and_finetune_validation_loop": "pass",
+  "within_finetune_optimizer_scheduler_resume": "pass",
+  "final_refit_has_no_fabricated_validation_metrics": true,
+  "seconds": 96.33,
+  "notebook_sha256": "5e13b92aee5ee2c405fa2a882890fbd434e6e1b2c9ba6c79ba1e3733446edd52"
+}

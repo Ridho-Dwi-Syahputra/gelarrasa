@@ -1,0 +1,15 @@
+image_id,proposed_class,leave_source_group_out_class,family_votes,matches_reviewed_category
+0056,plastic,paper,5,False
+0072,metal,electronic,4,False
+0085,plastic,cardboard,3,False
+0141,paper,metal,5,False
+0147,electronic,electronic,5,True
+0237,plastic,electronic,2,False
+0251,glass,cardboard,4,False
+0256,paper,metal,5,False
+1154,textile,textile,3,True
+1180,metal,metal,5,True
+1434,electronic,metal,5,False
+1522,cardboard,paper,3,False
+1637,paper,paper,5,True
+1855,glass,glass,5,True

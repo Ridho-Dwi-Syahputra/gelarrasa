@@ -1,0 +1,8 @@
+{
+  "human_sources": 34,
+  "full_private_review_used": false,
+  "all_six_wrong": 5,
+  "at_least_one_right": 29,
+  "primary_wrong_but_other_right": 5,
+  "risk_selection_hypothesis": "A risk-first strict subset may complement the best whole-coverage learner; audit before any active change."
+}

@@ -1,0 +1,64 @@
+{
+  "scope": "provenance inventory only; labels were not fitted, changed, or used for selection",
+  "raw_train_images": 1920,
+  "active_fullframe_rows": 1906,
+  "eligible_fullframe_rows": 1879,
+  "held_fullframe_rows": 27,
+  "active_source_counts": {
+    "iterative_program_refinement_snapshot": 1555,
+    "vit_knn_label_propagation_snapshot": 121,
+    "train_only_cluster_anchor_1039_v1": 51,
+    "participant_reviewed_seed": 37,
+    "augmented_source_prototype_snapshot": 33,
+    "residual_graph_correction_snapshot": 27,
+    "bounded_anchor_stable_consensus_snapshot": 18,
+    "two_view_lighting_ontology_snapshot": 12,
+    "stage1_train_only_pseudolabel": 7,
+    "bounded_anchor_cluster_consensus_snapshot": 7,
+    "human_seed_source_concept_snapshot": 6,
+    "robust_neural_assignment_snapshot": 4,
+    "geometric_source_group_heldout_vote_v1": 1
+  },
+  "fullframe_source_counts_including_held": {
+    "iterative_program_refinement_snapshot": 1570,
+    "vit_knn_label_propagation_snapshot": 130,
+    "train_only_cluster_anchor_1039_v1": 51,
+    "participant_reviewed_seed": 37,
+    "augmented_source_prototype_snapshot": 34,
+    "residual_graph_correction_snapshot": 27,
+    "bounded_anchor_stable_consensus_snapshot": 18,
+    "two_view_lighting_ontology_snapshot": 12,
+    "stage1_train_only_pseudolabel": 7,
+    "bounded_anchor_cluster_consensus_snapshot": 7,
+    "human_seed_source_concept_snapshot": 6,
+    "robust_neural_assignment_snapshot": 4,
+    "retired_anchor_holdout": 2,
+    "geometric_source_group_heldout_vote_v1": 1
+  },
+  "seed_check": {
+    "notebook_seed_count": 37,
+    "active_ledger_seed_count": 37,
+    "same_ids_and_classes": true,
+    "missing_in_notebook": [],
+    "extra_in_notebook": [],
+    "class_counts": {
+      "cardboard": 5,
+      "electronic": 5,
+      "foodwaste": 4,
+      "glass": 5,
+      "metal": 3,
+      "paper": 5,
+      "plastic": 5,
+      "textile": 5
+    }
+  },
+  "kaggle_notebook_assignment_state": "not reconstructed; cell 11 remains fail-closed",
+  "next_dependencies": [
+    "rebuild Stage17 baseline from raw: feature/group pipeline and fit-only trained heads",
+    "rebuild automatic full-seed consensus and fixed 5-group folds",
+    "rebuild iterative program denoising feature banks (DINOv2, patch, DINOv3, Task8)",
+    "replay subsequent frozen train-only refinements in recorded order",
+    "apply the documented 37 participant seed assignments and exclusions",
+    "freeze assignments, then compare per ID against active manifest as a diagnostic"
+  ]
+}

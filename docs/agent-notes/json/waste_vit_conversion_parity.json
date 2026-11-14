@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "reference": "explicit original-HF-tensor attention and residual equations versus convertedtimmgraph,not an installedTransformersengine",
+  "input": "one seeded synthetic tensor,no dataset images or labels",
+  "max_token_absolute_error": 1.5676021575927734e-05,
+  "max_logit_absolute_error": 4.172325134277344e-07,
+  "max_probability_absolute_error": 2.9802322387695312e-08,
+  "weights_sha256": "a160591b0bec52cfdc0bd322597495fb78604ac0d4aefd8f018d42e59432b43e"
+}

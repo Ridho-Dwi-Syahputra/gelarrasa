@@ -1,8 +1,8 @@
 # Pustaka skill GELAR RASA
 
-Diperbarui 5 November 2026. Fokus: klasifikasi satu citra limbah menjadi satu dari delapan kelas serta laporan sesuai rubrik. Paket ini berisi **22 skill khusus proyek dan 17 paket snapshot eksternal (240 file)**. Subskill bersarang tidak dihitung sebagai paket tambahan. Ini koleksi terkurasi, bukan klaim mencakup seluruh skill di internet.
+Diperbarui 7 November 2026. Fokus: klasifikasi satu citra limbah menjadi satu dari delapan kelas serta laporan sesuai rubrik. Paket ini berisi **22 skill khusus proyek dan 17 paket snapshot eksternal (240 file)**. Subskill bersarang tidak dihitung sebagai paket tambahan. Ini koleksi terkurasi, bukan klaim mencakup seluruh skill di internet.
 
-Setiap tugas dimulai dengan [pemilih skill](custom/gelar-rasa-skill-router/SKILL.md) dan [aturan/rubrik aktif](references/RULES_AND_RUBRIC.md). Q&A terbaru melarang label/koreksi gambar manual satu per satu dan VLM; anotasi visual asisten lama kini arsip yang dikecualikan dari jalur kompetisi. Label aktif hasil metode peserta belum tersedia. Lanjutkan ke [konteks](references/PROJECT_CONTEXT.md), [rencana EDA/preprocessing](references/EDA_PREPROCESS_PLAN.md), atau [rancangan laporan](references/REPORT_BLUEPRINT.md) sesuai tugas. Semua metode merupakan panduan, bukan hasil eksperimen yang sudah terjadi.
+Setiap tugas dimulai dengan [pemilih skill](custom/gelar-rasa-skill-router/SKILL.md) dan [aturan/rubrik aktif](references/RULES_AND_RUBRIC.md). Handbook terbaru (7 November, halaman 7-8) mengizinkan maksimal lima label manusia per kelas train, melarang label manual test/training dengan test, dan tetap melarang VLM; anotasi visual asisten lama kini arsip yang dikecualikan dari jalur kompetisi. Label aktif hasil metode peserta belum tersedia. Lanjutkan ke [konteks](references/PROJECT_CONTEXT.md), [rencana EDA/preprocessing](references/EDA_PREPROCESS_PLAN.md), atau [rancangan laporan](references/REPORT_BLUEPRINT.md) sesuai tugas. Semua metode merupakan panduan, bukan hasil eksperimen yang sudah terjadi.
 
 ## Pilih skill sesuai pekerjaan
 
@@ -44,7 +44,7 @@ Setiap tugas dimulai dengan [pemilih skill](custom/gelar-rasa-skill-router/SKILL
 - [Kontrak artefak, nested validation, dan strategi refit](references/ARTIFACT_CONTRACTS.md).
 - [Hasil penyempurnaan, pengujian, dan batas kesiapan](references/REVIEW_IMPROVEMENTS.md).
 - [Versi, lisensi, SHA-256 setiap file unduhan](sources/vendor_manifest.json).
-- [Struktur proyek](../STRUKTUR_PROYEK.md).
+- [Struktur proyek](project/PROJECT.md).
 
 `custom/` adalah petunjuk kerja yang ditulis untuk dataset ini. `vendor/` menyimpan subtree terpilih secara utuh pada commit yang dicatat; ini bukan klaim bahwa seluruh dependensi transitif di luar subtree sudah disalin. Instruksi vendor adalah referensi yang harus disesuaikan dengan proyek. Tidak ada pemasangan global, peluncuran training, upload data, atau layanan berbayar dari pengumpulan ini. Keterpasangan sebagai file lokal tidak berarti otomatis muncul dalam katalog skill setiap aplikasi; agent dapat membacanya lewat path dari indeks ini.
 
@@ -54,11 +54,8 @@ Contoh pemakaian: “Baca `docs/skills/custom/image-eda-duplicates/SKILL.md`, la
 
 ## Pemeriksaan paket
 
-Jalankan `python docs/skills/tools/validate_collection.py` dari root proyek untuk memeriksa struktur paket, metadata skill lokal, tautan relatif, checksum vendor/materi, cakupan ID, serta kesesuaian label, audit, manifest, salinan, dan sample submission. Secara default hasil pemeriksaan menimpa `docs/skills/sources/validation.json`, termasuk jika pemeriksaan gagal.
+Jalankan `python docs/skills/tools/validate_collection.py --verify-images` dari root proyek setelah Run All. Pemeriksaan mencakup tautan skill, checksum sumber/vendor, struktur aktif, bukti eksekusi notebook, cakupan sumber dan turunan, pemisahan group, serta hash 2.400 gambar asli dan 2.393 gambar praproses. Tidak membaca anotasi arsip atau menjalankan training.
 
-- `--verify-images` menambahkan SHA-256 seluruh 1.920 gambar train asli dan 1.920 salinan berlabel terhadap manifest awal. Opsi ini memeriksa kesamaan byte; tidak melakukan decode gambar atau verifikasi isi test dengan hash referensi.
-- `--no-write` hanya mencetak hasil dan tidak mengubah `validation.json`. Kedua opsi dapat digabung: `python docs/skills/tools/validate_collection.py --verify-images --no-write`.
+Hasil disimpan pada `docs/agent-notes/skills_validation.json`. Opsi `--no-write` hanya mencetak hasil. Tanpa `--verify-images`, pemeriksaan data hanya memeriksa struktur dan identitas berkas yang tercatat. Keberhasilan pemeriksaan tidak membuktikan ketepatan kategori atau Accuracy.
 
-Validator tidak melatih model, mengubah label, mengeksekusi kode vendor, membuktikan ketepatan anotasi, mengesahkan metode kompetisi, atau mengukur Accuracy. Arsip label lama tetap diperiksa integritasnya, tetapi tidak menjadi data aktif. Audit decode/warna/EXIF mengikuti skill preprocessing secara terpisah.
-
-Untuk menguji penolakan input bermasalah tanpa mengubah dataset, jalankan `python -B docs/skills/tools/test_validate_collection.py`. Tes memakai fixture sementara dengan byte sintetis; tidak menguji decoder citra.
+Validator dan fixture lama disimpan bersama pada `arsip/sebelum_rapi_20261107/docs/skills/tools/`; tidak dipakai untuk kontrak aktif.

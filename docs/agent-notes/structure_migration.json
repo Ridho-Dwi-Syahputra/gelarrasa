@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-07",
+  "active_notebook": "final-submit/DSC2026_Notebook.ipynb",
+  "active_project_folders": [
+    "data",
+    "docs",
+    "final-submit",
+    "arsip"
+  ],
+  "archive": "arsip/sebelum_rapi_20261107",
+  "archived_moves": 36,
+  "archived_files_at_migration": 44315,
+  "all_move_preservation_checks_passed": true,
+  "raw_dataset_moved": false,
+  "processed_folders": [
+    "train",
+    "test",
+    "crops",
+    "review"
+  ],
+  "processed_counts": {
+    "train": 1913,
+    "test": 480,
+    "crops": 7,
+    "review": 1
+  },
+  "agents_guide": "docs/skills/AGENTS.md",
+  "full_data_hash_checks": 4793,
+  "notebook_code_cells_executed": 14,
+  "validation": "docs/skills/sources/validation.json",
+  "webinar_coverage": "final-submit/reports/webinar_coverage.csv",
+  "rollback_map": "arsip/sebelum_rapi_20261107/migration_manifest.json"
+}

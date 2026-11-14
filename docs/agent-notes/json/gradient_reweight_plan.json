@@ -1,0 +1,60 @@
+{
+  "method": "trusted_gradient_linear_example_reweighting_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "reference": "https://proceedings.mlr.press/v80/ren18a.html",
+  "adaptation": "epsilonzeroone-stepSGDlinearheadgradientalignment,plus.5cleanCE;notfullpaperrecipe;curatedhumansnotunbiasedvalidation",
+  "targets": "coldautomaticconsensuscoreand34humanONLY;activeassignmentcategoriesunused",
+  "banks": [
+    "base_regional",
+    "cnn_base"
+  ],
+  "controls": [
+    "uniform",
+    "gradient_align"
+  ],
+  "epochs": 30,
+  "checkpoints": [
+    15,
+    30
+  ],
+  "optimizer": "SGDlr.3,momentum.9,weightdecay.001;gradclip5",
+  "steps_per_epoch": 12,
+  "auto_batch": 128,
+  "clean_batch": "oneof8cachedviewsforeachfit-humansource,sourceandclassbalanced;noquerysourceviews",
+  "warmup_epochs": 2,
+  "reweight": "max(0,auto_gradient dot classbalancedclean_gradient)*coldconsensusconfidence,normalize;uniformfallbackifallsumzero",
+  "objective": "weightedautoCE+.5classbalancedcleanCE",
+  "normalizer": "centeringouterTRAINonlythenrowL2",
+  "folds": "fivegeometrysourcegroups;queryexcludedfromauto,cleanmeta,cleanCE,andnormalizer",
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "selection": "globalbestmacrothenmatches;elsebestprecisionfirstWilsonranking",
+  "global_guard": ">=25/34,macro>.75+1e-12,and>=10coveredat>=.9precision",
+  "risk_guard": "wholematches>=20,macro>=.65,coverage>=12,precision>=.95,Wilsonranking>=prior12/12lower+.02",
+  "wilson_limit": "rankingonlyonreused34development,NOTconfidencecertificate",
+  "baseline_risk_lower": 0.7575059933447591,
+  "acceptance": "selectedthresholdandbothfinalTRAINgraphsagree;humanprotected",
+  "maximum_changes": 20,
+  "cap": "descendingselectedprobability,stablekeyorder",
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_audits": true,
+  "evaluation_limit": "all34developmentreused;notuntouchedAccuracy;graphnotcalibrationvalidation",
+  "numerical_gradient_check": {
+    "check": "closed_form_matches_autograd_epsilon_zero_virtual_SGD",
+    "max_absolute_error": 1.3877787807814457e-17
+  },
+  "protected_sha256": {
+    "data/processed/manifest.csv": "f452a33bb27a50de5a960b0464e2057b49bb82bdf84e4f73f8ce9376bbe0ad84",
+    "data/preprocessing_inputs.npz": "c561af55688b95b94a34b3381b5fb40f457634c07411c54b65b00f5cbd546724",
+    "final-submit/DSC2026_Notebook.ipynb": "c99be59612e39cf03c116b5200c3c5f881142f2af6616d2308d3c70de7fea5b4"
+  },
+  "source_code_sha256": "3d48466e3e7081efba74cfb1b5d9e40cde76450b54a0fa59f8f08e41ce11a1a4"
+}

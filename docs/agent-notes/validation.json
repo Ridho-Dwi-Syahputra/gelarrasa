@@ -1,0 +1,687 @@
+{
+  "stage": "EDA_preprocessing_with_algorithmic_folder_assignments",
+  "run_id": "05e8d5e61bb0",
+  "raw_train": 1920,
+  "raw_test": 480,
+  "working_train_unique_parents": 1911,
+  "working_train_samples": 1913,
+  "working_test_samples": 480,
+  "native_crop_samples": 7,
+  "reserved_sources": 1,
+  "excluded_sources": 8,
+  "train_class_counts": {
+    "glass": 211,
+    "paper": 216,
+    "electronic": 208,
+    "metal": 235,
+    "plastic": 276,
+    "cardboard": 256,
+    "textile": 220,
+    "foodwaste": 247
+  },
+  "crop_assignment_rows": [
+    {
+      "sample_id": "0415__calculator",
+      "assigned_class": "electronic",
+      "category_score": 1.0,
+      "category_margin": 1.0,
+      "label_source": "dino_crop_knn_fit_train_v1",
+      "needs_review": false,
+      "neighbor_keys": [
+        "train:0382",
+        "train:1725",
+        "train:0521",
+        "train:0197",
+        "train:1595",
+        "train:0249",
+        "train:1239"
+      ],
+      "neighbor_labels": [
+        "electronic",
+        "electronic",
+        "electronic",
+        "electronic",
+        "electronic",
+        "electronic",
+        "electronic"
+      ]
+    },
+    {
+      "sample_id": "0437__apple",
+      "assigned_class": "foodwaste",
+      "category_score": 0.9744322896003723,
+      "category_margin": 0.9488645792007446,
+      "label_source": "dino_crop_knn_fit_train_v1",
+      "needs_review": false,
+      "neighbor_keys": [
+        "train:1821",
+        "train:0958",
+        "train:0540",
+        "train:0448",
+        "train:1241",
+        "train:0823",
+        "train:0259"
+      ],
+      "neighbor_labels": [
+        "foodwaste",
+        "foodwaste",
+        "foodwaste",
+        "foodwaste",
+        "foodwaste",
+        "glass",
+        "foodwaste"
+      ]
+    },
+    {
+      "sample_id": "0437__laptop",
+      "assigned_class": "electronic",
+      "category_score": 0.5046498775482178,
+      "category_margin": 0.2497532069683075,
+      "label_source": "dino_crop_knn_fit_train_v1",
+      "needs_review": true,
+      "neighbor_keys": [
+        "train:1127",
+        "train:0910",
+        "train:0690",
+        "train:0520",
+        "train:1384",
+        "train:0588",
+        "train:1208"
+      ],
+      "neighbor_labels": [
+        "electronic",
+        "electronic",
+        "cardboard",
+        "paper",
+        "paper",
+        "cardboard",
+        "electronic"
+      ]
+    },
+    {
+      "sample_id": "0951__calculator",
+      "assigned_class": "electronic",
+      "category_score": 1.0,
+      "category_margin": 1.0,
+      "label_source": "dino_crop_knn_fit_train_v1",
+      "needs_review": false,
+      "neighbor_keys": [
+        "train:0521",
+        "train:1292",
+        "train:1239",
+        "train:1280",
+        "train:1680",
+        "train:0382",
+        "train:1595"
+      ],
+      "neighbor_labels": [
+        "electronic",
+        "electronic",
+        "electronic",
+        "electronic",
+        "electronic",
+        "electronic",
+        "electronic"
+      ]
+    },
+    {
+      "sample_id": "0951__printed_page",
+      "assigned_class": "paper",
+      "category_score": 1.0,
+      "category_margin": 1.0,
+      "label_source": "dino_crop_knn_fit_train_v1",
+      "needs_review": false,
+      "neighbor_keys": [
+        "train:0713",
+        "train:1773",
+        "train:0011",
+        "train:0735",
+        "train:0460",
+        "train:0278",
+        "train:1347"
+      ],
+      "neighbor_labels": [
+        "paper",
+        "paper",
+        "paper",
+        "paper",
+        "paper",
+        "paper",
+        "paper"
+      ]
+    },
+    {
+      "sample_id": "1007__red_bag",
+      "assigned_class": "plastic",
+      "category_score": 0.5788264870643616,
+      "category_margin": 0.29608461260795593,
+      "label_source": "dino_crop_knn_fit_train_v1",
+      "needs_review": true,
+      "neighbor_keys": [
+        "train:0736",
+        "train:1565",
+        "train:1128",
+        "train:0694",
+        "train:1306",
+        "train:1074",
+        "train:1498"
+      ],
+      "neighbor_labels": [
+        "plastic",
+        "textile",
+        "plastic",
+        "metal",
+        "plastic",
+        "plastic",
+        "textile"
+      ]
+    },
+    {
+      "sample_id": "1351__lowerleft_box",
+      "assigned_class": "cardboard",
+      "category_score": 1.0,
+      "category_margin": 1.0,
+      "label_source": "dino_crop_knn_fit_train_v1",
+      "needs_review": false,
+      "neighbor_keys": [
+        "train:0323",
+        "train:0734",
+        "train:0892",
+        "train:1004",
+        "train:0920",
+        "train:1372",
+        "train:1137"
+      ],
+      "neighbor_labels": [
+        "cardboard",
+        "cardboard",
+        "cardboard",
+        "cardboard",
+        "cardboard",
+        "cardboard",
+        "cardboard"
+      ]
+    }
+  ],
+  "crop_reference_fit_train_only": true,
+  "crop_parent_group_excluded": true,
+  "input_snapshot": {
+    "available": true,
+    "training_repeated": false,
+    "input_artifact": "data/preprocessing_inputs.npz",
+    "input_sha256": "4feca4421e820c7a847c47e7253ff8341dc6a816b3a619bcaa03cfcf889f1646",
+    "rows": 2400,
+    "assignment_method": "unchanged_frozen_residual_router_batch_continuation_v1",
+    "refinement": {
+      "full_frame_train_rows": 1906,
+      "manual_source_images": 35,
+      "manual_category_counts": {
+        "plastic": 5,
+        "paper": 5,
+        "electronic": 5,
+        "glass": 5,
+        "textile": 5,
+        "cardboard": 5,
+        "metal": 3,
+        "foodwaste": 2
+      },
+      "manual_origin": "participant reviewed train images",
+      "manual_limit_per_class": 5,
+      "changes_vs_previous_program": 7,
+      "lighting_rule_changes": 12,
+      "stable_classifier_graph_changes": 19,
+      "extra_cluster_changes": 7,
+      "new_algorithmic_changes": 9,
+      "new_cluster_changes": 1,
+      "cluster_plan_sha256": "453842d30ab3073685be4187ed10384ba4926766951f458fedbeb1df6d5cea02",
+      "new_neural_changes": 0,
+      "new_vit_propagation_changes": 0,
+      "vit_primary_head": {
+        "anchor_matches": 28,
+        "development_balanced_recall": 0.85,
+        "residual_covered": 19,
+        "residual_correct": 18,
+        "accepted": true,
+        "proposals": 27,
+        "changes": 20
+      },
+      "vit_primary_plan_sha256": "06561993517d8f6d88c10b5068157e3061955a5a94c5a2645e70d3e0888793ab",
+      "vit_source_feature_sha256": "e9264b57c78c39cb2a40d555677d8d1edc4b072e1a556ae08f753a06fade39c6",
+      "robust_neural_plan_sha256": "93ae1b57ec63938c5af13de282f23aebce4e4758c1106ed675fc9d2e4dee7f96",
+      "human_holdout_protocol": "34reuseddevelopment,smallpartialcoverage;sourceconceptcancontainmixedmaterials;allnewpseudolabelsunverified",
+      "geometry_source_groups": {
+        "method": "train_pixel_phash_and_verified_SIFT_RANSAC_source_groups",
+        "before_raw_train_groups": 1869,
+        "after_raw_train_groups": 1792,
+        "eligible_train_group_manifest_sha256": "0adf54a9470aef171091f3327a5c97f4dc01d073f81d5af2a70cd45d390ae396",
+        "verified_edges_sha256": "6f34c12e527c0458a82ed5ffbd4007fc4e51c4ab013eaf8455ce4934e4046305",
+        "test_rows_used": 0,
+        "held_rows_used_for_SIFT": 0
+      },
+      "weak_lighting_rows_restored": 0,
+      "cumulative_changes_vs_initial_program": 257,
+      "unstable_proposals_held_out": 5,
+      "feature_family_count": 3,
+      "graph_train_only": true,
+      "source_group_folds": 5,
+      "human_anchor_weight": null,
+      "historical_lighting_pseudo_weight": 4.0,
+      "historical_conflicting_pseudo_weight_regimes": [
+        1.0,
+        0.05
+      ],
+      "acceptance": "See frozen method-specific experiment record",
+      "development_guard": "samefrozendevelopment28/34,macro.85,residual18/19covered",
+      "method_plan_sha256": "06561993517d8f6d88c10b5068157e3061955a5a94c5a2645e70d3e0888793ab",
+      "confidence_calibration": {
+        "selected": {
+          "anchor_matches": 28,
+          "development_balanced_recall": 0.85,
+          "residual_covered": 19,
+          "residual_correct": 18,
+          "accepted": true,
+          "proposals": 27,
+          "changes": 20
+        },
+        "independent_validation": false
+      },
+      "test_rows_in_fit": 0,
+      "reference_annotations_used_as_targets": false,
+      "human_leave_source_group_out_matches": 28,
+      "human_holdout_rows": 34,
+      "semantic_accuracy": null,
+      "holdout_limit": "few difficult anchors, not random independent final evaluation",
+      "refinement_repeated_by_preprocessing_run": false,
+      "refinement_method": "unchanged_frozen_residual_router_batch_continuation_v1",
+      "eligible_fit_train_rows": 1904,
+      "excluded_hold_keys": [
+        "train:1662",
+        "train:1885"
+      ],
+      "human_seed_sha256": "68473e2348285583c6da11bd9782a73f4ef5ad6461a978b872fb33e276a851f0",
+      "validation_limit": "same34reuseddevelopment;selectivecombinationisnewhypothesis,earlierglobalrejectionpreserved;notindependentAccuracy",
+      "anchor_only_material_extra_changes": 0,
+      "anchor_only_material_plan_sha256": null
+    }
+  },
+  "feature_recipe": {
+    "hog_dimensions": 1764,
+    "color_dimensions": 48,
+    "total_dimensions": 1812,
+    "scaler_and_pca_fit_partition": "train",
+    "fit_samples": 1335,
+    "fit_keys_sha256": "a9b384db808f53e85e0981697f0d37f0a35a872389658a305883d7145202bf72",
+    "classifier_trained": false,
+    "category_targets_used": false
+  },
+  "figures": [
+    {
+      "path": "final-submit/reports/01_distribusi_train_dan_test_sebelum_preprocessing.png",
+      "title": "Distribusi train dan test sebelum preprocessing",
+      "sha256": "c724566487e903ce3dc9379e19635f67cf579d786a46a419c1e573841bc4625a"
+    },
+    {
+      "path": "final-submit/reports/02_preview_train_sampel_acak_tetap.png",
+      "title": "Preview train: sampel acak tetap",
+      "sha256": "8f57611f52df96b89553e586d6c41be046d669f41583ed3a746b55dfb2a0454d"
+    },
+    {
+      "path": "final-submit/reports/03_preview_test_sampel_acak_tetap.png",
+      "title": "Preview test: sampel acak tetap",
+      "sha256": "d745ce97109487a372e6007b78afd117bd1505426f0e40ce861e3597550b001d"
+    },
+    {
+      "path": "final-submit/reports/04_test_dengan_indikator_ketajaman_terendah.png",
+      "title": "Test dengan indikator ketajaman terendah",
+      "sha256": "a1e9ee9988ad693f366e116fb6813bdf642624b3957efebce660eb154714d69a"
+    },
+    {
+      "path": "final-submit/reports/05_pasangan_test_train_phash_terdekat_bukan_kepastian_satu_kelas.png",
+      "title": "Pasangan test\u2013train: pHash terdekat, bukan kepastian satu kelas",
+      "sha256": "0f7e2ae2a6eadbe24c41da16e0a0fca6b7b488b6f3f61700552a3c241676416a"
+    },
+    {
+      "path": "final-submit/reports/06_prediksi_stage17_pada_foto_penuh_sebelum_preprocessing_baru.png",
+      "title": "Prediksi stage17 pada foto penuh sebelum preprocessing baru",
+      "sha256": "6c20a295530436bd3cf864b340780c00d7e4a7c6b5ae9e9bf064ece5818409de"
+    },
+    {
+      "path": "final-submit/reports/07_contoh_kategori_prediksi_train_dan_test.png",
+      "title": "Contoh kategori prediksi: train dan test",
+      "sha256": "eb38420ad4825dc649da412c20d44b323feb6202cea7dfd0b8101a4fafeeabd0"
+    },
+    {
+      "path": "final-submit/reports/08_kategori_algoritmis_train_setelah_preprocessing.png",
+      "title": "Kategori algoritmis train setelah preprocessing",
+      "sha256": "1b8f7f49e372496f475c9ac9e8c40da282f128b60ac48d34c1569b79c46a7cb7"
+    },
+    {
+      "path": "final-submit/reports/09_preview_augmentasi_hanya_train_tidak_ditulis_menjadi_duplikat_data.png",
+      "title": "Preview augmentasi: hanya train, tidak ditulis menjadi duplikat data",
+      "sha256": "bd44e07e77a71730789e7f2db82089ce081aa11c0f46cacca7900d821651ca32"
+    },
+    {
+      "path": "final-submit/reports/10_resolusi_mengubah_tampilan_bukan_menambah_detail_asli.png",
+      "title": "Resolusi mengubah tampilan, bukan menambah detail asli",
+      "sha256": "a4f768861f991afb73db6821885a1bac23508abb9c923b3ded9a1024ac56d0c4"
+    },
+    {
+      "path": "final-submit/reports/11_hog_warna_proyeksi_fit_hanya_pada_train_bukan_bukti_kelas_terpisah.png",
+      "title": "HOG + warna: proyeksi fit hanya pada train, bukan bukti kelas terpisah",
+      "sha256": "798ce1bb1c267112cbcf24c6a50eedfccf421e5ba0f01526dbe049a4adaf200e"
+    },
+    {
+      "path": "final-submit/reports/12_0415_sumber_calculator_235x407_224x224_rasio_tetap.png",
+      "title": "0415 sumber calculator | 235x407 224x224 rasio tetap",
+      "sha256": "c511d488fcc6fce1eed5ff360ab83799c527d2a76301d36788437becc839a6ad"
+    },
+    {
+      "path": "final-submit/reports/13_0951_sumber_printed_page_302x253_224x224_rasio_tetap.png",
+      "title": "0951 sumber printed_page | 302x253 224x224 rasio tetap",
+      "sha256": "fe2e6a673c13eb9f65f57c67507f4214d318ad1c97cf2d531146e03316d07851"
+    },
+    {
+      "path": "final-submit/reports/14_keep_dan_cadangan_tinjauan_nomor_urut.png",
+      "title": "Keep dan cadangan tinjauan: nomor urut",
+      "sha256": "9aa4bd595fefd00b044d2575f8095abf643632e46d95146d352e2531b4c2fd48"
+    },
+    {
+      "path": "final-submit/reports/15_test_juga_memuat_tekstur_kusut_memenuhi_bingkai.png",
+      "title": "Test juga memuat tekstur kusut memenuhi bingkai",
+      "sha256": "3f05414fbadd800cfd10182ef40ca4249870757e341f38207c86d0abe623b7f1"
+    },
+    {
+      "path": "final-submit/reports/16_contoh_test_dengan_beberapa_objek_material.png",
+      "title": "Contoh test dengan beberapa objek/material",
+      "sha256": "544aae5e9fe7a8581a5cc0aaf14f415d559ab06fef09e56cb207d9c7ca23b050"
+    },
+    {
+      "path": "final-submit/reports/17_distribusi_kategori_train_eligible_setelah_preprocessing.png",
+      "title": "Distribusi kategori train eligible setelah preprocessing",
+      "sha256": "535365eb93a902dfdd248a5ba936dd3644121ec9974ef48e22cba564572e7dfb"
+    },
+    {
+      "path": "final-submit/reports/18_pasangan_train_test_setelah_preprocessing.png",
+      "title": "Pasangan train\u2013test setelah preprocessing",
+      "sha256": "76240e99423c72aa1d64ff1e7967d712da953c945feb285b00ad44f9de1d2ac4"
+    },
+    {
+      "path": "final-submit/reports/19_diagnostik_oof_per_kategori_dino_svm_rbf.png",
+      "title": "Diagnostik OOF per kategori: dino_svm_rbf",
+      "sha256": "f5e9e7c04e486bfab6da6330aa3bb504d94c022f1833217f99decdfbf5dff400"
+    }
+  ],
+  "manual_train_seed_count": 35,
+  "manual_train_seed_class_counts": {
+    "glass": 5,
+    "paper": 5,
+    "electronic": 5,
+    "metal": 3,
+    "plastic": 5,
+    "cardboard": 5,
+    "textile": 5,
+    "foodwaste": 2
+  },
+  "deferred_train_keys": [
+    "train:0018",
+    "train:0058",
+    "train:0079",
+    "train:0086",
+    "train:0120",
+    "train:0160",
+    "train:0183",
+    "train:0189",
+    "train:0200",
+    "train:0225",
+    "train:0265",
+    "train:0310",
+    "train:0335",
+    "train:0498",
+    "train:0559",
+    "train:0604",
+    "train:0637",
+    "train:0676",
+    "train:0856",
+    "train:0890",
+    "train:0964",
+    "train:0978",
+    "train:1018",
+    "train:1115",
+    "train:1129",
+    "train:1142",
+    "train:1157",
+    "train:1281",
+    "train:1436",
+    "train:1515",
+    "train:1531",
+    "train:1657",
+    "train:1662",
+    "train:1848",
+    "train:1885",
+    "train:1904",
+    "train:1913"
+  ],
+  "train_cleaning_exclusion_keys": [
+    "train:0058",
+    "train:0265",
+    "train:0310",
+    "train:0498",
+    "train:0559",
+    "train:0964",
+    "train:0978",
+    "train:1018",
+    "train:1142",
+    "train:1281",
+    "train:1436",
+    "train:1515",
+    "train:1531",
+    "train:1657",
+    "train:1848",
+    "train:1904",
+    "train:1913"
+  ],
+  "training_eligible_train_samples": 1876,
+  "deferred_train_samples": 37,
+  "source_files_changed": false,
+  "all_output_images_verified": true,
+  "all_native_crops_exact_parent_subsets": true,
+  "same_parent_same_group": true,
+  "draft_split_prepared": true,
+  "draft_split_stratified": false,
+  "group_method": "train_pixel_phash_and_verified_SIFT_RANSAC_source_groups",
+  "classifier_training_executed": true,
+  "semantic_accuracy": null,
+  "submission_created": true,
+  "weighted_sampler_activated": false,
+  "seconds": 152.36431241035461,
+  "cluster_anchor_1039": {
+    "fit_train_rows": 1887,
+    "test_rows_in_fit": 0,
+    "human_anchor_count_this_cluster": 1,
+    "stable_members": 72,
+    "algorithmic_category_changes": 70,
+    "cluster_repetitions": 5,
+    "minimum_support": 4,
+    "independent_semantic_validation": false
+  },
+  "geometric_group_consistency": {
+    "test_rows_in_fit": 0,
+    "changes": 1,
+    "evidence": [
+      {
+        "qualified": false,
+        "matches": 33,
+        "inliers": 12,
+        "inlier_fraction": 0.36363636363636365,
+        "hull_fraction_a": 0.32474486459500174,
+        "hull_fraction_b": 0.32465730840885404,
+        "group": "train_geom_00b20eb8ad17b0e7",
+        "key_a": "train:0960",
+        "key_b": "train:1474",
+        "accepted": false
+      },
+      {
+        "qualified": false,
+        "matches": 67,
+        "inliers": 56,
+        "inlier_fraction": 0.835820895522388,
+        "hull_fraction_a": 0.22905765577384715,
+        "hull_fraction_b": 0.22896873552444497,
+        "group": "train_geom_2c10f61202e65832",
+        "key_a": "train:0928",
+        "key_b": "train:1572",
+        "accepted": false
+      },
+      {
+        "qualified": true,
+        "matches": 188,
+        "inliers": 178,
+        "inlier_fraction": 0.9468085106382979,
+        "hull_fraction_a": 0.35404492909538526,
+        "hull_fraction_b": 0.35416400243396545,
+        "group": "train_geom_56c1a8954121dd65",
+        "key_a": "train:1840",
+        "key_b": "train:1869",
+        "accepted": false,
+        "votes": [
+          "cardboard",
+          "cardboard",
+          "glass",
+          "glass",
+          "glass",
+          "glass"
+        ],
+        "winning_class": "glass",
+        "winning_votes": 4
+      },
+      {
+        "qualified": true,
+        "matches": 191,
+        "inliers": 183,
+        "inlier_fraction": 0.9581151832460733,
+        "hull_fraction_a": 0.7683958503346952,
+        "hull_fraction_b": 0.7680216030529554,
+        "group": "train_geom_8172a577e593b9c6",
+        "key_a": "train:0064",
+        "key_b": "train:1379",
+        "accepted": true,
+        "votes": [
+          "cardboard",
+          "cardboard",
+          "cardboard",
+          "cardboard",
+          "cardboard",
+          "cardboard"
+        ],
+        "winning_class": "cardboard",
+        "winning_votes": 6
+      }
+    ]
+  },
+  "modeling_train_samples": 1869,
+  "modeling_training_view": "eligible_full_frame_only",
+  "group_oof_reference_alignment": {
+    "fit_pool_full_frames": 1799,
+    "candidates": 88,
+    "accepted": 70,
+    "held_out": 18,
+    "minimum_model_votes": 2,
+    "test_rows_in_fit": 0
+  },
+  "modeling_report": {
+    "metric_scope": "grouped_agreement_with_automatic_train_targets_not_official_accuracy",
+    "seed": 20261106,
+    "folds": 5,
+    "train_samples": 1869,
+    "test_samples": 480,
+    "training_view": "eligible_full_frame_only",
+    "crop_views_used_for_classifier": 0,
+    "device": "cpu",
+    "source_groups": 1745,
+    "excluded_train_sources": 37,
+    "manual_seed_count": 35,
+    "encoder": "vit_small_patch14_dinov2.lvd142m",
+    "encoder_checkpoint_sha256": "04d27f3400d059fc0cfd7d17dd1909a75bf3ea8fb3eeb48b97cb99e57ee20081",
+    "embedding_identity": "e3a3f85717e861cfccd417366405936c58a573cd6a9f57bca2b6c7d4c1aaeffd",
+    "embedding_cache_sha256": "9bef2d4665eafd0a4b61b72f75d75bc272594f4014d1d01ad901c02661fa9a6d",
+    "oof_metrics": [
+      {
+        "model": "dino_logistic",
+        "pseudo_oof_agreement": 0.9604066345639379,
+        "pseudo_oof_macro_f1": 0.9608105495768118,
+        "pseudo_oof_balanced_accuracy": 0.9603654294944232,
+        "reviewed_seed_agreement_contaminated": 0.5428571428571428
+      },
+      {
+        "model": "dino_svm_rbf",
+        "pseudo_oof_agreement": 0.9684323167469235,
+        "pseudo_oof_macro_f1": 0.9689993260220108,
+        "pseudo_oof_balanced_accuracy": 0.9688949557094901,
+        "reviewed_seed_agreement_contaminated": 0.6285714285714286
+      },
+      {
+        "model": "dino_knn7",
+        "pseudo_oof_agreement": 0.9545211342964152,
+        "pseudo_oof_macro_f1": 0.9551755493307077,
+        "pseudo_oof_balanced_accuracy": 0.9554303292914634,
+        "reviewed_seed_agreement_contaminated": 0.6
+      }
+    ],
+    "submission_files": [
+      {
+        "model": "dino_logistic",
+        "path": "final-submit/output/submission_001_dino_logistic.csv",
+        "sha256": "daad7f5e8805ba6f1c037464d5b9c5725e909b7a0f8231d0395c5f2d95178e35",
+        "label_vector_sha256": "9cbac6c9dd881772e0c34b283478ca08d05343c6c8100ac8634ff3ae6e2d7e2e",
+        "class_counts": {
+          "glass": 60,
+          "paper": 53,
+          "electronic": 61,
+          "metal": 58,
+          "plastic": 62,
+          "cardboard": 62,
+          "textile": 61,
+          "foodwaste": 63
+        }
+      },
+      {
+        "model": "dino_svm_rbf",
+        "path": "final-submit/output/submission_002_dino_svm_rbf.csv",
+        "sha256": "f0413f8a4d4ae099d8614678c31f99a66992ce795daa72cfe182ee97c11489ec",
+        "label_vector_sha256": "f031e52d3558d220c2a8eb0f4d998ab8d76d2641ef7a5339d293cc960ee8e78a",
+        "class_counts": {
+          "glass": 58,
+          "paper": 58,
+          "electronic": 62,
+          "metal": 59,
+          "plastic": 62,
+          "cardboard": 61,
+          "textile": 60,
+          "foodwaste": 60
+        }
+      },
+      {
+        "model": "dino_knn7",
+        "path": "final-submit/output/submission_003_dino_knn7.csv",
+        "sha256": "16462aa3116173be3e99fc612275bb26346803a09c670b65413de4d1cda383b5",
+        "label_vector_sha256": "aaf70a4ee5d301dc9436bf4c1b04f041efc2cc026419ed1aac02823b784b05fc",
+        "class_counts": {
+          "glass": 56,
+          "paper": 61,
+          "electronic": 62,
+          "metal": 59,
+          "plastic": 60,
+          "cardboard": 61,
+          "textile": 61,
+          "foodwaste": 60
+        }
+      }
+    ],
+    "pairwise_test_disagreements": {
+      "dino_logistic_vs_dino_svm_rbf": 16,
+      "dino_logistic_vs_dino_knn7": 21,
+      "dino_svm_rbf_vs_dino_knn7": 16
+    },
+    "official_accuracy": null
+  }
+}

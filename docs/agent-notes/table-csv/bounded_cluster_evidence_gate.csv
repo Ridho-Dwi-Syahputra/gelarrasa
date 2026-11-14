@@ -1,0 +1,10 @@
+image_id,cluster_class,configuration_support,feature_family_support,graph_support,clean_classifier_support,accepted
+0289,paper,4,2,2,3,False
+0352,paper,6,3,3,4,True
+0429,paper,5,3,3,3,True
+0531,paper,6,3,3,5,True
+0562,paper,5,3,3,2,False
+0777,paper,6,3,3,5,True
+1228,paper,6,3,3,4,True
+1353,paper,6,3,3,2,False
+1732,paper,6,3,3,5,True

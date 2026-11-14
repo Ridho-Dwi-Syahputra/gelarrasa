@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "rows": 1904,
+  "test_rows": 0,
+  "focus_candidate_rows": 1122,
+  "dimensions": 2716,
+  "feature_sha256": "c6f3835510e86fe168c7e319567a5be4913a7ae362b4e42d6ea1cbdd39615935",
+  "source_code_sha256": "e6f4f3298f4bce8164d0a0b83432a0087d10603c45bef334e881a73a267f900c",
+  "seconds": 513.5206170082092
+}

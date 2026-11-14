@@ -1,0 +1,11 @@
+{
+  "source": "explicit participant answer to pending case question",
+  "image_ids": [
+    "1662",
+    "1885"
+  ],
+  "human_anchors_allowed": false,
+  "final_classifier_training_allowed": false,
+  "raw_and_review_images_preserved": true,
+  "no_new_category_labels_created": true
+}

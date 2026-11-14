@@ -1,0 +1,82 @@
+{
+  "model": "DINOv3 OVR + source-group weighted kNN with border-median foreground color similarity",
+  "train_rows": 1887,
+  "test_rows_in_fit": 0,
+  "test_rows_inference": 480,
+  "alpha_grid": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "k_grid": [
+    3,
+    5,
+    7,
+    11
+  ],
+  "blend_grid": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "outer_recipes": [
+    {
+      "outer_fold": 1,
+      "alpha": 0.4,
+      "k": 11,
+      "blend": 0.05
+    },
+    {
+      "outer_fold": 2,
+      "alpha": 0.3,
+      "k": 11,
+      "blend": 0.05
+    },
+    {
+      "outer_fold": 3,
+      "alpha": 0.5,
+      "k": 7,
+      "blend": 0.2
+    },
+    {
+      "outer_fold": 4,
+      "alpha": 0.5,
+      "k": 5,
+      "blend": 0.05
+    },
+    {
+      "outer_fold": 5,
+      "alpha": 0.4,
+      "k": 5,
+      "blend": 0.1
+    }
+  ],
+  "final_alpha": 0.3,
+  "final_k": 11,
+  "final_blend": 0.05,
+  "nested_metrics": {
+    "dino_foreground_color_knn": {
+      "agreement": 0.949655537890832,
+      "balanced_accuracy": 0.9502423027458863,
+      "macro_f1": 0.9504667678443526
+    },
+    "paired_outer_baseline_008": {
+      "agreement": 0.9512453630100689,
+      "balanced_accuracy": 0.9516372481187757,
+      "macro_f1": 0.9518922170592095
+    }
+  },
+  "oof_rows_changed": 22,
+  "test_rows_changed_vs_008": 3,
+  "paired_oof_not_degraded": false,
+  "candidate_submission_path": null,
+  "candidate_sha256": null,
+  "oof_path": "final-submit/output/foreground_color_oof.csv",
+  "neighbor_path": "final-submit/output/foreground_color_neighbors.csv",
+  "official_accuracy": null,
+  "test_used_for_fit_or_selection": false,
+  "interpretation": "OOF agreement is against derived train categories, not independently verified semantic ground truth."
+}

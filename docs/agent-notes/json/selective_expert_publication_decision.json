@@ -1,0 +1,8 @@
+{
+  "decision": "publish",
+  "prediction_sha256": "dc550e31b029b041b87186cb51fcd3b5012ab1f85915d4240be9fad7b31fb827",
+  "guard": "differentexpertwithWilsonlowerscore>=baseline+.02andcoverage>=baseline;floorwhole34performanceasabove",
+  "accepted_changes": 14,
+  "private_review_used_for_selection": false,
+  "timestamp_utc": "2026-11-07T16:28:53.207106+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "method": "three_family_augmented_genuine_source_prototypes_v1",
+  "human_sources": 34,
+  "views_per_source": 8,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "banks": [
+    "V2CLS_ROImaxview",
+    "CNNfullsourceT1T2maxview",
+    "V3CLS_PCA128whiteoriginal"
+  ],
+  "source_vote": "maxviewcosinesimilarityperSOURCE,thenmaxperclass;noautomaticlabeltargets",
+  "candidate": "atleast2of3banksagree;minmarginandminrawsimilarityonagreeingbanks;3bankconflictsabstain",
+  "margin_grid": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "raw_similarity_grid": [
+    0.45,
+    0.55,
+    0.65
+  ],
+  "normalizer": "centeringfitouterTRAINonly;V3PCAwhiteningfitouterTRAINonly;all8querysourceviewsheldouttogether",
+  "selection": "noninferiorwhole34withV3fallback;partialcoverage>=5,precision>=.9;maxmatches,macro,precision,coverage,strictermargin",
+  "guard": "matches>=26andmacro>=.783333333333;covered>=5,precision>=.9",
+  "maximum_changes": 20,
+  "cap": "descendingminimumclassmarginthenstablekeyorder",
+  "score": "minimumcosineclassmargin;notprobabilityofcorrectlabel",
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_audits": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "8a93f24c0499bd470b8a0438b9c80cae090770b2447b706fd746e3bba47d55c3",
+    "data/preprocessing_inputs.npz": "8343b1bcaef1e0973bec2d1592cb8ea69245665b88fb7b3c26cefd691a8263a1",
+    "final-submit/DSC2026_Notebook.ipynb": "b2e8236fa66e3168762012285d0daa59b4a007b9ad40be513d95cd853c481015"
+  },
+  "source_code_sha256": "7fa2dc8b7a569f30bec05e932f27ed473e80f74410dc1398329bc7c62267637e",
+  "evaluation_limit": "34developmentanchorsreused;noindependentsemanticAccuracy;maxviewcanmatchbackground"
+}

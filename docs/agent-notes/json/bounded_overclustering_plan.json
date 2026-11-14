@@ -1,0 +1,22 @@
+{
+  "manual_train_anchors": 14,
+  "test_rows_in_fit": 0,
+  "banks": [
+    "dino2",
+    "dino3_global",
+    "dino3_task8"
+  ],
+  "k": [
+    32,
+    64,
+    128
+  ],
+  "PCA_dimensions": 64,
+  "random_state": 20261107,
+  "cluster_label_rule": "at least2 human anchors, all same category; otherwise no proposed label",
+  "stability_rule": "at least4of9 configurations and2feature banks, no conflicting suggested categories",
+  "source_candidate_sha256": "e8c1bfda2a52bafe936900159c150ff84c590f859ebcb1613717868d3b31f897",
+  "unselected_review_labels_loaded": false,
+  "archive_labels_loaded": false,
+  "purpose": "diagnostic only, not automatically publishing extra labels"
+}

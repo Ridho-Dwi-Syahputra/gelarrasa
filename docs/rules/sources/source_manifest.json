@@ -42,6 +42,23 @@
       "source_url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk",
       "sha256": "b73e5efb0afd407797ee0f92d9ef56ca3bc76168c7cc7788b2dd1ee767cd70e7",
       "bytes": 28142
+    },
+    {
+      "path": "docs/rules/sources/handbook_latest_20261107.pdf",
+      "source_url": "https://drive.google.com/file/d/1Kv5qtWHorZyiBjTgpRYDvwIpLhkKauOq/view",
+      "sha256": "7380e15d7f511d118dea7a891ff730b77fcd6852104bcd65f1693acfb028960c",
+      "bytes": 5729787,
+      "pages": 9,
+      "verified_at": "2026-11-07 Asia/Jakarta"
+    },
+    {
+      "path": "docs/rules/sources/padlet_qna_20261107.json",
+      "source_url": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk",
+      "sha256": "76647f68c4ef570617a299b97b0df1aff5a97c8c7d4e58c92be7286c73b000fa",
+      "bytes": 38561,
+      "retrieved_at_utc": "2026-11-07T13:40:32.617995+00:00"
     }
-  ]
+  ],
+  "latest_qna_snapshot": "docs/rules/sources/padlet_qna_20261107.json",
+  "latest_qna_checked_at_utc": "2026-11-07T13:40:32.617995+00:00"
 }

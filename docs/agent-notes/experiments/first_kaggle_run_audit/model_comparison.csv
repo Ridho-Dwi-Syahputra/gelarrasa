@@ -1,0 +1,6 @@
+model,same_as_target,different_from_target,agreement_percent,mean_confidence_on_different,different_with_confidence_ge_0_8
+resnet50,217,263,45.2083,0.6452639606463877,74
+efficientnet_v2_s,211,269,43.9583,0.66441869,89
+convnext_small,213,267,44.375,0.6812298519475655,104
+swin_v2_t,210,270,43.75,0.6870529435555556,101
+ensemble,210,270,43.75,0.6110743886296296,59

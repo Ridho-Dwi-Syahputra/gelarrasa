@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "rollback_of": "capped_pairwise_consensus_10",
+  "backup": "docs\\agent-notes\\.runtime\\before_bounded_anchor_20261108T062049Z",
+  "rejected_artifacts": "docs\\agent-notes\\.runtime\\rejected_capped_pairwise_consensus_10_before_bounded_anchor_20261108T122516Z",
+  "candidate_sha256": "1fad20b40c9171e67e8fe58b9db306764908d696bd783471033eb29a5fd3051b",
+  "manual_unique_source_images": 34,
+  "manual_class_counts": {
+    "plastic": 5,
+    "paper": 5,
+    "electronic": 5,
+    "glass": 5,
+    "textile": 5,
+    "cardboard": 5,
+    "metal": 3,
+    "foodwaste": 1
+  },
+  "source_frozen_prefix": "frozen_residual_continuation",
+  "cumulative_changes_vs_initial_program": 257,
+  "test_snapshot_unchanged": true,
+  "raw_sources_unchanged": true,
+  "input_sha256": "791996fdec9749f7dbe40ea105ffd346c24a1f3b98379e3b11d081e55ab7fe7d",
+  "notebook_sha256": "f2f56da23f21f859653f8092422be989651c59fb15e4bf9cba4585bbed447639",
+  "manifest_sha256": "13289e5991b6324d1737cadb85375e291c118311653d6f4417bc5ecc3ed19035"
+}

@@ -1,0 +1,18 @@
+{
+  "method": "trusted_train_pool_source_group_oof_model_predict_residual_postprediction_reference_acceptance",
+  "raw_train_images": 1920,
+  "trusted_train_rows": 1770,
+  "residual_rows_predicted": 150,
+  "cv": "5-fold StratifiedGroupKFold by train source groups",
+  "selected_model": "DINOv3 train-only embeddings + RBF SVM (C=10, gamma=scale)",
+  "trusted_pool_oof_accuracy": 0.9774,
+  "trusted_pool_oof_macro_f1": 0.9773,
+  "residual_model_predictions_matching_reference": 69,
+  "residual_predictions_withheld": 81,
+  "candidate_train_pool_rows": 1839,
+  "test_images_processed": 0,
+  "main_notebook_modified": false,
+  "candidate_pool_applied_to_processed_folders": false,
+  "authorized_reference_role": "post-prediction acceptance filter as requested by participant",
+  "audit_note": "OOF measures agreement with the trusted program/reference-derived pool, not independent semantic accuracy."
+}

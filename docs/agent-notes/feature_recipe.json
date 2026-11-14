@@ -1,0 +1,10 @@
+{
+  "hog_dimensions": 1764,
+  "color_dimensions": 48,
+  "total_dimensions": 1812,
+  "scaler_and_pca_fit_partition": "train",
+  "fit_samples": 1335,
+  "fit_keys_sha256": "a9b384db808f53e85e0981697f0d37f0a35a872389658a305883d7145202bf72",
+  "classifier_trained": false,
+  "category_targets_used": false
+}

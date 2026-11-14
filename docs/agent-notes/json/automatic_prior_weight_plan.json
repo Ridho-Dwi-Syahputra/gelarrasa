@@ -1,0 +1,32 @@
+{
+  "method": "confidence and class-coverage weighted nearest-neighbor classification",
+  "manual_labels_consumed": 0,
+  "test_rows_in_fit": 0,
+  "validation": "five folds of128 unsupervised train-only visual clusters; original source groups kept together",
+  "visual_clusters_used_for_partition_only": true,
+  "class_weight_modes": [
+    "none",
+    "uniform_prior",
+    "machine_prior"
+  ],
+  "prior_exponents": [
+    0.5,
+    1.0
+  ],
+  "neighbors": [
+    7,
+    21
+  ],
+  "seed": "all1323 automatic CNN-consensus anchors",
+  "machine_prior_source": "class proportions of prior program assignments within the fold training rows only",
+  "selection": ".65 macro agreement on heldout automatic anchors +.35 heldout hflip agreement; min5 predictions/class",
+  "full_refit_inference_excludes_own_source_group": true,
+  "counts_not_constrained_to_a_quota": true,
+  "archive_reference_read": false,
+  "researcher_has_seen_previous_private_audits": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "28d926592d6819af4e25b8727f8a641f12ccd47718546da3ee02cff35159e96c",
+    "data/preprocessing_inputs.npz": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+    "final-submit/DSC2026_Notebook.ipynb": "20416ab9d262f2a94756825d812dd9f37e7f0fb374c99805db6ed68688d84c62"
+  }
+}

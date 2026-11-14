@@ -1,0 +1,52 @@
+{
+  "status": "frozen_before_posthoc_audit",
+  "method": "seven_anchor_crossfit_graph_and_lighting_v1",
+  "manual_unique_source_images_used": 7,
+  "manual_class_counts": {
+    "plastic": 2,
+    "paper": 2,
+    "metal": 1,
+    "electronic": 1,
+    "glass": 1
+  },
+  "test_rows_in_fit": 0,
+  "human_seed_sha256": "39aae941dc448f513c97acaf994f854ee68024983a4a7b1939596d6ee923d8d5",
+  "prediction_sha256": "e6a0fa75cc45efdd81d73e9de8bd9f523c8634323a051262c052ce33688c53bf",
+  "train_rows": 1906,
+  "accepted_lighting_rule_rows": 16,
+  "accepted_graph_crossfit_rows": 9,
+  "changed_rows_vs_baseline": 32,
+  "graphs": [
+    {
+      "bank": "dino2",
+      "iterations": 574,
+      "max_delta": 9.987541634837172e-07,
+      "converged": true
+    },
+    {
+      "bank": "dino3_foreground",
+      "iterations": 336,
+      "max_delta": 9.791000018521956e-07,
+      "converged": true
+    },
+    {
+      "bank": "dino3_task8",
+      "iterations": 335,
+      "max_delta": 9.895985135788266e-07,
+      "converged": true
+    }
+  ],
+  "human_leave_source_group_out_matches": 1,
+  "human_holdout_rows": 7,
+  "semantic_accuracy": null,
+  "human_holdout_is_tiny_and_not_unbiased_final_validation": true,
+  "classification_training_scope": "assignment heads only; not final competition classifier",
+  "active_data_modified": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "f6b1334e6c56795a669d14bd6dfd51df69b1fd43fb2dc0f75a5e044025f47768",
+    "data/preprocessing_inputs.npz": "da3024d9e4dcbc20fa08e5a08f36b265033428b06e82588e854a49556f01631c",
+    "final-submit/DSC2026_Notebook.ipynb": "9b185e3462b4056a459552658bd0a7ad79a2fec7ce2cf156e3ee7656c74fa279"
+  },
+  "source_code_sha256": "82b8254bfdba27bd099d78d93961c5c59c0d65a5a2f3e3436c8fbdc6bb40b5c8",
+  "seconds": 10.64942717552185
+}

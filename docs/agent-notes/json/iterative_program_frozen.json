@@ -1,0 +1,37 @@
+{
+  "status": "frozen_before_reference_audit",
+  "manual_labels_consumed": 0,
+  "test_rows_in_fit": 0,
+  "train_rows": 1906,
+  "fixed_automatic_anchors": 589,
+  "initial_anchor_restorations": 0,
+  "history": [
+    {
+      "round": 2,
+      "changes_from_previous_round": 17,
+      "changes_vs_initial_program": 68,
+      "class_counts": {
+        "glass": 202,
+        "paper": 247,
+        "electronic": 193,
+        "metal": 261,
+        "plastic": 278,
+        "cardboard": 249,
+        "textile": 220,
+        "foodwaste": 256
+      }
+    }
+  ],
+  "selected_final_round": 2,
+  "prediction_sha256": "d7765ffaeb2e1aecaf9762418319509fe8873e03aff72a351748fb821f5b0076",
+  "stop_reason": "changed_fraction_below_one_percent",
+  "semantic_accuracy": null,
+  "active_data_modified": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "28d926592d6819af4e25b8727f8a641f12ccd47718546da3ee02cff35159e96c",
+    "data/preprocessing_inputs.npz": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+    "final-submit/DSC2026_Notebook.ipynb": "20416ab9d262f2a94756825d812dd9f37e7f0fb374c99805db6ed68688d84c62"
+  },
+  "source_code_sha256": "d1345f858b878b5393251b4dcb5726d2150771256f4fe674739393f4f5660a5c",
+  "seconds": 4.167074680328369
+}

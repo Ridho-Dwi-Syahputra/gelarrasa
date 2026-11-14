@@ -1,0 +1,23 @@
+{
+  "model": "dino_hsv_svm_dataset_pseudolabel_finetune_stage2",
+  "path": "final-submit/output/submission_005_dino_hsv_svm_finetune_stage2.csv",
+  "sha256": "df982418f81ccffb80ff463e8f3520040338d5d7b83a13c8fd4200a122438ca8",
+  "diagnostics_path": "final-submit/output/test_finetune_stage2_diagnostics.csv",
+  "base_candidate": "submission_004_dino_hsv_svm.csv",
+  "selection": "all classifier-disagreement test rows ranked by vote entropy",
+  "pseudo_label_rule": "plurality of three DINO train-only models; ties use best grouped-OOF model",
+  "adaptation_rows_added_to_fit": 27,
+  "test_sample_weight": 25.0,
+  "fit_history": [
+    {
+      "C": 4.0,
+      "pseudo_target_fit_count": 27
+    }
+  ],
+  "pseudo_target_fit_count": 27,
+  "frozen_test_rows": 453,
+  "changed_predictions_vs_base": 6,
+  "image_source": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026\\test",
+  "external_test_labels_or_submission_used": false,
+  "official_accuracy": null
+}

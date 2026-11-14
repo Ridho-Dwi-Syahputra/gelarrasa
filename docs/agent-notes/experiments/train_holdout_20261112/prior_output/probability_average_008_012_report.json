@@ -1,0 +1,33 @@
+{
+  "model": "fixed 50:50 probability mean of DINOv3 OVR and DINOv3+HSV group-kNN",
+  "train_rows": 1869,
+  "test_rows_in_fit": 0,
+  "test_rows_inference": 480,
+  "weights": {
+    "dino_ovr": 0.5,
+    "dino_hsv_group_knn": 0.5
+  },
+  "oof_metrics": {
+    "ovr_baseline_008": {
+      "agreement": 0.9914392723381488,
+      "macro_f1": 0.9917664898738118
+    },
+    "color_knn_012": {
+      "agreement": 0.9919743178170144,
+      "macro_f1": 0.9923318739322304
+    },
+    "probability_average": {
+      "agreement": 0.9919743178170144,
+      "balanced_accuracy": 0.9924450640408486,
+      "macro_f1": 0.9923546237363092
+    }
+  },
+  "oof_rows_changed_vs_012": 6,
+  "test_rows_changed_vs_008": 1,
+  "test_rows_changed_vs_012": 0,
+  "candidate_submission_path": null,
+  "candidate_sha256": null,
+  "official_accuracy": null,
+  "test_used_for_fit_or_selection": false,
+  "interpretation": "OOF agreement uses derived train categories, not independent semantic ground truth."
+}

@@ -1,0 +1,4 @@
+{
+  "train_test_exact_pixel_overlap": 3,
+  "use": "diagnostic only"
+}

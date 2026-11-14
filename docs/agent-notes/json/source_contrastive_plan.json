@@ -1,0 +1,43 @@
+{
+  "method": "source_group_supervised_contrastive_feature_adaptation_v1",
+  "train_rows": 1904,
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "targets": "same34humanandcoldautomaticconsensusonly;noactivepseudo-assignmenttargets",
+  "banks": [
+    "base_global",
+    "base_regional",
+    "cnn_base"
+  ],
+  "architecture": "LayerNorm,128GELUdropout.1,64normalizedprojectionand8classifier",
+  "loss": "human-weightedCE+0.2SupCon(tau.1);humanweight8,automaticconfidenceweight;allanchorscontribute;positivesmustshareclassanddiffergeometrysource",
+  "augmentation": "8cachedviewsfor34human,randomoneviewperselectedsource;not8independentlabels",
+  "batch": "96coldautomatic+32randomfit-humansources;12steps/epoch;querygroupsneverfit",
+  "training": "AdamWlr.001,weightdecay.001,gradclip5,40epochs;check20and40",
+  "automatic_filter": "fit-onlynearesthumancontradictioncos>=.65andmargin>=.02;humanprotected",
+  "selection": "perbankbest34group-heldoutmacrorecall,thenmatches;overallbestprimary;qualifybanksmacro>=.625andwithin.1",
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "threshold_selection": "maxcoverage>=10at>=.9empiricalprecision;tiesstricter",
+  "acceptance": "allqualifiedheadsmeetthreshold,bothnormalizedTRAINgraphsagree;previousrefinementsscore>=max(.95,threshold);humanprotected",
+  "guard": ">=25/34andmacro>.75and>=2qualifiedbanksandthresholdexists",
+  "maximum_changes": 40,
+  "cap": "descendingminimumprobability,stablekeyorder",
+  "evaluation_limit": "34reuseddevelopmentnotindependentAccuracy;graphnotcalibrationvalidation",
+  "private_review_or_archive_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "be1487bbcbf07ce2db28f5cad04024ca3672478baa8764e91417aefaed134708",
+    "data/preprocessing_inputs.npz": "091f712b22a07fd1c85a79977e7aa337e3cdf47048c8f2b6a382f831eab8d93e",
+    "final-submit/DSC2026_Notebook.ipynb": "407eaaa66ad26701d64a0675c869d5dc4a42862883786c63826cab3964dafba0"
+  },
+  "source_code_sha256": "bdfed9c7a7745ffbea8a61b481e0c4c0af39925328b01854bed14f07bdf5a5e6",
+  "reference": "https://proceedings.neurips.cc/paper/2020/hash/d89a66c7c80a29b1bdbab0f2a1a94af8-Abstract.html",
+  "replication": "adaptedprojectionheadandmixednoisy-targetloss,notpublishedfull-backboneSupConrecipe"
+}

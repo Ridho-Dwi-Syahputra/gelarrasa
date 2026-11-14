@@ -1,0 +1,22 @@
+{
+  "iteration": 3,
+  "fit_rows": 1839,
+  "residual_rows_predicted": 81,
+  "grouped_cv": "5-fold StratifiedGroupKFold by train source groups",
+  "selected_recipe": {
+    "feature": "dinov3",
+    "model": "svm_rbf",
+    "C": 10.0,
+    "gamma": "scale",
+    "oof_accuracy": 0.9831430125067971,
+    "oof_macro_f1": 0.9833498746709641
+  },
+  "residual_accepted": 26,
+  "residual_withheld": 55,
+  "candidate_pool_after_iteration_03": 1865,
+  "test_rows_processed": 0,
+  "reference_use": "post-prediction accept/reject only, as requested",
+  "main_notebook_modified": false,
+  "processed_folders_modified": false,
+  "elapsed_seconds": 165.89
+}

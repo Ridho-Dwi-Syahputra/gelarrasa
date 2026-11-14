@@ -1,0 +1,22 @@
+{
+  "notebook_sha256": "2d2bc907756b0ce72e84b441e5fbaa8034f0d34f59c91ccb8d2c743dd2ebccbf",
+  "state_sha256": "9db0b5fb759b21f9bf815e52c7429a3c101cd2687b3abef1eeb1a81e38e6fa69",
+  "actual_dinov3_weight_sha256_verified": true,
+  "native_descriptor_parity_max_abs_difference": 0.0,
+  "native_crop_features_computed": 7,
+  "hand_feature_dimensions": 499,
+  "nested_classifier_cpu_smoke_rows": 96,
+  "outer_folds": 3,
+  "inner_folds": 2,
+  "smoke_tree_count": 16,
+  "smoke_xgb_rounds": 8,
+  "production_tree_count": 600,
+  "production_xgb_rounds": 360,
+  "candidate_probability_and_csv_checks": "pass",
+  "xgboost_serialization_roundtrip": "pass",
+  "baseline_non_degradation_guard": "pass",
+  "test_targets_used": false,
+  "gpu_training_run": false,
+  "timm": "1.0.27",
+  "xgboost": "3.1.2"
+}

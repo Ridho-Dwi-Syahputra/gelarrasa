@@ -1,0 +1,79 @@
+{
+  "status": "group_oof_model_probe_completed",
+  "authorization_basis": "participant reports the competition organizers explicitly approved this archive-alignment experiment; no direct organizer artifact was provided in this workspace",
+  "method": "five-fold source-group cross-fitted DINOv2-small logistic regression, RBF SVM, and cosine kNN7, fit only on 1,799 non-residual train full-frames; candidate IDs' whole source groups excluded from each fold model",
+  "train_full_frames_compared": 1887,
+  "fit_pool_rows": 1799,
+  "residual_rows": 88,
+  "explicit_exceptions_in_fit_pool": 13,
+  "human_seed_count_in_fit_pool": 35,
+  "test_rows_in_fit": 0,
+  "archive_labels_used_for_model_fit": false,
+  "reference_used_only_after_crossfit_for_candidate_accept_or_exclude": true,
+  "fit_pool_target_equals_adjusted_reference": true,
+  "folds": [
+    {
+      "fold": 0,
+      "held_groups": 17,
+      "residual_images": 18,
+      "fit_images": 1797
+    },
+    {
+      "fold": 1,
+      "held_groups": 17,
+      "residual_images": 18,
+      "fit_images": 1799
+    },
+    {
+      "fold": 2,
+      "held_groups": 17,
+      "residual_images": 18,
+      "fit_images": 1796
+    },
+    {
+      "fold": 3,
+      "held_groups": 17,
+      "residual_images": 17,
+      "fit_images": 1799
+    },
+    {
+      "fold": 4,
+      "held_groups": 17,
+      "residual_images": 17,
+      "fit_images": 1799
+    }
+  ],
+  "results": {
+    "logistic": {
+      "matches_reference": 69,
+      "residual_count": 88,
+      "match_rate": 0.7840909090909091,
+      "would_accept": 69,
+      "would_exclude": 19
+    },
+    "svm_rbf": {
+      "matches_reference": 70,
+      "residual_count": 88,
+      "match_rate": 0.7954545454545454,
+      "would_accept": 70,
+      "would_exclude": 18
+    },
+    "knn7": {
+      "matches_reference": 67,
+      "residual_count": 88,
+      "match_rate": 0.7613636363636364,
+      "would_accept": 67,
+      "would_exclude": 21
+    },
+    "majority": {
+      "matches_reference": 71,
+      "residual_count": 88,
+      "match_rate": 0.8068181818181818,
+      "would_accept": 71,
+      "would_exclude": 17
+    }
+  },
+  "manifest_sha256": "6e780d42c7ef0927e4e234b4704a12867c7c3ffe93117be9e6138cff6511646b",
+  "embedding_cache_sha256": "9bef2d4665eafd0a4b61b72f75d75bc272594f4014d1d01ad901c02661fa9a6d",
+  "reference_audit_sha256": "c0c67365e2541ddc289bac014c86f94fb6fc5f8fe97156d7568f6ed2b1988cb5"
+}

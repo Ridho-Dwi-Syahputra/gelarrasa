@@ -1,0 +1,4 @@
+method,seed_oof_accuracy,seed_oof_balanced_accuracy,seed_oof_macro_f1,seed_n,outer_group_folds,outer_split_seed,metric_scope
+cnn_only,0.02702702702702703,0.041666666666666664,0.0625,37,37,,nested grouped OOF on 37 human seeds; not independent after method development
+hog_color,0.0,0.0,0.0,37,37,,nested grouped OOF on 37 human seeds; not independent after method development
+hybrid_cnn_hog_color,0.0,0.0,0.0,37,37,,nested grouped OOF on 37 human seeds; not independent after method development

@@ -13,4 +13,4 @@ Prioritas pasangan: glass–plastic; paper–cardboard; metal–electronic; text
 
 [Grad-CAM](https://arxiv.org/abs/1610.02391) membantu memilih area untuk diperiksa. Simpan kelas yang dijelaskan dan layer yang dipakai. Heatmap bukan segmentasi objek, bukti material, atau jaminan tidak ada shortcut. Embedding neighbors juga hanya petunjuk.
 
-Untuk dua model, simpan empat kelompok correctness (keduanya benar, hanya A, hanya B, keduanya salah). Ini lebih berguna untuk memilih ensemble daripada korelasi probabilitas saja. Keluaran: `reports/errors/<run_id>/`, tabel per ID, akar masalah yang didukung bukti, dan eksperimen pembeda berikutnya. Jangan menutupi kesalahan dengan mengubah target tanpa riwayat.
+Untuk dua model, simpan empat kelompok correctness (keduanya benar, hanya A, hanya B, keduanya salah). Ini lebih berguna untuk memilih ensemble daripada korelasi probabilitas saja. Keluaran: tabel per ID di `docs/agent-notes/`, gambar di `final-submit/reports/`, akar masalah yang didukung bukti, dan eksperimen pembeda berikutnya. Jangan menutupi kesalahan dengan mengubah target tanpa riwayat.

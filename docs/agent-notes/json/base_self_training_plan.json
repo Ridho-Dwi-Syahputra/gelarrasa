@@ -1,0 +1,40 @@
+{
+  "method": "fold_contained_DINO_CNN_teacher_student_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows": 0,
+  "targets": "cold automatic consensus and34human;noactiveassignmentcategoryisafittingtarget",
+  "teacher": ".75centeredDINOBaseCLSandROIknn7humanweight8 +.25mean4ConvNeXt/DINO/ViTknnbanks;fixedfromprior34development",
+  "core_filter": "fitfoldonly,nearesthumancategorycontradictioncos>=.65andmargin>=.02",
+  "teacher_fit_predictions": "leaveeachfitquerysourcegroupoutofcore/humaneighbors;humanclampedonlywithingraphfit",
+  "pseudo": "fitrows only;teacherprob>=.95andbothfit-onlygraphsagree;addnoncore orrepaircontradictorynonhumancore",
+  "policies": [
+    "add_only",
+    "add_and_repair"
+  ],
+  "pseudo_weight": 0.5,
+  "student": "samefeaturefamiliesandweights,updatedfitcore+acceptedpseudo",
+  "normalization": "DINOcenteringfitouterTRAINonly;frozenotherfeatureblocksL2perrow",
+  "selection": "maximum34anchor outergroupheldoutbalancedrecall;tiesmorematches;tiesadd_only",
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "threshold_selection": "maximum34developmentcoveragewith>=10coveredand>=.9empiricalselectiveprecision;tiesstricter",
+  "acceptance": "learnedprobabilitythreshold,bothfinalTRAINgraphsagree,humanprotected;allnonhumaneligible",
+  "guard": "balancedrecall>.75+1e-12and>=25/34matchesandthresholdexists",
+  "maximum_changes": 40,
+  "cap": "descendingstudentprobability,stablekeyorder",
+  "evaluation_limit": "34developmentanchorsreusedforselection/calibration;notindependentfinalAccuracy;finalgraphnotusedincalibrationevaluation",
+  "private_review_or_archive_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "b60fb3adb9e7258e5cafa9c5c61903885080d1211e11b39b39676ccb5bca5906",
+    "data/preprocessing_inputs.npz": "7b55720f24fc89be3c3807331ac2f7d8ca39be5c218051d666b54081f88c1d0a",
+    "final-submit/DSC2026_Notebook.ipynb": "04787ed7824ca4944e0d00624af402b064cbb7197997af91592c5420514e4ab8"
+  },
+  "source_code_sha256": "eeeabaaa9100e09d521d0639f96c6bcdaa5d7a619cb2b1c4afc0ece941477489"
+}

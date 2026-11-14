@@ -1,0 +1,15 @@
+image_id,source_path,assigned_class,archive_class,team_preference,interpretation,proposed_class,source,activated_for_training,selection_reason,selection_score
+0056,data/Dataset DSC GelarRasa 2026/train/0056.jpeg,paper,plastic,archive,user_declares_program_wrong_in_displayed_comparison,plastic,user_review_of_displayed_train_image,False,,
+0072,data/Dataset DSC GelarRasa 2026/train/0072.jpg,electronic,metal,archive,user_declares_program_wrong_in_displayed_comparison,metal,user_review_of_displayed_train_image,False,,
+0085,data/Dataset DSC GelarRasa 2026/train/0085.jpg,paper,plastic,archive,user_declares_program_wrong_in_displayed_comparison,plastic,user_review_of_displayed_train_image,False,,
+0141,data/Dataset DSC GelarRasa 2026/train/0141.jpg,metal,paper,archive,user_declares_program_wrong_in_displayed_comparison,paper,user_review_of_displayed_train_image,False,,
+0147,data/Dataset DSC GelarRasa 2026/train/0147.jpg,plastic,electronic,archive,user_declares_program_wrong_in_displayed_comparison,electronic,user_review_of_displayed_train_image,False,,
+0237,data/Dataset DSC GelarRasa 2026/train/0237.jpg,textile,plastic,archive,user_declares_program_wrong_in_displayed_comparison,plastic,user_review_of_displayed_train_image,False,different representation from existing reviewed anchors,0.9575872421264648
+0251,data/Dataset DSC GelarRasa 2026/train/0251.jpg,cardboard,glass,archive,user_declares_program_wrong_in_displayed_comparison,glass,user_review_of_displayed_train_image,False,,
+0256,data/Dataset DSC GelarRasa 2026/train/0256.jpg,metal,paper,archive,user_declares_program_wrong_in_displayed_comparison,paper,user_review_of_displayed_train_image,False,,
+1154,data/Dataset DSC GelarRasa 2026/train/1154.jpg,textile,plastic,program,explicit_preference,textile,user_review_of_displayed_train_image,False,representative of explicitly reviewed category candidates,0.36607080698013306
+1180,data/Dataset DSC GelarRasa 2026/train/1180.jpg,metal,plastic,program,explicit_preference,metal,user_review_of_displayed_train_image,False,different representation from existing reviewed anchors,0.8189635276794434
+1434,data/Dataset DSC GelarRasa 2026/train/1434.jpg,metal,electronic,archive,user_confirms_archive_for_remaining_page_members,electronic,user_review_of_displayed_train_image,False,different representation from existing reviewed anchors,1.0011917352676392
+1522,data/Dataset DSC GelarRasa 2026/train/1522.jpeg,paper,cardboard,archive,user_confirms_archive_for_remaining_page_members,cardboard,user_review_of_displayed_train_image,False,representative of explicitly reviewed category candidates,0.60089111328125
+1637,data/Dataset DSC GelarRasa 2026/train/1637.jpg,paper,cardboard,program,explicit_preference,paper,user_review_of_displayed_train_image,False,different representation from existing reviewed anchors,0.9693838357925415
+1855,data/Dataset DSC GelarRasa 2026/train/1855.jpg,foodwaste,glass,archive,user_confirms_archive_for_remaining_page_members,glass,user_review_of_displayed_train_image,False,different representation from existing reviewed anchors,0.9689218401908875

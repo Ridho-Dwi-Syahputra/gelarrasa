@@ -1,0 +1,8 @@
+{
+  "status": "screen_failed",
+  "source_plastic_auc_on_34": 0.6758620689655173,
+  "positive_sources": 5,
+  "weight_sha256": "f0fcfaf4b6d3f28ac41990d0ec6dd8c71f196479dc93bf183235e39abf5560cf",
+  "train_sources_only": true,
+  "rows": 34
+}

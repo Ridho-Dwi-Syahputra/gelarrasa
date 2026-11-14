@@ -1,3 +1,0 @@
-split,low_probability,small_margin,low_confidence_or_margin,cnn_prior_disagrees,source_conflict_only,needs_review
-test,25,14,25,116,101,126
-train,126,56,126,539,444,570

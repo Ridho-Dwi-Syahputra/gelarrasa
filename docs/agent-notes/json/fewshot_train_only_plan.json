@@ -1,0 +1,40 @@
+{
+  "seed": 20261107,
+  "manual_labels_consumed": 0,
+  "seed_type": "automatic independent CNN consensus, not human ground truth",
+  "seeds_per_class": 5,
+  "train_only_graph": true,
+  "test_rows_in_fit": 0,
+  "heldout_rows_in_graph_fit": 0,
+  "grouping": "train-only exact pixels or pHash Hamming<=4",
+  "validation_fraction_groups": 0.2,
+  "candidate_list": [
+    "prototype_dino",
+    "ridge_dino_waste",
+    "graph_dino",
+    "graph_dino_waste"
+  ],
+  "graph_neighbors": 20,
+  "graph_alpha": 0.95,
+  "graph_iterations": 200,
+  "edge_weight": "positive cosine cubed",
+  "ridge_lambda": 0.01,
+  "prototype_temperature": 0.07,
+  "seed_selection": "CNN consensus quality pool then DINO farthest representatives; source-group unique",
+  "selection": "highest macro agreement on heldout automatic CNN-consensus anchors; tie uses listed candidate order",
+  "archive_labels_read_by_experiment": false,
+  "archive_agreement_used_for_selection": false,
+  "researcher_has_seen_prior_archive_audits": true,
+  "active_outputs_modified": false,
+  "semantic_accuracy": null,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "28d926592d6819af4e25b8727f8a641f12ccd47718546da3ee02cff35159e96c",
+    "data/preprocessing_inputs.npz": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+    "final-submit/DSC2026_Notebook.ipynb": "20416ab9d262f2a94756825d812dd9f37e7f0fb374c99805db6ed68688d84c62"
+  },
+  "papers": [
+    "https://www.microsoft.com/en-us/research/publication/learning-local-global-consistency/",
+    "https://proceedings.mlr.press/v119/ziko20a.html",
+    "https://research.google/pubs/fixmatch-simplifying-semi-supervised-learning-with-consistency-and-confidence/"
+  ]
+}

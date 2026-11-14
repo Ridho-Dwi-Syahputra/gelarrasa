@@ -1,0 +1,57 @@
+{
+  "method": "global WordNet source-class coverage extension with top-five/hflip checks",
+  "new_ontology_roots": {
+    "paper": [
+      "paper_towel.n.01",
+      "tissue.n.02",
+      "toilet_tissue.n.01"
+    ],
+    "electronic": [
+      "calculator.n.02",
+      "electrical_cable.n.01"
+    ],
+    "metal": [
+      "coin.n.01"
+    ],
+    "plastic": [
+      "polyethylene.n.01",
+      "polystyrene.n.01"
+    ],
+    "textile": [
+      "footwear.n.01"
+    ],
+    "foodwaste": [
+      "bone.n.01",
+      "bone.n.02",
+      "skull.n.01",
+      "shell.n.04",
+      "shell.n.05",
+      "peel.n.02",
+      "rind.n.01"
+    ]
+  },
+  "scope": "public classifier class metadata; no per-image rules or reference labels",
+  "minimum_same_category_labels_in_top5": 2,
+  "minimum_rank_evidence_share": 0.6,
+  "rank_weights": [
+    1.0,
+    0.5,
+    0.25,
+    0.125,
+    0.0625
+  ],
+  "only_changed_source_ontology_top1": true,
+  "horizontal_view_agreement_required": true,
+  "manual_labels_consumed": 0,
+  "test_rows_processed": 0,
+  "reference_archive_read": false,
+  "source_semantics_are_weak_priors_not_verified_material_truth": true,
+  "external_image_data_downloaded": false,
+  "external_lexical_metadata_used": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "28d926592d6819af4e25b8727f8a641f12ccd47718546da3ee02cff35159e96c",
+    "data/preprocessing_inputs.npz": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+    "final-submit/DSC2026_Notebook.ipynb": "20416ab9d262f2a94756825d812dd9f37e7f0fb374c99805db6ed68688d84c62"
+  },
+  "researcher_has_seen_prior_private_audits": true
+}

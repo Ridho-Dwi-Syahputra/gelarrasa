@@ -1,0 +1,51 @@
+def make_candidate(name):
+    if name == 'dino_logistic':
+        return LogisticRegression(C=3.0, max_iter=1200, solver='lbfgs', random_state=SEED)
+    if name == 'dino_svm_rbf':
+        return SVC(C=4.0, kernel='rbf', gamma='scale', decision_function_shape='ovr')
+    if name == 'dino_knn7':
+        return KNeighborsClassifier(n_neighbors=7, weights='distance', metric='cosine')
+    raise ValueError(name)
+
+candidate_names = ['dino_logistic', 'dino_svm_rbf', 'dino_knn7']
+splitter = StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=SEED)
+folds = list(splitter.split(X_train, y_train, groups))
+oof = {name:np.full(len(y_train),-1,dtype=int) for name in candidate_names}
+fold_id = np.full(len(y_train),-1,dtype=int)
+for fold,(fit_idx,val_idx) in enumerate(folds):
+    assert not set(groups[fit_idx]) & set(groups[val_idx])
+    assert set(y_train[fit_idx]) == set(range(8))
+    fold_id[val_idx] = fold
+    for name in candidate_names:
+        classifier = make_candidate(name)
+        classifier.fit(X_train[fit_idx], y_train[fit_idx])
+        oof[name][val_idx] = classifier.predict(X_train[val_idx])
+assert np.all(fold_id >= 0) and all(np.all(p >= 0) for p in oof.values())
+is_seed = train_rows.human_reviewed.to_numpy(bool)
+metrics_rows = []
+for name in candidate_names:
+    pred = oof[name]
+    metrics_rows.append({'model':name,
+        'pseudo_oof_agreement':float(accuracy_score(y_train,pred)),
+        'pseudo_oof_macro_f1':float(f1_score(y_train,pred,average='macro')),
+        'pseudo_oof_balanced_accuracy':float(balanced_accuracy_score(y_train,pred)),
+        'reviewed_seed_agreement_contaminated':float(accuracy_score(y_train[is_seed],pred[is_seed]))})
+metrics = pd.DataFrame(metrics_rows).sort_values('pseudo_oof_agreement',ascending=False)
+display(metrics.style.format(precision=4))
+oof_table = train_rows[['sample_id','parent_key','parent_group','assigned_class','human_reviewed']].copy()
+oof_table['fold'] = fold_id
+for name,pred in oof.items():
+    oof_table[name] = [CLASSES[i] for i in pred]
+FINAL_OUTPUT.mkdir(parents=True,exist_ok=True)
+oof_table.to_csv(FINAL_OUTPUT/'oof_diagnostics.csv',index=False)
+best_name = metrics.iloc[0]['model']
+recall = confusion_matrix(y_train,oof[best_name],labels=list(range(8)))
+class_recall = np.diag(recall)/np.maximum(recall.sum(axis=1),1)
+fig,ax=plt.subplots(figsize=(9,4),dpi=85)
+ax.bar(CLASSES,class_recall,color='#30995c')
+ax.set_ylim(0,1)
+ax.set_ylabel('Recall terhadap target otomatis')
+ax.set_title('Diagnostik OOF per kategori: '+best_name)
+ax.tick_params(axis='x',rotation=25)
+fig.tight_layout()
+publish_figure()

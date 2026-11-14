@@ -1,0 +1,95 @@
+{
+  "status": "completed_diagnostic_only",
+  "manual_train_anchors": 14,
+  "test_rows_in_fit": 0,
+  "train_rows": 1906,
+  "configurations": [
+    {
+      "bank": "dino2",
+      "k": 32,
+      "human_occupied_clusters": 11,
+      "unanchored_clusters": 21,
+      "clusters_with_conflicting_human_categories": 2,
+      "clusters_with_two_agreeing_human_anchors": 1,
+      "rows_with_supported_proposed_category": 73
+    },
+    {
+      "bank": "dino2",
+      "k": 64,
+      "human_occupied_clusters": 11,
+      "unanchored_clusters": 53,
+      "clusters_with_conflicting_human_categories": 2,
+      "clusters_with_two_agreeing_human_anchors": 0,
+      "rows_with_supported_proposed_category": 0
+    },
+    {
+      "bank": "dino2",
+      "k": 128,
+      "human_occupied_clusters": 12,
+      "unanchored_clusters": 116,
+      "clusters_with_conflicting_human_categories": 1,
+      "clusters_with_two_agreeing_human_anchors": 1,
+      "rows_with_supported_proposed_category": 18
+    },
+    {
+      "bank": "dino3_global",
+      "k": 32,
+      "human_occupied_clusters": 9,
+      "unanchored_clusters": 23,
+      "clusters_with_conflicting_human_categories": 4,
+      "clusters_with_two_agreeing_human_anchors": 0,
+      "rows_with_supported_proposed_category": 0
+    },
+    {
+      "bank": "dino3_global",
+      "k": 64,
+      "human_occupied_clusters": 12,
+      "unanchored_clusters": 52,
+      "clusters_with_conflicting_human_categories": 1,
+      "clusters_with_two_agreeing_human_anchors": 1,
+      "rows_with_supported_proposed_category": 17
+    },
+    {
+      "bank": "dino3_global",
+      "k": 128,
+      "human_occupied_clusters": 11,
+      "unanchored_clusters": 117,
+      "clusters_with_conflicting_human_categories": 2,
+      "clusters_with_two_agreeing_human_anchors": 1,
+      "rows_with_supported_proposed_category": 17
+    },
+    {
+      "bank": "dino3_task8",
+      "k": 32,
+      "human_occupied_clusters": 9,
+      "unanchored_clusters": 23,
+      "clusters_with_conflicting_human_categories": 3,
+      "clusters_with_two_agreeing_human_anchors": 1,
+      "rows_with_supported_proposed_category": 41
+    },
+    {
+      "bank": "dino3_task8",
+      "k": 64,
+      "human_occupied_clusters": 10,
+      "unanchored_clusters": 54,
+      "clusters_with_conflicting_human_categories": 3,
+      "clusters_with_two_agreeing_human_anchors": 0,
+      "rows_with_supported_proposed_category": 0
+    },
+    {
+      "bank": "dino3_task8",
+      "k": 128,
+      "human_occupied_clusters": 13,
+      "unanchored_clusters": 115,
+      "clusters_with_conflicting_human_categories": 0,
+      "clusters_with_two_agreeing_human_anchors": 1,
+      "rows_with_supported_proposed_category": 15
+    }
+  ],
+  "rows_with_stable_proposal": 17,
+  "rows_disagreeing_with_published_candidate": 10,
+  "new_labels_published": 0,
+  "semantic_accuracy": null,
+  "source_candidate_sha256": "e8c1bfda2a52bafe936900159c150ff84c590f859ebcb1613717868d3b31f897",
+  "interpretation": "finer clusters do not provide missing category meaning; unsupported/mixed clusters are not automatically named from archive labels"
+}

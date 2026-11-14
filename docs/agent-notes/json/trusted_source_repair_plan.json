@@ -1,0 +1,45 @@
+{
+  "method": "fold_contained_genuine_source_neighborhood_core_repair_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "original_targets": "coldautomaticconsensusonly,notactiveprogramcategories",
+  "repair": "TRAINonly;nearestgenuinehumanclasshascos>=.65andmargin>=.02in>=2/3banksandsameclass;humanprotected",
+  "policies": [
+    "repair_core",
+    "repair_and_add"
+  ],
+  "pseudo_weight": 0.5,
+  "human_weight": 8.0,
+  "banks": [
+    "base_regional_centered",
+    "cnn_base",
+    "semantic_color_centered"
+  ],
+  "statistics": "centeringfitouterTRAINonly",
+  "neighbors": 7,
+  "temperature": 0.07,
+  "selection": "best34group-heldoutmacrorecall,thenmatches;perbankor3bankmean;2policies",
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "threshold_selection": "maxcoverage>=10andprecision>=.9;tiesstricter",
+  "acceptance": "thresholdand2/3teacherbankconsensusand2/3finalTRAINgraphs;humanprotected",
+  "guard": ">=25/34andmacro>.75+1e-12andthresholdexists",
+  "maximum_changes": 40,
+  "cap": "descendingprimaryprobability,stablekeyorder",
+  "private_review_or_archive_read_in_fit": false,
+  "researcher_has_seen_prior_aggregate_posthoc_audit": true,
+  "evaluation_limit": "34reusedfordevelopment;notuntouchedAccuracy;finalgraphsnotcalibrationvalidation",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "be1487bbcbf07ce2db28f5cad04024ca3672478baa8764e91417aefaed134708",
+    "data/preprocessing_inputs.npz": "091f712b22a07fd1c85a79977e7aa337e3cdf47048c8f2b6a382f831eab8d93e",
+    "final-submit/DSC2026_Notebook.ipynb": "407eaaa66ad26701d64a0675c869d5dc4a42862883786c63826cab3964dafba0"
+  },
+  "source_code_sha256": "134162767e0a585cdb677508f9b11b261800928f4d12553250269f836a9529eb"
+}

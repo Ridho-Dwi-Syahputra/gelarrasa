@@ -1,0 +1,83 @@
+{
+  "method": "train_only_waste_ViT_knn_label_propagation_v1",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "held_sources_excluded": [
+    "train:1662",
+    "train:1885"
+  ],
+  "human_sources": 34,
+  "human_class_counts": {
+    "plastic": 5,
+    "paper": 5,
+    "electronic": 5,
+    "glass": 5,
+    "textile": 5,
+    "cardboard": 5,
+    "metal": 3,
+    "foodwaste": 1
+  },
+  "new_human_labels": 0,
+  "source_feature_sha256": "dfb900ed8b670767d836c8a637806cb8b02c2b4d7717cf9fb399dbfe0bfa743c",
+  "group_manifest_sha256": "0adf54a9470aef171091f3327a5c97f4dc01d073f81d5af2a70cd45d390ae396",
+  "source_qna": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/kxodWG5OBD7gQgP7",
+  "source_qna_reply_utc": "2026-11-07T13:25:19.146Z",
+  "targets": "only cold automatic-consensus core and34budgeted human sources",
+  "source_taxonomy_probabilities": "numeric features only,no manual12-to8mapping and no direct pretrained-to-test use",
+  "banks": {
+    "vit_cls": 768,
+    "vit_texture": 1536,
+    "vit_dino": 1152,
+    "vit_probability_features": 12
+  },
+  "configs": [
+    {
+      "neighbors": 3,
+      "human_weight": 8.0
+    },
+    {
+      "neighbors": 3,
+      "human_weight": 32.0
+    },
+    {
+      "neighbors": 7,
+      "human_weight": 8.0
+    },
+    {
+      "neighbors": 7,
+      "human_weight": 32.0
+    },
+    {
+      "neighbors": 15,
+      "human_weight": 8.0
+    },
+    {
+      "neighbors": 15,
+      "human_weight": 32.0
+    }
+  ],
+  "selection": "per-bank best balanced recall on34five-source-group-fold development anchors; tie keeps config order",
+  "knn_temperature": 0.07,
+  "graph_banks": [
+    "vit_cls",
+    "vit_texture",
+    "vit_dino"
+  ],
+  "graph": {
+    "neighbors": 20,
+    "alpha": 0.98,
+    "iterations": 1500,
+    "human_seeds_clamped": true,
+    "automatic_priors_not_clamped": true
+  },
+  "acceptance": ">=3/4kNNbanks agree,hybridandonevisualbankagree;>=2/3graphsagree;cosine>=.65andcategorymargin>=.01towardhumananchorsin>=2banks;protect earlierrefinements",
+  "guard": "pooled34anchor matches>=16,balancedrecall>=.525,<=50newcategories;otherwise no changes accepted",
+  "evaluation_limit": "development anchors reused for configuration choice;graph sees allTRAIN and is not independent validation",
+  "unselected_review_or_archive_labels_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "9263eaa1b9b7b2689e5df02d419720dc851f853c0300aad82c74efa80b501c1a",
+    "data/preprocessing_inputs.npz": "74df5acef1917eb9f43fc57cf7c1c46ffd44de4248dddccde78cf1a939b5da8a",
+    "final-submit/DSC2026_Notebook.ipynb": "94e3701a2102c71e31a71172e972ddccc14fccff9369338affddb427636623cc"
+  },
+  "source_code_sha256": "03bb2219330d81993652b1b72a8b7c51dd17f3cb464815171da16e08ea65aab5"
+}

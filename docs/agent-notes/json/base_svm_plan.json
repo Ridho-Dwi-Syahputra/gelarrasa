@@ -1,0 +1,105 @@
+{
+  "method": "train_only_dinov2base_filtered_svm_consensus_v1",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "targets": "cold automatic consensus core plus34existing participant seeds",
+  "banks": {
+    "base_cls": 768,
+    "base_local": 1536,
+    "base_vit": 1536,
+    "base_material": 2304
+  },
+  "configs": [
+    {
+      "kernel": "linear",
+      "gamma": null,
+      "C": 1.0,
+      "human_weight": 8.0
+    },
+    {
+      "kernel": "linear",
+      "gamma": null,
+      "C": 1.0,
+      "human_weight": 32.0
+    },
+    {
+      "kernel": "linear",
+      "gamma": null,
+      "C": 10.0,
+      "human_weight": 8.0
+    },
+    {
+      "kernel": "linear",
+      "gamma": null,
+      "C": 10.0,
+      "human_weight": 32.0
+    },
+    {
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 1.0,
+      "human_weight": 8.0
+    },
+    {
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 1.0,
+      "human_weight": 32.0
+    },
+    {
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 10.0,
+      "human_weight": 8.0
+    },
+    {
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 10.0,
+      "human_weight": 32.0
+    },
+    {
+      "kernel": "rbf",
+      "gamma": 16.0,
+      "C": 1.0,
+      "human_weight": 8.0
+    },
+    {
+      "kernel": "rbf",
+      "gamma": 16.0,
+      "C": 1.0,
+      "human_weight": 32.0
+    },
+    {
+      "kernel": "rbf",
+      "gamma": 16.0,
+      "C": 10.0,
+      "human_weight": 8.0
+    },
+    {
+      "kernel": "rbf",
+      "gamma": 16.0,
+      "C": 10.0,
+      "human_weight": 32.0
+    }
+  ],
+  "group_folds": 5,
+  "selection": "best balanced recall on34group-held-out development anchors per bank,then best bank asprimary;ties retain config order",
+  "gate": "primary agrees with>=3/4SVMbanks;candidate has human-anchor cosine>=.65 and margin>=.01in>=2banks;protect previous refinements",
+  "guard": "primary matches>=23/34andbalancedrecall>=0.725;<=50newlabels",
+  "automatic_filter": "foldfitonly;exclude core anchor with contradictory nearest human class atcosine>=.65andmargin>=.02;humanalwaysretained",
+  "evaluation_limit": "anchors reused for model development;not independent final accuracy",
+  "unselected_review_or_archive_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "724cf077b1b1776bbc6d88adaa785484060c7b52ea97486bd45914b5cf2da961",
+    "data/preprocessing_inputs.npz": "d02157e013731c1878380ffb00f1c5aff63e64aabfcb999ac85dec209ab07abb",
+    "final-submit/DSC2026_Notebook.ipynb": "707b286b07616039a6bb49f253d3d439d17d039278fea26194e1989ccf029eca"
+  },
+  "vit_feature_sha256": "dfb900ed8b670767d836c8a637806cb8b02c2b4d7717cf9fb399dbfe0bfa743c",
+  "detector_feature_sha256": "c6f3835510e86fe168c7e319567a5be4913a7ae362b4e42d6ea1cbdd39615935",
+  "base_feature_sha256": "cd4c4828e92cd54e97a982c2aac39287ff604d44538d07c40573218954f0ecb6",
+  "group_manifest_sha256": "0adf54a9470aef171091f3327a5c97f4dc01d073f81d5af2a70cd45d390ae396",
+  "source_code_sha256": "3fb827ca23be82b1c5fbf187733acb8b3982af967029ebb4dd0f26769a21397b"
+}

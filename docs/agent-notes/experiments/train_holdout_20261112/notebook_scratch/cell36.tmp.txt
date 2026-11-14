@@ -1,0 +1,51 @@
+sample = pd.DataFrame({'image_id': test_order})
+assert len(sample) == 480 and sample.image_id.is_unique
+assert set(sample.image_id) == set(test_rows.sample_id.astype(str))
+submission_files = {
+    'dino_logistic':'submission_001_dino_logistic.csv',
+    'dino_svm_rbf':'submission_002_dino_svm_rbf.csv',
+    'dino_knn7':'submission_003_dino_knn7.csv',
+}
+submission_details = []
+test_predictions = {}
+for name in candidate_names:
+    classifier = make_candidate(name)
+    classifier.fit(X_train,y_train)
+    numeric = classifier.predict(X_test)
+    assert len(numeric)==480 and set(numeric) <= set(range(8))
+    prediction_lookup = dict(zip(test_rows.sample_id,[CLASSES[i] for i in numeric]))
+    result = sample[['image_id']].copy()
+    result['waste_category'] = result.image_id.map(prediction_lookup)
+    assert result.waste_category.notna().all() and result.waste_category.isin(CLASSES).all()
+    path = FINAL_OUTPUT/submission_files[name]
+    result.to_csv(path,index=False)
+    reread = pd.read_csv(path,dtype={'image_id':str})
+    assert reread.equals(result) and path.stat().st_size > 1000
+    test_predictions[name] = result.waste_category.to_numpy(str)
+    submission_details.append({'model':name,'path':relative(path),'sha256':digest(path),
+                               'label_vector_sha256':hashlib.sha256('|'.join(test_predictions[name]).encode()).hexdigest(),
+                               'class_counts':result.waste_category.value_counts().reindex(CLASSES,fill_value=0).to_dict()})
+pairwise_differences = {f'{a}_vs_{b}':int(np.count_nonzero(test_predictions[a]!=test_predictions[b]))
+                        for i,a in enumerate(candidate_names) for b in candidate_names[i+1:]}
+report = {'metric_scope':'grouped_agreement_with_automatic_train_targets_not_official_accuracy',
+          'seed':SEED,'folds':5,'train_samples':len(X_train),'test_samples':len(X_test),
+          'training_view':'eligible_full_frame_only','crop_views_used_for_classifier':0,'device':'cpu',
+          'source_groups':len(np.unique(groups)),'excluded_train_sources':len(deferred_keys),
+          'manual_seed_count':int(is_seed.sum()),'encoder':model_info['model'],
+          'encoder_checkpoint_sha256':model_info['checkpoint_sha256'],
+          'embedding_identity':embedding_identity,'embedding_cache_sha256':digest(embedding_cache),
+          'oof_metrics':metrics_rows,'submission_files':submission_details,
+          'pairwise_test_disagreements':pairwise_differences,'official_accuracy':None}
+(FINAL_OUTPUT/'modeling_report.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+summary['classifier_training_executed']=True
+summary['submission_created']=True
+summary['training_eligible_train_samples']=int((processed.split.eq('train')&processed.training_eligible).sum())
+summary['modeling_train_samples']=len(X_train)
+summary['figures']=figure_exports
+summary['modeling_report']=report
+summary['seconds']=time.time()-STARTED
+(PROCESSED/'provenance.json').write_text(json.dumps({'policy':POLICY,'summary':summary},indent=2),encoding='utf-8')
+display(metrics.style.format(precision=4))
+display(pd.DataFrame(submission_details)[['model','path','sha256']])
+display(pd.Series(pairwise_differences,name='test_predictions_different'))
+print('Tiga CSV dibuat dari model yang dilatih pada train eligible; Accuracy resmi belum diketahui.')

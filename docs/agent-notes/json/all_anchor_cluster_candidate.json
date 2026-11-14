@@ -1,0 +1,29 @@
+﻿{
+    "status":  "rejected_not_published",
+    "train_rows":  1887,
+    "test_rows_in_fit":  0,
+    "archive_labels_read_by_experiment":  false,
+    "human_anchors":  35,
+    "represented_train_rows":  415,
+    "proposed_changes":  206,
+    "changes_by_pair":  {
+                            "cardboard -\u003e textile":  71,
+                            "electronic -\u003e textile":  66,
+                            "glass -\u003e plastic":  2,
+                            "glass -\u003e textile":  4,
+                            "metal -\u003e glass":  3,
+                            "metal -\u003e plastic":  14,
+                            "paper -\u003e cardboard":  2,
+                            "paper -\u003e plastic":  4,
+                            "paper -\u003e textile":  7,
+                            "plastic -\u003e electronic":  1,
+                            "plastic -\u003e glass":  30,
+                            "plastic -\u003e metal":  1,
+                            "textile -\u003e metal":  1
+                        },
+    "candidate_sha256":  "0176dd700e75be7d7ada56b8742d0965b1808172dcee74f2666d08cf18bc39dd",
+    "active_processed_modified":  false,
+    "rejection_reason":  "206 changes; 71 cardboard to textile and 66 electronic to textile indicate class collapse; posthoc archive audit found 199 new disagreements",
+    "posthoc_archive_disagreements_before":  102,
+    "posthoc_archive_disagreements_candidate":  298
+}

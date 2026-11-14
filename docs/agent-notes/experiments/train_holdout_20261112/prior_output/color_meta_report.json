@@ -1,0 +1,56 @@
+{
+  "model": "nested OOF meta-fusion of DINOv3 OVR and standardized global color RBF experts",
+  "train_rows": 1887,
+  "test_rows_in_fit": 0,
+  "test_rows_inference": 480,
+  "inner_oof_splits": 4,
+  "meta_C": 0.1,
+  "outer_recipes": [
+    {
+      "outer_fold": 1,
+      "inner_oof_splits": 4,
+      "meta_C": 0.1
+    },
+    {
+      "outer_fold": 2,
+      "inner_oof_splits": 4,
+      "meta_C": 0.1
+    },
+    {
+      "outer_fold": 3,
+      "inner_oof_splits": 4,
+      "meta_C": 0.1
+    },
+    {
+      "outer_fold": 4,
+      "inner_oof_splits": 4,
+      "meta_C": 0.1
+    },
+    {
+      "outer_fold": 5,
+      "inner_oof_splits": 4,
+      "meta_C": 0.1
+    }
+  ],
+  "nested_metrics": {
+    "dino_color_meta": {
+      "agreement": 0.9443561208267091,
+      "balanced_accuracy": 0.9449114139482215,
+      "macro_f1": 0.945149875790497
+    },
+    "paired_outer_baseline_008": {
+      "agreement": 0.949655537890832,
+      "balanced_accuracy": 0.9500839312096827,
+      "macro_f1": 0.9501506107885973
+    }
+  },
+  "oof_rows_changed": 26,
+  "test_rows_changed_vs_008": 6,
+  "paired_oof_not_degraded": false,
+  "candidate_submission_path": null,
+  "candidate_sha256": null,
+  "oof_path": "final-submit/output/color_meta_oof.csv",
+  "official_accuracy": null,
+  "test_used_for_fit_or_selection": false,
+  "interpretation": "OOF agreement uses derived train categories, not independent semantic ground truth."
+}

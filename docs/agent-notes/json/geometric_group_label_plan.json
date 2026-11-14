@@ -1,0 +1,20 @@
+{
+  "method": "high_coverage_SIFT_RANSAC_and_three_group_heldout_classifiers",
+  "geometry": {
+    "ratio": 0.75,
+    "min_matches": 40,
+    "min_inlier_fraction": 0.9,
+    "min_hull_fraction_both": 0.3,
+    "ransac_pixels": 3.0
+  },
+  "vote": ">=5of6pooledpredictions_for_pair;new_class_must_be_present_in_pair;human_anchors_protected",
+  "models": [
+    "logistic_C3",
+    "svm_rbf_C4",
+    "cosine_knn7"
+  ],
+  "test_rows_in_fit": 0,
+  "archive_or_review_read_by_fit": false,
+  "new_manual_labels": 0,
+  "active_outputs_modified": false
+}

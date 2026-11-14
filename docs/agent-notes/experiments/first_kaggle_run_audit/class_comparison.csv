@@ -1,0 +1,9 @@
+target_class,target_count,ensemble_count,same,different
+cardboard,60,93,49,11
+electronic,60,50,8,52
+foodwaste,60,35,26,34
+glass,60,42,25,35
+metal,60,11,2,58
+paper,61,53,21,40
+plastic,60,136,50,10
+textile,59,60,29,30

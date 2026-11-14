@@ -1,0 +1,7 @@
+aspek,bukti,lulus_atau_belum_diukur
+Completeness,2400 source dan2393turunan tercakup,True
+Consistency,turunan parent mewarisi group dan partisi,True
+Conformity,seluruh turunan RGB224x224,True
+Integrity,hash sumber dan crop tepat terhadap parent,True
+Accuracy semantik,memerlukan evaluasi kategori independen,
+Redundancy,duplikat dilaporkan; augmentasi preview tidak disalin ke data,True

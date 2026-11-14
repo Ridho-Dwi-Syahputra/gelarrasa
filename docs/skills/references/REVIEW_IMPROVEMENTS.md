@@ -23,7 +23,7 @@ Lingkup: memperkuat skill dan persiapan pipeline dengan prioritas EDA/preprocess
 
 - Validator resmi skill-creator: **17/17** entrypoint lokal lulus. Hasil: [skill_creator_validation.json](../sources/skill_creator_validation.json).
 - Pengujian kontrak data: **16 tes lulus**, dijalankan melalui `python -B docs/skills/tools/test_validate_collection.py`. Fixture sementara memakai byte sintetis; ini menguji ID, path, kecocokan CSV, hash, dan perilaku CLI, bukan decode gambar.
-- Validator koleksi memeriksa tautan lokal, checksum vendor/materi, cakupan label/sample dan jalur salinan. `--verify-images` menambahkan hash train asli/salinan; hasil aktual, waktu, dan jumlah pemeriksaan ada di [validation.json](../sources/validation.json).
+- Validator koleksi memeriksa tautan lokal, checksum vendor/materi, cakupan label/sample dan jalur salinan. `--verify-images` menambahkan hash train asli/salinan; hasil aktual, waktu, dan jumlah pemeriksaan ada di [pemeriksaan terkini](../../agent-notes/skills_validation.json).
 - `--no-write` tersedia untuk pemeriksaan tanpa mengganti laporan. Python `-O` ditolak agar structural assertions tidak diam-diam dilewati. Kegagalan normal menulis status gagal, bukan meninggalkan laporan sukses yang menyesatkan.
 - Tinjauan independen dilakukan terhadap metodologi ML dan tiga skenario penggunaan: hybrid embeddings, ensemble mapping, serta preparation-only. Perbaikan di atas menangani temuan konkret dari tinjauan tersebut. Ini bukan pembuktian bahwa setiap kemungkinan workflow sudah diuji.
 

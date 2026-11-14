@@ -1,0 +1,80 @@
+{
+  "scope": "posthoc audit only; seed labels are participant-provided, active manifest never used for fitting or selection",
+  "stage17_matches": 1679,
+  "stage17_plus_37_seed_matches": 1707,
+  "stage17_plus_37_seed_differences": 199,
+  "fullframe_rows": 1906,
+  "eligible_rows": 1879,
+  "eligible_matches": 1694,
+  "eligible_differences": 185,
+  "seed_ids": 37,
+  "seed_labels_agree_with_active_manifest": true,
+  "nonseed_differences_by_active_source": {
+    "iterative_program_refinement_snapshot": {
+      "rows": 1570,
+      "matches": 1532,
+      "differences": 38
+    },
+    "augmented_source_prototype_snapshot": {
+      "rows": 34,
+      "matches": 1,
+      "differences": 33
+    },
+    "vit_knn_label_propagation_snapshot": {
+      "rows": 130,
+      "matches": 63,
+      "differences": 67
+    },
+    "stage1_train_only_pseudolabel": {
+      "rows": 7,
+      "matches": 7,
+      "differences": 0
+    },
+    "residual_graph_correction_snapshot": {
+      "rows": 27,
+      "matches": 11,
+      "differences": 16
+    },
+    "train_only_cluster_anchor_1039_v1": {
+      "rows": 51,
+      "matches": 51,
+      "differences": 0
+    },
+    "geometric_source_group_heldout_vote_v1": {
+      "rows": 1,
+      "matches": 1,
+      "differences": 0
+    },
+    "retired_anchor_holdout": {
+      "rows": 2,
+      "matches": 0,
+      "differences": 2
+    },
+    "human_seed_source_concept_snapshot": {
+      "rows": 6,
+      "matches": 0,
+      "differences": 6
+    },
+    "bounded_anchor_stable_consensus_snapshot": {
+      "rows": 18,
+      "matches": 1,
+      "differences": 17
+    },
+    "bounded_anchor_cluster_consensus_snapshot": {
+      "rows": 7,
+      "matches": 1,
+      "differences": 6
+    },
+    "robust_neural_assignment_snapshot": {
+      "rows": 4,
+      "matches": 2,
+      "differences": 2
+    },
+    "two_view_lighting_ontology_snapshot": {
+      "rows": 12,
+      "matches": 0,
+      "differences": 12
+    }
+  },
+  "per_id_csv": "stage17_baseline_plus_seeds_vs_active_manifest_per_id.csv"
+}

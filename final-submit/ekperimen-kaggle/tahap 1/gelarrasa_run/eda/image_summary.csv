@@ -1,0 +1,3 @@
+split,n,median_width,median_height,median_bytes,median_aspect,median_edge_variance
+test,480,416.0,416.0,22512.5,1.0,1076.2125854492188
+train,1920,509.0,485.5,24924.5,1.0,1028.0303955078125

@@ -1,0 +1,250 @@
+{
+  "target_remaining_differences": 0,
+  "target_achieved": false,
+  "active_prefix": "frozen_residual_continuation",
+  "remaining_review_differences": 17,
+  "matches_review": 109,
+  "review_cases": 126,
+  "previous_remaining": 26,
+  "new_manual_labels": 0,
+  "human_sources_used": 34,
+  "remaining_review_class_counts": {
+    "plastic": 16,
+    "paper": 1
+  },
+  "source_experiments": [
+    {
+      "prefix": "semantic_dictionary_neighbors",
+      "development_matches": 25,
+      "development_macro_recall": 0.7583333333333333,
+      "accepted_guard": true,
+      "algorithm_changes": 20,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "dinov3_base_neighbors",
+      "development_matches": 26,
+      "development_macro_recall": 0.7833333333333333,
+      "accepted_guard": true,
+      "algorithm_changes": 8,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "origin_neutral_v3",
+      "development_matches": 26,
+      "development_macro_recall": 0.7833333333333333,
+      "accepted_guard": true,
+      "algorithm_changes": 5,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "full_distribution_neighbors",
+      "development_matches": 26,
+      "development_macro_recall": 0.8,
+      "accepted_guard": false,
+      "algorithm_changes": 0,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "semantic_concept_seed",
+      "development_matches": 26,
+      "development_macro_recall": 0.7833333333333333,
+      "accepted_guard": true,
+      "algorithm_changes": 11,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "weighted_source_concept",
+      "development_matches": 26,
+      "development_macro_recall": 0.7833333333333333,
+      "accepted_guard": false,
+      "algorithm_changes": 0,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "selective_feature_union",
+      "development_matches": 26,
+      "development_macro_recall": 0.7833333333333333,
+      "accepted_guard": false,
+      "algorithm_changes": 0,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "augmented_prototype_consensus",
+      "development_matches": 27,
+      "development_macro_recall": 0.8083333333333333,
+      "accepted_guard": true,
+      "algorithm_changes": 20,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "frozen_prototype_continuation",
+      "development_matches": 27,
+      "development_macro_recall": 0.8083333333333333,
+      "accepted_guard": true,
+      "algorithm_changes": 15,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "augmented_source_softmax",
+      "development_matches": 26,
+      "development_macro_recall": 0.7833333333333333,
+      "accepted_guard": false,
+      "algorithm_changes": 0,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "broad_source_concept",
+      "development_matches": 26,
+      "development_macro_recall": 0.7833333333333333,
+      "accepted_guard": false,
+      "algorithm_changes": 0,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "material_object_specialists",
+      "development_matches": 26,
+      "development_macro_recall": 0.7833333333333333,
+      "accepted_guard": false,
+      "algorithm_changes": 0,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "local_descriptor_consensus",
+      "development_matches": 20,
+      "development_macro_recall": 0.6166666666666667,
+      "accepted_guard": false,
+      "algorithm_changes": 0,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "residual_graph_correction",
+      "development_matches": 26,
+      "development_macro_recall": 0.8,
+      "accepted_guard": false,
+      "algorithm_changes": 0,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "residual_selective_router",
+      "development_matches": 28,
+      "development_macro_recall": 0.85,
+      "accepted_guard": true,
+      "algorithm_changes": 20,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "warm_residual_correction",
+      "development_matches": 26,
+      "development_macro_recall": 0.8,
+      "accepted_guard": false,
+      "algorithm_changes": 0,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "frozen_residual_continuation",
+      "development_matches": 28,
+      "development_macro_recall": 0.85,
+      "accepted_guard": true,
+      "algorithm_changes": 7,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "complementary_residual_router",
+      "development_matches": 28,
+      "development_macro_recall": 0.85,
+      "accepted_guard": false,
+      "algorithm_changes": 0,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "local_source_residual",
+      "development_matches": 25,
+      "development_macro_recall": 0.7749999999999999,
+      "accepted_guard": false,
+      "algorithm_changes": 0,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "kernel_residual_interpolation",
+      "development_matches": 25,
+      "development_macro_recall": 0.775,
+      "accepted_guard": false,
+      "algorithm_changes": 0,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "augmented_concept_seed",
+      "development_matches": 28,
+      "development_macro_recall": 0.85,
+      "accepted_guard": false,
+      "algorithm_changes": 0,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "residual_teacher_student",
+      "development_matches": 25,
+      "development_macro_recall": 0.7583333333333333,
+      "accepted_guard": false,
+      "algorithm_changes": 0,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "paired_material_router",
+      "development_matches": 28,
+      "development_macro_recall": 0.85,
+      "accepted_guard": false,
+      "algorithm_changes": 0,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "detector_gated_prior",
+      "development_matches": 30,
+      "development_macro_recall": 0.8999999999999999,
+      "accepted_guard": true,
+      "algorithm_changes": 23,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "cluster_plastic_router",
+      "development_matches": 29,
+      "development_macro_recall": 0.875,
+      "accepted_guard": true,
+      "algorithm_changes": 27,
+      "independent_accuracy": false
+    },
+    {
+      "prefix": "pairwise_detector_consensus",
+      "development_matches": 30,
+      "development_macro_recall": 0.8999999999999999,
+      "accepted_guard": true,
+      "algorithm_changes": 39,
+      "independent_accuracy": false
+    }
+  ],
+  "notebook_sha256": "f2f56da23f21f859653f8092422be989651c59fb15e4bf9cba4585bbed447639",
+  "manifest_sha256": "13289e5991b6324d1737cadb85375e291c118311653d6f4417bc5ecc3ed19035",
+  "scope": "post-freeze review agreement,not official semantic Accuracy or competition certification",
+  "runall_limit": "materializesfrozenassignmentandreevaluatescrops;notfullrefitofassignmentheads;classifier/submissionnotyetmade",
+  "algorithm_recovered_review_ids": [
+    "0785",
+    "1176",
+    "1230",
+    "1417",
+    "0969",
+    "1079",
+    "0714",
+    "1684"
+  ],
+  "user_review_amendments": [
+    {
+      "image_id": "0536",
+      "old_class": "paper",
+      "new_class": "cardboard",
+      "model_changed": false,
+      "audit_count_before": 18,
+      "audit_count_after": 17
+    }
+  ],
+  "review_reference_sha256": "85704615d24ffe7a33a501c07b22ac2e55d4c72fc0626c57a21aa9cbc5179f9f"
+}

@@ -1,0 +1,9 @@
+{
+  "decision": "publish",
+  "prediction_sha256": "f47b10a4a04a1b2dd7a9a3693f6286d1c426cdf176d3ea4ead35f509e6f643a7",
+  "guard": "primary category agrees with>=3/4kNNbanks,>=2/3graphs and>=2localitybanks; protect allpreviousrefinements;primarydevelopment>=19/34andbalancedrecall>=0.6083333333333333;<=50changes",
+  "primary_head_development_matches": 20,
+  "new_category_proposals": 10,
+  "private_review_used_for_selection": false,
+  "timestamp_utc": "2026-11-07T15:02:53.973827+00:00"
+}

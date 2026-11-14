@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "notebook": "final-submit\\DSC2026_Notebook.ipynb",
+  "sha256": "84dc6397a151a6dc7c3aa9c07fe3ad5fbfd8d1065fcc8e2d2a567f5f95e86fb8",
+  "cells": 37,
+  "code_cells": 20,
+  "executed": 20,
+  "errors": 0,
+  "embedded_figures": 19,
+  "seconds": 162.73945927619934,
+  "bytes": 8000205,
+  "background_execution": true,
+  "new_model_training": true,
+  "submission_created": true
+}

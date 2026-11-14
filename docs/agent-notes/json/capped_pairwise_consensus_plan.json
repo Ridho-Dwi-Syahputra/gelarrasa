@@ -1,0 +1,18 @@
+{
+  "method": "frozen_train_only_pairwise_detector_top5_v1",
+  "source_candidate_sha256": "e6307bf05d971e51f98c579161bef2e6abba38bd4340ba56e13361453f52057b",
+  "source_frozen_sha256": "5ee4eea434575460d2469aa5df85842f43c06b318bec034e3c01eaf996d9335b",
+  "selection": "top5 by minimum of matching pair, all-pair, detector source score; stable source key tie-break",
+  "cap": 5,
+  "reason": "small automatic batch to reduce category drift while preserving most active assignments",
+  "train_only": true,
+  "review_archive_read": false,
+  "new_manual_labels": 0,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "13289e5991b6324d1737cadb85375e291c118311653d6f4417bc5ecc3ed19035",
+    "data/preprocessing_inputs.npz": "791996fdec9749f7dbe40ea105ffd346c24a1f3b98379e3b11d081e55ab7fe7d",
+    "final-submit/DSC2026_Notebook.ipynb": "f2f56da23f21f859653f8092422be989651c59fb15e4bf9cba4585bbed447639"
+  },
+  "source_code_sha256": "f956bb255e9168eaea66275007de18f3a66e7ac51b93445c35ac6e5047436f03",
+  "evaluation_limit": "cap selected after observing previous 39-proposal audit; adaptive and not independent validation"
+}

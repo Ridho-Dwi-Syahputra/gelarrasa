@@ -1,0 +1,37 @@
+{
+  "method": "complementary_grouped_neural_neighbor_assignment_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "components": "best34developmentqualifiedneuralbankandbestnormalizedneighborbank;bothsource-groupoutof-fold",
+  "neural_weights": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "selection": "highest34anchor balancedrecall;tiesmorematches;tiespreferweightclosestto.5",
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "threshold_selection": "maximum34developmentcoveragewith>=10coveredand>=.9empiricalselectiveprecision;tiesstricter",
+  "acceptance": "learnedprobabilitythreshold,atleast1of2train-onlynormalizedgraphsagrees;allhumanprotected",
+  "previous_auto_refinements": "samegloballylearnedthreshold;notpermanentgroundtruth;no perimageexceptions",
+  "guard": "strictlyimprovebalancedrecallover.725,>=24/34matches,nonendpointmixture,andthresholdexists",
+  "maximum_changes": 40,
+  "cap": "descending ensembleprobability,stablekeyorder",
+  "evaluation_limit": "34anchorsreusedforcomponentselection,mixingandcalibration;notindependentfinalAccuracy;graphnotusedincalibrationevaluation",
+  "unselected_review_or_archive_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "1d4dd9c8c0d58d6ad0bd5d7852f3f6d567f6a727095f05f5f1713f4aa38b3948",
+    "data/preprocessing_inputs.npz": "13650e3901f8ee94143b487205a0c8265cedb7d16d10612228e961f8bdc6633a",
+    "final-submit/DSC2026_Notebook.ipynb": "3069e9b8562b775529737e816426147aaa35bbd22e32316e7ba135aa71238990"
+  },
+  "source_code_sha256": "c9c6d721a5cb3f84283c47945cba17ad4c68179588d0c2dd6bd002186329e7d7"
+}

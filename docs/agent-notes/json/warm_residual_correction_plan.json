@@ -1,0 +1,98 @@
+{
+  "method": "inductive_source_excluded_warm_residual_correct_and_smooth_v2",
+  "reference": "https://arxiv.org/abs/2010.13993",
+  "adaptation": "frozennonVLMfeatures,auto-onlycoldkNNbaseline,34genuineresidualreferences,inductivequery;notpaperreproduction",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "banks": [
+    "V3CLS_PCA128white",
+    "V3_fullsource_centered"
+  ],
+  "configs": [
+    {
+      "alpha": 0.7,
+      "scale": 1.0,
+      "smooth": false
+    },
+    {
+      "alpha": 0.7,
+      "scale": 1.0,
+      "smooth": true
+    },
+    {
+      "alpha": 0.7,
+      "scale": 2.0,
+      "smooth": false
+    },
+    {
+      "alpha": 0.7,
+      "scale": 2.0,
+      "smooth": true
+    },
+    {
+      "alpha": 0.7,
+      "scale": 4.0,
+      "smooth": false
+    },
+    {
+      "alpha": 0.7,
+      "scale": 4.0,
+      "smooth": true
+    },
+    {
+      "alpha": 0.95,
+      "scale": 1.0,
+      "smooth": false
+    },
+    {
+      "alpha": 0.95,
+      "scale": 1.0,
+      "smooth": true
+    },
+    {
+      "alpha": 0.95,
+      "scale": 2.0,
+      "smooth": false
+    },
+    {
+      "alpha": 0.95,
+      "scale": 2.0,
+      "smooth": true
+    },
+    {
+      "alpha": 0.95,
+      "scale": 4.0,
+      "smooth": false
+    },
+    {
+      "alpha": 0.95,
+      "scale": 4.0,
+      "smooth": true
+    }
+  ],
+  "baseline": "coldautocoreplusfitfoldgenuinehumansweight32;k7;allfit-rowpredictionsexcludeownsourcegroup;referenceserrornotin-sample",
+  "residual": "onehotgenuine-minus-auto-onlyprediction;clampedreferenceerror;train-onlyrowstochasticgraph,k20,cos^4;queryinterpolationafterfit",
+  "correction": "fixedscale1/2/4;cliprenormalize;optional.5clampedhumanpredictiondiffusion",
+  "normalizer": "outerTRAINonly;querygroupsabsentfromgraph,core,normalizer,residualreferences",
+  "selection": "perbank34developmentbalancedrecallthenmatches;primarybestbank;bothbanksagreewithminprobthreshold",
+  "threshold_grid": [
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95
+  ],
+  "guard": "primary>=28andmacro>=.85andcovered>=15with>=.9precision",
+  "maximum_changes": 20,
+  "cap": "descendingminimumprobability,stablekeyorder",
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_audits": true,
+  "evaluation_limit": "34reuseddevelopmentandmultiplecomparison;graphinductivebutnotindependentfinalAccuracy",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "7c7eb14d2b2d6db28ccbec90abcefad7cda654fcdd042d6b3f89e903e032aa4d",
+    "data/preprocessing_inputs.npz": "5b15c32d6931e1bc37277956e3589bf3bac7b62f3117b428c6194d5831a35d49",
+    "final-submit/DSC2026_Notebook.ipynb": "a38ea39e68b73692da0b93ab5bf5aea6e8a5c7bfc3c31ad4d51da7f13aad641c"
+  },
+  "source_code_sha256": "a96f693ad415aa9ba056ebcca253f46c6bf4733cdaa812ca084c8c5ba39dd7e0"
+}

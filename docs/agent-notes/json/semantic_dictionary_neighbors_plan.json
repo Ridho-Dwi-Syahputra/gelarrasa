@@ -1,0 +1,56 @@
+{
+  "method": "full_source_dictionary_DINO_grouped_neighbors_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows": 0,
+  "hypothesis": "retain21k-sourceinformationbefore8classontology;fixedsqrt-top128sourceprobabilities,independent512randomprojection;learnneighborslocally",
+  "statistics": "mean andPCAfitonlynonqueryTRAINsourcegroups;frozenbackbone;queryneverinPCAfit",
+  "banks": [
+    "source_dictionary",
+    "regional_dictionary_T1",
+    "regional_dictionary_T2",
+    "global_both_dictionaries"
+  ],
+  "transforms": [
+    "center_only",
+    "pca128_half_whitening",
+    "pca128_whitening"
+  ],
+  "knn_configs": {
+    "neighbors": [
+      3,
+      7,
+      15
+    ],
+    "human_weight": [
+      8.0,
+      32.0
+    ],
+    "temperature": 0.07
+  },
+  "automatic_filter": "originalunmodifiedcosine:exclude contradictory nearesthumancategoryat>=.65andmargin>=.02,fitfoldonly",
+  "selection": "perbank maximum34anchor group-heldout balancedrecall;thenbestprimarybank;notprivate review matching",
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "threshold_selection": "largest34developmentcoverageat>=.9empiricalselectiveprecisionand>=10covered;tiesstricter",
+  "acceptance": "allqualifiedbanksmeetlearnedminimumneighbor-sharethresholdandalltheirTRAINgraphsagree;humanprotected",
+  "previous_auto_refinements": "minimumshare>=max(.95,learnedthreshold)",
+  "graph": "normalizerfitallTRAINforfinalgraphonly,k20,positivecos^4,alpha.98,OOFknnprior,humanclamped",
+  "guard": "primary>=25/34andbalancedrecall>.75andcalibrationthresholdexistsand>=2qualifiedbanks",
+  "maximum_changes": 40,
+  "cap": "descending minimum neighbor share;stablekeyorder",
+  "evaluation_limit": "34developmentanchorsreusedforselection/calibration;notindependentfinalAccuracy;graphnotindependentlyevaluated",
+  "private_review_or_archive_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "f452a33bb27a50de5a960b0464e2057b49bb82bdf84e4f73f8ce9376bbe0ad84",
+    "data/preprocessing_inputs.npz": "c561af55688b95b94a34b3381b5fb40f457634c07411c54b65b00f5cbd546724",
+    "final-submit/DSC2026_Notebook.ipynb": "c99be59612e39cf03c116b5200c3c5f881142f2af6616d2308d3c70de7fea5b4"
+  },
+  "source_code_sha256": "1dec912f868f6df18f0c17cd795766e41f16e98aa4b986e1c32277f70b8ae429"
+}

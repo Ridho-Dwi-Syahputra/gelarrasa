@@ -1,0 +1,7 @@
+{
+  "decision": "publish",
+  "prediction_sha256": "b3f7ca6c65820713bf84a804eafdc4f152ebc7a625c7d0822accdd07a10a5847",
+  "accepted_changes": 20,
+  "guard": "matches>=26andmacro>=.783333333333;covered>=5,precision>=.9",
+  "timestamp_utc": "2026-11-08T06:04:09.923321+00:00"
+}

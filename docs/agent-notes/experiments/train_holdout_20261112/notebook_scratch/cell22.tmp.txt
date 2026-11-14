@@ -1,0 +1,74 @@
+for held in processed[processed.split.eq('train') & ~processed.training_eligible].itertuples():
+    legacy = PROCESSED / 'train' / held.assigned_class / f'{held.sample_id}.png'
+    if legacy.is_file(): legacy.unlink()
+
+expected_png_paths = {resolve(path).resolve() for path in processed.output_path}
+for split in ['train', 'test', 'review/excluded_train']:
+    for png in (PROCESSED / split).rglob('*.png'):
+        if png.resolve() not in expected_png_paths:
+            png.unlink()
+
+def verify_output(row):
+    path = resolve(row['output_path'])
+    with Image.open(path) as im:
+        assert im.mode == 'RGB' and im.size == (224, 224)
+        im.load()
+    assert digest(path) == row['output_sha256']
+    if row['is_crop']:
+        original = rgb_image(resolve(row['source_path']))
+        expected = original.crop(tuple(row[c] for c in ['x0', 'y0', 'x1', 'y1']))
+        actual = rgb_image(resolve(row['native_path']))
+        assert expected.size == actual.size and expected.tobytes() == actual.tobytes()
+    return True
+
+with ThreadPoolExecutor(MAX_WORKERS) as pool:
+    assert all(pool.map(verify_output, processed.to_dict('records')))
+    source_hashes_after = list(pool.map(lambda p: digest(resolve(p)), inventory.source_path))
+assert source_hashes_after == inventory.source_sha256.tolist()
+assert processed.groupby('parent_key').parent_group.nunique().max() == 1
+assert not set(processed.loc[processed.split.eq('train'), 'parent_id']) & (drop_ids | reserve_ids)
+assert set(POLICY['explicit_keep']) <= set(processed.loc[processed.split.eq('train'), 'parent_id'])
+assert set(processed.loc[processed.split.eq('train') & processed.parent_id.eq('0437'), 'region_name']) == {'laptop', 'apple'}
+assert set(processed.loc[processed.split.eq('train') & processed.parent_id.eq('0951'), 'region_name']) == {'printed_page', 'calculator'}
+actual_outputs = {p.resolve() for split in ['train', 'test', 'review/excluded_train'] for p in (PROCESSED / split).rglob('*.png')}
+assert actual_outputs == {resolve(p).resolve() for p in processed.output_path}
+sampler_plan = processed[processed.split.eq('train')][['sample_id', 'parent_id', 'parent_group']].copy()
+sampler_plan['eligible_for_future_shuffle'] = sampler_plan.sample_id.map(dict(zip(processed.sample_id, processed.draft_partition))).eq('train')
+sampler_plan['explicit_keep_request'] = sampler_plan.parent_id.eq('0343')
+sampler_plan['weighted_sampler_activated'] = False
+sampler_plan.to_csv(PROCESSED / 'future_sampler_members.csv', index=False)
+
+
+assert {p.name for p in (PROCESSED/'train').iterdir() if p.is_dir()} == set(CLASSES)
+assert not list((PROCESSED/'train').glob('*.png'))
+assert processed[processed.split.eq('train')].assigned_class.isin(CLASSES).all()
+assert all(Path(row.output_path).parent.name == row.assigned_class for row in processed[processed.split.eq('train')].itertuples())
+assert all(Path(row.output_path).parts[2] == ('train' if row.training_eligible else 'review') for row in processed[processed.split.eq('train')].itertuples())
+parts = ['<!doctype html><html lang="id"><meta charset="utf-8"><title>Seluruh test</title>',
+         '<style>body{font:16px system-ui;margin:24px}figure{display:inline-block;width:190px;margin:10px}img{width:180px;height:180px;object-fit:contain}</style>',
+         '<h1>Seluruh 480 test, nomor menaik</h1>']
+for row in profile[profile.split.eq('test')].sort_values('image_id').to_dict('records'):
+    path=html.escape(os.path.relpath(resolve(row['source_path']),FIGURES).replace('\\','/'),quote=True)
+    parts.append(f'<figure><img src="{path}" loading="lazy"><figcaption>{row["image_id"]} | {row["width"]}x{row["height"]}</figcaption></figure>')
+(FIGURES/'all_test_gallery.html').write_text('\n'.join(parts)+'</html>',encoding='utf-8')
+summary = {'stage':'EDA_preprocessing_with_algorithmic_folder_assignments','run_id':RUN_ID,
+           'raw_train':1920,'raw_test':480,'working_train_unique_parents':1911,'working_train_samples':1913,
+           'working_test_samples':480,'native_crop_samples':7,'reserved_sources':1,'excluded_sources':8,
+           'train_class_counts':class_counts.to_dict(),'crop_assignment_rows':crop_assignment_rows,
+           'crop_reference_fit_train_only':True,'crop_parent_group_excluded':True,
+           'input_snapshot':baseline_validation,'feature_recipe':feature_recipe,'figures':figure_exports,
+           'manual_train_seed_count':len(human_input),'manual_train_seed_class_counts':human_counts.to_dict(),
+           'deferred_train_keys':sorted(deferred_keys),'train_cleaning_exclusion_keys':sorted(cleaning_keys),
+           'training_eligible_train_samples':int((processed.split.eq('train')&processed.training_eligible).sum()),
+           'deferred_train_samples':int((processed.split.eq('train')&~processed.training_eligible).sum()),
+           'source_files_changed':False,'all_output_images_verified':True,'all_native_crops_exact_parent_subsets':True,
+           'same_parent_same_group':True,'draft_split_prepared':True,'draft_split_stratified':False,
+           'group_method':group_method,'classifier_training_executed':False,'semantic_accuracy':None,
+           'submission_created':False,'weighted_sampler_activated':False,'seconds':time.time()-STARTED}
+(PROCESSED/'provenance.json').write_text(json.dumps({'policy':POLICY,'summary':summary},indent=2),encoding='utf-8')
+display(class_counts.rename('train_per_kategori').to_frame())
+display(processed.groupby(['split','draft_partition']).size().rename('sampel'))
+display(pd.Series({k:v for k,v in summary.items() if not isinstance(v,(dict,list))},name='validasi_preprocessing'))
+gallery_link=os.path.relpath(FIGURES/'all_test_gallery.html',ROOT/'final-submit').replace('\\','/')
+display(HTML(f'<a href="{html.escape(gallery_link,quote=True)}">Galeri seluruh test</a>'))
+print('Seluruh data processed dibuat dan diverifikasi oleh notebook ini.')

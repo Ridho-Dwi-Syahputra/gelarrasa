@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "human_sources": 34,
+  "views_per_source": 8,
+  "test_rows": 0,
+  "new_manual_labels": 0,
+  "feature_sha256": "c2a021d5ce30df31abb3a3827f821cace93fa9406747df0bc4255ba90cbf3414",
+  "source_code_sha256": "ed704769c96c72164ee743c4c2b118abe4ac810aad92eccc6d2ee2a2d7cb5a85",
+  "seconds": 248.22917318344116
+}

@@ -1,0 +1,110 @@
+{
+  "version": "class_folder_preprocessing_policy_v4",
+  "scope": "executed_preprocessing_with_unverified_algorithmic_categories",
+  "drop_from_train_preprocessing": [
+    "0134",
+    "0298",
+    "0545",
+    "0963",
+    "1028",
+    "1043",
+    "1465",
+    "1890"
+  ],
+  "reserve_review": [
+    "0376"
+  ],
+  "explicit_keep": [
+    "0313",
+    "0343",
+    "1817"
+  ],
+  "focus_crops": [
+    {
+      "parent_id": "0415",
+      "region": "calculator",
+      "bbox": [
+        0,
+        115,
+        235,
+        522
+      ]
+    },
+    {
+      "parent_id": "0437",
+      "region": "laptop",
+      "bbox": [
+        0,
+        44,
+        373,
+        429
+      ]
+    },
+    {
+      "parent_id": "0437",
+      "region": "apple",
+      "bbox": [
+        370,
+        292,
+        466,
+        427
+      ]
+    },
+    {
+      "parent_id": "0951",
+      "region": "printed_page",
+      "bbox": [
+        143,
+        145,
+        445,
+        398
+      ]
+    },
+    {
+      "parent_id": "0951",
+      "region": "calculator",
+      "bbox": [
+        456,
+        142,
+        640,
+        503
+      ]
+    },
+    {
+      "parent_id": "1007",
+      "region": "red_bag",
+      "bbox": [
+        267,
+        63,
+        472,
+        232
+      ]
+    },
+    {
+      "parent_id": "1351",
+      "region": "lowerleft_box",
+      "bbox": [
+        0,
+        349,
+        118,
+        484
+      ]
+    }
+  ],
+  "output_size": 224,
+  "max_content_side": 202,
+  "padding_rgb": [
+    127,
+    127,
+    127
+  ],
+  "crop_origin": "fixed object-focus coordinates; not algorithmic object detection",
+  "labels_assigned_to_crops": true,
+  "crop_assignment_method": "dino_crop_knn_fit_train_v1",
+  "sampler": {
+    "requested_member": "0343",
+    "eligible_for_future_train_shuffle": true,
+    "weighted_sampler_activated": false,
+    "validation_test_oversampling": false
+  }
+}

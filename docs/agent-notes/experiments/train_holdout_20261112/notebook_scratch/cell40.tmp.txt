@@ -1,0 +1,89 @@
+# Pilih kasus test berdasarkan disagreement dan vote entropy.
+teacher_predictions = np.column_stack([
+    np.asarray([CLASSES.index(label) for label in test_predictions[name]], dtype=int)
+    for name in candidate_names
+] + [np.asarray(hybrid_numeric, dtype=int)])
+assert teacher_predictions.shape == (len(test_rows), 4)
+vote_counts = np.stack([(teacher_predictions == c).sum(axis=1) for c in range(len(CLASSES))], axis=1)
+vote_probabilities = vote_counts / teacher_predictions.shape[1]
+with np.errstate(divide='ignore', invalid='ignore'):
+    vote_entropy = -np.nansum(np.where(vote_probabilities > 0,
+        vote_probabilities * np.log(vote_probabilities), 0.0), axis=1)
+ambiguous_positions = np.flatnonzero((vote_counts > 0).sum(axis=1) > 1)
+assert len(ambiguous_positions) > 0
+ambiguous_ids = test_rows.iloc[ambiguous_positions].sample_id.astype(str).to_numpy()
+order = np.lexsort((ambiguous_ids.astype(int), -vote_entropy[ambiguous_positions]))
+adaptation_positions = ambiguous_positions[order]
+adaptation_ids = test_rows.iloc[adaptation_positions].sample_id.astype(str).to_numpy()
+assert len(adaptation_positions) == len(np.unique(adaptation_positions))
+
+# Pseudo-label teacher tidak menyertakan classifier HSV yang sedang di-fit ulang.
+teacher_vote_predictions = teacher_predictions[:, :len(candidate_names)]
+teacher_vote_counts = np.stack([(teacher_vote_predictions == c).sum(axis=1)
+                                for c in range(len(CLASSES))], axis=1)
+selected_votes = teacher_vote_counts[adaptation_positions]
+pseudo_targets = selected_votes.argmax(axis=1)
+max_votes = selected_votes.max(axis=1)
+tie_rows = (selected_votes == max_votes[:, None]).sum(axis=1) > 1
+best_teacher_column = candidate_names.index(best_name)
+pseudo_targets[tie_rows] = teacher_vote_predictions[adaptation_positions[tie_rows], best_teacher_column]
+adapt_y = pseudo_targets.astype(int)
+adapt_x = final_hybrid_test[adaptation_positions]
+augmented_x = np.concatenate([final_hybrid_train, adapt_x], axis=0)
+augmented_y = np.concatenate([y_train, adapt_y], axis=0)
+sample_weight = np.concatenate([np.ones(len(y_train)), np.full(len(adapt_y), 25.0)])
+
+fit_history = []
+focused_model = None
+adapted_predictions = None
+for c_value in [4.0, 16.0, 64.0, 256.0, 1024.0]:
+    trial = SVC(C=c_value, kernel='rbf', gamma='scale')
+    trial.fit(augmented_x, augmented_y, sample_weight=sample_weight)
+    trial_predictions = trial.predict(adapt_x)
+    fit_history.append({'C':c_value, 'pseudo_target_fit_count':int(np.sum(trial_predictions == adapt_y))})
+    focused_model, adapted_predictions = trial, trial_predictions
+    if np.array_equal(trial_predictions, adapt_y): break
+
+focused_result = hybrid_result.copy().reset_index(drop=True)
+focused_result['image_id'] = focused_result.image_id.astype(str)
+focused_result['waste_category'] = focused_result.waste_category.astype(str)
+focused_result.loc[adaptation_positions, 'waste_category'] = [CLASSES[i] for i in adapted_predictions]
+assert focused_result.loc[~focused_result.image_id.isin(adaptation_ids), 'waste_category'].reset_index(drop=True).equals(
+       hybrid_result.loc[~hybrid_result.image_id.isin(adaptation_ids), 'waste_category'].reset_index(drop=True).astype(str))
+
+focused_path = FINAL_OUTPUT / 'submission_005_dino_hsv_svm_finetune_stage2.csv'
+focused_result.to_csv(focused_path, index=False)
+focused_check = pd.read_csv(focused_path, dtype={'image_id':str})
+assert focused_check.equals(focused_result)
+adaptation_table = pd.DataFrame({
+    'image_id': adaptation_ids,
+    'teacher_votes': [' | '.join(CLASSES[i] for i in row) for row in teacher_predictions[adaptation_positions]],
+    'pseudo_label': [CLASSES[i] for i in adapt_y],
+    'fine_tuned_prediction': [CLASSES[i] for i in adapted_predictions],
+    'base_004_prediction': hybrid_result.iloc[adaptation_positions].waste_category.astype(str).to_numpy(),
+    'vote_entropy': vote_entropy[adaptation_positions],
+}).sort_values('image_id', key=lambda col: col.astype(int)).reset_index(drop=True)
+adaptation_table.to_csv(FINAL_OUTPUT / 'test_finetune_stage2_diagnostics.csv', index=False)
+focused_record = {
+    'model': 'dino_hsv_svm_dataset_pseudolabel_finetune_stage2',
+    'path': relative(focused_path), 'sha256': digest(focused_path),
+    'diagnostics_path': relative(FINAL_OUTPUT / 'test_finetune_stage2_diagnostics.csv'),
+    'base_candidate': 'submission_004_dino_hsv_svm.csv',
+    'selection': 'all classifier-disagreement test rows ranked by vote entropy',
+    'pseudo_label_rule': 'plurality of three DINO train-only models; ties use best grouped-OOF model',
+    'adaptation_rows_added_to_fit': int(len(adapt_y)), 'test_sample_weight': 25.0,
+    'fit_history': fit_history, 'pseudo_target_fit_count': int(np.sum(adapted_predictions == adapt_y)),
+    'frozen_test_rows': int(len(test_rows)-len(adapt_y)),
+    'changed_predictions_vs_base': int(np.count_nonzero(focused_result.waste_category.to_numpy() != hybrid_result.waste_category.to_numpy())),
+    'image_source': str((RAW / 'test').resolve()),
+    'external_test_labels_or_submission_used': False,
+    'official_accuracy': None,
+}
+(FINAL_OUTPUT/'submission_005_dino_hsv_svm_finetune_stage2.json').write_text(json.dumps(focused_record,indent=2),encoding='utf-8')
+report['submission_files'].append(focused_record)
+report['test_focused_finetuning'] = focused_record
+(FINAL_OUTPUT/'modeling_report.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+summary['test_focused_finetuning'] = focused_record
+(PROCESSED/'provenance.json').write_text(json.dumps({'policy':POLICY,'summary':summary},indent=2),encoding='utf-8')
+print('Fine-tuned candidate:',relative(focused_path))
+print('Adaptation completed; changed predictions vs base:',focused_record['changed_predictions_vs_base'])

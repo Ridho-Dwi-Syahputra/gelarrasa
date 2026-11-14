@@ -1,0 +1,45 @@
+{
+  "method": "correlated_image_teacher_selective_consensus_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "objective": "selectivecoverageandempiricalprecision,notwhole34Accuracy",
+  "teachers": [
+    "previousDINO_CNN",
+    "object_zoom",
+    "foldcontained_selftraining",
+    "genuine_source_core_repair"
+  ],
+  "predictions": "all1904usegroupheldoutprobabilities,includingcore_repairOOFnotfullfit;querysourcesexcludedfromeachteacherfit",
+  "threshold_grid": [
+    0.8,
+    0.9,
+    0.95,
+    0.98
+  ],
+  "support_grid": [
+    2,
+    3,
+    4
+  ],
+  "consensus": "uniqueclassvoteamongconfidentteachers;tiesabstain",
+  "baseline_development": {
+    "correct": 15,
+    "covered": 16,
+    "wilson_lower_95": 0.7167126242970107
+  },
+  "guard": "coverage>=16,precision>=.95,andWilsonlower>=bestprevious15/16lower+.02",
+  "selection": "largestWilsonlower,thencoverage,thenmoreteacheragreement,thenstricterthreshold",
+  "final_gate": "selectedconsensusand>=2/3finalTRAINgraphs;humanprotected;noIDexceptions",
+  "maximum_changes": 40,
+  "cap": "descendingminimumconfidentteacherprobability,thenagreement,stablekeyorder",
+  "evaluation_limit": "34reusedforconfigurationselection/calibration;teacherscorrelated;WilsonisrankingONLY,notriskboundafterselection;graphsnotusedincalibration",
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_posthoc_audits": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "be1487bbcbf07ce2db28f5cad04024ca3672478baa8764e91417aefaed134708",
+    "data/preprocessing_inputs.npz": "091f712b22a07fd1c85a79977e7aa337e3cdf47048c8f2b6a382f831eab8d93e",
+    "final-submit/DSC2026_Notebook.ipynb": "407eaaa66ad26701d64a0675c869d5dc4a42862883786c63826cab3964dafba0"
+  },
+  "source_code_sha256": "fa937778c2697849a705b59002c64833b538d865a3abf3b9af090adcf6fee260"
+}

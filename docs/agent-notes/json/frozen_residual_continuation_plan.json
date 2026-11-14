@@ -1,0 +1,21 @@
+{
+  "method": "unchanged_frozen_residual_router_batch_continuation_v1",
+  "source_frozen_prefix": "residual_selective_router",
+  "evidence_sha256": "27cae71b5be65e711c1d95625f737630672089210fcc6e5b5c621036d06a2546",
+  "model_or_threshold_changes": false,
+  "hypothesis": "applyallremainingmodelqualifiedpredictions;firstbatch20capwasoperationalnotlabeldependent",
+  "maximum_changes": 20,
+  "cap": "sameoriginalminimumcorrectedprobabilityranking",
+  "guard": "samefrozendevelopment28/34,macro.85,residual18/19covered",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_audits": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "7c7eb14d2b2d6db28ccbec90abcefad7cda654fcdd042d6b3f89e903e032aa4d",
+    "data/preprocessing_inputs.npz": "5b15c32d6931e1bc37277956e3589bf3bac7b62f3117b428c6194d5831a35d49",
+    "final-submit/DSC2026_Notebook.ipynb": "a38ea39e68b73692da0b93ab5bf5aea6e8a5c7bfc3c31ad4d51da7f13aad641c"
+  },
+  "source_code_sha256": "204d2398755f124d243808ef2953edf92c8dce1fa6fe67ecce1168bd94f3510b"
+}

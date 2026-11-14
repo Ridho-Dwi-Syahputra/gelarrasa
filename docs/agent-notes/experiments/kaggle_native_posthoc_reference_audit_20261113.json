@@ -1,0 +1,14 @@
+{
+  "raw_train_images": 1920,
+  "pipeline_eligible_samples_including_crops": 1886,
+  "pipeline_full_frame_eligible": 1879,
+  "pipeline_crop_samples": 7,
+  "target_plus_confirmed_seed_ids": 1873,
+  "comparable_full_frame_ids": 1870,
+  "same_as_target_plus_user_corrections": 848,
+  "different": 1022,
+  "match_rate": 0.453476,
+  "raw_train_without_target_entry": 47,
+  "target_ids_without_eligible_full_frame": 3,
+  "confirmed_seed_ids_added_to_reference": 4
+}

@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "full_frame_train_assignments_verified": 1906,
+  "changed_categories_vs_start_of_current_task": 42,
+  "participant_reviewed_source_images": 14,
+  "participant_category_counts": {
+    "plastic": 3,
+    "paper": 3,
+    "metal": 2,
+    "electronic": 2,
+    "glass": 2,
+    "textile": 1,
+    "cardboard": 1
+  },
+  "remaining_human_capacity": {
+    "glass": 3,
+    "paper": 2,
+    "electronic": 3,
+    "metal": 3,
+    "plastic": 2,
+    "cardboard": 4,
+    "textile": 4,
+    "foodwaste": 5
+  },
+  "training_eligible_train_samples": 1911,
+  "stored_train_samples": 1913,
+  "deferred_sources": [
+    "1662",
+    "1885"
+  ],
+  "deferred_not_crop_references": true,
+  "test_snapshot_unchanged": true,
+  "original_program_preferences_preserved": 9,
+  "remaining_differences_from_stated_team_preferences": 59,
+  "not_reviewed_original_cases": 20,
+  "tentative_original_cases": 20,
+  "human_holdout_matches": 5,
+  "human_holdout_rows": 14,
+  "human_holdout_not_official_accuracy": true,
+  "notebook_sha256": "c57832870aa253de15dbe173d8651533527bddb062d24acb151c4e7fe5118700",
+  "notebook_execution": {
+    "status": "passed",
+    "notebook": "final-submit\\DSC2026_Notebook.ipynb",
+    "sha256": "c57832870aa253de15dbe173d8651533527bddb062d24acb151c4e7fe5118700",
+    "cells": 24,
+    "code_cells": 13,
+    "executed": 13,
+    "errors": 0,
+    "embedded_figures": 16,
+    "seconds": 143.97652959823608,
+    "bytes": 7405744,
+    "background_execution": true,
+    "new_model_training": false,
+    "submission_created": false
+  },
+  "scope": "published preprocessing and evidence integrity, not a guarantee of correct category for every image"
+}

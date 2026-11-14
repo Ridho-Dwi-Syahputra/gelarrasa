@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "sources": 34,
+  "views_per_source": 8,
+  "original_view_max_error": 1.7881393432617188e-07,
+  "raw_scale_max_relative_error": 1.3641196817060425e-06,
+  "feature_sha256": "f4d3c9e5caefc5fec1d1464b2f25e3c89045c35ea5e01a7649de4f31d86f14bc",
+  "seconds": 2.216848134994507
+}

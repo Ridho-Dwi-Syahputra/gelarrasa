@@ -1,0 +1,52 @@
+{
+  "method": "grouped_image_patch_attention_assignment_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows": 0,
+  "source": "frozenConvNeXt192/768patches,optionalDINOBaseCLS;localheadtrainedonorganizertrain",
+  "targets": "coldautomaticconsensuscoreand34human;notcurrentprocessedprogramlabels",
+  "models": [
+    "mean_global",
+    "gated_global",
+    "gated_local"
+  ],
+  "objectives": [
+    "CE",
+    "GCE(q=.7,CEwarmup5)"
+  ],
+  "pooling": "Ilse-stylegatedtanh/sigmoidattention,softautomaticROIprior;notexactpaperreplicationorsegmentation",
+  "projection": 32,
+  "epochs": 20,
+  "checkpoints": [
+    10,
+    20
+  ],
+  "human_weight": 8.0,
+  "batch_size": 128,
+  "optimizer": "AdamWlr.001,weightdecay.001,gradclip5;patchdropout.1",
+  "validation": "fivegeometrysourcegroupfolds,queryexcludedfromtargets;frozenpatches,noqueryfitstatistics",
+  "selection": "bestobjective/checkpointperarchitectureby34developmentbalancedrecall;thenbestarchitecture",
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "threshold_selection": "maximum34developmentcoverageat>=.9empiricalprecisionand>=10covered;tiesstricter",
+  "guard": "primary>=24/34andmacro>=.75,orselectiveWilsonrank>=previous15/16rank+.02with>=16coveredandmacro>=.65,>=20matches;thresholdrequired",
+  "acceptance": "learnedprobabilitythresholdandatleast1of3finalTRAINgraphsagree;humanprotected",
+  "maximum_changes": 40,
+  "cap": "descendingneuralprobability,stablekeyorder",
+  "evaluation_limit": "34anchorsreusedforselection/calibration,notfinalindependentAccuracy;Wilsonrankingnotriskcertificate;graphnotusedforcalibration",
+  "reference": "https://proceedings.mlr.press/v80/ilse18a.html",
+  "private_review_or_archive_read": false,
+  "patch_index_sha256": "f1acc780ddf7d3071167065daf31ea723c8d88ca19b067a94ffd4de728523fb4",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "5a839b4448073de9830d6f5977221a603bbc37a59501654f1e7dc3e12142fd13",
+    "data/preprocessing_inputs.npz": "bb103db50ed000285a16147a346c12fe10a3b79745272db20b254e4a2c744b3e",
+    "final-submit/DSC2026_Notebook.ipynb": "2278c915658dbc8451103f27139bd6923a9f5efd80eb5d34833c05d0089b6757"
+  },
+  "source_code_sha256": "eebbdff8e84c80c8ccdaa3a23597a28e8aca742c8ec07c59d9a70f03049c5bcd"
+}

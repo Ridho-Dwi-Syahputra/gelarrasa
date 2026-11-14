@@ -1,0 +1,13 @@
+{
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "seed": 20261106,
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "Pillow": "12.2.0",
+    "ImageHash": "4.3.2",
+    "opencv-python": "5.0.0.93",
+    "matplotlib": "3.10.8"
+  }
+}

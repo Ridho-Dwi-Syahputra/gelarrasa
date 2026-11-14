@@ -1,0 +1,20 @@
+{
+  "method": "cross-fitted noisy-program-label refinement with feature-family consensus",
+  "target_origin": "historical routing program assignments from active processed manifest, not visual reference archive",
+  "train_rows": 1906,
+  "training_label_population": "all working full-frame train, including low external-teacher-coverage subtypes",
+  "sample_weight": ".25+.75*historical_program_confidence",
+  "manual_labels_consumed": 0,
+  "test_rows_in_fit": 0,
+  "n_folds": 5,
+  "selection_within_family": ".5 OOF macro agreement on corroborated high-confidence program core +.5 OOF hflip consistency",
+  "reassignment_gate": "at least4of5 feature-family champions agree on a new category; otherwise preserve program category",
+  "reference_archive_read": false,
+  "researcher_has_seen_prior_private_audits": true,
+  "semantic_accuracy": null,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "28d926592d6819af4e25b8727f8a641f12ccd47718546da3ee02cff35159e96c",
+    "data/preprocessing_inputs.npz": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+    "final-submit/DSC2026_Notebook.ipynb": "20416ab9d262f2a94756825d812dd9f37e7f0fb374c99805db6ed68688d84c62"
+  }
+}

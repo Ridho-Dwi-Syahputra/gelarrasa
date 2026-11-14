@@ -1,0 +1,49 @@
+{
+  "method": "additional image-only eight-class teacher with conservative horizontal-view gate",
+  "teacher": {
+    "repository": "C0mpl1cated3/trash_classifier_v2",
+    "revision": "ac54e811e3a5d505b57bf6dc1495ed5cd695c036",
+    "original_checkpoint_sha256": "cbefd51e99c7f325fa1f08b44ed185160895be5bd7f49c7cfd046a329fee5b19",
+    "tensor_file_sha256": "360f5224f6a9b9876f8a6e64a56a82fff871b530eadcf58d8b2590641b6f65e3",
+    "source_class_order": [
+      "cardboard",
+      "e-waste",
+      "glass",
+      "metal",
+      "organic",
+      "paper",
+      "plastic",
+      "textile"
+    ]
+  },
+  "source_category_mapping": {
+    "cardboard": "cardboard",
+    "e-waste": "electronic",
+    "glass": "glass",
+    "metal": "metal",
+    "organic": "foodwaste",
+    "paper": "paper",
+    "plastic": "plastic",
+    "textile": "textile"
+  },
+  "transform": "RGB center-crop resize224 bilinear, ImageNet mean/std from exported transform metadata",
+  "original_probability_minimum": 0.95,
+  "original_margin_minimum": 0.5,
+  "hflip_probability_minimum": 0.9,
+  "hflip_class_agreement_required": true,
+  "manual_labels_consumed": 0,
+  "test_rows_processed": 0,
+  "external_image_data_downloaded": false,
+  "inference_api_used": false,
+  "source_pretraining_image_overlap_unknown": true,
+  "fine_tuned_on_competition_here": false,
+  "final_classifier_ready": false,
+  "reference_archive_read": false,
+  "researcher_has_seen_previous_private_audits": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "28d926592d6819af4e25b8727f8a641f12ccd47718546da3ee02cff35159e96c",
+    "data/preprocessing_inputs.npz": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+    "final-submit/DSC2026_Notebook.ipynb": "20416ab9d262f2a94756825d812dd9f37e7f0fb374c99805db6ed68688d84c62"
+  },
+  "qualification": "automatic train label evidence only; participant training/adaptation still required before a final classifier submission"
+}

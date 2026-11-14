@@ -1,0 +1,17 @@
+{
+  "status": "diagnostic_frozen",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "candidate_pairs": 8047,
+  "geometrically_supported_edges": 116,
+  "component_rows": 183,
+  "proposed_changes": 0,
+  "active_data_modified": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "f0b389b9a36822a2b310c60554d1582aff0d8d63676fd7961dcee9900dcd313f",
+    "data/preprocessing_inputs.npz": "9f7ba4a8043091e55a529326c28a9e7d89a5a7a4009c8e54ded2755be1195cfb",
+    "final-submit/DSC2026_Notebook.ipynb": "b4a0ca6715df0d3f017cab60c45dad600862f73570a8115a45aec5fcf214e8ec"
+  },
+  "source_code_sha256": "1fdfed41dc8f3c6d4e3292cf00092196026a4b9e662292a61c25fd287ebf9ef1",
+  "seconds": 257.16238045692444
+}

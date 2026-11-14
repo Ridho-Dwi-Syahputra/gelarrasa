@@ -1,0 +1,39 @@
+{
+  "status": "frozen_before_reference_audit",
+  "method": "expanded_public_ontology_with_hflip_v1",
+  "manual_labels_consumed": 0,
+  "train_rows": 1906,
+  "test_rows_processed": 0,
+  "newly_mapped_source_classes": 28,
+  "changed_source_class_mappings": 29,
+  "candidate_changes": 3,
+  "accepted_changes": 3,
+  "definitions": {
+    "paper_towel.n.01": "a disposable towel made of absorbent paper",
+    "tissue.n.02": "a soft thin (usually translucent) paper",
+    "toilet_tissue.n.01": "a soft thin absorbent paper for use in toilets",
+    "calculator.n.02": "a small machine that is used for mathematical calculations",
+    "electrical_cable.n.01": "a cable that provides an electrical connection for telephone or television or power stations",
+    "coin.n.01": "a flat metal piece (usually a disc) used as money",
+    "polyethylene.n.01": "a lightweight thermoplastic; used especially in packaging and insulation",
+    "polystyrene.n.01": "a polymer of styrene; a rigid transparent thermoplastic",
+    "footwear.n.01": "clothing worn on a person's feet",
+    "bone.n.01": "rigid connective tissue that makes up the skeleton of vertebrates",
+    "bone.n.02": "the porous calcified substance from which bones are made",
+    "skull.n.01": "the bony skeleton of the head of vertebrates",
+    "shell.n.04": "the hard usually fibrous outer layer of some fruits especially nuts",
+    "shell.n.05": "the exterior covering of a bird's egg",
+    "peel.n.02": "the rind of a fruit or vegetable",
+    "rind.n.01": "the natural outer covering of food (usually removed before eating)"
+  },
+  "prediction_sha256": "24108140624025624658ddc1962d88ebe9054af6b1e654137913748bad59f58e",
+  "source_code_sha256": "0c93ab8145f254248d6488c2dc0b124861b8e922f1d937ccbcbf13e59d9d2315",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "28d926592d6819af4e25b8727f8a641f12ccd47718546da3ee02cff35159e96c",
+    "data/preprocessing_inputs.npz": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+    "final-submit/DSC2026_Notebook.ipynb": "20416ab9d262f2a94756825d812dd9f37e7f0fb374c99805db6ed68688d84c62"
+  },
+  "semantic_accuracy": null,
+  "active_data_modified": false,
+  "seconds": 15.32317328453064
+}

@@ -1,0 +1,46 @@
+{
+  "method": "genuine_seed_weighted_source_concept_visual_propagation_v2",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "targets": "same34humanONLY;noautomaticcategorytargets;sourceconceptnamesNEVERmanuallymapped",
+  "source_concepts": "objectCNN21841andMINC23numericindices;associateconceptwithlabelsobservedin34sources",
+  "configs": [
+    "object",
+    "material",
+    "object_then_material"
+  ],
+  "object_topk": 5,
+  "object_ref_min_probability": 0.05,
+  "object_query_min_probability": 0.05,
+  "object_min_mapped_mass": 0.2,
+  "material_topk": 3,
+  "material_ref_min_probability": 0.2,
+  "material_query_min_probability": 0.2,
+  "material_min_mapped_mass": 0.4,
+  "class_fraction_min": 0.9,
+  "reference_score": "whitecos+.1log(refconceptprob/refdominantconceptprob)",
+  "pure_visual_floor_override": 0.65,
+  "pure_visual_similarity_min": {
+    "object": 0.55,
+    "material": 0.65
+  },
+  "conflicted_concept": "onlyresolvebyV3nearestprototypewithrawcos>=.65andwhitenedclassmargin>=.05;otherwiseabstain",
+  "visual_check": "conceptconditionedprototypecomparison;nooverallnearestclassveto;rawcosfloor.65;referenceconfidenceweightedclassscore",
+  "normalizer": "PCA128whiteningfitouterTRAINonly;allquerygroupsheldoutfromreferencesandstatistics",
+  "guard": "whole34fallbackV3baseline26nondecreasingmatchesandmacro;partialcovered>=3andprecision>=.8;atleast1learnedsourceconcept",
+  "selection": "maxwhole34matches,thenmacro,thenpartialprecision,thencoverage;listedconfigorderbreaksties",
+  "purpose": "known-conceptfew-shotannotation,notguaranteedrecognitionofunseenmaterialwithinsameconcept",
+  "maximum_changes": 20,
+  "cap": "descendingwinningmappedsourceprobabilitymass,stablekeyorder",
+  "score": "winningmappedsourceprobabilityMASS,notconditionalshareandnotmaterialcorrectnessprobability",
+  "evaluation_limit": "34reuseddevelopment,smallpartialcoverage;sourceconceptcancontainmixedmaterials;allnewpseudolabelsunverified",
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_audits": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "8a93f24c0499bd470b8a0438b9c80cae090770b2447b706fd746e3bba47d55c3",
+    "data/preprocessing_inputs.npz": "8343b1bcaef1e0973bec2d1592cb8ea69245665b88fb7b3c26cefd691a8263a1",
+    "final-submit/DSC2026_Notebook.ipynb": "b2e8236fa66e3168762012285d0daa59b4a007b9ad40be513d95cd853c481015"
+  },
+  "source_code_sha256": "8856af1b4859d5b198cf4e331a5ea49c015a42420a824f118375b6f4a12f3bc1"
+}

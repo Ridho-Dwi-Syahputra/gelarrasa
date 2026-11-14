@@ -1,0 +1,8 @@
+{
+  "decision": "publish",
+  "prediction_sha256": "eee9cf8c74a8c0243f02dbde298d8da06ab3c2c31cda3c3d43c28f96acb1542c",
+  "guard": "primary>=23/34andbalancedrecall>=.725andcalibrationthresholdexists",
+  "accepted_changes": 40,
+  "private_review_used_for_selection": false,
+  "timestamp_utc": "2026-11-07T15:37:29.162897+00:00"
+}

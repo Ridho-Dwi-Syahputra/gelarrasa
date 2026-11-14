@@ -1,0 +1,13 @@
+architecture,objective,epoch,development_balanced_recall,anchor_matches
+mean_global,CE,10,0.5750000000000001,17
+mean_global,CE,20,0.525,15
+mean_global,"GCE(q=.7,CEwarmup5)",10,0.6000000000000001,18
+mean_global,"GCE(q=.7,CEwarmup5)",20,0.525,15
+gated_global,CE,10,0.6000000000000001,18
+gated_global,CE,20,0.6000000000000001,18
+gated_global,"GCE(q=.7,CEwarmup5)",10,0.625,19
+gated_global,"GCE(q=.7,CEwarmup5)",20,0.55,16
+gated_local,CE,10,0.30833333333333335,11
+gated_local,CE,20,0.2583333333333333,9
+gated_local,"GCE(q=.7,CEwarmup5)",10,0.43333333333333335,16
+gated_local,"GCE(q=.7,CEwarmup5)",20,0.3083333333333333,11

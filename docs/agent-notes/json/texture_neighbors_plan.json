@@ -1,0 +1,56 @@
+{
+  "method": "multiscale_texture_DINOBase_grouped_neighbors_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows": 0,
+  "hypothesis": "remove common image directions or reduce correlated background features before distance-based label transfer",
+  "statistics": "mean andPCAfitonlynonqueryTRAINsourcegroups;frozenbackbone;queryneverinPCAfit",
+  "banks": [
+    "regional_semantic",
+    "texture_semantic",
+    "multiscale_semantic",
+    "texture_region"
+  ],
+  "transforms": [
+    "center_only",
+    "pca128_half_whitening",
+    "pca128_whitening"
+  ],
+  "knn_configs": {
+    "neighbors": [
+      3,
+      7,
+      15
+    ],
+    "human_weight": [
+      8.0,
+      32.0
+    ],
+    "temperature": 0.07
+  },
+  "automatic_filter": "originalunmodifiedcosine:exclude contradictory nearesthumancategoryat>=.65andmargin>=.02,fitfoldonly",
+  "selection": "perbank maximum34anchor group-heldout balancedrecall;thenbestprimarybank;notprivate review matching",
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "threshold_selection": "largest34developmentcoverageat>=.9empiricalselectiveprecisionand>=10covered;tiesstricter",
+  "acceptance": "allqualifiedbanksmeetlearnedminimumneighbor-sharethresholdandalltheirTRAINgraphsagree;humanprotected",
+  "previous_auto_refinements": "minimumshare>=max(.95,learnedthreshold)",
+  "graph": "normalizerfitallTRAINforfinalgraphonly,k20,positivecos^4,alpha.98,OOFknnprior,humanclamped",
+  "guard": "primary>=24/34andbalancedrecall>=.75andcalibrationthresholdexistsand>=2qualifiedbanks",
+  "maximum_changes": 40,
+  "cap": "descending minimum neighbor share;stablekeyorder",
+  "evaluation_limit": "34developmentanchorsreusedforselection/calibration;notindependentfinalAccuracy;graphnotindependentlyevaluated",
+  "private_review_or_archive_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "183fc86206848eda6b52e9af355ca133f0eebab7adbbdc49151e7d3c72d7876d",
+    "data/preprocessing_inputs.npz": "34ea13d5f3f2290cd252138ab557faec6eb56fa5e92907bf8247cefc6afca3b9",
+    "final-submit/DSC2026_Notebook.ipynb": "4a740ce1fda83b19288d124fb192bde30b10faab0b62acdd0bed4970f37ca3cf"
+  },
+  "source_code_sha256": "302013a6b2d969b144142573c7d78cffdbc2fa5ccf7e3ffefc548023e7d7c1c2"
+}

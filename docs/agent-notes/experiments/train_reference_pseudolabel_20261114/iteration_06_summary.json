@@ -1,0 +1,115 @@
+{
+  "method": "1781_user_approved_and_reference_agreeing_seed_pool_then_iterative_source_group_crossfit",
+  "raw_train_images": 1920,
+  "raw_test_images_read": 0,
+  "raw_dataset_root": "D:\\lomba\\NSC UB\\GELAR-RASA\\data\\Dataset DSC GelarRasa 2026",
+  "notebook_generated_feature_run": "C:\\Users\\Asus\\AppData\\Local\\Temp\\gelarrasa_raw_only_rerun_20261114",
+  "initial_pool": 1781,
+  "initial_user_keep_ids": 19,
+  "initial_reference_matching_program_labels": 1763,
+  "initial_residual": 139,
+  "residual_composition": {
+    "existing_program_label_differs_from_reference": 130,
+    "no_program_assignment": 9
+  },
+  "feature_families": [
+    "DINOv2-Small + RBF SVM",
+    "DINOv3-Small + RBF SVM",
+    "EfficientNet-B0 embedding + StandardScaler + RBF SVM"
+  ],
+  "validation": "5-fold GroupKFold by raw-train source_group; every held group excluded from fit",
+  "rounds": [
+    {
+      "round": 1,
+      "pool_before": 1781,
+      "residual_before": 139,
+      "predicted": 139,
+      "accepted": 64,
+      "remaining_after": 75,
+      "accept_rule": "at least 2/3 source-group-crossfit models agree and majority equals reference"
+    },
+    {
+      "round": 2,
+      "pool_before": 1845,
+      "residual_before": 75,
+      "predicted": 75,
+      "accepted": 31,
+      "remaining_after": 44,
+      "accept_rule": "at least 2/3 source-group-crossfit models agree and majority equals reference"
+    },
+    {
+      "round": 3,
+      "pool_before": 1876,
+      "residual_before": 44,
+      "predicted": 44,
+      "accepted": 7,
+      "remaining_after": 37,
+      "accept_rule": "at least 2/3 source-group-crossfit models agree and majority equals reference"
+    },
+    {
+      "round": 4,
+      "pool_before": 1883,
+      "residual_before": 37,
+      "predicted": 37,
+      "accepted": 2,
+      "remaining_after": 35,
+      "accept_rule": "at least 2/3 source-group-crossfit models agree and majority equals reference"
+    },
+    {
+      "round": 5,
+      "pool_before": 1885,
+      "residual_before": 35,
+      "predicted": 35,
+      "accepted": 0,
+      "remaining_after": 35,
+      "accept_rule": "at least 2/3 source-group-crossfit models agree and majority equals reference"
+    }
+  ],
+  "accepted_after_frozen_prediction": 104,
+  "final_pool": 1885,
+  "remaining_unaccepted": 35,
+  "remaining_ids": [
+    "0010",
+    "0018",
+    "0079",
+    "0120",
+    "0131",
+    "0265",
+    "0321",
+    "0376",
+    "0437",
+    "0597",
+    "0604",
+    "0672",
+    "0774",
+    "0857",
+    "0930",
+    "0963",
+    "1027",
+    "1028",
+    "1142",
+    "1176",
+    "1246",
+    "1351",
+    "1417",
+    "1446",
+    "1465",
+    "1522",
+    "1541",
+    "1557",
+    "1637",
+    "1657",
+    "1662",
+    "1694",
+    "1885",
+    "1890",
+    "1892"
+  ],
+  "baseline_auto_assignment_rows": 1911,
+  "target_use": "Initial pool: 1,763 prior program predictions already matched the reference plus 19 participant keep predictions. Residual labels were compared only after grouped cross-fit predictions were frozen; newly accepted matches entered only the next round.",
+  "all_feature_hashes_match_raw_train": true,
+  "artifacts": {
+    "predictions": "D:\\lomba\\NSC UB\\GELAR-RASA\\docs\\agent-notes\\experiments\\train_reference_pseudolabel_20261114\\iteration_06_residual_predictions.csv",
+    "final_pool": "D:\\lomba\\NSC UB\\GELAR-RASA\\docs\\agent-notes\\experiments\\train_reference_pseudolabel_20261114\\iteration_06_final_pool.csv"
+  }
+}

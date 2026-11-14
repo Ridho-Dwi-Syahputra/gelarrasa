@@ -1,0 +1,45 @@
+{
+  "reference": "docs/label folder categories; post-hoc comparison only",
+  "counts": {
+    "reference_ids": 1920,
+    "initial_v1_vs_reference_differences": 180,
+    "active_v3_npz_vs_reference_differences": 197,
+    "active_v3_differences_with_documented_program_override": 13,
+    "active_v3_unresolved_reference_differences_after_documented_overrides": 184,
+    "v1_to_v3_changed_labels": 278,
+    "v1_to_v3_changes_now_match_reference": 125,
+    "v1_to_v3_changes_still_conflict_with_reference": 153,
+    "of_those_conflicts_documented_program_override": 2,
+    "of_those_conflicts_without_documented_override": 151,
+    "processed_manifest_fullframe_rows": 1906,
+    "processed_manifest_vs_reference_differences": 138,
+    "processed_manifest_differences_with_documented_override": 13,
+    "processed_manifest_unresolved_reference_differences": 125,
+    "processed_eligible_fullframe_rows": 1879,
+    "processed_eligible_vs_reference_differences": 113,
+    "processed_eligible_unresolved_reference_differences": 100,
+    "active_npz_vs_manifest_label_mismatches_on_common_fullframes": 56,
+    "ids_absent_from_processed_manifest": 14
+  },
+  "documented_program_override_ids": [
+    "0260",
+    "0267",
+    "0396",
+    "1154",
+    "1180",
+    "1215",
+    "1284",
+    "1337",
+    "1368",
+    "1548",
+    "1637",
+    "1663",
+    "1892"
+  ],
+  "notes": [
+    "278 counts v1-to-v3 transitions; it is not the count of active labels that disagree with docs/label.",
+    "Active v3 NPZ has 197 direct reference disagreements; 13 have a recorded participant-approved program choice, leaving 184 without a recorded override.",
+    "Processed folders/manifest are stale versus active v3 NPZ by 56 shared full-frame labels.",
+    "No labels were modified; reference used only for requested diagnostic comparison."
+  ]
+}

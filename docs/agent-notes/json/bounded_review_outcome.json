@@ -1,0 +1,139 @@
+{
+  "scope": "private posthoc triage of participant notes, not official accuracy and not parameter selection",
+  "original_review_images": 150,
+  "original_review_images_changed": 41,
+  "human_anchors_in_original_150": 14,
+  "stated_preferences_still_different": 59,
+  "triage_counts": {
+    "still_differs_from_stated_preference": 59,
+    "program_agrees_with_stated_preference": 32,
+    "not_reviewed": 20,
+    "program_tentative": 20,
+    "bounded_participant_anchor": 14,
+    "conditional_review_or_exclusion": 2,
+    "participant_hold_no_human_anchor_no_final_training": 2,
+    "ambiguous": 1
+  },
+  "unresolved_preference_pairs": [
+    {
+      "predicted_class": "cardboard",
+      "proposed_class": "glass",
+      "count": 2
+    },
+    {
+      "predicted_class": "cardboard",
+      "proposed_class": "paper",
+      "count": 1
+    },
+    {
+      "predicted_class": "cardboard",
+      "proposed_class": "textile",
+      "count": 1
+    },
+    {
+      "predicted_class": "electronic",
+      "proposed_class": "textile",
+      "count": 1
+    },
+    {
+      "predicted_class": "foodwaste",
+      "proposed_class": "plastic",
+      "count": 2
+    },
+    {
+      "predicted_class": "glass",
+      "proposed_class": "plastic",
+      "count": 2
+    },
+    {
+      "predicted_class": "metal",
+      "proposed_class": "electronic",
+      "count": 1
+    },
+    {
+      "predicted_class": "metal",
+      "proposed_class": "glass",
+      "count": 3
+    },
+    {
+      "predicted_class": "metal",
+      "proposed_class": "paper",
+      "count": 2
+    },
+    {
+      "predicted_class": "metal",
+      "proposed_class": "plastic",
+      "count": 4
+    },
+    {
+      "predicted_class": "paper",
+      "proposed_class": "cardboard",
+      "count": 7
+    },
+    {
+      "predicted_class": "paper",
+      "proposed_class": "electronic",
+      "count": 1
+    },
+    {
+      "predicted_class": "paper",
+      "proposed_class": "glass",
+      "count": 1
+    },
+    {
+      "predicted_class": "paper",
+      "proposed_class": "plastic",
+      "count": 20
+    },
+    {
+      "predicted_class": "plastic",
+      "proposed_class": "cardboard",
+      "count": 3
+    },
+    {
+      "predicted_class": "plastic",
+      "proposed_class": "foodwaste",
+      "count": 1
+    },
+    {
+      "predicted_class": "plastic",
+      "proposed_class": "glass",
+      "count": 1
+    },
+    {
+      "predicted_class": "plastic",
+      "proposed_class": "paper",
+      "count": 2
+    },
+    {
+      "predicted_class": "plastic",
+      "proposed_class": "textile",
+      "count": 1
+    },
+    {
+      "predicted_class": "textile",
+      "proposed_class": "glass",
+      "count": 1
+    },
+    {
+      "predicted_class": "textile",
+      "proposed_class": "paper",
+      "count": 2
+    }
+  ],
+  "human_holdout_unrecovered_ids": [
+    "0056",
+    "0072",
+    "0085",
+    "0141",
+    "0237",
+    "0251",
+    "0256",
+    "1434",
+    "1522"
+  ],
+  "manual_unique_sources_used_for_training": 14,
+  "remaining_manual_capacity_total": 26,
+  "model_prediction_sha256": "757d171aa6194ee07402c6ed625cc69f8203a678bdfaeca431b447f96b2ecefd",
+  "posthoc_review_did_not_modify_predictions": true
+}

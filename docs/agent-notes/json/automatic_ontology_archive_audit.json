@@ -1,0 +1,11 @@
+{
+  "method": "expanded_public_ontology_with_hflip_v1",
+  "scope": "posthoc agreement only",
+  "baseline_differences": 174,
+  "candidate_differences": 175,
+  "old_disagreements_resolved": 1,
+  "new_disagreements": 2,
+  "manual_labels_used": 0,
+  "selected_before_reference_audit": true,
+  "active_data_modified": false
+}

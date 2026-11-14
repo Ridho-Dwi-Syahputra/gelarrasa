@@ -1,0 +1,115 @@
+{
+  "status": "selected_for_next_refinement",
+  "source_review_inventory_sha256": "aa0c999480fbf0e884bd029096dbbe5ae61ecf2b42fa46d4d5d3a2ba99aa86be",
+  "previous_seven_seed_sha256": "39aae941dc448f513c97acaf994f854ee68024983a4a7b1939596d6ee923d8d5",
+  "selected_seed_sha256": "5eb4874eb17d07fcb79352512df270c98d749200d6e03f2365124756861f92bf",
+  "total_unique_sources": 14,
+  "categories_without_explicit_extra_review": [
+    "foodwaste"
+  ],
+  "counts": {
+    "plastic": 3,
+    "paper": 3,
+    "metal": 2,
+    "electronic": 2,
+    "glass": 2,
+    "textile": 1,
+    "cardboard": 1
+  },
+  "extra_selections": [
+    {
+      "image_id": "1855",
+      "source_path": "data/Dataset DSC GelarRasa 2026/train/1855.jpg",
+      "assigned_class": "foodwaste",
+      "archive_class": "glass",
+      "team_preference": "archive",
+      "interpretation": "user_confirms_archive_for_remaining_page_members",
+      "proposed_class": "glass",
+      "source": "user_review_of_displayed_train_image",
+      "activated_for_training": false,
+      "selection_reason": "different representation from existing reviewed anchors",
+      "selection_score": 0.9689218401908875
+    },
+    {
+      "image_id": "1637",
+      "source_path": "data/Dataset DSC GelarRasa 2026/train/1637.jpg",
+      "assigned_class": "paper",
+      "archive_class": "cardboard",
+      "team_preference": "program",
+      "interpretation": "explicit_preference",
+      "proposed_class": "paper",
+      "source": "user_review_of_displayed_train_image",
+      "activated_for_training": false,
+      "selection_reason": "different representation from existing reviewed anchors",
+      "selection_score": 0.9693838357925415
+    },
+    {
+      "image_id": "1434",
+      "source_path": "data/Dataset DSC GelarRasa 2026/train/1434.jpg",
+      "assigned_class": "metal",
+      "archive_class": "electronic",
+      "team_preference": "archive",
+      "interpretation": "user_confirms_archive_for_remaining_page_members",
+      "proposed_class": "electronic",
+      "source": "user_review_of_displayed_train_image",
+      "activated_for_training": false,
+      "selection_reason": "different representation from existing reviewed anchors",
+      "selection_score": 1.0011917352676392
+    },
+    {
+      "image_id": "1180",
+      "source_path": "data/Dataset DSC GelarRasa 2026/train/1180.jpg",
+      "assigned_class": "metal",
+      "archive_class": "plastic",
+      "team_preference": "program",
+      "interpretation": "explicit_preference",
+      "proposed_class": "metal",
+      "source": "user_review_of_displayed_train_image",
+      "activated_for_training": false,
+      "selection_reason": "different representation from existing reviewed anchors",
+      "selection_score": 0.8189635276794434
+    },
+    {
+      "image_id": "0237",
+      "source_path": "data/Dataset DSC GelarRasa 2026/train/0237.jpg",
+      "assigned_class": "textile",
+      "archive_class": "plastic",
+      "team_preference": "archive",
+      "interpretation": "user_declares_program_wrong_in_displayed_comparison",
+      "proposed_class": "plastic",
+      "source": "user_review_of_displayed_train_image",
+      "activated_for_training": false,
+      "selection_reason": "different representation from existing reviewed anchors",
+      "selection_score": 0.9575872421264648
+    },
+    {
+      "image_id": "1522",
+      "source_path": "data/Dataset DSC GelarRasa 2026/train/1522.jpeg",
+      "assigned_class": "paper",
+      "archive_class": "cardboard",
+      "team_preference": "archive",
+      "interpretation": "user_confirms_archive_for_remaining_page_members",
+      "proposed_class": "cardboard",
+      "source": "user_review_of_displayed_train_image",
+      "activated_for_training": false,
+      "selection_reason": "representative of explicitly reviewed category candidates",
+      "selection_score": 0.60089111328125
+    },
+    {
+      "image_id": "1154",
+      "source_path": "data/Dataset DSC GelarRasa 2026/train/1154.jpg",
+      "assigned_class": "textile",
+      "archive_class": "plastic",
+      "team_preference": "program",
+      "interpretation": "explicit_preference",
+      "proposed_class": "textile",
+      "source": "user_review_of_displayed_train_image",
+      "activated_for_training": false,
+      "selection_reason": "representative of explicitly reviewed category candidates",
+      "selection_score": 0.36607080698013306
+    }
+  ],
+  "unselected_review_labels_passed_to_refinement_models": false,
+  "test_data_used_for_selection": false,
+  "selection_is_not_training_all_reviewed_images": true
+}

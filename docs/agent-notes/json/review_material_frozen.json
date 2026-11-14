@@ -1,0 +1,142 @@
+{
+  "method": "bounded_review_revision_plus_anchor_only_material_diffusion_v1",
+  "human_seed_file": "table-csv\\review_revision_seeds.csv",
+  "human_seed_sha256": "7fc1d7162994b7785db9412d06a9c73863e4538ad9d2001d4a4e2a58771a9436",
+  "manual_unique_source_images_used": 34,
+  "manual_class_counts": {
+    "plastic": 5,
+    "paper": 5,
+    "electronic": 5,
+    "glass": 5,
+    "textile": 5,
+    "cardboard": 5,
+    "metal": 3,
+    "foodwaste": 1
+  },
+  "eligible_fit_train_rows": 1904,
+  "excluded_hold_keys": [
+    "train:1662",
+    "train:1885"
+  ],
+  "test_rows_in_fit": 0,
+  "all_review_inventory_read_in_fit": false,
+  "archive_annotations_read_in_fit": false,
+  "families": [
+    {
+      "candidate": "dino2_linear_gNone_c1.0",
+      "bank": "dino2",
+      "config": {
+        "kind": "svm",
+        "kernel": "linear",
+        "gamma": null,
+        "C": 1.0
+      },
+      "corroborated_program_core_macro_agreement": 0.9855638395025896,
+      "oof_flip_agreement": 0.996031746031746,
+      "selection_score": 0.9907977927671678,
+      "index": 1,
+      "changes_vs_program": 118
+    },
+    {
+      "candidate": "dino2_local_knn7",
+      "bank": "dino2_local",
+      "config": {
+        "kind": "knn",
+        "neighbors": 7
+      },
+      "corroborated_program_core_macro_agreement": 0.9855112255698942,
+      "oof_flip_agreement": 1.0,
+      "selection_score": 0.9927556127849471,
+      "index": 15,
+      "changes_vs_program": 122
+    },
+    {
+      "candidate": "dino3_global_knn21",
+      "bank": "dino3_global",
+      "config": {
+        "kind": "knn",
+        "neighbors": 21
+      },
+      "corroborated_program_core_macro_agreement": 0.9857251359329368,
+      "oof_flip_agreement": 0.996031746031746,
+      "selection_score": 0.9908784409823415,
+      "index": 25,
+      "changes_vs_program": 112
+    },
+    {
+      "candidate": "dino3_foreground_rbf_g4.0_c1.0",
+      "bank": "dino3_foreground",
+      "config": {
+        "kind": "svm",
+        "kernel": "rbf",
+        "gamma": 4.0,
+        "C": 1.0
+      },
+      "corroborated_program_core_macro_agreement": 0.9886421348390174,
+      "oof_flip_agreement": 1.0,
+      "selection_score": 0.9943210674195087,
+      "index": 30,
+      "changes_vs_program": 109
+    },
+    {
+      "candidate": "dino3_task8_linear_gNone_c1.0",
+      "bank": "dino3_task8",
+      "config": {
+        "kind": "svm",
+        "kernel": "linear",
+        "gamma": null,
+        "C": 1.0
+      },
+      "corroborated_program_core_macro_agreement": 0.9918700113804959,
+      "oof_flip_agreement": 0.996031746031746,
+      "selection_score": 0.993950878706121,
+      "index": 37,
+      "changes_vs_program": 105
+    }
+  ],
+  "prior_weight_regimes": [
+    1.0,
+    0.05
+  ],
+  "human_weight": 32.0,
+  "lighting_pseudo_weight": 4.0,
+  "classifier_folds": 5,
+  "graph_neighbors": 20,
+  "graph_alpha": 0.98,
+  "gate": "same new category in both prior regimes; >=4/5 classifiers and >=2/3 graphs, or >=3/5 and3/3; cosine>=.6 to same-category human anchor in>=2 banks",
+  "configuration_selection": "fixed before fitting, no choice by agreement with unselected reviews",
+  "validation_limit": "leave-source-group-out classifier diagnostic on selected anchors; inherited assignment priors are not independently refit; not unbiased semantic Accuracy",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "36e8415159b59b11d7f82618a1678e0e3dd8fd104d00d1d11144a205fcdca217",
+    "data/preprocessing_inputs.npz": "8e10000dda66b827d5251d0cd212d9ed58a5526d58ef328476d5aa1c362fdb49",
+    "final-submit/DSC2026_Notebook.ipynb": "c57832870aa253de15dbe173d8651533527bddb062d24acb151c4e7fe5118700"
+  },
+  "source_code_sha256": "305f6213db26677b67f90de76413cc8aafc8bbf64077d407137a3c65def32613",
+  "status": "frozen_before_revised_review_audit",
+  "prediction_sha256": "4f971706da971cb05c33a9e4b55a474bb823eaf15fde13c08c6cb16c0fba6b72",
+  "train_rows": 1906,
+  "changed_rows_vs_baseline": 76,
+  "new_algorithmic_changes": 9,
+  "cumulative_changes_vs_initial_program": 118,
+  "lighting_rows": 12,
+  "stable_automatic_propagation_rows": 19,
+  "extra_cluster_rows": 6,
+  "weak_lighting_rows_restored": 0,
+  "unstable_proposals_not_applied": 5,
+  "human_leave_source_group_out_matches": 14,
+  "human_holdout_rows": 34,
+  "semantic_accuracy": null,
+  "active_data_modified": false,
+  "seconds": 32.4148051738739,
+  "anchor_only_material_plan_sha256": "3922eb7010897a1f89b28dbc3b16e19ba44cbc25acadd964da50d7689bd85701",
+  "anchor_only_material_extra_changes": 51,
+  "material_probe_seconds": 4.821581840515137,
+  "source_counts": {
+    "iterative_program_refinement_snapshot": 1784,
+    "bounded_anchor_material_diffusion_snapshot": 51,
+    "participant_reviewed_seed": 34,
+    "bounded_anchor_stable_consensus_snapshot": 19,
+    "two_view_lighting_ontology_snapshot": 12,
+    "bounded_anchor_cluster_consensus_snapshot": 6
+  }
+}

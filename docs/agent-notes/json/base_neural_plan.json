@@ -1,0 +1,54 @@
+{
+  "method": "DINOv2Base_grouped_CE_GCE_assignment_heads_v1",
+  "train_rows": 1904,
+  "test_rows_in_fit": 0,
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "targets": "automatic_full_seed_targets.automatic_class forcore,not historicalrouting;34humanoverridesonly",
+  "banks": [
+    "base_cls",
+    "base_local",
+    "base_context"
+  ],
+  "architecture": "LayerNorm,Linear256,GELU,Dropout.15,Linear8",
+  "losses": [
+    "CE",
+    "GCE(q=.7,CEwarmup5)"
+  ],
+  "human_weights": [
+    8.0,
+    32.0
+  ],
+  "checkpoints": [
+    20,
+    40
+  ],
+  "optimizer": "AdamWlr.001,weightdecay.001,gradclip5,batch256",
+  "epochs": 40,
+  "folds": 5,
+  "automatic_filter": "insidefitfoldonly,contradictory nearesthumancategorycosine>=.65andmargin>=.02;neverremovehuman",
+  "selection": "perbankbest34anchor groupedbalancedrecall;primarybestbank;qualifybanks>=.625andwithin.1ofbest",
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "threshold_selection": "maximum34developmentcoveragewith>=10coveredand>=.9empiricalselectiveprecision;tiesstricter",
+  "acceptance": "allqualifiedheadsmeetlearnedminimumprobabilityandbothnormalizedimagegraphsagree;humanprotected",
+  "previous_auto_refinements": "also minimumprobability>=max(.95,learnedthreshold)",
+  "maximum_changes": 40,
+  "cap": "descending minimumprobability,stablekeyorder",
+  "guard": "primary>=23/34andbalancedrecall>=.725andthresholdexistsand>=2qualifiedbanks",
+  "evaluation_limit": "development reusedforselection/calibration;notfinalsemanticAccuracy;fullgraphnotusedforcalibrationevaluation",
+  "private_review_or_archive_targets_read": false,
+  "feature_sha256": "cd4c4828e92cd54e97a982c2aac39287ff604d44538d07c40573218954f0ecb6",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "1d4dd9c8c0d58d6ad0bd5d7852f3f6d567f6a727095f05f5f1713f4aa38b3948",
+    "data/preprocessing_inputs.npz": "13650e3901f8ee94143b487205a0c8265cedb7d16d10612228e961f8bdc6633a",
+    "final-submit/DSC2026_Notebook.ipynb": "3069e9b8562b775529737e816426147aaa35bbd22e32316e7ba135aa71238990"
+  },
+  "source_code_sha256": "a6d1f51ae8bb693e07a59e9f6784c2cefa8a875ec77b97b2179e1a8325608c77"
+}

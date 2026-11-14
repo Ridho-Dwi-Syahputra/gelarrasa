@@ -1,0 +1,11 @@
+{
+  "method": "dino_second_uniform_prior_p0.5_k7",
+  "scope": "posthoc archive agreement, not semantic accuracy",
+  "baseline_differences": 174,
+  "candidate_differences": 267,
+  "old_disagreements_resolved": 54,
+  "new_disagreements": 147,
+  "manual_labels_used": 0,
+  "selected_before_archive_audit": true,
+  "active_data_modified": false
+}

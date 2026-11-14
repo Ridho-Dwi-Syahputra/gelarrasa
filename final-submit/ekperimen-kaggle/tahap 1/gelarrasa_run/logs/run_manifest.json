@@ -1,0 +1,106 @@
+{
+  "run_utc": "2026-11-12T16:51:04.872947+00:00",
+  "seed": 2026,
+  "dataset_root": "/kaggle/input/datasets/arielzzzzzz/gelarrasa",
+  "train_images": 1920,
+  "test_images": 480,
+  "team_reviewed_seed_count": 37,
+  "eligible_train_count": 1690,
+  "excluded_low_confidence_count": 230,
+  "classes": [
+    "cardboard",
+    "electronic",
+    "foodwaste",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "textile"
+  ],
+  "models": [
+    "resnet50",
+    "efficientnet_v2_s",
+    "convnext_small",
+    "swin_v2_t"
+  ],
+  "gpu": [
+    {
+      "name": "Tesla T4",
+      "memory_GB": 14.56
+    },
+    {
+      "name": "Tesla T4",
+      "memory_GB": 14.56
+    }
+  ],
+  "torch": "2.11.0+cu130",
+  "torchvision": "0.26.0+cu130",
+  "image_size": 256,
+  "min_confidence": 0.38,
+  "folds": 3,
+  "fold_epochs": 8,
+  "head_epochs": 3,
+  "finetune_epochs": 18,
+  "batch_size": 24,
+  "proxy_validation": [
+    {
+      "model": "convnext_small",
+      "mean": 0.6698224852071006,
+      "sum": 1132,
+      "count": 1690
+    },
+    {
+      "model": "efficientnet_v2_s",
+      "mean": 0.6579881656804734,
+      "sum": 1112,
+      "count": 1690
+    },
+    {
+      "model": "resnet50",
+      "mean": 0.6147928994082841,
+      "sum": 1039,
+      "count": 1690
+    },
+    {
+      "model": "swin_v2_t",
+      "mean": 0.6579881656804734,
+      "sum": 1112,
+      "count": 1690
+    }
+  ],
+  "final_models": [
+    {
+      "model": "resnet50",
+      "checkpoint": "checkpoints/final_resnet50.pt",
+      "epochs": 21
+    },
+    {
+      "model": "efficientnet_v2_s",
+      "checkpoint": "checkpoints/final_efficientnet_v2_s.pt",
+      "epochs": 21
+    },
+    {
+      "model": "convnext_small",
+      "checkpoint": "checkpoints/final_convnext_small.pt",
+      "epochs": 21
+    },
+    {
+      "model": "swin_v2_t",
+      "checkpoint": "checkpoints/final_swin_v2_t.pt",
+      "epochs": 21
+    }
+  ],
+  "submission_rows": 480,
+  "submission_sha256": "05fefbcc29275597738ab7defcc9089acb631397f8bd1504440b0dcea8147f6f",
+  "label_distribution": {
+    "plastic": 136,
+    "cardboard": 93,
+    "textile": 60,
+    "paper": 53,
+    "electronic": 50,
+    "glass": 42,
+    "foodwaste": 35,
+    "metal": 11
+  },
+  "metric_note": "Validation measures agreement against algorithmic pseudo-targets, not independent semantic accuracy. Test images used only for post-fit inference and descriptive EDA."
+}

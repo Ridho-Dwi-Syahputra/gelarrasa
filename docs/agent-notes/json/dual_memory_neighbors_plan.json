@@ -1,0 +1,104 @@
+{
+  "method": "reliable_human_and_noisy_automatic_dual_memory_knn_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "hypothesis": "upweightingcannothelpanhumananchorexcludedfromglobaltopk;queryseparatehumanmemory;deduplicatephotographicsourcevotes",
+  "configs": [
+    {
+      "policy": "global_k7",
+      "temperature": 0.07,
+      "human_weight": 8.0
+    },
+    {
+      "policy": "global_k7",
+      "temperature": 0.07,
+      "human_weight": 32.0
+    },
+    {
+      "policy": "global_k7",
+      "temperature": 0.15,
+      "human_weight": 8.0
+    },
+    {
+      "policy": "global_k7",
+      "temperature": 0.15,
+      "human_weight": 32.0
+    },
+    {
+      "policy": "stratified_memories",
+      "temperature": 0.07,
+      "human_weight": 8.0
+    },
+    {
+      "policy": "stratified_memories",
+      "temperature": 0.07,
+      "human_weight": 32.0
+    },
+    {
+      "policy": "stratified_memories",
+      "temperature": 0.15,
+      "human_weight": 8.0
+    },
+    {
+      "policy": "stratified_memories",
+      "temperature": 0.15,
+      "human_weight": 32.0
+    },
+    {
+      "policy": "group_stratified_memories",
+      "temperature": 0.07,
+      "human_weight": 8.0
+    },
+    {
+      "policy": "group_stratified_memories",
+      "temperature": 0.07,
+      "human_weight": 32.0
+    },
+    {
+      "policy": "group_stratified_memories",
+      "temperature": 0.15,
+      "human_weight": 8.0
+    },
+    {
+      "policy": "group_stratified_memories",
+      "temperature": 0.15,
+      "human_weight": 32.0
+    }
+  ],
+  "auto_neighbors": 7,
+  "human_neighbors": 3,
+  "source_dedup": "separatecontrolledpolicy;closestrepresentativeeachgeometrysourcegroup",
+  "banks": [
+    "DINOregional",
+    "DINO_source_dictionary",
+    "CNN_source_dictionary"
+  ],
+  "statistics": "centeringfitouterTRAINonly",
+  "targets": "coldautomaticconsensus+same34human;activeprogramcategoriesunusedastargets",
+  "core_filter": "fit-onlynearesthumancategorycontradictionrawcos>=.65andmargin>=.02;humanneverfiltered",
+  "folds": "fivegeometrysourcefolds;querynotinanymemoryorstatistics",
+  "selection": "best34developmentmacrothenmatchesperbank;globalprimary;best2bankswithin.1andmacro>=.65",
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "threshold_selection": "maxcoverage>=10withprecision>=.9;tiesstricter",
+  "guard": "global>=26/34andmacro>.758333333334;ORrisk>=20matches,macro>=.65,coverage>=12,precision>=.95,Wilsonranking>=prior12/12+.02;2qualifiedbanksrequired",
+  "acceptance": "minimumselectedbanksharemeetslearnedthresholdandbothselectedTRAINgraphsagree;humanprotected",
+  "maximum_changes": 20,
+  "cap": "descendingminimumshare,stablekeyorder",
+  "evaluation_limit": "34reuseddevelopment,multiplecomparisons;notfinalAccuracy;graphnotcalibrationvalidation",
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_audits": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "16960b34be76b9d55ce32a2dc71e285d110fa2a0dee62575e6b4d914f9f6e451",
+    "data/preprocessing_inputs.npz": "8218337eb5bcad461c2f731a01bdab12d281158ac456c21e1970509964fe214e",
+    "final-submit/DSC2026_Notebook.ipynb": "beb412fe17801ada7e853e24cec2b4f5a0afff14e986404d16a5dd566ac7dc3f"
+  },
+  "source_code_sha256": "956b8f9679a83bb7c5648e9e943899aeed743af3e91116cdde36a9043613d6d1"
+}

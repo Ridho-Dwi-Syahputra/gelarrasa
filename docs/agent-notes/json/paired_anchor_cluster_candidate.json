@@ -1,0 +1,63 @@
+{
+  "status": "frozen_candidate_not_published",
+  "train_rows": 1887,
+  "test_rows_in_fit": 0,
+  "archive_labels_read_by_experiment": false,
+  "human_anchors": 35,
+  "feature_banks": 2,
+  "eligible_pairs": [
+    [
+      "electronic",
+      "train:0147",
+      "train:0956",
+      15
+    ],
+    [
+      "electronic",
+      "train:0147",
+      "train:1132",
+      15
+    ],
+    [
+      "electronic",
+      "train:0147",
+      "train:1863",
+      15
+    ],
+    [
+      "electronic",
+      "train:0956",
+      "train:1132",
+      15
+    ],
+    [
+      "electronic",
+      "train:0956",
+      "train:1863",
+      15
+    ],
+    [
+      "electronic",
+      "train:1132",
+      "train:1863",
+      15
+    ],
+    [
+      "glass",
+      "train:1399",
+      "train:1855",
+      16
+    ],
+    [
+      "metal",
+      "train:0072",
+      "train:1605",
+      2
+    ]
+  ],
+  "represented_rows": 33,
+  "proposed_changes": 0,
+  "changes_by_pair": {},
+  "candidate_sha256": "e60594a3035364aee4ad8f4e9da77f52b31825c7dde1df3271fb3f377b8cedd1",
+  "active_processed_modified": false
+}

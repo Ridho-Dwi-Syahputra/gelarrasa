@@ -1,0 +1,143 @@
+{
+  "notebook": "final-submit/DSC2026_Notebook.ipynb",
+  "notebook_cells": 46,
+  "code_cells_executed": 24,
+  "execution_errors": 0,
+  "manual_seed_rows": 37,
+  "manual_seed_counts": {
+    "cardboard": 5,
+    "electronic": 5,
+    "foodwaste": 4,
+    "glass": 5,
+    "metal": 3,
+    "paper": 5,
+    "plastic": 5,
+    "textile": 5
+  },
+  "processed_train_samples": 1913,
+  "eligible_train_samples_including_crops": 1886,
+  "eligible_full_frame_train_rows": 1879,
+  "held_full_frame_train_rows": 27,
+  "test_rows_used_in_fit": 0,
+  "submission": "final-submit/output/submission_008_dinov3_full_ovr_svm.csv",
+  "submission_sha256": "1496ae2710787363c451d666936808d34b6662e1c4c24891a9b3d28c045ae914",
+  "submission_rows": 480,
+  "submission_unique_ids": 480,
+  "submission_class_counts": {
+    "cardboard": 57,
+    "electronic": 56,
+    "foodwaste": 60,
+    "glass": 65,
+    "metal": 60,
+    "paper": 63,
+    "plastic": 56,
+    "textile": 63
+  },
+  "dino_v3_oof": {
+    "oof_agreement_program_targets": 0.9547631718999467,
+    "oof_balanced_accuracy_program_targets": 0.9550164532474785,
+    "oof_macro_f1_program_targets": 0.9553812696476567,
+    "metric_scope": "grouped agreement with derived train categories; not official semantic accuracy"
+  },
+  "classwise_oof": {
+    "classwise_expert_nested_oof": {
+      "agreement": 0.9515699840340607,
+      "balanced_accuracy": 0.9518811128977103,
+      "macro_f1": 0.9522430717798963
+    },
+    "ovr_008_paired_outer_oof": {
+      "agreement": 0.9547631718999467,
+      "balanced_accuracy": 0.9550164532474785,
+      "macro_f1": 0.9553812696476567
+    }
+  },
+  "classwise_vs_primary_test_rows_changed": 5,
+  "classwise_candidate_archived_due_lower_nested_oof": true,
+  "official_accuracy": null,
+  "kaggle_uploaded": false,
+  "holdout_ids": [
+    "0079",
+    "0160",
+    "0183",
+    "0189",
+    "0225",
+    "0400",
+    "1018",
+    "1115",
+    "1142",
+    "1157",
+    "1436"
+  ],
+  "quota_exchange_retired_seed": "0147",
+  "reinstated_as_foodwaste": [
+    "0200",
+    "0265"
+  ],
+  "electronic_seed_added": "0086",
+  "other_accepted_stage1_ids": [
+    "0018",
+    "0120",
+    "0604",
+    "0637",
+    "0856",
+    "0890",
+    "1129"
+  ],
+  "archived_output_artifacts": [
+    {
+      "from": "final-submit\\output\\classwise_expert_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\classwise_expert_oof.csv",
+      "sha256": "09d66ccd1059a49c2c6cb19054aa5e8ec21b1b93bfbae913e37d934f0931dc71"
+    },
+    {
+      "from": "final-submit\\output\\classwise_expert_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\classwise_expert_report.json",
+      "sha256": "68c1f9fd8ac68d79751036dc47f0969be9779096e31c8200822e882f534d553d"
+    },
+    {
+      "from": "final-submit\\output\\modeling_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\modeling_report.json",
+      "sha256": "1f66ec943d5e0163f25d289fe390a1428a3ab6b165d4b5018bdf094dd0a02cf5"
+    },
+    {
+      "from": "final-submit\\output\\oof_diagnostics.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\oof_diagnostics.csv",
+      "sha256": "3d3def1adedefeef511959dba95f4d5e58b4e98127cf19bb6e0e8a8b9e74dbc4"
+    },
+    {
+      "from": "final-submit\\output\\submission_001_dino_logistic.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\submission_001_dino_logistic.csv",
+      "sha256": "a59a0addca8b5d54b7971a7ff20eebc6bf6cde2d8b55a0557c06204891e1ac12"
+    },
+    {
+      "from": "final-submit\\output\\submission_002_dino_svm_rbf.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\submission_002_dino_svm_rbf.csv",
+      "sha256": "8026972f70e4ae6a41c187861ed6fa98d8961d424d66d2868dd00d2023106639"
+    },
+    {
+      "from": "final-submit\\output\\submission_003_dino_knn7.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\submission_003_dino_knn7.csv",
+      "sha256": "bc83a23a06342f08eee8c1787bcab3967c7adbceac36e5b708384b649cad8dfd"
+    },
+    {
+      "from": "final-submit\\output\\submission_004_dino_hsv_svm.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\submission_004_dino_hsv_svm.csv",
+      "sha256": "8026972f70e4ae6a41c187861ed6fa98d8961d424d66d2868dd00d2023106639"
+    },
+    {
+      "from": "final-submit\\output\\submission_008_dinov3_full_ovr_svm.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\submission_008_dinov3_full_ovr_svm.json",
+      "sha256": "32283523110c34300c6d2575fec3f2371e0b746c55b2da5a61d25446eb021a1a"
+    },
+    {
+      "from": "final-submit\\output\\submission_009_classwise_probabilities.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\submission_009_classwise_probabilities.csv",
+      "sha256": "50db86baa72f11352eece00b8b5a723a900cdf2f218524262082db8983005a2e"
+    },
+    {
+      "from": "final-submit\\output\\submission_009_dinov3_classwise_platt_svm.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\submission_009_dinov3_classwise_platt_svm.csv",
+      "sha256": "c16af090c604163a85edeff0628b5612a2de5438891962b9986a731ef3b8f068"
+    }
+  ]
+}

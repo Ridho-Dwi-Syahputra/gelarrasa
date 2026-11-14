@@ -1,0 +1,11 @@
+key,image_id,source_path,baseline_class,predicted_class,classifier_votes,graph_votes_for_classifier_category,local_anchor_banks,alternative_regime_class
+train:0333,0333,data/Dataset DSC GelarRasa 2026/train/0333.jpg,cardboard,cardboard,3,1,4,glass
+train:0352,0352,data/Dataset DSC GelarRasa 2026/train/0352.jpg,metal,metal,2,3,4,paper
+train:0412,0412,data/Dataset DSC GelarRasa 2026/train/0412.jpg,paper,paper,3,2,4,glass
+train:0531,0531,data/Dataset DSC GelarRasa 2026/train/0531.jpg,metal,metal,3,0,0,paper
+train:0777,0777,data/Dataset DSC GelarRasa 2026/train/0777.jpg,foodwaste,foodwaste,3,0,0,paper
+train:1101,1101,data/Dataset DSC GelarRasa 2026/train/1101.jpeg,paper,paper,3,1,0,plastic
+train:1228,1228,data/Dataset DSC GelarRasa 2026/train/1228.jpg,metal,metal,3,0,0,paper
+train:1476,1476,data/Dataset DSC GelarRasa 2026/train/1476.jpg,cardboard,cardboard,3,2,4,glass
+train:1566,1566,data/Dataset DSC GelarRasa 2026/train/1566.jpg,metal,metal,3,1,4,electronic
+train:1732,1732,data/Dataset DSC GelarRasa 2026/train/1732.jpg,metal,metal,3,0,0,paper

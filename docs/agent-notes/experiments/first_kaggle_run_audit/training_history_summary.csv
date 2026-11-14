@@ -1,0 +1,5 @@
+model,epochs,head_epochs,finetune_epochs,best_train_metric_epoch,final_epoch_train_loss,best_reported_train_macro_f1,validation_columns_equal_train
+resnet50,21,3,18,18,0.2559022149420668,0.9038513742448816,True
+efficientnet_v2_s,21,3,18,16,0.255970863118614,0.8927291293396366,True
+convnext_small,21,3,18,21,0.2359322646709712,0.9199686445260562,True
+swin_v2_t,21,3,18,17,0.25701048886993,0.8921879491032262,True

@@ -1,0 +1,42 @@
+{
+  "method": "seven human anchors plus source-group-crossfit and train-only graph consensus",
+  "human_seed_file_sha256": "39aae941dc448f513c97acaf994f854ee68024983a4a7b1939596d6ee923d8d5",
+  "manual_unique_source_images": 7,
+  "manual_class_counts": {
+    "plastic": 2,
+    "paper": 2,
+    "metal": 1,
+    "electronic": 1,
+    "glass": 1
+  },
+  "manual_sample_weight": 32.0,
+  "lighting_pseudo_sample_weight": 4.0,
+  "base_sample_weight": ".25+.75*historical_program_score",
+  "source_group_folds": 5,
+  "human_anchor_groups_always_fit_for_other_groups": true,
+  "graph_banks": [
+    "dino2",
+    "dino3_foreground",
+    "dino3_task8"
+  ],
+  "graph_k": 20,
+  "graph_alpha": 0.98,
+  "graph_max_iterations": 1000,
+  "extra_change_gate": "same category has >=4/5 classifier votes and >=2/3 graph votes, or >=3/5 and3/3; also cosine>=.6 to reviewed same-category anchor in>=2/5 banks",
+  "only_change_to_human_supported_classes": true,
+  "human_rows_fixed": true,
+  "accepted_lighting_rows_fixed": true,
+  "test_rows_in_fit": 0,
+  "archive_labels_read": false,
+  "unselected_team_review_labels_read": false,
+  "configuration_selection": "fixed before fitting, not selected by agreement with remaining reviewed/archive cases",
+  "validation": "separate leave-source-group-out predictions for seven human anchors; tiny and not official accuracy",
+  "conflicting_pseudo_prior_weight_multiplier": 0.05,
+  "conflict_gate": "closest reviewed category agrees in>=3/5 banks and cosine>=.6 in>=2 banks; no hard relabel from this gate",
+  "human_holdout_guidance": "heldout source group and its human label excluded from both fitting and conflict-guided sample weights",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "f6b1334e6c56795a669d14bd6dfd51df69b1fd43fb2dc0f75a5e044025f47768",
+    "data/preprocessing_inputs.npz": "da3024d9e4dcbc20fa08e5a08f36b265033428b06e82588e854a49556f01631c",
+    "final-submit/DSC2026_Notebook.ipynb": "9b185e3462b4056a459552658bd0a7ad79a2fec7ce2cf156e3ee7656c74fa279"
+  }
+}

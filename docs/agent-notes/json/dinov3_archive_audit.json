@@ -1,0 +1,11 @@
+{
+  "method": "v3_global_v2_knn21",
+  "scope": "posthoc archive agreement, not semantic accuracy",
+  "baseline_differences": 174,
+  "candidate_differences": 264,
+  "old_disagreements_resolved": 47,
+  "new_disagreements": 137,
+  "manual_labels_used": 0,
+  "selected_before_archive_audit": true,
+  "active_data_modified": false
+}

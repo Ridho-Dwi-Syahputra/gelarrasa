@@ -1,0 +1,266 @@
+{
+  "method": "nested_source_group_cv_seed_only_logistic_feature_selection_v1",
+  "raw_train_rows": 1920,
+  "manual_seed_rows": 37,
+  "manual_seed_classes": {
+    "cardboard": 5,
+    "electronic": 5,
+    "foodwaste": 4,
+    "glass": 5,
+    "metal": 3,
+    "paper": 5,
+    "plastic": 5,
+    "textile": 5
+  },
+  "manual_seed_source_groups": 37,
+  "outer_folds": 4,
+  "nested_oof": {
+    "accuracy": 0.21621621621621623,
+    "macro_f1": 0.22013888888888888
+  },
+  "per_class_oof": {
+    "cardboard": {
+      "precision": 0.25,
+      "recall": 0.2,
+      "f1-score": 0.2222222222222222,
+      "support": 5.0
+    },
+    "electronic": {
+      "precision": 0.5,
+      "recall": 0.4,
+      "f1-score": 0.4444444444444444,
+      "support": 5.0
+    },
+    "foodwaste": {
+      "precision": 0.2,
+      "recall": 0.25,
+      "f1-score": 0.2222222222222222,
+      "support": 4.0
+    },
+    "glass": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 5.0
+    },
+    "metal": {
+      "precision": 0.16666666666666666,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.2222222222222222,
+      "support": 3.0
+    },
+    "paper": {
+      "precision": 0.4,
+      "recall": 0.4,
+      "f1-score": 0.4,
+      "support": 5.0
+    },
+    "plastic": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 5.0
+    },
+    "textile": {
+      "precision": 0.3333333333333333,
+      "recall": 0.2,
+      "f1-score": 0.25,
+      "support": 5.0
+    },
+    "accuracy": 0.21621621621621623,
+    "macro avg": {
+      "precision": 0.23124999999999998,
+      "recall": 0.22291666666666668,
+      "f1-score": 0.22013888888888888,
+      "support": 37.0
+    },
+    "weighted avg": {
+      "precision": 0.23558558558558554,
+      "recall": 0.21621621621621623,
+      "f1-score": 0.21996996996996998,
+      "support": 37.0
+    }
+  },
+  "outer_selected_recipes": [
+    {
+      "fold": 0,
+      "feature": "dinov3",
+      "C": 10.0,
+      "inner": {
+        "accuracy": 0.2962962962962963,
+        "macro_f1": 0.2755952380952381
+      },
+      "n_train": 27,
+      "n_valid": 10
+    },
+    {
+      "fold": 1,
+      "feature": "dinov3",
+      "C": 0.1,
+      "inner": {
+        "accuracy": 0.25,
+        "macro_f1": 0.2232142857142857
+      },
+      "n_train": 28,
+      "n_valid": 9
+    },
+    {
+      "fold": 2,
+      "feature": "color",
+      "C": 1.0,
+      "inner": {
+        "accuracy": 0.14285714285714285,
+        "macro_f1": 0.1259920634920635
+      },
+      "n_train": 28,
+      "n_valid": 9
+    },
+    {
+      "fold": 3,
+      "feature": "imagenet_cnn",
+      "C": 1.0,
+      "inner": {
+        "accuracy": 0.2857142857142857,
+        "macro_f1": 0.2492063492063492
+      },
+      "n_train": 28,
+      "n_valid": 9
+    }
+  ],
+  "final_recipe_cv_candidates": [
+    {
+      "feature": "imagenet_cnn",
+      "C": 10.0,
+      "accuracy": 0.32432432432432434,
+      "macro_f1": 0.3033910533910534
+    },
+    {
+      "feature": "imagenet_cnn",
+      "C": 0.1,
+      "accuracy": 0.21621621621621623,
+      "macro_f1": 0.2350378787878788
+    },
+    {
+      "feature": "imagenet_cnn",
+      "C": 1.0,
+      "accuracy": 0.21621621621621623,
+      "macro_f1": 0.2350378787878788
+    },
+    {
+      "feature": "dinov3",
+      "C": 10.0,
+      "accuracy": 0.24324324324324326,
+      "macro_f1": 0.22518592518592517
+    },
+    {
+      "feature": "dinov3",
+      "C": 0.1,
+      "accuracy": 0.24324324324324326,
+      "macro_f1": 0.21687062937062937
+    },
+    {
+      "feature": "dinov3",
+      "C": 1.0,
+      "accuracy": 0.24324324324324326,
+      "macro_f1": 0.2163961038961039
+    },
+    {
+      "feature": "dinov2",
+      "C": 10.0,
+      "accuracy": 0.21621621621621623,
+      "macro_f1": 0.20315934065934066
+    },
+    {
+      "feature": "dinov2",
+      "C": 0.1,
+      "accuracy": 0.21621621621621623,
+      "macro_f1": 0.1986138861138861
+    },
+    {
+      "feature": "dinov2",
+      "C": 1.0,
+      "accuracy": 0.21621621621621623,
+      "macro_f1": 0.1986138861138861
+    },
+    {
+      "feature": "color",
+      "C": 0.1,
+      "accuracy": 0.1891891891891892,
+      "macro_f1": 0.1567550505050505
+    },
+    {
+      "feature": "hog",
+      "C": 10.0,
+      "accuracy": 0.10810810810810811,
+      "macro_f1": 0.1114024864024864
+    },
+    {
+      "feature": "color",
+      "C": 1.0,
+      "accuracy": 0.13513513513513514,
+      "macro_f1": 0.11071428571428572
+    },
+    {
+      "feature": "color",
+      "C": 10.0,
+      "accuracy": 0.10810810810810811,
+      "macro_f1": 0.08571428571428572
+    },
+    {
+      "feature": "hog",
+      "C": 0.1,
+      "accuracy": 0.05405405405405406,
+      "macro_f1": 0.05625
+    },
+    {
+      "feature": "hog",
+      "C": 1.0,
+      "accuracy": 0.05405405405405406,
+      "macro_f1": 0.05625
+    }
+  ],
+  "selected_final_recipe": {
+    "feature": "imagenet_cnn",
+    "C": 10.0,
+    "accuracy": 0.32432432432432434,
+    "macro_f1": 0.3033910533910534
+  },
+  "confidence_threshold_rule": "largest nested grouped-OOF coverage with accuracy >=0.90 and >=8 seeds; otherwise no changes",
+  "threshold_candidates": [
+    {
+      "threshold": 0.5,
+      "n": 21,
+      "accuracy": 0.23809523809523808
+    },
+    {
+      "threshold": 0.6,
+      "n": 18,
+      "accuracy": 0.2222222222222222
+    },
+    {
+      "threshold": 0.7,
+      "n": 16,
+      "accuracy": 0.25
+    },
+    {
+      "threshold": 0.8,
+      "n": 10,
+      "accuracy": 0.3
+    },
+    {
+      "threshold": 0.9,
+      "n": 6,
+      "accuracy": 0.5
+    }
+  ],
+  "selected_threshold": null,
+  "candidate_changes_vs_stage18": 0,
+  "test_rows_read": 0,
+  "reference_or_archive_files_read": false,
+  "archive_comparison_performed": false,
+  "assignment_frozen_before_archive_audit": true,
+  "manual_seed_overlay_rows_applied_after_fit": 37,
+  "selected_confidence_threshold_for_pseudo_labeling": null,
+  "accepted_candidate_relabels": 0,
+  "frozen_assignment_sha256": "0bfdab57ab84b061a7e7b9ce1c05602fae61247705c59916502f14c1dca67140"
+}

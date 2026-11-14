@@ -1,0 +1,57 @@
+{
+  "method": "precision_first_source_group_expert_ablation_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows": 0,
+  "objective_change": "precisionFIRSTsubset:tradecoveragefor>=95percentempiricalprecisionandhigherWilsonrankingthanprior15/16;notmaximumwhole34accuracy;allpriorrejectionsremain;noindependentguarantee",
+  "reference": "https://proceedings.mlr.press/v97/geifman19a.html",
+  "reference_limit": "risk-coverageconceptonly,notSelectivenetarchitectureorclaimedevaluationguarantee",
+  "candidates": [
+    "object_zoom",
+    "fold_contained_self_training",
+    "current_multifamily",
+    "trusted_repair",
+    "source_contrastive",
+    "semantic_color"
+  ],
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "eligibility": {
+    "minimum_development_matches": 20,
+    "minimum_balanced_recall": 0.65,
+    "minimum_coverage": 10,
+    "minimum_empirical_precision": 0.95
+  },
+  "selection": "maximum Wilson95lower-score;tie morecoverage;tie higherbalancedrecall;no private-review matching",
+  "baseline_selective_evidence": {
+    "expert": "fold_contained_self_training",
+    "threshold": 0.9,
+    "development_balanced_recall": 0.7,
+    "anchor_matches": 22,
+    "covered": 16,
+    "correct": 15,
+    "empirical_precision": 0.9375,
+    "wilson_ranking_score": 0.7167126242970107,
+    "eligible": true
+  },
+  "baseline_lower_score": 0.7167126242970107,
+  "guard": "Wilsonranking>=prior15/16lower+.02;coverage>=10;precision>=.95;globalmacro>=.65andmatches>=20;NOTcoverage>=16;priorguardsunchanged",
+  "acceptance": "selectedexpertlearnedthresholdandbothnewfinalTRAINgraphsunanimous;humanprotected;allnonhumaneligible",
+  "maximum_changes": 20,
+  "cap": "descendingselectedprobability,stablekeyorder",
+  "evaluation_limit": "allselection/calibrationuses34developmentanchors;Wilsonrankingisnotanindependentconfidenceguarantee;graphnotusedincalibration",
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_aggregate_audits": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "be1487bbcbf07ce2db28f5cad04024ca3672478baa8764e91417aefaed134708",
+    "data/preprocessing_inputs.npz": "091f712b22a07fd1c85a79977e7aa337e3cdf47048c8f2b6a382f831eab8d93e",
+    "final-submit/DSC2026_Notebook.ipynb": "407eaaa66ad26701d64a0675c869d5dc4a42862883786c63826cab3964dafba0"
+  },
+  "source_code_sha256": "4bf3630cdc28e0785af2e7b7e63af73d3cded5f0155ee95217a36908cce0c090"
+}

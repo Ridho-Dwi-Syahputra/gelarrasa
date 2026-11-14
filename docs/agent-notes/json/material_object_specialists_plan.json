@@ -1,0 +1,46 @@
+{
+  "method": "material_object_human_one_vs_rest_abstaining_router_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "targets": "ONLYsame34genuinehuman;noautomaticlabelsastargets;noarchiveorfullreview",
+  "banks": [
+    "materialprob_V3",
+    "materialfeature_sourceposterior",
+    "litterfeature_V3"
+  ],
+  "kernels": [
+    "linear",
+    "rbf_gamma4"
+  ],
+  "C": [
+    1.0,
+    10.0
+  ],
+  "thresholds": [
+    0.0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "folds": "fivegeometrysourcegroups;allquerysourcegroupsheldout;centeringfitouterTRAINonly",
+  "class_qualification": "atleast3humanpositivesexist;OOFpositivecoverage>=max(3,ceil(.6class_count));ZEROobservedfalsepositivesonallremaininghumanclasses",
+  "per_bank_class_selection": "maximumpositivecoverage,thenhigherthreshold,thenlistedorder",
+  "router": "atleast2/3bankqualifiedpositivesforEXACTLYoneclass;othercasesabstain;nocrossmodelmargincomparison",
+  "baseline": "bestDINOv3BaseOOF26/34;strongerguard27andmacro.808333333333",
+  "guard": ">=27/34andmacro>=.808333333333;>=3humanroutedandallroutedhumanpredictionscorrect;atleast1qualifiedclass",
+  "final_acceptance": "uniquerouterand>=1/3finalTRAINgraphagreement;humanprotected",
+  "graphs": "DINOregional,CNNdictionary,source_dictionary;baselineOOFpriorswith.98routerpseudotarget;notindependentvalidation",
+  "score": "minimumsigmoidbinarymarginamongpositivebanks,uncalibrated;notprobabilityguarantee",
+  "maximum_changes": 20,
+  "cap": "descendingminimumsigmoidmargin,thenbanksupport,stablekeyorder",
+  "evaluation_limit": "34reuseddevelopmentandmultiplecomparisons;perclass0FPnotgeneralizationguarantee;finalgraphnotcalibrationvalidation",
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_audits": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "eaa624d9711a3a4a1119892a893e6b226429925070557da0747e5f385338b1bf",
+    "data/preprocessing_inputs.npz": "c174c254c9544d70aa23b80a98bc7ccd14dc3b2a19e7f8a6d83487ae8cce1c71",
+    "final-submit/DSC2026_Notebook.ipynb": "b80b7c982ed89cd151e544d3d1a5e2a79aac68a8d6873e7b94edc9bfc21bcc24"
+  },
+  "source_code_sha256": "ad014467aca770dfc2a3f3adcb37bb8039bb9f6700bd52fa686eb2dc9a1225cd"
+}

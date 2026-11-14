@@ -1,0 +1,15 @@
+{
+  "scope": "posthoc archive agreement; not ground-truth accuracy",
+  "candidate": "ridge_dino_waste",
+  "rows": 1906,
+  "baseline_differences": 174,
+  "candidate_differences": 323,
+  "archive_disagreements_resolved": 50,
+  "new_archive_disagreements": 199,
+  "selected_before_archive_audit": true,
+  "prediction_sha256": "0ce3964d126da1c2d8fb148bdd30bffce70a55cacc32b01b4ddaa9ead7327c25",
+  "active_folders_modified": false,
+  "candidate_promoted": false,
+  "manual_labels_used": 0,
+  "human_verification_pending": true
+}

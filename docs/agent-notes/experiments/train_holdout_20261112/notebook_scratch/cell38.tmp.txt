@@ -1,0 +1,136 @@
+from sklearn.model_selection import StratifiedGroupKFold
+from sklearn.preprocessing import normalize as l2_normalize
+from sklearn.svm import SVC
+from sklearn.metrics import accuracy_score, balanced_accuracy_score, f1_score
+
+# Fitur HSV berasal dari histogram 16-bin per kanal yang dibuat pada tahap EDA.
+assert len(train_rows) == 1869 and len(test_rows) == 480
+feature_row = {str(key): i for i, key in enumerate(processed.sample_key.astype(str))}
+train_feature_idx = np.asarray([feature_row[str(key)] for key in train_rows.sample_key], dtype=int)
+test_feature_idx = np.asarray([feature_row[str(key)] for key in test_rows.sample_key], dtype=int)
+train_color = l2_normalize(handcrafted_features[train_feature_idx, 1764:])
+dino_train = l2_normalize(X_train)
+COLOR_WEIGHTS = (0.0, 0.1, 0.2)
+
+def dino_hsv_block(dino, color, color_weight):
+    if color_weight == 0:
+        return dino
+    return np.concatenate([
+        dino * np.sqrt(1.0 - color_weight),
+        color * np.sqrt(color_weight),
+    ], axis=1)
+
+hybrid_train_blocks = {w: dino_hsv_block(dino_train, train_color, w) for w in COLOR_WEIGHTS}
+outer = StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=SEED)
+nested_dino_oof = np.full(len(y_train), -1, dtype=int)
+nested_hybrid_oof = np.full(len(y_train), -1, dtype=int)
+nested_fold = np.full(len(y_train), -1, dtype=int)
+selected_color_weights = []
+
+for outer_id, (outer_fit, outer_val) in enumerate(outer.split(np.zeros(len(y_train)), y_train, groups)):
+    assert not set(groups[outer_fit]) & set(groups[outer_val])
+    inner = StratifiedGroupKFold(n_splits=3, shuffle=True, random_state=SEED + 14 + outer_id)
+    inner_scores = {w: [] for w in COLOR_WEIGHTS}
+    for inner_fit_local, inner_val_local in inner.split(
+        np.zeros(len(outer_fit)), y_train[outer_fit], groups[outer_fit]
+    ):
+        inner_fit = outer_fit[inner_fit_local]
+        inner_val = outer_fit[inner_val_local]
+        assert not set(groups[inner_fit]) & set(groups[inner_val])
+        for w in COLOR_WEIGHTS:
+            model = SVC(C=4.0, kernel='rbf', gamma='scale')
+            model.fit(hybrid_train_blocks[w][inner_fit], y_train[inner_fit])
+            inner_scores[w].append(accuracy_score(
+                y_train[inner_val], model.predict(hybrid_train_blocks[w][inner_val])
+            ))
+    # Ties prefer the smaller HSV contribution.
+    selected = max(COLOR_WEIGHTS, key=lambda w: (float(np.mean(inner_scores[w])), -w))
+    selected_color_weights.append(float(selected))
+    baseline = SVC(C=4.0, kernel='rbf', gamma='scale').fit(dino_train[outer_fit], y_train[outer_fit])
+    hybrid = SVC(C=4.0, kernel='rbf', gamma='scale').fit(
+        hybrid_train_blocks[selected][outer_fit], y_train[outer_fit]
+    )
+    nested_dino_oof[outer_val] = baseline.predict(dino_train[outer_val])
+    nested_hybrid_oof[outer_val] = hybrid.predict(hybrid_train_blocks[selected][outer_val])
+    nested_fold[outer_val] = outer_id
+
+assert np.all(nested_fold >= 0)
+assert np.all(nested_dino_oof >= 0) and np.all(nested_hybrid_oof >= 0)
+nested_metrics = {
+    'dino_only': {
+        'agreement': float(accuracy_score(y_train, nested_dino_oof)),
+        'macro_f1': float(f1_score(y_train, nested_dino_oof, average='macro')),
+        'balanced_accuracy': float(balanced_accuracy_score(y_train, nested_dino_oof)),
+    },
+    'dino_hsv_nested': {
+        'agreement': float(accuracy_score(y_train, nested_hybrid_oof)),
+        'macro_f1': float(f1_score(y_train, nested_hybrid_oof, average='macro')),
+        'balanced_accuracy': float(balanced_accuracy_score(y_train, nested_hybrid_oof)),
+    },
+}
+weight_values, weight_counts = np.unique(selected_color_weights, return_counts=True)
+FINAL_COLOR_WEIGHT = float(weight_values[np.argmax(weight_counts)])
+print('Nested group OOF against program-generated train targets:', nested_metrics)
+print('Selected HSV weights per outer fold:', selected_color_weights,
+      '| final refit weight (train-only modal choice):', FINAL_COLOR_WEIGHT)
+print('OOF rows changed from DINO-only:', int(np.count_nonzero(nested_dino_oof != nested_hybrid_oof)))
+print('This is train-target agreement, not official semantic accuracy.')
+
+oof_table['dino_hsv_nested'] = [CLASSES[i] for i in nested_hybrid_oof]
+oof_table['dino_nested_baseline'] = [CLASSES[i] for i in nested_dino_oof]
+oof_table['nested_fold'] = nested_fold
+oof_table.to_csv(FINAL_OUTPUT / 'oof_diagnostics.csv', index=False)
+
+# Refit the train-only-selected hybrid; only after this selection, transform test features for final inference.
+test_color = l2_normalize(handcrafted_features[test_feature_idx, 1764:])
+dino_test = l2_normalize(X_test)
+final_hybrid_train = dino_hsv_block(dino_train, train_color, FINAL_COLOR_WEIGHT)
+final_hybrid_test = dino_hsv_block(dino_test, test_color, FINAL_COLOR_WEIGHT)
+final_hybrid_model = SVC(C=4.0, kernel='rbf', gamma='scale')
+final_hybrid_model.fit(final_hybrid_train, y_train)
+hybrid_numeric = final_hybrid_model.predict(final_hybrid_test)
+hybrid_lookup = dict(zip(test_rows.sample_id.astype(str), [CLASSES[i] for i in hybrid_numeric]))
+hybrid_result = sample[['image_id']].copy()
+hybrid_result['waste_category'] = hybrid_result.image_id.astype(str).map(hybrid_lookup)
+assert len(hybrid_result) == 480 and hybrid_result.image_id.is_unique
+assert hybrid_result.waste_category.notna().all() and hybrid_result.waste_category.isin(CLASSES).all()
+hybrid_path = FINAL_OUTPUT / 'submission_004_dino_hsv_svm.csv'
+hybrid_result.to_csv(hybrid_path, index=False)
+hybrid_check = pd.read_csv(hybrid_path, dtype={'image_id': str})
+assert hybrid_check.equals(hybrid_result)
+
+base_submission = pd.read_csv(FINAL_OUTPUT / 'submission_002_dino_svm_rbf.csv', dtype={'image_id': str})
+base_by_id = base_submission.set_index('image_id').waste_category
+hybrid_by_id = hybrid_result.set_index('image_id').waste_category
+candidate_diff = int(np.count_nonzero(base_by_id.loc[hybrid_by_id.index].to_numpy() != hybrid_by_id.to_numpy()))
+hybrid_record = {
+    'model': 'dino_hsv_rbf', 'path': relative(hybrid_path), 'sha256': digest(hybrid_path),
+    'label_vector_sha256': hashlib.sha256('|'.join(hybrid_result.waste_category.astype(str)).encode()).hexdigest(),
+    'class_counts': hybrid_result.waste_category.value_counts().reindex(CLASSES, fill_value=0).to_dict(),
+    'train_samples': len(train_rows), 'color_feature': 'HSV 16-bin histogram per channel',
+    'color_weight': FINAL_COLOR_WEIGHT, 'selection': 'nested StratifiedGroupKFold on train only',
+    'test_used_for_fit_or_weight_selection': False,
+}
+report['oof_metrics'].append({
+    'model': 'dino_hsv_nested',
+    'pseudo_oof_agreement': nested_metrics['dino_hsv_nested']['agreement'],
+    'pseudo_oof_macro_f1': nested_metrics['dino_hsv_nested']['macro_f1'],
+    'pseudo_oof_balanced_accuracy': nested_metrics['dino_hsv_nested']['balanced_accuracy'],
+    'metric_scope': 'nested grouped agreement with program-generated train targets, not official accuracy',
+})
+report['submission_files'].append(hybrid_record)
+report['color_feature_experiment'] = {
+    'nested_metrics': nested_metrics, 'selected_color_weights_by_outer_fold': selected_color_weights,
+    'final_color_weight': FINAL_COLOR_WEIGHT, 'test_rows_in_training_or_selection': 0,
+    'candidate_differences_from_dino_svm': candidate_diff,
+}
+(FINAL_OUTPUT / 'modeling_report.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
+summary['color_feature_experiment'] = report['color_feature_experiment']
+summary['submission_created'] = True
+summary['modeling_train_samples'] = len(train_rows)
+summary['figures'] = figure_exports
+summary['seconds'] = time.time() - STARTED
+(PROCESSED / 'provenance.json').write_text(
+    json.dumps({'policy': POLICY, 'summary': summary}, indent=2), encoding='utf-8'
+)
+print('Hybrid CSV:', relative(hybrid_path), '| changes vs DINO SVM:', candidate_diff)

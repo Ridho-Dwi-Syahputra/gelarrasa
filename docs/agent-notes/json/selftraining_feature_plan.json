@@ -1,0 +1,24 @@
+{
+  "method": "one_round_fold_contained_GCE_selftraining_v1",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "manual_sources": 34,
+  "unselected_review_or_archive_labels_read": false,
+  "geometry_group_sha256": "0adf54a9470aef171091f3327a5c97f4dc01d073f81d5af2a70cd45d390ae396",
+  "teacher": "same30epochGCE heads as geometry-group development, regenerated excluding each outer query group",
+  "pseudo_gate": "FIT-side only,bothbanks same category,p>=.95andmargin>=.7;excludehuman;newunlabeled or changedcoldcore targets",
+  "pseudo_weight": 4.0,
+  "pseudo_limit_per_fold": 200,
+  "rounds": 1,
+  "student": "warmstartteacher,15extraGCEepochs,AdamWlr=.0003,weight_decay=.001",
+  "acceptance": "student pooled34development matches>=15andbalancedrecall>=.525;bothbanks p>=.9andmargin>=.5;preserve existingrefinements;<=40changes",
+  "query_images_not_used_in_target_generation": true,
+  "pseudo_targets_not_shared_between_outer_folds": true,
+  "evaluation_limit": "development labels reused for design and selection;not final independent Accuracy",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "9263eaa1b9b7b2689e5df02d419720dc851f853c0300aad82c74efa80b501c1a",
+    "data/preprocessing_inputs.npz": "74df5acef1917eb9f43fc57cf7c1c46ffd44de4248dddccde78cf1a939b5da8a",
+    "final-submit/DSC2026_Notebook.ipynb": "94e3701a2102c71e31a71172e972ddccc14fccff9369338affddb427636623cc"
+  },
+  "source_code_sha256": "ae04f727d5dec107d004e7c020f3c2c29b77fdb66bf4f7212514e5bd3d1c124f"
+}

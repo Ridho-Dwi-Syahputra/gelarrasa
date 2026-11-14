@@ -1,0 +1,9 @@
+indikator,nilai,satuan,status
+Sampel train praproses,1913.0,gambar,terukur
+Sampel test praproses,480.0,gambar,terukur
+Foto cadangan tinjauan,1.0,gambar,terukur
+Durasi EDA dan preprocessing,81.49,detik pada mesin ini,terukur; bukan runtime inferensi
+Material recovery,,persen massa,belum diukur
+Contamination,,persen massa,belum diukur
+Energi per inferensi,,joule/item,belum diukur
+Biaya per ton,,rupiah/ton,belum diukur

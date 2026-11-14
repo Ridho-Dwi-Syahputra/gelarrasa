@@ -1,0 +1,28 @@
+{
+  "status": "audit_completed_after_alignment_filter",
+  "eligible_full_frames": 1869,
+  "raw_archive_disagreements": 13,
+  "explicit_participant_exceptions": 13,
+  "exceptions_already_preserved": true,
+  "remaining_after_exceptions": 0,
+  "active_confirmed_review_sources": 109,
+  "all_active_confirmed_reviews_preserved": true,
+  "exception_ids": [
+    "0260",
+    "0267",
+    "0396",
+    "1154",
+    "1180",
+    "1215",
+    "1284",
+    "1337",
+    "1368",
+    "1548",
+    "1637",
+    "1663",
+    "1892"
+  ],
+  "active_outputs_modified": false,
+  "comparison_sha256": "777834bcb1816767e4edf117b4fd1ac5a2f5852fefcc79fa108a354181ab552a",
+  "reference_is_official_ground_truth": false
+}

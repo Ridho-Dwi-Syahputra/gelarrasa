@@ -1,0 +1,31 @@
+{
+  "method": "bounded_review_revision_plus_anchor_only_material_diffusion_v1",
+  "source_snapshot_sha256": "e50f491f0e2fe64e5d287ab64f4b21863095e5dcdd40b38dda70f0c3c0bec961",
+  "human_seed_sha256": "7fc1d7162994b7785db9412d06a9c73863e4538ad9d2001d4a4e2a58771a9436",
+  "manual_unique_source_images": 34,
+  "test_rows_in_fit": 0,
+  "held_sources_in_fit": 0,
+  "fit_train_rows": 1904,
+  "archive_or_unselected_review_labels_read": false,
+  "historical_pseudo_targets_in_this_probe": 0,
+  "svm": {
+    "kernel": "rbf",
+    "gamma": 4.0,
+    "C": 10.0,
+    "class_weight": "balanced"
+  },
+  "graphs": {
+    "neighbors": 20,
+    "alpha": 0.99,
+    "clamped_human_anchors_only": true,
+    "max_iterations": 2000
+  },
+  "gate": ">=4/5 anchor-only SVM heads and>=2/3 harmonic graphs agree; nearest same-category anchor cosine>=.65 and its category cosine margin>=.04 in>=2/5 banks; preserve first-stage changes and lighting anchors",
+  "configuration_selection": "fixed before fitting and posthoc review; no parameter search on unselected labels",
+  "source_code_sha256": "305f6213db26677b67f90de76413cc8aafc8bbf64077d407137a3c65def32613",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "36e8415159b59b11d7f82618a1678e0e3dd8fd104d00d1d11144a205fcdca217",
+    "data/preprocessing_inputs.npz": "8e10000dda66b827d5251d0cd212d9ed58a5526d58ef328476d5aa1c362fdb49",
+    "final-submit/DSC2026_Notebook.ipynb": "c57832870aa253de15dbe173d8651533527bddb062d24acb151c4e7fe5118700"
+  }
+}

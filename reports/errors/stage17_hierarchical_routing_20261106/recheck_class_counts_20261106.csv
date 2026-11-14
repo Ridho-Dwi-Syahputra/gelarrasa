@@ -1,9 +1,0 @@
-class,reference_folder_images,prediction_folder_images,same_id_same_label,different_by_reference_class
-glass,212,204,193,19
-paper,215,243,184,31
-electronic,211,208,194,17
-metal,239,250,227,12
-plastic,304,276,250,54
-cardboard,272,247,237,35
-textile,219,225,210,9
-foodwaste,248,267,245,3

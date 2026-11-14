@@ -1,0 +1,47 @@
+{
+  "review_revision_sha256": "291db8a6cee50c08448099e58e4df3ecbb2e492a9b72867b2a62365e44c4c418",
+  "previous_review_sha256": "ff0f628fa460503396dd508394693df66cad7b3ba0c2a10a2dc71a69538dd6bc",
+  "human_seed_sha256": "7fc1d7162994b7785db9412d06a9c73863e4538ad9d2001d4a4e2a58771a9436",
+  "previous_unique_used": 14,
+  "selected_unique_sources": 34,
+  "selected_class_counts": {
+    "plastic": 5,
+    "paper": 5,
+    "electronic": 5,
+    "glass": 5,
+    "textile": 5,
+    "cardboard": 5,
+    "metal": 3,
+    "foodwaste": 1
+  },
+  "new_ids": [
+    "0321",
+    "0346",
+    "0396",
+    "0403",
+    "0504",
+    "0636",
+    "0889",
+    "0955",
+    "0956",
+    "1027",
+    "1051",
+    "1114",
+    "1132",
+    "1215",
+    "1332",
+    "1399",
+    "1451",
+    "1605",
+    "1685",
+    "1863"
+  ],
+  "held_sources_preserved": [
+    "1662",
+    "1885"
+  ],
+  "full_review_is_not_training_targets": true,
+  "unselected_review_labels_passed_to_fit": false,
+  "test_used_for_selection": false,
+  "interpretation": "first three sheets refer to the 59-image leading group in the previous answer; repeated old attachments do not revoke explicit holds"
+}

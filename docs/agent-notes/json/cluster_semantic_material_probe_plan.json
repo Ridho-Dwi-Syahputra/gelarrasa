@@ -1,0 +1,20 @@
+{
+  "method": "group_heldout_visual_subclusters_with_train_only_consensus_v1",
+  "features": [
+    "DINOv3CLS",
+    "DINOv3CLS_plus_ConvNeXt"
+  ],
+  "unsupervised": "PCA64 and MiniBatchKMeans fit on nonquery train groups only",
+  "cluster_counts": [
+    64,
+    128,
+    256
+  ],
+  "category_evidence": "pre-human automatic anchors weight vote-count/4, 34 lawful manual seeds weight8",
+  "prediction": "query nearest centroid; Dirichlet0.1 class smoothing; no per-image case rules",
+  "test_rows": 0,
+  "review_archive_read": false,
+  "manual_unique_sources": 34,
+  "guard": "34 source-held-out matches>=30, macro>=.9, plastic recall>=.8",
+  "limitation": "automatic categories noisy, 34 reused development, cluster purity not ground truth"
+}

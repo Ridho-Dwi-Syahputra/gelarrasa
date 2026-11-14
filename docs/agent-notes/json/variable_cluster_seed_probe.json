@@ -1,0 +1,129 @@
+{
+  "status": "exploratory_train_only_seed_cv",
+  "feature": "DINOv2-small frozen embeddings, L2 normalized",
+  "rows": 1887,
+  "human_seed_rows": 35,
+  "manual_seed_class_counts": {
+    "cardboard": 5,
+    "electronic": 5,
+    "foodwaste": 2,
+    "glass": 5,
+    "metal": 3,
+    "paper": 5,
+    "plastic": 5,
+    "textile": 5
+  },
+  "test_rows_in_fit": 0,
+  "review_or_archive_labels_read_by_fit": false,
+  "method": "MiniBatchKMeans variable K; cluster mapped by >=0.80 majority of training-fold participant seeds; GroupKFold seed evaluation excludes held-out source groups from unsupervised fit",
+  "k_values": [
+    32,
+    64,
+    128,
+    256
+  ],
+  "repeats": 2,
+  "fold_results": [
+    {
+      "k": 32,
+      "repeats": [
+        {
+          "repeat": 0,
+          "coverage": 19,
+          "coverage_rate": 0.5428571428571428,
+          "accuracy_covered": 0.2631578947368421,
+          "correct_covered": 5
+        },
+        {
+          "repeat": 1,
+          "coverage": 14,
+          "coverage_rate": 0.4,
+          "accuracy_covered": 0.14285714285714285,
+          "correct_covered": 2
+        }
+      ]
+    },
+    {
+      "k": 64,
+      "repeats": [
+        {
+          "repeat": 0,
+          "coverage": 19,
+          "coverage_rate": 0.5428571428571428,
+          "accuracy_covered": 0.2631578947368421,
+          "correct_covered": 5
+        },
+        {
+          "repeat": 1,
+          "coverage": 11,
+          "coverage_rate": 0.3142857142857143,
+          "accuracy_covered": 0.45454545454545453,
+          "correct_covered": 5
+        }
+      ]
+    },
+    {
+      "k": 128,
+      "repeats": [
+        {
+          "repeat": 0,
+          "coverage": 16,
+          "coverage_rate": 0.45714285714285713,
+          "accuracy_covered": 0.375,
+          "correct_covered": 6
+        },
+        {
+          "repeat": 1,
+          "coverage": 17,
+          "coverage_rate": 0.4857142857142857,
+          "accuracy_covered": 0.47058823529411764,
+          "correct_covered": 8
+        }
+      ]
+    },
+    {
+      "k": 256,
+      "repeats": [
+        {
+          "repeat": 0,
+          "coverage": 13,
+          "coverage_rate": 0.37142857142857144,
+          "accuracy_covered": 0.5384615384615384,
+          "correct_covered": 7
+        },
+        {
+          "repeat": 1,
+          "coverage": 13,
+          "coverage_rate": 0.37142857142857144,
+          "accuracy_covered": 0.6923076923076923,
+          "correct_covered": 9
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "k": 32,
+      "mean_coverage": 0.4714285714285714,
+      "mean_accuracy_when_covered": 0.20300751879699247
+    },
+    {
+      "k": 64,
+      "mean_coverage": 0.42857142857142855,
+      "mean_accuracy_when_covered": 0.3588516746411483
+    },
+    {
+      "k": 128,
+      "mean_coverage": 0.4714285714285714,
+      "mean_accuracy_when_covered": 0.4227941176470588
+    },
+    {
+      "k": 256,
+      "mean_coverage": 0.37142857142857144,
+      "mean_accuracy_when_covered": 0.6153846153846154
+    }
+  ],
+  "manifest_sha256": "6e780d42c7ef0927e4e234b4704a12867c7c3ffe93117be9e6138cff6511646b",
+  "embedding_cache_sha256": "9bef2d4665eafd0a4b61b72f75d75bc272594f4014d1d01ad901c02661fa9a6d",
+  "seed_file_sha256": "2e0ba2442cbcd64513b1db0449f1fcf171fa8aa01d6c32b75f115ed1541268b9"
+}

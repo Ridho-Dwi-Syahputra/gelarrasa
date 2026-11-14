@@ -1,0 +1,4 @@
+clusters,covered,correct,classes_covered,anchor_matches,development_balanced_recall,allowed_classes,eligible
+32,0,0,0,25,0.7583333333333333,[],False
+64,0,0,0,25,0.7583333333333333,[],False
+128,0,0,0,25,0.7583333333333333,[],False

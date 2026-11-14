@@ -1,0 +1,23 @@
+{
+  "scope": "train-only image representation,not new targets or final classifier",
+  "source": {
+    "repository": "https://github.com/facebookresearch/dinov2",
+    "weight_url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth",
+    "checkpoint_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+    "model": "ViT-B/14 image-only self-supervised,not dino.txt or other VLM",
+    "library": "timm local installed architecture",
+    "torch_load_weights_only": true,
+    "downloaded_python_executed": false,
+    "external_images_downloaded": false
+  },
+  "train_rows": 1904,
+  "test_rows": 0,
+  "held_rows": 0,
+  "manual_decisions": false,
+  "preprocess": "EXIFRGB,224squareletterboxRGB124/116/104,bicubic,ImageNetmeanstd;dynamicpositionresamplingbyinstalledtimm",
+  "descriptor": "CLS,patchmean,patchstd,automaticROIpatchmean afterfinalLayerNorm;3072dimensions",
+  "ROI": "fixed previouslycomputedobjectbox;no newmanualcrop;fallbackwholevalidimage",
+  "localization_feature_sha256": "c6f3835510e86fe168c7e319567a5be4913a7ae362b4e42d6ea1cbdd39615935",
+  "source_code_sha256": "4fc6716fd974aa7df45ce5e06ab57c9fd9fea76078d9bf0df058fc07efde0e9d",
+  "conversion": "strictallinferencekeys;source mask_token excludedbecauseunmaskedimageinference;noindependentofficialforwardparity"
+}

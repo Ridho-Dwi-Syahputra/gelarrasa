@@ -1,0 +1,194 @@
+{
+  "date": "2026-11-07",
+  "scope": "Move agent metadata/cache to docs/agent-notes; keep visual notebook artifacts in reports",
+  "moves": [
+    {
+      "old_path": "final-submit/reports/byte_duplicate_members.csv",
+      "new_path": "docs/agent-notes/byte_duplicate_members.csv",
+      "sha256": "a9d7016d080792331ca0aeb236141d8de815c44dd67d5f053f0c86a9b506a295",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/reports/data_quality_checks.csv",
+      "new_path": "docs/agent-notes/data_quality_checks.csv",
+      "sha256": "a74d93389140eff32bbdb6133326d0ba4df91eb21368dd4590b04e29c3a8051c",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/reports/environment.json",
+      "new_path": "docs/agent-notes/environment.json",
+      "sha256": "7c1c058fb3cbbfb90249d760ecf205c5e32f32d1eee1f6326c2527a1c8f6cb08",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/reports/execution.json",
+      "new_path": "docs/agent-notes/execution.json",
+      "sha256": "45aac45abeb8c1e7122ea31b2af56220e18495503474eb2838ea98069631e10b",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/reports/feature_projection.csv",
+      "new_path": "docs/agent-notes/feature_projection.csv",
+      "sha256": "6a9844e2bf4ab4624263deb537b76710db4c12ff0a7535549d698cb04837be07",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/reports/latest.json",
+      "new_path": "docs/agent-notes/latest.json",
+      "sha256": "164f329c21fcbb065ee162c662b89ad4562895ef442a14689e36b75ed205b439",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/reports/pixel_duplicate_members.csv",
+      "new_path": "docs/agent-notes/pixel_duplicate_members.csv",
+      "sha256": "431a185cf35b7ed5d665124197602c96f7c532f6818d2effcb9055e17de07960",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/reports/policy.json",
+      "new_path": "docs/agent-notes/policy.json",
+      "sha256": "706cab3edce6575990f1239e346f8c6883c4902ca48272b8f984575ee9e89dc8",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/reports/quality_thresholds.json",
+      "new_path": "docs/agent-notes/quality_thresholds.json",
+      "sha256": "8a20302a3346e5d56bb791efb71669bf6194058707416c418a4a879cd7bba09d",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/reports/resolution_comparison.csv",
+      "new_path": "docs/agent-notes/resolution_comparison.csv",
+      "sha256": "634d9265e85a517b5449c2e1c38a64f04f8b2f026e273a8a1d2284f45f88f9ff",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/reports/structure_migration.json",
+      "new_path": "docs/agent-notes/structure_migration.json",
+      "sha256": "1c4552a3b88e7f1c0f74c82d4ff525d616c453f2e281ec5e0cbec6b855274a86",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/reports/sustainability_readiness.csv",
+      "new_path": "docs/agent-notes/sustainability_readiness.csv",
+      "sha256": "7f2d496cef0cce70eaf5c39e9acf36291dbc7cbfff5ea6579084167ec216beee",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/reports/test_train_phash_top3.csv",
+      "new_path": "docs/agent-notes/test_train_phash_top3.csv",
+      "sha256": "0f0fdeb48e048bd720d5f45ebfefebcd63dec6a251a23e6d44553d95b6024299",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/reports/validation.json",
+      "new_path": "docs/agent-notes/validation.json",
+      "sha256": "164f329c21fcbb065ee162c662b89ad4562895ef442a14689e36b75ed205b439",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/reports/webinar_coverage.csv",
+      "new_path": "docs/agent-notes/webinar_coverage.csv",
+      "sha256": "5f0ad5fa8bf38c9c44f23331dbb0d62a94d3523bfe2fdfbaecd6b7ff512532d3",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/reports/webinar_source_checks.json",
+      "new_path": "docs/agent-notes/webinar_source_checks.json",
+      "sha256": "f4a96eb2dff3efef41d6ab3de510e251f11701635c93126227a045f381708d7a",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/output/.runtime",
+      "new_path": "docs/agent-notes/.runtime/previous_run",
+      "sha256": null,
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/output/baseline_frozen.json",
+      "new_path": "docs/agent-notes/baseline_frozen.json",
+      "sha256": "6913c15ca460097bfaa19585c1fcf35d5ecc74c11f830d852ef54a20f47624d0",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/output/baseline_predictions.csv",
+      "new_path": "docs/agent-notes/baseline_predictions.csv",
+      "sha256": "73996d8db5666bb0d03300f0204f54c1fddf39e8af77398dfc3b116664de6434",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/output/baseline_source_profile.csv",
+      "new_path": "docs/agent-notes/baseline_source_profile.csv",
+      "sha256": "6dadfeaf3faf4bae6a1d15129a0d7540dba07f5cbd4589f1526482b6c5ccd9f6",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/output/decode_failures.csv",
+      "new_path": "docs/agent-notes/decode_failures.csv",
+      "sha256": "b2e7e5dd7ecd6f43b438ac063eff0394ee3c6cd31126050385089c5423228ef2",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/output/draft_split.csv",
+      "new_path": "docs/agent-notes/draft_split.csv",
+      "sha256": "6149b3759b0b4618084c828c30b81673bb53176359baa415f91e6294bc1dcf68",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/output/feature_recipe.json",
+      "new_path": "docs/agent-notes/feature_recipe.json",
+      "sha256": "e9bb34f7c77182767aea5ef980757a2112ef3a98651ea392176b99791c403e1a",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/output/hog_color_features.npz",
+      "new_path": "docs/agent-notes/hog_color_features.npz",
+      "sha256": "45424c0f134720ee05c8efd279acaee70a33382f8dbc1d67c585c5b2f7144b79",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/output/image_profile.csv",
+      "new_path": "docs/agent-notes/image_profile.csv",
+      "sha256": "8d995648dedac9fb6834e6449265d436efc3b42efd8b7d76e85f06865f970157",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/output/project_contract.json",
+      "new_path": "docs/agent-notes/project_contract.json",
+      "sha256": "06da6af9bec506a44d7c6187b5bba1337fce378a63afda223bb17d9c4815b82e",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/output/source_groups.csv",
+      "new_path": "docs/agent-notes/source_groups.csv",
+      "sha256": "198c7a6a625ead0bf2c8d37d37ecd9fa62de0137b496a8d2a24894cdab760f37",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/output/source_inventory.csv",
+      "new_path": "docs/agent-notes/source_inventory.csv",
+      "sha256": "dd9278f8c3053aa56fe7196ffc5c2f6ffb0bf210b3180eb00ea9d00762faa885",
+      "file_identity_preserved": true
+    },
+    {
+      "old_path": "docs/skills/sources/validation.json",
+      "new_path": "docs/agent-notes/skills_validation.json",
+      "sha256": "c2c0c330a5dfb666a40c8b1e79d5c02a1bf3b9f3bd515c51432dcfef3e0ac0d3",
+      "file_identity_preserved": true
+    }
+  ],
+  "raw_dataset_changed": false,
+  "checksums_describe": "File contents at relocation, before routine notebook regeneration of current reports/cache.",
+  "verification": {
+    "status": "passed",
+    "notebook_code_cells_executed": 14,
+    "report_pngs": 15,
+    "report_galleries": 1,
+    "output_files": 0,
+    "test_gallery_images": 480,
+    "missing_gallery_sources": 0,
+    "image_hashes_verified": 4793,
+    "proof": "docs/agent-notes/skills_validation.json",
+    "background_execution": true
+  }
+}

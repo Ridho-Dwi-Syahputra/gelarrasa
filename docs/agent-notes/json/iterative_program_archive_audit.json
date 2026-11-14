@@ -1,0 +1,13 @@
+{
+  "scope": "posthoc agreement with historical archive, not semantic accuracy",
+  "rows": 1906,
+  "baseline_differences": 174,
+  "candidate_differences": 150,
+  "old_disagreements_resolved": 42,
+  "new_disagreements": 18,
+  "changed_wrong_to_other_wrong": 8,
+  "changes_vs_baseline": 68,
+  "manual_labels_consumed": 0,
+  "frozen_prediction_sha256": "d7765ffaeb2e1aecaf9762418319509fe8873e03aff72a351748fb821f5b0076",
+  "active_data_modified": false
+}

@@ -1,0 +1,31 @@
+{
+  "model": "nested group-OOF multiclass logistic calibration of DINOv3 OVR SVM scores",
+  "train_rows": 1869,
+  "test_rows_in_fit": 0,
+  "test_rows_inference": 480,
+  "base_svm_C": 4.0,
+  "calibrator_C": 0.1,
+  "outer_inner_splits": 4,
+  "final_inner_splits": 5,
+  "nested_metrics": {
+    "calibrated_dino": {
+      "agreement": 0.9892990904226859,
+      "balanced_accuracy": 0.9892439771301289,
+      "macro_f1": 0.9896798022022375
+    },
+    "paired_ovr_baseline": {
+      "agreement": 0.9882289994649546,
+      "balanced_accuracy": 0.988393219783108,
+      "macro_f1": 0.9887254703404696
+    }
+  },
+  "oof_rows_changed": 4,
+  "test_rows_changed_vs_008": 0,
+  "paired_oof_not_degraded": true,
+  "candidate_submission_path": null,
+  "oof_path": "final-submit/output/dino_score_calibration_oof.csv",
+  "official_accuracy": null,
+  "test_used_for_fit_or_selection": false,
+  "execution_note": "Final train-only calibration/inference completed; it produced the same hard test labels as 008, so no duplicate candidate CSV was saved. Standalone runner omitted json import only during report serialization; notebook initialization imports json.",
+  "interpretation": "OOF agreement uses derived train categories, not independent semantic ground truth."
+}

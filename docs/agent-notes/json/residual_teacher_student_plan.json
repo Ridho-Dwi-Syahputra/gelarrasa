@@ -1,0 +1,26 @@
+{
+  "method": "fold_contained_residual_teacher_and_corrective_pseudo_kNN_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "input": "auto-onlycoldcoreplus34genuine;frozenDINOv3BaseCLSandfullsourceposteriorimageonly",
+  "teacher_graph": "trainonlyk20symcos^4;clampgenuineerror;CLSalpha.7scale4smooth.5;sourcealpha.95scale4nosmooth",
+  "teacher_base": "auto-onlycoldcorek7;excludeownsourcegroup;allgenuinegroupsremovedfromcoldcore",
+  "pseudo_gate": "bothteacherbanksagree;minclassshare>=.7;predictionsdifferfromcoldautomaticclass;humanprotected",
+  "pseudo_budget": "max20perclass,max60total,max1persourcegroup,descendingconfidence",
+  "student": "twofeaturekNN7,T.07;genuineweight32,pseudoweight2,coldcoreoriginalweight;twoarmscontrol/corrective",
+  "normalizer": "CLS_PCA128whiteandfullsource_center;fitouterTRAINonly",
+  "selection": "best34sourcegroupheldoutmacrothenmatches;bothbanksqualifiedwithin.1macroofbest;thresholdgrid.7/.8/.9/.95",
+  "guard": "global>=29/34macro>=.85andselective>=12precision>=.9;OR>=28macro>=.85andselective>=16precision1",
+  "maximum_changes": 20,
+  "cap": "descendingminimumqualifiedbankshare,stablekeyorder",
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_audits": true,
+  "evaluation_limit": "34reuseddevelopment,samefoldsnotindependentAccuracy;graphnotindependentOOFvalidation",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "13289e5991b6324d1737cadb85375e291c118311653d6f4417bc5ecc3ed19035",
+    "data/preprocessing_inputs.npz": "791996fdec9749f7dbe40ea105ffd346c24a1f3b98379e3b11d081e55ab7fe7d",
+    "final-submit/DSC2026_Notebook.ipynb": "f2f56da23f21f859653f8092422be989651c59fb15e4bf9cba4585bbed447639"
+  },
+  "source_code_sha256": "3e7456994324bb6f49fa087fb6e1f8ef29d0609ddde4e8b4378b6e92e333b63a"
+}

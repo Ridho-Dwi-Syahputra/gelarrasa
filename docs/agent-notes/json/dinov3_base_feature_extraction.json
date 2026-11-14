@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "held_rows": 0,
+  "dimensions": 3072,
+  "prefix_tokens": 5,
+  "normalization": {
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "weight_sha256": "1f9ed8a2378d65e24bb710ba522ac9fa7be4e036d7aefb4384ce022833926332",
+  "feature_sha256": "e9264b57c78c39cb2a40d555677d8d1edc4b072e1a556ae08f753a06fade39c6",
+  "source_code_sha256": "295f3277df57927d4785a6b70c09fe4fe43d88170168f52b11fa3d0281afd00a",
+  "seconds": 1357.7509293556213
+}

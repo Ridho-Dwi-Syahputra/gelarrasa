@@ -1,5 +1,0 @@
-split,disagrees_archive,n,small_margin_n,seed_unstable_n,all_seeds_agree_n,strong_margin_and_all_seeds_n,low_resolution_n,high_padding_n,median_nn_cluster_cohesion,median_nn_archive_agreement,median_margin
-test,False,309,45,0,309,264,17,1,1.0,1.0,0.22316739
-test,True,171,69,1,168,102,8,1,0.9,0.8,0.13826537
-train,False,1330,239,1,1326,1091,40,0,1.0,1.0,0.21559172999999998
-train,True,590,257,11,570,333,79,6,0.8,0.8,0.116506895

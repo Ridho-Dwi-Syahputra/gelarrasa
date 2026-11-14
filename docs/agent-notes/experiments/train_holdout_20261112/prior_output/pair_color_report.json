@@ -1,0 +1,183 @@
+{
+  "model": "DINOv3 OVR + 28 calibrated pairwise RBF experts on color descriptors",
+  "train_rows": 1887,
+  "test_rows_in_fit": 0,
+  "test_rows_inference": 480,
+  "class_pairs": [
+    [
+      "glass",
+      "paper"
+    ],
+    [
+      "glass",
+      "electronic"
+    ],
+    [
+      "glass",
+      "metal"
+    ],
+    [
+      "glass",
+      "plastic"
+    ],
+    [
+      "glass",
+      "cardboard"
+    ],
+    [
+      "glass",
+      "textile"
+    ],
+    [
+      "glass",
+      "foodwaste"
+    ],
+    [
+      "paper",
+      "electronic"
+    ],
+    [
+      "paper",
+      "metal"
+    ],
+    [
+      "paper",
+      "plastic"
+    ],
+    [
+      "paper",
+      "cardboard"
+    ],
+    [
+      "paper",
+      "textile"
+    ],
+    [
+      "paper",
+      "foodwaste"
+    ],
+    [
+      "electronic",
+      "metal"
+    ],
+    [
+      "electronic",
+      "plastic"
+    ],
+    [
+      "electronic",
+      "cardboard"
+    ],
+    [
+      "electronic",
+      "textile"
+    ],
+    [
+      "electronic",
+      "foodwaste"
+    ],
+    [
+      "metal",
+      "plastic"
+    ],
+    [
+      "metal",
+      "cardboard"
+    ],
+    [
+      "metal",
+      "textile"
+    ],
+    [
+      "metal",
+      "foodwaste"
+    ],
+    [
+      "plastic",
+      "cardboard"
+    ],
+    [
+      "plastic",
+      "textile"
+    ],
+    [
+      "plastic",
+      "foodwaste"
+    ],
+    [
+      "cardboard",
+      "textile"
+    ],
+    [
+      "cardboard",
+      "foodwaste"
+    ],
+    [
+      "textile",
+      "foodwaste"
+    ]
+  ],
+  "C": 4.0,
+  "blend_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "outer_recipes": [
+    {
+      "outer_fold": 1,
+      "blend": 0.0,
+      "inner_selected_accuracy": 0.9457313037723362,
+      "inner_selected_macro_f1": 0.9459614366310312
+    },
+    {
+      "outer_fold": 2,
+      "blend": 0.0,
+      "inner_selected_accuracy": 0.9481627296587927,
+      "inner_selected_macro_f1": 0.949064348711278
+    },
+    {
+      "outer_fold": 3,
+      "blend": 0.0,
+      "inner_selected_accuracy": 0.9488031914893617,
+      "inner_selected_macro_f1": 0.9499440001362083
+    },
+    {
+      "outer_fold": 4,
+      "blend": 0.0,
+      "inner_selected_accuracy": 0.9494007989347537,
+      "inner_selected_macro_f1": 0.9494020393429442
+    },
+    {
+      "outer_fold": 5,
+      "blend": 0.0,
+      "inner_selected_accuracy": 0.9449236894492369,
+      "inner_selected_macro_f1": 0.9453899598265215
+    }
+  ],
+  "final_blend": 0.0,
+  "nested_metrics": {
+    "dino_pair_color": {
+      "agreement": 0.9507154213036566,
+      "balanced_accuracy": 0.9515050946709316,
+      "macro_f1": 0.9515579029007692
+    },
+    "paired_outer_baseline_008": {
+      "agreement": 0.9507154213036566,
+      "balanced_accuracy": 0.9515050946709316,
+      "macro_f1": 0.9515579029007692
+    }
+  },
+  "oof_rows_changed": 0,
+  "test_rows_changed_vs_008": 0,
+  "paired_oof_not_degraded": true,
+  "candidate_submission_path": null,
+  "candidate_sha256": null,
+  "oof_path": "final-submit/output/pair_color_oof.csv",
+  "official_accuracy": null,
+  "test_used_for_fit_or_selection": false,
+  "interpretation": "OOF agreement uses derived train categories, not independent semantic ground truth."
+}

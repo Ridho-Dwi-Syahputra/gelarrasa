@@ -1,0 +1,87 @@
+{
+  "method": "train_only_base_clean_object_ViT_knn_label_propagation_v1",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "held_sources_excluded": [
+    "train:1662",
+    "train:1885"
+  ],
+  "human_sources": 34,
+  "human_class_counts": {
+    "plastic": 5,
+    "paper": 5,
+    "electronic": 5,
+    "glass": 5,
+    "textile": 5,
+    "cardboard": 5,
+    "metal": 3,
+    "foodwaste": 1
+  },
+  "new_human_labels": 0,
+  "source_feature_sha256": "cd4c4828e92cd54e97a982c2aac39287ff604d44538d07c40573218954f0ecb6",
+  "group_manifest_sha256": "0adf54a9470aef171091f3327a5c97f4dc01d073f81d5af2a70cd45d390ae396",
+  "localisation_feature_sha256": "c6f3835510e86fe168c7e319567a5be4913a7ae362b4e42d6ea1cbdd39615935",
+  "feature_mode": "base_clean",
+  "source_qna": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/kxodWG5OBD7gQgP7",
+  "source_qna_reply_utc": "2026-11-07T13:25:19.146Z",
+  "targets": "only cold automatic-consensus core and34budgeted human sources",
+  "source_taxonomy_probabilities": "image-only self-supervised DINOv2Base and descriptor banks;no sourceclassifier-to-targetmapping",
+  "banks": {
+    "base_cls": 768,
+    "base_local": 1536,
+    "base_vit": 1536,
+    "base_vit_detector": 4224
+  },
+  "configs": [
+    {
+      "neighbors": 3,
+      "human_weight": 8.0
+    },
+    {
+      "neighbors": 3,
+      "human_weight": 32.0
+    },
+    {
+      "neighbors": 7,
+      "human_weight": 8.0
+    },
+    {
+      "neighbors": 7,
+      "human_weight": 32.0
+    },
+    {
+      "neighbors": 15,
+      "human_weight": 8.0
+    },
+    {
+      "neighbors": 15,
+      "human_weight": 32.0
+    }
+  ],
+  "selection": "per-bank best balanced recall on34five-source-group-fold development anchors; tie keeps config order",
+  "knn_temperature": 0.07,
+  "graph_banks": [
+    "base_cls",
+    "base_local",
+    "base_vit"
+  ],
+  "graph": {
+    "neighbors": 20,
+    "alpha": 0.98,
+    "iterations": 1500,
+    "human_seeds_clamped": true,
+    "automatic_priors_not_clamped": true
+  },
+  "acceptance": ">=3/4kNNbanks agree,hybridandonevisualbankagree;>=2/3graphsagree;cosine>=.65andcategorymargin>=.01towardhumananchorsin>=2banks;protect earlierrefinements",
+  "guard": "pooled34anchor matches>=16,balancedrecall>=.525,<=50newcategories;otherwise no changes accepted",
+  "evaluation_limit": "development anchors reused for configuration choice;graph sees allTRAIN and is not independent validation",
+  "automatic_core_filter": "within each fit fold only:exclude automatic anchors whose nearest human category differs,cosine>=.65andcategorymargin>=.02;never excludehuman;do notchangeanytarget",
+  "previous_automatic_refinement_policy": "may change only under4/4bank,3/3graphand>=3localitysupport;humanalwaysprotected",
+  "unselected_review_or_archive_labels_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "f8e9494f9169fc187972012ed579c9b4785e494ae76131056ee209b890eac72e",
+    "data/preprocessing_inputs.npz": "b003ee13779d9abca3b8dd459caeb441b7c4787a4c2cbc84f0e6dac7f769ecfb",
+    "final-submit/DSC2026_Notebook.ipynb": "decd4e2aa000121915c4b5f2530c032244818b7d08febb7e72c81212ae042184"
+  },
+  "source_code_sha256": "e5dd27674af73f8be5a996dc4bc0451cd78e578e437eb3bd4c5f911c2b553899"
+}

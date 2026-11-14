@@ -1,0 +1,59 @@
+{
+  "scope": "new frozen image-only material representation; no new human targets",
+  "model": "MINC GoogLeNet, original Caffe deploy graph and converted numeric weights",
+  "source": {
+    "url": "https://github.com/keunhong/kitnn/releases/download/0.1/minc_googlenet.npy",
+    "bytes": 36424359,
+    "sha256": "354e380615edd03d48e18958d384e1dd4ea5b9dd645035f7c2ea261c551b5fcf",
+    "numeric_sha256": "0932d459da0eb58d899f7216fc8cb5c68f1489cab7ef954f9f26cf9d10cfd0dc",
+    "source": "MINC CNN weights converted from Caffe by keunhong/kitnn",
+    "parameter_layers": 58,
+    "data_images_downloaded": false,
+    "external_inference": false,
+    "restricted_numeric_reader": true
+  },
+  "deploy_sha256": "5174393647c3073624e540abcf09ed1d1c54ac4e74d90063a61789cfee6ccbcc",
+  "categories": [
+    "brick",
+    "carpet",
+    "ceramic",
+    "fabric",
+    "foliage",
+    "food",
+    "glass",
+    "hair",
+    "leather",
+    "metal",
+    "mirror",
+    "other",
+    "painted",
+    "paper",
+    "plastic",
+    "polishedstone",
+    "skin",
+    "sky",
+    "stone",
+    "tile",
+    "wallpaper",
+    "water",
+    "wood"
+  ],
+  "views": [
+    "full_center_fit",
+    "uniform_border_foreground_center_fit",
+    "foreground_center60pct"
+  ],
+  "preprocess": "BGR float32 0..255 minus104/117/124, no ImageNet std",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "held_rows": 0,
+  "source_images_sha256": "f0b389b9a36822a2b310c60554d1582aff0d8d63676fd7961dcee9900dcd313f",
+  "external_images_used": false,
+  "external_inference": false,
+  "source_code_sha256": "be089235695331643b45447c0c4e04d503018410100b8a988b3aa485caee310a",
+  "purpose": "adapt local assignment heads after extraction; no direct model-to-test use",
+  "papers": [
+    "https://labelmaterial.s3.amazonaws.com/release/cvpr2015-minc.pdf"
+  ],
+  "weights_source_revision": "6fb707ae76df58d7c02424661822cd6dfda60c24"
+}

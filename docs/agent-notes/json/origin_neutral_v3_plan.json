@@ -1,0 +1,31 @@
+{
+  "method": "origin_neutral_frozen_DINOv3Base_selective_gate_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "scope": "policyablationONLY;allmodelprobabilities/graphs/learnedthresholdunchanged;norefittingorparameterselection",
+  "source_frozen_sha256": "ac33e93eab453d89046588bbd5865a15e6f93b5a94769a7024a503329b06e1c8",
+  "source_output_sha256": "65ee707303e985a106897ddda4f240d8238f11215c2dc923db6dbcabbe8ca0e8",
+  "original_control": "minimumshare>=.8andbothselectedgraphs;earliermachine-originrefinementrequires>=.95",
+  "new_gate": "minimumshare>=.8andbothselectedgraphsforallnonhumanmachineorigins;humansalwaysprotected",
+  "reason": "machine-originhistoryisnotgroundtruth;new26/34modeland14/14selectivedevelopmentgateapplyuniformly",
+  "learned_threshold_evidence": {
+    "threshold": 0.8,
+    "covered": 14,
+    "correct": 14,
+    "precision": 1.0,
+    "eligible": true
+  },
+  "global_guard": "frozenmodelaccepted26/34andmacro.783333,14/14selective;all34humanunchanged",
+  "maximum_changes": 20,
+  "cap": "descendingminimumshare,stablekeyorder",
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_audits": true,
+  "evaluation_limit": "same34reuseddevelopment,notindependentAccuracy;changingoriginpolicydoesnotmake14/14aguaranteefornewimages",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "07dff6ad7f7a6b01049c67b51c11975020a3f6fbca2fdf01751c3e91cd14a14c",
+    "data/preprocessing_inputs.npz": "8fdf657ef1b2f6508b694a39107905a1e9c9d43776f7c73625eda760cdb32973",
+    "final-submit/DSC2026_Notebook.ipynb": "f979d564e166be0b999831e641c20df32621c6d791c6c41da04a217780ed1080"
+  },
+  "source_code_sha256": "0db04de49dd7f7eb8d0eba54a79f57083d970ea4f95c57d498f893277fa999c5"
+}

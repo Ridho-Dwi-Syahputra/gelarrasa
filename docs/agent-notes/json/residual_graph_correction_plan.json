@@ -1,0 +1,98 @@
+{
+  "method": "inductive_train_only_residual_correct_and_smooth_v1",
+  "reference": "https://arxiv.org/abs/2010.13993",
+  "adaptation": "frozennonVLMfeatures,auto-onlycoldkNNbaseline,34genuineresidualreferences,inductivequery;notpaperreproduction",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "banks": [
+    "V3CLS_PCA128white",
+    "V3_fullsource_centered"
+  ],
+  "configs": [
+    {
+      "alpha": 0.7,
+      "scale": 1.0,
+      "smooth": false
+    },
+    {
+      "alpha": 0.7,
+      "scale": 1.0,
+      "smooth": true
+    },
+    {
+      "alpha": 0.7,
+      "scale": 2.0,
+      "smooth": false
+    },
+    {
+      "alpha": 0.7,
+      "scale": 2.0,
+      "smooth": true
+    },
+    {
+      "alpha": 0.7,
+      "scale": 4.0,
+      "smooth": false
+    },
+    {
+      "alpha": 0.7,
+      "scale": 4.0,
+      "smooth": true
+    },
+    {
+      "alpha": 0.95,
+      "scale": 1.0,
+      "smooth": false
+    },
+    {
+      "alpha": 0.95,
+      "scale": 1.0,
+      "smooth": true
+    },
+    {
+      "alpha": 0.95,
+      "scale": 2.0,
+      "smooth": false
+    },
+    {
+      "alpha": 0.95,
+      "scale": 2.0,
+      "smooth": true
+    },
+    {
+      "alpha": 0.95,
+      "scale": 4.0,
+      "smooth": false
+    },
+    {
+      "alpha": 0.95,
+      "scale": 4.0,
+      "smooth": true
+    }
+  ],
+  "baseline": "auto-onlycoldcorek7;excludeALLhuman-sourcegroupsfromautocore;fit-rowpredictionsremoveownsourcegroup",
+  "residual": "onehotgenuine-minus-auto-onlyprediction;clampedreferenceerror;train-onlyrowstochasticgraph,k20,cos^4;queryinterpolationafterfit",
+  "correction": "fixedscale1/2/4;cliprenormalize;optional.5clampedhumanpredictiondiffusion",
+  "normalizer": "outerTRAINonly;querygroupsabsentfromgraph,core,normalizer,residualreferences",
+  "selection": "perbank34developmentbalancedrecallthenmatches;primarybestbank;bothbanksagreewithminprobthreshold",
+  "threshold_grid": [
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95
+  ],
+  "guard": "primary>=28andmacro>=.808333333333;ORprimary>=27andmacro>=.808333333333andcovered>=10with>=.9precision",
+  "maximum_changes": 20,
+  "cap": "descendingminimumprobability,stablekeyorder",
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_audits": true,
+  "evaluation_limit": "34reuseddevelopmentandmultiplecomparison;graphinductivebutnotindependentfinalAccuracy",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "eaa624d9711a3a4a1119892a893e6b226429925070557da0747e5f385338b1bf",
+    "data/preprocessing_inputs.npz": "c174c254c9544d70aa23b80a98bc7ccd14dc3b2a19e7f8a6d83487ae8cce1c71",
+    "final-submit/DSC2026_Notebook.ipynb": "b80b7c982ed89cd151e544d3d1a5e2a79aac68a8d6873e7b94edc9bfc21bcc24"
+  },
+  "source_code_sha256": "ad6a84c6a31ff4f30c7b98e73c685cd45aefb8cb955021f412e68118ef14b07c"
+}

@@ -1,0 +1,49 @@
+{
+  "scope": "image-only pretrained base representations,not direct final predictions",
+  "repository": "watersplash/waste-classification",
+  "revision": "1aa9ba0280612b6330c67aae08963b288c75f452",
+  "checkpoint_sha256": "a160591b0bec52cfdc0bd322597495fb78604ac0d4aefd8f018d42e59432b43e",
+  "model_type": "ViTForImageClassification,not CLIP/SigLIP/VLM",
+  "source_class_order": [
+    "battery",
+    "biological",
+    "brown-glass",
+    "cardboard",
+    "clothes",
+    "green-glass",
+    "metal",
+    "paper",
+    "plastic",
+    "shoes",
+    "trash",
+    "white-glass"
+  ],
+  "source_data_overlap_with_competition_unknown": true,
+  "train_rows": 1904,
+  "test_rows": 0,
+  "held_rows": 0,
+  "external_images_used": false,
+  "external_inference": false,
+  "descriptor": "CLS,mean patch,std patch after final LayerNorm,2304dimensions",
+  "preprocess": {
+    "do_normalize": true,
+    "do_resize": true,
+    "feature_extractor_type": "ViTFeatureExtractor",
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "resample": 2,
+    "size": 224
+  },
+  "conversion": "strict complete numeric HFViT-to-timm state mapping; original LN epsilon",
+  "conversion_limit": "state shapes and forward invariants checked;no independent Transformers numerical parity yet",
+  "source_code_sha256": "bf88c90ec35f12c7d1aa9a41ba3a750b5bbec5ad1ae5b3088e4ff4d5da613afb",
+  "qna_source": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/kxodWG5OBD7gQgP7"
+}

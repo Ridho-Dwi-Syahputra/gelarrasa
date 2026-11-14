@@ -1,0 +1,46 @@
+{
+  "method": "source_dictionary_human_one_vs_rest_abstaining_router_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "targets": "ONLYsame34genuinehuman;noautomaticlabelsastargets;noarchiveorfullreview",
+  "banks": [
+    "source_dictionary",
+    "DINOregional",
+    "CNNdictionary"
+  ],
+  "kernels": [
+    "linear",
+    "rbf_gamma4"
+  ],
+  "C": [
+    1.0,
+    10.0
+  ],
+  "thresholds": [
+    0.0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "folds": "fivegeometrysourcegroups;allquerysourcegroupsheldout;centeringfitouterTRAINonly",
+  "class_qualification": "atleast3humanpositivesexist;OOFpositivecoverage>=max(3,ceil(.6class_count));ZEROobservedfalsepositivesonallremaininghumanclasses",
+  "per_bank_class_selection": "maximumpositivecoverage,thenhigherthreshold,thenlistedorder",
+  "router": "atleast2/3bankqualifiedpositivesforEXACTLYoneclass;othercasesabstain;nocrossmodelmargincomparison",
+  "baseline": "bestsemantic_dictionary_neighborsOOF25/34,notcurrentclampedhumanclasses",
+  "guard": ">=26/34andmacro>baseline+.000000000001;>=3humanroutedandallroutedhumanpredictionscorrect;atleast1qualifiedclass",
+  "final_acceptance": "uniquerouterand>=1/3finalTRAINgraphagreement;humanprotected",
+  "graphs": "DINOregional,CNNdictionary,source_dictionary;baselineOOFpriorswith.98routerpseudotarget;notindependentvalidation",
+  "score": "minimumsigmoidbinarymarginamongpositivebanks,uncalibrated;notprobabilityguarantee",
+  "maximum_changes": 20,
+  "cap": "descendingminimumsigmoidmargin,thenbanksupport,stablekeyorder",
+  "evaluation_limit": "34reuseddevelopmentandmultiplecomparisons;perclass0FPnotgeneralizationguarantee;finalgraphnotcalibrationvalidation",
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_audits": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "16960b34be76b9d55ce32a2dc71e285d110fa2a0dee62575e6b4d914f9f6e451",
+    "data/preprocessing_inputs.npz": "8218337eb5bcad461c2f731a01bdab12d281158ac456c21e1970509964fe214e",
+    "final-submit/DSC2026_Notebook.ipynb": "beb412fe17801ada7e853e24cec2b4f5a0afff14e986404d16a5dd566ac7dc3f"
+  },
+  "source_code_sha256": "2539ad291f9fd65e66faa142020b37a81e660dfcf417f47c869f31a29196d09d"
+}

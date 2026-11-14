@@ -1,0 +1,49 @@
+{
+  "status": "frozen_before_final_posthoc_audit",
+  "method": "bounded_human_material_refinement_final_v1",
+  "human_seed_file": "table-csv/bounded_human_seeds.csv",
+  "human_seed_sha256": "5eb4874eb17d07fcb79352512df270c98d749200d6e03f2365124756861f92bf",
+  "manual_unique_source_images_used": 14,
+  "manual_class_counts": {
+    "plastic": 3,
+    "paper": 3,
+    "metal": 2,
+    "electronic": 2,
+    "glass": 2,
+    "textile": 1,
+    "cardboard": 1
+  },
+  "test_rows_in_fit": 0,
+  "train_rows": 1906,
+  "lighting_rows": 14,
+  "stable_automatic_propagation_rows": 11,
+  "extra_cluster_rows": 6,
+  "weak_lighting_rows_restored": 2,
+  "unstable_proposals_not_applied": 10,
+  "changed_rows_vs_baseline": 8,
+  "cumulative_changes_vs_initial_program": 42,
+  "human_leave_source_group_out_matches": 5,
+  "human_holdout_rows": 14,
+  "validation_limit": "anchors are few and deliberately difficult; not official accuracy or a guarantee for other rows",
+  "prediction_sha256": "757d171aa6194ee07402c6ed625cc69f8203a678bdfaeca431b447f96b2ecefd",
+  "source_counts": {
+    "iterative_program_refinement_snapshot": 1861,
+    "participant_reviewed_seed": 14,
+    "two_view_lighting_ontology_snapshot": 14,
+    "bounded_anchor_stable_consensus_snapshot": 11,
+    "bounded_anchor_cluster_consensus_snapshot": 6
+  },
+  "protected_sha256": {
+    "data/processed/manifest.csv": "6f932b900598268e22428a72937b9c6f285684b709d357e9b67fee291f95e68e",
+    "data/preprocessing_inputs.npz": "b03fedd9166bfa4e4792d5787e3f100f66f479a7c16c943a0779050c82861aec",
+    "final-submit/DSC2026_Notebook.ipynb": "5a23f6087671f21c2ba3e54b3632ff906c127df405f7db36aa6d52f3c351396c"
+  },
+  "semantic_accuracy": null,
+  "active_data_modified": false,
+  "final_gate_does_not_use_unselected_review_or_archive_targets": true,
+  "refinement_heads_used_16_lighting_pseudo_anchors_before_postfilter": true,
+  "deferred_keys_not_human_anchors": [
+    "train:1662",
+    "train:1885"
+  ]
+}

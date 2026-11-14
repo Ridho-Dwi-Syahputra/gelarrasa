@@ -1,0 +1,19 @@
+{
+  "image_id": "0536",
+  "old_audit_class": "paper",
+  "new_audit_class": "cardboard",
+  "authority": "explicit_user_chat_20261108",
+  "scope": "audit_reference_only",
+  "manual_seed_added": false,
+  "model_or_processed_labels_changed": false,
+  "before_review_sha256": "291db8a6cee50c08448099e58e4df3ecbb2e492a9b72867b2a62365e44c4c418",
+  "after_review_sha256": "85704615d24ffe7a33a501c07b22ac2e55d4c72fc0626c57a21aa9cbc5179f9f",
+  "backup": "docs\\agent-notes\\.runtime\\team_review_before_0536_291db8a6cee5.csv",
+  "protected_sha256_unchanged": {
+    "data/processed/manifest.csv": "13289e5991b6324d1737cadb85375e291c118311653d6f4417bc5ecc3ed19035",
+    "data/preprocessing_inputs.npz": "791996fdec9749f7dbe40ea105ffd346c24a1f3b98379e3b11d081e55ab7fe7d",
+    "final-submit/DSC2026_Notebook.ipynb": "f2f56da23f21f859653f8092422be989651c59fb15e4bf9cba4585bbed447639",
+    "data/processed/manual_seeds.csv": "0b3b8a05794c657d71a99856d7041447df8c873b80aff5240795ee70ebbc36de"
+  },
+  "timestamp_utc": "2026-11-08T06:27:17.551704+00:00"
+}

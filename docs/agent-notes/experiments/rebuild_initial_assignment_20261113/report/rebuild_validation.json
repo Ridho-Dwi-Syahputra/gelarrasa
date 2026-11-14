@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-13",
+  "raw_images": {
+    "rows": 2400,
+    "missing": 0,
+    "sha_mismatch": 0,
+    "all_match_archived_sources": true
+  },
+  "stage1": {
+    "exact_artifact_checks": {
+      "image_profile": {
+        "archived_sha256": "6dadfeaf3faf4bae6a1d15129a0d7540dba07f5cbd4589f1526482b6c5ccd9f6",
+        "rerun_sha256": "6dadfeaf3faf4bae6a1d15129a0d7540dba07f5cbd4589f1526482b6c5ccd9f6",
+        "byte_identical": true
+      },
+      "source_groups": {
+        "archived_sha256": "198c7a6a625ead0bf2c8d37d37ecd9fa62de0137b496a8d2a24894cdab760f37",
+        "rerun_sha256": "198c7a6a625ead0bf2c8d37d37ecd9fa62de0137b496a8d2a24894cdab760f37",
+        "byte_identical": true
+      },
+      "resnet50_features": {
+        "archived_sha256": "26513c371e25d835b920a21716b4ee2c8cfcf3a62b1573b1e636d435dbe135e0",
+        "rerun_sha256": "26513c371e25d835b920a21716b4ee2c8cfcf3a62b1573b1e636d435dbe135e0",
+        "byte_identical": true
+      }
+    },
+    "cluster_rows": 2400,
+    "cluster_id_matches": 2400,
+    "cluster_csv_changed_columns": {
+      "centroid_distance": 178,
+      "relative_margin": 253
+    }
+  },
+  "stage17_assignment": {
+    "rebuilt_sha256": "73996d8db5666bb0d03300f0204f54c1fddf39e8af77398dfc3b116664de6434",
+    "expected_sha256": "73996d8db5666bb0d03300f0204f54c1fddf39e8af77398dfc3b116664de6434",
+    "exact": true
+  },
+  "initial_bundle": {
+    "rebuilt_sha256": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+    "expected_sha256": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+    "exact": true
+  },
+  "current_v3": {
+    "assignment_method": "unchanged_frozen_residual_router_batch_continuation_v1",
+    "train_labels_changed_vs_initial": 278,
+    "test_labels_changed_vs_initial": 0,
+    "reconstructed_by_this_run": false
+  },
+  "limits": [
+    "Stage 1 was rerun from raw competition images.",
+    "Assignment was rerun using its recorded frozen feature caches and trained checkpoints; all component checks in archived stage17 script passed.",
+    "The later v3 refinement history was not retrained or reconstructed by this run."
+  ]
+}

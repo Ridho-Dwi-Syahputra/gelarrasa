@@ -1,0 +1,8 @@
+{
+  "decision": "reject",
+  "prediction_sha256": "4cec8d897abb63baa212f151a8e6b51faaf3d45c4bae3579e551221225c7c5d7",
+  "guard": "primary>=24/34andbalancedrecall>=.75andcalibrationthresholdexistsand>=2qualifiedbanks",
+  "accepted_changes": 0,
+  "private_review_used_for_selection": false,
+  "timestamp_utc": "2026-11-07T19:45:21.259224+00:00"
+}

@@ -1,0 +1,85 @@
+{
+  "method": "train_only_focus_object_ViT_knn_label_propagation_v1",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "held_sources_excluded": [
+    "train:1662",
+    "train:1885"
+  ],
+  "human_sources": 34,
+  "human_class_counts": {
+    "plastic": 5,
+    "paper": 5,
+    "electronic": 5,
+    "glass": 5,
+    "textile": 5,
+    "cardboard": 5,
+    "metal": 3,
+    "foodwaste": 1
+  },
+  "new_human_labels": 0,
+  "source_feature_sha256": "c0772acf73d94e40670998ed0c27b3bf29bb7a9e20dde015a4bb26e5178e9a44",
+  "group_manifest_sha256": "0adf54a9470aef171091f3327a5c97f4dc01d073f81d5af2a70cd45d390ae396",
+  "localisation_feature_sha256": "c6f3835510e86fe168c7e319567a5be4913a7ae362b4e42d6ea1cbdd39615935",
+  "feature_mode": "focus",
+  "source_qna": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/kxodWG5OBD7gQgP7",
+  "source_qna_reply_utc": "2026-11-07T13:25:19.146Z",
+  "targets": "only cold automatic-consensus core and34budgeted human sources",
+  "source_taxonomy_probabilities": "numeric features only,no manual12-to8mapping and no direct pretrained-to-test use",
+  "banks": {
+    "focus_cls": 768,
+    "full_focus": 1536,
+    "focus_dino": 1152,
+    "focus_detector": 3456
+  },
+  "configs": [
+    {
+      "neighbors": 3,
+      "human_weight": 8.0
+    },
+    {
+      "neighbors": 3,
+      "human_weight": 32.0
+    },
+    {
+      "neighbors": 7,
+      "human_weight": 8.0
+    },
+    {
+      "neighbors": 7,
+      "human_weight": 32.0
+    },
+    {
+      "neighbors": 15,
+      "human_weight": 8.0
+    },
+    {
+      "neighbors": 15,
+      "human_weight": 32.0
+    }
+  ],
+  "selection": "per-bank best balanced recall on34five-source-group-fold development anchors; tie keeps config order",
+  "knn_temperature": 0.07,
+  "graph_banks": [
+    "focus_cls",
+    "full_focus",
+    "focus_dino"
+  ],
+  "graph": {
+    "neighbors": 20,
+    "alpha": 0.98,
+    "iterations": 1500,
+    "human_seeds_clamped": true,
+    "automatic_priors_not_clamped": true
+  },
+  "acceptance": ">=3/4kNNbanks agree,hybridandonevisualbankagree;>=2/3graphsagree;cosine>=.65andcategorymargin>=.01towardhumananchorsin>=2banks;protect earlierrefinements",
+  "guard": "pooled34anchor matches>=16,balancedrecall>=.525,<=50newcategories;otherwise no changes accepted",
+  "evaluation_limit": "development anchors reused for configuration choice;graph sees allTRAIN and is not independent validation",
+  "unselected_review_or_archive_labels_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "cd6e881c69d0e33cc5dd3c6971efa44ff3340f82cdf3cf9809435e0a70a7a175",
+    "data/preprocessing_inputs.npz": "a2ffd5ee8c85decede6bdec58edd5daca987e81cf3191112c5882caccc3e5f8f",
+    "final-submit/DSC2026_Notebook.ipynb": "f23b8b331491829dccd5391b52e510da6917e15db3c36db8018deb7f83d658d8"
+  },
+  "source_code_sha256": "41194a9eaca83355c2e114f41cec2f544b1c045ffaa479a144ffe79dc79d90d5"
+}

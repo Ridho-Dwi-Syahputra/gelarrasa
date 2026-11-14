@@ -1,0 +1,36 @@
+{
+  "scope": "review inventory, not an approved training label manifest",
+  "manual_training_labels_activated": 0,
+  "review_status_counts": {
+    "archive": 96,
+    "program_tentative": 20,
+    "not_reviewed": 20,
+    "program": 9,
+    "conditional_review_or_exclusion": 4,
+    "ambiguous": 1
+  },
+  "proposed_categories_if_all_used": {
+    "plastic": 32,
+    "paper": 23,
+    "electronic": 17,
+    "glass": 13,
+    "cardboard": 12,
+    "textile": 4,
+    "metal": 3,
+    "foodwaste": 1
+  },
+  "classes_exceeding_five_if_all_used": {
+    "plastic": 32,
+    "paper": 23,
+    "electronic": 17,
+    "glass": 13,
+    "cardboard": 12
+  },
+  "page_2_not_reviewed_by_user": true,
+  "active_data_modified": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "f6b1334e6c56795a669d14bd6dfd51df69b1fd43fb2dc0f75a5e044025f47768",
+    "data/preprocessing_inputs.npz": "da3024d9e4dcbc20fa08e5a08f36b265033428b06e82588e854a49556f01631c",
+    "final-submit/DSC2026_Notebook.ipynb": "9b185e3462b4056a459552658bd0a7ad79a2fec7ce2cf156e3ee7656c74fa279"
+  }
+}

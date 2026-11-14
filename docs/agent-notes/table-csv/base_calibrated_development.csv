@@ -1,0 +1,7 @@
+threshold,covered,correct,development_selective_precision,eligible
+0.7,19,14,0.7368421052631579,False
+0.8,15,12,0.8,False
+0.9,10,8,0.8,False
+0.95,8,7,0.875,False
+0.98,6,5,0.8333333333333334,False
+0.995,3,2,0.6666666666666666,False

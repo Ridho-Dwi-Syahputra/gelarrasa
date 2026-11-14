@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-11-07T15:07:18.143039+00:00",
+  "selection": "highest34anchor grouped development balancedrecall among predeclared feature probes;not private review count",
+  "candidates": [
+    {
+      "prefix": "detector_primary",
+      "development_balanced_recall": 0.6333333333333333,
+      "anchor_matches": 20,
+      "accepted": true,
+      "new_changes": 10,
+      "frozen_sha256": "1c4ce7ffccdf4a7e362328c58d24db6a986c87f46eba46f8e23cd4d2250d48e6"
+    },
+    {
+      "prefix": "focus_primary",
+      "development_balanced_recall": 0.6083333333333333,
+      "anchor_matches": 19,
+      "accepted": true,
+      "new_changes": 16,
+      "frozen_sha256": "d7500c3533d90b0768ed90a941a2e5eb844715b55e3d4b4f7ac50d76fcf7860c"
+    },
+    {
+      "prefix": "vit_svm",
+      "development_balanced_recall": 0.5333333333333333,
+      "anchor_matches": 16,
+      "accepted": false,
+      "new_changes": 0,
+      "frozen_sha256": "cb314060f29cef29cbff27684193827371c344217eda0d4749623581e1da307f"
+    }
+  ],
+  "winner": "detector_primary",
+  "private_review_read_for_selection": false
+}

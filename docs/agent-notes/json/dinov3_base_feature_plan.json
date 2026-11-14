@@ -1,0 +1,29 @@
+{
+  "method": "DINOv3Base_imageonly_train_descriptors_v1",
+  "source": {
+    "repository": "timm/vit_base_patch16_dinov3.lvd1689m",
+    "revision": "c6a5fb7d12bbd3cf3b0079253141c3332aaed7da",
+    "gated": false,
+    "model": "vit_base_patch16_dinov3.lvd1689m",
+    "license": "dinov3-license",
+    "model_card": "https://huggingface.co/timm/vit_base_patch16_dinov3.lvd1689m",
+    "image_only": true,
+    "downloaded_python_executed": false,
+    "external_images_added": false,
+    "source_pretraining_image_overlap_unknown": true,
+    "checkpoint_sha256": "1f9ed8a2378d65e24bb710ba522ac9fa7be4e036d7aefb4384ce022833926332"
+  },
+  "train_rows": 1904,
+  "test_rows": 0,
+  "held_rows": 0,
+  "manual_labels_read": false,
+  "preprocess": "EXIFRGB,256aspectpreservingletterboxRGB124/116/104,bicubic,modelmeanstd",
+  "descriptor": "L2CLS,L2validpatchmean,L2softobjectpatchmean,L2softobjectpatchstd;3072",
+  "object_prior": "validfraction*(.1+.9frozenYOLOobjectfraction);fallbackwholevalidregion;notsegmentationtruth",
+  "RoPE": "roundinstalledfloat32periodstobfloat16thenfloat32,asmodelcardreferencecompatibilitynote",
+  "batch_size": 2,
+  "threads": 4,
+  "model_load": "localinstalledarchitecture,strictnumericstatekeys,assign=True;noindependentofficialforwardparityclaim",
+  "localization_sha256": "c6f3835510e86fe168c7e319567a5be4913a7ae362b4e42d6ea1cbdd39615935",
+  "source_code_sha256": "295f3277df57927d4785a6b70c09fe4fe43d88170168f52b11fa3d0281afd00a"
+}

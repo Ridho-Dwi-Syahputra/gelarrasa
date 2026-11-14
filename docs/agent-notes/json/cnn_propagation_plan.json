@@ -1,0 +1,87 @@
+{
+  "method": "train_only_cnn_object_ViT_knn_label_propagation_v1",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "held_sources_excluded": [
+    "train:1662",
+    "train:1885"
+  ],
+  "human_sources": 34,
+  "human_class_counts": {
+    "plastic": 5,
+    "paper": 5,
+    "electronic": 5,
+    "glass": 5,
+    "textile": 5,
+    "cardboard": 5,
+    "metal": 3,
+    "foodwaste": 1
+  },
+  "new_human_labels": 0,
+  "source_feature_sha256": "8ec09d3083a45415149cd4bbbf131b4c281da4ed1cd3c41bf0feb88c8e47388a",
+  "group_manifest_sha256": "0adf54a9470aef171091f3327a5c97f4dc01d073f81d5af2a70cd45d390ae396",
+  "localisation_feature_sha256": null,
+  "feature_mode": "cnn",
+  "source_qna": "https://padlet.com/gelarrasa/qna-data-science-competition-gelar-rasa-2026-s023u77x9kd3f0kznkvk/wish/kxodWG5OBD7gQgP7",
+  "source_qna_reply_utc": "2026-11-07T13:25:19.146Z",
+  "targets": "only cold automatic-consensus core and34budgeted human sources",
+  "source_taxonomy_probabilities": "numeric features only,no manual12-to8mapping and no direct pretrained-to-test use",
+  "banks": {
+    "cnn": 768,
+    "cnn_base": 1536,
+    "cnn_base_roi": 2304,
+    "cnn_base_vit": 2304
+  },
+  "configs": [
+    {
+      "neighbors": 3,
+      "human_weight": 8.0
+    },
+    {
+      "neighbors": 3,
+      "human_weight": 32.0
+    },
+    {
+      "neighbors": 7,
+      "human_weight": 8.0
+    },
+    {
+      "neighbors": 7,
+      "human_weight": 32.0
+    },
+    {
+      "neighbors": 15,
+      "human_weight": 8.0
+    },
+    {
+      "neighbors": 15,
+      "human_weight": 32.0
+    }
+  ],
+  "selection": "per-bank best balanced recall on34five-source-group-fold development anchors; tie keeps config order",
+  "knn_temperature": 0.07,
+  "graph_banks": [
+    "cnn",
+    "cnn_base",
+    "cnn_base_roi"
+  ],
+  "graph": {
+    "neighbors": 20,
+    "alpha": 0.98,
+    "iterations": 1500,
+    "human_seeds_clamped": true,
+    "automatic_priors_not_clamped": true
+  },
+  "acceptance": ">=3/4kNNbanks agree,hybridandonevisualbankagree;>=2/3graphsagree;cosine>=.65andcategorymargin>=.01towardhumananchorsin>=2banks;protect earlierrefinements",
+  "guard": "pooled34anchor matches>=16,balancedrecall>=.525,<=50newcategories;otherwise no changes accepted",
+  "evaluation_limit": "development anchors reused for configuration choice;graph sees allTRAIN and is not independent validation",
+  "automatic_core_filter": null,
+  "previous_automatic_refinement_policy": "may change only under4/4bank,3/3graphand>=3localitysupport;humanalwaysprotected",
+  "unselected_review_or_archive_labels_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "1d4dd9c8c0d58d6ad0bd5d7852f3f6d567f6a727095f05f5f1713f4aa38b3948",
+    "data/preprocessing_inputs.npz": "13650e3901f8ee94143b487205a0c8265cedb7d16d10612228e961f8bdc6633a",
+    "final-submit/DSC2026_Notebook.ipynb": "3069e9b8562b775529737e816426147aaa35bbd22e32316e7ba135aa71238990"
+  },
+  "source_code_sha256": "dae1e08bc6b9c005cf700a3e75c55b88bf2bebafcad5560f54391b52eeeb6c3e"
+}

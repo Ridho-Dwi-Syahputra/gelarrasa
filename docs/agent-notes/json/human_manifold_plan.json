@@ -1,0 +1,80 @@
+{
+  "method": "human_source_only_kernel_and_manifold_v1",
+  "targets": "ONLY existing34participant_source_labels;no automatic categories as targets",
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "banks": [
+    "base_global",
+    "base_regional",
+    "cnn_base"
+  ],
+  "svm": [
+    {
+      "kernel": "linear",
+      "C": 1.0,
+      "views": 1
+    },
+    {
+      "kernel": "linear",
+      "C": 1.0,
+      "views": 8
+    },
+    {
+      "kernel": "rbf",
+      "C": 10.0,
+      "views": 1
+    },
+    {
+      "kernel": "rbf",
+      "C": 10.0,
+      "views": 8
+    }
+  ],
+  "rbf_gamma": 4.0,
+  "svm_scores": "softmax(OVRdecision/.5),uncalibrated",
+  "manifold": [
+    {
+      "neighbors": 10,
+      "alpha": 0.95
+    },
+    {
+      "neighbors": 10,
+      "alpha": 0.995
+    },
+    {
+      "neighbors": 30,
+      "alpha": 0.95
+    },
+    {
+      "neighbors": 30,
+      "alpha": 0.995
+    }
+  ],
+  "manifold_edges": "symmetrizedpositivecosine^8,normalizedLaplacian",
+  "manifold_targets": "1/class_human_count;hardclamp;no expected dataset class proportions",
+  "manifold_query": "20trainnearestneighbors,softmaxcosine/.07weightedprobabilities",
+  "folds": "fiveexistinggeometrysourcegroups;outerqueryNOTingraph;allsourceviewsheldout",
+  "normalizer": "centeringonouterTRAINonlythenrowL2",
+  "selection": "maximum34developmentbalancedrecall,thenmatches,thenlistedorder",
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "threshold_selection": "maximumcoveragewith>=10coveredand>=.9precision;tiesstricter",
+  "guard": ">=25/34andmacro>.75+1e-12andthresholdexists",
+  "acceptance": "learnedthresholdand>=2of3independentfeaturebankbestheadsagree;humanprotected",
+  "maximum_changes": 40,
+  "cap": "confidence descending,stablekeyorder",
+  "private_review_or_archive_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "6db0e84be90172d67b7c5541e057802e1c9688ba217a405c52540460e96b0f86",
+    "data/preprocessing_inputs.npz": "6ad17a7cc1d3dc07e39804388b0b9c08ffb7d76d1f47766119af16493924124c",
+    "final-submit/DSC2026_Notebook.ipynb": "323352f3735b843eebb9ce64eccb24d2101cc39617ea8c32aec3defc47832cfa"
+  },
+  "evaluation_limit": "Repeated34developmentselection;notindependentAccuracy.Foodwastehasonehuman source,sothefoldholdingitoutcannotlearnthatclass.",
+  "source_code_sha256": "fcf2f695fac3ab0dd9d0559816d7555799f4322a0a249bc80825bf0cbff32bbe"
+}

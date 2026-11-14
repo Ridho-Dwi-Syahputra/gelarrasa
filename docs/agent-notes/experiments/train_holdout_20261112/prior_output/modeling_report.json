@@ -1,0 +1,148 @@
+{
+  "metric_scope": "grouped_agreement_with_automatic_train_targets_not_official_accuracy",
+  "seed": 20261106,
+  "folds": 5,
+  "train_samples": 1887,
+  "test_samples": 480,
+  "training_view": "eligible_full_frame_only",
+  "crop_views_used_for_classifier": 0,
+  "device": "cpu",
+  "source_groups": 1760,
+  "excluded_train_sources": 19,
+  "manual_seed_count": 35,
+  "encoder": "vit_small_patch14_dinov2.lvd142m",
+  "encoder_checkpoint_sha256": "04d27f3400d059fc0cfd7d17dd1909a75bf3ea8fb3eeb48b97cb99e57ee20081",
+  "embedding_identity": "e3a3f85717e861cfccd417366405936c58a573cd6a9f57bca2b6c7d4c1aaeffd",
+  "embedding_cache_sha256": "9bef2d4665eafd0a4b61b72f75d75bc272594f4014d1d01ad901c02661fa9a6d",
+  "oof_metrics": [
+    {
+      "model": "dino_logistic",
+      "pseudo_oof_agreement": 0.9268680445151033,
+      "pseudo_oof_macro_f1": 0.9274050927238896,
+      "pseudo_oof_balanced_accuracy": 0.9273753972594649,
+      "reviewed_seed_agreement_contaminated": 0.6
+    },
+    {
+      "model": "dino_svm_rbf",
+      "pseudo_oof_agreement": 0.9401165871754107,
+      "pseudo_oof_macro_f1": 0.9409957604608663,
+      "pseudo_oof_balanced_accuracy": 0.9410470714868705,
+      "reviewed_seed_agreement_contaminated": 0.7142857142857143
+    },
+    {
+      "model": "dino_knn7",
+      "pseudo_oof_agreement": 0.9210386857445682,
+      "pseudo_oof_macro_f1": 0.9217016175523493,
+      "pseudo_oof_balanced_accuracy": 0.9220491177825829,
+      "reviewed_seed_agreement_contaminated": 0.6285714285714286
+    },
+    {
+      "model": "dino_hsv_nested",
+      "pseudo_oof_agreement": 0.940646528881823,
+      "pseudo_oof_macro_f1": 0.941332276751303,
+      "pseudo_oof_balanced_accuracy": 0.9414362016219684,
+      "metric_scope": "nested grouped agreement with program-generated train targets, not official accuracy"
+    }
+  ],
+  "submission_files": [
+    {
+      "model": "dino_logistic",
+      "path": "final-submit/output/submission_001_dino_logistic.csv",
+      "sha256": "d99d33b9646faf21d7836453a9582288c354ea4d49cc1ce34e7accd633a525bc",
+      "label_vector_sha256": "c1ae7ab7cd81fcfd9d4a61e79b871a0aa83567eae5b89b33684e8ff59e56a5ce",
+      "class_counts": {
+        "glass": 70,
+        "paper": 53,
+        "electronic": 56,
+        "metal": 60,
+        "plastic": 56,
+        "cardboard": 59,
+        "textile": 63,
+        "foodwaste": 63
+      }
+    },
+    {
+      "model": "dino_svm_rbf",
+      "path": "final-submit/output/submission_002_dino_svm_rbf.csv",
+      "sha256": "c037231295dbe0bbf9810d0290a94a21e580bb0fe5d63058514fa9c645170e4b",
+      "label_vector_sha256": "ae7cc86fe41ccb90d6fc5be8d14a3131e96c5d7898b22b6402e73a579d9d85d9",
+      "class_counts": {
+        "glass": 69,
+        "paper": 56,
+        "electronic": 58,
+        "metal": 57,
+        "plastic": 56,
+        "cardboard": 60,
+        "textile": 64,
+        "foodwaste": 60
+      }
+    },
+    {
+      "model": "dino_knn7",
+      "path": "final-submit/output/submission_003_dino_knn7.csv",
+      "sha256": "bc83a23a06342f08eee8c1787bcab3967c7adbceac36e5b708384b649cad8dfd",
+      "label_vector_sha256": "2511bc248b28c49e7e02beb9b3cd1fa52690cf42392046e97c41ba7a7a703c13",
+      "class_counts": {
+        "glass": 61,
+        "paper": 61,
+        "electronic": 59,
+        "metal": 58,
+        "plastic": 56,
+        "cardboard": 61,
+        "textile": 64,
+        "foodwaste": 60
+      }
+    },
+    {
+      "model": "dino_hsv_rbf",
+      "path": "final-submit/output/submission_004_dino_hsv_svm.csv",
+      "sha256": "c037231295dbe0bbf9810d0290a94a21e580bb0fe5d63058514fa9c645170e4b",
+      "label_vector_sha256": "ae7cc86fe41ccb90d6fc5be8d14a3131e96c5d7898b22b6402e73a579d9d85d9",
+      "class_counts": {
+        "glass": 69,
+        "paper": 56,
+        "electronic": 58,
+        "metal": 57,
+        "plastic": 56,
+        "cardboard": 60,
+        "textile": 64,
+        "foodwaste": 60
+      },
+      "train_samples": 1887,
+      "color_feature": "HSV 16-bin histogram per channel",
+      "color_weight": 0.0,
+      "selection": "nested StratifiedGroupKFold on train only",
+      "test_used_for_fit_or_weight_selection": false
+    }
+  ],
+  "pairwise_test_disagreements": {
+    "dino_logistic_vs_dino_svm_rbf": 17,
+    "dino_logistic_vs_dino_knn7": 33,
+    "dino_svm_rbf_vs_dino_knn7": 28
+  },
+  "official_accuracy": null,
+  "color_feature_experiment": {
+    "nested_metrics": {
+      "dino_only": {
+        "agreement": 0.9401165871754107,
+        "macro_f1": 0.9409957604608663,
+        "balanced_accuracy": 0.9410470714868705
+      },
+      "dino_hsv_nested": {
+        "agreement": 0.940646528881823,
+        "macro_f1": 0.941332276751303,
+        "balanced_accuracy": 0.9414362016219684
+      }
+    },
+    "selected_color_weights_by_outer_fold": [
+      0.1,
+      0.0,
+      0.1,
+      0.0,
+      0.2
+    ],
+    "final_color_weight": 0.0,
+    "test_rows_in_training_or_selection": 0,
+    "candidate_differences_from_dino_svm": 0
+  }
+}

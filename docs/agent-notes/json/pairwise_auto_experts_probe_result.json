@@ -1,0 +1,13 @@
+{
+  "status": "diagnostic_only",
+  "best": {
+    "threshold": 0.8,
+    "matches": 27,
+    "macro": 0.825,
+    "routes": 3,
+    "correct_routes": 1,
+    "guard": false
+  },
+  "passing": 0,
+  "seconds": 23.5
+}

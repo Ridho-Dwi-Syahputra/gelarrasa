@@ -1,0 +1,285 @@
+{
+  "target_file": "docs\\submission_ (1).csv",
+  "target_sha256": "3eaf904ecd0f580cb48e8e76c4364cea0053746e352496543256503aeaa9f513",
+  "run_submission": "final-submit\\ekperimen-kaggle\\tahap 1\\gelarrasa_run\\DSC2026_Submission.csv",
+  "comparison_rows": 480,
+  "ensemble_differences": 270,
+  "ensemble_matches": 210,
+  "models": [
+    {
+      "model": "resnet50",
+      "same_as_target": 217,
+      "different_from_target": 263,
+      "agreement_percent": 45.2083,
+      "mean_confidence_on_different": 0.6452639606463877,
+      "different_with_confidence_ge_0_8": 74
+    },
+    {
+      "model": "efficientnet_v2_s",
+      "same_as_target": 211,
+      "different_from_target": 269,
+      "agreement_percent": 43.9583,
+      "mean_confidence_on_different": 0.66441869,
+      "different_with_confidence_ge_0_8": 89
+    },
+    {
+      "model": "convnext_small",
+      "same_as_target": 213,
+      "different_from_target": 267,
+      "agreement_percent": 44.375,
+      "mean_confidence_on_different": 0.6812298519475655,
+      "different_with_confidence_ge_0_8": 104
+    },
+    {
+      "model": "swin_v2_t",
+      "same_as_target": 210,
+      "different_from_target": 270,
+      "agreement_percent": 43.75,
+      "mean_confidence_on_different": 0.6870529435555556,
+      "different_with_confidence_ge_0_8": 101
+    },
+    {
+      "model": "ensemble",
+      "same_as_target": 210,
+      "different_from_target": 270,
+      "agreement_percent": 43.75,
+      "mean_confidence_on_different": 0.6110743886296296,
+      "different_with_confidence_ge_0_8": 59
+    }
+  ],
+  "classes": [
+    {
+      "target_class": "cardboard",
+      "target_count": 60,
+      "ensemble_count": 93,
+      "same": 49,
+      "different": 11
+    },
+    {
+      "target_class": "electronic",
+      "target_count": 60,
+      "ensemble_count": 50,
+      "same": 8,
+      "different": 52
+    },
+    {
+      "target_class": "foodwaste",
+      "target_count": 60,
+      "ensemble_count": 35,
+      "same": 26,
+      "different": 34
+    },
+    {
+      "target_class": "glass",
+      "target_count": 60,
+      "ensemble_count": 42,
+      "same": 25,
+      "different": 35
+    },
+    {
+      "target_class": "metal",
+      "target_count": 60,
+      "ensemble_count": 11,
+      "same": 2,
+      "different": 58
+    },
+    {
+      "target_class": "paper",
+      "target_count": 61,
+      "ensemble_count": 53,
+      "same": 21,
+      "different": 40
+    },
+    {
+      "target_class": "plastic",
+      "target_count": 60,
+      "ensemble_count": 136,
+      "same": 50,
+      "different": 10
+    },
+    {
+      "target_class": "textile",
+      "target_count": 59,
+      "ensemble_count": 60,
+      "same": 29,
+      "different": 30
+    }
+  ],
+  "most_common_difference_pairs": [
+    {
+      "target": "textile",
+      "ensemble": "plastic",
+      "count": 27
+    },
+    {
+      "target": "foodwaste",
+      "ensemble": "textile",
+      "count": 24
+    },
+    {
+      "target": "metal",
+      "ensemble": "electronic",
+      "count": 24
+    },
+    {
+      "target": "electronic",
+      "ensemble": "cardboard",
+      "count": 23
+    },
+    {
+      "target": "paper",
+      "ensemble": "plastic",
+      "count": 22
+    },
+    {
+      "target": "metal",
+      "ensemble": "plastic",
+      "count": 20
+    },
+    {
+      "target": "glass",
+      "ensemble": "electronic",
+      "count": 15
+    },
+    {
+      "target": "paper",
+      "ensemble": "cardboard",
+      "count": 14
+    },
+    {
+      "target": "glass",
+      "ensemble": "plastic",
+      "count": 12
+    },
+    {
+      "target": "electronic",
+      "ensemble": "paper",
+      "count": 11
+    },
+    {
+      "target": "electronic",
+      "ensemble": "metal",
+      "count": 9
+    },
+    {
+      "target": "metal",
+      "ensemble": "glass",
+      "count": 7
+    }
+  ],
+  "all_four_models_differ_from_target": 199,
+  "ensemble_differs_but_at_least_one_model_matches": 71,
+  "ensemble_matches_despite_at_least_one_model_differing": 57,
+  "model_support_histogram": {
+    "0": 199,
+    "1": 54,
+    "2": 37,
+    "3": 37,
+    "4": 153
+  },
+  "train_population_comparison": {
+    "active_full_frame_rows": 1879,
+    "active_crop_rows": 7,
+    "old_train_rows_considered": 1920,
+    "old_eligible": 1690,
+    "old_excluded": 230,
+    "shared_active_full_frames": 1879,
+    "shared_rows_same_label": 708,
+    "shared_rows_different_label": 1171,
+    "old_included_and_active_full_frame": 1650,
+    "old_included_same_label": 662,
+    "old_included_different_label": 988,
+    "active_full_frames_filtered_out_by_old_confidence": 229,
+    "old_included_outside_active_full_frame": 40,
+    "old_eligible_class_counts": {
+      "plastic": 521,
+      "cardboard": 344,
+      "foodwaste": 198,
+      "textile": 178,
+      "electronic": 153,
+      "paper": 140,
+      "glass": 117,
+      "metal": 39
+    },
+    "active_class_counts": {
+      "textile": 257,
+      "plastic": 249,
+      "cardboard": 247,
+      "glass": 246,
+      "metal": 233,
+      "foodwaste": 232,
+      "paper": 224,
+      "electronic": 198
+    }
+  },
+  "final_history": [
+    {
+      "model": "resnet50",
+      "epochs": 21,
+      "head_epochs": 3,
+      "finetune_epochs": 18,
+      "best_train_metric_epoch": 18,
+      "final_epoch_train_loss": 0.2559022149420668,
+      "best_reported_train_macro_f1": 0.9038513742448816,
+      "validation_columns_equal_train": true
+    },
+    {
+      "model": "efficientnet_v2_s",
+      "epochs": 21,
+      "head_epochs": 3,
+      "finetune_epochs": 18,
+      "best_train_metric_epoch": 16,
+      "final_epoch_train_loss": 0.255970863118614,
+      "best_reported_train_macro_f1": 0.8927291293396366,
+      "validation_columns_equal_train": true
+    },
+    {
+      "model": "convnext_small",
+      "epochs": 21,
+      "head_epochs": 3,
+      "finetune_epochs": 18,
+      "best_train_metric_epoch": 21,
+      "final_epoch_train_loss": 0.2359322646709712,
+      "best_reported_train_macro_f1": 0.9199686445260562,
+      "validation_columns_equal_train": true
+    },
+    {
+      "model": "swin_v2_t",
+      "epochs": 21,
+      "head_epochs": 3,
+      "finetune_epochs": 18,
+      "best_train_metric_epoch": 17,
+      "final_epoch_train_loss": 0.25701048886993,
+      "best_reported_train_macro_f1": 0.8921879491032262,
+      "validation_columns_equal_train": true
+    }
+  ],
+  "oof_proxy": [
+    {
+      "model": "convnext_small",
+      "mean": 0.6698224852071006,
+      "sum": 1132,
+      "count": 1690
+    },
+    {
+      "model": "efficientnet_v2_s",
+      "mean": 0.6579881656804734,
+      "sum": 1112,
+      "count": 1690
+    },
+    {
+      "model": "resnet50",
+      "mean": 0.6147928994082841,
+      "sum": 1039,
+      "count": 1690
+    },
+    {
+      "model": "swin_v2_t",
+      "mean": 0.6579881656804734,
+      "sum": 1112,
+      "count": 1690
+    }
+  ],
+  "diagnostic_only": true,
+  "training_or_test_predictions_changed": false
+}

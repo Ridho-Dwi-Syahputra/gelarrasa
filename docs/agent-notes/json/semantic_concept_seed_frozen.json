@@ -1,0 +1,591 @@
+{
+  "method": "genuine_seed_source_concept_visual_propagation_v1",
+  "human_seed_file": "table-csv\\review_revision_seeds.csv",
+  "human_seed_sha256": "7fc1d7162994b7785db9412d06a9c73863e4538ad9d2001d4a4e2a58771a9436",
+  "manual_unique_source_images_used": 34,
+  "manual_class_counts": {
+    "plastic": 5,
+    "paper": 5,
+    "electronic": 5,
+    "glass": 5,
+    "textile": 5,
+    "cardboard": 5,
+    "metal": 3,
+    "foodwaste": 1
+  },
+  "eligible_fit_train_rows": 1904,
+  "excluded_hold_keys": [
+    "train:1662",
+    "train:1885"
+  ],
+  "test_rows_in_fit": 0,
+  "all_review_inventory_read_in_fit": false,
+  "archive_annotations_read_in_fit": false,
+  "families": [
+    {
+      "candidate": "dino2_linear_gNone_c1.0",
+      "bank": "dino2",
+      "config": {
+        "kind": "svm",
+        "kernel": "linear",
+        "gamma": null,
+        "C": 1.0
+      },
+      "corroborated_program_core_macro_agreement": 0.9855638395025896,
+      "oof_flip_agreement": 0.996031746031746,
+      "selection_score": 0.9907977927671678,
+      "index": 1,
+      "changes_vs_program": 118
+    },
+    {
+      "candidate": "dino2_local_knn7",
+      "bank": "dino2_local",
+      "config": {
+        "kind": "knn",
+        "neighbors": 7
+      },
+      "corroborated_program_core_macro_agreement": 0.9855112255698942,
+      "oof_flip_agreement": 1.0,
+      "selection_score": 0.9927556127849471,
+      "index": 15,
+      "changes_vs_program": 122
+    },
+    {
+      "candidate": "dino3_global_knn21",
+      "bank": "dino3_global",
+      "config": {
+        "kind": "knn",
+        "neighbors": 21
+      },
+      "corroborated_program_core_macro_agreement": 0.9857251359329368,
+      "oof_flip_agreement": 0.996031746031746,
+      "selection_score": 0.9908784409823415,
+      "index": 25,
+      "changes_vs_program": 112
+    },
+    {
+      "candidate": "dino3_foreground_rbf_g4.0_c1.0",
+      "bank": "dino3_foreground",
+      "config": {
+        "kind": "svm",
+        "kernel": "rbf",
+        "gamma": 4.0,
+        "C": 1.0
+      },
+      "corroborated_program_core_macro_agreement": 0.9886421348390174,
+      "oof_flip_agreement": 1.0,
+      "selection_score": 0.9943210674195087,
+      "index": 30,
+      "changes_vs_program": 109
+    },
+    {
+      "candidate": "dino3_task8_linear_gNone_c1.0",
+      "bank": "dino3_task8",
+      "config": {
+        "kind": "svm",
+        "kernel": "linear",
+        "gamma": null,
+        "C": 1.0
+      },
+      "corroborated_program_core_macro_agreement": 0.9918700113804959,
+      "oof_flip_agreement": 0.996031746031746,
+      "selection_score": 0.993950878706121,
+      "index": 37,
+      "changes_vs_program": 105
+    }
+  ],
+  "prior_weight_regimes": [
+    1.0,
+    0.05
+  ],
+  "human_weight": 32.0,
+  "lighting_pseudo_weight": 4.0,
+  "classifier_folds": 5,
+  "graph_neighbors": 20,
+  "graph_alpha": 0.98,
+  "gate": "same new category in both prior regimes; >=4/5 classifiers and >=2/3 graphs, or >=3/5 and3/3; cosine>=.6 to same-category human anchor in>=2 banks",
+  "configuration_selection": "fixed before fitting, no choice by agreement with unselected reviews",
+  "validation_limit": "34reuseddevelopment,smallpartialcoverage;sourceconceptcancontainmixedmaterials;allnewpseudolabelsunverified",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "793ec13771349ca9d340f99275a1df8f5cc2a4da21f0065194339d421019953a",
+    "data/preprocessing_inputs.npz": "0b906100c3c7084bbb2a0ee5847ecbd855f229496db3b354199b09bb6df001b0",
+    "final-submit/DSC2026_Notebook.ipynb": "9f0824f4bb0efe4147b0f273f0a178e2f569f3424b165e8c4e28354ce4cdcc6f"
+  },
+  "source_code_sha256": "bdcb726f81498982b39b0fb3ca71967b3ff9f2079b201195f5b7333fdb74d365",
+  "status": "frozen_before_private_source_concept_seed_audit",
+  "prediction_sha256": "74b4b64e0fc570fe41c887d3a09df8ff19f9cb3b2f31e6a5c7ec462516ddd58e",
+  "train_rows": 1906,
+  "changed_rows_vs_baseline": 11,
+  "new_algorithmic_changes": 9,
+  "cumulative_changes_vs_initial_program": 217,
+  "lighting_rows": 12,
+  "stable_automatic_propagation_rows": 19,
+  "extra_cluster_rows": 7,
+  "weak_lighting_rows_restored": 0,
+  "unstable_proposals_not_applied": 5,
+  "human_leave_source_group_out_matches": 26,
+  "human_holdout_rows": 34,
+  "semantic_accuracy": null,
+  "active_data_modified": false,
+  "seconds": 2.4467647075653076,
+  "cluster_plan_sha256": "453842d30ab3073685be4187ed10384ba4926766951f458fedbeb1df6d5cea02",
+  "new_cluster_changes": 1,
+  "rejected_probe": "anchor-only material diffusion; insufficient leave-source-group-out performance; no predictions used",
+  "source_counts": {
+    "iterative_program_refinement_snapshot": 1627,
+    "vit_knn_label_propagation_snapshot": 192,
+    "participant_reviewed_seed": 34,
+    "bounded_anchor_stable_consensus_snapshot": 19,
+    "two_view_lighting_ontology_snapshot": 12,
+    "human_seed_source_concept_snapshot": 11,
+    "bounded_anchor_cluster_consensus_snapshot": 7,
+    "robust_neural_assignment_snapshot": 4
+  },
+  "cluster_configurations": [
+    {
+      "bank": "dino2",
+      "k": 32,
+      "clusters_supported_by_two_consistent_anchors": 3
+    },
+    {
+      "bank": "dino2",
+      "k": 64,
+      "clusters_supported_by_two_consistent_anchors": 3
+    },
+    {
+      "bank": "dino2",
+      "k": 128,
+      "clusters_supported_by_two_consistent_anchors": 2
+    },
+    {
+      "bank": "dino3_global",
+      "k": 32,
+      "clusters_supported_by_two_consistent_anchors": 2
+    },
+    {
+      "bank": "dino3_global",
+      "k": 64,
+      "clusters_supported_by_two_consistent_anchors": 3
+    },
+    {
+      "bank": "dino3_global",
+      "k": 128,
+      "clusters_supported_by_two_consistent_anchors": 2
+    },
+    {
+      "bank": "dino3_task8",
+      "k": 32,
+      "clusters_supported_by_two_consistent_anchors": 2
+    },
+    {
+      "bank": "dino3_task8",
+      "k": 64,
+      "clusters_supported_by_two_consistent_anchors": 4
+    },
+    {
+      "bank": "dino3_task8",
+      "k": 128,
+      "clusters_supported_by_two_consistent_anchors": 7
+    }
+  ],
+  "human_diagnostic_protocol": "34reuseddevelopment,smallpartialcoverage;sourceconceptcancontainmixedmaterials;allnewpseudolabelsunverified",
+  "objective_development": [
+    {
+      "objective": "CE",
+      "matches": 14,
+      "balanced_recall": 0.5
+    },
+    {
+      "objective": "GCE",
+      "matches": 15,
+      "balanced_recall": 0.525
+    }
+  ],
+  "selected_objective": "GCE",
+  "robust_plan_sha256": "93ae1b57ec63938c5af13de282f23aebce4e4758c1106ed675fc9d2e4dee7f96",
+  "geometry_source_groups": {
+    "old_groups": 1870,
+    "new_groups": 1777,
+    "accepted_edges_sha256": "6f34c12e527c0458a82ed5ffbd4007fc4e51c4ab013eaf8455ce4934e4046305",
+    "group_manifest_sha256": "0adf54a9470aef171091f3327a5c97f4dc01d073f81d5af2a70cd45d390ae396",
+    "fold_stratification_labels": "cold automatic labels,not human review"
+  },
+  "neural_proposals": 5,
+  "accepted_by_development_guard": true,
+  "new_neural_changes": 0,
+  "development_balanced_recall": 0.7833333333333333,
+  "selected_knn_heads": [],
+  "graph_history": [
+    {
+      "bank": "base_cls",
+      "iterations": 338,
+      "delta": 9.5367431640625e-07
+    },
+    {
+      "bank": "base_local",
+      "iterations": 338,
+      "delta": 9.5367431640625e-07
+    },
+    {
+      "bank": "base_vit",
+      "iterations": 342,
+      "delta": 9.5367431640625e-07
+    }
+  ],
+  "vit_plan_sha256": "d83a0572f25f306851f49952e7bb38d397e66228905b9e86c21ed4bdd7a0e883",
+  "source_feature_sha256": "e9264b57c78c39cb2a40d555677d8d1edc4b072e1a556ae08f753a06fade39c6",
+  "feature_mode": "dinov3_base",
+  "localisation_feature_sha256": "c6f3835510e86fe168c7e319567a5be4913a7ae362b4e42d6ea1cbdd39615935",
+  "automatic_fit_filter_history": {
+    "base_cls:queryfold0": {
+      "before": 1086,
+      "excluded_automatic": 5,
+      "human_retained": 27,
+      "class_counts_after": {
+        "glass": 138,
+        "paper": 162,
+        "electronic": 90,
+        "metal": 111,
+        "plastic": 158,
+        "cardboard": 144,
+        "textile": 177,
+        "foodwaste": 101
+      }
+    },
+    "base_cls:queryfold1": {
+      "before": 1053,
+      "excluded_automatic": 8,
+      "human_retained": 30,
+      "class_counts_after": {
+        "glass": 133,
+        "paper": 167,
+        "electronic": 91,
+        "metal": 110,
+        "plastic": 159,
+        "cardboard": 124,
+        "textile": 167,
+        "foodwaste": 94
+      }
+    },
+    "base_cls:queryfold2": {
+      "before": 1068,
+      "excluded_automatic": 6,
+      "human_retained": 30,
+      "class_counts_after": {
+        "glass": 132,
+        "paper": 149,
+        "electronic": 94,
+        "metal": 114,
+        "plastic": 161,
+        "cardboard": 131,
+        "textile": 178,
+        "foodwaste": 103
+      }
+    },
+    "base_cls:queryfold3": {
+      "before": 1073,
+      "excluded_automatic": 4,
+      "human_retained": 24,
+      "class_counts_after": {
+        "glass": 136,
+        "paper": 154,
+        "electronic": 102,
+        "metal": 121,
+        "plastic": 149,
+        "cardboard": 146,
+        "textile": 167,
+        "foodwaste": 94
+      }
+    },
+    "base_cls:queryfold4": {
+      "before": 1076,
+      "excluded_automatic": 5,
+      "human_retained": 25,
+      "class_counts_after": {
+        "glass": 137,
+        "paper": 153,
+        "electronic": 87,
+        "metal": 113,
+        "plastic": 159,
+        "cardboard": 147,
+        "textile": 175,
+        "foodwaste": 100
+      }
+    },
+    "base_local:queryfold0": {
+      "before": 1086,
+      "excluded_automatic": 6,
+      "human_retained": 27,
+      "class_counts_after": {
+        "glass": 138,
+        "paper": 162,
+        "electronic": 90,
+        "metal": 110,
+        "plastic": 158,
+        "cardboard": 144,
+        "textile": 177,
+        "foodwaste": 101
+      }
+    },
+    "base_local:queryfold1": {
+      "before": 1053,
+      "excluded_automatic": 16,
+      "human_retained": 30,
+      "class_counts_after": {
+        "glass": 133,
+        "paper": 166,
+        "electronic": 91,
+        "metal": 108,
+        "plastic": 154,
+        "cardboard": 124,
+        "textile": 167,
+        "foodwaste": 94
+      }
+    },
+    "base_local:queryfold2": {
+      "before": 1068,
+      "excluded_automatic": 13,
+      "human_retained": 30,
+      "class_counts_after": {
+        "glass": 132,
+        "paper": 148,
+        "electronic": 94,
+        "metal": 113,
+        "plastic": 156,
+        "cardboard": 131,
+        "textile": 178,
+        "foodwaste": 103
+      }
+    },
+    "base_local:queryfold3": {
+      "before": 1073,
+      "excluded_automatic": 12,
+      "human_retained": 24,
+      "class_counts_after": {
+        "glass": 136,
+        "paper": 153,
+        "electronic": 102,
+        "metal": 119,
+        "plastic": 144,
+        "cardboard": 146,
+        "textile": 167,
+        "foodwaste": 94
+      }
+    },
+    "base_local:queryfold4": {
+      "before": 1076,
+      "excluded_automatic": 12,
+      "human_retained": 25,
+      "class_counts_after": {
+        "glass": 137,
+        "paper": 153,
+        "electronic": 87,
+        "metal": 113,
+        "plastic": 152,
+        "cardboard": 147,
+        "textile": 175,
+        "foodwaste": 100
+      }
+    },
+    "base_vit:queryfold0": {
+      "before": 1086,
+      "excluded_automatic": 17,
+      "human_retained": 27,
+      "class_counts_after": {
+        "glass": 138,
+        "paper": 152,
+        "electronic": 90,
+        "metal": 110,
+        "plastic": 157,
+        "cardboard": 144,
+        "textile": 177,
+        "foodwaste": 101
+      }
+    },
+    "base_vit:queryfold1": {
+      "before": 1053,
+      "excluded_automatic": 87,
+      "human_retained": 30,
+      "class_counts_after": {
+        "glass": 133,
+        "paper": 158,
+        "electronic": 91,
+        "metal": 110,
+        "plastic": 90,
+        "cardboard": 124,
+        "textile": 166,
+        "foodwaste": 94
+      }
+    },
+    "base_vit:queryfold2": {
+      "before": 1068,
+      "excluded_automatic": 90,
+      "human_retained": 30,
+      "class_counts_after": {
+        "glass": 132,
+        "paper": 138,
+        "electronic": 94,
+        "metal": 112,
+        "plastic": 90,
+        "cardboard": 131,
+        "textile": 178,
+        "foodwaste": 103
+      }
+    },
+    "base_vit:queryfold3": {
+      "before": 1073,
+      "excluded_automatic": 79,
+      "human_retained": 24,
+      "class_counts_after": {
+        "glass": 136,
+        "paper": 142,
+        "electronic": 102,
+        "metal": 121,
+        "plastic": 87,
+        "cardboard": 146,
+        "textile": 166,
+        "foodwaste": 94
+      }
+    },
+    "base_vit:queryfold4": {
+      "before": 1076,
+      "excluded_automatic": 85,
+      "human_retained": 25,
+      "class_counts_after": {
+        "glass": 137,
+        "paper": 151,
+        "electronic": 87,
+        "metal": 111,
+        "plastic": 84,
+        "cardboard": 147,
+        "textile": 174,
+        "foodwaste": 100
+      }
+    },
+    "base_vit_detector:queryfold0": {
+      "before": 1086,
+      "excluded_automatic": 189,
+      "human_retained": 27,
+      "class_counts_after": {
+        "glass": 131,
+        "paper": 88,
+        "electronic": 82,
+        "metal": 66,
+        "plastic": 125,
+        "cardboard": 127,
+        "textile": 177,
+        "foodwaste": 101
+      }
+    },
+    "base_vit_detector:queryfold1": {
+      "before": 1053,
+      "excluded_automatic": 236,
+      "human_retained": 30,
+      "class_counts_after": {
+        "glass": 124,
+        "paper": 96,
+        "electronic": 81,
+        "metal": 68,
+        "plastic": 67,
+        "cardboard": 123,
+        "textile": 165,
+        "foodwaste": 93
+      }
+    },
+    "base_vit_detector:queryfold2": {
+      "before": 1068,
+      "excluded_automatic": 304,
+      "human_retained": 30,
+      "class_counts_after": {
+        "glass": 124,
+        "paper": 26,
+        "electronic": 83,
+        "metal": 69,
+        "plastic": 55,
+        "cardboard": 130,
+        "textile": 175,
+        "foodwaste": 102
+      }
+    },
+    "base_vit_detector:queryfold3": {
+      "before": 1073,
+      "excluded_automatic": 193,
+      "human_retained": 24,
+      "class_counts_after": {
+        "glass": 127,
+        "paper": 77,
+        "electronic": 93,
+        "metal": 120,
+        "plastic": 59,
+        "cardboard": 145,
+        "textile": 166,
+        "foodwaste": 93
+      }
+    },
+    "base_vit_detector:queryfold4": {
+      "before": 1076,
+      "excluded_automatic": 208,
+      "human_retained": 25,
+      "class_counts_after": {
+        "glass": 136,
+        "paper": 101,
+        "electronic": 87,
+        "metal": 60,
+        "plastic": 64,
+        "cardboard": 146,
+        "textile": 174,
+        "foodwaste": 100
+      }
+    }
+  },
+  "proposed_new_labels": 11,
+  "new_vit_propagation_changes": 0,
+  "primary_head": {
+    "config": "object_then_material",
+    "covered": 4,
+    "correct": 4,
+    "precision": 1.0,
+    "anchor_matches": 26,
+    "development_balanced_recall": 0.7833333333333333,
+    "eligible": true
+  },
+  "primary_plan_sha256": "d30ce611691ab4a13b636bd6f8e002e487fe9cceac5c7ff6b2c304a067698077",
+  "selected_heads": [
+    {
+      "source": "object_then_material"
+    }
+  ],
+  "confidence_calibration": {
+    "selected": {
+      "config": "object_then_material",
+      "covered": 4,
+      "correct": 4,
+      "precision": 1.0,
+      "anchor_matches": 26,
+      "development_balanced_recall": 0.7833333333333333,
+      "eligible": true
+    },
+    "independent_validation": false,
+    "objective": "knownconceptprototypepropagation"
+  },
+  "qualified_heads": [
+    {
+      "source": "object_then_material"
+    }
+  ],
+  "component_output_sha256": {
+    "object_zoom_neighbors": "ecd14d1d2955547dfb2df08ccee825595672aaf84e087c1a768693372b464b58",
+    "base_self_training": "129719378ffc71f001d8eb25aa44af09759e8f4328a10ab40036d80e8af63c65",
+    "multifamily_assignment": "a105eb804b9c17b47984407dd0bf430c7aa81044655518cfcfc39320ec049fa6",
+    "trusted_source_repair": "db0b9ff7b1daed268426b82c845b58e81dc5f9d04cb25181ee2723c1b8a3d99b",
+    "source_contrastive": "949f1318a1454d76940832e5f0c5d15e537a22a3c60047d1d55f1373f7107b07",
+    "webinar_hybrid_neighbors": "d673d6a9b42db4e895921302269cb8f8f9736b5c95267a6d1f7e07e1a8a71ee7"
+  },
+  "texture_feature_sha256": "e9264b57c78c39cb2a40d555677d8d1edc4b072e1a556ae08f753a06fade39c6",
+  "origin_policy_control": {
+    "old_gate_changes": 0,
+    "origin_neutral_changes": 5,
+    "newly_allowed_machine_origin_changes": 5
+  },
+  "source_concept_cache_sha256": "8d9ed881aad3c7afc8e94171d6deffd7ec7a3f5758bd244fdec7101aec8ff230"
+}

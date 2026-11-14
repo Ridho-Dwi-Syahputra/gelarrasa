@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "statistic_dimensions": 5376,
+  "covariance_dimensions": 1176,
+  "feature_sha256": "cc5fc3db7baec30cad1853b49c8b53d13c52c7c52afe487d23b616a5630b699a",
+  "source_code_sha256": "9c1489f241ed25f84d16b49da78a8b78a6ac954451b7875901d3ab5b8cdb4230",
+  "seconds": 228.52872514724731
+}

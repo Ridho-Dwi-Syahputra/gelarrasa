@@ -1,0 +1,9 @@
+experiment,decision,accepted_changes,development_matches,development_macro
+human_manifold,reject,0,20,0.55
+label_group_specialists,reject,0,24,0.75
+source_contrastive,reject,0,22,0.7
+object_zoom_neighbors,reject,0,22,0.7
+webinar_hybrid_neighbors,reject,0,24,0.75
+object_complementarity,reject,0,24,0.75
+trusted_source_repair,reject,0,24,0.75
+selective_consensus,reject,0,22,

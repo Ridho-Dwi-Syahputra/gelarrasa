@@ -1,0 +1,53 @@
+{
+  "status": "frozen_before_posthoc_audit",
+  "method": "seven_anchor_cleaned_crossfit_graph_and_lighting_v1",
+  "manual_unique_source_images_used": 7,
+  "manual_class_counts": {
+    "plastic": 2,
+    "paper": 2,
+    "metal": 1,
+    "electronic": 1,
+    "glass": 1
+  },
+  "test_rows_in_fit": 0,
+  "human_seed_sha256": "39aae941dc448f513c97acaf994f854ee68024983a4a7b1939596d6ee923d8d5",
+  "prediction_sha256": "8b8918cea911e629b9aa796fd133660b000913528dad9d9cd2803424e2d3616b",
+  "train_rows": 1906,
+  "accepted_lighting_rule_rows": 16,
+  "accepted_graph_crossfit_rows": 20,
+  "changed_rows_vs_baseline": 43,
+  "graphs": [
+    {
+      "bank": "dino2",
+      "iterations": 574,
+      "max_delta": 9.98754167813587e-07,
+      "converged": true
+    },
+    {
+      "bank": "dino3_foreground",
+      "iterations": 336,
+      "max_delta": 9.788370176622152e-07,
+      "converged": true
+    },
+    {
+      "bank": "dino3_task8",
+      "iterations": 335,
+      "max_delta": 9.896512184193185e-07,
+      "converged": true
+    }
+  ],
+  "downweighted_conflicting_pseudo_rows": 50,
+  "human_leave_source_group_out_matches": 1,
+  "human_holdout_rows": 7,
+  "semantic_accuracy": null,
+  "human_holdout_is_tiny_and_not_unbiased_final_validation": true,
+  "classification_training_scope": "assignment heads only; not final competition classifier",
+  "active_data_modified": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "f6b1334e6c56795a669d14bd6dfd51df69b1fd43fb2dc0f75a5e044025f47768",
+    "data/preprocessing_inputs.npz": "da3024d9e4dcbc20fa08e5a08f36b265033428b06e82588e854a49556f01631c",
+    "final-submit/DSC2026_Notebook.ipynb": "9b185e3462b4056a459552658bd0a7ad79a2fec7ce2cf156e3ee7656c74fa279"
+  },
+  "source_code_sha256": "fc91beff1487402e93d73eb18d8b42c0515a46b8cedb5cdaa316c4f88b2a4f4f",
+  "seconds": 8.255133152008057
+}

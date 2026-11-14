@@ -1,0 +1,115 @@
+{
+  "scope": "posthoc diagnostic only; not used to fit, tune, or select the hybrid model",
+  "candidate_source_rows": 1920,
+  "active_fullframe_rows": 1906,
+  "matched_ids": 1906,
+  "parity_matches": 393,
+  "parity_differences": 1513,
+  "parity_fraction": 0.2061909758656873,
+  "eligible_active_rows": 1879,
+  "eligible_matches": 383,
+  "eligible_differences": 1496,
+  "most_common_active_to_hybrid": [
+    {
+      "active": "paper",
+      "hybrid": "cardboard",
+      "n": 117
+    },
+    {
+      "active": "foodwaste",
+      "hybrid": "glass",
+      "n": 111
+    },
+    {
+      "active": "cardboard",
+      "hybrid": "plastic",
+      "n": 96
+    },
+    {
+      "active": "textile",
+      "hybrid": "cardboard",
+      "n": 90
+    },
+    {
+      "active": "plastic",
+      "hybrid": "cardboard",
+      "n": 83
+    },
+    {
+      "active": "glass",
+      "hybrid": "electronic",
+      "n": 78
+    },
+    {
+      "active": "glass",
+      "hybrid": "plastic",
+      "n": 64
+    },
+    {
+      "active": "metal",
+      "hybrid": "cardboard",
+      "n": 58
+    },
+    {
+      "active": "electronic",
+      "hybrid": "plastic",
+      "n": 56
+    },
+    {
+      "active": "metal",
+      "hybrid": "plastic",
+      "n": 51
+    },
+    {
+      "active": "electronic",
+      "hybrid": "textile",
+      "n": 48
+    },
+    {
+      "active": "metal",
+      "hybrid": "glass",
+      "n": 42
+    },
+    {
+      "active": "foodwaste",
+      "hybrid": "textile",
+      "n": 41
+    },
+    {
+      "active": "plastic",
+      "hybrid": "paper",
+      "n": 39
+    },
+    {
+      "active": "metal",
+      "hybrid": "electronic",
+      "n": 37
+    },
+    {
+      "active": "textile",
+      "hybrid": "glass",
+      "n": 36
+    },
+    {
+      "active": "textile",
+      "hybrid": "electronic",
+      "n": 32
+    },
+    {
+      "active": "plastic",
+      "hybrid": "electronic",
+      "n": 31
+    },
+    {
+      "active": "plastic",
+      "hybrid": "textile",
+      "n": 29
+    },
+    {
+      "active": "plastic",
+      "hybrid": "glass",
+      "n": 27
+    }
+  ],
+  "per_id_csv": "docs\\agent-notes\\experiments\\hybrid_train_labeling_20261113\\validation\\hybrid_candidate_vs_active_manifest.csv"
+}

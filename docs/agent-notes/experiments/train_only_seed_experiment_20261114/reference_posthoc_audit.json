@@ -1,0 +1,25 @@
+{
+  "assignment_sha256": "0bfdab57ab84b061a7e7b9ce1c05602fae61247705c59916502f14c1dca67140",
+  "posthoc_only": true,
+  "not_ground_truth": true,
+  "references": {
+    "docs/label": {
+      "comparable_ids": 1920,
+      "same": 1770,
+      "different": 150,
+      "used_for_fit_selection_or_relabeling": false
+    },
+    "processed_manifest_full_frame": {
+      "comparable_ids": 1906,
+      "same": 1712,
+      "different": 194,
+      "used_for_fit_selection_or_relabeling": false
+    },
+    "preprocessing_inputs_npz": {
+      "comparable_ids": 1920,
+      "same": 1667,
+      "different": 253,
+      "used_for_fit_selection_or_relabeling": false
+    }
+  }
+}

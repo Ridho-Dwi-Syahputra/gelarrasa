@@ -1,0 +1,41 @@
+{
+  "method": "two_scale_genuine_seed_local_descriptor_consensus_v1",
+  "human_sources": 34,
+  "views_per_source": 1,
+  "reference": "https://arxiv.org/abs/1903.12290",
+  "adaptation": "frozenConvNeXtpatches,fixedprojection128,trainmeanremoval;notepisodicallytrainedDN4",
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "banks": [
+    "fine7x7projected128",
+    "coarse7x7projected128"
+  ],
+  "source_vote": "mean3nearestreferencepatchcosineperclass,softROIweightedquerymean;34genuineonly;refsweight>=.25max",
+  "candidate": "bothpatchscalesagree;minimumclassmarginandminimumabsolutewinninglocalscore",
+  "margin_grid": [
+    0.0,
+    0.01,
+    0.03,
+    0.05
+  ],
+  "raw_similarity_grid": [
+    0.3,
+    0.5,
+    0.7
+  ],
+  "normalizer": "fixedrandomprojectionnotdatafitted;patchmeanfitouterTRAINonly;allquerysourcegroupsheldoutfromreferences",
+  "selection": "noninferiorwhole34withV3fallback;partialcoverage>=5,precision>=.9;maxmatches,macro,precision,coverage,strictermargin",
+  "guard": "matches>=27andmacro>=.808333333333;covered>=5,precision>=.9",
+  "maximum_changes": 20,
+  "cap": "descendingminimumclassmarginthenstablekeyorder",
+  "score": "minimumcosineclassmargin;notprobabilityofcorrectlabel",
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_audits": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "eaa624d9711a3a4a1119892a893e6b226429925070557da0747e5f385338b1bf",
+    "data/preprocessing_inputs.npz": "c174c254c9544d70aa23b80a98bc7ccd14dc3b2a19e7f8a6d83487ae8cce1c71",
+    "final-submit/DSC2026_Notebook.ipynb": "b80b7c982ed89cd151e544d3d1a5e2a79aac68a8d6873e7b94edc9bfc21bcc24"
+  },
+  "source_code_sha256": "5d0c2a448a85e73a9038f486adf2707b6687e84611faf79b1debe2062e1e36eb",
+  "evaluation_limit": "34developmentanchorsreused;noindependentsemanticAccuracy;maxviewcanmatchbackground"
+}

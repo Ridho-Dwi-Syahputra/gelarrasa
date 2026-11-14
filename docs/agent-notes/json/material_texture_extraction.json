@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "rows": 1904,
+  "views_per_image": 3,
+  "dimensions_per_view": 1024,
+  "test_rows": 0,
+  "held_rows": 0,
+  "feature_sha256": "81cf1dd31f62139ac354c4a81a84ab7dceb000270d649de9f382586a70785ddf",
+  "source_code_sha256": "be089235695331643b45447c0c4e04d503018410100b8a988b3aa485caee310a",
+  "seconds": 564.9677605628967
+}

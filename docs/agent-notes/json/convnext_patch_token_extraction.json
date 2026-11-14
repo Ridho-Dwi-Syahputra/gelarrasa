@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "files": {
+    "fine": {
+      "path": "docs\\agent-notes\\.runtime\\convnext_patch_tokens_b41d0f42679d\\fine.npy",
+      "sha256": "311f93f8a3b2bda5dfdbc52ca6bc59c9d5f59ea10b5671b9a913b7f54e3a0a52",
+      "shape": [
+        1904,
+        196,
+        192
+      ]
+    },
+    "coarse": {
+      "path": "docs\\agent-notes\\.runtime\\convnext_patch_tokens_b41d0f42679d\\coarse.npy",
+      "sha256": "420f0cf58e04b650142b03d77f0c5814803cb7d2bd1656dfbff709b146da5a71",
+      "shape": [
+        1904,
+        49,
+        768
+      ]
+    },
+    "fine_weight": {
+      "path": "docs\\agent-notes\\.runtime\\convnext_patch_tokens_b41d0f42679d\\fine_weight.npy",
+      "sha256": "0f22e640954acb2ce9783c0a685e445af478bfb75b0859288f2cfa64d7d9f5cf",
+      "shape": [
+        1904,
+        196
+      ]
+    },
+    "coarse_weight": {
+      "path": "docs\\agent-notes\\.runtime\\convnext_patch_tokens_b41d0f42679d\\coarse_weight.npy",
+      "sha256": "5dcd757483d003096e4469fa633c841dcfd54d1b0fe7415fa44b1be7ddff4b3b",
+      "shape": [
+        1904,
+        49
+      ]
+    }
+  },
+  "source_code_sha256": "b41d0f42679dd6e38575747731f786cd479f4bbfa11ba14820418cb984a33cad",
+  "seconds": 220.07726049423218
+}

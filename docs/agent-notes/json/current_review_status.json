@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "active_prefix": "frozen_residual_continuation",
+  "confirmed_review_cases": 126,
+  "matches_confirmed_review": 109,
+  "remaining_review_differences": 17,
+  "remaining_before_publication": 19,
+  "recovered_ids_this_publication": [
+    "0714",
+    "1684"
+  ],
+  "regressed_ids_this_publication": [],
+  "full_frame_changes_this_publication": 7,
+  "cumulative_changes_vs_initial_program": 257,
+  "human_sources_used": 34,
+  "human_class_counts": {
+    "plastic": 5,
+    "paper": 5,
+    "electronic": 5,
+    "glass": 5,
+    "textile": 5,
+    "cardboard": 5,
+    "metal": 3,
+    "foodwaste": 1
+  },
+  "new_manual_labels": 0,
+  "held_ids": [
+    "1662",
+    "1885"
+  ],
+  "test_pixels_and_operational_fields_unchanged": true,
+  "code_cells_executed": 13,
+  "embedded_figures": 16,
+  "image_hashes_verified": 4793,
+  "train_samples": 1913,
+  "eligible_train_samples": 1911,
+  "notebook_sha256": "f2f56da23f21f859653f8092422be989651c59fb15e4bf9cba4585bbed447639",
+  "manifest_sha256": "13289e5991b6324d1737cadb85375e291c118311653d6f4417bc5ecc3ed19035",
+  "source_prediction_sha256": "1fad20b40c9171e67e8fe58b9db306764908d696bd783471033eb29a5fd3051b",
+  "review_reference_sha256": "85704615d24ffe7a33a501c07b22ac2e55d4c72fc0626c57a21aa9cbc5179f9f",
+  "review_used_for_fit_or_selection": false,
+  "scope": "post-freeze review agreement,not official semantic Accuracy or competition certification"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "source": "docs/materi/Materi 1 (Intelligence in Action_ Machine Learning for Sustainable Solution).pdf",
+    "pages": 37,
+    "file_available": true,
+    "sha256_matches": true
+  },
+  {
+    "source": "docs/materi/Materi 2 (Seeing is Believing_ The Art of Data Visualization for Sustainability).pdf",
+    "pages": 38,
+    "file_available": true,
+    "sha256_matches": true
+  },
+  {
+    "source": "docs/materi/Notulensi Webinar Gelar Rasa 2026.pdf",
+    "pages": 4,
+    "file_available": true,
+    "sha256_matches": true
+  },
+  {
+    "source": "docs/materi/PPT Webinar Gelar Rasa 2026.pdf",
+    "pages": 81,
+    "file_available": true,
+    "sha256_matches": true
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "scope": "object enlarged BEFORE tokenization,notROIaveragingafterfull-frame224",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "held_rows": 0,
+  "categories_read": false,
+  "new_manual_crops": false,
+  "preprocess": "EXIFRGB,frozenYOLOpixelbox,aspectpreserving224letterbox,bicubic,ImageNetmeanstd",
+  "padding_color": [
+    124,
+    116,
+    104
+  ],
+  "descriptor": "CLS,validpatchmean,validpatchstd,validpatchmean;3072",
+  "fallback": "reusefullframeBasecacheforunfocusedrows;noimagescreatedormoved",
+  "weight_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+  "base_feature_sha256": "cd4c4828e92cd54e97a982c2aac39287ff604d44538d07c40573218954f0ecb6",
+  "localization_feature_sha256": "c6f3835510e86fe168c7e319567a5be4913a7ae362b4e42d6ea1cbdd39615935",
+  "source_code_sha256": "040d77590a8a2a20c114422d7df59c0efd0e8623f55ea6fecca29e92eb10fb7d"
+}

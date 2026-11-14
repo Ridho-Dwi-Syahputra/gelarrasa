@@ -1,0 +1,97 @@
+[
+  {
+    "path": "final-submit/reports/01_distribusi_train_dan_test_sebelum_preprocessing.png",
+    "title": "Distribusi train dan test sebelum preprocessing",
+    "sha256": "c724566487e903ce3dc9379e19635f67cf579d786a46a419c1e573841bc4625a"
+  },
+  {
+    "path": "final-submit/reports/02_preview_train_sampel_acak_tetap.png",
+    "title": "Preview train: sampel acak tetap",
+    "sha256": "8f57611f52df96b89553e586d6c41be046d669f41583ed3a746b55dfb2a0454d"
+  },
+  {
+    "path": "final-submit/reports/03_preview_test_sampel_acak_tetap.png",
+    "title": "Preview test: sampel acak tetap",
+    "sha256": "d745ce97109487a372e6007b78afd117bd1505426f0e40ce861e3597550b001d"
+  },
+  {
+    "path": "final-submit/reports/04_test_dengan_indikator_ketajaman_terendah.png",
+    "title": "Test dengan indikator ketajaman terendah",
+    "sha256": "a1e9ee9988ad693f366e116fb6813bdf642624b3957efebce660eb154714d69a"
+  },
+  {
+    "path": "final-submit/reports/05_pasangan_test_train_phash_terdekat_bukan_kepastian_satu_kelas.png",
+    "title": "Pasangan test\u2013train: pHash terdekat, bukan kepastian satu kelas",
+    "sha256": "0f7e2ae2a6eadbe24c41da16e0a0fca6b7b488b6f3f61700552a3c241676416a"
+  },
+  {
+    "path": "final-submit/reports/06_prediksi_stage17_pada_foto_penuh_sebelum_preprocessing_baru.png",
+    "title": "Prediksi stage17 pada foto penuh sebelum preprocessing baru",
+    "sha256": "6c20a295530436bd3cf864b340780c00d7e4a7c6b5ae9e9bf064ece5818409de"
+  },
+  {
+    "path": "final-submit/reports/07_contoh_kategori_prediksi_train_dan_test.png",
+    "title": "Contoh kategori prediksi: train dan test",
+    "sha256": "eb38420ad4825dc649da412c20d44b323feb6202cea7dfd0b8101a4fafeeabd0"
+  },
+  {
+    "path": "final-submit/reports/08_kategori_algoritmis_train_setelah_preprocessing.png",
+    "title": "Kategori algoritmis train setelah preprocessing",
+    "sha256": "1b8f7f49e372496f475c9ac9e8c40da282f128b60ac48d34c1569b79c46a7cb7"
+  },
+  {
+    "path": "final-submit/reports/09_preview_augmentasi_hanya_train_tidak_ditulis_menjadi_duplikat_data.png",
+    "title": "Preview augmentasi: hanya train, tidak ditulis menjadi duplikat data",
+    "sha256": "bd44e07e77a71730789e7f2db82089ce081aa11c0f46cacca7900d821651ca32"
+  },
+  {
+    "path": "final-submit/reports/10_resolusi_mengubah_tampilan_bukan_menambah_detail_asli.png",
+    "title": "Resolusi mengubah tampilan, bukan menambah detail asli",
+    "sha256": "a4f768861f991afb73db6821885a1bac23508abb9c923b3ded9a1024ac56d0c4"
+  },
+  {
+    "path": "final-submit/reports/11_hog_warna_proyeksi_fit_hanya_pada_train_bukan_bukti_kelas_terpisah.png",
+    "title": "HOG + warna: proyeksi fit hanya pada train, bukan bukti kelas terpisah",
+    "sha256": "798ce1bb1c267112cbcf24c6a50eedfccf421e5ba0f01526dbe049a4adaf200e"
+  },
+  {
+    "path": "final-submit/reports/12_0415_sumber_calculator_235x407_224x224_rasio_tetap.png",
+    "title": "0415 sumber calculator | 235x407 224x224 rasio tetap",
+    "sha256": "c511d488fcc6fce1eed5ff360ab83799c527d2a76301d36788437becc839a6ad"
+  },
+  {
+    "path": "final-submit/reports/13_0951_sumber_printed_page_302x253_224x224_rasio_tetap.png",
+    "title": "0951 sumber printed_page | 302x253 224x224 rasio tetap",
+    "sha256": "fe2e6a673c13eb9f65f57c67507f4214d318ad1c97cf2d531146e03316d07851"
+  },
+  {
+    "path": "final-submit/reports/14_keep_dan_cadangan_tinjauan_nomor_urut.png",
+    "title": "Keep dan cadangan tinjauan: nomor urut",
+    "sha256": "9aa4bd595fefd00b044d2575f8095abf643632e46d95146d352e2531b4c2fd48"
+  },
+  {
+    "path": "final-submit/reports/15_test_juga_memuat_tekstur_kusut_memenuhi_bingkai.png",
+    "title": "Test juga memuat tekstur kusut memenuhi bingkai",
+    "sha256": "3f05414fbadd800cfd10182ef40ca4249870757e341f38207c86d0abe623b7f1"
+  },
+  {
+    "path": "final-submit/reports/16_contoh_test_dengan_beberapa_objek_material.png",
+    "title": "Contoh test dengan beberapa objek/material",
+    "sha256": "544aae5e9fe7a8581a5cc0aaf14f415d559ab06fef09e56cb207d9c7ca23b050"
+  },
+  {
+    "path": "final-submit/reports/17_distribusi_kategori_train_eligible_setelah_preprocessing.png",
+    "title": "Distribusi kategori train eligible setelah preprocessing",
+    "sha256": "535365eb93a902dfdd248a5ba936dd3644121ec9974ef48e22cba564572e7dfb"
+  },
+  {
+    "path": "final-submit/reports/18_pasangan_train_test_setelah_preprocessing.png",
+    "title": "Pasangan train\u2013test setelah preprocessing",
+    "sha256": "76240e99423c72aa1d64ff1e7967d712da953c945feb285b00ad44f9de1d2ac4"
+  },
+  {
+    "path": "final-submit/reports/19_diagnostik_oof_per_kategori_dino_svm_rbf.png",
+    "title": "Diagnostik OOF per kategori: dino_svm_rbf",
+    "sha256": "f5e9e7c04e486bfab6da6330aa3bb504d94c022f1833217f99decdfbf5dff400"
+  }
+]

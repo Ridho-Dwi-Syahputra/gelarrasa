@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "scope": "EDA/preprocessing plus assignment experiments,not official Accuracy or competition certification",
+  "phase_start_review_differences": 48,
+  "remaining_review_differences": 45,
+  "confirmed_review_cases": 126,
+  "matches_confirmed_review": 81,
+  "recovered_review_ids": [
+    "0432",
+    "1510",
+    "1817"
+  ],
+  "regressed_review_cases": 0,
+  "full_frame_category_changes": 5,
+  "category_changes": [
+    {
+      "image_id": "0158",
+      "baseline_class": "paper",
+      "predicted_class": "plastic"
+    },
+    {
+      "image_id": "0432",
+      "baseline_class": "cardboard",
+      "predicted_class": "glass"
+    },
+    {
+      "image_id": "0673",
+      "baseline_class": "cardboard",
+      "predicted_class": "paper"
+    },
+    {
+      "image_id": "1510",
+      "baseline_class": "foodwaste",
+      "predicted_class": "plastic"
+    },
+    {
+      "image_id": "1817",
+      "baseline_class": "textile",
+      "predicted_class": "paper"
+    }
+  ],
+  "human_sources_used": 34,
+  "new_human_sources_used": 0,
+  "human_class_counts": {
+    "plastic": 5,
+    "paper": 5,
+    "electronic": 5,
+    "glass": 5,
+    "textile": 5,
+    "cardboard": 5,
+    "metal": 3,
+    "foodwaste": 1
+  },
+  "source_groups_before_eligible": 1870,
+  "source_groups_after_eligible": 1777,
+  "geometry_edges_kept_same_group_and_partition": 116,
+  "geometry_input_metadata": {
+    "method": "train_pixel_phash_and_verified_SIFT_RANSAC_source_groups",
+    "before_raw_train_groups": 1869,
+    "after_raw_train_groups": 1792,
+    "eligible_train_group_manifest_sha256": "0adf54a9470aef171091f3327a5c97f4dc01d073f81d5af2a70cd45d390ae396",
+    "verified_edges_sha256": "6f34c12e527c0458a82ed5ffbd4007fc4e51c4ab013eaf8455ce4934e4046305",
+    "test_rows_used": 0,
+    "held_rows_used_for_SIFT": 0
+  },
+  "train_samples_stored": 1913,
+  "train_samples_eligible": 1911,
+  "test_samples": 480,
+  "test_input_and_pixels_unchanged": true,
+  "held_train_ids": [
+    "1662",
+    "1885"
+  ],
+  "code_cells_executed": 13,
+  "embedded_figures": 16,
+  "image_hashes_verified": 4793,
+  "notebook_sha256": "94e3701a2102c71e31a71172e972ddccc14fccff9369338affddb427636623cc",
+  "manifest_sha256": "9263eaa1b9b7b2689e5df02d419720dc851f853c0300aad82c74efa80b501c1a",
+  "input_sha256": "74df5acef1917eb9f43fc57cf7c1c46ffd44de4248dddccde78cf1a939b5da8a",
+  "guard_decision_preceded_private_review_audit": true,
+  "remaining_review_used_as_targets_or_filter": false,
+  "accepted_development_diagnostic": {
+    "CE": 14,
+    "GCE": 15,
+    "rows": 34,
+    "protocol": "five geometry-source-group folds,development only"
+  },
+  "MINC_head_rejected_diagnostic": {
+    "matches": 11,
+    "rows": 34
+  },
+  "selftraining_rejected_diagnostic": {
+    "teacher": 14,
+    "student": 14,
+    "rows": 34
+  },
+  "final_classifier_or_submission_created": false,
+  "notebook_refits_assignment_heads": false
+}

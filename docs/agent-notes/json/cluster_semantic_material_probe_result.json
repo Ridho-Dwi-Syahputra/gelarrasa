@@ -1,0 +1,60 @@
+{
+  "history": [
+    {
+      "bank": "DINOv3CLS",
+      "clusters": 64,
+      "matches": 20,
+      "macro": 0.6333333333333333,
+      "plastic_recall": 0.4,
+      "mean_confidence": 0.7943585766872181,
+      "guard": false
+    },
+    {
+      "bank": "DINOv3CLS",
+      "clusters": 128,
+      "matches": 22,
+      "macro": 0.6666666666666666,
+      "plastic_recall": 0.6,
+      "mean_confidence": 0.7474534406979331,
+      "guard": false
+    },
+    {
+      "bank": "DINOv3CLS",
+      "clusters": 256,
+      "matches": 18,
+      "macro": 0.5666666666666667,
+      "plastic_recall": 0.4,
+      "mean_confidence": 0.6276385856668661,
+      "guard": false
+    },
+    {
+      "bank": "DINOv3CLS_ConvNeXt",
+      "clusters": 64,
+      "matches": 21,
+      "macro": 0.6583333333333333,
+      "plastic_recall": 0.4,
+      "mean_confidence": 0.7736980374512549,
+      "guard": false
+    },
+    {
+      "bank": "DINOv3CLS_ConvNeXt",
+      "clusters": 128,
+      "matches": 25,
+      "macro": 0.6583333333333333,
+      "plastic_recall": 0.8,
+      "mean_confidence": 0.7756421676400417,
+      "guard": false
+    },
+    {
+      "bank": "DINOv3CLS_ConvNeXt",
+      "clusters": 256,
+      "matches": 21,
+      "macro": 0.5583333333333333,
+      "plastic_recall": 0.4,
+      "mean_confidence": 0.6560054920136812,
+      "guard": false
+    }
+  ],
+  "test_rows": 0,
+  "review_archive_read": false
+}

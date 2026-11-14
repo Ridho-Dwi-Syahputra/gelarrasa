@@ -1,0 +1,58 @@
+{
+  "model": "DINOv3 OVR SVM after train-only automatic high-consensus sample exclusion",
+  "train_rows": 1887,
+  "final_excluded_rows": 25,
+  "rows_fit_final": 1862,
+  "test_rows_in_fit": 0,
+  "outer_fold_exclusions": [
+    {
+      "outer_fold": 1,
+      "excluded_train_rows": 17,
+      "retained_train_rows": 1485
+    },
+    {
+      "outer_fold": 2,
+      "excluded_train_rows": 26,
+      "retained_train_rows": 1491
+    },
+    {
+      "outer_fold": 3,
+      "excluded_train_rows": 18,
+      "retained_train_rows": 1496
+    },
+    {
+      "outer_fold": 4,
+      "excluded_train_rows": 26,
+      "retained_train_rows": 1479
+    },
+    {
+      "outer_fold": 5,
+      "excluded_train_rows": 25,
+      "retained_train_rows": 1485
+    }
+  ],
+  "nested_metrics": {
+    "auto_excluded_train": {
+      "agreement": 0.9454160042395336,
+      "balanced_accuracy": 0.9455999306286736,
+      "macro_f1": 0.9460112747372484
+    },
+    "original_train": {
+      "agreement": 0.9523052464228935,
+      "balanced_accuracy": 0.9526171380652273,
+      "macro_f1": 0.9525789659987997
+    }
+  },
+  "paired_oof_not_degraded": false,
+  "candidate_oof_gate_passed": false,
+  "candidate_status": "train-only exclusion experiment; OOF agreement is diagnostic, not semantic ground truth",
+  "test_rows_changed_vs_008": 3,
+  "candidate_submission_path": "final-submit/output/submission_023_auto_train_exclusion.csv",
+  "candidate_sha256": "f988fd5518e6cbda0ef42042c355f38bbe6039be90234ea94045f97a88744441",
+  "proposal_path": "final-submit/output/train_exclusion_proposals.csv",
+  "oof_path": "final-submit/output/train_exclusion_oof.csv",
+  "official_accuracy": null,
+  "test_used_for_fit_or_selection": false,
+  "reference_submission_used": false,
+  "interpretation": "OOF agreement is against derived train categories, not independent semantic truth."
+}

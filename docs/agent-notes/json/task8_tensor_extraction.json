@@ -1,0 +1,107 @@
+{
+  "repository": "C0mpl1cated3/trash_classifier_v2",
+  "revision": "ac54e811e3a5d505b57bf6dc1495ed5cd695c036",
+  "original_checkpoint_sha256": "cbefd51e99c7f325fa1f08b44ed185160895be5bd7f49c7cfd046a329fee5b19",
+  "source_class_order": [
+    "cardboard",
+    "e-waste",
+    "glass",
+    "metal",
+    "organic",
+    "paper",
+    "plastic",
+    "textile"
+  ],
+  "tensor_count": 330,
+  "tensor_file_sha256": "360f5224f6a9b9876f8a6e64a56a82fff871b530eadcf58d8b2590641b6f65e3",
+  "serialized_callables_executed": false,
+  "remote_application_executed": false,
+  "resize_metadata": [
+    {
+      "__stored_args__": "dict",
+      "size": {
+        "constructor": "fastcore.basics.fastuple",
+        "args": [
+          "tuple"
+        ]
+      },
+      "method": "crop",
+      "pad_mode": "reflection",
+      "resamples": [
+        {
+          "constructor": "Symbol",
+          "args": "tuple"
+        },
+        {
+          "constructor": "Symbol",
+          "args": "tuple"
+        }
+      ],
+      "p": 1.0,
+      "split_idx": null,
+      "order": 1,
+      "before_call": {
+        "constructor": {
+          "constructor": "Symbol",
+          "args": "tuple"
+        },
+        "args": [
+          "Node",
+          "Node"
+        ]
+      },
+      "mode": {
+        "constructor": "PIL.Image.Resampling",
+        "args": [
+          2
+        ]
+      },
+      "mode_mask": {
+        "constructor": "PIL.Image.Resampling",
+        "args": [
+          0
+        ]
+      },
+      "__signature__": {
+        "constructor": "inspect.Signature",
+        "args": [
+          "tuple"
+        ]
+      },
+      "pcts": [
+        0.5535555763865,
+        0.847735896140029
+      ]
+    }
+  ],
+  "first_keys": [
+    "0.0.weight",
+    "0.1.weight",
+    "0.1.bias",
+    "0.1.running_mean",
+    "0.1.running_var",
+    "0.1.num_batches_tracked",
+    "0.4.0.conv1.weight",
+    "0.4.0.bn1.weight"
+  ],
+  "last_keys": [
+    "0.7.2.conv3.weight",
+    "0.7.2.bn3.weight",
+    "0.7.2.bn3.bias",
+    "0.7.2.bn3.running_mean",
+    "0.7.2.bn3.running_var",
+    "0.7.2.bn3.num_batches_tracked",
+    "1.2.weight",
+    "1.2.bias",
+    "1.2.running_mean",
+    "1.2.running_var",
+    "1.2.num_batches_tracked",
+    "1.4.weight",
+    "1.6.weight",
+    "1.6.bias",
+    "1.6.running_mean",
+    "1.6.running_var",
+    "1.6.num_batches_tracked",
+    "1.8.weight"
+  ]
+}

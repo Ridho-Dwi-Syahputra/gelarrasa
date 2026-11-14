@@ -1,0 +1,15 @@
+{
+  "decision": "rollback_after_audit",
+  "before_differences": 17,
+  "after_differences": 19,
+  "recovered": [
+    "0964"
+  ],
+  "regressed": [
+    "0597",
+    "0969",
+    "1176"
+  ],
+  "review_is_not_fit_or_independent_validation": true,
+  "archive": "docs\\agent-notes\\.runtime\\rejected_detector_gated_prior_20261108T090422Z"
+}

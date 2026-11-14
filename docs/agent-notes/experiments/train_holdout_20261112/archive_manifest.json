@@ -1,0 +1,548 @@
+{
+  "archived_files": [
+    {
+      "from": "final-submit\\output\\classwise_expert_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\classwise_expert_oof.csv",
+      "sha256": "7245ffbf44802ad4d0c08e4c4cdb688eff4643a8d03467396f6926ac8b6246a1"
+    },
+    {
+      "from": "final-submit\\output\\classwise_expert_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\classwise_expert_report.json",
+      "sha256": "08cd767426326d7669b800585d7384386c21c64f29c1a99c98a7d6207adf93db"
+    },
+    {
+      "from": "final-submit\\output\\color13_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\color13_oof.csv",
+      "sha256": "8e010a9a951b5b11e5175056538d2c2e7d4c963431b650177b95c5e195e247b1"
+    },
+    {
+      "from": "final-submit\\output\\color13_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\color13_report.json",
+      "sha256": "882ac4d53df6ce7aac219ae274e3f29de046a02aa4065f968a0c2de59b6bf44a"
+    },
+    {
+      "from": "final-submit\\output\\color_extratrees_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\color_extratrees_oof.csv",
+      "sha256": "fc32ce80e2bd2a67cf2f42cdf3c523993b06eb2e7bd75da6cfdf6b4b171313db"
+    },
+    {
+      "from": "final-submit\\output\\color_extratrees_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\color_extratrees_report.json",
+      "sha256": "d7d42a2502d313b31cc11701d2d95a661ba142c43c23b64849f794332040619b"
+    },
+    {
+      "from": "final-submit\\output\\color_gate_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\color_gate_oof.csv",
+      "sha256": "129013a69b7563d151974bfcd11a89cc0448e32f023c9da31e5c45ed3a36b3d0"
+    },
+    {
+      "from": "final-submit\\output\\color_gate_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\color_gate_report.json",
+      "sha256": "9c98b0b63b0899545b40541a18f93fc4220900e4ed89d501a725b8beefd7dd49"
+    },
+    {
+      "from": "final-submit\\output\\color_gate_test_diagnostics.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\color_gate_test_diagnostics.csv",
+      "sha256": "7223a494256fb4928b23c0c916a516eaf13c35f74118079ae18fc14ebe5a41e0"
+    },
+    {
+      "from": "final-submit\\output\\color_knn_blend_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\color_knn_blend_oof.csv",
+      "sha256": "6103628f7a1c7e918a93b38ccf63ee3fe56f5986118f558a7451fae9032a1eec"
+    },
+    {
+      "from": "final-submit\\output\\color_knn_blend_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\color_knn_blend_report.json",
+      "sha256": "91596bae0a05ef42e33d7e1a7b1bfd71326b53cc57ed841aea30bdac5ef1e9f4"
+    },
+    {
+      "from": "final-submit\\output\\color_meta_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\color_meta_oof.csv",
+      "sha256": "47952e05727caa58b78467739072d975d5da202a0a304dd2b0961a84550b73e2"
+    },
+    {
+      "from": "final-submit\\output\\color_meta_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\color_meta_report.json",
+      "sha256": "d3460b84f07321abc43f7f0c9cecd8f4ec0d3b339a62910f9c850a32e544984c"
+    },
+    {
+      "from": "final-submit\\output\\color_only_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\color_only_oof.csv",
+      "sha256": "5d7e2e3eb37462e2fc676343eb5694b4b08fc7d9ff0f2b1e55713001ae82e856"
+    },
+    {
+      "from": "final-submit\\output\\color_only_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\color_only_report.json",
+      "sha256": "baca72306d4f1a77542bd01025a78dedfcf8b2b2ce132f641947bb900e8a31d9"
+    },
+    {
+      "from": "final-submit\\output\\color_only_test_diagnostics.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\color_only_test_diagnostics.csv",
+      "sha256": "1de059fa8766584354379d648f73906eedb01a83182ca702ef5cae7cb22d74c7"
+    },
+    {
+      "from": "final-submit\\output\\dino_score_calibration_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\dino_score_calibration_oof.csv",
+      "sha256": "d868f60d22d1ca99245127a940370cfbad3705e2366710e032040728bd79dae7"
+    },
+    {
+      "from": "final-submit\\output\\dino_score_calibration_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\dino_score_calibration_report.json",
+      "sha256": "5aa045cefc5c84740e908ca6e74b25d268fe29784111b365c4e12bc9e21f7c27"
+    },
+    {
+      "from": "final-submit\\output\\foreground_color_neighbors.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\foreground_color_neighbors.csv",
+      "sha256": "b061e64f2220a03cb16aa124d4c76f5c14560d97bc740d600596ece0f8c1eaae"
+    },
+    {
+      "from": "final-submit\\output\\foreground_color_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\foreground_color_oof.csv",
+      "sha256": "6eb225f591eb2822d8a479a4d5c3f1cea0d6967743868071dcdec466151c3c3e"
+    },
+    {
+      "from": "final-submit\\output\\foreground_color_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\foreground_color_report.json",
+      "sha256": "30cc3430b5602a77d8140ab8365da2d03d45577bc216a0ca76427e0050d6edc7"
+    },
+    {
+      "from": "final-submit\\output\\group_knn_blend_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\group_knn_blend_oof.csv",
+      "sha256": "a75b763f94d5e39a548fba8ee0256613848ae4f5a17bfb5a2c6d2216293fbd8f"
+    },
+    {
+      "from": "final-submit\\output\\group_knn_blend_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\group_knn_blend_report.json",
+      "sha256": "6fe3c4e18ec4406dcc274a562e57f6d88fc5294beed564641923528537e12d8c"
+    },
+    {
+      "from": "final-submit\\output\\modeling_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\modeling_report.json",
+      "sha256": "569993cb379712a1324c4f29b757e53eb19babd7fed31ed4c1fb931a0a20cbc1"
+    },
+    {
+      "from": "final-submit\\output\\oof_diagnostics.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\oof_diagnostics.csv",
+      "sha256": "50e8280979f27c8b876247b7401a046fe3348e8c57cfcdbc4433ad1085573328"
+    },
+    {
+      "from": "final-submit\\output\\pairwise_expert_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\pairwise_expert_oof.csv",
+      "sha256": "03c910459a54f1d0e50372a4f37e876634a06c081603ceced4286478a070a6a6"
+    },
+    {
+      "from": "final-submit\\output\\pairwise_expert_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\pairwise_expert_report.json",
+      "sha256": "c3d732d63dbfef2e2886335d3087ab4583f85054cf4d430e3fb9db5fd7b4a4f1"
+    },
+    {
+      "from": "final-submit\\output\\pair_color_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\pair_color_oof.csv",
+      "sha256": "35549cab2c3834ae68b8b5470b5715ca8ceaac63eb60fd9cc6d886dd112bfbea"
+    },
+    {
+      "from": "final-submit\\output\\pair_color_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\pair_color_report.json",
+      "sha256": "af66b246a97588f1d89aaadb9e5445d1f2fa35499c680e88549a09df49d3d008"
+    },
+    {
+      "from": "final-submit\\output\\probability_average_008_012_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\probability_average_008_012_oof.csv",
+      "sha256": "b9b161d8b7d13b692fb60b8092145907a662847e3b6cf2493dd319ee44efc364"
+    },
+    {
+      "from": "final-submit\\output\\probability_average_008_012_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\probability_average_008_012_report.json",
+      "sha256": "5e22be9204634888440fcda21098314fab60b14aca8ea2e7311f3a46ffe59940"
+    },
+    {
+      "from": "final-submit\\output\\submission_.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_.csv",
+      "sha256": "3eaf904ecd0f580cb48e8e76c4364cea0053746e352496543256503aeaa9f513"
+    },
+    {
+      "from": "final-submit\\output\\submission_001_dino_logistic.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_001_dino_logistic.csv",
+      "sha256": "d99d33b9646faf21d7836453a9582288c354ea4d49cc1ce34e7accd633a525bc"
+    },
+    {
+      "from": "final-submit\\output\\submission_002_dino_svm_rbf.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_002_dino_svm_rbf.csv",
+      "sha256": "c037231295dbe0bbf9810d0290a94a21e580bb0fe5d63058514fa9c645170e4b"
+    },
+    {
+      "from": "final-submit\\output\\submission_003_dino_knn7.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_003_dino_knn7.csv",
+      "sha256": "bc83a23a06342f08eee8c1787bcab3967c7adbceac36e5b708384b649cad8dfd"
+    },
+    {
+      "from": "final-submit\\output\\submission_004_dino_hsv_svm.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_004_dino_hsv_svm.csv",
+      "sha256": "c037231295dbe0bbf9810d0290a94a21e580bb0fe5d63058514fa9c645170e4b"
+    },
+    {
+      "from": "final-submit\\output\\submission_005_dino_hsv_svm_finetune_stage2.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_005_dino_hsv_svm_finetune_stage2.csv",
+      "sha256": "df982418f81ccffb80ff463e8f3520040338d5d7b83a13c8fd4200a122438ca8"
+    },
+    {
+      "from": "final-submit\\output\\submission_005_dino_hsv_svm_finetune_stage2.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_005_dino_hsv_svm_finetune_stage2.json",
+      "sha256": "c10d8906317a9779fc61eda6506fdbab9f9ba9758c61598871bb3a3870ba1431"
+    },
+    {
+      "from": "final-submit\\output\\submission_006_dinov3_cls_svm.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_006_dinov3_cls_svm.csv",
+      "sha256": "07a7567d953972474582156783501f7e931104f9736d8ff16195f8ddbd1f3bfb"
+    },
+    {
+      "from": "final-submit\\output\\submission_006_dinov3_cls_svm.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_006_dinov3_cls_svm.json",
+      "sha256": "b1228c9df8855e25911fdc2b43e03312c7e439a2f6cc68f69a1f72804564a32e"
+    },
+    {
+      "from": "final-submit\\output\\submission_007_dinov3_full_svm.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_007_dinov3_full_svm.csv",
+      "sha256": "53233b098287a7bf64f64ae774ed11ff182518a5154264c5a3bcd796f515b098"
+    },
+    {
+      "from": "final-submit\\output\\submission_007_dinov3_full_svm.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_007_dinov3_full_svm.json",
+      "sha256": "75a04d0891eb16b632f8167b6b9549b2548e29f658255f19bdaaed1b96a7a83c"
+    },
+    {
+      "from": "final-submit\\output\\submission_008_dinov3_full_ovr_svm.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_008_dinov3_full_ovr_svm.csv",
+      "sha256": "c84f8d37b3f939a1e1f277d96b18a9e814987d5b8488518529202cbeceb35c67"
+    },
+    {
+      "from": "final-submit\\output\\submission_008_dinov3_full_ovr_svm.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_008_dinov3_full_ovr_svm.json",
+      "sha256": "81faa07e657a7823a5ca6c459fa58757ecf4e48450eb3db04e8b906a7f7524c3"
+    },
+    {
+      "from": "final-submit\\output\\submission_009_classwise_probabilities.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_009_classwise_probabilities.csv",
+      "sha256": "1c602a68a2bf8f7cd228959b82d270873e9092a5406aeaa5caa1cc1fa3b592a8"
+    },
+    {
+      "from": "final-submit\\output\\submission_009_dinov3_classwise_platt_svm.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_009_dinov3_classwise_platt_svm.csv",
+      "sha256": "eda43b633d88d1402aaa09e588e0a6ad8535cbd148d674d5544cf387d02b0641"
+    },
+    {
+      "from": "final-submit\\output\\submission_010_dinov3_pairwise_experts.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_010_dinov3_pairwise_experts.csv",
+      "sha256": "72c7bb8f3124df0af258a174f7c3ad4860ebc93b0cb4f046653a29af6d5f3478"
+    },
+    {
+      "from": "final-submit\\output\\submission_010_pairwise_probabilities.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_010_pairwise_probabilities.csv",
+      "sha256": "964c7b19b34448c0f02eb699650db7db72ac8aa7a5f740de5d743f0d7cb8188b"
+    },
+    {
+      "from": "final-submit\\output\\submission_011_dinov3_group_knn_blend.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_011_dinov3_group_knn_blend.csv",
+      "sha256": "95858892a513ebd0f55f5ab3b19c511ac8c8dfa1a91f8f794ff94dc4fafab572"
+    },
+    {
+      "from": "final-submit\\output\\submission_012_dinov3_color_knn_blend.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_012_dinov3_color_knn_blend.csv",
+      "sha256": "5f5d7bebae2298a8a7e4dbfa9f919a0e3bb506743ae1482b30241620610430c2"
+    },
+    {
+      "from": "final-submit\\output\\submission_023_auto_train_exclusion.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\submission_023_auto_train_exclusion.csv",
+      "sha256": "f988fd5518e6cbda0ef42042c355f38bbe6039be90234ea94045f97a88744441"
+    },
+    {
+      "from": "final-submit\\output\\test_finetune_stage2_diagnostics.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\test_finetune_stage2_diagnostics.csv",
+      "sha256": "40a2327d8f7682364daa8ebe48f7bf2c4ea1a11a09b1b9035ba48668bd1cf72f"
+    },
+    {
+      "from": "final-submit\\output\\train_exclusion_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\train_exclusion_oof.csv",
+      "sha256": "308cd8123f63c88e4581c8a4ce18d319ff284b70cd8e4c612272ffa0c692eca6"
+    },
+    {
+      "from": "final-submit\\output\\train_exclusion_proposals.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\train_exclusion_proposals.csv",
+      "sha256": "0375f68aeda2881ecfd6dcb72500a2fadce579edade14b20d36ada7bd2598c7f"
+    },
+    {
+      "from": "final-submit\\output\\train_exclusion_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\train_exclusion_report.json",
+      "sha256": "0da21d3f4864f84a4cae3ffa0be8230c9d70d82463e227e92fe2628ebd97146d"
+    },
+    {
+      "from": "final-submit\\output\\train_label_refinement_counts.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\train_label_refinement_counts.csv",
+      "sha256": "ec81c23bce4312ab215cec131aebbdf07b845298be8b9fb753544c38ff1008a6"
+    },
+    {
+      "from": "final-submit\\output\\train_label_refinement_proposals.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\train_label_refinement_proposals.csv",
+      "sha256": "f88a9fc2d9c10b5d8ad16b94cbbca2691e21f7d40e5afb8fb9001a94c1918155"
+    },
+    {
+      "from": "final-submit\\output\\train_refinement_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\train_refinement_oof.csv",
+      "sha256": "e12a43e083f2a08057b462c41eef29ea45ae624351caa6042dd49c091faa4b07"
+    },
+    {
+      "from": "final-submit\\output\\train_refinement_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\train_refinement_report.json",
+      "sha256": "799ec84a22688e92949c516683c3159e0dd3a35a923a4c2f9c30d83ca880cf7f"
+    },
+    {
+      "from": "final-submit\\output\\train_test_nearest_neighbors_color_dinov3.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\train_test_nearest_neighbors_color_dinov3.csv",
+      "sha256": "6eb44e8fa1f3dd924abc5302b6dc901855e3faf3069813b23c52229909a7fbef"
+    },
+    {
+      "from": "final-submit\\output\\train_test_nearest_neighbors_dinov3.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\prior_output\\train_test_nearest_neighbors_dinov3.csv",
+      "sha256": "062a41d2d0cc3c25c3d2c1633eb1d8f2dfa8cbc97b8435405e693035873a29f8"
+    },
+    {
+      "from": "cell1.tmp.txt",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\notebook_scratch\\cell1.tmp.txt",
+      "sha256": "3b643bc43d8144e91e0ac30a4699bd8b80b9da4992e1d33e566402089f287dc1"
+    },
+    {
+      "from": "cell10.tmp.txt",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\notebook_scratch\\cell10.tmp.txt",
+      "sha256": "14ce0c5f70a97683f0c3a05b6df61934524b4526d1c6fd88f92c813b33ba948f"
+    },
+    {
+      "from": "cell12.tmp.txt",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\notebook_scratch\\cell12.tmp.txt",
+      "sha256": "538e4194ef6726f290322b11e1605bf28241a9081f6574a197699323814b20b3"
+    },
+    {
+      "from": "cell14.tmp.txt",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\notebook_scratch\\cell14.tmp.txt",
+      "sha256": "f664fe3d02816b0788a1afa777cfd9f5568be6e61eed7e659a1bce57c411b075"
+    },
+    {
+      "from": "cell22.tmp.txt",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\notebook_scratch\\cell22.tmp.txt",
+      "sha256": "79b148fd3f26bc6de2e91c2a41d272961518876122af1e878d4ca2e0174ca8ec"
+    },
+    {
+      "from": "cell24.tmp.txt",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\notebook_scratch\\cell24.tmp.txt",
+      "sha256": "ced5b94dc01f8c0114049a1b2ba196c9a050a956a01419d9dcc40a8cfb2da45d"
+    },
+    {
+      "from": "cell26.tmp.txt",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\notebook_scratch\\cell26.tmp.txt",
+      "sha256": "8195023742bd8b2e4aa56d9deef49bae384e6722fa296494c035856298efb911"
+    },
+    {
+      "from": "cell28.tmp.txt",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\notebook_scratch\\cell28.tmp.txt",
+      "sha256": "44c9571083580543c4740ab0497ff4aecf4c6248d955f39b77e5acfab7f5031e"
+    },
+    {
+      "from": "cell30.tmp.txt",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\notebook_scratch\\cell30.tmp.txt",
+      "sha256": "43d71c8b77ac962edc1eb4ad68ef04c8300f8804bd15354057430eefaaad8af7"
+    },
+    {
+      "from": "cell32.tmp.txt",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\notebook_scratch\\cell32.tmp.txt",
+      "sha256": "f83a492a27e033fc38984734b0f8fb525a40b6bcd07bf15eb66b0d515d290108"
+    },
+    {
+      "from": "cell34.tmp.txt",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\notebook_scratch\\cell34.tmp.txt",
+      "sha256": "7965e36859f4e476026f09136c20a48b78c225536dd42d24d21d6b87d3213c9f"
+    },
+    {
+      "from": "cell36.tmp.txt",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\notebook_scratch\\cell36.tmp.txt",
+      "sha256": "e36821161f0974f7b20f289ad61ff1682739dddaa8276a1883ef805f1b1844cf"
+    },
+    {
+      "from": "cell38.tmp.txt",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\notebook_scratch\\cell38.tmp.txt",
+      "sha256": "a0b1170b7bbebe46bc78c852a912de9b2c1ef45ceaa42249e47b940f46bd70d3"
+    },
+    {
+      "from": "cell40.tmp.txt",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\notebook_scratch\\cell40.tmp.txt",
+      "sha256": "01a23841fe2619c20e7ba6d0a20990f3835f665e81760149f200895fc54c9b3f"
+    }
+  ],
+  "kept_in_output": [
+    "submission_009.csv"
+  ],
+  "notebook_backup": "docs\\agent-notes\\experiments\\train_holdout_20261112\\DSC2026_Notebook.before.ipynb",
+  "interrupted_full_run_archived": [
+    {
+      "from": "final-submit\\output\\classwise_expert_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\classwise_expert_oof.csv",
+      "sha256": "09d66ccd1059a49c2c6cb19054aa5e8ec21b1b93bfbae913e37d934f0931dc71"
+    },
+    {
+      "from": "final-submit\\output\\classwise_expert_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\classwise_expert_report.json",
+      "sha256": "68c1f9fd8ac68d79751036dc47f0969be9779096e31c8200822e882f534d553d"
+    },
+    {
+      "from": "final-submit\\output\\group_knn_blend_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\group_knn_blend_oof.csv",
+      "sha256": "901c392f1b187bc34cf57b070ec997263f4cc01e10bfca19edcf36e1ed387214"
+    },
+    {
+      "from": "final-submit\\output\\group_knn_blend_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\group_knn_blend_report.json",
+      "sha256": "a271751c1c8922d7f0d24edced0792520b632186aa2efbfe5a48d25feb0be983"
+    },
+    {
+      "from": "final-submit\\output\\modeling_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\modeling_report.json",
+      "sha256": "1f66ec943d5e0163f25d289fe390a1428a3ab6b165d4b5018bdf094dd0a02cf5"
+    },
+    {
+      "from": "final-submit\\output\\oof_diagnostics.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\oof_diagnostics.csv",
+      "sha256": "3d3def1adedefeef511959dba95f4d5e58b4e98127cf19bb6e0e8a8b9e74dbc4"
+    },
+    {
+      "from": "final-submit\\output\\pairwise_expert_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\pairwise_expert_oof.csv",
+      "sha256": "173deca6d37adaca4c7109b96885a842305b9132ef3259a19d2f6858624a5891"
+    },
+    {
+      "from": "final-submit\\output\\pairwise_expert_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\pairwise_expert_report.json",
+      "sha256": "48cf996e30fb38c3cafecac8774e7bde8e98a54f8504da24a75fa58f4127e093"
+    },
+    {
+      "from": "final-submit\\output\\submission_001_dino_logistic.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\submission_001_dino_logistic.csv",
+      "sha256": "a59a0addca8b5d54b7971a7ff20eebc6bf6cde2d8b55a0557c06204891e1ac12"
+    },
+    {
+      "from": "final-submit\\output\\submission_002_dino_svm_rbf.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\submission_002_dino_svm_rbf.csv",
+      "sha256": "8026972f70e4ae6a41c187861ed6fa98d8961d424d66d2868dd00d2023106639"
+    },
+    {
+      "from": "final-submit\\output\\submission_003_dino_knn7.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\submission_003_dino_knn7.csv",
+      "sha256": "bc83a23a06342f08eee8c1787bcab3967c7adbceac36e5b708384b649cad8dfd"
+    },
+    {
+      "from": "final-submit\\output\\submission_004_dino_hsv_svm.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\submission_004_dino_hsv_svm.csv",
+      "sha256": "8026972f70e4ae6a41c187861ed6fa98d8961d424d66d2868dd00d2023106639"
+    },
+    {
+      "from": "final-submit\\output\\submission_008_dinov3_full_ovr_svm.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\submission_008_dinov3_full_ovr_svm.csv",
+      "sha256": "1496ae2710787363c451d666936808d34b6662e1c4c24891a9b3d28c045ae914"
+    },
+    {
+      "from": "final-submit\\output\\submission_008_dinov3_full_ovr_svm.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\submission_008_dinov3_full_ovr_svm.json",
+      "sha256": "32283523110c34300c6d2575fec3f2371e0b746c55b2da5a61d25446eb021a1a"
+    },
+    {
+      "from": "final-submit\\output\\submission_009_classwise_probabilities.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\submission_009_classwise_probabilities.csv",
+      "sha256": "50db86baa72f11352eece00b8b5a723a900cdf2f218524262082db8983005a2e"
+    },
+    {
+      "from": "final-submit\\output\\submission_009_dinov3_classwise_platt_svm.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\submission_009_dinov3_classwise_platt_svm.csv",
+      "sha256": "c16af090c604163a85edeff0628b5612a2de5438891962b9986a731ef3b8f068"
+    },
+    {
+      "from": "final-submit\\output\\submission_010_dinov3_pairwise_experts.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\submission_010_dinov3_pairwise_experts.csv",
+      "sha256": "59f8535db66cc3e901ef946f7616a49e0eace5197d2df22ee2013af825e3e3c4"
+    },
+    {
+      "from": "final-submit\\output\\submission_010_pairwise_probabilities.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\submission_010_pairwise_probabilities.csv",
+      "sha256": "ad3273f1ba1c2395ca9a95eed509727fb1edcee1a820b0ce0deb89cba6fd4c60"
+    },
+    {
+      "from": "final-submit\\output\\submission_011_dinov3_group_knn_blend.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\submission_011_dinov3_group_knn_blend.csv",
+      "sha256": "52b69c77585d0fb4a13c3a7a6164f0f949f837925569f7a65eec95e4fb491617"
+    },
+    {
+      "from": "final-submit\\output\\train_test_nearest_neighbors_dinov3.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\interrupted_full_run\\train_test_nearest_neighbors_dinov3.csv",
+      "sha256": "a24a001684721bccc8f8b9d18bf81bb21f1cd42177edb4ec41c61e03614562b1"
+    }
+  ],
+  "final_notebook_cells": 46,
+  "active_modeling_scope": "baseline logistic/SVM/kNN, nested HSV-SVM, DINOv3 OVR-SVM, classwise DINOv3 calibration",
+  "final_run_diagnostics_archived": [
+    {
+      "from": "final-submit\\output\\classwise_expert_oof.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\classwise_expert_oof.csv",
+      "sha256": "09d66ccd1059a49c2c6cb19054aa5e8ec21b1b93bfbae913e37d934f0931dc71"
+    },
+    {
+      "from": "final-submit\\output\\classwise_expert_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\classwise_expert_report.json",
+      "sha256": "68c1f9fd8ac68d79751036dc47f0969be9779096e31c8200822e882f534d553d"
+    },
+    {
+      "from": "final-submit\\output\\modeling_report.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\modeling_report.json",
+      "sha256": "1f66ec943d5e0163f25d289fe390a1428a3ab6b165d4b5018bdf094dd0a02cf5"
+    },
+    {
+      "from": "final-submit\\output\\oof_diagnostics.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\oof_diagnostics.csv",
+      "sha256": "3d3def1adedefeef511959dba95f4d5e58b4e98127cf19bb6e0e8a8b9e74dbc4"
+    },
+    {
+      "from": "final-submit\\output\\submission_001_dino_logistic.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\submission_001_dino_logistic.csv",
+      "sha256": "a59a0addca8b5d54b7971a7ff20eebc6bf6cde2d8b55a0557c06204891e1ac12"
+    },
+    {
+      "from": "final-submit\\output\\submission_002_dino_svm_rbf.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\submission_002_dino_svm_rbf.csv",
+      "sha256": "8026972f70e4ae6a41c187861ed6fa98d8961d424d66d2868dd00d2023106639"
+    },
+    {
+      "from": "final-submit\\output\\submission_003_dino_knn7.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\submission_003_dino_knn7.csv",
+      "sha256": "bc83a23a06342f08eee8c1787bcab3967c7adbceac36e5b708384b649cad8dfd"
+    },
+    {
+      "from": "final-submit\\output\\submission_004_dino_hsv_svm.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\submission_004_dino_hsv_svm.csv",
+      "sha256": "8026972f70e4ae6a41c187861ed6fa98d8961d424d66d2868dd00d2023106639"
+    },
+    {
+      "from": "final-submit\\output\\submission_008_dinov3_full_ovr_svm.json",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\submission_008_dinov3_full_ovr_svm.json",
+      "sha256": "32283523110c34300c6d2575fec3f2371e0b746c55b2da5a61d25446eb021a1a"
+    },
+    {
+      "from": "final-submit\\output\\submission_009_classwise_probabilities.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\submission_009_classwise_probabilities.csv",
+      "sha256": "50db86baa72f11352eece00b8b5a723a900cdf2f218524262082db8983005a2e"
+    },
+    {
+      "from": "final-submit\\output\\submission_009_dinov3_classwise_platt_svm.csv",
+      "to": "docs\\agent-notes\\experiments\\train_holdout_20261112\\experiment_outputs\\submission_009_dinov3_classwise_platt_svm.csv",
+      "sha256": "c16af090c604163a85edeff0628b5612a2de5438891962b9986a731ef3b8f068"
+    }
+  ],
+  "kept_final_output_files": [
+    "final-submit/output/submission_008_dinov3_full_ovr_svm.csv",
+    "final-submit/output/submission_009.csv"
+  ]
+}

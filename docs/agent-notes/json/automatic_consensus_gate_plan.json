@@ -1,0 +1,13 @@
+{
+  "method": "fixed high-consensus gated refinement",
+  "source_votes_minimum": 3,
+  "mean_oof_model_support": 0.8,
+  "feature_families_minimum": 4,
+  "support_within_each_family": 0.5,
+  "manual_labels_consumed": 0,
+  "test_data_used": false,
+  "reference_archive_read_in_generation": false,
+  "parameters_searched": false,
+  "interpretation": "automatic source-evidence rule, not a new independent accuracy estimate",
+  "researcher_has_seen_previous_archive_audits": true
+}

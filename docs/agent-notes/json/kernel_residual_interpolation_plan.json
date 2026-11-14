@@ -1,0 +1,128 @@
+{
+  "method": "source_excluded_genuine_error_kernel_ridge_v1",
+  "reference": "https://arxiv.org/abs/2010.13993",
+  "adaptation": "RBFkernelridgeonwarmkNNsource-excludederrors;onlygenuine34residualtargets;noglobalreviewtargets",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "banks": [
+    "V3CLS_PCA128white",
+    "V3_fullsource_centered"
+  ],
+  "configs": [
+    {
+      "gamma": 2.0,
+      "ridge": 0.01,
+      "scale": 1.0
+    },
+    {
+      "gamma": 2.0,
+      "ridge": 0.01,
+      "scale": 2.0
+    },
+    {
+      "gamma": 2.0,
+      "ridge": 0.1,
+      "scale": 1.0
+    },
+    {
+      "gamma": 2.0,
+      "ridge": 0.1,
+      "scale": 2.0
+    },
+    {
+      "gamma": 2.0,
+      "ridge": 1.0,
+      "scale": 1.0
+    },
+    {
+      "gamma": 2.0,
+      "ridge": 1.0,
+      "scale": 2.0
+    },
+    {
+      "gamma": 8.0,
+      "ridge": 0.01,
+      "scale": 1.0
+    },
+    {
+      "gamma": 8.0,
+      "ridge": 0.01,
+      "scale": 2.0
+    },
+    {
+      "gamma": 8.0,
+      "ridge": 0.1,
+      "scale": 1.0
+    },
+    {
+      "gamma": 8.0,
+      "ridge": 0.1,
+      "scale": 2.0
+    },
+    {
+      "gamma": 8.0,
+      "ridge": 1.0,
+      "scale": 1.0
+    },
+    {
+      "gamma": 8.0,
+      "ridge": 1.0,
+      "scale": 2.0
+    },
+    {
+      "gamma": 32.0,
+      "ridge": 0.01,
+      "scale": 1.0
+    },
+    {
+      "gamma": 32.0,
+      "ridge": 0.01,
+      "scale": 2.0
+    },
+    {
+      "gamma": 32.0,
+      "ridge": 0.1,
+      "scale": 1.0
+    },
+    {
+      "gamma": 32.0,
+      "ridge": 0.1,
+      "scale": 2.0
+    },
+    {
+      "gamma": 32.0,
+      "ridge": 1.0,
+      "scale": 1.0
+    },
+    {
+      "gamma": 32.0,
+      "ridge": 1.0,
+      "scale": 2.0
+    }
+  ],
+  "baseline": "coldautocoreplusfitfoldgenuinehumansweight32;k7;allfit-rowpredictionsexcludeownsourcegroup;referenceserrornotin-sample",
+  "residual": "e=humanonehot-minus-sourceexcludedwarmbaseline;RBFk(x,h)=exp(-gamma(1-cos));correction=Kqh(Khh+ridgeI)^-1e",
+  "correction": "fixedscale1/2;cliprenormalize;nohumanclampongraph,nographpseudolabels",
+  "normalizer": "outerTRAINonly;querygroupsabsentfromgraph,core,normalizer,residualreferences",
+  "selection": "perbank34developmentbalancedrecallthenmatches;primarybestbank;bothbanksagreewithminprobthreshold",
+  "threshold_grid": [
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95
+  ],
+  "guard": "primary>=29andmacro>=.85andcovered>=15with>=.9precision",
+  "maximum_changes": 20,
+  "cap": "descendingminimumprobability,stablekeyorder",
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_audits": true,
+  "evaluation_limit": "34reuseddevelopmentandmultiplecomparison;graphinductivebutnotindependentfinalAccuracy",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "13289e5991b6324d1737cadb85375e291c118311653d6f4417bc5ecc3ed19035",
+    "data/preprocessing_inputs.npz": "791996fdec9749f7dbe40ea105ffd346c24a1f3b98379e3b11d081e55ab7fe7d",
+    "final-submit/DSC2026_Notebook.ipynb": "f2f56da23f21f859653f8092422be989651c59fb15e4bf9cba4585bbed447639"
+  },
+  "source_code_sha256": "6f8453985ff8e54ce7ad1dffb2c6a7b194da42cca8e21c137266f3258237ce06"
+}

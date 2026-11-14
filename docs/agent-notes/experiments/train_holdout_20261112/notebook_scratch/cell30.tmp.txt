@@ -1,0 +1,71 @@
+def source_geometry(path_a, path_b):
+    images = [cv2.imdecode(np.fromfile(path, dtype=np.uint8), cv2.IMREAD_GRAYSCALE) for path in [path_a, path_b]]
+    detector = cv2.SIFT_create(nfeatures=2000)
+    points = [detector.detectAndCompute(image, None) for image in images]
+    if any(description is None for _, description in points): return {'qualified':False, 'matches':0}
+    pairs = cv2.BFMatcher().knnMatch(points[0][1], points[1][1], k=2)
+    good = [a for a,b in pairs if a.distance < .75*b.distance]
+    if len(good) < 8: return {'qualified':False, 'matches':len(good)}
+    aa = np.float32([points[0][0][match.queryIdx].pt for match in good])
+    bb = np.float32([points[1][0][match.trainIdx].pt for match in good])
+    cv2.setRNGSeed(20261109)
+    transform, inliers = cv2.findHomography(aa, bb, cv2.RANSAC, 3.)
+    if transform is None: return {'qualified':False, 'matches':len(good)}
+    mask = inliers.ravel().astype(bool)
+    fraction = float(mask.mean())
+    hull = [float(cv2.contourArea(cv2.convexHull(values[mask]))/image.size) if mask.sum()>=3 else 0.
+            for values,image in zip([aa,bb],images)]
+    qualified = len(good)>=40 and fraction>=.9 and min(hull)>=.3 and np.isfinite(transform).all()
+    return {'qualified':bool(qualified), 'matches':len(good), 'inliers':int(mask.sum()),
+            'inlier_fraction':fraction, 'hull_fraction_a':hull[0], 'hull_fraction_b':hull[1]}
+
+full = train_rows.loc[~train_rows.is_crop].copy()
+mixed = full.groupby('parent_group').assigned_class.nunique()
+geometry_evidence, geometry_changes = [], {}
+with threadpool_limits(limits=4):
+    for group in mixed[mixed>1].index:
+        pair = full[full.parent_group.eq(group)]
+        if len(pair)!=2 or pair.human_reviewed.any(): continue
+        a,b = pair.iloc[0],pair.iloc[1]
+        info = source_geometry(resolve(a.source_path), resolve(b.source_path))
+        info.update(group=group, key_a=a.parent_key, key_b=b.parent_key, accepted=False)
+        if info['qualified']:
+            fit = ~train_rows.parent_group.eq(group).to_numpy()
+            query = ~fit
+            assert set(train_rows.loc[fit,'parent_group']).isdisjoint(set(train_rows.loc[query,'parent_group']))
+            classifiers = [LogisticRegression(C=3,max_iter=1200,random_state=20261109),
+                           SVC(C=4,kernel='rbf',gamma='scale'),
+                           KNeighborsClassifier(n_neighbors=7,weights='distance',metric='cosine')]
+            votes = []
+            for classifier in classifiers:
+                classifier.fit(X_train[fit], y_train[fit])
+                votes.extend(classifier.predict(X_train[query]).tolist())
+            categories, counts = np.unique(votes,return_counts=True)
+            winner = int(categories[counts.argmax()])
+            accepted = int(counts.max())>=5 and CLASSES[winner] in set(pair.assigned_class)
+            info.update(votes=[CLASSES[c] for c in votes], winning_class=CLASSES[winner],
+                        winning_votes=int(counts.max()), accepted=bool(accepted))
+            if accepted:
+                for row in pair.itertuples():
+                    if row.assigned_class != CLASSES[winner]: geometry_changes[row.sample_key] = CLASSES[winner]
+        geometry_evidence.append(info)
+assert len(geometry_changes)==1, 'Hasil geometri berubah; periksa versi lingkungan sebelum ekspor.'
+for key, category in geometry_changes.items():
+    old = resolve(processed.loc[processed.sample_key.eq(key),'output_path'].iloc[0])
+    new = PROCESSED/'train'/category/old.name
+    os.replace(old,new)
+    for table in (processed, model_rows, train_rows):
+        selected=table.sample_key.eq(key)
+        table.loc[selected,'assigned_class']=category
+        table.loc[selected,'output_path']=relative(new)
+        table.loc[selected,'label_source']='geometric_source_group_heldout_vote_v1'
+        table.loc[selected,'category_score']=1.
+        table.loc[selected,'category_score_kind']='group_heldout_vote_share'
+        table.loc[selected,'needs_review']=True
+processed.to_csv(PROCESSED/'manifest.csv',index=False)
+y_train=np.array([CLASSES.index(name) for name in train_rows.assigned_class],dtype=int)
+summary['train_class_counts']=train_rows.assigned_class.value_counts().reindex(CLASSES,fill_value=0).to_dict()
+summary['geometric_group_consistency']={'test_rows_in_fit':0,'changes':len(geometry_changes),'evidence':geometry_evidence}
+(PROCESSED/'geometric_group_evidence.json').write_text(json.dumps(geometry_evidence,indent=2),encoding='utf-8')
+display(pd.DataFrame(geometry_evidence))
+print('Koreksi konsistensi sumber:', geometry_changes)

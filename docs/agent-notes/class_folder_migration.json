@@ -1,0 +1,38 @@
+{
+  "moves": [
+    {
+      "old_path": "data/processed",
+      "backup_path": "docs/agent-notes/.runtime/before_class_folders/processed",
+      "directory_identity_preserved": true
+    },
+    {
+      "old_path": "final-submit/reports",
+      "backup_path": "docs/agent-notes/.runtime/before_class_folders/reports",
+      "directory_identity_preserved": true
+    }
+  ],
+  "raw_dataset_moved": false,
+  "fresh_processed_created": true,
+  "verification": {
+    "status": "passed",
+    "rebuilt_from_empty_processed": true,
+    "notebook_sha256": "20416ab9d262f2a94756825d812dd9f37e7f0fb374c99805db6ed68688d84c62",
+    "executed_code_cells": 13,
+    "errors": 0,
+    "train_class_counts": {
+      "glass": 204,
+      "paper": 244,
+      "electronic": 204,
+      "metal": 250,
+      "plastic": 276,
+      "cardboard": 243,
+      "textile": 225,
+      "foodwaste": 267
+    },
+    "source_files_changed": false,
+    "native_crop_subsets_verified": true,
+    "current_processed_files_created_by_notebook": true,
+    "crop_reference_group_checks": 7,
+    "full_frame_snapshot_checks": 1906
+  }
+}

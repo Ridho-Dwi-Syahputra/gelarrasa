@@ -1,0 +1,16 @@
+{
+  "method": "train-only residual threshold extension, diagnostics before any publication",
+  "thresholds": [
+    0.6,
+    0.55,
+    0.5,
+    0.45,
+    0.4,
+    0.35
+  ],
+  "guard": "whole34>=28 and macro>=.85 and residual covered>=20 and partial precision>=.9",
+  "review_or_archive_fit": false,
+  "test_in_fit": false,
+  "new_manual_labels": 0,
+  "scope": "screen only"
+}

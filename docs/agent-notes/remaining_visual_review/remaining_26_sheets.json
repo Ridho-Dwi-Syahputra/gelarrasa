@@ -1,0 +1,54 @@
+{
+  "active_prefix": "risk_first_expert",
+  "rows": 26,
+  "table_sha256": "8dca1e6478c5eb41e2a55e1746d9a8a2d594f0733617b6eac9cce3a7f6944de3",
+  "manifest_sha256": "f452a33bb27a50de5a960b0464e2057b49bb82bdf84e4f73f8ce9376bbe0ad84",
+  "pages": [
+    {
+      "path": "docs\\agent-notes\\remaining_visual_review\\remaining_26_page_1.png",
+      "image_ids": [
+        "0058",
+        "0265",
+        "0310",
+        "0498",
+        "0536",
+        "0559",
+        "0714",
+        "0785",
+        "0964"
+      ],
+      "sha256": "db2843ccd5da1d1e2b7cf0ebda910415630e119c3d070c225fdf5656585140ac"
+    },
+    {
+      "path": "docs\\agent-notes\\remaining_visual_review\\remaining_26_page_2.png",
+      "image_ids": [
+        "0969",
+        "0978",
+        "1018",
+        "1079",
+        "1142",
+        "1176",
+        "1230",
+        "1281",
+        "1417"
+      ],
+      "sha256": "be5b621a017b1a45483accefdc7ae0825e32c2bcef0e512fa707928ad56b2899"
+    },
+    {
+      "path": "docs\\agent-notes\\remaining_visual_review\\remaining_26_page_3.png",
+      "image_ids": [
+        "1436",
+        "1515",
+        "1531",
+        "1657",
+        "1684",
+        "1848",
+        "1904",
+        "1913"
+      ],
+      "sha256": "e79dda22a89fdae12b93a57c35573a4d052651db107d5e85ecc7dfdb07c2d6c4"
+    }
+  ],
+  "source_images_changed": false,
+  "labels_changed": false
+}

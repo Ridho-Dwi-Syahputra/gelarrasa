@@ -1,0 +1,16 @@
+{
+  "status": "screen_passed",
+  "best": {
+    "boost": 1.5,
+    "threshold": 0.4,
+    "matches": 29,
+    "macro": 0.875,
+    "human_covered": 4,
+    "human_correct": 2,
+    "automatic_proposals": 69,
+    "guard_passed": true
+  },
+  "passing": 4,
+  "test_rows": 0,
+  "manual_sources": 34
+}

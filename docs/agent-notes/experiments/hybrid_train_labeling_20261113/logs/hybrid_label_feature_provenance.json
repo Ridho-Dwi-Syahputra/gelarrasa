@@ -1,0 +1,64 @@
+{
+  "method": "frozen_EfficientNetB0_embedding_plus_HOG_plus_RGB_histogram_RBF_SVM",
+  "input": "raw organizer train images only",
+  "train_images": 1920,
+  "test_images_processed": 0,
+  "human_seeds": 37,
+  "seed_class_counts": {
+    "cardboard": 5,
+    "electronic": 5,
+    "foodwaste": 4,
+    "glass": 5,
+    "metal": 3,
+    "paper": 5,
+    "plastic": 5,
+    "textile": 5
+  },
+  "cnn_weights": "EfficientNet_B0_Weights.IMAGENET1K_V1",
+  "cnn_weight_sha256": "7f5810bc96def8f7552d5b7e68d53c4786f81167d28291b21c0d90e1fca14934",
+  "feature_cache_identity": "740330b517a3e3ff58f1eced50964d6743afe89c88dc31fe79a62d3bc78c30fc",
+  "feature_dimensions": {
+    "cnn_embedding": 1280,
+    "hog": 1764,
+    "rgb_histogram": 96
+  },
+  "scaler": "StandardScaler fit inside each grouped inner/outer train split; refit on all 37 reviewed train seeds for candidate labels",
+  "svm": "RBF; inner grouped search C=[0.1,1,10], gamma=[scale,0.001,0.01,0.1]",
+  "source_like_groups": "union of identical file SHA, identical decoded RGB SHA, and seed pHash distance <=4",
+  "seed_oof_summary": [
+    {
+      "method": "cnn_only",
+      "seed_oof_accuracy": 0.02702702702702703,
+      "seed_oof_balanced_accuracy": 0.041666666666666664,
+      "seed_oof_macro_f1": 0.0625,
+      "seed_n": 37,
+      "outer_group_folds": 37,
+      "outer_split_seed": null,
+      "metric_scope": "nested grouped OOF on 37 human seeds; not independent after method development"
+    },
+    {
+      "method": "hog_color",
+      "seed_oof_accuracy": 0.0,
+      "seed_oof_balanced_accuracy": 0.0,
+      "seed_oof_macro_f1": 0.0,
+      "seed_n": 37,
+      "outer_group_folds": 37,
+      "outer_split_seed": null,
+      "metric_scope": "nested grouped OOF on 37 human seeds; not independent after method development"
+    },
+    {
+      "method": "hybrid_cnn_hog_color",
+      "seed_oof_accuracy": 0.0,
+      "seed_oof_balanced_accuracy": 0.0,
+      "seed_oof_macro_f1": 0.0,
+      "seed_n": 37,
+      "outer_group_folds": 37,
+      "outer_split_seed": null,
+      "metric_scope": "nested grouped OOF on 37 human seeds; not independent after method development"
+    }
+  ],
+  "label_candidate_rows": 1920,
+  "candidate_used_as_active_assignment": false,
+  "active_assignment_parity_verified": false,
+  "test_used_for_fit": false
+}

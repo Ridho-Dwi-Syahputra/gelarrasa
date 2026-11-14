@@ -1,0 +1,10 @@
+{
+  "source_sha256": "c2a021d5ce30df31abb3a3827f821cace93fa9406747df0bc4255ba90cbf3414",
+  "sources": 34,
+  "views_per_source": 8,
+  "new_labels": 0,
+  "test_rows": 0,
+  "projection": "all21841sqrtsoftmaxT1/T2;fixedSSR512seed20261108",
+  "view0": "normalizedcache;othersRAW;allunitnormalizebeforeverifiedLNscaleinverse",
+  "source_code_sha256": "85195e55b46b7d29854301dd8eba396fff671fd2bb2b5401407cdecebe7feb3f"
+}

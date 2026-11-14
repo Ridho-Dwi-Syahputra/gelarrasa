@@ -1,0 +1,228 @@
+{
+  "scope": "posthoc audit after train-only Stage18 candidate frozen; manifest not used for fitting, selection, mapping, or refinement",
+  "raw_train_rows": 1920,
+  "active_fullframe_rows": 1906,
+  "overlap_rows": 1906,
+  "source_hash_matches": 1906,
+  "source_hash_mismatches": 0,
+  "stage17_matches": 1639,
+  "stage17_differences": 267,
+  "stage18_auto_matches": 1684,
+  "stage18_auto_differences": 222,
+  "stage18_auto_eligible_matches": 1670,
+  "stage18_auto_eligible_differences": 209,
+  "stage18_plus_seed_audit_matches": 1712,
+  "stage18_plus_seed_audit_differences": 194,
+  "stage18_plus_seed_audit_eligible_matches": 1698,
+  "stage18_plus_seed_audit_eligible_differences": 181,
+  "seed_overlay_rows": 37,
+  "seed_overlay_changed_auto_labels": 28,
+  "by_active_provenance": {
+    "augmented_source_prototype_snapshot": {
+      "rows": 34,
+      "auto_matches": 0,
+      "auto_differences": 34,
+      "seed_audit_matches": 0,
+      "seed_audit_differences": 34
+    },
+    "bounded_anchor_cluster_consensus_snapshot": {
+      "rows": 7,
+      "auto_matches": 0,
+      "auto_differences": 7,
+      "seed_audit_matches": 0,
+      "seed_audit_differences": 7
+    },
+    "bounded_anchor_stable_consensus_snapshot": {
+      "rows": 18,
+      "auto_matches": 1,
+      "auto_differences": 17,
+      "seed_audit_matches": 1,
+      "seed_audit_differences": 17
+    },
+    "geometric_source_group_heldout_vote_v1": {
+      "rows": 1,
+      "auto_matches": 1,
+      "auto_differences": 0,
+      "seed_audit_matches": 1,
+      "seed_audit_differences": 0
+    },
+    "human_seed_source_concept_snapshot": {
+      "rows": 6,
+      "auto_matches": 0,
+      "auto_differences": 6,
+      "seed_audit_matches": 0,
+      "seed_audit_differences": 6
+    },
+    "iterative_program_refinement_snapshot": {
+      "rows": 1570,
+      "auto_matches": 1542,
+      "auto_differences": 28,
+      "seed_audit_matches": 1542,
+      "seed_audit_differences": 28
+    },
+    "participant_reviewed_seed": {
+      "rows": 37,
+      "auto_matches": 9,
+      "auto_differences": 28,
+      "seed_audit_matches": 37,
+      "seed_audit_differences": 0
+    },
+    "residual_graph_correction_snapshot": {
+      "rows": 27,
+      "auto_matches": 12,
+      "auto_differences": 15,
+      "seed_audit_matches": 12,
+      "seed_audit_differences": 15
+    },
+    "retired_anchor_holdout": {
+      "rows": 2,
+      "auto_matches": 0,
+      "auto_differences": 2,
+      "seed_audit_matches": 0,
+      "seed_audit_differences": 2
+    },
+    "robust_neural_assignment_snapshot": {
+      "rows": 4,
+      "auto_matches": 2,
+      "auto_differences": 2,
+      "seed_audit_matches": 2,
+      "seed_audit_differences": 2
+    },
+    "stage1_train_only_pseudolabel": {
+      "rows": 7,
+      "auto_matches": 5,
+      "auto_differences": 2,
+      "seed_audit_matches": 5,
+      "seed_audit_differences": 2
+    },
+    "train_only_cluster_anchor_1039_v1": {
+      "rows": 51,
+      "auto_matches": 51,
+      "auto_differences": 0,
+      "seed_audit_matches": 51,
+      "seed_audit_differences": 0
+    },
+    "two_view_lighting_ontology_snapshot": {
+      "rows": 12,
+      "auto_matches": 0,
+      "auto_differences": 12,
+      "seed_audit_matches": 0,
+      "seed_audit_differences": 12
+    },
+    "vit_knn_label_propagation_snapshot": {
+      "rows": 130,
+      "auto_matches": 61,
+      "auto_differences": 69,
+      "seed_audit_matches": 61,
+      "seed_audit_differences": 69
+    }
+  },
+  "test_images_used": false,
+  "refinement_rounds": [
+    {
+      "round": 1,
+      "changed_from_previous": 93,
+      "changed_from_stage17": 93,
+      "fixed_automatic_anchors": 523,
+      "class_counts": {
+        "glass": 208,
+        "paper": 265,
+        "electronic": 181,
+        "metal": 268,
+        "plastic": 265,
+        "cardboard": 256,
+        "textile": 225,
+        "foodwaste": 252
+      }
+    },
+    {
+      "round": 2,
+      "changed_from_previous": 22,
+      "changed_from_stage17": 101,
+      "fixed_automatic_anchors": 523,
+      "class_counts": {
+        "glass": 208,
+        "paper": 264,
+        "electronic": 188,
+        "metal": 271,
+        "plastic": 261,
+        "cardboard": 257,
+        "textile": 222,
+        "foodwaste": 249
+      }
+    },
+    {
+      "round": 3,
+      "changed_from_previous": 8,
+      "changed_from_stage17": 108,
+      "fixed_automatic_anchors": 523,
+      "class_counts": {
+        "glass": 206,
+        "paper": 265,
+        "electronic": 190,
+        "metal": 273,
+        "plastic": 261,
+        "cardboard": 257,
+        "textile": 220,
+        "foodwaste": 248
+      }
+    }
+  ],
+  "first_round_family_oof_metrics": [
+    {
+      "family": "dino2",
+      "core_macro_agreement": 0.9861349633247711,
+      "hflip_oof_agreement": 0.98828125,
+      "recipe": {
+        "family": "dino2",
+        "kind": "svm",
+        "kernel": "linear",
+        "C": 1.0
+      }
+    },
+    {
+      "family": "dino2_local",
+      "core_macro_agreement": 0.9693850903114785,
+      "hflip_oof_agreement": 0.9765625,
+      "recipe": {
+        "family": "dino2_local",
+        "kind": "knn",
+        "neighbors": 7
+      }
+    },
+    {
+      "family": "dino3_global",
+      "core_macro_agreement": 0.9748415246651927,
+      "hflip_oof_agreement": 0.98046875,
+      "recipe": {
+        "family": "dino3_global",
+        "kind": "knn",
+        "neighbors": 21
+      }
+    },
+    {
+      "family": "dino3_foreground",
+      "core_macro_agreement": 0.9769054036335895,
+      "hflip_oof_agreement": 0.9921875,
+      "recipe": {
+        "family": "dino3_foreground",
+        "kind": "svm",
+        "kernel": "rbf",
+        "gamma": 4.0,
+        "C": 1.0
+      }
+    },
+    {
+      "family": "dino3_task8",
+      "core_macro_agreement": 0.987274612021156,
+      "hflip_oof_agreement": 0.97265625,
+      "recipe": {
+        "family": "dino3_task8",
+        "kind": "svm",
+        "kernel": "linear",
+        "C": 1.0
+      }
+    }
+  ],
+  "refinement_method": "stage17_five_family_iterative_crossfit_denoising_v1"
+}

@@ -1,0 +1,58 @@
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import normalize as l2_normalize
+
+full_index = np.flatnonzero(~train_rows.is_crop.to_numpy(bool))
+full_index = full_index[np.argsort(train_rows.iloc[full_index].parent_id.to_numpy(str), kind='stable')]
+full_frame = train_rows.iloc[full_index].reset_index(drop=True)
+assert len(full_frame) == 1887 and full_frame.parent_key.is_unique
+anchor_key = 'train:1039'
+assert anchor_key in set(human_input.key) and human_input.set_index('key').loc[anchor_key, 'assigned_class'] == 'foodwaste'
+anchor_index = int(np.flatnonzero(full_frame.parent_key.eq(anchor_key))[0])
+cluster_features = l2_normalize(X_train[full_index].astype('float64'))
+memberships = []
+with threadpool_limits(limits=4):
+    for random_state in range(20261109, 20261114):
+        cluster = KMeans(n_clusters=32, n_init=5, random_state=random_state).fit_predict(cluster_features)
+        memberships.append(cluster == cluster[anchor_index])
+support = np.stack(memberships).sum(axis=0)
+stable = support >= 4
+stable_keys = full_frame.loc[stable, 'parent_key'].tolist()
+assert len(stable_keys) == 72
+assert hashlib.sha256('|'.join(stable_keys).encode()).hexdigest() == 'ad3baf609c41ddf31f18f95aa1a53b129eb1a77d184110e72d68c3ede3ee2377'
+other_human = full_frame.loc[stable & full_frame.human_reviewed.to_numpy(bool)]
+assert other_human.parent_key.tolist() == [anchor_key]
+changes = full_frame.loc[stable & full_frame.assigned_class.ne('foodwaste'), 'parent_key'].tolist()
+assert len(changes) == 70
+support_by_key = dict(zip(full_frame.parent_key, support))
+
+for key in changes:
+    mask = processed.sample_key.eq(key)
+    assert mask.sum() == 1
+    old = resolve(processed.loc[mask, 'output_path'].iloc[0])
+    new = PROCESSED / 'train' / 'foodwaste' / old.name
+    assert old.is_file() and old.parent.name == 'textile'
+    os.replace(old, new)
+    for table in (processed, model_rows, train_rows):
+        selected = table.sample_key.eq(key)
+        assert selected.sum() == 1
+        table.loc[selected, 'assigned_class'] = 'foodwaste'
+        table.loc[selected, 'output_path'] = relative(new)
+        table.loc[selected, 'label_source'] = 'train_only_cluster_anchor_1039_v1'
+        table.loc[selected, 'category_score'] = float(support_by_key[key] / 5)
+        table.loc[selected, 'category_score_kind'] = 'five_seed_cluster_consensus_support'
+        table.loc[selected, 'needs_review'] = True
+
+processed.to_csv(PROCESSED / 'manifest.csv', index=False)
+y_train = np.array([CLASSES.index(name) for name in train_rows.assigned_class], dtype=int)
+class_counts = processed[processed.split.eq('train') & processed.training_eligible].assigned_class.value_counts().reindex(CLASSES, fill_value=0)
+summary['train_class_counts'] = class_counts.to_dict()
+summary['cluster_anchor_1039'] = {'fit_train_rows':len(full_frame), 'test_rows_in_fit':0,
+    'human_anchor_count_this_cluster':1, 'stable_members':len(stable_keys),
+    'algorithmic_category_changes':len(changes), 'cluster_repetitions':5,
+    'minimum_support':4, 'independent_semantic_validation':False}
+cluster_evidence = full_frame[['parent_key','parent_id','parent_group']].copy()
+cluster_evidence['same_cluster_support'] = support
+cluster_evidence['assigned_to_foodwaste'] = stable
+cluster_evidence.to_csv(PROCESSED / 'cluster_anchor_1039_evidence.csv', index=False)
+display(class_counts.rename('train_setelah_penyempurnaan_kelompok').to_frame())
+print('Kelompok stabil:', len(stable_keys), '| kategori otomatis berubah:', len(changes))

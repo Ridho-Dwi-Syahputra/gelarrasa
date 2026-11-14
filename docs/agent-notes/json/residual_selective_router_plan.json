@@ -1,0 +1,26 @@
+{
+  "method": "frozen_prototype_plus_residual_selective_router_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "inputs": [
+    "augmented_prototype_consensus",
+    "residual_graph_correction",
+    "dinov3_base_neighbors"
+  ],
+  "baseline": "V3OOFwithfrozenaugmentedprototypepartialrouting(.1margin,.45rawcos)",
+  "routing": "residualtwo-bankminimumwinningprobability>=.6;doNOTreplaceconflictingqualifiedprototype;otherwiseresidual;baselinefallback",
+  "guard": "whole34>=27matchesandmacro>=.808333333333;residualcovered>=18,precision>=.9;noclassquotaorIDrules",
+  "score": "minimumcorrectedprobabilityoftwocorrelatedbanks;notcorrectnessprobability",
+  "maximum_changes": 20,
+  "cap": "descendingminimumcorrectedprobability,stablekeyorder",
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_audits": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "eaa624d9711a3a4a1119892a893e6b226429925070557da0747e5f385338b1bf",
+    "data/preprocessing_inputs.npz": "c174c254c9544d70aa23b80a98bc7ccd14dc3b2a19e7f8a6d83487ae8cce1c71",
+    "final-submit/DSC2026_Notebook.ipynb": "b80b7c982ed89cd151e544d3d1a5e2a79aac68a8d6873e7b94edc9bfc21bcc24"
+  },
+  "source_code_sha256": "cbcf4af2e77d80e2e606195c0a0b440b77aedde214889952efc918e837551a3c",
+  "evaluation_limit": "same34reuseddevelopment;selectivecombinationisnewhypothesis,earlierglobalrejectionpreserved;notindependentAccuracy"
+}

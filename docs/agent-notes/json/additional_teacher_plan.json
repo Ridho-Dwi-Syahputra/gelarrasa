@@ -1,0 +1,6 @@
+{
+  "repository": "cpoisson/trash-optimizer-models",
+  "revision": "fbb56623e6bd5195df698f7a00ccf49ec6e722ba",
+  "source": "public image-only pretrained CNN; no external images downloaded",
+  "class_mapping": "battery:0\ncar_battery:1\ncardboard:2\nfood_organics:3\nglass:4\nlight_bulb:5\nmetal:6\nmirror:7\nmiscellaneous_trash:8\nneon:9\npaper:10\npharmacy:11\nplastic:12\nprinter_cartridge:13\ntextile_trash:14\ntire:15\nvegetation:16\nwood:17\n"
+}

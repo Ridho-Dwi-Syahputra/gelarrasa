@@ -31,7 +31,7 @@
 *.mp4
 *.wav
 *.part[0-9]*
-# Recreate the local environment from requirements-lock.txt.
+# Recreate the active environment from requirements.txt; older lockfile is archived.
 .venv/
 __pycache__/
 *.py[cod]
@@ -57,3 +57,10 @@ Desktop.ini
 /docs/materi/Materi 1 (Intelligence in Action_ Machine Learning for Sustainable Solution).pdf
 /docs/rules/GUIDEBOOK TATA TERTIB PESERTA GELAR RASA 2026.pdf
 /docs/rules/HANDBOOK PRELIMINARY ROUND DSC GELAR RASA 2026.pdf
+
+/arsip/
+
+/final-submit/output/
+/docs/agent-notes/.runtime/
+/docs/rules/sources/handbook_latest_20261107.pdf
+/docs/submission_ (1).csv

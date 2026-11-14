@@ -1,0 +1,7 @@
+{
+  "decision": "publish frozen five neural proposals and geometry grouping",
+  "prediction_sha256": "a4d08e15fc326b760af8b83e035726a6fc010f6f8f5d73c5186d413d80508695",
+  "guard": "15/34 pooled source-group-fold development,5changes below40cap",
+  "full_review_or_remaining48_read_for_this_decision": false,
+  "timestamp_utc": "2026-11-07T11:58:12.881535+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "decision": "reject",
+  "prediction_sha256": "52260fe1596acef9d62fb60728653debd09c1301d202bca88b4b77fa547c061d",
+  "guard": "primary matches>=23/34andbalancedrecall>=0.725;<=50newlabels",
+  "primary_head_development_matches": 22,
+  "new_category_proposals": 0,
+  "private_review_used_for_selection": false,
+  "timestamp_utc": "2026-11-07T15:34:35.141344+00:00"
+}

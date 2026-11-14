@@ -1,0 +1,24 @@
+{
+  "method": "frozen_V3_and_full_source_selective_union_v1",
+  "threshold": 0.8,
+  "experts": [
+    "dinov3_base_neighbors",
+    "full_distribution_neighbors"
+  ],
+  "union": "eitherqualifiedexpert;conflictingtrustedexpertsabstain;otherwiseV3fallback",
+  "graph": "allqualifiedgraphsmatchroutedclassforoperationalchanges",
+  "guard": "matches>=27andmacro>=V3baselineORmatches>=26andmacro>=V3baselineandunioncovered>=16andallcoveredcorrect",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_audits": true,
+  "maximum_changes": 20,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "8a93f24c0499bd470b8a0438b9c80cae090770b2447b706fd746e3bba47d55c3",
+    "data/preprocessing_inputs.npz": "8343b1bcaef1e0973bec2d1592cb8ea69245665b88fb7b3c26cefd691a8263a1",
+    "final-submit/DSC2026_Notebook.ipynb": "b2e8236fa66e3168762012285d0daa59b4a007b9ad40be513d95cd853c481015"
+  },
+  "source_code_sha256": "33129616b7984512c705e23146203bd7189f2c959652d98375d7b1ace353d151",
+  "evaluation_limit": "same34reuseddevelopment;featurescorrelated;notindependentAccuracy;graphnotOOFvalidated"
+}

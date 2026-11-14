@@ -1,0 +1,19 @@
+{
+  "method": "fixed_hierarchical_material_routing",
+  "stable_stage": "Stage12",
+  "refinement_stage": "Stage16",
+  "coarse_stage": "Stage4",
+  "refinement_groups": [
+    0,
+    4,
+    6
+  ],
+  "minimum_fit_consensus_anchors": 20,
+  "dominant_share_threshold": 0.6,
+  "routed_train_rows": 811,
+  "train_rows": 1920,
+  "test_images_processed": 0,
+  "archive_assignments_read": false,
+  "active_assignment_parity_verified": false,
+  "source_fingerprint": "189135ec1e60a2907062d5b454da655d1bfd4157612f4c592e60e2867d39affa"
+}

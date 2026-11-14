@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "existing_geometric_edges": 116,
+  "registered_pairs_checked": 116,
+  "photometric_duplicate_edges": 19,
+  "train_source_rows": 183,
+  "test_rows": 0,
+  "categories_read": false,
+  "source_code_sha256": "59136123b7f4208959421513c37795af6690daed879f8bcb442ca66eff2deafc",
+  "evidence_sha256": "2e22fa023554aba987a8dfc385e7da3acbd1329fec622d0fb3dabfe90642b649",
+  "seconds": 75.63640999794006
+}

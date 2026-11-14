@@ -1,0 +1,51 @@
+{
+  "method": "development_selective_specialist_refinement_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows": 0,
+  "objective_change": "selectivepseudo-labelquality/coverage,notmaximumwhole34anchoraccuracy;previousrejectionsarekept",
+  "reference": "https://proceedings.mlr.press/v97/geifman19a.html",
+  "reference_limit": "risk-coverageconceptonly,notSelectivenetarchitectureorclaimedevaluationguarantee",
+  "candidates": [
+    "current_multifamily",
+    "normalized_neighbor",
+    "base_neural",
+    "cnn_neighbor_mean",
+    "fold_contained_self_training"
+  ],
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "eligibility": {
+    "minimum_development_matches": 20,
+    "minimum_balanced_recall": 0.65,
+    "minimum_coverage": 12,
+    "minimum_empirical_precision": 0.9
+  },
+  "selection": "maximum Wilson95lower-score;tie morecoverage;tie higherbalancedrecall;no private-review matching",
+  "baseline_selective_evidence": {
+    "threshold": 0.9,
+    "covered": 12,
+    "correct": 11,
+    "precision": 0.9166666666666666,
+    "eligible": true
+  },
+  "baseline_lower_score": 0.646120088858883,
+  "guard": "differentexpertwithWilsonlowerscore>=baseline+.02andcoverage>=baseline;floorwhole34performanceasabove",
+  "acceptance": "selectedexpertlearnedthresholdandbothnewfinalTRAINgraphsunanimous;humanprotected;allnonhumaneligible",
+  "maximum_changes": 40,
+  "cap": "descendingselectedprobability,stablekeyorder",
+  "evaluation_limit": "allselection/calibrationuses34developmentanchors;Wilsonrankingisnotanindependentconfidenceguarantee;graphnotusedincalibration",
+  "private_review_or_archive_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "b60fb3adb9e7258e5cafa9c5c61903885080d1211e11b39b39676ccb5bca5906",
+    "data/preprocessing_inputs.npz": "7b55720f24fc89be3c3807331ac2f7d8ca39be5c218051d666b54081f88c1d0a",
+    "final-submit/DSC2026_Notebook.ipynb": "04787ed7824ca4944e0d00624af402b064cbb7197997af91592c5420514e4ab8"
+  },
+  "source_code_sha256": "343492088abfc0e8f9fa3417bc519d1683fc02aec61e4b2836177e657c499194"
+}

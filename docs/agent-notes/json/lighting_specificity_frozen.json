@@ -1,0 +1,241 @@
+{
+  "status": "candidate_frozen",
+  "manual_training_labels_used": 0,
+  "test_rows_processed": 0,
+  "train_rows_scanned": 1906,
+  "accepted_changes": 16,
+  "decisions": [
+    {
+      "image_id": "0335",
+      "baseline_class": "glass",
+      "original_specific_hits": 1,
+      "hflip_specific_hits": 1,
+      "accepted": true,
+      "original_top5": [
+        "light-emitting_diode.n.01",
+        "ice.n.01",
+        "fairy_light.n.01",
+        "syringe.n.01",
+        "hypodermic_syringe.n.01"
+      ]
+    },
+    {
+      "image_id": "0594",
+      "baseline_class": "plastic",
+      "original_specific_hits": 2,
+      "hflip_specific_hits": 2,
+      "accepted": true,
+      "original_top5": [
+        "bulb.n.04",
+        "light_bulb.n.01",
+        "light.n.02",
+        "fluorescent_lamp.n.01",
+        "flood.n.03"
+      ]
+    },
+    {
+      "image_id": "0815",
+      "baseline_class": "plastic",
+      "original_specific_hits": 2,
+      "hflip_specific_hits": 2,
+      "accepted": true,
+      "original_top5": [
+        "fluorescent_lamp.n.01",
+        "light.n.02",
+        "light_bulb.n.01",
+        "bulb.n.04",
+        "source_of_illumination.n.01"
+      ]
+    },
+    {
+      "image_id": "0865",
+      "baseline_class": "metal",
+      "original_specific_hits": 1,
+      "hflip_specific_hits": 1,
+      "accepted": true,
+      "original_top5": [
+        "flashlight.n.01",
+        "searchlight.n.01",
+        "flashlight_battery.n.01",
+        "piston.n.02",
+        "pencil_sharpener.n.01"
+      ]
+    },
+    {
+      "image_id": "0932",
+      "baseline_class": "plastic",
+      "original_specific_hits": 3,
+      "hflip_specific_hits": 3,
+      "accepted": true,
+      "original_top5": [
+        "fluorescent_lamp.n.01",
+        "light_bulb.n.01",
+        "bulb.n.04",
+        "electric-discharge_lamp.n.01",
+        "light.n.02"
+      ]
+    },
+    {
+      "image_id": "0939",
+      "baseline_class": "plastic",
+      "original_specific_hits": 2,
+      "hflip_specific_hits": 2,
+      "accepted": true,
+      "original_top5": [
+        "bulb.n.04",
+        "light_bulb.n.01",
+        "light.n.02",
+        "fluorescent_lamp.n.01",
+        "quartz_lamp.n.01"
+      ]
+    },
+    {
+      "image_id": "0956",
+      "baseline_class": "glass",
+      "original_specific_hits": 2,
+      "hflip_specific_hits": 2,
+      "accepted": true,
+      "original_top5": [
+        "fluorescent_lamp.n.01",
+        "bulb.n.04",
+        "light_bulb.n.01",
+        "light.n.02",
+        "source_of_illumination.n.01"
+      ]
+    },
+    {
+      "image_id": "1070",
+      "baseline_class": "plastic",
+      "original_specific_hits": 2,
+      "hflip_specific_hits": 3,
+      "accepted": true,
+      "original_top5": [
+        "fluorescent_lamp.n.01",
+        "light_bulb.n.01",
+        "bulb.n.04",
+        "light.n.02",
+        "source_of_illumination.n.01"
+      ]
+    },
+    {
+      "image_id": "1132",
+      "baseline_class": "plastic",
+      "original_specific_hits": 2,
+      "hflip_specific_hits": 2,
+      "accepted": true,
+      "original_top5": [
+        "light_bulb.n.01",
+        "bulb.n.04",
+        "light.n.02",
+        "fluorescent_lamp.n.01",
+        "lamp.n.01"
+      ]
+    },
+    {
+      "image_id": "1406",
+      "baseline_class": "plastic",
+      "original_specific_hits": 2,
+      "hflip_specific_hits": 2,
+      "accepted": true,
+      "original_top5": [
+        "fluorescent_lamp.n.01",
+        "bulb.n.04",
+        "light_bulb.n.01",
+        "light.n.02",
+        "flood.n.03"
+      ]
+    },
+    {
+      "image_id": "1431",
+      "baseline_class": "plastic",
+      "original_specific_hits": 2,
+      "hflip_specific_hits": 2,
+      "accepted": true,
+      "original_top5": [
+        "bulb.n.04",
+        "light_bulb.n.01",
+        "flood.n.03",
+        "fluorescent_lamp.n.01",
+        "light.n.02"
+      ]
+    },
+    {
+      "image_id": "1497",
+      "baseline_class": "glass",
+      "original_specific_hits": 2,
+      "hflip_specific_hits": 2,
+      "accepted": true,
+      "original_top5": [
+        "fluorescent_lamp.n.01",
+        "bulb.n.04",
+        "light_bulb.n.01",
+        "light.n.02",
+        "source_of_illumination.n.01"
+      ]
+    },
+    {
+      "image_id": "1628",
+      "baseline_class": "plastic",
+      "original_specific_hits": 3,
+      "hflip_specific_hits": 3,
+      "accepted": true,
+      "original_top5": [
+        "fluorescent_lamp.n.01",
+        "light_bulb.n.01",
+        "light.n.02",
+        "bulb.n.04",
+        "electric-discharge_lamp.n.01"
+      ]
+    },
+    {
+      "image_id": "1641",
+      "baseline_class": "plastic",
+      "original_specific_hits": 2,
+      "hflip_specific_hits": 2,
+      "accepted": true,
+      "original_top5": [
+        "fluorescent_lamp.n.01",
+        "bulb.n.04",
+        "light_bulb.n.01",
+        "light.n.02",
+        "source_of_illumination.n.01"
+      ]
+    },
+    {
+      "image_id": "1908",
+      "baseline_class": "plastic",
+      "original_specific_hits": 3,
+      "hflip_specific_hits": 2,
+      "accepted": true,
+      "original_top5": [
+        "fluorescent_lamp.n.01",
+        "light_bulb.n.01",
+        "bulb.n.04",
+        "light.n.02",
+        "electric-discharge_lamp.n.01"
+      ]
+    },
+    {
+      "image_id": "1918",
+      "baseline_class": "plastic",
+      "original_specific_hits": 2,
+      "hflip_specific_hits": 2,
+      "accepted": true,
+      "original_top5": [
+        "fluorescent_lamp.n.01",
+        "bulb.n.04",
+        "light_bulb.n.01",
+        "light.n.02",
+        "flood.n.03"
+      ]
+    }
+  ],
+  "prediction_sha256": "4189352b4d997d2e8b6377225f58b5d2de06c948680f0e2824bf6f675abeeb6e",
+  "active_data_modified": false,
+  "semantic_accuracy": null,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "f6b1334e6c56795a669d14bd6dfd51df69b1fd43fb2dc0f75a5e044025f47768",
+    "data/preprocessing_inputs.npz": "da3024d9e4dcbc20fa08e5a08f36b265033428b06e82588e854a49556f01631c",
+    "final-submit/DSC2026_Notebook.ipynb": "9b185e3462b4056a459552658bd0a7ad79a2fec7ce2cf156e3ee7656c74fa279"
+  }
+}

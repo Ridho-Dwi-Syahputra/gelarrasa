@@ -1,0 +1,78 @@
+{
+  "method": "sparse_train_only_anchor_graph_v1",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "targets": "only34existing participant seeds and fixed cold automatic-consensus anchors",
+  "automatic_selection": "per-class reliable-vote priority,then within-class feature centrality;source-group unique;recomputed inside fit partition",
+  "graph": "20nearestpositivecosine^4,symmetric,row-normalized;human clamped;automatic weak restart prior;1500maxiterations",
+  "validation": "fivegeometrygroupfolds;build graph and select anchors ONLY onfit;query excluded then20neighbor interpolation",
+  "configs": [
+    {
+      "automatic_per_class": 5,
+      "automatic_mass": 0.02,
+      "alpha": 0.95
+    },
+    {
+      "automatic_per_class": 5,
+      "automatic_mass": 0.02,
+      "alpha": 0.99
+    },
+    {
+      "automatic_per_class": 5,
+      "automatic_mass": 0.2,
+      "alpha": 0.95
+    },
+    {
+      "automatic_per_class": 5,
+      "automatic_mass": 0.2,
+      "alpha": 0.99
+    },
+    {
+      "automatic_per_class": 15,
+      "automatic_mass": 0.02,
+      "alpha": 0.95
+    },
+    {
+      "automatic_per_class": 15,
+      "automatic_mass": 0.02,
+      "alpha": 0.99
+    },
+    {
+      "automatic_per_class": 15,
+      "automatic_mass": 0.2,
+      "alpha": 0.95
+    },
+    {
+      "automatic_per_class": 15,
+      "automatic_mass": 0.2,
+      "alpha": 0.99
+    }
+  ],
+  "feature_banks": [
+    "vit_dino",
+    "focus_dino",
+    "detector_vit_dino",
+    "vit_full_focus"
+  ],
+  "selection": "per-bank highest34anchor balancedrecall;then primary bank bysame metric",
+  "gate": "primary agrees>=3/4banks;candidate cosine>=.65andnearest-otherclassmargin>=.01in>=2banks;protectpreviousrefinements",
+  "maximum_changes": 40,
+  "cap_selection": "descending bank agreement,then mean human-anchor category margin;no review list",
+  "guard": "primary>=20/34matchesandbalancedrecall>=.6333333333333333",
+  "evaluation_limit": "development selection reuses34anchors;not independent final semantic Accuracy",
+  "unselected_review_or_archive_read": false,
+  "feature_sha256": {
+    "docs\\agent-notes\\.runtime\\waste_vit_train_features.npz": "dfb900ed8b670767d836c8a637806cb8b02c2b4d7717cf9fb399dbfe0bfa743c",
+    "docs\\agent-notes\\.runtime\\object_focus_vit_features.npz": "c0772acf73d94e40670998ed0c27b3bf29bb7a9e20dde015a4bb26e5178e9a44",
+    "docs\\agent-notes\\.runtime\\litter_object_features.npz": "c6f3835510e86fe168c7e319567a5be4913a7ae362b4e42d6ea1cbdd39615935",
+    "arsip\\sebelum_rapi_20261107\\output\\embeddings\\stage2_repr_v1\\dinov2_features.npz": "135fe5c871adbcb77a3bcd962a9362e05bd51ea6ba0ba0683a47b0908dab15fd"
+  },
+  "protected_sha256": {
+    "data/processed/manifest.csv": "f8e9494f9169fc187972012ed579c9b4785e494ae76131056ee209b890eac72e",
+    "data/preprocessing_inputs.npz": "b003ee13779d9abca3b8dd459caeb441b7c4787a4c2cbc84f0e6dac7f769ecfb",
+    "final-submit/DSC2026_Notebook.ipynb": "decd4e2aa000121915c4b5f2530c032244818b7d08febb7e72c81212ae042184"
+  },
+  "source_code_sha256": "cba3a5b017a5604b4afa808e6f553cd7e0c06ede5523660123ebfa4d1b272e76"
+}

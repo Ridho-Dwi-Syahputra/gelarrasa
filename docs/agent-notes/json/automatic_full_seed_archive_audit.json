@@ -1,0 +1,12 @@
+{
+  "candidate": "dino_second_knn_k21",
+  "scope": "posthoc archive agreement, not semantic Accuracy",
+  "rows": 1906,
+  "baseline_differences": 174,
+  "candidate_differences": 277,
+  "old_disagreements_resolved": 48,
+  "new_disagreements": 151,
+  "manual_labels_used": 0,
+  "selected_before_reference_audit": true,
+  "active_data_modified": false
+}

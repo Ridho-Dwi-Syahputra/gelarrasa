@@ -1,0 +1,16 @@
+{
+  "method": "same_fixed_current_pseudo_anchor_neighborhood_transfer",
+  "maximum_total_rounds": 3,
+  "maximum_changes_per_round": 40,
+  "stop_when_proposals_below": 19,
+  "stop_when_no_new_changes": true,
+  "next_round_proxy_guard": "outsourceprogramagreementandmacro maynotdropby>.02relativepreviousround;allotheroriginalguardsunchanged",
+  "manual_sources": 34,
+  "new_human_labels": 0,
+  "review_or_archive_used_for_round_selection": false,
+  "parameter_changes_between_rounds": false,
+  "scope": "fullTRAINpseudo-labeliteration;notindependenthumanvalidation",
+  "recorded_before_first_round_private_audit": true,
+  "first_round_frozen_sha256": "198001b8d793a7f4516350417d9667812bd6add857757fe45c369dcaeed41da1",
+  "timestamp_utc": "2026-11-07T16:51:01.853188+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "method": "source_wrapper_embedding_binary_plastic_screen",
+  "references": "same34trainhumananchorsonly",
+  "external_images_loaded": false,
+  "test_rows": 0,
+  "review_archive_read": false,
+  "features": "frozen_dense6_512_from_pinned_nonVLM_source13_model",
+  "fold": "five fixed geometry source groups; fit normalization and SVM on outer train only",
+  "fixed_models": [
+    "linear_C1_balanced",
+    "rbf_gamma2_C1_balanced",
+    "rbf_gamma4_C1_balanced"
+  ],
+  "screen": "OOF plastic-vs-other AUC>=.85 AND balancedaccuracy>=.8 at margin0",
+  "limitation": "34 repeatedly used anchors; source training data overlap unknown"
+}

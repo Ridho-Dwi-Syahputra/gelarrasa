@@ -4,8 +4,8 @@ Status 5 November: panduan persiapan direvisi setelah [aturan/Q&A](RULES_AND_RUB
 
 | Urutan | Pemeriksaan | Artefak konkret | Syarat selesai |
 |---|---|---|---|
-| 1 | Cakupan ID, manifest, original vs copy, decode seluruh file | `reports/eda/integrity.csv` | 1.920/480 ID tercakup; semua error decode eksplisit; tidak ada silent skip |
-| 2 | Mode/EXIF/dtype/size/aspect/quality | `reports/eda/image_profile.csv` dan galeri ekor distribusi | Definisi indikator dan seluruh ID tercatat; metadata buruk tidak otomatis dibuang |
+| 1 | Cakupan ID, manifest, original vs copy, decode seluruh file | `docs/agent-notes/source_inventory.csv` | 1.920/480 ID tercakup; semua error decode eksplisit; tidak ada silent skip |
+| 2 | Mode/EXIF/dtype/size/aspect/quality | `docs/agent-notes/image_profile.csv` dan galeri ekor distribusi | Definisi indikator dan seluruh ID tercatat; metadata buruk tidak otomatis dibuang |
 | 3 | Asal label baru dari metode peserta | feature/clustering run, cluster assignment, mapping tim, label_version | Tidak menggunakan label visual lama; tidak ada pelabelan/koreksi gambar manual; mapping kategori cluster terlacak |
 | 4 | Exact/pixel/perceptual duplicate dan satu sumber | pasangan konfirmasi + group_id | Exact pair lama terjaga; kandidat near-duplicate punya status review, bukan dianggap fakta |
 | 5 | Cakupan train–test/source slices | tabel slice dan tetangga/galeri | Tidak memakai label sample sebagai kebenaran; bias sumber dicatat |

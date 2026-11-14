@@ -1,0 +1,175 @@
+{
+  "method": "stage17_five_family_iterative_crossfit_denoising_v1",
+  "rows": 1920,
+  "test_rows_processed": 0,
+  "assignment_npz_inputs_read": false,
+  "active_label_files_read": false,
+  "automatic_source_anchors": 1229,
+  "automatic_core_rows": 1151,
+  "fixed_automatic_anchors": 523,
+  "seed_ids_in_audit_overlay": 37,
+  "seed_overlay_changed_automatic_labels": 28,
+  "family_oof_metrics_first_round": [
+    {
+      "family": "dino2",
+      "core_macro_agreement": 0.9861349633247711,
+      "hflip_oof_agreement": 0.98828125,
+      "recipe": {
+        "family": "dino2",
+        "kind": "svm",
+        "kernel": "linear",
+        "C": 1.0
+      }
+    },
+    {
+      "family": "dino2_local",
+      "core_macro_agreement": 0.9693850903114785,
+      "hflip_oof_agreement": 0.9765625,
+      "recipe": {
+        "family": "dino2_local",
+        "kind": "knn",
+        "neighbors": 7
+      }
+    },
+    {
+      "family": "dino3_global",
+      "core_macro_agreement": 0.9748415246651927,
+      "hflip_oof_agreement": 0.98046875,
+      "recipe": {
+        "family": "dino3_global",
+        "kind": "knn",
+        "neighbors": 21
+      }
+    },
+    {
+      "family": "dino3_foreground",
+      "core_macro_agreement": 0.9769054036335895,
+      "hflip_oof_agreement": 0.9921875,
+      "recipe": {
+        "family": "dino3_foreground",
+        "kind": "svm",
+        "kernel": "rbf",
+        "gamma": 4.0,
+        "C": 1.0
+      }
+    },
+    {
+      "family": "dino3_task8",
+      "core_macro_agreement": 0.987274612021156,
+      "hflip_oof_agreement": 0.97265625,
+      "recipe": {
+        "family": "dino3_task8",
+        "kind": "svm",
+        "kernel": "linear",
+        "C": 1.0
+      }
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "changed_from_previous": 93,
+      "changed_from_stage17": 93,
+      "fixed_automatic_anchors": 523,
+      "class_counts": {
+        "glass": 208,
+        "paper": 265,
+        "electronic": 181,
+        "metal": 268,
+        "plastic": 265,
+        "cardboard": 256,
+        "textile": 225,
+        "foodwaste": 252
+      }
+    },
+    {
+      "round": 2,
+      "changed_from_previous": 22,
+      "changed_from_stage17": 101,
+      "fixed_automatic_anchors": 523,
+      "class_counts": {
+        "glass": 208,
+        "paper": 264,
+        "electronic": 188,
+        "metal": 271,
+        "plastic": 261,
+        "cardboard": 257,
+        "textile": 222,
+        "foodwaste": 249
+      }
+    },
+    {
+      "round": 3,
+      "changed_from_previous": 8,
+      "changed_from_stage17": 108,
+      "fixed_automatic_anchors": 523,
+      "class_counts": {
+        "glass": 206,
+        "paper": 265,
+        "electronic": 190,
+        "metal": 273,
+        "plastic": 261,
+        "cardboard": 257,
+        "textile": 220,
+        "foodwaste": 248
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "family": "dino2",
+      "kind": "svm",
+      "kernel": "linear",
+      "C": 1.0
+    },
+    {
+      "family": "dino2_local",
+      "kind": "knn",
+      "neighbors": 7
+    },
+    {
+      "family": "dino3_global",
+      "kind": "knn",
+      "neighbors": 21
+    },
+    {
+      "family": "dino3_foreground",
+      "kind": "svm",
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 1.0
+    },
+    {
+      "family": "dino3_task8",
+      "kind": "svm",
+      "kernel": "linear",
+      "C": 1.0
+    }
+  ],
+  "stop_fraction": 0.01,
+  "required_family_agreement": 4,
+  "class_counts_before_seed_overlay": {
+    "glass": 206,
+    "paper": 265,
+    "electronic": 190,
+    "metal": 273,
+    "plastic": 261,
+    "cardboard": 257,
+    "textile": 220,
+    "foodwaste": 248
+  },
+  "class_counts_after_seed_audit_overlay": {
+    "glass": 207,
+    "paper": 258,
+    "electronic": 194,
+    "metal": 266,
+    "plastic": 262,
+    "cardboard": 259,
+    "textile": 223,
+    "foodwaste": 251
+  },
+  "source_fingerprint": "189135ec1e60a2907062d5b454da655d1bfd4157612f4c592e60e2867d39affa",
+  "seconds": 9.692365407943726,
+  "semantic_accuracy": null,
+  "active_assignment_parity_verified": false
+}

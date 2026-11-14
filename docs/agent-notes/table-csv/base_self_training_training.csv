@@ -1,0 +1,11 @@
+fold,policy,fit_rows,pseudo_added,core_repaired,human_train,query_rows
+0,add_only,1297,211,0,27,386
+0,add_and_repair,1297,211,9,27,386
+1,add_only,1249,196,0,30,391
+1,add_and_repair,1249,196,8,30,391
+2,add_only,1291,223,0,30,371
+2,add_and_repair,1291,223,10,30,371
+3,add_only,1302,229,0,24,374
+3,add_and_repair,1302,229,8,24,374
+4,add_only,1261,185,0,25,382
+4,add_and_repair,1261,185,8,25,382

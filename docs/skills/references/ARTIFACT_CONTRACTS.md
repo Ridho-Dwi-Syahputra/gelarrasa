@@ -1,6 +1,6 @@
 # Kontrak artefak eksperimen citra
 
-Gunakan bersama `configs/data_contract.json`. Spesifikasi ini untuk implementasi berikutnya; belum ada fold, checkpoint, atau OOF model yang dihasilkan. Lokasi relatif dihitung dari root proyek. Hash merekam isi, bukan sekadar nama file.
+Gunakan bersama `docs/agent-notes/project_contract.json`. Spesifikasi ini untuk implementasi berikutnya; belum ada fold, checkpoint, atau OOF model yang dihasilkan. Lokasi relatif dihitung dari root proyek. Hash merekam isi, bukan sekadar nama file.
 
 Revisi aturan 5 November: label aktif harus berasal dari metode peserta dan mapping cluster tim yang terdokumentasi; anotasi visual asisten lama tidak dipakai. Sertakan `cluster_run_id`, `assignment_sha256`, `cluster_mapping_sha256` dan populasi yang dipakai fit pembentuk label. Jika target dihasilkan dari seluruh train sebelum split, catat ketergantungan/transductive tersebut; jangan menyebut agreement sebagai Accuracy semantik terhadap ground truth independen. Baca [aturan aktif](RULES_AND_RUBRIC.md).
 

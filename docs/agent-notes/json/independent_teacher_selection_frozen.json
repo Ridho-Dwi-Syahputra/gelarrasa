@@ -1,0 +1,52 @@
+{
+  "status": "frozen_before_reference_audit",
+  "manual_labels_consumed": 0,
+  "test_rows_processed": 0,
+  "candidate_count": 110,
+  "new_teacher_usable_rows": 1330,
+  "new_teacher_counts": {
+    "glass": 179,
+    "paper": 190,
+    "electronic": 34,
+    "metal": 182,
+    "plastic": 232,
+    "cardboard": 245,
+    "textile": 182,
+    "foodwaste": 86
+  },
+  "selected_before_archive_audit": {
+    "index": 23,
+    "candidate": "dino_second_knn_k21",
+    "family": "old_banks",
+    "new_teacher_macro_agreement": 0.9094283856802774,
+    "old_teacher_macro_agreement": 0.9829217206524784,
+    "oof_flip_agreement": 0.9761904761904762,
+    "selection_score": 0.9374794707767573
+  },
+  "selected_prediction_sha256": "a3cbaaf0141f9802f09382331cea0c3cf2c05ce44246d2416701f1a384be219e",
+  "selected_class_counts": {
+    "glass": 213,
+    "paper": 257,
+    "electronic": 169,
+    "metal": 223,
+    "plastic": 332,
+    "cardboard": 240,
+    "textile": 282,
+    "foodwaste": 190
+  },
+  "baseline_new_teacher_agreement_descriptive_only": 0.9051004198749992,
+  "baseline_is_not_an_oof_control": true,
+  "oof_matrices_sha256": {
+    "automatic_full_seed_oof.npz": "959fdf733f76dc07c69d962e560716eb56b0d61e56d2ec0a7e214189eafa6b21",
+    "dinov3_oof.npz": "d60614c17236062eaed8b07e76def10b939af1b60533aa10a9d2bc3c7e62b8c7",
+    "automatic_prior_weight_oof.npz": "a15f6d58175312a37ee16522504049838cd854f9d7ac21c9b3d476676270411e"
+  },
+  "source_code_sha256": "855d924bf72c3e1ea071ed330dbe5d68fce7bd7ae6110bf27b6dae2ac9be2dc5",
+  "semantic_accuracy": null,
+  "active_data_modified": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "28d926592d6819af4e25b8727f8a641f12ccd47718546da3ee02cff35159e96c",
+    "data/preprocessing_inputs.npz": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+    "final-submit/DSC2026_Notebook.ipynb": "20416ab9d262f2a94756825d812dd9f37e7f0fb374c99805db6ed68688d84c62"
+  }
+}

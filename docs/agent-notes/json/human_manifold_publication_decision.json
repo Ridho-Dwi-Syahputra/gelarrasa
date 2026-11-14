@@ -1,0 +1,6 @@
+{
+  "decision": "reject",
+  "accepted_changes": 0,
+  "guard": ">=25/34andmacro>.75+1e-12andthresholdexists",
+  "timestamp_utc": "2026-11-07T17:50:41.225948+00:00"
+}

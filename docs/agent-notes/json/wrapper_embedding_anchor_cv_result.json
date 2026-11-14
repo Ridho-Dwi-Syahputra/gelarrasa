@@ -1,0 +1,31 @@
+{
+  "models": [
+    {
+      "model": "linear",
+      "auc": 0.4068965517241379,
+      "balanced_accuracy": 0.4827586206896552,
+      "plastic_recall": 0.0,
+      "other_specificity": 0.9655172413793104,
+      "screen_passed": false
+    },
+    {
+      "model": "rbf2",
+      "auc": 0.22068965517241382,
+      "balanced_accuracy": 0.5,
+      "plastic_recall": 0.0,
+      "other_specificity": 1.0,
+      "screen_passed": false
+    },
+    {
+      "model": "rbf4",
+      "auc": 0.20689655172413796,
+      "balanced_accuracy": 0.5,
+      "plastic_recall": 0.0,
+      "other_specificity": 1.0,
+      "screen_passed": false
+    }
+  ],
+  "screen_passed": false,
+  "fit_sources": 34,
+  "test_rows": 0
+}

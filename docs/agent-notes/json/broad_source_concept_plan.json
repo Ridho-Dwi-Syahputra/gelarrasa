@@ -1,0 +1,46 @@
+{
+  "method": "genuine_seed_broad_source_concept_visual_propagation_v3",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "targets": "same34humanONLY;noautomaticcategorytargets;sourceconceptnamesNEVERmanuallymapped",
+  "source_concepts": "objectCNN21841andMINC23numericindices;associateconceptwithlabelsobservedin34sources",
+  "configs": [
+    "object",
+    "material",
+    "object_then_material"
+  ],
+  "object_topk": 10,
+  "object_ref_min_probability": 0.01,
+  "object_query_min_probability": 0.01,
+  "object_min_mapped_mass": 0.1,
+  "material_topk": 3,
+  "material_ref_min_probability": 0.2,
+  "material_query_min_probability": 0.2,
+  "material_min_mapped_mass": 0.4,
+  "class_fraction_min": 0.9,
+  "reference_score": "whitecos+.1log(refconceptprob/refdominantconceptprob)",
+  "pure_visual_floor_override": 0.45,
+  "pure_visual_similarity_min": {
+    "object": 0.45,
+    "material": 0.65
+  },
+  "conflicted_concept": "onlyresolvebyV3nearestprototypewithrawcos>=.45andweightedwhitenedclassmargin>=.05;otherwiseabstain",
+  "visual_check": "conceptconditionedprototypecomparison;nooverallnearestclassveto;rawcosfloor.45;referenceconfidenceweightedclassscore",
+  "normalizer": "PCA128whiteningfitouterTRAINonly;allquerygroupsheldoutfromreferencesandstatistics",
+  "guard": "whole34matches>=27andmacro>=.808333333333;partialcovered>=5andprecision>=.9;atleast1learnedsourceconcept",
+  "selection": "maxwhole34matches,thenmacro,thenpartialprecision,thencoverage;listedconfigorderbreaksties",
+  "purpose": "known-conceptfew-shotannotation,notguaranteedrecognitionofunseenmaterialwithinsameconcept",
+  "maximum_changes": 20,
+  "cap": "descendingwinningmappedsourceprobabilitymass,stablekeyorder",
+  "score": "winningmappedsourceprobabilityMASS,notconditionalshareandnotmaterialcorrectnessprobability",
+  "evaluation_limit": "34reuseddevelopment,smallpartialcoverage;sourceconceptcancontainmixedmaterials;allnewpseudolabelsunverified",
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_audits": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "eaa624d9711a3a4a1119892a893e6b226429925070557da0747e5f385338b1bf",
+    "data/preprocessing_inputs.npz": "c174c254c9544d70aa23b80a98bc7ccd14dc3b2a19e7f8a6d83487ae8cce1c71",
+    "final-submit/DSC2026_Notebook.ipynb": "b80b7c982ed89cd151e544d3d1a5e2a79aac68a8d6873e7b94edc9bfc21bcc24"
+  },
+  "source_code_sha256": "acbdbbedddc464dbeafc4bed25f9502e0d04595e11958f53d3dfae33e83eeca0"
+}

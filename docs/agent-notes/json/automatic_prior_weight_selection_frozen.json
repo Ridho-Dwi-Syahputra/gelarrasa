@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "manual_labels_consumed": 0,
+  "test_rows_in_fit": 0,
+  "train_rows": 1906,
+  "visual_groups": 128,
+  "candidate_count": 30,
+  "selected_before_archive_audit": {
+    "candidate": "dino_second_uniform_prior_p0.5_k7",
+    "bank": "dino_second",
+    "config": {
+      "mode": "uniform_prior",
+      "power": 0.5,
+      "k": 7
+    },
+    "automatic_anchor_macro_agreement": 0.9761158652917903,
+    "oof_flip_agreement": 0.9682539682539683,
+    "selection_score": 0.9733642013285526,
+    "class_counts": [
+      214,
+      250,
+      156,
+      225,
+      355,
+      239,
+      268,
+      199
+    ]
+  },
+  "selected_prediction_sha256": "1c8aac5db99bb7fc91315d3ee5c46e8316432d4fbdc230ddc64d81a50c28151e",
+  "class_counts_refit": {
+    "glass": 211,
+    "paper": 248,
+    "electronic": 176,
+    "metal": 225,
+    "plastic": 329,
+    "cardboard": 237,
+    "textile": 295,
+    "foodwaste": 185
+  },
+  "semantic_accuracy": null,
+  "active_data_modified": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "28d926592d6819af4e25b8727f8a641f12ccd47718546da3ee02cff35159e96c",
+    "data/preprocessing_inputs.npz": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+    "final-submit/DSC2026_Notebook.ipynb": "20416ab9d262f2a94756825d812dd9f37e7f0fb374c99805db6ed68688d84c62"
+  },
+  "source_code_sha256": "11362e52f94705d463fca011dfcea5362c496ca7ced9240ddd4bad256d442684",
+  "seconds": 24.862508535385132
+}

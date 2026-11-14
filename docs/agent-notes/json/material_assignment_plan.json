@@ -1,0 +1,64 @@
+{
+  "method": "locally_adapted_MINC_material_and_texture_crossfit_v1",
+  "train_rows_in_fit": 1904,
+  "test_rows_in_fit": 0,
+  "held_keys_excluded": [
+    "train:1662",
+    "train:1885"
+  ],
+  "manual_sources": 34,
+  "manual_counts": {
+    "plastic": 5,
+    "paper": 5,
+    "electronic": 5,
+    "glass": 5,
+    "textile": 5,
+    "cardboard": 5,
+    "metal": 3,
+    "foodwaste": 1
+  },
+  "material_feature_sha256": "81cf1dd31f62139ac354c4a81a84ab7dceb000270d649de9f382586a70785ddf",
+  "cold_prior_sha256": "e8c1bfda2a52bafe936900159c150ff84c590f859ebcb1613717868d3b31f897",
+  "cold_prior_and_weights_bundle_sha256": "da3024d9e4dcbc20fa08e5a08f36b265033428b06e82588e854a49556f01631c",
+  "cold_prior_column": "baseline_class before first human seed activation",
+  "all_review_or_archive_annotations_read": false,
+  "banks": {
+    "minc_global": 1024,
+    "minc_foreground": 1024,
+    "minc_details": 2048,
+    "minc_dino": 1408,
+    "classical_texture": 1812
+  },
+  "candidate_configs_per_bank": [
+    {
+      "kernel": "linear",
+      "C": 1.0,
+      "gamma": null
+    },
+    {
+      "kernel": "rbf",
+      "C": 1.0,
+      "gamma": 4.0
+    },
+    {
+      "kernel": "rbf",
+      "C": 10.0,
+      "gamma": 4.0
+    }
+  ],
+  "pseudo_weight_regimes": [
+    1.0,
+    0.25
+  ],
+  "human_weight": 32.0,
+  "selection": "highest mean balanced accuracy on34leave-source-group-out anchors across both regimes; tie preserves listed order",
+  "gate": "both regimes same category with>=4/5 heads; hybrid head and>=2/3 material-only heads agree in both; same-category anchor cosine>=.65 and category margin>=.02 in>=2banks; preserve human and earlier algorithmic refinements",
+  "publication_guard": "pooled anchor holdout majority recovers>=14/34 and candidate changes<=50; otherwise no changes accepted",
+  "evaluation_limit": "development anchors selected for diversity/difficulty and hyperparameter selection; not independent Accuracy or final validation",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "f0b389b9a36822a2b310c60554d1582aff0d8d63676fd7961dcee9900dcd313f",
+    "data/preprocessing_inputs.npz": "9f7ba4a8043091e55a529326c28a9e7d89a5a7a4009c8e54ded2755be1195cfb",
+    "final-submit/DSC2026_Notebook.ipynb": "b4a0ca6715df0d3f017cab60c45dad600862f73570a8115a45aec5fcf214e8ec"
+  },
+  "source_code_sha256": "b9b0e825da89bae9263b342f4658812a5b6e8759fc9846cd2f9429645de1c8ff"
+}

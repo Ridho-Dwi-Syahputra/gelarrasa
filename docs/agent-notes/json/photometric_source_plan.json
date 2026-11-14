@@ -1,0 +1,11 @@
+{
+  "scope": "same-source pixel identity evidence,not material category prediction",
+  "train_rows": 183,
+  "test_rows": 0,
+  "candidates": "existing116SIFT/RANSACedges;no reviewcasesread",
+  "matching": "600SIFT,ratio.7,RANSAC3px;maxdimension640",
+  "verification": "bidirectional fullregisteredRGBSSIM>=.95,objectROI SSIM>=.95,bothcoverage>=.8,RGBMAE<=.03",
+  "ROI": "fixedautomaticobjectboxwhenavailable;otherwisecentral80percent;no categoryread",
+  "no_category_assignment": true,
+  "source_code_sha256": "59136123b7f4208959421513c37795af6690daed879f8bcb442ca66eff2deafc"
+}

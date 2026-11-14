@@ -1,0 +1,30 @@
+{
+  "method": "development_qualified_DINOv2Base_expert_consensus_v1",
+  "source_frozen_sha256": "ae6ba8c34e942dd161a6751e92a270f5e34752d22cb8d019716e637cdc07913d",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "primary_head": {
+    "bank": "base_local",
+    "neighbors": 7,
+    "human_weight": 8.0,
+    "development_balanced_recall": 0.725
+  },
+  "qualification": "bank development balancedrecall>=.6333333333333333andwithin.1ofbest;atleast2qualifiedbanksand2correspondinggraphs",
+  "trusted_banks": [
+    "base_cls",
+    "base_local"
+  ],
+  "trusted_graphs": [
+    "base_cls",
+    "base_local"
+  ],
+  "acceptance": "primary category agrees with ALLqualifiedbanks and ALLcorrespondinggraphs;candidate human-anchor cosine>=.65andclassmargin>=.01inALLqualifiedbanks;humanprotected",
+  "previous_auto_refinements": "maychangeonlyifALLqualifiedbanks additionally havecosine>=.75andcategorymargin>=.03;no per-IDexceptions",
+  "maximum_changes": 40,
+  "cap_selection": "descending minimum qualified-bank human-anchor margin,then minimum cosine;stablekeyorder tie",
+  "guard": "primary>=20/34matchesandbalancedrecall>=.6333333333333333;atleast2qualifiedbanksand2graphs",
+  "development_gate_limit": "graph includesallTRAINseeds;its full-graph gate is NOT evaluated asindependent validation;reported primary score isgroupedkNNdevelopmentonly",
+  "private_review_or_archive_used": false,
+  "source_code_sha256": "52a05e164da4ebab9dc90ebf4635c48dc5929e0d87bc7c47f77084bda66020ba"
+}

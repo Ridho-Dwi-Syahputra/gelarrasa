@@ -1,0 +1,54 @@
+input_bundle = np.load(INPUT_PATH, allow_pickle=False)
+input_metadata = json.loads(str(input_bundle['metadata'].item()))
+input_table = pd.DataFrame({'key':input_bundle['keys'], 'source_sha256':input_bundle['source_sha256'],
+                            'candidate_group':input_bundle['groups'], 'predicted_class':input_bundle['predicted_class'],
+                            'uncalibrated_probability':input_bundle['confidence'], 'margin':input_bundle['margin'],
+                            'needs_review':input_bundle['needs_review'], 'cnn_prior_disagrees':input_bundle['cnn_prior_disagrees']})
+input_table['category_source'] = input_bundle['category_source'] if 'category_source' in input_bundle else 'historical_routing_snapshot'
+input_table['category_score_kind'] = input_bundle['category_score_kind'] if 'category_score_kind' in input_bundle else 'historical_uncalibrated_program_score'
+assert len(input_table)==2400 and input_table.key.is_unique and set(input_table.key)==set(inventory.key)
+matched = inventory[['key','source_sha256']].merge(input_table[['key','source_sha256']], on='key', validate='one_to_one', suffixes=('_raw','_input'))
+assert matched.source_sha256_raw.eq(matched.source_sha256_input).all()
+assert input_table.predicted_class.isin(CLASSES).all()
+human_input = pd.DataFrame({'key':input_bundle['human_seed_keys'], 'assigned_class':input_bundle['human_seed_labels'],
+                            'source_sha256':input_bundle['human_seed_source_sha256']}) if 'human_seed_keys' in input_bundle else pd.DataFrame(columns=['key','assigned_class','source_sha256'])
+assert human_input.key.is_unique and human_input.key.str.startswith('train:').all()
+assert human_input.assigned_class.isin(CLASSES).all()
+human_counts = human_input.assigned_class.value_counts().reindex(CLASSES,fill_value=0)
+assert len(human_input)<=40 and human_counts.le(5).all()
+if len(human_input):
+    human_check = human_input.merge(input_table[['key','predicted_class','source_sha256','category_source']],on='key',validate='one_to_one',suffixes=('_human','_input'))
+    assert human_check.assigned_class.eq(human_check.predicted_class).all()
+    assert human_check.source_sha256_human.eq(human_check.source_sha256_input).all()
+    assert human_check.category_source.eq('participant_reviewed_seed').all()
+    human_input['origin']='participant_reviewed_train'
+    human_input.to_csv(PROCESSED/'manual_seeds.csv',index=False)
+human_keys = set(human_input.key)
+deferred_keys = set(input_metadata.get('deferred_train_keys', []))
+assert deferred_keys <= set(input_table.key) and all(k.startswith('train:') for k in deferred_keys)
+assert not human_keys.intersection(deferred_keys)
+cleaning_keys = set(input_metadata.get('train_cleaning_exclusion_keys', []))
+assert cleaning_keys <= deferred_keys and not cleaning_keys.intersection(human_keys)
+input_table['human_reviewed'] = input_table.key.isin(human_keys)
+human_budget = human_counts.rename('acuan_manusia_per_kategori').to_frame()
+human_budget['batas_per_kategori'] = 5
+human_budget['sisa_kapasitas'] = 5 - human_counts
+display(human_budget)
+predictions = profile[['key','split','image_id']].merge(input_table.drop(columns='source_sha256'), on='key', validate='one_to_one')
+baseline_validation = {'available':True,'training_repeated':False,'input_artifact':relative(INPUT_PATH),'input_sha256':digest(INPUT_PATH),'rows':2400,
+                       'assignment_method':input_metadata['assignment_method'],'refinement':input_metadata.get('refinement')}
+print('Metode snapshot:', input_metadata['assignment_method'])
+baseline_counts = pd.crosstab(predictions.predicted_class, predictions.split).reindex(CLASSES, fill_value=0)
+display(baseline_counts)
+ax = baseline_counts.plot.bar(figsize=(12, 4), rot=25, title='Prediksi stage17 pada foto penuh sebelum preprocessing baru')
+ax.set_xlabel('Nama kategori'); ax.set_ylabel('Jumlah prediksi'); plt.tight_layout(); publish_figure()
+predictions['low_confidence_or_margin'] = predictions.uncalibrated_probability.lt(.65) | predictions.margin.lt(.25)
+predictions['source_conflict_only'] = predictions.cnn_prior_disagrees & ~predictions.low_confidence_or_margin
+display(predictions.groupby('split').agg(gambar=('key', 'size'), flag_tinjau=('needs_review', 'sum'),
+                                       confidence_margin_rendah=('low_confidence_or_margin', 'sum'),
+                                       konflik_sumber_saja=('source_conflict_only', 'sum')))
+print('Flag tinjau adalah diagnostik; bukan jumlah gambar tanpa kategori atau jumlah salah terverifikasi.')
+representatives = predictions.sort_values(['margin', 'key'], ascending=[False, True]).groupby(['split', 'predicted_class']).head(1)
+representatives = representatives.merge(profile[['key', 'source_path']], on='key', validate='one_to_one')
+gallery(representatives.sort_values(['predicted_class', 'split']), 'Contoh kategori prediksi: train dan test', limit=16,
+        caption=lambda r: f"{r['predicted_class']} | {r['split']} {r['image_id']}")

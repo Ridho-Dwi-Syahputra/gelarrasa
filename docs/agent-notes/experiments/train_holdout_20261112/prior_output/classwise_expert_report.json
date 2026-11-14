@@ -1,0 +1,48 @@
+{
+  "model": "DINOv3 classwise balanced RBF SVM experts + grouped-OOF Platt calibration",
+  "train_rows": 1887,
+  "test_rows_in_fit": 0,
+  "test_rows_inference": 480,
+  "feature_dimensions": 3072,
+  "classes": [
+    "glass",
+    "paper",
+    "electronic",
+    "metal",
+    "plastic",
+    "cardboard",
+    "textile",
+    "foodwaste"
+  ],
+  "outer_split": "5-fold StratifiedGroupKFold by parent_group",
+  "calibration": "3-fold grouped OOF inside each outer-train; final calibrator uses 5-fold grouped OOF train margins",
+  "hyperparameters": {
+    "C": 4.0,
+    "gamma": "scale",
+    "class_weight": "balanced"
+  },
+  "nested_metrics": {
+    "classwise_expert_nested_oof": {
+      "agreement": 0.9517753047164812,
+      "balanced_accuracy": 0.9518360432366914,
+      "macro_f1": 0.9520673488587414
+    },
+    "ovr_008_paired_outer_oof": {
+      "agreement": 0.9533651298357181,
+      "balanced_accuracy": 0.9537702254374798,
+      "macro_f1": 0.9539156544483706
+    }
+  },
+  "paired_oof_rows_changed_vs_008": 16,
+  "test_prediction_rows_changed_vs_008": 5,
+  "duplicate_submission_suppressed": false,
+  "submission_path": "final-submit/output/submission_009_dinov3_classwise_platt_svm.csv",
+  "submission_sha256": "eda43b633d88d1402aaa09e588e0a6ad8535cbd148d674d5544cf387d02b0641",
+  "oof_path": "final-submit/output/classwise_expert_oof.csv",
+  "oof_sha256": "7245ffbf44802ad4d0c08e4c4cdb688eff4643a8d03467396f6926ac8b6246a1",
+  "test_probability_path": "final-submit/output/submission_009_classwise_probabilities.csv",
+  "test_probability_sha256": "1c602a68a2bf8f7cd228959b82d270873e9092a5406aeaa5caa1cc1fa3b592a8",
+  "official_accuracy": null,
+  "test_used_for_fit_or_model_selection": false,
+  "interpretation": "OOF scores are agreement with derived train categories, not official semantic accuracy."
+}

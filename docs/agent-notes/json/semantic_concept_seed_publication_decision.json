@@ -1,0 +1,7 @@
+{
+  "decision": "publish",
+  "prediction_sha256": "74b4b64e0fc570fe41c887d3a09df8ff19f9cb3b2f31e6a5c7ec462516ddd58e",
+  "accepted_changes": 11,
+  "guard": "whole34fallbackV3baseline26nondecreasingmatchesandmacro;partialcovered>=3andprecision>=.8;atleast1learnedsourceconcept",
+  "timestamp_utc": "2026-11-08T05:44:26.997831+00:00"
+}

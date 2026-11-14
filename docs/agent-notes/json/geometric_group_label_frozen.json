@@ -1,0 +1,78 @@
+{
+  "status": "frozen_before_posthoc_audit",
+  "evidence": [
+    {
+      "group": "train_geom_00b20eb8ad17b0e7",
+      "key_a": "train:0960",
+      "key_b": "train:1474",
+      "qualified": false,
+      "matches": 33,
+      "inliers": 12,
+      "inlier_fraction": 0.36363636363636365,
+      "hull_fraction_a": 0.32474486459500174,
+      "hull_fraction_b": 0.32465730840885404,
+      "accepted": false
+    },
+    {
+      "group": "train_geom_2c10f61202e65832",
+      "key_a": "train:0928",
+      "key_b": "train:1572",
+      "qualified": false,
+      "matches": 67,
+      "inliers": 56,
+      "inlier_fraction": 0.835820895522388,
+      "hull_fraction_a": 0.22905765577384715,
+      "hull_fraction_b": 0.22896873552444497,
+      "accepted": false
+    },
+    {
+      "group": "train_geom_56c1a8954121dd65",
+      "key_a": "train:1840",
+      "key_b": "train:1869",
+      "qualified": true,
+      "matches": 188,
+      "inliers": 178,
+      "inlier_fraction": 0.9468085106382979,
+      "hull_fraction_a": 0.35404492909538526,
+      "hull_fraction_b": 0.35416400243396545,
+      "accepted": false,
+      "votes": [
+        "cardboard",
+        "cardboard",
+        "glass",
+        "glass",
+        "glass",
+        "glass"
+      ],
+      "winner": "glass",
+      "winning_votes": 4
+    },
+    {
+      "group": "train_geom_8172a577e593b9c6",
+      "key_a": "train:0064",
+      "key_b": "train:1379",
+      "qualified": true,
+      "matches": 191,
+      "inliers": 183,
+      "inlier_fraction": 0.9581151832460733,
+      "hull_fraction_a": 0.7683958503346952,
+      "hull_fraction_b": 0.7680216030529554,
+      "accepted": true,
+      "votes": [
+        "cardboard",
+        "cardboard",
+        "cardboard",
+        "cardboard",
+        "cardboard",
+        "cardboard"
+      ],
+      "winner": "cardboard",
+      "winning_votes": 6
+    }
+  ],
+  "proposed_changes": 1,
+  "candidate_sha256": "8dcc58c526a24f8c4bf94ce0b04d855fbc3286aa98298aa93770fcd09f25b3c9",
+  "archive_or_review_read_by_fit": false,
+  "test_rows_in_fit": 0,
+  "active_outputs_modified": false
+}

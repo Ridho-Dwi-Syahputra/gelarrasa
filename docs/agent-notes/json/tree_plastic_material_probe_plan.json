@@ -1,0 +1,23 @@
+{
+  "method": "pre_human_anchor_extratrees_plastic_v1",
+  "features": "outer-train PCA64 of DINOv3 CLS and object mean, plus frozen YOLO source scores",
+  "targets": "pre-human automatic anchors, supplemented by 34 lawful human seed sources",
+  "fit": "only other-fold geometry groups; 8x weight per human source",
+  "estimators": 240,
+  "leaf_sizes": [
+    2,
+    5
+  ],
+  "routing_thresholds": [
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8
+  ],
+  "test_rows": 0,
+  "review_archive_read": false,
+  "publication": false,
+  "limitation": "34 reused development anchors and noisy automatic target labels",
+  "source_code_sha256": "97bdfb3f4dbac248646b8d07547645597f01ba455c8cf079cc72aac46e85b6ef"
+}

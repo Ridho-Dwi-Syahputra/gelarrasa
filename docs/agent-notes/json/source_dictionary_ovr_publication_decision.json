@@ -1,0 +1,7 @@
+{
+  "decision": "reject",
+  "prediction_sha256": "be6c79fc05e3058a1764ffba3895cd81df56bee739529d2d27d82c15d4f69281",
+  "accepted_changes": 0,
+  "guard": ">=26/34andmacro>baseline+.000000000001;>=3humanroutedandallroutedhumanpredictionscorrect;atleast1qualifiedclass",
+  "timestamp_utc": "2026-11-08T04:47:04.263731+00:00"
+}

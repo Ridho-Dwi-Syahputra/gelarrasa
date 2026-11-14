@@ -1,0 +1,17 @@
+assigned_class,proposed_class,count
+cardboard,plastic,1
+electronic,metal,2
+electronic,plastic,1
+electronic,textile,2
+foodwaste,plastic,1
+glass,plastic,6
+metal,electronic,1
+metal,textile,1
+paper,cardboard,2
+paper,textile,1
+plastic,cardboard,1
+textile,cardboard,1
+textile,electronic,1
+textile,foodwaste,2
+textile,metal,1
+textile,paper,1

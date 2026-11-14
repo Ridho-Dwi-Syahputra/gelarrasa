@@ -1,0 +1,22 @@
+{
+  "model": "DINOv3 Base four-block image descriptors + OneVsRest RBF SVM",
+  "train_rows": 1879,
+  "test_rows_in_fit": 0,
+  "test_rows_inference": 480,
+  "feature_dimensions": 3072,
+  "feature_recipe": "dinov3base_256_letterbox_valid_foreground4x768_v1",
+  "checkpoint_repository": "timm/vit_base_patch16_dinov3.lvd1689m",
+  "checkpoint_revision": "c6a5fb7d12bbd3cf3b0079253141c3332aaed7da",
+  "checkpoint_sha256": "1f9ed8a2378d65e24bb710ba522ac9fa7be4e036d7aefb4384ce022833926332",
+  "feature_cache_sha256": "d58eff52904cc9c2ca6fba7f64f3a297b3fd11ffd0ad8be75d1dba2675ba0b1f",
+  "oof": {
+    "oof_agreement_program_targets": 0.9547631718999467,
+    "oof_balanced_accuracy_program_targets": 0.9550164532474785,
+    "oof_macro_f1_program_targets": 0.9553812696476567,
+    "metric_scope": "grouped agreement with derived train categories; not official semantic accuracy"
+  },
+  "groups": 1755,
+  "submission_sha256": "1496ae2710787363c451d666936808d34b6662e1c4c24891a9b3d28c045ae914",
+  "official_accuracy": null,
+  "note": "Notebook-generated candidate from train-only fitting and test-only inference; official accuracy is not yet known."
+}

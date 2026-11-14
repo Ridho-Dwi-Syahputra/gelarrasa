@@ -1,0 +1,74 @@
+{
+  "model": "DINOv3 OVR RBF SVM + source-group-weighted cosine kNN",
+  "train_rows": 1879,
+  "test_rows_in_fit": 0,
+  "test_rows_inference": 480,
+  "feature_dimensions": 3072,
+  "k_grid": [
+    1,
+    3,
+    5,
+    7,
+    11
+  ],
+  "blend_grid": [
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "temperature": 0.05,
+  "outer_selected": [
+    {
+      "outer_fold": 1,
+      "k": 5,
+      "blend_weight": 0.3
+    },
+    {
+      "outer_fold": 2,
+      "k": 7,
+      "blend_weight": 0.1
+    },
+    {
+      "outer_fold": 3,
+      "k": 7,
+      "blend_weight": 0.1
+    },
+    {
+      "outer_fold": 4,
+      "k": 5,
+      "blend_weight": 0.1
+    },
+    {
+      "outer_fold": 5,
+      "k": 5,
+      "blend_weight": 0.1
+    }
+  ],
+  "final_k": 5,
+  "final_blend_weight": 0.1,
+  "nested_metrics": {
+    "nested_group_knn_blend": {
+      "agreement": 0.9558275678552421,
+      "balanced_accuracy": 0.9560066184248823,
+      "macro_f1": 0.9564152822979557
+    },
+    "paired_outer_baseline_008": {
+      "agreement": 0.9552953698775944,
+      "balanced_accuracy": 0.955740297797125,
+      "macro_f1": 0.9559806774732362
+    }
+  },
+  "oof_rows_changed_vs_baseline": 12,
+  "test_prediction_rows_changed_vs_008": 3,
+  "paired_oof_not_degraded": true,
+  "candidate_submission_path": "final-submit/output/submission_011_dinov3_group_knn_blend.csv",
+  "candidate_submission_sha256": "52b69c77585d0fb4a13c3a7a6164f0f949f837925569f7a65eec95e4fb491617",
+  "oof_path": "final-submit/output/group_knn_blend_oof.csv",
+  "oof_sha256": "901c392f1b187bc34cf57b070ec997263f4cc01e10bfca19edcf36e1ed387214",
+  "nearest_train_audit_path": "final-submit/output/train_test_nearest_neighbors_dinov3.csv",
+  "nearest_train_audit_sha256": "a24a001684721bccc8f8b9d18bf81bb21f1cd42177edb4ec41c61e03614562b1",
+  "official_accuracy": null,
+  "test_used_for_fit_or_selection": false,
+  "interpretation": "OOF agreement uses derived train categories, not semantic ground truth."
+}

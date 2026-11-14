@@ -1,0 +1,16 @@
+{
+  "method": "source_heldout_train_only_patch_vocabulary_v1",
+  "banks": [
+    "ConvNeXt_coarse_7x7",
+    "ConvNeXt_fine_7x7"
+  ],
+  "codebook": "fixed Gaussian 64D projection then MiniBatchKMeans 48 on other-fold train patches",
+  "classifier": "regularized multinomial logistic regression on patch histogram plus global DINOv3 CLS",
+  "targets": "pre-human automatic anchors plus at most five team-confirmed sources per class",
+  "query_handling": "whole geometry source group excluded from codebook and classifier",
+  "test_rows": 0,
+  "review_or_archive_read": false,
+  "publication": false,
+  "limitation": "same 34 sources already reused for prior development; diagnostic only",
+  "source_code_sha256": "479c29dcc5f75bb4cf074b6d66632c6414e93f3d3f618473ab5d89dc1430dfc3"
+}

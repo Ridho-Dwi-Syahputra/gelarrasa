@@ -1,0 +1,109 @@
+from sklearn.preprocessing import normalize
+
+eligible_mask = processed.split.eq('train') & processed.training_eligible
+test_mask = processed.split.eq('test')
+train_idx = np.flatnonzero(eligible_mask.to_numpy())
+test_idx = np.flatnonzero(test_mask.to_numpy())
+assert len(train_idx) == 1894 and len(test_idx) == 480
+assert len(handcrafted_features) == len(processed) and handcrafted_features.shape[1] == 1812
+eligible = processed.iloc[train_idx].reset_index(drop=True)
+queries = processed.iloc[test_idx].reset_index(drop=True)
+distribution = (eligible.groupby('assigned_class')
+                .agg(images=('sample_id','size'), source_images=('parent_key','nunique'),
+                     source_groups=('parent_group','nunique'))
+                .reindex(CLASSES).fillna(0).astype(int))
+distribution['share_percent'] = (100 * distribution.images / len(eligible)).round(1)
+display(distribution)
+fig, ax = plt.subplots(figsize=(10,4), dpi=85)
+bars = ax.bar(distribution.index, distribution.images, color='#287bb5')
+ax.bar_label(bars, padding=3)
+ax.set_ylim(0, distribution.images.max() * 1.15)
+ax.set_ylabel('Foto train eligible')
+ax.set_title('Distribusi kategori train eligible setelah preprocessing')
+ax.tick_params(axis='x', rotation=25)
+fig.tight_layout()
+publish_figure()
+
+# Dua komponen descriptor dinormalisasi terpisah supaya warna tidak tenggelam oleh HOG.
+with threadpool_limits(limits=4):
+    train_hog = normalize(handcrafted_features[train_idx, :1764])
+    test_hog = normalize(handcrafted_features[test_idx, :1764])
+    train_color = normalize(handcrafted_features[train_idx, 1764:])
+    test_color = normalize(handcrafted_features[test_idx, 1764:])
+    descriptor_similarity = .7 * (test_hog @ train_hog.T) + .3 * (test_color @ train_color.T)
+descriptor_neighbor = descriptor_similarity.argmax(axis=1)
+descriptor_score = descriptor_similarity[np.arange(len(queries)), descriptor_neighbor]
+
+def processed_signature(path):
+    with Image.open(resolve(path)) as source:
+        rgb = source.convert('RGB')
+        hash_bytes = np.frombuffer(bytes.fromhex(str(imagehash.phash(rgb))), dtype=np.uint8).copy()
+        gray = np.asarray(rgb.convert('L').resize((64,64), Image.Resampling.BILINEAR), dtype=np.uint8)
+    return hash_bytes, gray
+
+with ThreadPoolExecutor(MAX_WORKERS) as pool:
+    signatures = list(pool.map(processed_signature, processed.output_path))
+phash_bytes = np.stack([item[0] for item in signatures])
+gray64 = np.stack([item[1] for item in signatures])
+nearest_phash = np.empty(len(queries), dtype=int)
+phash_distance = np.empty(len(queries), dtype=int)
+for start in range(0, len(queries), 32):
+    stop = min(start + 32, len(queries))
+    differences = np.bitwise_xor(phash_bytes[test_idx[start:stop], None, :],
+                                 phash_bytes[None, train_idx, :])
+    distances = np.unpackbits(differences, axis=2).sum(axis=2)
+    closest = distances.argmin(axis=1)
+    nearest_phash[start:stop] = closest
+    phash_distance[start:stop] = distances[np.arange(stop-start), closest]
+
+ssim64 = [structural_similarity(gray64[test_idx[i]], gray64[train_idx[j]], data_range=255)
+          for i,j in enumerate(nearest_phash)]
+nearest_descriptor_rows = eligible.iloc[descriptor_neighbor].reset_index(drop=True)
+nearest_phash_rows = eligible.iloc[nearest_phash].reset_index(drop=True)
+similarity_audit = pd.DataFrame({
+    'test_id': queries.sample_id.to_numpy(),
+    'descriptor_train_sample': nearest_descriptor_rows.sample_id.to_numpy(),
+    'descriptor_train_id': nearest_descriptor_rows.parent_id.to_numpy(),
+    'descriptor_train_class': nearest_descriptor_rows.assigned_class.to_numpy(),
+    'descriptor_similarity': np.round(descriptor_score, 3),
+    'phash_train_sample': nearest_phash_rows.sample_id.to_numpy(),
+    'phash_train_id': nearest_phash_rows.parent_id.to_numpy(),
+    'phash_train_class': nearest_phash_rows.assigned_class.to_numpy(),
+    'phash_distance_64': phash_distance,
+    'ssim64_phash_pair': np.round(ssim64, 3),
+    'same_processed_sha256': queries.output_sha256.isin(set(eligible.output_sha256)).to_numpy(),
+})
+assert similarity_audit.test_id.is_unique and len(similarity_audit) == 480
+display(pd.Series({'train_eligible':len(eligible), 'test_queries':len(queries),
+                   'same_processed_sha256':int(similarity_audit.same_processed_sha256.sum()),
+                   'phash_distance_at_most_6':int((phash_distance<=6).sum()),
+                   'phash_distance_at_most_12':int((phash_distance<=12).sum()),
+                   'descriptor_similarity_median':float(np.median(descriptor_score)),
+                   'descriptor_similarity_min':float(descriptor_score.min())},
+                  name='diagnostik_kemiripan'))
+display(similarity_audit.sort_values(['phash_distance_64','ssim64_phash_pair'],
+                                     ascending=[True,False]).head(12))
+display(similarity_audit.sort_values('descriptor_similarity').head(12))
+
+near = similarity_audit.sort_values(['phash_distance_64','ssim64_phash_pair'],
+                                    ascending=[True,False]).head(3)
+far = similarity_audit.sort_values('descriptor_similarity').head(3)
+fig, axes = plt.subplots(6, 2, figsize=(8, 19), dpi=75)
+for row_axes, record in zip(axes, pd.concat([near,far]).to_dict('records')):
+    test_row = queries[queries.sample_id.eq(record['test_id'])].iloc[0]
+    use_phash = record['test_id'] in set(near.test_id)
+    neighbor_sample = record['phash_train_sample'] if use_phash else record['descriptor_train_sample']
+    train_row = eligible[eligible.sample_id.eq(neighbor_sample)].iloc[0]
+    for ax, image_row, title in zip(row_axes, [test_row,train_row],
+                                    [f"test {record['test_id']}", f"train {neighbor_sample} | {train_row.assigned_class}"]):
+        ax.imshow(rgb_image(resolve(image_row.output_path)))
+        ax.set_title(title, fontsize=9)
+        ax.axis('off')
+    row_axes[0].set_ylabel(('pHash '+str(record['phash_distance_64'])) if use_phash else
+                           ('descriptor '+str(record['descriptor_similarity'])), fontsize=9)
+fig.suptitle('Pasangan train–test setelah preprocessing', y=.995, fontsize=13)
+fig.tight_layout(rect=(0, 0, 1, .95))
+publish_figure()
+summary['figures'] = figure_exports
+summary['seconds'] = time.time() - STARTED
+(PROCESSED/'provenance.json').write_text(json.dumps({'policy':POLICY,'summary':summary},indent=2),encoding='utf-8')

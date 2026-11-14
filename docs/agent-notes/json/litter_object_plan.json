@@ -1,0 +1,31 @@
+{
+  "scope": "additional image-only localisation/feature representation,not source labels as targets",
+  "repository": "CatSat/yolov11-litter-materials",
+  "revision": "25a03cf200441cfd9e8e62ded5529e49562bd96b",
+  "numeric_sha256": "58fdf1a2afb20216ac35e87a887e7fd933d54971ce384a670c89fa409afc1fe5",
+  "source_class_names": {
+    "0": "Plastic",
+    "1": "Metal",
+    "2": "Glass",
+    "3": "Paper",
+    "4": "Other"
+  },
+  "package": "ultralytics8.4.204,isolatedtarget,no canonical environment mutation",
+  "input": "RGB512letterbox,pad114,float0..1",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "held_rows": 0,
+  "external_images_used": false,
+  "external_inference": false,
+  "serialized_callables_executed": false,
+  "descriptor": "three pyramid global mean+max1792;mask-weighted mean896;source detection statistics28",
+  "detection": {
+    "threshold": 0.15,
+    "nms_iou": 0.5,
+    "maximum_proposals": 20
+  },
+  "focus": "highestscore*sqrtarea box,score>=.35,area.08..85,clipnativeframe,5pctmargin",
+  "focus_not_new_supervised_crop": true,
+  "no_class_inheritance_or_per_image_rules": true,
+  "source_code_sha256": "e6f4f3298f4bce8164d0a0b83432a0087d10603c45bef334e881a73a267f900c"
+}

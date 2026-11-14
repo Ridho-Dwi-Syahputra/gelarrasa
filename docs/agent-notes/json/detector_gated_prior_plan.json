@@ -1,0 +1,28 @@
+{
+  "method": "source_heldout_detector_supported_plastic_prior_v1",
+  "source_features": [
+    "residual_graph_correction two OOF banks",
+    "frozen YOLO object detection stats"
+  ],
+  "manual_train_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "archive_annotations_read_in_fit": false,
+  "private_review_read_in_fit": false,
+  "fixed_prior_boost_log_odds": 1.5,
+  "fixed_residual_probability_minimum": 0.4,
+  "detector_condition": "Plastic max probability>=.65 and margin>=.05 versus all other source object classes",
+  "base": "unchanged V3+prototype+residual OOF 28/34",
+  "guard": "whole34 >=30/34, macro>=.85, at least2 human routes, all human routes correct",
+  "gate": "two residual banks argmax Plastic after prior and detector condition; no human source changed",
+  "maximum_changes": 80,
+  "cap": "descending min(corrected_residual_plastic_probability,detector_Plastic_score),stablekey",
+  "score": "minimum of corrected residual probability and source Plastic detector confidence,uncalibrated",
+  "limitation": "same34 reused development; detector source ontology differs from competition; prediction not independent accuracy",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "13289e5991b6324d1737cadb85375e291c118311653d6f4417bc5ecc3ed19035",
+    "data/preprocessing_inputs.npz": "791996fdec9749f7dbe40ea105ffd346c24a1f3b98379e3b11d081e55ab7fe7d",
+    "final-submit/DSC2026_Notebook.ipynb": "f2f56da23f21f859653f8092422be989651c59fb15e4bf9cba4585bbed447639"
+  },
+  "source_code_sha256": "59fdb67dab7960ad5440bf3209ea55f0251b4dc6969ab3eba47e8304cfef3b59"
+}

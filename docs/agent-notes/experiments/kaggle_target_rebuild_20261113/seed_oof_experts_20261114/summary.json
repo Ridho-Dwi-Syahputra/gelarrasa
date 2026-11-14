@@ -1,0 +1,111 @@
+{
+  "purpose": "train-only human-seed expert screening; active manifest not read",
+  "seed_count": 37,
+  "classes": [
+    "cardboard",
+    "electronic",
+    "foodwaste",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "textile"
+  ],
+  "groups": 37,
+  "minimum_seed_groups_per_class": 3,
+  "selection_metric": "grouped leave-source-group-out OOF Accuracy, macro-F1 tie-break",
+  "recipes": 30,
+  "top": [
+    {
+      "family": "dino2",
+      "model": "knn",
+      "parameter": 1,
+      "accuracy": 0.35135135135135137,
+      "macro_f1": 0.35277777777777775,
+      "groups": 37,
+      "seed_rows": 37
+    },
+    {
+      "family": "dino2",
+      "model": "knn",
+      "parameter": 3,
+      "accuracy": 0.35135135135135137,
+      "macro_f1": 0.34957264957264955,
+      "groups": 37,
+      "seed_rows": 37
+    },
+    {
+      "family": "dino2_dino3",
+      "model": "knn",
+      "parameter": 5,
+      "accuracy": 0.35135135135135137,
+      "macro_f1": 0.33333333333333337,
+      "groups": 37,
+      "seed_rows": 37
+    },
+    {
+      "family": "dino2",
+      "model": "knn",
+      "parameter": 5,
+      "accuracy": 0.32432432432432434,
+      "macro_f1": 0.3433226495726496,
+      "groups": 37,
+      "seed_rows": 37
+    },
+    {
+      "family": "dino2_dino3",
+      "model": "knn",
+      "parameter": 3,
+      "accuracy": 0.32432432432432434,
+      "macro_f1": 0.3213383838383838,
+      "groups": 37,
+      "seed_rows": 37
+    },
+    {
+      "family": "dino2",
+      "model": "linear_svc",
+      "parameter": 1.0,
+      "accuracy": 0.32432432432432434,
+      "macro_f1": 0.2946608946608947,
+      "groups": 37,
+      "seed_rows": 37
+    },
+    {
+      "family": "dino2",
+      "model": "linear_svc",
+      "parameter": 10.0,
+      "accuracy": 0.2972972972972973,
+      "macro_f1": 0.30833333333333335,
+      "groups": 37,
+      "seed_rows": 37
+    },
+    {
+      "family": "dino3_global",
+      "model": "knn",
+      "parameter": 3,
+      "accuracy": 0.2972972972972973,
+      "macro_f1": 0.2938762626262626,
+      "groups": 37,
+      "seed_rows": 37
+    },
+    {
+      "family": "dino3_global",
+      "model": "knn",
+      "parameter": 1,
+      "accuracy": 0.2972972972972973,
+      "macro_f1": 0.29284188034188036,
+      "groups": 37,
+      "seed_rows": 37
+    },
+    {
+      "family": "dino2_dino3",
+      "model": "knn",
+      "parameter": 1,
+      "accuracy": 0.2972972972972973,
+      "macro_f1": 0.28055555555555556,
+      "groups": 37,
+      "seed_rows": 37
+    }
+  ],
+  "note": "Exploratory estimate; recipes were compared on the same small seed set, so selected score is optimistic and not independent semantic Accuracy."
+}

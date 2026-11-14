@@ -1,0 +1,16 @@
+{
+  "shared_rows": 1886,
+  "same_class": 870,
+  "different_class": 1016,
+  "class_counts": {
+    "cardboard": 236,
+    "glass": 236,
+    "foodwaste": 236,
+    "electronic": 236,
+    "metal": 236,
+    "paper": 236,
+    "textile": 235,
+    "plastic": 235
+  },
+  "source": "Read-only diagnostic after automatic assignment; old labels are not inputs to the Kaggle notebook."
+}

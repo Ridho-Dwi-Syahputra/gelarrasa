@@ -1,0 +1,72 @@
+{
+  "model": "DINOv3 OVR + ExtraTrees color expert",
+  "train_rows": 1887,
+  "test_rows_in_fit": 0,
+  "test_rows_inference": 480,
+  "color_descriptor": "joint HSV/Lab + spatial HSV + brown fraction + chroma/hue diversity",
+  "trees": 500,
+  "leaf_grid": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "blend_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "outer_recipes": [
+    {
+      "outer_fold": 1,
+      "leaf": 2,
+      "blend": 0.1
+    },
+    {
+      "outer_fold": 2,
+      "leaf": 8,
+      "blend": 0.05
+    },
+    {
+      "outer_fold": 3,
+      "leaf": 4,
+      "blend": 0.1
+    },
+    {
+      "outer_fold": 4,
+      "leaf": 1,
+      "blend": 0.0
+    },
+    {
+      "outer_fold": 5,
+      "leaf": 4,
+      "blend": 0.05
+    }
+  ],
+  "final_leaf": 1,
+  "final_blend": 0.0,
+  "nested_metrics": {
+    "dino_color_extratrees": {
+      "agreement": 0.9533651298357181,
+      "balanced_accuracy": 0.9538954929057235,
+      "macro_f1": 0.9539560001327582
+    },
+    "paired_outer_baseline_008": {
+      "agreement": 0.9533651298357181,
+      "balanced_accuracy": 0.9536172841863384,
+      "macro_f1": 0.9539203174102941
+    }
+  },
+  "oof_rows_changed": 11,
+  "test_rows_changed_vs_008": 0,
+  "paired_oof_not_degraded": true,
+  "candidate_submission_path": null,
+  "candidate_sha256": null,
+  "oof_path": "final-submit/output/color_extratrees_oof.csv",
+  "official_accuracy": null,
+  "test_used_for_fit_or_selection": false,
+  "interpretation": "OOF agreement uses derived train categories, not independent semantic ground truth."
+}

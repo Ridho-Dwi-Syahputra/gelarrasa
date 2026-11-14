@@ -1,0 +1,4 @@
+config,covered,correct,precision,anchor_matches,development_balanced_recall,eligible
+object,2,2,1.0,28,0.85,False
+material,2,2,1.0,28,0.85,False
+object_then_material,3,3,1.0,28,0.85,False

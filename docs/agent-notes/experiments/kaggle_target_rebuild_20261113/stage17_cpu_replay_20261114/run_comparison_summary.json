@@ -1,0 +1,102 @@
+{
+  "scope": "posthoc local comparison after raw-only Stage17 assignment was frozen; active manifest was not read by fitting, mapping, tuning, or selection",
+  "run_root": "C:\\Users\\Asus\\AppData\\Local\\Temp\\gelarrasa_raw_replay_20261113\\labels\\stage17_hierarchical_routing",
+  "raw_stage17_rows": 1920,
+  "active_fullframe_rows": 1906,
+  "overlap_rows": 1906,
+  "source_sha256_match_rows": 1906,
+  "source_sha256_mismatches": 0,
+  "stage17_matches": 1639,
+  "stage17_differences": 267,
+  "stage17_match_fraction": 0.859916054564533,
+  "eligible_rows": 1879,
+  "eligible_stage17_matches": 1626,
+  "eligible_stage17_differences": 253,
+  "stage17_plus_37_seed_audit_matches": 1664,
+  "stage17_plus_37_seed_audit_differences": 242,
+  "eligible_seed_audit_matches": 1651,
+  "eligible_seed_audit_differences": 228,
+  "seed_overlay_rows_in_overlap": 37,
+  "seed_overlay_changes_in_overlap": 25,
+  "by_active_provenance": {
+    "augmented_source_prototype_snapshot": {
+      "rows": 34,
+      "stage17_matches": 0,
+      "stage17_plus_seed_audit_matches": 0
+    },
+    "bounded_anchor_cluster_consensus_snapshot": {
+      "rows": 7,
+      "stage17_matches": 1,
+      "stage17_plus_seed_audit_matches": 1
+    },
+    "bounded_anchor_stable_consensus_snapshot": {
+      "rows": 18,
+      "stage17_matches": 3,
+      "stage17_plus_seed_audit_matches": 3
+    },
+    "geometric_source_group_heldout_vote_v1": {
+      "rows": 1,
+      "stage17_matches": 1,
+      "stage17_plus_seed_audit_matches": 1
+    },
+    "human_seed_source_concept_snapshot": {
+      "rows": 6,
+      "stage17_matches": 1,
+      "stage17_plus_seed_audit_matches": 1
+    },
+    "iterative_program_refinement_snapshot": {
+      "rows": 1570,
+      "stage17_matches": 1487,
+      "stage17_plus_seed_audit_matches": 1487
+    },
+    "participant_reviewed_seed": {
+      "rows": 37,
+      "stage17_matches": 12,
+      "stage17_plus_seed_audit_matches": 37
+    },
+    "residual_graph_correction_snapshot": {
+      "rows": 27,
+      "stage17_matches": 12,
+      "stage17_plus_seed_audit_matches": 12
+    },
+    "retired_anchor_holdout": {
+      "rows": 2,
+      "stage17_matches": 0,
+      "stage17_plus_seed_audit_matches": 0
+    },
+    "robust_neural_assignment_snapshot": {
+      "rows": 4,
+      "stage17_matches": 2,
+      "stage17_plus_seed_audit_matches": 2
+    },
+    "stage1_train_only_pseudolabel": {
+      "rows": 7,
+      "stage17_matches": 7,
+      "stage17_plus_seed_audit_matches": 7
+    },
+    "train_only_cluster_anchor_1039_v1": {
+      "rows": 51,
+      "stage17_matches": 51,
+      "stage17_plus_seed_audit_matches": 51
+    },
+    "two_view_lighting_ontology_snapshot": {
+      "rows": 12,
+      "stage17_matches": 0,
+      "stage17_plus_seed_audit_matches": 0
+    },
+    "vit_knn_label_propagation_snapshot": {
+      "rows": 130,
+      "stage17_matches": 62,
+      "stage17_plus_seed_audit_matches": 62
+    }
+  },
+  "candidate_source_fingerprint": "189135ec1e60a2907062d5b454da655d1bfd4157612f4c592e60e2867d39affa",
+  "candidate_method": "fixed_hierarchical_material_routing",
+  "test_images_processed_for_assignment": 0,
+  "seed_overlay_scope": "audit only; not used for fitting or selection",
+  "historical_reference": {
+    "stage17_plus_seed_matches": 1707,
+    "differences": 199,
+    "scope": "historical Stage17 artifact; not current raw replay"
+  }
+}

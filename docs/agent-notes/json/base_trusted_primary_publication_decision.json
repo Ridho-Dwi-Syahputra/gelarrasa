@@ -1,0 +1,10 @@
+{
+  "decision": "publish",
+  "prediction_sha256": "6d0ee8f5c052ce7b41643ea51e8dea497f803c4f97ef04ea5d7a8505c69f18c1",
+  "guard": "primary>=20/34matchesandbalancedrecall>=.6333333333333333;atleast2qualifiedbanksand2graphs",
+  "primary_head_development_matches": 23,
+  "new_category_proposals": 2,
+  "accepted_changes": 2,
+  "private_review_used_for_selection": false,
+  "timestamp_utc": "2026-11-07T15:28:17.641779+00:00"
+}

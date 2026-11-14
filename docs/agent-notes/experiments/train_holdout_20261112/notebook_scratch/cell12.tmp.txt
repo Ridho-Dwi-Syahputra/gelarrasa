@@ -1,0 +1,39 @@
+POLICY = {
+    'version': 'class_folder_preprocessing_policy_v4',
+    'scope': 'executed_preprocessing_with_unverified_algorithmic_categories',
+    'drop_from_train_preprocessing': ['0134', '0298', '0545', '0963', '1028', '1043', '1465', '1890'],
+    'reserve_review': ['0376'],
+    'explicit_keep': ['0313', '0343', '1817'],
+    'focus_crops': [
+        {'parent_id': '0415', 'region': 'calculator', 'bbox': [0, 115, 235, 522]},
+        {'parent_id': '0437', 'region': 'laptop', 'bbox': [0, 44, 373, 429]},
+        {'parent_id': '0437', 'region': 'apple', 'bbox': [370, 292, 466, 427]},
+        {'parent_id': '0951', 'region': 'printed_page', 'bbox': [143, 145, 445, 398]},
+        {'parent_id': '0951', 'region': 'calculator', 'bbox': [456, 142, 640, 503]},
+        {'parent_id': '1007', 'region': 'red_bag', 'bbox': [267, 63, 472, 232]},
+        {'parent_id': '1351', 'region': 'lowerleft_box', 'bbox': [0, 349, 118, 484]},
+    ],
+    'output_size': 224, 'max_content_side': 202, 'padding_rgb': [127, 127, 127],
+    'crop_origin': 'fixed object-focus coordinates; not algorithmic object detection',
+    'labels_assigned_to_crops': True, 'crop_assignment_method': 'dino_crop_knn_fit_train_v1',
+    'sampler': {'requested_member': '0343', 'eligible_for_future_train_shuffle': True,
+                'weighted_sampler_activated': False, 'validation_test_oversampling': False},
+}
+drop_ids, reserve_ids = set(POLICY['drop_from_train_preprocessing']), set(POLICY['reserve_review'])
+assert not drop_ids & reserve_ids
+assert not set(POLICY['explicit_keep']) & (drop_ids | reserve_ids)
+focus = {}
+for spec in POLICY['focus_crops']: focus.setdefault(spec['parent_id'], []).append(spec)
+source_ids = set(profile.loc[profile.split.eq('train'), 'image_id'])
+assert (drop_ids | reserve_ids | set(focus) | set(POLICY['explicit_keep'])) <= source_ids
+identity = {'sources': inventory[['key', 'source_sha256']].sort_values('key').to_dict('records'), 'policy': POLICY}
+RUN_ID = hashlib.sha256(json.dumps(identity, sort_keys=True).encode()).hexdigest()[:12]
+PROCESSED = ROOT / 'data/processed'
+NOTES = PROCESSED
+for path in [PROCESSED, NOTES, PROCESSED / 'train', PROCESSED / 'test',
+             PROCESSED / 'crops', PROCESSED / 'review']:
+    path.mkdir(parents=True, exist_ok=True)
+display(pd.DataFrame(POLICY['focus_crops']))
+print('Run:', RUN_ID)
+print('Turunan:', relative(PROCESSED))
+for name in CLASSES: (PROCESSED / 'train' / name).mkdir(parents=True, exist_ok=True)

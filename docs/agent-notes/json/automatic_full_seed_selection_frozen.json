@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "manual_labels_consumed": 0,
+  "train_rows": 1906,
+  "test_rows_in_fit": 0,
+  "auto_anchor_count": 1323,
+  "auto_anchor_counts": {
+    "glass": 164,
+    "paper": 199,
+    "electronic": 114,
+    "metal": 141,
+    "plastic": 200,
+    "cardboard": 168,
+    "textile": 214,
+    "foodwaste": 123
+  },
+  "n_splits": 5,
+  "candidate_count": 48,
+  "selected_before_archive_audit": {
+    "candidate": "dino_second_knn_k21",
+    "automatic_anchor_macro_agreement": 0.9829217206524784,
+    "oof_flip_agreement": 0.9761904761904762,
+    "selection_score": 0.9805657850907776,
+    "eligible": true,
+    "changed_oof_vs_baseline": 218,
+    "config": {
+      "bank": "dino_second",
+      "kind": "knn",
+      "neighbors": 21
+    },
+    "class_counts": [
+      213,
+      257,
+      169,
+      223,
+      332,
+      240,
+      282,
+      190
+    ]
+  },
+  "selected_prediction_sha256": "6afa855e3be91f73820de6c4c8db08726da96e217b17820d66454ddb059c9767",
+  "class_counts_refit": {
+    "glass": 211,
+    "paper": 252,
+    "electronic": 169,
+    "metal": 225,
+    "plastic": 325,
+    "cardboard": 238,
+    "textile": 299,
+    "foodwaste": 187
+  },
+  "feature_sha256": {
+    "output/embeddings/stage2_repr_v1/dinov2_features.npz": "135fe5c871adbcb77a3bcd962a9362e05bd51ea6ba0ba0683a47b0908dab15fd",
+    "output/embeddings/stage2_repr_v1/dinov2_hflip224_probe.npz": "f859f7b46d0802fd6604cb555f722025e7b5cc3008c797b78254a53a6dbae34d",
+    "output/embeddings/stage5_patch_v1/original224.npz": "5124036e5bf5b7ae540f92b1532dcedfb5706922a3db087b01beae84fbe21751",
+    "output/embeddings/stage5_patch_v1/hflip224.npz": "100a23079a9c1133e71cc6fbfb5a3f77d9ef4cabce5605ac512a8bfbdf45757f",
+    "output/embeddings/stage14_second_waste_cnn_v1/original224.npz": "b959f9f09a2616828daed77690835f495af66a317e4bcc264d44398b9b7a1d52",
+    "output/embeddings/stage14_second_waste_cnn_v1/hflip224.npz": "d627cc19101782709f9cd9265bbde7939c415516076268fe109a3ba6967e1c9d",
+    "output/embeddings/stage11_ontology_cnn_v1/original224.npz": "a6e82d10a55c17c6874128a17e215a727aae28c54e7af467f719b93806771eb8",
+    "output/embeddings/stage11_ontology_cnn_v1/hflip224.npz": "11ef06c35cb0521ecfe9e1ea5dae6b8a740b05ec915c01216d71415d081cb5e4",
+    "output/embeddings/stage6_semantic_v1/minc_materials_original224.npz": "4d0d3da4a9bcd2481a22ff7c01f88396421edf419a2fc262c21f5bc33e161226",
+    "output/embeddings/stage6_semantic_v1/minc_materials_hflip224.npz": "9a9c180361ba3f1cc627c3251e3133dbc4010c1419304ee83b4f08c2ebc158df",
+    "output/groups/stage6_material_resolution_calibrated_v2/named_probabilities.npz": "838109931395f66a20a7ec7fc47198bf3ec2e6179eed8f984c5cceeef9846e4e",
+    "output/embeddings/stage7_waste_cnn_v1/original224.npz": "9cb194aad1e56fbd7e854cce928b67a212448b26c330a51d88aa022819ca8ffc"
+  },
+  "source_code_sha256": "9425d38d71181a7ec42abad3772bb2a5204c6b2037105a942161681cb345c5c9",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "28d926592d6819af4e25b8727f8a641f12ccd47718546da3ee02cff35159e96c",
+    "data/preprocessing_inputs.npz": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+    "final-submit/DSC2026_Notebook.ipynb": "20416ab9d262f2a94756825d812dd9f37e7f0fb374c99805db6ed68688d84c62"
+  },
+  "semantic_accuracy": null,
+  "active_outputs_modified": false,
+  "seconds": 31.225678205490112
+}

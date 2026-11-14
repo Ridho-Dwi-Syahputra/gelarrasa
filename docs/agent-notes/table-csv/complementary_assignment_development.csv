@@ -1,0 +1,6 @@
+neural_weight,development_balanced_recall,anchor_matches
+0.0,0.725,23
+0.25,0.675,21
+0.5,0.7000000000000001,22
+0.75,0.7250000000000001,23
+1.0,0.7,22

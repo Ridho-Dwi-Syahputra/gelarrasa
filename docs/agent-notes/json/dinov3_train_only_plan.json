@@ -1,0 +1,26 @@
+{
+  "model": {
+    "repository": "timm/vit_small_patch16_dinov3.lvd1689m",
+    "revision": "3bf4720a82ec2066db88137180ff1f83a675cef0",
+    "gated": false,
+    "model": "vit_small_patch16_dinov3.lvd1689m",
+    "license": "other",
+    "checkpoint_sha256": "2a1ec16ae28ffa07bc0ead0241ee7df9fc26451fe6f9f839b7b3afa0a906b040"
+  },
+  "size": 256,
+  "manual_labels_consumed": 0,
+  "test_rows_in_fit": 0,
+  "descriptor": "L2 CLS, valid-patch mean, foreground-patch mean and foreground-patch std; no text encoder",
+  "foreground": "uniform border p75 distance<30, pixel distance>max(25,p95_border+10), accepted area .03-.90; otherwise full valid image",
+  "foreground_scope": "input pixel diagnostic, not segmentation ground truth or category annotation",
+  "seed_targets": "same 1323 automatic consensus anchors, all source train IDs verified",
+  "validation": "same five source-group folds; no heldout or test targets in model fit",
+  "selection": ".65 OOF automatic-anchor macro agreement + .35 OOF hflip agreement; min5 predictions/class",
+  "protected_sha256": {
+    "data/processed/manifest.csv": "28d926592d6819af4e25b8727f8a641f12ccd47718546da3ee02cff35159e96c",
+    "data/preprocessing_inputs.npz": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+    "final-submit/DSC2026_Notebook.ipynb": "20416ab9d262f2a94756825d812dd9f37e7f0fb374c99805db6ed68688d84c62"
+  },
+  "archive_labels_read": false,
+  "researcher_has_seen_prior_private_audits": true
+}

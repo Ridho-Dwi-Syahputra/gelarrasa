@@ -1,0 +1,26 @@
+{
+  "method": "prehuman_automatic_anchor_plus34_source_heldout_plastic_binary_v1",
+  "auto_targets": "automatic_full_seed_targets.csv generated before human corrections",
+  "auto_positive": "anchor AND automatic plastic AND pretrained detector dominant plastic >=.65 margin>=.05",
+  "auto_negative": "anchor AND automatic nonplastic AND pretrained detector not dominant plastic",
+  "fit": "other geometry groups only; manual seed overrides auto label, weight 8 vs automatic weight1",
+  "features": [
+    "DINOv3CLS",
+    "DINOv3CLS_plus_YOLOstats",
+    "DINOv3ObjectMean_plus_YOLOstats"
+  ],
+  "models": [
+    "linear_C1",
+    "rbf_gamma2_C1"
+  ],
+  "margins": [
+    0,
+    0.2,
+    0.4
+  ],
+  "guard": "when routed over baseline, >=30/34 matches, macro>=.9, >=2 human routes, 100% routed human precision",
+  "test_rows": 0,
+  "archive_review_rows": 0,
+  "manual_sources": 34,
+  "limitation": "automatic targets may contain errors, repeated34 development; no independent semantic accuracy"
+}

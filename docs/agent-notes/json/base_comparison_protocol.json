@@ -1,0 +1,15 @@
+{
+  "candidates": [
+    "base_primary",
+    "base_clean_primary"
+  ],
+  "selection": "maximum grouped34-anchor development balanced recall,then matches;tie retains declared order",
+  "minimum_matches": 20,
+  "minimum_balanced_recall": 0.6333333333333333,
+  "nonzero_changes_required_for_publication": true,
+  "maximum_changes": 50,
+  "private_review_or_archive_used_for_selection": false,
+  "all_human_sources_fixed_at": 34,
+  "test_rows_in_fit": 0,
+  "previous_auto_updates": "require4/4banks,3/3graphs,>=3localitybanks;no permanent lock of algorithmic predictions"
+}

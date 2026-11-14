@@ -1,0 +1,6 @@
+{
+  "method": "selective plastic cluster vote on top of frozen source-heldout baseline",
+  "candidates": "six frozen bank/k cluster OOF heads, 3 confidence thresholds .7 .8 .9",
+  "guard": "whole34>=30,macro>=.9,and all newly routed human seeds correct; no review fit/test",
+  "selection_limit": "34 reused development, not independent Accuracy"
+}

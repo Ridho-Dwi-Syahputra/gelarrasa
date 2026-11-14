@@ -1,0 +1,18 @@
+{
+  "method": "frozen_ConvNeXt_multiscale_patch_bags_v1",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "held_rows": 0,
+  "source": {
+    "repository": "timm/convnext_tiny.fb_in22k",
+    "revision": "342f2588bb2ea79d793d0712c9be16ec6ae0149a",
+    "checkpoint_sha256": "2b40f8d53b566a8c08c0c75f93ff5ac6fa33bd213afb27ee40766af7ffe5943b"
+  },
+  "preprocess": "EXIFRGB224aspectpreservingletterbox,bicubic,sourceImageNetmeanstd",
+  "fine_tokens": "stage192adaptiveavg14x14,196tokensx192",
+  "coarse_tokens": "stage7687x7,49tokensx768",
+  "soft_region_prior": "validfraction*(.1+.9*automaticobjectfraction);fallbackwholevalidimage;no semanticclassread",
+  "storage": "numericfloat16memmap;modeltrainingwillcastbatchfloat32",
+  "source_code_sha256": "b41d0f42679dd6e38575747731f786cd479f4bbfa11ba14820418cb984a33cad",
+  "external_images_added": false
+}

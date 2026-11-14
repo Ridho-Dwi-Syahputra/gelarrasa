@@ -1,0 +1,8 @@
+{
+  "decision": "publish",
+  "prediction_sha256": "a20d644c5c6a6b4887f2c5d5b846f3601b0e4ca6087323c81a05a1061f3b64cf",
+  "guard": ">=80anchorrows,all8classes;outofsourcePROGRAMpseudoagreement>=.6andmacro>=.55;allpredictedclasses>=10,maxclass<=40percent",
+  "accepted_changes": 32,
+  "private_review_used_for_selection": false,
+  "timestamp_utc": "2026-11-07T17:53:02.581216+00:00"
+}

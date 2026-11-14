@@ -1,0 +1,16 @@
+{
+  "status": "diagnostic_only",
+  "unrouted_matches": 16,
+  "unrouted_macro": 0.5333333333333333,
+  "best": {
+    "confidence": 0.75,
+    "gap": 0.0,
+    "matches": 28,
+    "macro": 0.85,
+    "routes": 0,
+    "correct_routes": 0,
+    "guard": false
+  },
+  "passing": 0,
+  "seconds": 43.6
+}

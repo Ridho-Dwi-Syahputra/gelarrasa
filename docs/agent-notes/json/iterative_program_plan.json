@@ -1,0 +1,95 @@
+{
+  "method": "iterative crossfit program-label denoising",
+  "input_program_label_sha256": "1939c0ed001688b9c4ab7531646b81ea749ccf3e4c22977bcd605dd6369db4ab",
+  "manual_labels_consumed": 0,
+  "test_rows_in_fit": 0,
+  "max_total_rounds": 4,
+  "starting_round": 1,
+  "stop_changed_fraction": 0.01,
+  "family_agreement_minimum": 4,
+  "feature_family_count": 5,
+  "model_configs": [
+    {
+      "candidate": "dino2_linear_gNone_c1.0",
+      "bank": "dino2",
+      "config": {
+        "kind": "svm",
+        "kernel": "linear",
+        "gamma": null,
+        "C": 1.0
+      },
+      "corroborated_program_core_macro_agreement": 0.9855638395025896,
+      "oof_flip_agreement": 0.996031746031746,
+      "selection_score": 0.9907977927671678,
+      "index": 1,
+      "changes_vs_program": 118
+    },
+    {
+      "candidate": "dino2_local_knn7",
+      "bank": "dino2_local",
+      "config": {
+        "kind": "knn",
+        "neighbors": 7
+      },
+      "corroborated_program_core_macro_agreement": 0.9855112255698942,
+      "oof_flip_agreement": 1.0,
+      "selection_score": 0.9927556127849471,
+      "index": 15,
+      "changes_vs_program": 122
+    },
+    {
+      "candidate": "dino3_global_knn21",
+      "bank": "dino3_global",
+      "config": {
+        "kind": "knn",
+        "neighbors": 21
+      },
+      "corroborated_program_core_macro_agreement": 0.9857251359329368,
+      "oof_flip_agreement": 0.996031746031746,
+      "selection_score": 0.9908784409823415,
+      "index": 25,
+      "changes_vs_program": 112
+    },
+    {
+      "candidate": "dino3_foreground_rbf_g4.0_c1.0",
+      "bank": "dino3_foreground",
+      "config": {
+        "kind": "svm",
+        "kernel": "rbf",
+        "gamma": 4.0,
+        "C": 1.0
+      },
+      "corroborated_program_core_macro_agreement": 0.9886421348390174,
+      "oof_flip_agreement": 1.0,
+      "selection_score": 0.9943210674195087,
+      "index": 30,
+      "changes_vs_program": 109
+    },
+    {
+      "candidate": "dino3_task8_linear_gNone_c1.0",
+      "bank": "dino3_task8",
+      "config": {
+        "kind": "svm",
+        "kernel": "linear",
+        "gamma": null,
+        "C": 1.0
+      },
+      "corroborated_program_core_macro_agreement": 0.9918700113804959,
+      "oof_flip_agreement": 0.996031746031746,
+      "selection_score": 0.993950878706121,
+      "index": 37,
+      "changes_vs_program": 105
+    }
+  ],
+  "fixed_anchors": "initial program confidence>=.95, agrees with unique automatic CNN consensus and at least3 reliable source votes",
+  "stopping_uses_reference_labels": false,
+  "choose_round_by_archive_agreement": false,
+  "selection_scores_are_not_independent_after_iterative_target_updates": true,
+  "reference_archive_read": false,
+  "researcher_has_seen_previous_private_audits": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "28d926592d6819af4e25b8727f8a641f12ccd47718546da3ee02cff35159e96c",
+    "data/preprocessing_inputs.npz": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+    "final-submit/DSC2026_Notebook.ipynb": "20416ab9d262f2a94756825d812dd9f37e7f0fb374c99805db6ed68688d84c62"
+  }
+}

@@ -1,0 +1,93 @@
+from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
+from collections import Counter
+import os, sys, json, hashlib, time, platform, html
+import importlib.metadata as metadata
+import numpy as np
+import pandas as pd
+from PIL import Image, ImageOps
+import imagehash
+import cv2
+import matplotlib.pyplot as plt
+from IPython.display import display, Markdown, HTML
+
+STARTED = time.time()
+SEED = 20261106
+np.random.seed(SEED)
+CLASSES = ['glass', 'paper', 'electronic', 'metal', 'plastic', 'cardboard', 'textile', 'foodwaste']
+candidates = [Path.cwd(), *Path.cwd().parents]
+ROOT = Path(os.environ['GELAR_PROJECT_ROOT']).resolve() if 'GELAR_PROJECT_ROOT' in os.environ else next(
+    (p for p in candidates if (p / 'data/Dataset DSC GelarRasa 2026').exists()), Path.cwd())
+DATA = Path(os.environ.get('GELAR_DATA_DIR', str(ROOT / 'data'))).resolve()
+RAW = DATA / 'Dataset DSC GelarRasa 2026'
+MAX_WORKERS = min(4, os.cpu_count() or 1)
+PROCESSED = ROOT / 'data/processed'
+PROFILE_HOME = PROCESSED
+PROFILE_HOME.mkdir(parents=True, exist_ok=True)
+INPUT_PATH = DATA / 'preprocessing_inputs.npz'
+assert INPUT_PATH.is_file(), 'Input snapshot preprocessing belum tersedia.'
+
+def digest(path):
+    h = hashlib.sha256()
+    with Path(path).open('rb') as f:
+        for block in iter(lambda: f.read(1024 * 1024), b''): h.update(block)
+    return h.hexdigest()
+
+def relative(path):
+    path = Path(path).resolve()
+    try: return path.relative_to(ROOT).as_posix()
+    except ValueError: return str(path)
+
+def resolve(path):
+    path = Path(path)
+    return path if path.is_absolute() else ROOT / path
+
+def rgb_image(path):
+    with Image.open(path) as source:
+        im = ImageOps.exif_transpose(source)
+        if 'A' in im.getbands() or 'transparency' in im.info:
+            rgba = im.convert('RGBA')
+            im = Image.alpha_composite(Image.new('RGBA', rgba.size, (255, 255, 255, 255)), rgba)
+        return im.convert('RGB').copy()
+
+
+import re
+
+FIGURES = ROOT / 'final-submit/reports'
+FINAL_OUTPUT = ROOT / 'final-submit/output'
+FIGURES.mkdir(parents=True, exist_ok=True)
+FINAL_OUTPUT.mkdir(parents=True, exist_ok=True)
+figure_exports = []
+
+def publish_figure():
+    figure = plt.gcf()
+    title = figure._suptitle.get_text() if figure._suptitle else ' '.join(ax.get_title() for ax in figure.axes[:3])
+    stem = re.sub(r'[^a-z0-9]+', '_', title.lower()).strip('_')[:85] or 'visualisasi_eda'
+    path = FIGURES / f'{len(figure_exports) + 1:02d}_{stem}.png'
+    figure.savefig(path, dpi=130, bbox_inches='tight')
+    figure_exports.append({'path': relative(path), 'title': title, 'sha256': digest(path)})
+    plt.show()
+    plt.close(figure)
+
+
+def gallery(frame, title, pathcol='source_path', limit=12, columns=4, caption=None):
+    frame = frame.head(limit)
+    if frame.empty:
+        display(Markdown(title + ': tidak ada contoh pada kondisi ini.')); return
+    rows = int(np.ceil(len(frame) / columns))
+    fig, axes = plt.subplots(rows, columns, figsize=(3 * columns, 2.8 * rows), squeeze=False, dpi=85)
+    for ax in axes.flat: ax.axis('off')
+    for ax, row in zip(axes.flat, frame.to_dict('records')):
+        im = rgb_image(resolve(row[pathcol])); im.thumbnail((300, 260))
+        ax.imshow(im)
+        label = caption(row) if caption else f"{row.get('split', '')} {row.get('image_id', row.get('sample_id', ''))}"
+        ax.set_title(label, fontsize=9)
+    fig.suptitle(title, fontsize=13); fig.tight_layout(); publish_figure()
+
+environment = {'python': sys.version, 'platform': platform.platform(), 'seed': SEED,
+               'packages': {p: metadata.version(p) for p in ['numpy', 'pandas', 'Pillow', 'ImageHash', 'opencv-python', 'matplotlib']}}
+print('Root:', ROOT)
+print('Data:', RAW)
+print('Interpreter:', sys.executable)
+print('Lingkup: EDA + preprocessing; training baru: False')
+display(pd.Series(environment['packages'], name='versi pustaka'))

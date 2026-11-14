@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "backup": "docs\\agent-notes\\.runtime\\before_program_refinement_20261107T050743Z",
+  "manual_labels_consumed": 0,
+  "test_rows_in_fit": 0,
+  "candidate_sha256": "d7765ffaeb2e1aecaf9762418319509fe8873e03aff72a351748fb821f5b0076",
+  "changes_from_initial_program": 68,
+  "reference_categories_updated": 52,
+  "test_snapshot_unchanged": true,
+  "original_active_sha256": {
+    "data/processed/manifest.csv": "28d926592d6819af4e25b8727f8a641f12ccd47718546da3ee02cff35159e96c",
+    "data/preprocessing_inputs.npz": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+    "final-submit/DSC2026_Notebook.ipynb": "20416ab9d262f2a94756825d812dd9f37e7f0fb374c99805db6ed68688d84c62"
+  },
+  "input_sha256": "da3024d9e4dcbc20fa08e5a08f36b265033428b06e82588e854a49556f01631c",
+  "notebook_sha256": "9b185e3462b4056a459552658bd0a7ad79a2fec7ce2cf156e3ee7656c74fa279",
+  "manifest_sha256": "f6b1334e6c56795a669d14bd6dfd51df69b1fd43fb2dc0f75a5e044025f47768"
+}

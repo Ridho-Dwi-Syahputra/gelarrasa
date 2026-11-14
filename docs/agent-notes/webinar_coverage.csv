@@ -1,0 +1,17 @@
+materi,halaman_pdf,topik,status,bukti_atau_batas
+Materi1,"4-10,19","Identitas, delapan kategori, kualitas dan coverage sumber",diterapkan,"inventaris2400, profil, hash dan tinjauan prediksi dengan provenance"
+Materi1,11-13,"RGB, dtype, resize dan normalisasi",diterapkan,"RGB224, rasio tetap, previewfloat32CHW, pemeriksaan0-1"
+Materi1,"12,20,23",Split sebelum augmentasi dan pencegahan source leakage,diterapkan_sebagai_draft,group split train/validation/internal_holdout; official test terpisah
+Materi1,"13,20","Flip, rotasi, zoom dan pencahayaan ringan",preview_train_saja,"previewtrain, tanpa verticalflip atau augmentasi validation/test"
+Materi1,"14,17-18",HOG dan histogram warna,fitur_diterapkan_classifier_belum,1812fitur;scaler/PCA train-only; SVM/hybrid tahap berikutnya
+Materi1,25,Resolusi160/192/224 dan biaya,diagnostik_diterapkan,SSIMroundtrip dan waktu resize; bukan seleksi berdasarkan Accuracy
+Materi1,"14-16,21","CNN, transfer learning dan fine-tuning",tahap_berikutnya,model lama hanya ditinjau; training baru tidak dijalankan
+Materi1,22-26,"Learning curves, callbacks dan tuning satu faktor",tahap_berikutnya,memerlukan training dan validation; tidak membuat kurva atau skor dummy
+Materi1,27-29,"Accuracy, macro metrics, confusion dan analisis error",sebagian_tinjauan_data,galeri kualitas/multiobjek tersedia; evaluasi kategori independen tahap berikutnya
+Materi1,30,Grad-CAM dan perhatian model terhadap background,tahap_berikutnya,crop sebagai diagnosis input; Grad-CAM belum dihitung
+Materi1,31-35,"PILAH, review dan dampak keberlanjutan",kesiapan_dan_batas_diterapkan,cadangan tinjauan dan metrik proses terukur; dampak fisik belum terukur
+Materi2,"6-9,20-26","Kebutuhan audiens, narasi dan jenis data",diterapkan,alur sumber-transformasi-validasi; manifestCSV dan policyJSON
+Materi2,"12-19,35","Pemilihan grafik, baseline, kontras dan declutter",diterapkan,"histogram/bar/scatter, label/denominator jelas, tanpa3D atau dualaxis"
+Materi2,"24,31-34","Kualitas, ETL, completeness, conformity dan integrity",diterapkan,"decode/hash/coverage, rekonsiliasi counts, RGB224 dan filemanifest"
+Notulensi,1-4,"Baseline-transfer-hybrid, evaluasi dan konsultasi tujuan",diterapkan_sesuai_tahap,EDA/preprocessing sekarang; modeling berikut; tidak mencampurvalidation kefit
+PPTacara,1-81,"Pengantar, jadwal, tata tertib, presensi dan ice breaking",konteks_acara,bukan algoritma atau hasil model yang harus dipaksakan ke dataset

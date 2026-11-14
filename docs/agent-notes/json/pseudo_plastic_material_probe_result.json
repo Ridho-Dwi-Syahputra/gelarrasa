@@ -1,0 +1,17 @@
+{
+  "status": "screen_failed",
+  "auto_positive": 114,
+  "auto_negative": 835,
+  "best": {
+    "bank": "object_YOLO",
+    "model": "linear",
+    "threshold": 0.2,
+    "auc": 0.8620689655172415,
+    "matches": 29,
+    "macro": 0.875,
+    "covered": 3,
+    "correct": 2,
+    "guard": false
+  },
+  "passing": 0
+}

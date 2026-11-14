@@ -13,4 +13,4 @@ Untuk grouping: SHA-256 exact → kandidat perceptual hash (termasuk flip jika r
 
 Train 0848/1717 sudah exact duplicate; ini titik awal, bukan audit lengkap. Simpan pasangan dan bukti tanpa menghapus sumber. Untuk train–test overlap, laporkan coverage; jangan menganggap kedekatan visual sebagai label test atau memakai label sample.
 
-Keluaran: `output/manifests/`, `output/groups/`, serta galeri/laporan di `reports/eda/`. Uji distribusi sumber dan kelas per group sebelum membuat fold. Gunakan [praktik pemisahan sumber](https://pmc.ncbi.nlm.nih.gov/articles/PMC10499856/) sebagai dasar evaluasi.
+Keluaran tabel/hash/kemiripan: `docs/agent-notes/`; gambar dan galeri notebook di `final-submit/reports/`. Uji distribusi sumber dan kelas per group sebelum membuat fold. Gunakan [praktik pemisahan sumber](https://pmc.ncbi.nlm.nih.gov/articles/PMC10499856/) sebagai dasar evaluasi.

@@ -1,0 +1,17 @@
+{
+  "iteration": 5,
+  "fit_rows": 1874,
+  "residual_rows_predicted": 46,
+  "feature": "dinov3_small_train_descriptors",
+  "model": "SVC RBF C=10 gamma=scale",
+  "grouped_cv": "5-fold StratifiedGroupKFold by source_group",
+  "oof_accuracy": 0.9818569903948773,
+  "oof_macro_f1": 0.9820847525550482,
+  "residual_accepted": 2,
+  "residual_withheld": 44,
+  "candidate_pool_after_iteration_05": 1876,
+  "test_rows_processed": 0,
+  "reference_use": "post-prediction accept/reject only; predictions frozen before reference read",
+  "main_notebook_modified": false,
+  "processed_folders_modified": false
+}

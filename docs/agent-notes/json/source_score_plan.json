@@ -1,0 +1,32 @@
+{
+  "method": "train_only_learned_material_score_heads_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows": 0,
+  "features": "numeric12classViTprobabilitiesand28YOLOstatistics;optionalDINOv2BaseCLS;no manualsource-to-targetmapping",
+  "models": "multinomialL2logistic,C=.1/1/10,automaticweight=.02/.2,humanweight1;balancedclassweights",
+  "preprocessing": "StandardScalerfitonlytargetfitfold;L2perfeatureblock;sourcegroupsdisjoint",
+  "selection": "perbank34groupheldoutbalancedrecall;primaryhighest;qualifybanks>=.625andwithin.1ofbest",
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "threshold_selection": "largest34developmentcoverageat>=.9empiricalselectiveprecisionand>=10covered;tiesstricter",
+  "acceptance": "atleast2qualifiedbanksallmeetlearnedthreshold;bothtrain-onlynormalizedimagegraphsagree;humanprotected",
+  "previous_auto_refinements": "minimumprobability>=max(.95,learnedthreshold)",
+  "guard": "primary>=23/34andbalancedrecall>=.725andthresholdexistsand>=2qualifiedbanks",
+  "maximum_changes": 40,
+  "cap": "descending minimum qualified-bank probability,stablekeyorder",
+  "evaluation_limit": "shared34developmentanchors,notindependentfinalAccuracy;graphnotusedincalibrationevaluation",
+  "unselected_review_or_archive_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "1d4dd9c8c0d58d6ad0bd5d7852f3f6d567f6a727095f05f5f1713f4aa38b3948",
+    "data/preprocessing_inputs.npz": "13650e3901f8ee94143b487205a0c8265cedb7d16d10612228e961f8bdc6633a",
+    "final-submit/DSC2026_Notebook.ipynb": "3069e9b8562b775529737e816426147aaa35bbd22e32316e7ba135aa71238990"
+  },
+  "source_code_sha256": "d83e310fc370e7a58459a9b296a0af7f61c8368d508598e7a55366148ad9b4d8"
+}

@@ -1,0 +1,25 @@
+{
+  "method": "fixed_hierarchical_material_routing",
+  "stable_checkpoint": "output/groups/stage12_ontology_refinement_v1/selected_semantic_head.pt",
+  "refinement_checkpoint": "output/groups/stage16_source_consensus_v1/selected_semantic_head.pt",
+  "coarse_checkpoint": "output/groups/stage4_self_training_pilot_v1/selected_fit_head.pt",
+  "refinement_groups": [
+    2,
+    6
+  ],
+  "threshold": 0.6,
+  "minimum_consensus_anchors": 20,
+  "component_sha256": {
+    "output/groups/stage12_ontology_refinement_v1/selected_semantic_head.pt": "e67a3c0a79ff140f9d0700f7036f48fd26b702b949fe68b44b0b0e17d1287fb7",
+    "output/groups/stage16_source_consensus_v1/selected_semantic_head.pt": "6366d8ff5bc471e0f4d22854aa098c90d37b276879213dfbce0f6a4751722f02",
+    "output/groups/stage4_self_training_pilot_v1/selected_fit_head.pt": "b1a91bcd2db1b16e352606fffc37ea20f2e00abd11f4fa146d986a4cfdd0a0f7"
+  },
+  "reference_archive_read": false,
+  "assistant_display_mapping_read": false,
+  "reference_cohort_flag_read": false,
+  "reference_targets_or_filters": false,
+  "researcher_has_seen_previous_private_audits": true,
+  "fit_only_routing_statistics": true,
+  "semantic_accuracy": null,
+  "source_sha256": "fdfa6b5803e6c3c6106a0de1854259e973b7dc75747165f28643d23731c3dfae"
+}

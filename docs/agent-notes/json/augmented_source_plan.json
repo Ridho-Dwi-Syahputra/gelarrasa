@@ -1,0 +1,62 @@
+{
+  "method": "source_invariant_augmented_exemplar_neighbors_v1",
+  "human_sources": 34,
+  "views_per_human_source": 8,
+  "new_manual_labels": 0,
+  "test_rows": 0,
+  "targets": "coldautomaticconsensusplus34existinghuman;notcurrentprogramcategories",
+  "source_vote": "maxortop2meanviewcosineperhumansource;onevoteperuniquesource,not8independentvotes",
+  "folds": "fivegeometrysourcegroupfolds,excludeALLviewsofquerysourcegroup",
+  "pooling": [
+    "original",
+    "max_aug",
+    "top2_aug"
+  ],
+  "core_policies": [
+    "full",
+    "canonical8_per_class"
+  ],
+  "canonical_selection": "fitpartitiononly,highestautomaticvotes,thenclasscentrality;uniquesourcegroups;humanalwaysincluded",
+  "configs": {
+    "neighbors": [
+      3,
+      7,
+      15
+    ],
+    "human_weight": [
+      8.0,
+      32.0
+    ],
+    "temperature": 0.07
+  },
+  "banks": [
+    "dino_global",
+    "dino_regional",
+    "cnn",
+    "dino_cnn"
+  ],
+  "core_filter": "withinfitonly,nearesthumancategorycontradictioncos>=.65andmargin>=.02;humanprotected",
+  "selection": "best34developmentmacrorecallperbank;thenbestindividualorpredefinedprobabilitypool",
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "threshold_selection": "maximum34developmentcoverageat>=.9empiricalprecisionand>=10covered;tiesstricter",
+  "guard": "primary>=24/34andmacro>=.75,orselectiveWilsonrank>=previous15/16rank+.02with>=16coveredandmacro>=.65,>=20matches;thresholdrequired",
+  "acceptance": "learnedprobabilitythresholdandatleast1of3finalTRAINgraphsagree;humanprotected",
+  "maximum_changes": 40,
+  "cap": "descendingneighborprobability,stablekeyorder",
+  "evaluation_limit": "34developmentanchorsreusedformanyconfigurationchoicesandcalibration;notindependentfinalAccuracy;Wilsonrankingnotriskcertificate;graphnotusedforcalibration",
+  "augmentation_feature_sha256": "c2a021d5ce30df31abb3a3827f821cace93fa9406747df0bc4255ba90cbf3414",
+  "private_review_or_archive_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "5a839b4448073de9830d6f5977221a603bbc37a59501654f1e7dc3e12142fd13",
+    "data/preprocessing_inputs.npz": "bb103db50ed000285a16147a346c12fe10a3b79745272db20b254e4a2c744b3e",
+    "final-submit/DSC2026_Notebook.ipynb": "2278c915658dbc8451103f27139bd6923a9f5efd80eb5d34833c05d0089b6757"
+  },
+  "source_code_sha256": "15575aa2e2cc84c837d2e5bd0a09dbfc660387d1405a5fa76e0a885b07854a89"
+}

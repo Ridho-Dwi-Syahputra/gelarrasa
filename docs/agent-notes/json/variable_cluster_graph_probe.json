@@ -1,0 +1,155 @@
+{
+  "status": "exploratory_train_only_group_cv",
+  "method": "DINOv2 cosine kNN graph harmonic label propagation; fold-held source groups absent from graph; queries only infer from fold-fit graph",
+  "rows": 1887,
+  "human_seed_rows": 35,
+  "manual_seed_class_counts": {
+    "cardboard": 5,
+    "electronic": 5,
+    "foodwaste": 2,
+    "glass": 5,
+    "metal": 3,
+    "paper": 5,
+    "plastic": 5,
+    "textile": 5
+  },
+  "test_rows_in_fit": 0,
+  "review_or_archive_labels_read_by_fit": false,
+  "results": [
+    {
+      "k": 5,
+      "alpha": 0.3,
+      "accuracy_all": 0.34285714285714286,
+      "macro_recall_all": 0.33333333333333337,
+      "mean_top_score": 0.03781859949231148,
+      "accuracy_at_score_0_60": 1.0,
+      "coverage_at_score_0_60": 1,
+      "accuracy_at_score_0_75": null,
+      "coverage_at_score_0_75": 0
+    },
+    {
+      "k": 5,
+      "alpha": 0.6,
+      "accuracy_all": 0.3142857142857143,
+      "macro_recall_all": 0.30833333333333335,
+      "mean_top_score": 0.028956018388271332,
+      "accuracy_at_score_0_60": null,
+      "coverage_at_score_0_60": 0,
+      "accuracy_at_score_0_75": null,
+      "coverage_at_score_0_75": 0
+    },
+    {
+      "k": 5,
+      "alpha": 0.9,
+      "accuracy_all": 0.3142857142857143,
+      "macro_recall_all": 0.30833333333333335,
+      "mean_top_score": 0.02091372199356556,
+      "accuracy_at_score_0_60": null,
+      "coverage_at_score_0_60": 0,
+      "accuracy_at_score_0_75": null,
+      "coverage_at_score_0_75": 0
+    },
+    {
+      "k": 10,
+      "alpha": 0.3,
+      "accuracy_all": 0.2857142857142857,
+      "macro_recall_all": 0.2833333333333333,
+      "mean_top_score": 0.040385328233242035,
+      "accuracy_at_score_0_60": null,
+      "coverage_at_score_0_60": 0,
+      "accuracy_at_score_0_75": null,
+      "coverage_at_score_0_75": 0
+    },
+    {
+      "k": 10,
+      "alpha": 0.6,
+      "accuracy_all": 0.2857142857142857,
+      "macro_recall_all": 0.2833333333333333,
+      "mean_top_score": 0.030593981966376305,
+      "accuracy_at_score_0_60": null,
+      "coverage_at_score_0_60": 0,
+      "accuracy_at_score_0_75": null,
+      "coverage_at_score_0_75": 0
+    },
+    {
+      "k": 10,
+      "alpha": 0.9,
+      "accuracy_all": 0.2571428571428571,
+      "macro_recall_all": 0.2583333333333333,
+      "mean_top_score": 0.01956598274409771,
+      "accuracy_at_score_0_60": null,
+      "coverage_at_score_0_60": 0,
+      "accuracy_at_score_0_75": null,
+      "coverage_at_score_0_75": 0
+    },
+    {
+      "k": 20,
+      "alpha": 0.3,
+      "accuracy_all": 0.2857142857142857,
+      "macro_recall_all": 0.2833333333333333,
+      "mean_top_score": 0.03931006044149399,
+      "accuracy_at_score_0_60": null,
+      "coverage_at_score_0_60": 0,
+      "accuracy_at_score_0_75": null,
+      "coverage_at_score_0_75": 0
+    },
+    {
+      "k": 20,
+      "alpha": 0.6,
+      "accuracy_all": 0.2857142857142857,
+      "macro_recall_all": 0.2833333333333333,
+      "mean_top_score": 0.02866072952747345,
+      "accuracy_at_score_0_60": null,
+      "coverage_at_score_0_60": 0,
+      "accuracy_at_score_0_75": null,
+      "coverage_at_score_0_75": 0
+    },
+    {
+      "k": 20,
+      "alpha": 0.9,
+      "accuracy_all": 0.2857142857142857,
+      "macro_recall_all": 0.2833333333333333,
+      "mean_top_score": 0.01479958463460207,
+      "accuracy_at_score_0_60": null,
+      "coverage_at_score_0_60": 0,
+      "accuracy_at_score_0_75": null,
+      "coverage_at_score_0_75": 0
+    },
+    {
+      "k": 40,
+      "alpha": 0.3,
+      "accuracy_all": 0.2857142857142857,
+      "macro_recall_all": 0.2833333333333333,
+      "mean_top_score": 0.03502904623746872,
+      "accuracy_at_score_0_60": null,
+      "coverage_at_score_0_60": 0,
+      "accuracy_at_score_0_75": null,
+      "coverage_at_score_0_75": 0
+    },
+    {
+      "k": 40,
+      "alpha": 0.6,
+      "accuracy_all": 0.2857142857142857,
+      "macro_recall_all": 0.2833333333333333,
+      "mean_top_score": 0.024720579385757446,
+      "accuracy_at_score_0_60": null,
+      "coverage_at_score_0_60": 0,
+      "accuracy_at_score_0_75": null,
+      "coverage_at_score_0_75": 0
+    },
+    {
+      "k": 40,
+      "alpha": 0.9,
+      "accuracy_all": 0.2857142857142857,
+      "macro_recall_all": 0.2833333333333333,
+      "mean_top_score": 0.010948930867016315,
+      "accuracy_at_score_0_60": null,
+      "coverage_at_score_0_60": 0,
+      "accuracy_at_score_0_75": null,
+      "coverage_at_score_0_75": 0
+    }
+  ],
+  "manifest_sha256": "6e780d42c7ef0927e4e234b4704a12867c7c3ffe93117be9e6138cff6511646b",
+  "embedding_cache_sha256": "9bef2d4665eafd0a4b61b72f75d75bc272594f4014d1d01ad901c02661fa9a6d",
+  "seed_file_sha256": "2e0ba2442cbcd64513b1db0449f1fcf171fa8aa01d6c32b75f115ed1541268b9"
+}

@@ -1,0 +1,90 @@
+{
+  "scope": "posthoc baseline parity audit only; this artifact was not used to fit, tune, or select labels",
+  "stage17_train_rows": 1920,
+  "active_fullframe_rows": 1906,
+  "overlap_rows": 1906,
+  "matches": 1679,
+  "differences": 227,
+  "match_fraction": 0.8809024134312696,
+  "eligible_rows": 1879,
+  "eligible_matches": 1666,
+  "eligible_differences": 213,
+  "match_by_active_provenance": {
+    "iterative_program_refinement_snapshot": {
+      "rows": 1570,
+      "matches": 1532,
+      "differences": 38
+    },
+    "augmented_source_prototype_snapshot": {
+      "rows": 34,
+      "matches": 1,
+      "differences": 33
+    },
+    "vit_knn_label_propagation_snapshot": {
+      "rows": 130,
+      "matches": 63,
+      "differences": 67
+    },
+    "stage1_train_only_pseudolabel": {
+      "rows": 7,
+      "matches": 7,
+      "differences": 0
+    },
+    "residual_graph_correction_snapshot": {
+      "rows": 27,
+      "matches": 11,
+      "differences": 16
+    },
+    "train_only_cluster_anchor_1039_v1": {
+      "rows": 51,
+      "matches": 51,
+      "differences": 0
+    },
+    "participant_reviewed_seed": {
+      "rows": 37,
+      "matches": 9,
+      "differences": 28
+    },
+    "geometric_source_group_heldout_vote_v1": {
+      "rows": 1,
+      "matches": 1,
+      "differences": 0
+    },
+    "retired_anchor_holdout": {
+      "rows": 2,
+      "matches": 0,
+      "differences": 2
+    },
+    "human_seed_source_concept_snapshot": {
+      "rows": 6,
+      "matches": 0,
+      "differences": 6
+    },
+    "bounded_anchor_stable_consensus_snapshot": {
+      "rows": 18,
+      "matches": 1,
+      "differences": 17
+    },
+    "bounded_anchor_cluster_consensus_snapshot": {
+      "rows": 7,
+      "matches": 1,
+      "differences": 6
+    },
+    "robust_neural_assignment_snapshot": {
+      "rows": 4,
+      "matches": 2,
+      "differences": 2
+    },
+    "two_view_lighting_ontology_snapshot": {
+      "rows": 12,
+      "matches": 0,
+      "differences": 12
+    }
+  },
+  "source_sha256_verified_for_all_ids": true,
+  "per_id_csv": "stage17_baseline_vs_active_manifest_per_id.csv",
+  "baseline_origin": "historical Stage17 output; not a raw-only Kaggle replay",
+  "source_sha256_comparison": "checked Stage1 source manifest against active processed manifest on all 1,906 shared full-frame IDs",
+  "source_sha256_mismatches": 0,
+  "source_sha256_mismatch_ids": []
+}

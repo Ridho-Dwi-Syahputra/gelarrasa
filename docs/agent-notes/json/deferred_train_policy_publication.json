@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "backup": "docs\\agent-notes\\.runtime\\before_deferred_policy_20261107T085216Z",
+  "deferred_train_keys": [
+    "train:1662",
+    "train:1885"
+  ],
+  "human_training_seed_images": 14,
+  "new_category_assignments_from_deferral": 0,
+  "refinement_fit_repeated": false,
+  "crop_references_exclude_deferred": true,
+  "input_sha256": "b03fedd9166bfa4e4792d5787e3f100f66f479a7c16c943a0779050c82861aec",
+  "notebook_sha256": "5a23f6087671f21c2ba3e54b3632ff906c127df405f7db36aa6d52f3c351396c",
+  "manifest_sha256": "6f932b900598268e22428a72937b9c6f285684b709d357e9b67fee291f95e68e"
+}

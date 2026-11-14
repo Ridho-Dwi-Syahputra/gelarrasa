@@ -1,0 +1,41 @@
+{
+  "operation": "withdraw_entire_pseudo_feedback_batch",
+  "reason": "selectedpseudoanchorbankmorethanhalfonesemanticclass;unlabelledfeedbackconcentration",
+  "current_pool": {
+    "rows": 264,
+    "counts": {
+      "textile": 138,
+      "cardboard": 26,
+      "glass": 25,
+      "paper": 23,
+      "electronic": 21,
+      "plastic": 21,
+      "metal": 6,
+      "foodwaste": 4
+    },
+    "largest_fraction": 0.5227272727272727
+  },
+  "restored_pool": {
+    "rows": 224,
+    "counts": {
+      "textile": 106,
+      "cardboard": 23,
+      "paper": 23,
+      "plastic": 21,
+      "electronic": 21,
+      "glass": 20,
+      "metal": 6,
+      "foodwaste": 4
+    },
+    "largest_fraction": 0.4732142857142857
+  },
+  "limit": 0.5,
+  "decision_inputs": "programorigin,scoresemanticsandclassfrequenciesonly",
+  "private_review_file_read": false,
+  "researcher_has_seen_prior_posthoc_audits": true,
+  "semantic_accuracy_certified": false,
+  "status": "restored_and_hash_verified",
+  "rollback_backup": "docs\\agent-notes\\.runtime\\withdrawn_pseudo_feedback_20261107T173053Z",
+  "restored_notebook_sha256": "323352f3735b843eebb9ce64eccb24d2101cc39617ea8c32aec3defc47832cfa",
+  "restored_manifest_sha256": "6db0e84be90172d67b7c5541e057802e1c9688ba217a405c52540460e96b0f86"
+}

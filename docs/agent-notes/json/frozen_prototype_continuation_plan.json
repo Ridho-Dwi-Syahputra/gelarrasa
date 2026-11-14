@@ -1,0 +1,21 @@
+{
+  "method": "unchanged_frozen_augmented_prototype_batch_continuation_v1",
+  "source_frozen_prefix": "augmented_prototype_consensus",
+  "source_model_sha256": "3e49df9480863807d7ee248dd3d069b4d49c8e82b6ca6e57badeffbcdd143e72",
+  "model_or_threshold_changes": false,
+  "hypothesis": "applyallremainingmodelqualifiedpredictions;firstbatch20capwasoperationalnotlabeldependent",
+  "maximum_changes": 20,
+  "cap": "sameoriginalminimumclassmarginranking",
+  "guard": "samefrozendevelopment27/34,macro.808333333333,7/7covered",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows_in_fit": 0,
+  "private_review_or_archive_read": false,
+  "researcher_seen_prior_audits": true,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "d4e2de47ab836ed81b9f06e04d0a5194f4568260eadbf4909bbe4a7924d16837",
+    "data/preprocessing_inputs.npz": "43a342599b5980f2d532bebec2c549faf90c205ca702c35c72762d3874d7797e",
+    "final-submit/DSC2026_Notebook.ipynb": "d209b99005ef27470e58964ae105b2e9a9532485c29dc9e37d78e8a6b236f4a3"
+  },
+  "source_code_sha256": "cf9f1af9381e53936f9bd3a4d753fed5593c9ce0720cf58bfad2932e299e14be"
+}

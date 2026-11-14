@@ -1,0 +1,9 @@
+,cardboard,electronic,foodwaste,glass,metal,paper,plastic,textile
+cardboard,240,10,10,6,4,22,46,6
+electronic,5,117,8,3,6,2,12,0
+foodwaste,7,9,137,9,4,11,10,11
+glass,10,8,7,59,1,18,11,3
+metal,4,10,1,4,14,3,2,1
+paper,18,4,5,10,1,74,14,14
+plastic,50,35,16,15,9,26,328,42
+textile,4,2,13,1,2,8,5,143

@@ -1,0 +1,415 @@
+{
+  "model": "DINOv3 global OVR + nested grouped-OOF pairwise SVM specialists",
+  "train_rows": 1887,
+  "test_rows_in_fit": 0,
+  "test_rows_inference": 480,
+  "top_pairs": [
+    [
+      "glass",
+      "plastic"
+    ],
+    [
+      "glass",
+      "cardboard"
+    ]
+  ],
+  "full_train_oof_pair_ranking": [
+    {
+      "confusions": 24,
+      "left": "glass",
+      "right": "plastic"
+    },
+    {
+      "confusions": 9,
+      "left": "glass",
+      "right": "cardboard"
+    },
+    {
+      "confusions": 8,
+      "left": "paper",
+      "right": "cardboard"
+    },
+    {
+      "confusions": 6,
+      "left": "metal",
+      "right": "plastic"
+    },
+    {
+      "confusions": 5,
+      "left": "electronic",
+      "right": "textile"
+    },
+    {
+      "confusions": 5,
+      "left": "plastic",
+      "right": "cardboard"
+    },
+    {
+      "confusions": 4,
+      "left": "glass",
+      "right": "electronic"
+    },
+    {
+      "confusions": 4,
+      "left": "paper",
+      "right": "plastic"
+    },
+    {
+      "confusions": 4,
+      "left": "paper",
+      "right": "textile"
+    },
+    {
+      "confusions": 4,
+      "left": "electronic",
+      "right": "metal"
+    },
+    {
+      "confusions": 3,
+      "left": "metal",
+      "right": "textile"
+    },
+    {
+      "confusions": 3,
+      "left": "plastic",
+      "right": "foodwaste"
+    },
+    {
+      "confusions": 3,
+      "left": "textile",
+      "right": "foodwaste"
+    },
+    {
+      "confusions": 2,
+      "left": "glass",
+      "right": "paper"
+    },
+    {
+      "confusions": 1,
+      "left": "paper",
+      "right": "metal"
+    },
+    {
+      "confusions": 1,
+      "left": "paper",
+      "right": "foodwaste"
+    },
+    {
+      "confusions": 1,
+      "left": "electronic",
+      "right": "plastic"
+    },
+    {
+      "confusions": 1,
+      "left": "cardboard",
+      "right": "textile"
+    }
+  ],
+  "nested_pair_selection_by_outer_fold": [
+    {
+      "outer_fold": 1,
+      "selected_pairs": [
+        [
+          "glass",
+          "plastic"
+        ],
+        [
+          "paper",
+          "cardboard"
+        ]
+      ],
+      "ranked_confusions": [
+        {
+          "count": 19,
+          "left": "glass",
+          "right": "plastic"
+        },
+        {
+          "count": 12,
+          "left": "paper",
+          "right": "cardboard"
+        },
+        {
+          "count": 9,
+          "left": "electronic",
+          "right": "textile"
+        },
+        {
+          "count": 7,
+          "left": "plastic",
+          "right": "cardboard"
+        },
+        {
+          "count": 5,
+          "left": "metal",
+          "right": "plastic"
+        },
+        {
+          "count": 4,
+          "left": "glass",
+          "right": "cardboard"
+        },
+        {
+          "count": 4,
+          "left": "paper",
+          "right": "plastic"
+        },
+        {
+          "count": 4,
+          "left": "plastic",
+          "right": "foodwaste"
+        }
+      ]
+    },
+    {
+      "outer_fold": 2,
+      "selected_pairs": [
+        [
+          "glass",
+          "plastic"
+        ],
+        [
+          "paper",
+          "cardboard"
+        ]
+      ],
+      "ranked_confusions": [
+        {
+          "count": 18,
+          "left": "glass",
+          "right": "plastic"
+        },
+        {
+          "count": 12,
+          "left": "paper",
+          "right": "cardboard"
+        },
+        {
+          "count": 8,
+          "left": "glass",
+          "right": "cardboard"
+        },
+        {
+          "count": 7,
+          "left": "electronic",
+          "right": "textile"
+        },
+        {
+          "count": 6,
+          "left": "plastic",
+          "right": "cardboard"
+        },
+        {
+          "count": 4,
+          "left": "paper",
+          "right": "plastic"
+        },
+        {
+          "count": 4,
+          "left": "metal",
+          "right": "plastic"
+        },
+        {
+          "count": 3,
+          "left": "paper",
+          "right": "metal"
+        }
+      ]
+    },
+    {
+      "outer_fold": 3,
+      "selected_pairs": [
+        [
+          "glass",
+          "plastic"
+        ],
+        [
+          "paper",
+          "cardboard"
+        ]
+      ],
+      "ranked_confusions": [
+        {
+          "count": 24,
+          "left": "glass",
+          "right": "plastic"
+        },
+        {
+          "count": 8,
+          "left": "paper",
+          "right": "cardboard"
+        },
+        {
+          "count": 7,
+          "left": "electronic",
+          "right": "textile"
+        },
+        {
+          "count": 7,
+          "left": "plastic",
+          "right": "cardboard"
+        },
+        {
+          "count": 6,
+          "left": "glass",
+          "right": "cardboard"
+        },
+        {
+          "count": 6,
+          "left": "electronic",
+          "right": "metal"
+        },
+        {
+          "count": 5,
+          "left": "metal",
+          "right": "plastic"
+        },
+        {
+          "count": 4,
+          "left": "paper",
+          "right": "plastic"
+        }
+      ]
+    },
+    {
+      "outer_fold": 4,
+      "selected_pairs": [
+        [
+          "glass",
+          "plastic"
+        ],
+        [
+          "glass",
+          "cardboard"
+        ]
+      ],
+      "ranked_confusions": [
+        {
+          "count": 23,
+          "left": "glass",
+          "right": "plastic"
+        },
+        {
+          "count": 6,
+          "left": "glass",
+          "right": "cardboard"
+        },
+        {
+          "count": 6,
+          "left": "paper",
+          "right": "cardboard"
+        },
+        {
+          "count": 6,
+          "left": "plastic",
+          "right": "cardboard"
+        },
+        {
+          "count": 4,
+          "left": "paper",
+          "right": "plastic"
+        },
+        {
+          "count": 4,
+          "left": "electronic",
+          "right": "metal"
+        },
+        {
+          "count": 4,
+          "left": "electronic",
+          "right": "textile"
+        },
+        {
+          "count": 4,
+          "left": "metal",
+          "right": "plastic"
+        }
+      ]
+    },
+    {
+      "outer_fold": 5,
+      "selected_pairs": [
+        [
+          "glass",
+          "plastic"
+        ],
+        [
+          "plastic",
+          "cardboard"
+        ]
+      ],
+      "ranked_confusions": [
+        {
+          "count": 24,
+          "left": "glass",
+          "right": "plastic"
+        },
+        {
+          "count": 12,
+          "left": "plastic",
+          "right": "cardboard"
+        },
+        {
+          "count": 10,
+          "left": "paper",
+          "right": "cardboard"
+        },
+        {
+          "count": 7,
+          "left": "glass",
+          "right": "cardboard"
+        },
+        {
+          "count": 7,
+          "left": "electronic",
+          "right": "textile"
+        },
+        {
+          "count": 5,
+          "left": "paper",
+          "right": "plastic"
+        },
+        {
+          "count": 3,
+          "left": "glass",
+          "right": "electronic"
+        },
+        {
+          "count": 3,
+          "left": "electronic",
+          "right": "metal"
+        }
+      ]
+    }
+  ],
+  "blend_weights_selected_inside_outer_train": [
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "final_blend_weight": 0.25,
+  "nested_metrics": {
+    "pairwise_specialist": {
+      "agreement": 0.9512453630100689,
+      "balanced_accuracy": 0.9513927964919712,
+      "macro_f1": 0.9519944746426079
+    },
+    "paired_base_ovr": {
+      "agreement": 0.9491255961844197,
+      "balanced_accuracy": 0.9495518973287342,
+      "macro_f1": 0.9498198526516655
+    }
+  },
+  "oof_rows_changed_vs_base": 16,
+  "test_prediction_rows_changed_vs_008": 10,
+  "duplicate_submission_suppressed": false,
+  "submission_path": "final-submit/output/submission_010_dinov3_pairwise_experts.csv",
+  "submission_sha256": "72c7bb8f3124df0af258a174f7c3ad4860ebc93b0cb4f046653a29af6d5f3478",
+  "oof_path": "final-submit/output/pairwise_expert_oof.csv",
+  "oof_sha256": "03c910459a54f1d0e50372a4f37e876634a06c081603ceced4286478a070a6a6",
+  "official_accuracy": null,
+  "test_used_for_fit_or_selection": false,
+  "interpretation": "OOF measures agreement with derived train labels, not official semantic accuracy."
+}

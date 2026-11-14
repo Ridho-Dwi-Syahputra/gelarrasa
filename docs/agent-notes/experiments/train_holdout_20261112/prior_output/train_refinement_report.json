@@ -1,0 +1,165 @@
+{
+  "model": "DINOv3 OVR SVM trained on train-only OOF SVM+kNN consensus refinements",
+  "input_train_rows": 1887,
+  "test_rows_in_fit": 0,
+  "test_rows_inference": 480,
+  "participant_confirmed_locked_ids": [
+    "0260",
+    "0267",
+    "0352",
+    "0396",
+    "0429",
+    "0512",
+    "0531",
+    "0536",
+    "1215"
+  ],
+  "human_reviewed_rows_locked": 35,
+  "relabel_rule": {
+    "svm_and_knn_agree_on_alternative": true,
+    "knn_support_min": 0.8,
+    "svm_margin_min": 0.1,
+    "k": 5,
+    "temperature": 0.05
+  },
+  "outer_recipes": [
+    {
+      "outer_fold": 1,
+      "training_rows": 1503,
+      "relabels": 22,
+      "validation_rows": 384
+    },
+    {
+      "outer_fold": 2,
+      "training_rows": 1506,
+      "relabels": 20,
+      "validation_rows": 381
+    },
+    {
+      "outer_fold": 3,
+      "training_rows": 1512,
+      "relabels": 24,
+      "validation_rows": 375
+    },
+    {
+      "outer_fold": 4,
+      "training_rows": 1515,
+      "relabels": 23,
+      "validation_rows": 372
+    },
+    {
+      "outer_fold": 5,
+      "training_rows": 1512,
+      "relabels": 25,
+      "validation_rows": 375
+    }
+  ],
+  "final_proposed_relabels": 25,
+  "final_label_transition_counts": [
+    {
+      "assigned_class": "cardboard",
+      "proposed_class": "plastic",
+      "count": 1
+    },
+    {
+      "assigned_class": "electronic",
+      "proposed_class": "metal",
+      "count": 2
+    },
+    {
+      "assigned_class": "electronic",
+      "proposed_class": "plastic",
+      "count": 1
+    },
+    {
+      "assigned_class": "electronic",
+      "proposed_class": "textile",
+      "count": 2
+    },
+    {
+      "assigned_class": "foodwaste",
+      "proposed_class": "plastic",
+      "count": 1
+    },
+    {
+      "assigned_class": "glass",
+      "proposed_class": "plastic",
+      "count": 6
+    },
+    {
+      "assigned_class": "metal",
+      "proposed_class": "electronic",
+      "count": 1
+    },
+    {
+      "assigned_class": "metal",
+      "proposed_class": "textile",
+      "count": 1
+    },
+    {
+      "assigned_class": "paper",
+      "proposed_class": "cardboard",
+      "count": 2
+    },
+    {
+      "assigned_class": "paper",
+      "proposed_class": "textile",
+      "count": 1
+    },
+    {
+      "assigned_class": "plastic",
+      "proposed_class": "cardboard",
+      "count": 1
+    },
+    {
+      "assigned_class": "textile",
+      "proposed_class": "cardboard",
+      "count": 1
+    },
+    {
+      "assigned_class": "textile",
+      "proposed_class": "electronic",
+      "count": 1
+    },
+    {
+      "assigned_class": "textile",
+      "proposed_class": "foodwaste",
+      "count": 2
+    },
+    {
+      "assigned_class": "textile",
+      "proposed_class": "metal",
+      "count": 1
+    },
+    {
+      "assigned_class": "textile",
+      "proposed_class": "paper",
+      "count": 1
+    }
+  ],
+  "nested_metrics": {
+    "refined_train_targets": {
+      "agreement": 0.9459459459459459,
+      "balanced_accuracy": 0.9463419786387454,
+      "macro_f1": 0.9463454011436524
+    },
+    "original_train_targets": {
+      "agreement": 0.949655537890832,
+      "balanced_accuracy": 0.950219994964811,
+      "macro_f1": 0.950208937808424
+    }
+  },
+  "oof_rows_changed_by_refined_model": 22,
+  "test_rows_changed_vs_008": 3,
+  "paired_oof_not_degraded": false,
+  "proposal_table": "final-submit/output/train_label_refinement_proposals.csv",
+  "proposal_sha256": "f88a9fc2d9c10b5d8ad16b94cbbca2691e21f7d40e5afb8fb9001a94c1918155",
+  "transition_table": "final-submit/output/train_label_refinement_counts.csv",
+  "oof_path": "final-submit/output/train_refinement_oof.csv",
+  "candidate_submission_path": null,
+  "candidate_sha256": null,
+  "official_accuracy": null,
+  "test_used_for_fit_or_selection": false,
+  "reference_submission_used": false,
+  "interpretation": "OOF metrics compare against derived original train categories, not independent semantic truth."
+}

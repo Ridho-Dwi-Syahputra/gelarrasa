@@ -1,0 +1,30 @@
+{
+  "status": "frozen_before_posthoc_audit",
+  "winner": {
+    "diagonal": 2.0,
+    "human_weight": 50.0,
+    "threshold": 0.5,
+    "matches": 11,
+    "macro_recall": 0.3458333333333333,
+    "max_iterations": 54
+  },
+  "human_sources": 35,
+  "development_guard_passed": false,
+  "proposed_changes": 0,
+  "source_output_sha256": {
+    "arsip\\sebelum_rapi_20261107\\output\\groups\\stage6_material_resolution_calibrated_v2\\named_probabilities.npz": "838109931395f66a20a7ec7fc47198bf3ec2e6179eed8f984c5cceeef9846e4e",
+    "arsip\\sebelum_rapi_20261107\\output\\embeddings\\stage7_waste_cnn_v1\\original224.npz": "9cb194aad1e56fbd7e854cce928b67a212448b26c330a51d88aa022819ca8ffc",
+    "arsip\\sebelum_rapi_20261107\\output\\embeddings\\stage14_second_waste_cnn_v1\\original224.npz": "b959f9f09a2616828daed77690835f495af66a317e4bcc264d44398b9b7a1d52",
+    "arsip\\sebelum_rapi_20261107\\output\\embeddings\\stage11_ontology_cnn_v1\\original224.npz": "a6e82d10a55c17c6874128a17e215a727aae28c54e7af467f719b93806771eb8"
+  },
+  "candidate_sha256": "08ff65c7ac35e681fb5ef6bc9e349a1b726dda3064231e49f78af961aac2fed3",
+  "test_rows_in_fit": 0,
+  "archive_labels_read_by_experiment": false,
+  "active_outputs_modified": false,
+  "semantic_accuracy": null,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "0d80fe43e063b798ceee2c49031331e98db747b842aef0e32cc524348d0cb960",
+    "data/preprocessing_inputs.npz": "4feca4421e820c7a847c47e7253ff8341dc6a816b3a619bcaa03cfcf889f1646",
+    "final-submit/DSC2026_Notebook.ipynb": "b9244d90d5e7a8ca24ac28e13c7a1827453d535a25163bda5cfcad6e2829783f"
+  }
+}

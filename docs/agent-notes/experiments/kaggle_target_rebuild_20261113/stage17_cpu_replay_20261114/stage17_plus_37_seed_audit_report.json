@@ -1,0 +1,30 @@
+{
+  "scope": "audit overlay only; not used for fitting, model selection, or automatic predictions",
+  "raw_train_rows": 1920,
+  "seed_ids_applied": 37,
+  "seed_overlay_changed_stage17_predictions": 25,
+  "stage17_class_counts": {
+    "glass": 207,
+    "paper": 277,
+    "electronic": 156,
+    "metal": 259,
+    "plastic": 266,
+    "cardboard": 253,
+    "textile": 242,
+    "foodwaste": 260
+  },
+  "stage17_plus_seed_audit_class_counts": {
+    "glass": 208,
+    "paper": 270,
+    "electronic": 161,
+    "metal": 255,
+    "plastic": 266,
+    "cardboard": 255,
+    "textile": 243,
+    "foodwaste": 262
+  },
+  "active_manifest_loaded": false,
+  "active_manifest_agreement_computed": false,
+  "test_images_processed": 0,
+  "source_fingerprint": "189135ec1e60a2907062d5b454da655d1bfd4157612f4c592e60e2867d39affa"
+}

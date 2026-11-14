@@ -1,0 +1,12 @@
+{
+  "method": "task8_high_confidence_hflip_gate_v1",
+  "scope": "posthoc archive agreement only",
+  "rows": 1906,
+  "baseline_differences": 174,
+  "candidate_differences": 223,
+  "old_disagreements_resolved": 23,
+  "new_disagreements": 72,
+  "manual_labels_consumed": 0,
+  "rule_frozen_before_reference_audit": true,
+  "active_data_modified": false
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "train_rows": 1904,
+  "test_rows": 0,
+  "focused_rows": 1122,
+  "feature_sha256": "fa928bc82eb354e5fa5be783bd51064529e0e1d3a0ad4f8a5d0eabaf947e8b19",
+  "seconds": 687.4350428581238,
+  "source_code_sha256": "040d77590a8a2a20c114422d7df59c0efd0e8623f55ea6fecca29e92eb10fb7d"
+}

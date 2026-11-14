@@ -1,0 +1,103 @@
+{
+  "method": "genuine_source_material_group_SVM_specialists_v1",
+  "human_sources": 34,
+  "new_manual_labels": 0,
+  "test_rows": 0,
+  "specialist_targets": "ONLYmanual_seeds34,max5perclass;noautomaticlabelsandnoarchivelabels",
+  "groups": [
+    [
+      "paper",
+      "plastic",
+      "cardboard"
+    ],
+    [
+      "paper",
+      "plastic"
+    ],
+    [
+      "paper",
+      "cardboard"
+    ],
+    [
+      "glass",
+      "plastic"
+    ],
+    [
+      "metal",
+      "electronic"
+    ],
+    [
+      "paper",
+      "textile"
+    ]
+  ],
+  "folds": "samefivegeometrysourcegroups;ALLaugmentedviewsofquerysourceexcluded",
+  "banks": [
+    "dino_global",
+    "dino_regional",
+    "cnn",
+    "dino_cnn",
+    "material_hybrid",
+    "physical_scores"
+  ],
+  "views": [
+    "original",
+    "augmented8whereavailable"
+  ],
+  "source_weight": "1/numberofviews;oneuniquehumansourceisnot8independentlabels",
+  "SVM_configs": [
+    {
+      "kernel": "linear",
+      "gamma": null,
+      "C": 1.0
+    },
+    {
+      "kernel": "linear",
+      "gamma": null,
+      "C": 10.0
+    },
+    {
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 1.0
+    },
+    {
+      "kernel": "rbf",
+      "gamma": 4.0,
+      "C": 10.0
+    }
+  ],
+  "decision_probability": "softmaxovrscores/.5,uncalibrated;binaryscores[-margin,+margin]",
+  "branch_thresholds": [
+    0.55,
+    0.65,
+    0.75,
+    0.85,
+    0.95
+  ],
+  "branch_qualification": "groupCVmacro>=.8;thresholdcovers>=halfgroupand>=1sourceeachclass,coveredprecision>=.9;whole34nondecrease",
+  "selection": "pergroupbestwhole34macro,thenmatches,thenhigherthreshold;greedyatmost3brancheswithstrictwhole34improvement",
+  "routing": "onlyifORIGINALbaseargmaxingroup;replacecurrentgroupmasswithspecialistconditionalprobabilities;nevercascadeactivationfromnewclass",
+  "base": "previousgroupedmultifamily24/34probabilities,notcurrentprogramcategories",
+  "threshold_grid": [
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.98,
+    0.995
+  ],
+  "threshold_selection": "maximum34developmentcoverageat>=.9empiricalprecisionand>=10covered;tiesstricter",
+  "guard": ">=25/34andmacro>.75+1e-12,thresholdexistsand>=1strictlyimprovingbranch",
+  "acceptance": "learnedthresholdandatleast1of3finalTRAINgraphsagree;humanprotected",
+  "maximum_changes": 40,
+  "cap": "descendingcascadedprobability,stablekeyorder",
+  "evaluation_limit": "repeated34developmentselection,notindependentfinalAccuracy;groupedfitdoesnotmakepostselectionunbiased;graphnotusedincalibration",
+  "private_review_or_archive_read": false,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "6db0e84be90172d67b7c5541e057802e1c9688ba217a405c52540460e96b0f86",
+    "data/preprocessing_inputs.npz": "6ad17a7cc1d3dc07e39804388b0b9c08ffb7d76d1f47766119af16493924124c",
+    "final-submit/DSC2026_Notebook.ipynb": "323352f3735b843eebb9ce64eccb24d2101cc39617ea8c32aec3defc47832cfa"
+  },
+  "source_code_sha256": "567594d1273573f6979e1ad512c67f785f62265d72789c14b934c42eff653712"
+}

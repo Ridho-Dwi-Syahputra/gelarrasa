@@ -1,0 +1,18 @@
+{
+  "selection": "new independent eight-class CNN semantic agreement .6 + old independent-source anchor agreement .2 + OOF flip .2",
+  "new_teacher_filter": "original confidence>=.95, margin>=.5; baseline agrees OR additional horizontal-view class/probability check passed",
+  "manual_labels_consumed": 0,
+  "test_rows_in_fit": 0,
+  "minimum_teacher_examples_per_class": 10,
+  "minimum_predictions_per_class": 5,
+  "candidate_outputs": "previously frozen OOF matrices; no fitting on new teacher labels during selection",
+  "selected_output_is_oof_not_in_sample_refit": true,
+  "reference_archive_read": false,
+  "researcher_has_seen_prior_private_audits": true,
+  "semantic_accuracy": null,
+  "protected_sha256": {
+    "data/processed/manifest.csv": "28d926592d6819af4e25b8727f8a641f12ccd47718546da3ee02cff35159e96c",
+    "data/preprocessing_inputs.npz": "5fb0e848c970d0955204864069f09332aba8fbcaf82fc9127550851baebbe8e5",
+    "final-submit/DSC2026_Notebook.ipynb": "20416ab9d262f2a94756825d812dd9f37e7f0fb374c99805db6ed68688d84c62"
+  }
+}

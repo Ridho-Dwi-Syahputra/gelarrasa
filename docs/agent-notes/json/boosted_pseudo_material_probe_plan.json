@@ -1,0 +1,18 @@
+{
+  "method": "group_heldout_nonlinear_pseudo_material_classifier_v1",
+  "targets": "pre-human automatic consensus anchors; 34 genuine manual seeds override own auto label",
+  "test_rows": 0,
+  "review_archive_used": false,
+  "manual_unique_sources": 34,
+  "banks": [
+    "DINOv3CLS",
+    "DINOv3CLS+ConvNeXt",
+    "DINOv3ObjectMean"
+  ],
+  "transform": "PCA32 fit only nonquery TRAIN + frozen YOLO 28 object statistics; no query in scaler",
+  "classifier": "HistGradientBoosting max_iter120 max_leaf_nodes15 min_samples_leaf20 l2=1 learning_rate.06 random_state20261108",
+  "weights": "automatic source vote count/4 floor.25; human8",
+  "fold": "5 geometry groups; automatic pseudo sources in validation group excluded",
+  "screen": "all34 OOF >=30 correct and macro>=.9, plastic recall>=.8",
+  "limitation": "automatic categories noisy, 34 already reused for development, no independent semantic accuracy"
+}

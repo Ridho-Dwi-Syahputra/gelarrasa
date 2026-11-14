@@ -1,0 +1,15 @@
+{
+  "status": "diagnostic_only",
+  "best": {
+    "leaf": 5,
+    "threshold": 0.4,
+    "auc": 0.8551724137931034,
+    "matches": 29,
+    "macro": 0.875,
+    "routed": 3,
+    "correct_routes": 2,
+    "guard": false
+  },
+  "passing": 0,
+  "seconds": 11.5
+}

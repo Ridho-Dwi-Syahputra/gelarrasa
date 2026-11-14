@@ -1,0 +1,28 @@
+{
+  "status": "rolled_back",
+  "backup": "docs\\agent-notes\\.runtime\\before_bounded_anchor_20261108T115940Z",
+  "candidate_sha256": "e6307bf05d971e51f98c579161bef2e6abba38bd4340ba56e13361453f52057b",
+  "manual_unique_source_images": 34,
+  "manual_class_counts": {
+    "plastic": 5,
+    "paper": 5,
+    "electronic": 5,
+    "glass": 5,
+    "textile": 5,
+    "cardboard": 5,
+    "metal": 3,
+    "foodwaste": 1
+  },
+  "changed_full_frame_categories": 39,
+  "cumulative_changes_vs_initial_program": 240,
+  "source_frozen_prefix": "pairwise_detector_consensus",
+  "reference_categories_updated": 36,
+  "test_snapshot_unchanged": true,
+  "raw_sources_unchanged": true,
+  "original_active_sha256": {
+    "data/processed/manifest.csv": "13289e5991b6324d1737cadb85375e291c118311653d6f4417bc5ecc3ed19035",
+    "data/preprocessing_inputs.npz": "791996fdec9749f7dbe40ea105ffd346c24a1f3b98379e3b11d081e55ab7fe7d",
+    "final-submit/DSC2026_Notebook.ipynb": "f2f56da23f21f859653f8092422be989651c59fb15e4bf9cba4585bbed447639"
+  },
+  "error": "CalledProcessError(1, ['D:\\\\lomba\\\\NSC UB\\\\GELAR-RASA\\\\.venv\\\\Scripts\\\\python.exe', 'D:\\\\lomba\\\\NSC UB\\\\GELAR-RASA\\\\docs\\\\skills\\\\tools\\\\validate_collection.py', '--verify-images'])"
+}

@@ -1,0 +1,17 @@
+{
+  "roots": [
+    "electric_lamp.n.01",
+    "fluorescent_lamp.n.01",
+    "sodium-vapor_lamp.n.01",
+    "neon_lamp.n.01",
+    "light-emitting_diode.n.01"
+  ],
+  "generic_shape_fallback": "bulb.n.04 is shape only, never itself an electrical label",
+  "gate": "top1 electrical-lighting descendant OR generic bulb shape top1 and at least2 specific lighting descendants in top5",
+  "horizontal_flip_same_gate_required": true,
+  "scope": "all working full-frame train; no supplied ID targeting",
+  "human_labels_used": 0,
+  "test_images_processed": 0,
+  "review_labels_used": false,
+  "active_data_modified": false
+}

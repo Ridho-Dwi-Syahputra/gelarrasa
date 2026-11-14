@@ -1,0 +1,23 @@
+{
+  "method": "development_selected_focus_ViT_kNN_with_multibank_propagation_v1",
+  "selection": "highest per-family34anchor balanced recall; not mean of poorly-performing probability banks",
+  "primary_head": {
+    "bank": "focus_dino",
+    "neighbors": 7,
+    "human_weight": 8.0,
+    "development_balanced_recall": 0.6083333333333333
+  },
+  "primary_anchor_matches": 19,
+  "development_rows": 34,
+  "feature_mode": "focus",
+  "minimum_anchor_matches": 19,
+  "minimum_development_balanced_recall": 0.6083333333333333,
+  "acceptance": "primary category agrees with>=3/4kNNbanks,>=2/3graphs and>=2localitybanks; protect allpreviousrefinements;primarydevelopment>=19/34andbalancedrecall>=0.6083333333333333;<=50changes",
+  "private_review_or_archive_labels_read": false,
+  "new_manual_targets": 0,
+  "test_rows_in_fit": 0,
+  "evaluation_limit": "19/34 is selected primary kNN development,not graph Accuracy or independent final evaluation",
+  "source_vote_prediction_sha256": "39ca1fc74bfc9f2a964844b4441bd0f9aba3b6e0b748bff225355c76370ce339",
+  "source_frozen_plan_sha256": "cf3e76a1eb40b428a809697976bdd76e152cd4d46ca3646db31da3dddc52a35f",
+  "source_code_sha256": "dbceee7d3ac8e4cdcde37392088f61741b40a550a1091bccfb1e1d9451d0f42b"
+}

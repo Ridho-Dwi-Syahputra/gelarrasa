@@ -1,0 +1,19 @@
+{
+  "status": "frozen_before_archive_audit",
+  "method": "fixed high-consensus gated refinement",
+  "rows": 1906,
+  "automatic_changes": 0,
+  "manual_labels_consumed": 0,
+  "class_counts": {
+    "plastic": 275,
+    "foodwaste": 266,
+    "metal": 250,
+    "paper": 243,
+    "cardboard": 242,
+    "textile": 225,
+    "glass": 204,
+    "electronic": 201
+  },
+  "prediction_sha256": "f6b5bdaf29c31159f91efebfe87057f89619d6fdc7530f8b1033d380a28f1221",
+  "active_data_modified": false
+}
